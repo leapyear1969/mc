@@ -11629,52 +11629,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Managers will soon be able to export the default sections from the <b>Executive Summary</b> <b>report </b>in Viva Glint directly into <b>editable PowerPoint slides</b>. This enhancement makes it easier and faster to share and customize reports outside Viva Glint compared to the previous method, which relied on static screenshots.</p>\n<p>With this release, the new editable PowerPoint export feature will be available for <b>Executive Summary reports</b>, complementing the Team Summary report export capability introduced earlier.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499661\" target=\"_blank\">499661</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Worldwide):</b> Rollout will begin in mid-January 2026 (previously&nbsp;early January)&nbsp;and is expected to complete by mid-January 2026 (previously&nbsp;early January).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Managers and users who access Viva Glint Executive Summary report.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li><b>Native PowerPoint output:</b> Executive Summary reports can now be exported as editable PowerPoint slides, allowing users to leverage built-in formatting and editing tools without needing to manipulate static images.</li>\n<li><b>Cleaner, customizable presentations:</b> The new format improves layout and reduces whitespace, helping users create polished presentations more efficiently.</li>\n<li><b>Faster, more reliable export experience:</b> The export process has been optimized for performance, reducing time-outs and improving reliability—especially for large reports with filters and visuals.</li>\n<li><b>Previous option remains available:</b> The screenshot-based export option remains available for users who require custom PowerPoint template support, which is not yet supported in the new export feature.</li>\n</ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No admin action is required; the feature is on by default.</li>\n<li>Communicate this change to managers and report consumers who use Viva Glint.</li>\n<li>Update internal documentation if you reference report export options.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/glint/reports/export-to-ppt#how-to-export-report-to-powerpoint\" target=\"_blank\">How to Export Report to PowerPoint</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "499661"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Managers can soon export Viva Glint Executive Summary reports as editable PowerPoint slides, enabling easier customization and faster sharing. The rollout starts mid-January 2026. The previous screenshot export remains available. No admin action is needed; users should be informed and documentation updated accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1194612",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-05T23:06:48.223Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-12T01:02:28Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Viva - Viva Glint: Export Executive Summary report in Viva Glint to editable PowerPoint slides",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p></p><p></p><p>Updated January 5, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p><p>As part of our ongoing efforts to simplify and modernize the Viva Connections experience, we will retire the <b>Assignments and Courses adaptive card extensions (ACEs)</b> for Education customers. ACEs are modular components built using the SharePoint Framework (SPFx) that allow developers to create rich, interactive dashboard cards in Viva Connections. These cards surface data and actions from Microsoft 365 services or custom sources, helping users engage with content directly from their dashboard. The equivalent SharePoint dashboard webparts will also be retired. This change is intended to streamline the experience and reduce redundancy across platforms.</p><p><b>\n<b>When this will happen:</b></b></p><ul>\n<li>Existing components will reach end of support on <b>June 30, 2026</b>.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b><p></p><p></p><ul><li><b>Who is affected:</b> Education tenants using Viva Connections and SharePoint dashboard webparts for Assignments and Courses.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Users and admins will no longer be able to access Assignments and Courses ACE cards in Viva Connections.</li>\n    <li>Equivalent SharePoint dashboard webparts will also be inaccessible.</li>\n    <li>No reporting is available to identify which users are currently using these components.</li>\n  </ul>\n</li>\n</ul>\n\n<b>What you can do to prepare:</b><p></p><p></p><ul><li>No admin action is required.</li>\n<li>Please notify your users about this change.</li>\n<li>Update any internal documentation that references these components.</li>\n<li>Share alternate capabilities with your users, if applicable.</li>\n</ul>\n<p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -13776,53 +13730,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated December 10, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We are introducing three new ways to simplify how Admins manage <b>People Skills</b>:</p>\n<ol>\n<li><b>Admin control:</b> Turn off <b>People Skills user experiences</b></li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ceb56457-7f7e-4367-a5d5-3abb21a1edf1\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li><b>Feature access management:</b> Configure <b>People Skills</b> settings in the Microsoft 365 Admin Center</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/68608730-52c2-4d7b-a705-f00d2fba0d1d\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li><b>Ability to import custom skills library:</b> <b>Upload </b>from your local device</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/77bc9fbe-802a-46ca-a17b-785272d8496a\" style=\"width: 400px;\" alt=\"user settings\"></p></ol><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=529865\" target=\"_blank\">529865</a>.</p><ul>\n</ul>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): We will begin rolling out mid-December 2025 and expect to complete by mid-January 2026 (previously mid-December 2025).</p>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b> Admins managing People Skills in Microsoft 365.</p>\n<p><b>What will happen:</b></p>\n<ul>\n</ul><p><b>Admin control to turn off People Skills user experiences:&nbsp;</b></p><p>As an Admin, you can use the Turn off People Skills user experiences control to manage how People Skills appears across your organization. This control lets you:</p><ul>\n<ul>\n</ul><li>Disable People Skills user experiences for your entire organization, user group subsets, or individual users.</li><li>Pilot People Skills to a small group of users in your organization before rolling it out broadly.</li></ul><p></p><ul></ul><p></p><p>When People Skills is turned off for a user, all People Skills user experiences will be removed for that user. Refer to <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear\" target=\"_blank\" style=\"font-family: sans-serif; background-color: rgb(255, 255, 255);\">Where does People Skills data appear?</a> for a list of applications that use People Skills data and will be impacted by this Admin Control.</p><p><b></b></p><p><b>Why use this new admin control?</b></p><ul>\n<ul>\n</ul><li><b>Privacy and compliance:</b> Organizations in regulated industries or Workers Council regions may need to prevent skills data from appearing on user profiles for certain users or groups. Such organizations may use this new Admin Control to turn off People Skills for a specific geographic region (e.g., Germany) who may have Workers Council requirements to limit exposure of People Skills data for impacted users.</li><li><b>Pilot control:</b> Deploy People Skills to a limited audience scope before full rollout.</li><li><b>Deployment flexibility:</b> Limit skills exposure during testing or phased deployment.</li><ul>\n\n</ul><ul>\n</ul>\n\n</ul><p><b>Feature access management interface for People Skills settings:&nbsp;</b></p><p>You can configure People Skills directly in the Microsoft Admin Center using Feature access management—no need to rely on PowerShell commands anymore. This will make configuration of People Skills settings much easier. People Skills Admin settings you can manage directly in the M365 Admin Center interface include:</p><ul>\n<ul>\n</ul><li><b>People Skills user experiences control:</b> Turns all People Skills user experiences on or off for selected users.</li><li><b>People Skills AI inferencing control:</b> Determines whether AI can generate Skills for users and add them to their profiles on their behalf.</li><li><b>People Skills profile visibility control:</b> Controls whether a user’s skills (AI-generated, Confirmed, or Imported) are shared with others on the Microsoft 365 Profile card.</li><li><b>Show AI Skills control:</b> Controls whether AI-Generated Skills appear on a user’s profile.</li><li><b>Show Imported Skills control:</b> Allows or restricts imported skills (organization-added skills) from appearing on user’s profile.</li><ul>\n\n\n\n</ul><ul>\n</ul>\n\n</ul><p><b>Ability to import custom Skills library from your local device:&nbsp;</b></p><ul><li>We will offer the option of importing a custom Skills Library directly from your local device. This allows you to have greater flexibility in how you upload and manage your custom Skills Library.</li>\n</ul>\n\n<p><b><b>What you need to do to prepare:</b></b></p>\n<ul>\n<li>This message is for awareness, and no action is required.</li>\n<li>If you plan to limit or disable People Skills, review the new admin controls in the Microsoft 365 Admin Center after rollout.</li>\n<li>For details on applications impacted when People Skills is turned off, refer to Microsoft documentation.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-sharing-inferencing-controls\" target=\"_blank\">Manage privacy and sharing controls in People Skills</a></p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "529865"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 is enhancing People Skills admin controls by enabling admins to turn off user experiences, manage settings via the Admin Center without PowerShell, and import custom skills libraries. Rollout begins mid-December 2025, allowing phased deployment, privacy compliance, and easier configuration. No action required now."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Mac"
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1191920",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-10T20:46:20.243Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-03T21:40:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Improved People Skills Admin configuration",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Catalog Management in SharePoint</b> is a new capability designed to target governance and streamline administrative actions. This feature will give customers a centralized, intelligent view of their content landscape helping them understand how information is distributed and governed across the organization. By intelligently organizing SharePoint sites into clusters based on site metadata and admin-defined attributes, this feature enables scalable, context-aware management. It supports precision targeting for lifecycle policies, access reviews, permissions auditing, and storage optimization—reducing overhead and accelerating readiness for AI-driven automation, including Copilot.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins mid-November 2025, expected to complete by late December 2025.</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-December 2025, expected to complete by late February 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> SharePoint administrators and Microsoft 365 tenant admins using SharePoint Advanced Management (SAM).</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new <b>Catalog Management</b> capability will be available in the SharePoint admin center under <b>Reports </b>&gt; <b>Catalog Management</b>.</li>\n    <li>Sites will be automatically grouped into intelligent clusters based on metadata and admin-defined attributes.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/be90f579-ad34-4b5b-a813-154eeab7e655\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>Admins can rename groups.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/77f0c686-c128-47f6-b52f-2aa84866af7e\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Admins can apply policies, reports, billing rules, and Copilot access at scale using these clusters.</li><li>Admins can also download detailed reports to track how sites are grouped.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e241d623-1914-4bd1-aee2-562117658873\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>No changes to end-user experience unless actions are taken by admins.</li>\n    <li>Feature will be available by default for tenants with <b style=\"\">SharePoint Advanced Management</b>.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required at this time.</li>\n</ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/advanced-management\" target=\"_blank\">What is SharePoint Advanced Management?</a></li><li><a href=\"https://learn.microsoft.com/sharepoint/catalog-management\" target=\"_blank\">Catalog management in SharePoint Advanced Management</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14449,43 +14356,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>\n</p><p><b><b>Introduction</b></b></p>\nMicrosoft Teams is improving the notification experience by adding message previews to more types of notifications, including channels, mentions, and reactions. This enhancement helps users quickly assess the importance of a notification without switching context, prioritize responses more effectively, and enjoy a consistent experience across platforms.<p></p><p></p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop and Teams for the web.</p><p>Screenshot: <i>@mention notification with message preview</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8934bb44-9202-48a8-b18c-d596bc275f11\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Targeted Release (Worldwide): Rollout begins mid-December 2025; expected to complete by mid-December 2025</li>\n<li>General Availability (Worldwide): Rollout begins mid-January 2026; expected to complete by mid-January 2026</li>\n<li>General Availability (GCC, GCC High, DoD): Rollout begins mid-January 2026; expected to complete by late January 2026</li>\n</ul><p></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users of Microsoft Teams on Windows and Mac desktop clients and Teams on the web.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Notifications for channels, mentions, and reactions will include a message preview, unless the message preview is disabled by users.</li>\n<li>Users can disable previews:\n<ul>\n<li>On Windows and Web: via Teams Notification Settings.</li>\n<li>On Mac: via OS Notification Settings.</li>\n</ul></li>\n<li>No changes to existing admin policies; no policy updates required.</li>\n</ul></li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No admin action is required; the feature will be available automatically once users update to the supported Teams client build.</li>\n<li>Consider notifying your users about this update and how they can manage notification settings.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified; review as appropriate for your organization.<p></p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will add message previews to channel, mention, and reaction notifications on Windows, Mac, and web starting mid-December 2025. Users can disable previews via notification settings. No admin action or policy changes are needed; the feature activates with client updates."
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1191916",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-03T21:38:39.447Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-03T21:38:31Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Message preview for channels, mentions, and reactions notifications",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated December 3, 2025: We have updated the timeline. Thank you for your patience.</p><p>Admins will be able to ensure that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out early March 2026 (previously late November 2025) and expect to complete by late March 2026 (previously late December 2025).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Once Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422728\" target=\"_blank\">422728</a> is available, end-users will have the ability to choose existing Microsoft 365 Groups for managing new Loop workspaces. This means that new Loop workspaces can optionally be connected to and managed by an existing Microsoft 365 Group, similar to how SharePoint Team sites are managed.</p><p>Additionally, Microsoft 365 Roadmap ID 422725 covers the capability to <b>ensure</b> that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites (it will not be an option for users to skip selecting an existing Microsoft 365 group if this policy is configured).</p><p>While this setting may align with existing governance processes, it's important for admins to note that scenarios like <a href=\"https://techcommunity.microsoft.com/blog/microsoft365insiderblog/automatically-aggregate-teams-meeting-content-in-a-loop-workspace/4287319\" target=\"_blank\">automatic aggregation of Teams meeting content into a Loop workspace</a>, or the creation of small, short-term project workspaces, will be more challenging for end-users unless they can skillfully select an existing M365 group during creation. Please consider this tradeoff in your adoption strategy.</p><p>If your organization has governance tools for SharePoint Communication sites that work effectively in a reactive manner (i.e., governance is applied after the site is created), Microsoft recommends extending this process to include Loop workspaces rather than using this policy.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. This capability will roll to your tenant automatically.</p>",
       "ContentType": "html"
     },
@@ -14740,45 +14610,6 @@
       "User impact"
     ],
     "Title": "New Feature: Account Manager in Outlook for Windows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 1, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction:</b></b></p><p>We’re updating the AI Disclaimer experience in <i>Microsoft Copilot Chat </i>based on customer feedback. To address this, we’re introducing an admin control that allows organizations to customize how the disclaimer appears, improving user awareness and flexibility.\n</p><p><b><b>When this will happen:</b></b>&nbsp;</p><p>Rollout will begin in early December 2025 (previously late November) and complete by:</p>\n<ul>\n<li><b>Worldwide &amp; GCC:</b>&nbsp;mid-December 2025 (previously early December)</li>\n<li><b>GCC High &amp; DoD:</b>&nbsp;mid-January 2026 (previously mid-December 2025)</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n</ul><p><b>Who is affected:</b></p><ul><li>All users of Microsoft Copilot Chat on desktop and web experiences.</li>\n</ul><p><b>What will happen:</b>\n  </p><ul>\n    \n    \n    \n  </ul>\n<p></p><ul><li>The AI disclaimer will remain visible in the user experience.\n</li><li>Admins will gain the ability to heighten this message and to provide a link to their own documentation:<ul><li>The disclaimer will display bolded text for increased visibility.\n</li><li>Admins can configure a custom URL pointing to their AI policy documentation.\n</li></ul></li></ul><div><i>Screenshots 1 and 2 below: The top image shows the current (default) experience. The bottom image shows the AI Disclaimer with heightened awareness enabled by the admin.</i></div><div><br></div><div>\n<p>Current experience (default):</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5779e73d-4904-4ba6-b5d7-fef91a311d94\" width=\"400\" height=\"\"></p><p>Heightened awareness enabled:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1df24bdb-f226-4272-9db9-d8cbd8eaa36c \" width=\"400\" height=\"\" <=\"\" p=\"\"></p><p><b><b>What you can do to prepare:</b></b></p>\n<ul><li>Review the new <i>AI Disclaimer setting</i> in the <i>Admin Portal </i>once available.\n</li><li>Decide whether you want to configure this setting for your organization.\n</li><li>If desired, prepare a custom URL to include in the UX. \n</li><li>Communicate this change to your helpdesk staff and Copilot users.\n</li><li>Update internal documentation if you reference the disclaimer experience.</li></ul>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/transparency-note-for-microsoft-copilot-c1541cad-8bb4-410a-954c-07225892dbc2\" target=\"_blank\">Transparency Note for Microsoft Copilot | Microsoft Support</a></p><p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p></div>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Copilot Chat's AI disclaimer will be updated with admin controls for customization, including bold text and a custom URL. Rollout starts early December 2025, completing by mid-December for most and mid-January 2026 for GCC High & DoD. Admins should review and prepare accordingly."
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1181766",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-01T23:28:40.06Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-31T00:07:43Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Copilot Chat: AI disclaimer updates",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15311,82 +15142,6 @@
       "Admin impact"
     ],
     "Title": "Fix/Update Microsoft Sentinel Account Entity Naming to avoid inconsistent account identification in incidents and alerts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated November 19, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing a new opt-in feature for automatic event-auditing configuration in Defender for Identity unified sensors (V3.x). This enhancement simplifies deployment by allowing admins to automatically apply the required Windows event-auditing settings on their sensors. It reduces manual post-deployment steps and ensures consistent policy enforcement across all onboarded sensors.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide, GCC, GCCH, and DoD): The <b>auditing opt-in feature</b> will be available starting mid-December 2025 (previously mid-November), with rollout expected to complete within the same timeframe.</p><p>General Availability (Worldwide, GCC, GCCH, and DoD):&nbsp;The <b>related auditing health alerts</b> will be released gradually by mid-January 2026 (previously mid-December).</p><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Defender for Identity unified sensors (V3.x) in Microsoft 365 tenants.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new opt-in setting will be available in both the UI and via Graph API.</li><li>In the UI, this option will appear under <b>Defender for Identity Settings → Advanced features</b>.</li><li>Once enabled, the automatic configuration feature will:<ul><li>For <b>new </b>sensor activations: automatically apply all required Windows event-auditing settings during activation.</li><li>For <b>existing </b>onboarded sensors: automatically apply auditing settings only if misconfigured, and dismiss the related health issues.</li></ul></li><li>The opt-in applies to <b>all unified sensors</b> in the tenant.</li><li>This feature is not enabled by default and requires admin action.</li><li>No changes will occur unless admins choose to enable the feature.</li></ul><div><b>Relevant auditing configurations health issues covered:</b></div><ul><li>NTLM auditing is not enabled</li><li>Directory Services Advanced Auditing is not enabled as required</li><li>Directory Services Object Auditing is not enabled as required</li><li>Auditing on the Configuration container is not enabled as required</li><li>Auditing on the ADFS container is not enabled as required</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required unless you choose to enable the feature.</p>\n<p>If you plan to opt in:</p>\n<ul>\n<li>Review your unified sensor deployment strategy.</li>\n<li>Enable the <b>opt-in</b> setting via the UI or Graph API.</li>\n<li>Communicate the change to relevant IT and security teams.</li>\n<li>Update internal documentation if you track auditing configurations.</li>\n</ul>\n\n<p>To review the <a href=\"http://learn.microsoft.com/defender-for-identity/deploy/prerequisites-sensor-version-3\" target=\"_blank\">required auditing configurations for Defender for Identity unified sensors (V3.x)</a></p><p>For details about the <a href=\"http://learn.microsoft.com/defender-for-identity/health-alerts\" target=\"_blank\">relevant auditing health&nbsp;issues</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "An opt-in feature for automatic Windows event-auditing configuration in Defender for Identity unified sensors (V3.x) will be available mid-December 2025. It simplifies deployment by auto-applying required settings, affects all sensors in a tenant, requires admin activation, and addresses specific auditing health issues."
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187403",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-19T17:36:40.68Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-17T23:56:15Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Automatic Windows event auditing configuration now available for unified sensors (V3.x)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated November 19, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\nWe’re introducing a new <b>Remote Procedure Call (RPC) Configuration Health Alert for sensors v3.x</b> in Microsoft Defender for Identity. This capability proactively monitors RPC configuration across your environment, helping administrators quickly identify and remediate misconfigurations that could impact detection accuracy or security posture. Additionally, applying the Unified Sensor RPC Audit tag enables advanced identity detections, improving security visibility and unlocking additional detection capabilities.<p></p>\n\n<p><b><b>When this will happen:</b></b></p><b>General availability (Production, GCC, GCCH):</b> We will begin rolling out early January 2026 (previously early December 2025) and expect to complete by mid-January 2026 (previously mid-December 2025).<p></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p></p><ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Defender for Identity v3.x sensors.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new health alert will monitor RPC configuration status on v3.x sensors.</li>\n<li>Applying the <b>Unified Sensor RPC Audit tag </b>will enforce configuration on existing and future v3.x sensors that match rule criteria.</li>\n<li>The tag will be visible in <b>Device Inventory </b>and<b>&nbsp;Advanced Hunting</b>, providing transparency and auditing capabilities.</li>\n<li>This feature improves detection accuracy and overall security coverage.</li>\n</ul>\n</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\nTo apply the <b>RPC Audit tag</b> on your v3.x sensors:\n<p></p><ol>\n<li>In the Microsoft Defender portal, navigate to: <b>System </b>&gt; <b>Settings </b>&gt; <b>Microsoft Defender XDR</b> &gt; <b>Asset Rule Management</b>.</li>\n<li>Select <b>Create a new rule</b>.</li>\n<li>Enter a <b>Rule name</b> and <b>Description</b>, then set conditions using <b>Device name</b>, <b>Domain</b>, or <b>Device tag</b>. Ensure the Defender for Identity v3.x sensor is deployed on targeted devices.</li>\n<li>Add the tag <b>Unified Sensor RPC Audit</b>.</li>\n<li>Review and submit the rule.</li>\n</ol>\nFor more details, refer to <a href=\"https://learn.microsoft.com/defender-for-identity/\" target=\"_blank\">Microsoft Defender for Identity documentation</a>.\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified; review as appropriate for your organization.<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Identity will roll out a new RPC Configuration Health Alert for v3.x sensors starting January 2026. It monitors RPC settings, improves detection accuracy, and uses the Unified Sensor RPC Audit tag for configuration enforcement and visibility in Device Inventory and Advanced Hunting."
-      }
-    ],
-    "EndDateTime": "2026-02-23T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187390",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-19T17:30:54.38Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-17T23:49:31Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Unified sensor (v3.x) – new Remote Procedure Call (RPC) configuration health alert for Microsoft Defender for Identity",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
