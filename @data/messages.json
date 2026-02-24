@@ -4,6 +4,92 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated February 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>\n\n</p><p>We’re introducing a visual refresh of the <b>Access Request and Access Denied</b>&nbsp;page experience across <i>Microsoft 365</i>, redesigned to help users quickly request access to content such as documents, SharePoint sites, or Teams meeting recordings. This update features modern Fluent illustrations, animations, and clearer messaging to make it easier to understand and resolve access issues for a more seamless collaboration experience.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553214\">553214</a>.</p><p> </p>\n\n<p></p>\n\n\n\n\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p><b>\nGeneral Availabilit<span style=\"background-color: rgb(255, 255, 255);\">y (Worldwide, GCC, GCC High, DoD):</span></b> We will begin rolling out in March 2026 (previously February) and expect to complete March 2026 (previously&nbsp;early February)<b>.</b></p>\n\n<p><b>\n<b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>All users requesting access to content stored on <i>OneDrive</i> and<i> SharePoint</i>.</p><b>What will happen:</b><p></p><ul><li>Users will see a redesigned Access Request page when attempting to access restricted content:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1c634d49-0724-4e6a-8bbc-86d24bf25334/14d6749f89c45f98c4a273cfb4d0e29c69044a55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The page will feature updated Fluent visuals and animations.\n</li><li>Messaging will be clearer to help users understand the status of their request:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b6bc1f3-3827-4760-833e-d9af2b7c8709/df373642b72eb96268796ff5674fa3d11384ae8e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>No changes to admin policies or access controls.\n</li><li>The update will be <b>enabled by default</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>No action is required to enable this update; it will be <b>applied automatically</b>.</p><p>However, to ensure a smooth experience for your users, we recommend the following:</p><ul><li>Communicate this change to helpdesk and support staff so they can assist users who may have questions about the new visuals or messaging.\n</li><li>Update internal documentation if you reference the Access Request or Access Denied experience in training materials or support guides.\n</li><li>Review any custom workflows or access request processes to ensure they align with the updated experience.\n</li><li>Monitor user feedback after rollout to identify any confusion or support needs related to the new design.</li></ul><p><b><b>Compliance considerations:</b>&nbsp;</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "553214"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will update the Access Request and Access Denied pages in March 2026 with modern visuals, animations, and clearer messaging for OneDrive and SharePoint users. No changes to admin policies; the update is automatic. Organizations should inform support staff and update documentation accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1188599",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-23T23:57:52.213Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft OneDrive",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-21T00:17:08Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing two new remediation actions as part of the <b>Email</b> table in&nbsp;Advanced Hunting that help&nbsp;<b>security operations (SecOps) </b>teams respond more quickly during investigations:</p><ul><li><b>Attachment  block action\n</b></li><li><b>Top-level URL domain block action\n</b></li></ul><p>These actions let SecOps teams move directly from detection to mitigation within the same workflow, reducing response time and operational friction when addressing malicious campaigns.</p><p>These actions will be available through <b>Take action</b> if the query returns all the required columns.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out <b>early March 2026</b> and expect to complete by <b>the end of March 2026</b>.</p><p><b><b>How this affects your organization:</b>\n\n</b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Security operations teams and administrators using Advanced Hunting in Microsoft Defender for Office 365</li><li><b>T</b>his feature is available to customers with <b>Microsoft Defender for Office 365 Plan 2 </b>or<b> Microsoft 365 E5 licenses.</b></li></ul><p><b>What will happen:</b></p>\n<ul>\n<li>Security teams can block malicious email attachments directly from Advanced Hunting results.</li>\n<li>Security teams can block top-level URL domains<b> </b>associated with phishing or malicious campaigns.</li>\n<li>Remediation actions are available in the Advanced Hunting “Take action” wizard.</li>\n<li>The feature is<b> enabled by default</b>; no configuration changes are required.</li>\n<li>There is <b>no impact to user workflows</b> unless a security action is taken.</li></ul><p><b style=\"\">Note: </b></p><ul><li>Attachment entries in the Tenant Allow/Block List are supported only if the query results include the <b>Attachment </b>column by joining with the <b>EmailAttachmentInfo</b> table on <b>NetworkMessageId</b>.</li><li><b>Submit to Microsoft</b> may be unavailable if required columns are missing.&nbsp;To resolve this issue, select <b>Show empty columns</b> before you select <b>Take actions</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No action is required.</li>\n<li>Review security investigation and response procedures to include the new remediation options.</li>\n<li>Inform SecOps teams of the updated<b> </b>Advanced Hunting capabilities.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-take-action\" target=\"_blank\">Take action on advanced hunting query results in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a>&nbsp;(documentation will be updated before rollout)</p><ul>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "New Advanced Hunting actions in Microsoft Defender for Office 365 allow SecOps teams to block malicious email attachments and top-level URL domains directly from query results, enabling faster response. Available from March 2026 for Microsoft Defender for Office 365 Plan 2 or Microsoft 365 E5 users, enabled by default with no user impact."
+      }
+    ],
+    "EndDateTime": "2026-05-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1237728",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-23T23:48:46.33Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-23T23:48:43Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Advanced Hunting: new actions to block attachments and top-level URL domains",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b> early March 2026 </b>and expect to complete rollout by <b>mid‑March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 200px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -608,7 +694,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2055,7 +2141,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5759,7 +5845,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871125Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871125Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5851,7 +5937,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7045,7 +7131,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7230,55 +7316,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 29, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>\n\n</p><p>We’re introducing a visual refresh of the <b>Access Request and Access Denied</b>&nbsp;page experience across <i>Microsoft 365</i>, redesigned to help users quickly request access to content such as documents, SharePoint sites, or Teams meeting recordings. This update features modern Fluent illustrations, animations, and clearer messaging to make it easier to understand and resolve access issues for a more seamless collaboration experience.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553214#Roadmap\">553214</a>.</p><p> </p>\n\n<p></p>\n\n\n\n\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p><b>\nGeneral Availabilit<span style=\"background-color: rgb(255, 255, 255);\">y (Worldwide, GCC, GCC High, DoD):</span></b> We will begin rolling out in February 2026 (previously&nbsp;early January)&nbsp;and expect to complete by March 2026 (previously&nbsp;early February)<b>.</b></p>\n\n<p><b>\n<b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>All users requesting access to content stored on <i>OneDrive</i> and<i> SharePoint</i>.</p><b>What will happen:</b><p></p><ul><li>Users will see a redesigned Access Request page when attempting to access restricted content:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1c634d49-0724-4e6a-8bbc-86d24bf25334/14d6749f89c45f98c4a273cfb4d0e29c69044a55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The page will feature updated Fluent visuals and animations.\n</li><li>Messaging will be clearer to help users understand the status of their request:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b6bc1f3-3827-4760-833e-d9af2b7c8709/df373642b72eb96268796ff5674fa3d11384ae8e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>No changes to admin policies or access controls.\n</li><li>The update will be <b>enabled by default</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>No action is required to enable this update; it will be <b>applied automatically</b>.</p><p>However, to ensure a smooth experience for your users, we recommend the following:</p><ul><li>Communicate this change to helpdesk and support staff so they can assist users who may have questions about the new visuals or messaging.\n</li><li>Update internal documentation if you reference the Access Request or Access Denied experience in training materials or support guides.\n</li><li>Review any custom workflows or access request processes to ensure they align with the updated experience.\n</li><li>Monitor user feedback after rollout to identify any confusion or support needs related to the new design.</li></ul><p><b><b>Compliance considerations:</b>&nbsp;</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "553214"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 is updating the Access Request and Access Denied pages with modern visuals, animations, and clearer messaging to improve user experience. The rollout starts February 2026 and completes by March 2026, with no changes to admin policies. The update is automatic; no user action is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1188599",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-29T20:16:34.44Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft OneDrive",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-21T00:17:08Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated January 29, 2026: We are updating this post as a reminder. Upcoming SharePoint Online changes may impact your organization. Please review the below.</p><p>We are implementing the following changes to custom scripting and classic publishing in SharePoint Online.</p><p><b>1. Disablement of custom scripting</b></p><p>Custom scripting will be disabled by default (setting DenyAddAndCustomizePages to 1 or $true) for sites created with the following templates:</p><ul><li>BLANKINTERNETCONTAINER#0 = Classic Publishing Portal Site\n</li><li>CMSPUBLISHING#0 = Classic Publishing Site\n</li><li>BLANKINTERNET#0 = Classic Publishing Site Blank</li><li>CSPCONTAINER#0 = SharePoint Embedded Site</li></ul><p>NOTE:\n</p><ul><li>Existing classic publishing sites created with the templates listed above will have custom scripting disabled by default. \n</li><li>Disabling custom scripting does not affect the execution of scripts that have already been added to a site or page.</li></ul><p>Refer to <a href=\"https://learn.microsoft.com/sharepoint/security-considerations-of-allowing-custom-script\" target=\"_blank\">this documentation</a> to learn more about the security considerations of ungoverned scripting.</p><p><b>2. Ability to set site property bag valued without requiring custom scripting enablement.</b></p><p>Users no longer need to set DenyAddAndCustomizePages to $false or 0 (i.e. enable custom scripting) in a site to manage site property bag values. We have introduced a new AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled setting at the site level and at the tenant level to allow adding/managing site property bag values. Please see documentation here for <a href=\"https://learn.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-allowwebpropertybagupdatewhendenyaddandcustomizepagesisenabled\" target=\"_blank\">tenant level setting</a>&nbsp;and here for <a href=\"https://learn.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps#-allowwebpropertybagupdatewhendenyaddandcustomizepagesisenabled\" target=\"_blank\">the site level setting.</a>&nbsp;</p><p><b>3. Classic publishing sites creation and feature activation changes</b></p><p>Users will no longer be able to create new classic publishing related site collections or activate publishing features in existing site collections. This applies to both UX and API interactions.</p><p>Sites collections with the following templates cannot be created:</p><ul><li>BLANKINTERNETCONTAINER#0 = Publishing Portal Site\n</li><li>CMSPUBLISHING#0 = Publishing Site\n</li><li>BLANKINTERNET#0 = Publishing Site Blank\n</li><li>ENTERWIKI#0 = Enterprise Wiki\n</li><li>SRCHCEN#0 = Enterprise Search Center\n</li><li>SPSSITES#0 = Site Directory\n</li><li>SPSNHOME#0 = News Home Site\n</li><li>PRODUCTCATALOG#0 = Product Catalog\n</li><li>SPSREPORTCENTER#0 = Report Center\n</li><li>SPSTOPIC#0 = Topic Area Template</li></ul><p style=\"\">Existing classic publishing enabled site collections are unaffected and can continue regular usage, including creation of sub sites.</p><p><b>When this will happen</b></p><p>Both changes, the extended custom scripting governance and the new classic publishing restrictions, will take effect starting <b>September 15, 2025</b>.</p><p><b>How this will affect your organization</b><br></p><ul><li>When custom scripting is disabled in classic publishing sites, users will no longer be able to use script editor web parts, create custom master pages or page layouts, and utilize several other features. More details on features affected when custom scripting is disabled can be viewed in <a href=\"https://learn.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script#features-affected-when-custom-script-is-blocked\" target=\"_blank\">this documentation</a>.</li></ul><p>\n</p><ul><li>With the change to stop the creation of new classic publishing site collections and publishing feature activation, SharePoint admins will no longer be able to create new classic publishing enabled site collections or enable publishing features at site collection level.</li></ul><p><b>What you need to do to prepare</b></p><p>We recommend taking the following actions to prepare for these upcoming changes.</p><p>\n</p><p>1.\tInform owners of the classic publishing sites in your organization of these upcoming changes. Promote switching to use of Modern sites. Refer to <a href=\"https://learn.microsoft.com/sharepoint/dev/transform/modernize-guidance\" target=\"_blank\">this guide</a>.</p><p>2. The following tenant-level opt-out operation, used to allow custom scripting changes in classic publishing sites, will be retired starting <b>March 15, 2026.</b> Please ensure appropriate actions are taken ahead of this change.</p><p><code>Set-SPOTenant -DelayDenyAddAndCustomizePagesEnforcementOnClassicPublishingSites $true</code></p><p>3. Customers may still temporarily opt out of custom scripting enforcement for a specific site (any template) with tenant admin approval. This opt-out is effective for 24 hours&nbsp;and can be enabled using the following PowerShell command:</p><p><code>Set-SPOSite &lt;SiteURL&gt;&nbsp;<siteurl>-DenyAddAndCustomizePages $false</siteurl></code></p><p>4.\tIf you need to allow the creation of new classic publishing site collections or enable publishing feature activations, use the following PowerShell command set the flag to allow.</p><p><code>Set-SPOTenant -AllowClassicPublishingSiteCreation $true</code></p><p>NOTE: </p><ul><li>You need to install the latest (<a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=35588&amp;msockid=1928b372f07766b62b63a78cf1426719\" target=\"_blank\">16.0.26211.12010</a> or higher) SharePoint Online Management Shell in order to run the commands above.</li><li>The DelayDenyAddAndCustomizePagesEnforcementOnClassicPublishingSites command is scheduled to end starting on <b>March 15, 2026,</b> while all other commands are expected to remain functional beyond that date.&nbsp;</li></ul><p><b>Compliance considerations</b></p><p><b>\n</b></p><p>There is no impact or change to compliance.</p><p><b>Referenced content</b>\n</p><p><a href=\"https://learn.microsoft.com/en-us/sharepoint/security-considerations-of-allowing-custom-script\" target=\"_blank\">Security considerations of allowing custom script - SharePoint in Microsoft 365 | Microsoft Learn</a></p><p><a href=\"https://learn.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script\" target=\"_blank\">Allow or prevent custom script - SharePoint in Microsoft 365 | Microsoft Learn</a></p><p><a href=\"https://learn.microsoft.com/en-us/sharepoint/dev/transform/modernize-guidance\" target=\"_blank\">SharePoint modernization guidance | Microsoft Learn</a></p><p><br></p><p>\n</p><p>\n</p><p>\n</p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -7328,7 +7365,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7578,7 +7615,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8256,7 +8293,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9919,7 +9956,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13607,7 +13644,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14160,7 +14197,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
+        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14583,7 +14620,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16290,7 +16327,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16812,7 +16849,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.946174Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461736Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461744Z\",\"LatestRing\":null}]}"
+        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461736Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.946174Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461744Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17072,7 +17109,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17123,7 +17160,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17877,7 +17914,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18316,7 +18353,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
