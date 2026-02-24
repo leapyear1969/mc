@@ -4,6 +4,279 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>&nbsp;Coming soon for Microsoft Teams: Meeting participants will be able to request an annotation session while someone else is sharing their screen.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop. (Users can view and annotate in Teams on the web but cannot initiate annotations.)\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-April 2026 (previously early March) and expect to complete by late April 2026 (previously late March).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen who can choose to accept or deny it:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f808a149-d9f2-4b5d-8cb8-1ff99c8d60a1\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>If the request is accepted, the annotation session will start for everyone in the meeting:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/382d6182-ffc1-4db8-8b6f-b42d24c4144b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p> Anonymous users in the meeting will not be able to send a request.\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (we will update this before rollout)\n</p><p>Watch: <a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "89975"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will soon allow meeting participants to request collaborative annotation sessions during screen sharing on Windows and Mac desktops. Rollout begins mid-April 2026 for targeted release and mid-May 2026 for general availability. Presenters can accept or deny annotation requests; anonymous users cannot request. No admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1019312",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T21:24:56.697Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-02-28T01:28:59Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Meeting participants can request collaborative annotation sessions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This makes it easier for users to coordinate work with their coworkers and connect in person.</p><p> This feature is opt-in and requires you to take action to configure it. After you turn it on, end-users remain in control and can choose whether to share their work location with their coworkers.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early April 2026 (previously early March) and expect to complete by mid-April 2026 (previously mid-March).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically updated when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "488800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting April 2026, Microsoft Teams will let users automatically set their work location by connecting to their organization's Wi-Fi or peripherals. This opt-in feature improves location accuracy and coordination, requires admin configuration, respects working hours, and applies to Teams on Windows and Mac desktops."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-05-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1081568",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T21:12:54.21Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-23T23:15:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p></p><p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To help provide additional transparency about what content has been generated or altered by using AI in <i>Microsoft 365</i>, Microsoft is providing you with a policy setting that visually designates when content, such as video or audio content, is generated or altered by using AI. This policy setting controls your organization’s option to add a visual or audio watermark to video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>.  \n</p><p>\n</p><p>To turn on watermarks for video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>, you need to use the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy. This policy is available only in <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\" target=\"_blank\"><i>Cloud Policy service for Microsoft 365</i></a>.&nbsp;</p><p><b>Note:</b> Watermarks are not turned on unless you set the policy to <b>Enabled</b>. Your organization is always responsible for following the <a href=\"https://learn.microsoft.com/legal/ai-code-of-conduct\" target=\"_blank\">Microsoft Enterprise AI Services Code of Conduct</a>, including not generating or sharing deceptive AI content.&nbsp;</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=547831\" target=\"_blank\">547831</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We anticipate that this policy will be available in <i>Cloud Policy </i>by&nbsp;<b>mid-March 2026 (previously late February)</b>.</p><p></p><p><b><b>How this will affect your organization</b></b></p><p></p><i>Who is affected</i><p></p><p>Users that generate or alter video and audio content by using AI in <i>Microsoft 365</i></p><p></p><p><i>What will happen</i></p><p>If you set the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy to <b>Enabled </b>in Cloud Policy, a visual or audio watermark is added to video and audio content that is generated or altered by using AI in <i>Microsoft 365</i>. Here are two examples:</p><ul><li>A visual watermark is added to a video generated with Clipchamp.</li><li>An audio watermark is added to an audio overview generated by Copilot from a Word document.</li></ul><b>Notes:</b><ul><li>This policy doesn’t affect images generated or altered by using AI in <i>Microsoft 365</i>.</li><li>Instead, your users will be able to turn on watermarks for images by going to<b> Settings &amp; Privacy &gt; Privacy</b> at <a href=\"https://myaccount.microsoft.com\" target=\"_blank\">https://myaccount.microsoft.com</a>. We anticipate this capability will be available in the <b>second half of February 2026</b>.&nbsp;</li></ul><p></p><p><b><b>What you need to do to prepare</b></b></p><p></p>Review the information in the following article: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/watermarks\" target=\"_blank\">Add watermarks to content generated or altered by using AI in Microsoft 365</a>. If you decide to set the<b> “Include a watermark when content from Microsoft 365 is generated or altered by AI”</b> policy to <b>Enabled</b>, inform your users that a visual or audio watermark will be added to video and audio content that they generate or alter by using AI in <i>Microsoft 365</i>.&nbsp;<p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "547831"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will offer a policy to add visual or audio watermarks to AI-generated or altered video and audio content, available mid-March 2026 via Cloud Policy. Images are excluded but will have watermark options from February 2026 through user privacy settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221451",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T21:08:43.447Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:53:50Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New policy to add watermarks to content generated or altered by using AI in Microsoft 365",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new capability in <i>Microsoft Purview eDiscovery (Premium) </i>that allows eDiscovery users to <b>add a statistical sample of search results to a review set</b>. This enhancement helps organizations validate search results earlier in the investigation process, improving confidence in data relevance before committing all results to review.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b43cf390-37c0-4683-bd5d-4016cb59ad16/2424bdacd6be642e5c5b336b5f841b642f617501.png\" style=\"width: 400px;\"></p><p>With this update, reviewers can include a representative subset of items based on configurable sampling criteria, enabling faster early‑stage assessment while reducing review volume.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516578#Roadmap\" target=\"_blank\">516578</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in<b>&nbsp;mid-March 2026&nbsp;</b>(previously late February)&nbsp;and is expected to complete by <b>late March 2026</b> (previously&nbsp;late February).</p><p><b>General Availability (GCC, GCCH, and DoD)</b>: Rollout will begin in<b>&nbsp;mid-March 2026 (previously early March)</b>&nbsp;and is expected to complete by<b> late March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Administrators and eDiscovery (Premium) users who manage or review search results and review sets in <i>Microsoft Purview</i>.</p><p><i>What will happen</i>:</p><ul><li>This change does not impact any other Microsoft Purview or Microsoft 365 services.</li><li>Users will see new sampling options after search statistics have been generated for a search.</li><li>Users can choose to add all search results to a review set or add a sample of results based on configurable statistical inputs.</li><li>When sampling is selected, reviewers can specify:<ul><li>Confidence level</li><li>Confidence interval</li><li>Percentage‑based sampling options</li></ul></li><li>This capability integrates with existing eDiscovery workflows.</li><li>No changes are made to permissions, access controls, or review set behaviors.</li><li>No features are being removed or replaced.</li><li>The feature will be <b>available by default</b> when it reaches your tenant.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No prerequisites are required, and no action is needed to prepare for this change. The capability will become available automatically.</p><p>If helpful, you may consider:</p><ul><li>Reviewing internal eDiscovery workflows.</li><li>Updating training or documentation to reflect how sampling can support early validation of search results.</li></ul><p>Learn more about eDiscovery: <a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery solutions | Microsoft Learn</a>\n</p><p>Learn more about adding search results to review set: <a href=\"https://learn.microsoft.com/purview/edisc-search-add-to-review-set?view=o365-worldwide\" target=\"_blank\">Add search results to a review set in eDiscovery | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "516578"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery (Premium) will add a feature to include a statistical sample of search results in review sets, enabling earlier validation and reduced review volume. Rollout begins mid-March 2026 worldwide, with no impact on permissions or existing workflows. No preparation is needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227079",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T21:05:07.767Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-05T00:02:25Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | eDiscovery – Add sample to review set",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Microsoft 365 Copilot in PowerPoint</b> will soon support enterprise image libraries hosted on <b>Adobe Experience Manager (AEM)</b>. This integration allows users to generate slides using branded images from your organization’s asset library, helping maintain brand consistency and streamline content creation.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516037\" target=\"_blank\">516037</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516038\" target=\"_blank\">516038</a>, and&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516039\" target=\"_blank\">516039</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins end of March 2026 (previously end of February) and is expected to complete by end of April 2026 (previously end of March)</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations using Adobe Experience Manager for brand asset management</li>\n<li>Admins and brand managers configuring enterprise image libraries</li>\n<li>PowerPoint users leveraging Microsoft 365 Copilot</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Admins can connect enterprise image libraries from AEM to Microsoft 365 Copilot in PowerPoint.</li>\n<li>Users will be able to generate slides using branded images from AEM.</li>\n<li>If no enterprise image library is connected, the branded image option will be disabled, and only Microsoft 365 images will be available.</li>\n<li>This feature is available by default for admins to configure; no opt-in required.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Deploy AEM assets <b>Microsoft 365 Copilot Connector</b> by following the steps outlined in the article&nbsp;<a href=\"https://learn.microsoft.com/microsoftsearch/adobe-experience-manager-assets-deployment\" target=\"_blank\">Deploy the Adobe Experience Manager Assets Microsoft 365 Copilot connector</a>.<a href=\"https://learn.microsoft.com/en-us/microsoftsearch/adobe-experience-manager-assets-deployment\" target=\"_blank\"></a></li><li>Give your final consent on the <b style=\"\">Adobe Experience Manager Assets</b> screen</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/80289aec-3651-4253-a9b2-70260047ac29\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Ensure images in AEM include robust metadata (keywords, titles, alt-text) for better searchability.</li>\n<li>Communicate this change to your design and marketing teams.</li>\n<li>Update internal documentation if you detail image sourcing for PowerPoint.</li></ul><p>Once setup is complete, users can select the <b style=\"\">New Slide with Copilot icon</b> in the PowerPoint ribbon, enter a prompt, and choose their preferred image source—either Microsoft 365 images or their organization’s branded image library—via the <b>Image Source</b> menu.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/af1aeed2-72a9-4b8d-a864-aae929f08e11/d31f900110e856899061e91fc31b46377dfcbe24.png\" style=\"width: 400px;\" alt=\"user settings\"></p>Note: We recommend enabling this feature only if your image library contains more than 1,000 images with robust metadata.<p></p><p>\n</p><ul>\n</ul>\n<p>Learn more:</p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/microsoftsearch/adobe-experience-manager-assets-overview\" target=\"_blank\">About Adobe Experience Manager Assets Microsoft 365 Copilot connector</a></li><li><a href=\"https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc\" target=\"_blank\">Keep your presentation on-brand with Copilot</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "516037,516038,516039"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot in PowerPoint will support enterprise image libraries via Adobe Experience Manager (AEM) starting late March 2026. Admins can connect AEM libraries for branded images in slides, enhancing brand consistency. Setup requires deploying the AEM Copilot connector and ensuring rich image metadata."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Mac, Web, Desktop"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1217648",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T20:58:52.207Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-14T02:10:23Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot | PowerPoint now supports enterprise image libraries via AEM (Adobe Experience Manager)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Starting end of February 2026, we will introduce<b> jailbreak and root detection for Entra credentials</b> in the <i>Microsoft Authenticator app</i> on both <i>iOS and Android platforms</i>. This change enhances security by preventing Entra credentials from functioning on jailbroken/rooted devices. All existing Entra credentials on jailbroken or rooted devices will be wiped to protect your organization. This capability is secure by default and does not require any admin configuration or control.</p>\n\n<p><b><b>When this will happen</b></b>&nbsp;</p><p>General Availability (Worldwide iOS) rollout begins in end of&nbsp;February 2026 and is expected to complete in mid-year 2026 (previously April).</p><p>General Availability (Worldwide Android) rollout begins in April 2026 (previously March) and is expected to complete in mid-year 2026 (previously April).</p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected: </i>All users of Microsoft Authenticator on<i> iOS and Android</i> whose Entra credentials are registered on jailbroken or rooted device. This is going to be a continuous check.</p><p><i>What will happen:\n</i></p><ul>\n<li>The feature is secure by default and enabled to all customers. There is no opt-out capability..</li>\n<li>Users on jailbroken or rooted devices will experience the following phased rollout. An estimated gap between 3 phases is ~ 1 month.<ul>\n    <li><b>Phase 1 – Warning Mode:</b> Users receive a warning that their device is jailbroken or rooted and will be blocked in the future (<i>screenshots 1-4):&nbsp;</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/beb8f151-0fec-4850-ba0f-635d0701e29b/93b5053c2bbedfdc6446212f216d768d28143b6c.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d66f573f-63a2-406d-80bc-5e6efca344c2/64e2a62f447ae5bc37f9cd3b102b5738eedca612.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/56d6c73c-0f2d-4358-bd84-8535d666d72a/a7787e5b4e617f42f5fc518c7275e784778ce814.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f853851c-5d82-42d4-919f-f58e71ed6392/68125f0701653c908b1dcb0fb298129e341653be.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p>\n    <li><b>Phase 2 – Blocking Mode:</b> Users are blocked from registering Entra credentials or signing in via Authenticat<i>or (screenshots 5-8):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1a9e9851-03bf-417f-a856-61d7a737b1e5/d693be8dfa550579dc6cc2671d89626ca047b298.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1f63dbab-8c29-4ba5-a9cb-e0e818410144/3027e5d18ee8e34de4bebcec47dc1cfe95f464fe.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/868444c5-e822-4222-8070-58b404e93ec8/3eca2b6c8cba03b0f6b4f5b044bb957c77042387.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a18d8d9b-865f-4538-ae4d-1109c5fae208/0630acfe5cc3ffe59b682534a8655889ee9730a7.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li><b>Phase 3 – Wipe Mode:</b> Existing Entra credentials are wiped from jailbroken or rooted dev<i>ices (screenshots 9-11):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9e527487-28a9-4845-b606-627ff7b02ffd/adcf9c5a4b9a13cab64eb896df72d5ba757f37b7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3bff0720-5bb2-4143-9863-516e5d043308/32869666bfd397a6062b056ec37562bd8681ca49.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/71630251-2343-41df-af14-d37f93d0cfad/fe9d8fe9edac55284409a8680ef2e9b2d8285a0b.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n</li>\n<li>Users on non-Jailbroken or non-rooted devices will not be affected.</li></ul><ul>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Notify users about this upcoming change. Users will see error messages or banners in the Authenticator app during warning or blocking phases. These screens are dismissible but indicate the device status.</li>\n<li>Communicate to helpdesk staff that Authenticator will become unusable for Entra accounts on jailbroken or rooted devices.</li>\n<li>Update internal documentation if you reference Authenticator usage.</li>\n<li>No admin action is required to enable or configure this feature.</li>\n</ul><p></p>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc\" target=\"_blank\">About Microsoft Authenticator | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting late February 2026, Microsoft Authenticator will detect jailbroken/rooted iOS and Android devices, blocking Entra credential use in three phases: warning, blocking, and wiping credentials. This security feature is automatic, affects only jailbroken/rooted devices, and requires no admin action. Notify users and update documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2026-07-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1179154",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-24T20:51:06.633Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-24T22:08:24Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>We're introducing context preservation behavior in Microsoft Teams that restores recent conversation and view state when users return after a brief period.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It's associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557184\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">557184</a>.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n</ul><p>Targeted Release: Rollout begins <b>early April 2026</b> and is expected to complete by <b>mid-April 2026</b>.&nbsp;</p><p>General Availability (Worldwide): Rollout begins <b>mid-April 2026</b> (previously&nbsp;mid-March)<b>&nbsp;</b>and is expected to complete by <b>late April 2026</b> (previously&nbsp;late March)</p><ul>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n\n<ul>\n<li>When users leave a <b>chat</b>, <b>channel</b>, or <b>Quick View</b> and return <b>within 30 minutes</b>, <ul><li>Their previously selected <b>tab </b>is restored</li><li>Any <b>opened side panel </b>is restored</li><li>The <b>layout </b>is restored</li><li>In Quick View, the previously selected <b>message </b>is restored</li></ul></li>\n<li>This supports <b>short interruptions and quick context switching</b>, allowing users to resume work without resetting their workspace</li>\n<li>When users return <b>after more than 30 minutes</b>:<ul><li>The conversation or view opens in the <b>default layout</b>&nbsp;</li><li>Prior context is not restored</li></ul></li>\n<li>The feature is <b>enabled by default</b></li>\n<li>There are no new admin controls or configuration options</li></ul><p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No action is required</p><ul>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -5240,52 +5513,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing a new capability in <i>Microsoft Purview eDiscovery (Premium) </i>that allows eDiscovery users to <b>add a statistical sample of search results to a review set</b>. This enhancement helps organizations validate search results earlier in the investigation process, improving confidence in data relevance before committing all results to review.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b43cf390-37c0-4683-bd5d-4016cb59ad16/2424bdacd6be642e5c5b336b5f841b642f617501.png\" style=\"width: 400px;\"></p><p>With this update, reviewers can include a representative subset of items based on configurable sampling criteria, enabling faster early‑stage assessment while reducing review volume.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516578#Roadmap\" target=\"_blank\">516578</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in<b> late February 2026</b> and is expected to complete by <b>late February 2026</b>.</p><p><b>General Availability (GCC, GCCH, and DoD)</b>: Rollout will begin in<b> early March 2026</b> and is expected to complete by<b> late March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Administrators and eDiscovery (Premium) users who manage or review search results and review sets in <i>Microsoft Purview</i>.</p><p><i>What will happen</i>:</p><ul><li>This change does not impact any other Microsoft Purview or Microsoft 365 services.</li><li>Users will see new sampling options after search statistics have been generated for a search.</li><li>Users can choose to add all search results to a review set or add a sample of results based on configurable statistical inputs.</li><li>When sampling is selected, reviewers can specify:<ul><li>Confidence level</li><li>Confidence interval</li><li>Percentage‑based sampling options</li></ul></li><li>This capability integrates with existing eDiscovery workflows.</li><li>No changes are made to permissions, access controls, or review set behaviors.</li><li>No features are being removed or replaced.</li><li>The feature will be <b>available by default</b> when it reaches your tenant.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No prerequisites are required, and no action is needed to prepare for this change. The capability will become available automatically.</p><p>If helpful, you may consider:</p><ul><li>Reviewing internal eDiscovery workflows.</li><li>Updating training or documentation to reflect how sampling can support early validation of search results.</li></ul><p>Learn more about eDiscovery: <a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery solutions | Microsoft Learn</a>\n</p><p>Learn more about adding search results to review set: <a href=\"https://learn.microsoft.com/purview/edisc-search-add-to-review-set?view=o365-worldwide\" target=\"_blank\">Add search results to a review set in eDiscovery | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "516578"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery (Premium) will enable adding a statistical sample of search results to review sets, allowing earlier validation and reduced review volume. Rollout starts February 2026 worldwide and March 2026 for GCC/DoD. No prep needed; feature integrates with existing workflows and is enabled by default."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227079",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-05T00:02:48.89Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T00:02:25Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery – Add sample to review set",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-03-15T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -5814,53 +6041,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Teams: Teams Live Events is retiring",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 3, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Microsoft 365 Copilot in PowerPoint</b> will soon support enterprise image libraries hosted on <b>Adobe Experience Manager (AEM)</b>. This integration allows users to generate slides using branded images from your organization’s asset library, helping maintain brand consistency and streamline content creation.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516037\" target=\"_blank\">516037</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516038\" target=\"_blank\">516038</a>, and&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516039\" target=\"_blank\">516039</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins end of February 2026 (previously early February) and is expected to complete by end of April 2026 (previously end of March)</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations using Adobe Experience Manager for brand asset management</li>\n<li>Admins and brand managers configuring enterprise image libraries</li>\n<li>PowerPoint users leveraging Microsoft 365 Copilot</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Admins can connect enterprise image libraries from AEM to Microsoft 365 Copilot in PowerPoint.</li>\n<li>Users will be able to generate slides using branded images from AEM.</li>\n<li>If no enterprise image library is connected, the branded image option will be disabled, and only Microsoft 365 images will be available.</li>\n<li>This feature is available by default for admins to configure; no opt-in required.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Deploy AEM assets <b>Microsoft 365 Copilot Connector</b> by following the steps outlined in the article&nbsp;<a href=\"https://learn.microsoft.com/microsoftsearch/adobe-experience-manager-assets-deployment\" target=\"_blank\">Deploy the Adobe Experience Manager Assets Microsoft 365 Copilot connector</a>.<a href=\"https://learn.microsoft.com/en-us/microsoftsearch/adobe-experience-manager-assets-deployment\" target=\"_blank\"></a></li><li>Give your final consent on the <b style=\"\">Adobe Experience Manager Assets</b> screen</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/80289aec-3651-4253-a9b2-70260047ac29\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Ensure images in AEM include robust metadata (keywords, titles, alt-text) for better searchability.</li>\n<li>Communicate this change to your design and marketing teams.</li>\n<li>Update internal documentation if you detail image sourcing for PowerPoint.</li></ul><p>Once setup is complete, users can select the <b style=\"\">New Slide with Copilot icon</b> in the PowerPoint ribbon, enter a prompt, and choose their preferred image source—either Microsoft 365 images or their organization’s branded image library—via the <b>Image Source</b> menu.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/af1aeed2-72a9-4b8d-a864-aae929f08e11/d31f900110e856899061e91fc31b46377dfcbe24.png\" style=\"width: 400px;\" alt=\"user settings\"></p>Note: We recommend enabling this feature only if your image library contains more than 1,000 images with robust metadata.<p></p><p>\n</p><ul>\n</ul>\n<p>Learn more:</p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/microsoftsearch/adobe-experience-manager-assets-overview\" target=\"_blank\">About Adobe Experience Manager Assets Microsoft 365 Copilot connector</a></li><li><a href=\"https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc\" target=\"_blank\">Keep your presentation on-brand with Copilot</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "516037,516038,516039"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot in PowerPoint will support enterprise image libraries via Adobe Experience Manager starting late February 2026. Admins can connect AEM libraries to enable branded image use in slide creation, enhancing brand consistency. Setup requires deploying the AEM Copilot connector and ensuring robust image metadata."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Mac, Web, Desktop"
-      }
-    ],
-    "EndDateTime": "2026-06-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1217648",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-03T16:39:42.59Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-14T02:10:23Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot | PowerPoint now supports enterprise image libraries via AEM (Adobe Experience Manager)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8109,52 +8289,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>&nbsp;Coming soon for Microsoft Teams: Meeting participants will be able to request an annotation session while someone else is sharing their screen.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop. (Users can view and annotate in Teams on the web but cannot initiate annotations.)\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early March 2026 (previously early February) and expect to complete by late March 2026 (previously mid-February).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out late March 2026 (previously mid-February) and expect to complete by late April 2026 (previously late February).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen who can choose to accept or deny it:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f808a149-d9f2-4b5d-8cb8-1ff99c8d60a1\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>If the request is accepted, the annotation session will start for everyone in the meeting:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/382d6182-ffc1-4db8-8b6f-b42d24c4144b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p> Anonymous users in the meeting will not be able to send a request.\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (we will update this before rollout)\n</p><p>Watch: <a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "89975"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting March 2026, Microsoft Teams desktop users can request collaborative annotation sessions during screen sharing. Presenters can accept or deny these requests. Anonymous users cannot request annotations. The feature rolls out automatically with no admin action needed; users should be notified and documentation updated accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-05-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1019312",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-27T17:13:37.953Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-28T01:28:59Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Meeting participants can request collaborative annotation sessions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n\n<p>We’re introducing the ability for Outlook mobile users to open and send <b>OFT files (Outlook File Templates)</b>. This feature allows users to view and open OFT files as draft messages, enabling easier reuse of existing Outlook email templates.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548642\" target=\"_blank\">548642</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p>\nGeneral Availability (Worldwide, GCC, GCC High, and DoD): We will begin rollout <b>early February 2026</b> and expect to complete<b> early March 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:&nbsp;</b>All users who access Outlook on mobile devices.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will be able to open OFT files on mobile.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9b3e7eea-3169-4cc6-a1a1-37f3b41ad1d4\" style=\"width: 250px;\" alt=\"user settings\"></p><li>This feature is available by default.</li>\n  <li>OFT files will open as a draft message.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4c873724-b91d-4795-a061-e277343e9298\" style=\"width: 250px;\" alt=\"user settings\"></p>\n  <li>Users can reuse Outlook email templates directly from mobile.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n\n<ul><li>\nNo action is required.</li><li>Update your internal training and documentation if your organization references this feature.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n\n<p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -8916,52 +9050,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p></p><p></p><p><b><b>Introduction</b></b></p><p>To help provide additional transparency about what content has been generated or altered by using AI in <i>Microsoft 365</i>, Microsoft is providing you with a policy setting that visually designates when content, such as video or audio content, is generated or altered by using AI. This policy setting controls your organization’s option to add a visual or audio watermark to video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>.  \n</p><p>\n</p><p>To turn on watermarks for video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>, you need to use the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy. This policy is available only in <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\" target=\"_blank\"><i>Cloud Policy service for Microsoft 365</i></a>.&nbsp;</p><p><b>Note:</b> Watermarks are not turned on unless you set the policy to <b>Enabled</b>. Your organization is always responsible for following the <a href=\"https://learn.microsoft.com/legal/ai-code-of-conduct\" target=\"_blank\">Microsoft Enterprise AI Services Code of Conduct</a>, including not generating or sharing deceptive AI content.&nbsp;</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=547831\" target=\"_blank\">547831</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We anticipate that this policy will be available in <i>Cloud Policy </i>by&nbsp;the <b>second half of February 2026</b>.</p><p></p><p><b><b>How this will affect your organization</b></b></p><p></p><i>Who is affected</i><p></p><p>Users that generate or alter video and audio content by using AI in <i>Microsoft 365</i></p><p></p><p><i>What will happen</i></p><p>If you set the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy to <b>Enabled </b>in Cloud Policy, a visual or audio watermark is added to video and audio content that is generated or altered by using AI in <i>Microsoft 365</i>. Here are two examples:</p><ul><li>A visual watermark is added to a video generated with Clipchamp.</li><li>An audio watermark is added to an audio overview generated by Copilot from a Word document.</li></ul><b>Notes:</b><ul><li>This policy doesn’t affect images generated or altered by using AI in <i>Microsoft 365</i>.</li><li>Instead, your users will be able to turn on watermarks for images by going to<b> Settings &amp; Privacy &gt; Privacy</b> at <a href=\"https://myaccount.microsoft.com\" target=\"_blank\">https://myaccount.microsoft.com</a>. We anticipate this capability will be available in the <b>second half of February 2026</b>.&nbsp;</li></ul><p></p><p><b><b>What you need to do to prepare</b></b></p><p></p>Review the information in the following article: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/watermarks\" target=\"_blank\">Add watermarks to content generated or altered by using AI in Microsoft 365</a>. If you decide to set the<b> “Include a watermark when content from Microsoft 365 is generated or altered by AI”</b> policy to <b>Enabled</b>, inform your users that a visual or audio watermark will be added to video and audio content that they generate or alter by using AI in <i>Microsoft 365</i>.&nbsp;<p></p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "547831"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 will offer a policy to add visual or audio watermarks to AI-generated or altered video and audio content, available via Cloud Policy by February 2026. This enhances transparency but does not apply to images, which users can watermark through privacy settings separately."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221451",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-23T00:54:26.78Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:53:50Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New policy to add watermarks to content generated or altered by using AI in Microsoft 365",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding a new way for Microsoft Purview administrators to <b>export adaptive scope members using PowerShell</b>. Today, admins can review current and historical membership in<i> adaptive scopes through the Purview portal</i>. Based on customer feedback, we are introducing a <b>PowerShell cmdlet</b> that offers more flexibility—enabling automated exports, offline analysis, and the ability to resume exports if an operation is interrupted.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide, GCC, GCCH, and DoD): </b>Rollout began and will be completed within<i style=\"\"> </i><b>January 2026.</b></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected:</i></p><ul><li>Administrators who manage Microsoft Purview Data Lifecycle Management, Microsoft Purview Communication Compliance</li><li>Organizations that export adaptive scope membership lists for compliance, reporting, or operational review</li></ul><p><i>What will happen:</i></p><ul><li>A <b>new PowerShell cmdlet</b> will be available to export adaptive scope members.</li><li>Admins can continue using the Microsoft Purview portal; no existing workflows or UI experiences will change.</li><li>The PowerShell cmdlet offers:<ul><li>Granular control over export parameters</li><li>Ability to automate export scenarios using scripts or scheduled tasks</li><li>Ability to resume an interrupted export operation</li></ul></li><li>The feature will be <b>available by default for</b> all tenants.</li><li>There will be no user impact.</li></ul><p><b><b>What you can do to prepare</b></b>\n</p><p>No action is required to prepare for this change.</p><p>If you plan to use the PowerShell option after it becomes available, you may want to:</p><ul><li>Review or update internal scripts that manage adaptive scopes.</li><li>Inform your compliance or security operations teams about the new export method.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/get-adaptivescopemembers?view=exchange-ps\" target=\"_blank\">Get-AdaptiveScopeMembers | policy-and-compliance-retention | Exchange PowerShell | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -9080,45 +9168,6 @@
       "User impact"
     ],
     "Title": "PowerPoint adds AI-powered image editing with \"Designer editor\"",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 22, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Starting end of February 2026, we will introduce<b> jailbreak and root detection for Entra credentials</b> in the <i>Microsoft Authenticator app</i> on both <i>iOS and Android platforms</i>. This change enhances security by preventing Entra credentials from functioning on jailbroken/rooted devices. All existing Entra credentials on jailbroken or rooted devices will be wiped to protect your organization. This capability is secure by default and does not require any admin configuration or control.</p>\n\n<p><b><b>When this will happen</b></b>&nbsp;</p><p>General Availability (Worldwide iOS) rollout begins in end of&nbsp;February 2026 and is expected to complete in May 2026 (previously April).</p><p>General Availability (Worldwide Android) rollout begins in March 2026 (previously February) and is expected to complete in June 2026 (previously April).</p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><i>Who is affected: </i>All users of Microsoft Authenticator on<i> iOS and Android</i> whose Entra credentials are registered on jailbroken or rooted device. This is going to be a continuous check.</p><p><i>What will happen:\n</i></p><ul>\n<li>The feature is secure by default and enabled to all customers. There is no opt-out capability..</li>\n<li>Users on jailbroken or rooted devices will experience the following phased rollout. An estimated gap between 3 phases is ~ 1 month.<ul>\n    <li><b>Phase 1 – Warning Mode:</b> Users receive a warning that their device is jailbroken or rooted and will be blocked in the future (<i>screenshots 1-4):&nbsp;</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/beb8f151-0fec-4850-ba0f-635d0701e29b/93b5053c2bbedfdc6446212f216d768d28143b6c.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d66f573f-63a2-406d-80bc-5e6efca344c2/64e2a62f447ae5bc37f9cd3b102b5738eedca612.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/56d6c73c-0f2d-4358-bd84-8535d666d72a/a7787e5b4e617f42f5fc518c7275e784778ce814.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f853851c-5d82-42d4-919f-f58e71ed6392/68125f0701653c908b1dcb0fb298129e341653be.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p>\n    <li><b>Phase 2 – Blocking Mode:</b> Users are blocked from registering Entra credentials or signing in via Authenticat<i>or (screenshots 5-8):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1a9e9851-03bf-417f-a856-61d7a737b1e5/d693be8dfa550579dc6cc2671d89626ca047b298.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1f63dbab-8c29-4ba5-a9cb-e0e818410144/3027e5d18ee8e34de4bebcec47dc1cfe95f464fe.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/868444c5-e822-4222-8070-58b404e93ec8/3eca2b6c8cba03b0f6b4f5b044bb957c77042387.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a18d8d9b-865f-4538-ae4d-1109c5fae208/0630acfe5cc3ffe59b682534a8655889ee9730a7.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li><b>Phase 3 – Wipe Mode:</b> Existing Entra credentials are wiped from jailbroken or rooted dev<i>ices (screenshots 9-11):</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9e527487-28a9-4845-b606-627ff7b02ffd/adcf9c5a4b9a13cab64eb896df72d5ba757f37b7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3bff0720-5bb2-4143-9863-516e5d043308/32869666bfd397a6062b056ec37562bd8681ca49.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/71630251-2343-41df-af14-d37f93d0cfad/fe9d8fe9edac55284409a8680ef2e9b2d8285a0b.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n</li>\n<li>Users on non-Jailbroken or non-rooted devices will not be affected.</li></ul><ul>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><ul>\n<li>Notify users about this upcoming change. Users will see error messages or banners in the Authenticator app during warning or blocking phases. These screens are dismissible but indicate the device status.</li>\n<li>Communicate to helpdesk staff that Authenticator will become unusable for Entra accounts on jailbroken or rooted devices.</li>\n<li>Update internal documentation if you reference Authenticator usage.</li>\n<li>No admin action is required to enable or configure this feature.</li>\n</ul><p></p>\n\n<p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc\" target=\"_blank\">About Microsoft Authenticator | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting February 2026, Microsoft Authenticator will detect jailbroken/rooted devices and block Entra credentials on iOS and Android. The rollout includes warning, blocking, and wiping phases. This security feature is automatic with no opt-out. Users on non-jailbroken/rooted devices remain unaffected. Notify users and helpdesk accordingly."
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1179154",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-22T20:20:03.067Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-24T22:08:24Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9721,53 +9770,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention – Additional diagnostics for Data Loss Prevention and Information Protection",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 20, 2026: We have updated the timeline. Thank you for your patience.</p><p>Coming soon to Microsoft Teams: When users connect to their organization's Wi-Fi, Teams can automatically set their work location to reflect the building they are working in. This makes it easier for users to coordinate work with their coworkers and connect in person.</p><p> This feature is opt-in and requires you to take action to configure it. After you turn it on, end-users remain in control and can choose whether to share their work location with their coworkers.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=488800\" target=\"_blank\">488800</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide): We will begin rolling out early March 2026 (previously early February) and expect to complete by mid-March 2026 (previously mid-February).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature allows you to map Wi-Fi networks and devices to buildings, which allows your users to have their work location automatically updated when they connect. This is a major improvement over the current experience which relies on end-users to manually set their work location. When this feature is configured and enabled, Teams can automatically update the work location of users who connect their laptop to your organization's Wi-Fi network or peripherals. The feature can leverage the mapping between your building names and your Wi-Fi networks to set the work location of your users to the right building. It can also leverage mappings to&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/bookable-desks\" target=\"_blank\">specific peripherals</a>, such as monitors. Teams uses the same policy to enable or disable automatic updates of work location for Wi-Fi and peripherals. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/teams/new-csteamsworklocationdetectionpolicy\" target=\"_blank\">New-CsTeamsWorkLocationDetectionPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn</a></p><p>Teams will not update the location of your users if they connect after their working hours (that they can configure in the Microsoft Outlook Calendar). Also, their work location will be cleared at the end of their working hours.</p><p>\n</p><p><b>What you need to do to prepare:</b></p><p>Automatic update of work location is off by default, but it can greatly improve the experience of your users. We recommend turning it on and configuring it in your tenant.\n</p><p>Before rollout, we will update this post with new documentation.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "488800"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting March 2026, Microsoft Teams will let users automatically set their work location by connecting to organizational Wi-Fi or peripherals. This opt-in feature improves location accuracy, requires admin configuration, respects working hours, and applies to Teams on Windows and Mac desktops."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-04-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1081568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-20T17:21:37.39Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-23T23:15:29Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Automatically set work location by connecting to a Wi-Fi network",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
