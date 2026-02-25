@@ -4,6 +4,53 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated February 25, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft Teams is introducing simplified meeting passcodes to reduce friction when joining meetings, especially when participants must manually enter a passcode. This feature is off by default and must be explicitly enabled by a tenant administrator.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555858#Roadmap\" target=\"_blank\">555858</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: We will begin rolling out in<b> early April 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by <b>mid-April 2026 </b>(previously&nbsp;mid-March).</li><li><b>General Availability</b><ul><li><b>Worldwide &amp; GCC</b>: We will begin rolling out in <b>mid-April 2026</b> (previously&nbsp;mid-March)&nbsp;and expect to complete by <b>late April 2026</b> (previously&nbsp;late March).</li><li><b>GCCH &amp; DoD</b>: We will begin rolling out in<b>&nbsp;early May 2026</b> (previously early April)&nbsp;and expect to complete by <b>mid-May 2026</b> (previously&nbsp;mid-April).</li></ul></li></ul><p><b><b>How this affects your organization</b></b></p><ul></ul><p></p><p><i>Who is affected</i>:</p><p>Tenant administrators who manage meeting security settings in <i>Microsoft Teams</i>.</p><p><i>What will happen</i>:</p><ul><li>A new admin setting allows simplified<b> 8‑digit numeric‑only meeting passcodes</b>.</li><li>The feature is <b>off by default</b>; admins must opt in.</li><li>The setting can be applied to:<ul><li>Specific users</li><li>Groups</li><li>The entire tenant</li></ul></li><li>Only newly scheduled meetings use numeric‑only passcodes.</li><li>Existing meetings are not changed.</li><li>If the feature remains off, Teams continues to use the default, more complex passcodes.</li></ul><p><b>Security considerations:</b></p><ul><li>Numeric‑only passcodes reduce cryptographic strength relative to the default setting.</li><li>The simplified passcode applies whether users join via meeting ID or by clicking a meeting link.</li><li>Admins will see a security warning when enabling the setting.</li><li>All other Teams meeting security controls remain unchanged, including:<ul><li>Lobby and admission controls</li><li>Organizer and participant policies</li><li>Tenant authentication and access controls</li></ul></li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review your organization's meeting security requirements.</li><li>Decide whether simplified passcodes meet your policies.</li><li>If enabling, determine appropriate scope (users, groups, or tenant‑wide).</li><li>If maintaining current behavior, no action is required.</li><li>Consider updating internal documentation and informing helpdesk staff if you enable the feature.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "555858"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce an admin-controlled option for simpler 8-digit numeric-only meeting passcodes, off by default and requiring opt-in. Rollout begins April 2026. This reduces passcode complexity but lowers cryptographic strength. Existing meetings remain unchanged; admins should review security policies before enabling."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1232096",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-25T20:06:00.243Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-14T01:58:19Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Admin setting for simpler meeting passcodes (numeric‑only)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated February 25, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Coming soon to SharePoint: Tenant admins will be able to centrally manage site branding using PowerShell. This update supports consistent branding across all SharePoint sites by enabling enforcement of enterprise themes, disabling custom branding on specific sites, and auditing branding changes. These capabilities help organizations maintain a unified brand experience and improve governance.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526794\" target=\"_blank\" style=\"\">526794</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Targeted Release (Worldwide):</b> Begins late November 2025, completes early March 2026 (previously mid-December 2025)</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Begins mid-March 2026 (previously end of February), completes end of March 2026 (previously end of February)</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Tenant admins managing SharePoint Online branding and governance.</p>\n<p><b>What will happen:</b></p>\n\n<ul>\n<li>Admins can disable or enable custom site branding per site using PowerShell.</li>\n<li>When site branding is disabled, site managers lose access to <b>Site branding </b>page in <b>Site Settings</b>.</li>\n<li>Admins can apply enterprise themes (including multi-color themes) to specific sites via PowerShell.</li>\n<li>Branding changes made via PowerShell are tracked for audit and accountability.</li>\n<li>New site creation scripts can include branding settings to ensure consistency from launch.</li>\n<li>Admins can remove existing <b>Brand Center</b>&nbsp;via PowerShell.</li>\n<li>Theme management via PowerShell is transitioning to a centralized model:\n  <ul>\n    <li>The <b>primary geo</b> will act as the central location for organization-wide theme creation and management.</li>\n    <li><b>Satellite geos</b> will be able to view and apply themes from the primary geo using <code>Get-SPOTheme</code> and <code>Set-SPOWebTheme</code> cmdlets.</li>\n    <li>Themes previously created in satellite geos will remain available, but creating new themes in satellite geos will no longer be supported.</li>\n  </ul>\n</li>\n</ul>\n\n\n<p><b><b>Here’s what’s new:</b></b></p>\n<ul>\n<li><b>Consistent branding enforcement:</b> Admins can disable or enable custom branding per site. When disabled, site managers lose access to <b>Site branding</b> page in <b>Site Settings</b>.</li>\n<li><b>Automated theme application:</b> Apply approved enterprise themes (including multi-color themes) to specific sites using PowerShell.</li>\n<li><b>Audit and transparency:</b> All branding changes made via PowerShell are tracked, enabling visibility into who made updates.</li>\n<li><b>Automated site creation with branding:</b> Embed theme settings directly into site creation scripts to ensure new sites launch with consistent branding.</li>\n<li><b>Easier Brand Center management:</b> Admins can remove an existing Brand Center via PowerShell to reset or update branding controls.</li>\n<li><b>Centralized theme management across geos:</b> Themes created in the primary geo are visible and applicable in satellite geos. Satellite geos can apply but not create new themes going forward.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review PowerShell documentation:\n  <ul>\n    <li><a href=\"https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/set-sposite?view=sharepoint-ps\" target=\"_blank\">Set-SPOSite</a>\n</li><li><a href=\"https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/get-spotheme?view=sharepoint-ps\" target=\"_blank\">Get-SPOTheme</a>\n</li><li><a href=\"https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/set-spowebtheme?view=sharepoint-ps\" target=\"_blank\">Set-SPOWebTheme</a></li>\n  </ul>\n</li>\n<li>Upgrade your SharePoint Online Management Shell to the latest version after rollout.</li>\n<li>Communicate branding governance changes to your SharePoint admin team.</li>\n<li>Update internal documentation to reflect new PowerShell capabilities and theme management model.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -3481,52 +3528,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Intune In Development for February 2026 is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft Teams is introducing simplified meeting passcodes to reduce friction when joining meetings, especially when participants must manually enter a passcode. This feature is off by default and must be explicitly enabled by a tenant administrator.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555858#Roadmap\" target=\"_blank\">555858</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: We will begin rolling out in <b>early March 2026</b> and expect to complete by <b>mid-March 2026</b>.</li><li><b>General Availability</b><ul><li><b>Worldwide &amp; GCC</b>: We will begin rolling out in <b>mid-March 2026</b> and expect to complete by <b>late March 2026</b>.</li><li><b>GCCH &amp; DoD</b>: We will begin rolling out in<b> early April 2026</b> and expect to complete by <b>mid-April 2026</b>.</li></ul></li></ul><p><b><b>How this affects your organization</b></b></p><ul></ul><p></p><p><i>Who is affected</i>:</p><p>Tenant administrators who manage meeting security settings in <i>Microsoft Teams</i>.</p><p><i>What will happen</i>:</p><ul><li>A new admin setting allows simplified<b> 8‑digit numeric‑only meeting passcodes</b>.</li><li>The feature is <b>off by default</b>; admins must opt in.</li><li>The setting can be applied to:<ul><li>Specific users</li><li>Groups</li><li>The entire tenant</li></ul></li><li>Only newly scheduled meetings use numeric‑only passcodes.</li><li>Existing meetings are not changed.</li><li>If the feature remains off, Teams continues to use the default, more complex passcodes.</li></ul><p><b>Security considerations:</b></p><ul><li>Numeric‑only passcodes reduce cryptographic strength relative to the default setting.</li><li>The simplified passcode applies whether users join via meeting ID or by clicking a meeting link.</li><li>Admins will see a security warning when enabling the setting.</li><li>All other Teams meeting security controls remain unchanged, including:<ul><li>Lobby and admission controls</li><li>Organizer and participant policies</li><li>Tenant authentication and access controls</li></ul></li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review your organization's meeting security requirements.</li><li>Decide whether simplified passcodes meet your policies.</li><li>If enabling, determine appropriate scope (users, groups, or tenant‑wide).</li><li>If maintaining current behavior, no action is required.</li><li>Consider updating internal documentation and informing helpdesk staff if you enable the feature.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "555858"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will offer an admin setting to enable simpler 8-digit numeric-only meeting passcodes, off by default and requiring admin opt-in. This reduces passcode complexity but lowers cryptographic strength. The rollout begins March 2026, affecting only new meetings, with existing security controls unchanged."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-05-16T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1232096",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-14T01:58:38.827Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-14T01:58:19Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Admin setting for simpler meeting passcodes (numeric‑only)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
