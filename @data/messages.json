@@ -4,6 +4,84 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to enable outline level to the tasks in resource assignment view in Dynamics 365 Project Operations. This feature will reach general availability on March 31, 2026.<br><br>\n<b>How does this affect me?</b><br>\nThis feature allows users to view the outline number directly alongside tasks in the assignment view. Tasks are sorted by outline number when grouped by tasks, ensuring better visibility and alignment with the Work Breakdown Structure (WBS) hierarchy. This improvement enhances usability, reduces friction in task identification, and provides a more intuitive and efficient experience for users managing assignments.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.\n<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO14042\" target=\"_blank\">Enable outline level to the tasks in resource assignment view.</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-03-31T19:33:00Z",
+    "HasAttachments": false,
+    "Id": "MC1239829",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-26T19:35:15.143Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-26T19:33:46Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Project Operations - Enable outline level to the tasks in resource assignment view",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p><b>\nBrand Impersonation Protection</b> for Teams Calling adds proactive safeguards against fraudulent or deceptive external callers who attempt to appear as trusted organizations. This helps reduce social-engineering risks and improves tenant security when users receive first-contact external calls. This update aligns with Microsoft’s ongoing investments in caller identity protection and secure collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=543239\" target=\"_blank\">543239</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\nTargeted Release: Rollout will begin early April 2026 (previously mid-March)<b>&nbsp;</b>and is expected to complete by late April 2026 (previously late March)<b>.</b><br>\nGeneral Availability: Timelines will be communicated in a future message.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All organizations using Microsoft Teams Calling that receive inbound VoIP calls from first-contact external callers.</li>\n</ul>\n\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n  <li>Teams will evaluate inbound calls for signs of brand impersonation.</li>\n  <li>Users will see high-risk call warnings before answering suspicious calls.</li>\n  <li>Warnings may continue during the call if risk signals persist.</li>\n  <li>Users can accept, block, or end the call.</li>\n  <li>The feature will be enabled by default.</li>\n  <li>Existing Teams Calling policies remain unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\nNo admin action is required at this time.</p>\n\n<ul>\n  <li>Inform helpdesk staff that users may begin seeing high-risk call warnings.</li>\n  <li>Update internal training materials if applicable.</li>\n  <li>Review Microsoft documentation on caller ID security when available.</li></ul><p>Before rollout, we will update this post with new documentation.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "543239"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Brand Impersonation Protection for Teams Calling will roll out from April to late April 2026, warning users of suspicious external calls to reduce fraud risks. It enables default high-risk call alerts without changing existing policies. No admin action is needed; prepare by informing helpdesk and updating training."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-05-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1219793",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-26T19:04:10.167Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-21T00:38:47Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Brand impersonation protection for Teams Calling",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to use preview dial for high-value proactive engagements in Dynamics 365 Contact Center. This feature will reach general availability on March 31, 2026. <br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables administrators to create service representative-led proactive engagements with preview dialing to support high-value customer interactions that require personalized support.<br><br> \nIn the Copilot Service admin center, administrators and journey authors can:<ul> \n\n<li>Specify if the preview dial needs to be started automatically and specify the time allowed for the representative to review the details before the call starts automatically.</li> \n\n<li>Allow the representative to choose the best number to dial from the contact phone numbers list. </li></ul> \n\n<b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.<br><br>  \n\nIf you would like more information on this feature, please visit <a href=\" https://aka.ms/14034/use-preview-dial-high-value-proactive-engagements \" target=\"_blank\"> Use preview dial for high-value proactive engagements</a>.",
       "ContentType": "html"
     },
@@ -757,7 +835,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1080,7 +1158,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1847,7 +1925,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6774,7 +6852,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871125Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871125Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6866,7 +6944,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8060,7 +8138,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8294,7 +8372,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8544,7 +8622,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8940,53 +9018,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Private channels increased limits and transition to group compliance",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p><b>\nBrand Impersonation Protection</b> for Teams Calling adds proactive safeguards against fraudulent or deceptive external callers who attempt to appear as trusted organizations. This helps reduce social-engineering risks and improves tenant security when users receive first-contact external calls. This update aligns with Microsoft’s ongoing investments in caller identity protection and secure collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=543239\" target=\"_blank\">543239</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\nTargeted Release: Rollout will begin mid-March 2026 (previously&nbsp;mid-February)<b>&nbsp;</b>and is expected to complete by late March 2026 (previously&nbsp;late February)<b>.</b><br>\nGeneral Availability: Timelines will be communicated in a future message.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All organizations using Microsoft Teams Calling that receive inbound VoIP calls from first-contact external callers.</li>\n</ul>\n\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n  <li>Teams will evaluate inbound calls for signs of brand impersonation.</li>\n  <li>Users will see high-risk call warnings before answering suspicious calls.</li>\n  <li>Warnings may continue during the call if risk signals persist.</li>\n  <li>Users can accept, block, or end the call.</li>\n  <li>The feature will be enabled by default.</li>\n  <li>Existing Teams Calling policies remain unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\nNo admin action is required at this time.</p>\n\n<ul>\n  <li>Inform helpdesk staff that users may begin seeing high-risk call warnings.</li>\n  <li>Update internal training materials if applicable.</li>\n  <li>Review Microsoft documentation on caller ID security when available.</li></ul><p>Before rollout, we will update this post with new documentation.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "543239"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Brand Impersonation Protection for Teams Calling will roll out starting mid-March 2026, detecting and warning users of suspicious external calls to reduce fraud risks. It will be enabled by default, requires no admin action, and aims to enhance security without changing existing policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-04-27T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1219793",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-27T17:17:25.15Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-21T00:38:47Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Brand impersonation protection for Teams Calling",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10571,7 +10602,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14184,7 +14215,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14737,7 +14768,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
+        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15160,7 +15191,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16867,7 +16898,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17389,7 +17420,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461736Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.946174Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461744Z\",\"LatestRing\":null}]}"
+        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.946174Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461736Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461744Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17649,7 +17680,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17700,7 +17731,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18454,7 +18485,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18893,7 +18924,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
