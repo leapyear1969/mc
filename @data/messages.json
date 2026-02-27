@@ -4,6 +4,178 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated February 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re excited to announce the rollout of a new built-in role-based access control (RBAC) role in the Microsoft Teams admin center called Teams Reader. This role is designed to provide read-only access across all* pages in the Teams admin center, enabling secure visibility without the risk of unintended changes.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out early June 2025 and expect to complete by late June 2025.</p><p><b>How this will affect your organization:</b></p><p>The new Teams Reader role is ideal for scenarios where visibility into Teams admin settings is required without granting edit permissions.\n</p><p>The new role can read everything* that the Teams admin can manage but not update anything.\n</p><p><i>*Role limitations</i></p><ul><li>No access to view Teams management (will be added soon; we will update this post when available)\n</li><li>No access to <i>Meetings &amp; Calls</i> details of users (will be added soon; we will update this post when available)\n</li><li>No access to <i>Notifications &amp; Rules</i> management (will be added soon; we will update this post when available)\n</li><li>No access to Frontline worker deployment management\n</li><li>No access to the <i>Collaboration activity </i>dashboard\n</li></ul><p>\n</p><p>Global admins can perform assign/unassign operations for the new RBAC role from the Microsoft Entra admin center or Microsoft 365 admin center. This new role will be available to be assigned to Administrative units as well from the Entra admin center or the Microsoft 365 admin center.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. Notify your Global admins about the availability of this new role. Update internal documentation and training materials to reflect the new role and its capabilities.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/using-admin-roles\" target=\"_blank\">Use Microsoft Teams administrator roles to manage Teams - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is introducing a new Teams Reader role in the admin center, providing read-only access to most settings without edit rights. It will roll out worldwide from June 2025. Some areas remain inaccessible. Global admins can assign this role via Microsoft Entra or Microsoft 365 admin centers. No action is needed before rollout."
+      }
+    ],
+    "EndDateTime": "2026-03-06T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1085581",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-27T18:30:10.977Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-05-30T19:32:56Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams admin center: New Teams Reader role",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing the <b>Advanced Review Set Explorer&nbsp;</b>(public preview) for review sets in <i>Microsoft Purview eDiscovery (Premium)</i>.</p><p>eDiscovery has long supported Keyword Query Language (KeyQL) because it provides a familiar, approachable, and powerful way to search and filter content—while working consistently across both search and review experiences. For many users and workflows, KeyQL remains the recommended and most efficient way to build queries.</p><p>At the same time, we understand that power users and advanced reviewers often need greater flexibility to slice, aggregate, and analyze review set data in more sophisticated ways. To meet this need, we’re adding a Kusto Query Language (KQL)–based experience to review sets through the Advanced Review Set Explorer.</p><p>With this update, reviewers will have two query options:</p><ul><li>KeyQL, for familiar, streamlined search and filtering experiences</li><li>KQL, for advanced data exploration, aggregation, transformation, and visualization within a review set</li></ul><p>The new Advanced review set explorer's key capabilities include:</p><ul><li>Run advanced review set explorer using Kusto Query Language (KQL)</li><li>Apply complex filters, aggregations, and transformations</li><li>Visualize results with bar, column, and pie charts</li><li>Query across more than 100 metadata properties</li><li>Identify trends, detect patterns, and analyze data distribution</li>\n</ul>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484086\" target=\"_blank\">484086</a>.</p>\n\n<p><b><b>When this will happen</b></b>\n</p><ul><li><b>Public Preview (Worldwide, excluding government clouds):</b>&nbsp;We will start rolling out in <b>February 2026</b>&nbsp;and expect to complete in&nbsp;<b>February 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> We will start rolling out in <b>late August 2026</b> (previously&nbsp;July)&nbsp;and expect to complete in <b>late August 2026</b> (previously&nbsp;July).</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i>\nOrganizations using Microsoft Purview eDiscovery (Premium).</p>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>A new Advanced Review Set Explorer will be available in review sets.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Users with eDiscovery review permissions can run KQL queries.</li><li>Users can continue using existing KeyQL‑based searching within review set without change.</li>\n  <li>No existing queries or workflows are modified.</li>\n  <li>Existing admin policies and permissions are unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>Inform eDiscovery teams that both KeyQL and KQL are supported, and users can choose the option that best fits their needs.</li><li>Consider providing KQL training or reference materials.</li>\n  <li>Update internal documentation or workflows as needed.</li>\n  <li>Inform eDiscovery teams about this new capability.</li>\n  <li>Review Microsoft Learn content on eDiscovery solutions.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/kusto/query/?view=microsoft-fabric&amp;toc=%2Fazure%2Fsentinel%2FTOC.json&amp;bc=%2Fazure%2Fsentinel%2Fbreadcrumb%2Ftoc.json\" target=\"_blank\">Kusto Query Language overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "484086"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery (Premium) introduces the Advanced Review Set Explorer with Kusto Query Language (KQL) for advanced data analysis alongside existing KeyQL. Public preview starts February 2026; general availability in late August 2026. The feature is enabled by default without affecting current workflows or permissions."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221453",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-27T18:27:20.423Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:55:35Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | eDiscovery – Advanced review set explorer",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>\n</p><p>Updated February 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n<p>We’re updating Microsoft 365 Copilot image generation experiences by introducing OpenAI’s latest image generation model—GPT‑Image‑1.5—into Microsoft 365 Copilot and Copilot Chat. This update improves prompt adherence, image editing precision, visual fidelity, and generation speed, enabling users to create higher-quality, more accurate visuals across Copilot Chat entry points and the Create experience in the <i>Microsoft 365 Copilot app</i>.</p>\n\n<b><b>When this will happen</b></b>\n<ul>\n<li><b>Rollout start</b> (web, Windows, macOS, and mobile): Late December 2025</li>\n<li><b>Rollout end</b> (web, Windows, macOS, and mobile):<b> </b>Late January 2026</li>\n<li><b>General Availability (Worldwide): </b>We will begin rolling out in <b>mid-December 2025</b> and expect to complete by <b>end of March 2026</b> (previously&nbsp;late January).</li>\n</ul>\n\n<b><b>How this affects your organization</b></b>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Tenants where Copilot image generation experiences are currently available.</li>\n<li>Access level depends on licensing:\n<ul>\n<li>Users with a Microsoft 365 Copilot license have priority access.</li>\n<li>Users without a Microsoft 365 Copilot license have standard access, which may vary based on service capacity.<ul><li>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f\" target=\"_blank\">Standard versus priority access to features in Microsoft 365 Copilot Chat | Microsoft Support</a></li></ul></li></ul></li></ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>GPT‑4o will be replaced by GPT‑Image‑1.5 for supported Microsoft 365 Copilot image generation scenarios.</li>\n<li>New image generation and supported image editing requests will automatically use GPT‑Image‑1.5.</li>\n<li>No new admin controls or configuration changes are introduced; existing policies continue to apply.</li>\n</ul>\n\n<p><b>What users may notice:</b></p>\n<ul>\n<li>Improved instruction following for text-to-image requests.</li>\n<li>More accurate rendering of requested styles, composition, and on-image text.</li>\n<li>More reliable region-specific image editing with fewer unintended changes.</li>\n<li>Higher-quality visuals with more realistic lighting, textures, and composition.</li>\n<li>Faster generation—up to 4× improvement for many prompts.</li>\n<li>More consistent preservation of facial likeness, lighting, and color tone during iterative edits.</li>\n</ul>\n\n<p><b>What does not change:</b></p>\n<ul>\n<li>No change to admin controls or governance settings.</li>\n<li>Compliance, security, and privacy commitments remain the same.</li>\n<li>Customer data handling, storage locations, and processing paths are unchanged.</li>\n<li>Existing Copilot image safety and compliance controls continue to apply.</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b>\n<ul>\n<li>No action is required. Eligible tenants will automatically receive this update during the rollout window.</li>\n<li>If helpful for internal readiness, you may:\n<ul>\n<li>Inform helpdesk or support teams of expected improvements in image quality and editing behavior.</li>\n<li>Review Copilot image governance documentation as needed.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>Additional resources:</b></p>\n<ul>\n<li><a href=\"https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-openai%E2%80%99s-gpt-image-1-5-in-microsoft-foundry/4478139\" target=\"_blank\">Introducing OpenAI’s GPT‑Image‑1.5 in Microsoft Foundry | Microsoft Community Hub</a></li>\n<li><a href=\"https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322\" target=\"_blank\">Understanding foundation model changes in Microsoft 365 Copilot | Microsoft Community Hub</a></li>\n</ul>\n\n<b><b>Compliance considerations</b></b>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "OpenAI's GPT-Image-1.5 model is being integrated into Microsoft 365 Copilot from December 2025 to March 2026, enhancing image generation with better accuracy, speed, and quality. Existing policies remain unchanged, and no action is required from users; eligible tenants will receive the update automatically."
+      }
+    ],
+    "EndDateTime": "2026-04-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1200577",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-27T17:53:39.453Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-19T23:41:41Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "OpenAI's GPT-Image-1.5 model is now available in Microsoft 365 Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n</p><p>To enhance wireless content sharing in meeting spaces, Microsoft Teams Rooms on Windows devices will soon support Miracast. This complements existing options like Teams Cast and HDMI ingest and is available for devices including touch boards. This feature is exclusive to Teams Rooms Pro.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506748\" target=\"_blank\">506748</a>.</p>\n\n<b><b>When this will happen:</b></b>\n\n<ul><li><b>Targeted release: </b>We will begin rolling out in early May 2026 (previously mid-March) and expect to complete by mid-May 2026 (previously end of March).\n</li><li><b>General Availability: </b>We will begin rolling out mid-May 2026 (previously end of March) and expect to complete by late May 2026 (previously mid-April).</li></ul>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected: </b>Admins managing Teams Rooms on Windows devices with Teams Rooms Pro licenses.</p>\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>Miracast will be available as a wireless sharing option in Teams Rooms on Windows.</li>\n<li>The feature will be <b>OFF by default</b> and can be enabled via a tenant-wide toggle in the IT admin portal.</li>\n<li>Laptop devices must support Miracast to use this feature.</li>\n<li>No impact to end-user workflow unless enabled by admin.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review your Teams Rooms device compatibility with Miracast.</li>\n<li>Enable the feature via the IT admin portal if desired.</li>\n<li>Communicate the availability of Miracast to helpdesk and meeting room support staff.</li>\n<li>Update internal documentation to reflect the new sharing option.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "506748"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Windows (Pro only) will support Miracast for wireless content sharing, rolling out from May to late May 2026. The feature is off by default, enabled via admin portal, requires Miracast-compatible laptops, and impacts only admins managing Teams Rooms devices."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1186374",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-27T17:32:58.593Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-15T00:01:30Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Miracast support for Teams Rooms on Windows (Teams Rooms Pro only)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated February 27, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Turn scanned PDF files into editable, searchable text using built-in <b>Optical Character Recognition (OCR)</b> in the OneDrive mobile app. This feature helps users reuse information, speed up document workflows, and make content easier to find.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability for Worldwide, GCC, and GCCH: Rollout begins early January 2026 (previously mid-December 2025) and is expected to complete by early February 2026 (previously late January).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> All users of OneDrive mobile apps on iOS and Android.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users can recognize text in scanned PDF files directly within the OneDrive mobile app.</li><li>The feature is enabled by default.</li>\n<li>To use the feature:</li>\n<ol>\n<li>Open the <b>OneDrive</b> mobile app.</li>\n<li>Open the scanned <b>PDF</b> you want to make searchable.</li>\n<li>Long-press the page and select <b>Recognize Text</b> (on iOS) or <b>Recognize text</b> (on Android).</li>\n<li>After OCR completes, users will see the message: <b>Text is now selectable.</b></li>\n</ol>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9b089f38-8594-4baa-b780-3396da7883fa\" style=\"width: 300px;\" alt=\"user settings\"></p>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required from admins.</li>\n<li>Some users may see this feature before others as rollout progresses.</li>\n<li>Communicate this change to helpdesk staff to assist users with the new functionality.</li>\n<li>Update internal documentation if you provide guidance on OneDrive mobile features.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/office/how-to-use-optical-character-recognition-to-read-pdfs-in-onedrive-51c0d5fc-260f-4139-b16b-b427e91edf09\">How to use optical character recognition to read PDFs in OneDrive - Microsoft Support</a>&nbsp;</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -9591,52 +9763,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing the <b>Advanced Review Set Explorer&nbsp;</b>(public preview) for review sets in <i>Microsoft Purview eDiscovery (Premium)</i>.</p><p>eDiscovery has long supported Keyword Query Language (KeyQL) because it provides a familiar, approachable, and powerful way to search and filter content—while working consistently across both search and review experiences. For many users and workflows, KeyQL remains the recommended and most efficient way to build queries.</p><p>At the same time, we understand that power users and advanced reviewers often need greater flexibility to slice, aggregate, and analyze review set data in more sophisticated ways. To meet this need, we’re adding a Kusto Query Language (KQL)–based experience to review sets through the Advanced Review Set Explorer.</p><p>With this update, reviewers will have two query options:</p><ul><li>KeyQL, for familiar, streamlined search and filtering experiences</li><li>KQL, for advanced data exploration, aggregation, transformation, and visualization within a review set</li></ul><p>The new Advanced review set explorer's key capabilities include:</p><ul><li>Run advanced review set explorer using Kusto Query Language (KQL)</li><li>Apply complex filters, aggregations, and transformations</li><li>Visualize results with bar, column, and pie charts</li><li>Query across more than 100 metadata properties</li><li>Identify trends, detect patterns, and analyze data distribution</li>\n</ul>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484086\" target=\"_blank\">484086</a>.</p>\n\n<p><b><b>When this will happen</b></b>\n</p><ul><li><b>Public Preview (Worldwide, excluding government clouds):</b>&nbsp;We will start rolling out in <b>February 2026</b>&nbsp;and expect to complete in&nbsp;<b>February 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> We will start rolling out in <b>July 2026</b> and expect to complete in <b>July 2026</b>.</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i>\nOrganizations using Microsoft Purview eDiscovery (Premium).</p>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>A new Advanced Review Set Explorer will be available in review sets.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Users with eDiscovery review permissions can run KQL queries.</li><li>Users can continue using existing KeyQL‑based searching within review set without change.</li>\n  <li>No existing queries or workflows are modified.</li>\n  <li>Existing admin policies and permissions are unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>Inform eDiscovery teams that both KeyQL and KQL are supported, and users can choose the option that best fits their needs.</li><li>Consider providing KQL training or reference materials.</li>\n  <li>Update internal documentation or workflows as needed.</li>\n  <li>Inform eDiscovery teams about this new capability.</li>\n  <li>Review Microsoft Learn content on eDiscovery solutions.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/kusto/query/?view=microsoft-fabric&amp;toc=%2Fazure%2Fsentinel%2FTOC.json&amp;bc=%2Fazure%2Fsentinel%2Fbreadcrumb%2Ftoc.json\" target=\"_blank\">Kusto Query Language overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "484086"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery (Premium) introduces the Advanced Review Set Explorer (public preview in February 2026) enabling Kusto Query Language (KQL) for advanced data analysis alongside existing KeyQL. It offers complex filtering, visualization, and querying across 100+ metadata properties, with no impact on current workflows or permissions."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221453",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-23T00:55:53.197Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:55:35Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery – Advanced review set explorer",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If a tenant does not opt in to passkey profiles during the initial rollout window, the new schema will be automatically enabled at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings.</li><li>For tenants that have synced passkeys enabled, <b>Microsoft-managed</b> registration campaigns will update to target passkeys.</li></ul><p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in<b> early March 2026 </b>and is expected to complete by<b> late March 2026</b>.<ul><li><b>Automatic enablement for tenants that have not yet opted in (Worldwide):</b> Rollout begins in <b>early April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul></li><li><b>General Availability (GCC, GCC High, and DoD): </b>Rollout begins in<b> early April 2026 </b>and is expected to complete by<b> late April 2026.</b><ul><li><b>Automatic enablement for tenants that have not yet opted in (GCC, GCC High, and DoD): </b>Rollout begins in<b> early June 2026 </b>and is expected to complete by<b> late June 2026.&nbsp;</b></li></ul></li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i> All Microsoft Entra ID tenants</p>\n<p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b><b>Registration Campaign behavior (Microsoft-managed campaigns only)</b></b></p><ul><li>For tenants where synced passkeys are enabled, if your registration campaign is set to Microsoft-managed:&nbsp;<ul><li>The targeted authentication method will be updated from <b>Microsoft Authenticator</b> to <b>passkeys</b>.</li><li>The default user targeting will be updated from <b>voice call </b>or <b>text message</b> <b>users </b>to <b>all multifactor authentication (MFA) capable users.&nbsp;</b></li><li>The settings <b>Limited number of snoozes</b> and<b> Days allowed to snooze </b>will no longer be configurable. These will be set to allow unlimited snoozes with a one-day reminder cadence.</li></ul></li></ul><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you want synced passkeys enabled in your tenant but do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-mfa-registration-campaign\" target=\"_blank\">How to run a registration campaign to set up Microsoft Authenticator - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
       "ContentType": "html"
     },
@@ -9917,53 +10043,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Q&A in Read Aloud enables real-time voice interactions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 22, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n</p><p>To enhance wireless content sharing in meeting spaces, Microsoft Teams Rooms on Windows devices will soon support Miracast. This complements existing options like Teams Cast and HDMI ingest and is available for devices including touch boards. This feature is exclusive to Teams Rooms Pro.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506748\" target=\"_blank\">506748</a>.</p>\n\n<b><b>When this will happen:</b></b>\n\n<ul><li><b>Targeted release: </b>We will begin rolling out in mid-March 2026 (previously mid-February) and expect to complete by end of March 2026 (previously end of February).\n</li><li><b>General Availability: </b>We will begin rolling out end of March 2026 (previously end of February) and expect to complete by mid-April 2026 (previously end of March).</li></ul>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected: </b>Admins managing Teams Rooms on Windows devices with Teams Rooms Pro licenses.</p>\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>Miracast will be available as a wireless sharing option in Teams Rooms on Windows.</li>\n<li>The feature will be <b>OFF by default</b> and can be enabled via a tenant-wide toggle in the IT admin portal.</li>\n<li>Laptop devices must support Miracast to use this feature.</li>\n<li>No impact to end-user workflow unless enabled by admin.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Review your Teams Rooms device compatibility with Miracast.</li>\n<li>Enable the feature via the IT admin portal if desired.</li>\n<li>Communicate the availability of Miracast to helpdesk and meeting room support staff.</li>\n<li>Update internal documentation to reflect the new sharing option.</li>\n</ul>\n\n<b><b>Compliance considerations:</b></b><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "506748"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Rooms on Windows (Pro only) will support Miracast for wireless content sharing, rolling out from mid-March to mid-April 2026. The feature is off by default, enabled via admin portal, requires Miracast-compatible laptops, and has no impact unless activated. Prepare by reviewing compatibility and updating documentation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-05-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1186374",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-22T17:47:04.137Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-15T00:01:30Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Miracast support for Teams Rooms on Windows (Teams Rooms Pro only)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12829,44 +12908,6 @@
       "Admin impact"
     ],
     "Title": "Teams admin center: Auto‑updates for Teams Android device firmware and apps will be paused during year‑end holidays",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<b><b>Introduction</b></b>\n<p>We’re updating Microsoft 365 Copilot image generation experiences by introducing OpenAI’s latest image generation model—GPT‑Image‑1.5—into Microsoft 365 Copilot and Copilot Chat. This update improves prompt adherence, image editing precision, visual fidelity, and generation speed, enabling users to create higher-quality, more accurate visuals across Copilot Chat entry points and the Create experience in the <i>Microsoft 365 Copilot app</i>.</p>\n\n<b><b>When this will happen</b></b>\n<ul>\n<li><b>Rollout start</b> (web, Windows, macOS, and mobile): Late December 2025</li>\n<li><b>Rollout end</b> (web, Windows, macOS, and mobile):<b> </b>Late January 2026</li>\n<li><b>General Availability (Worldwide): </b>We will begin rolling out in <b>mid-December 2025</b> and expect to complete by <b>late January 2026</b>.</li>\n</ul>\n\n<b><b>How this affects your organization</b></b>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Tenants where Copilot image generation experiences are currently available.</li>\n<li>Access level depends on licensing:\n<ul>\n<li>Users with a Microsoft 365 Copilot license have priority access.</li>\n<li>Users without a Microsoft 365 Copilot license have standard access, which may vary based on service capacity.<ul><li>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f\" target=\"_blank\">Standard versus priority access to features in Microsoft 365 Copilot Chat | Microsoft Support</a></li></ul></li></ul></li></ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>GPT‑4o will be replaced by GPT‑Image‑1.5 for supported Microsoft 365 Copilot image generation scenarios.</li>\n<li>New image generation and supported image editing requests will automatically use GPT‑Image‑1.5.</li>\n<li>No new admin controls or configuration changes are introduced; existing policies continue to apply.</li>\n</ul>\n\n<p><b>What users may notice:</b></p>\n<ul>\n<li>Improved instruction following for text-to-image requests.</li>\n<li>More accurate rendering of requested styles, composition, and on-image text.</li>\n<li>More reliable region-specific image editing with fewer unintended changes.</li>\n<li>Higher-quality visuals with more realistic lighting, textures, and composition.</li>\n<li>Faster generation—up to 4× improvement for many prompts.</li>\n<li>More consistent preservation of facial likeness, lighting, and color tone during iterative edits.</li>\n</ul>\n\n<p><b>What does not change:</b></p>\n<ul>\n<li>No change to admin controls or governance settings.</li>\n<li>Compliance, security, and privacy commitments remain the same.</li>\n<li>Customer data handling, storage locations, and processing paths are unchanged.</li>\n<li>Existing Copilot image safety and compliance controls continue to apply.</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b>\n<ul>\n<li>No action is required. Eligible tenants will automatically receive this update during the rollout window.</li>\n<li>If helpful for internal readiness, you may:\n<ul>\n<li>Inform helpdesk or support teams of expected improvements in image quality and editing behavior.</li>\n<li>Review Copilot image governance documentation as needed.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>Additional resources:</b></p>\n<ul>\n<li><a href=\"https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-openai%E2%80%99s-gpt-image-1-5-in-microsoft-foundry/4478139\" target=\"_blank\">Introducing OpenAI’s GPT‑Image‑1.5 in Microsoft Foundry | Microsoft Community Hub</a></li>\n<li><a href=\"https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322\" target=\"_blank\">Understanding foundation model changes in Microsoft 365 Copilot | Microsoft Community Hub</a></li>\n</ul>\n\n<b><b>Compliance considerations</b></b>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will replace GPT-4o with OpenAI’s GPT-Image-1.5 from mid-December 2025 to late January 2026, enhancing image generation quality, speed, and accuracy without changing admin controls or compliance settings. Eligible users receive the update automatically."
-      }
-    ],
-    "EndDateTime": "2026-03-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1200577",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-19T23:42:07.94Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-19T23:41:41Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "OpenAI's GPT-Image-1.5 model is now available in Microsoft 365 Copilot",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18819,44 +18860,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Defender: Changes to Defender for Cloud Apps alerts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We’re excited to announce the rollout of a new built-in role-based access control (RBAC) role in the Microsoft Teams admin center called Teams Reader. This role is designed to provide read-only access across all* pages in the Teams admin center, enabling secure visibility without the risk of unintended changes.</p><p><b>When this will happen:</b>\n</p><p>General Availability (Worldwide, GCC): We will begin rolling out early June 2025 and expect to complete by late June 2025.\n</p><p>General Availability (GCC High, DoD): We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p><b>How this will affect your organization:</b></p><p>The new Teams Reader role is ideal for scenarios where visibility into Teams admin settings is required without granting edit permissions.\n</p><p>The new role can read everything* that the Teams admin can manage but not update anything.\n</p><p><i>*Role limitations</i></p><ul><li>No access to view Teams management (will be added soon; we will update this post when available)\n</li><li>No access to <i>Meetings &amp; Calls</i> details of users (will be added soon; we will update this post when available)\n</li><li>No access to <i>Notifications &amp; Rules</i> management (will be added soon; we will update this post when available)\n</li><li>No access to Frontline worker deployment management\n</li><li>No access to the <i>Collaboration activity </i>dashboard\n</li></ul><p>\n</p><p>Global admins can perform assign/unassign operations for the new RBAC role from the Microsoft Entra admin center or Microsoft 365 admin center. This new role will be available to be assigned to Administrative units as well from the Entra admin center or the Microsoft 365 admin center.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current configuration to assess the impact on your organization. Notify your Global admins about the availability of this new role. Update internal documentation and training materials to reflect the new role and its capabilities.</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/using-admin-roles\" target=\"_blank\">Use Microsoft Teams administrator roles to manage Teams - Microsoft Teams | Microsoft Learn</a> (will be updated before rollout)\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing a new Teams Reader role in the admin center, providing read-only access to most settings. The rollout begins in June 2025 for general availability and July 2025 for GCC High and DoD. Global admins can assign this role, which is ideal for visibility without edit permissions. No admin action is required before rollout."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1085581",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-05-30T19:33:06.81Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-30T19:32:56Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams admin center: New Teams Reader role",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
