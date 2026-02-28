@@ -1,5 +1,88 @@
 [
   {
+    "ActionRequiredByDateTime": "2026-03-31T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>retiring the Impala connector</b> across Copilot Studio, Logic Apps, Power Apps, and Power Automate. This change aligns with our efforts to streamline our connector catalog, reduce maintenance of legacy components, and focus on modern, widely adopted data connectivity options. After this retirement, the Impala connector will no longer be supported.</p><p><b><b>When this will happen</b></b></p><ul><li>Retirement begins: <b>April&nbsp;1, 2026</b></li><li>Retirement completed: <b>April 14, 2026</b></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>Organizations using the Impala connector in any of the following services:</p><ul><li>Copilot Studio (Premium)</li><li>Logic Apps (Standard)</li><li>Power Apps (Premium)</li><li>Power Automate (Premium)</li></ul><p><i>What will happen</i></p><ul><li>The Impala connector will be retired and removed from Copilot Studio, Logic Apps, Power Apps, and Power Automate.</li><li>Existing connections using the Impala connector will stop functioning after the retirement window.</li><li>New connections using the Impala connector will no longer be allowed.</li><li>The connector and its actions—including Get row, Get rows, and Get tables—will no longer be accessible.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>To reduce service disruption:</p><ul><li>Review your apps, flows, and Logic Apps that currently use the Impala connector.</li><li>Migrate any dependencies to supported alternative connectivity solutions (for example, connector options that support your organization’s Hadoop‑based environments).</li><li>Notify users and solution owners who rely on this connector.</li><li>Update internal documentation, runbooks, and helpdesk scripts to remove references to the Impala connector.</li><li>Learn more about the connector’s current capabilities and behavior through our documentation:&nbsp;<a href=\"https://learn.microsoft.com/connectors/impala/\" target=\"_blank\">Apache Impala | Connector reference | Connectors | Microsoft Learn</a></li></ul><p>If your apps or flows require ongoing connectivity to Impala endpoints, consult your data platform owners to determine your long‑term connectivity strategy.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Impala connector will be retired and removed from Copilot Studio, Logic Apps, Power Apps, and Power Automate between April 1-14, 2026. Existing connections will stop working, and new ones won't be allowed. Users should migrate to alternative connectors and update related documentation to avoid disruption."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240748",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-02-28T00:09:35.797Z",
+    "Services": [
+      "Microsoft Power Automate in Microsoft 365"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-28T00:08:31Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Retiring the Impala connector",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p><b><b>Introduction</b></b></p><p>We’re enhancing the <b>SharePoint page template gallery</b> experience to improve how users discover, browse, and use templates when creating pages and news posts, while also introducing 31 new templates. These enhancements streamline entry points, improve navigation consistency, and make it easier for users to find the right template for their content.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490565\" target=\"_blank\">490565</a></b>.</p><p><b>&nbsp;<b>When this will happen</b></b></p><ul><li><b>Targeted Release):</b> We will begin rolling out in<b> early March 2006</b>&nbsp;and expect to complete by <b>mid-March 2026.</b></li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD)</b>: We will begin rolling out in&nbsp;<b>late March 2026</b> and expect to complete by <b>early April 2026</b>.</li><p><b></b></p></ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>SharePoint content creators and site owners</li>\n<li>Organizations using modern SharePoint sites</li>\n</ul><b>What will happen:</b><p></p>\n\n<ul><li><b>Expanded entry points to the SharePoint page template gallery:</b></li></ul>\n<ul>\n\n\n\n<ul><li>From <b>Site settings</b>, providing direct access to the template gallery during site configuration</li><li>From <b>Site contents (+ New)</b>, where selecting <b>Page</b> opens the template gallery instead of immediately creating a blank page</li><li>From <b>site onboarding experiences</b> (such as “Next steps”) on newly created sites, guiding users into template‑based creation</li><li>From the <b>Stream (video) app</b>, when selecting <b>Create video news post</b> under <b>Share</b></li></ul>\n</ul>\n\n<ul><li><b>Improved template browsing and filtering:</b></li></ul>\n<ul>\n\n\n<ul><li>Templates can be filtered by category, such as announcements, storytelling, video, or news</li><li>Multiple filters can be applied at the same time and easily cleared</li><li>Selected filters persist when switching between <b>Pages</b> and <b>News</b> views, helping users maintain context while exploring templates</li></ul>\n</ul>\n\n<ul><li><b>Unified experience for Pages and News templates:</b></li></ul>\n<ul>\n\n<ul><li>A single template gallery supports both Page and News Post creation</li><li>Templates automatically open in the correct creation mode (page or news) based on selection, reducing ambiguity during creation</li></ul>\n</ul>\n\n<ul><li><b>Search within the template gallery:</b></li></ul>\n<ul>\n\n<ul><li>Users can search for templates directly within the template gallery</li><li>Search can be combined with filters to quickly narrow down available templates</li></ul>\n</ul>\n\n<ul><li><b>New SharePoint templates:</b></li></ul>\n<ul>\n\n<ul><li>31 new modern SharePoint templates are introduced and available by default</li><li>Templates are designed to support common communication and storytelling scenarios</li></ul>\n</ul>\n\n<ul><li><b>Additional details:</b></li></ul>\n<ul>\n\n<ul><li>The feature is <b>enabled by default.</b></li><li>No tenant‑level configuration or policy changes are required.</li></ul>\n<li>Existing SharePoint permissions are respected.</li></ul><li><p><i>Screenshot 1 - Improved template browsing with pivot buttons and filtering by template categories:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/dd8d8577-9755-4b24-9833-f84cf7e01af6/57d365817e81d132dfac9bffb1fb3d5cbdaa36d1.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p></li><li><p><i>Screenshot 2 - New SharePoint templates:</i>&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a10fa654-11c5-47ab-b880-6bf85c22cc3d/a327f3bfd2d18d9f14229ac076310e5aa3bfbad6.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><ul>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>No action is required to enable or configure this feature</li>\n<li>Consider notifying content creators and site owners about the new template gallery entry points</li>\n<li>Update any internal documentation or training materials that reference creating blank SharePoint pages</li>\n<li>Optionally, inform helpdesk staff that users may see the template gallery instead of a blank page when creating pages or news posts</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://support.microsoft.com/office/page-templates-in-sharepoint-faa92408-0c84-4e3d-8460-3c28065e7873\" target=\"_blank\">(This page’s content will be refreshed at feature launch.) <b>Page templates in SharePoint | SharePoint | Microsoft Support</b></a></p><ul>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>This update changes how users initiate page and news creation but does not change how customer data is stored, processed, or governed in SharePoint.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "490565"
+      },
+      {
+        "Name": "Summary",
+        "Value": "SharePoint is enhancing its page template gallery with 31 new templates, improved browsing, filtering, search, and unified Pages and News creation. Entry points are expanded across site settings, site contents, onboarding, and Stream app. The feature is enabled by default, requiring no tenant changes, rolling out March–April 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240743",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-02-28T00:00:00.137Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-27T23:59:33Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "SharePoint page template gallery improvements and new templates",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -9129,7 +9212,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
