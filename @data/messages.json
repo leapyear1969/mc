@@ -4637,44 +4637,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>The <a href=\"https://aka.ms/Intune_InDevelopment\" target=\"_blank\">In development for Microsoft Intune</a> page in our documentation has been updated.</p><p><b>How this will affect your organization:</b>\n</p><p>The <a href=\"https://aka.ms/Intune_InDevelopment\" target=\"_blank\">In development page</a> provides a list of features in upcoming releases of Microsoft Intune to assist in your readiness and planning. The list has now been updated. You will start seeing these changes in the next month or in a subsequent release.</p><p><b>What you need to do to prepare:</b>\n</p><p>You can inform your IT staff and helpdesk of the upcoming changes listed on this page. Plan to update your user guidance, if you feel any of these features would be important to your users.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Intune In Development for February 2026 is available with an updated features list to aid organizational readiness. IT staff should review upcoming changes, inform helpdesk, and update user guidance as needed before these features roll out in the next month or later releases."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1232097",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-14T01:59:10.623Z",
-    "Services": [
-      "Microsoft Intune"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-14T01:59:01Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Intune In Development for February 2026 is now available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 13, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>Coming soon to Microsoft Purview | Information Protection: To help improve label usability and configuration, the sensitivity labeling scheme will be simplified to only consist of labels and label groupings.</p><p>This move to a dynamic architecture will make it easier to move a child label into label groups, out of label groups, and between label groups without losing referential integrity, allowing customers to better scale and reorganize their labels across their entire data estate.\n</p><p>Tenants in scope for manual migration to the new label scheme will see a message on the <i>Sensitivity labels</i> page in the Purview portal, where the tenant admin can access a simple manual migration wizard to opt in to the migration, which should complete in less than a few minutes or even seconds, depending on the label configuration.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/490e4ae4-a990-460a-a6e2-35622780e3b1\" width=\"400\" height=\"\"></p><p>\n</p><p>If you do not see this message, your tenant does not meet the criteria for manual migration (your tenant lacks applicable parent labels). This new label scheme will be rolled out to your tenant in the coming months. (and we will send a separate MC post in advance).\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=386900\" target=\"_blank\">386900</a>.</p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): Modern labels have been in Public Preview since July 7th 2025. This post announces the rollout of modern label scheme to new tenants and tenants with applicable parents.\n</p><p>General Availability (Worldwide): We will being rolling out early December 2025 and expect to be completed by mid-March 2026 (previously end of January). As part of GA, customers with non-applicable parents will be auto migrated to the modern label scheme while migration for customers with applicable parents will continue to be opt-in for 12 months post-GA. We will auto-migrate customers with applicable parents to the modern label scheme once the 12-month extension ends.&nbsp;</p><p><b>How this will affect your organization:</b></p><p>During migration, to ensure label scoping integrity, any applicable parent label will be converted to a child label under a new label group, and then both parent and child label will have the same display name as the original parent label. Non-applicable parent labels will automatically be converted to label groups.\n</p><p>A parent label is deemed applicable if it has a different scope from any of its children, has label actions, or is published separately from its children.\n</p><p>The manual migration wizard provides a preview of the migrated scheme so admins can better understand how their sensitivity label scheme will change after the migration.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f27dc36f-6558-4427-9865-7e02ce1e2a4e\" width=\"400\" height=\"\"></p><p>\n</p><p>After migration, admins are free to make changes to their migrated label scheme, including unpublishing applicable parent labels that were converted to children during migration.</p><p>Users will not notice any change in how labels are viewed or applied. This change will be on by default.</p><p>Example of a migrated label scheme:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/89e23e5c-513d-4045-a508-d194e5e573c9\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your tenant’s label scheme to ensure it is up to date. You may want to notify your admins about this change and update any relevant documentation.\n</p><p>Optionally, before you migrate your production tenant, consider migrating a test tenant configured with a label scheme that is representative of your production tenant, to become familiar with the migration process and the modern label scheme.</p><p>Learn more: <a href=\"https://learn.microsoft.com/en-us/purview/sensitivity-labels\" target=\"_blank\" style=\"\">Learn about sensitivity labels | Microsoft Learn</a></p>",
       "ContentType": "html"
     },
@@ -13403,44 +13365,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>SharePoint admins can now <b>customize the emails</b> <b>sent from Data Access Governance reports</b> to site owners and admins for site access reviews. Customizing email content helps improve the read-through rate of these emails, which can lead to faster responses and better governance across the tenant.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide, GCC, GCCH, DoD): </b>We will begin rolling out in<b> mid-December 2025</b> and expect to complete by<b> mid-January 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<ul>\n<li><b>Who is affected:</b> SharePoint Online admins managing Data Access Governance reports</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Admins can customize email content sent to site owners/admins during site access reviews.</li>\n<li>This feature is designed to improve engagement and response rates.</li>\n<li>No changes to existing policies; customization is optional.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you need to do to prepare</b></b></p>\n<ul>\n<li>Notify your SharePoint administrators about the ability to <a href=\"https://learn.microsoft.com/sharepoint/site-access-review#customize-email-to-site-owners\" target=\"_blank\">customize emails</a> from Data Access Governance reports.&nbsp;</li>\n<li>Update internal documentation and workflows to reflect this change.</li>\n<li>Review Microsoft documentation for guidance on customizing email templates.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/site-access-review#customize-email-to-site-owners\" target=\"_blank\">Customize email to site owners - Initiate site access reviews for Data access governance reports | Microsoft Learn</a></p><ul>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "SharePoint admins can customize emails sent from Data Access Governance reports for site access reviews starting mid-December 2025. This optional feature aims to improve email engagement and response rates without changing existing policies. Admins should update documentation and notify relevant teams accordingly."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1198704",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-17T19:48:35.333Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-17T19:48:29Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft SharePoint Online: Email customization for site access review from Data Access Governance reports",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>New Outlook for Windows will support Wait on Send for Oversharing</b>, allowing admins to block email sending if Data Loss Prevention (DLP) policy evaluation is not completed for labeled or sensitive content.<span style=\"background-color: rgb(255, 255, 255);\"> The new experience allows for multi-tasking and does not block the user from using New Outlook even when mail is in evaluation.</span></p>\n<p><span style=\"background-color: rgb(255, 255, 255);\">The wait-on-send experience is controlled through Exchange mailbox parameters:</span></p>\n<ul>\n<li><span style=\"background-color: rgb(255, 255, 255);\"><b>DLPWaitOnSendEnabled </b>– Boolean (true or false), Default: false</span></li>\n<li><span style=\"background-color: rgb(255, 255, 255);\"><b>DLPWaitOnSendTimeout</b> – Integer (0–10000 seconds), Default: 9999</span></li></ul><p><span style=\"background-color: rgb(255, 255, 255);\">Specifies how long Outlook waits for the DLP evaluation to finish before offering an override.</span></p><p><span style=\"background-color: rgb(255, 255, 255);\">Example: If the value is set to 25 seconds, Outlook will wait up to 25 seconds for the evaluation to complete before allowing the user to override and send the email without waiting for the evaluation to finish.</span></p><p><span style=\"background-color: rgb(255, 255, 255);\"><b>Note:</b> This does not stop the evaluation after the set time. It simply allows the user to override while the evaluation continues. If the user prefers, they can wait until the evaluation is fully completed.</span></p><p><span style=\"background-color: rgb(255, 255, 255);\">- When DLPWaitOnSendTimeout = 0, user will immediately see “Send Anyway” in the info bar of mail.&nbsp;\n</span></p><p><span style=\"background-color: rgb(255, 255, 255);\">- When DLPWaitOnSendTimeout &gt;= 9999, user will never be allowed to send the email without DLP evaluation getting completed.&nbsp;</span></p><ul>\n</ul>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498920\" target=\"_blank\">498920</a>.</p>\n<p><b><b>When this will happen</b></b></p><ul>\n<li>General Availability (Worldwide): Early January 2026 – Late January 2026</li>\n<li>General Availability (GCC): Early January 2026 – Early March 2026</li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing New Outlook for Windows users.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>New Outlook will support Wait on Send for DLP evaluation.</li>\n<li>Feature is <b>disabled by default</b>; admins must enable it via Exchange mailbox settings.</li>\n<li>Users can continue working while mail is under evaluation.</li>\n<li>Override behavior depends on <b>DLPWaitOnSendTimeout</b> configuration.</li>\n</ul>\n</li>\n</ul>\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>No action required unless you want to enable this feature.</li>\n<li>To enable, configure Exchange Online mailbox policy settings:\n<a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-organizationconfig?view=exchange-ps\" target=\"_blank\">Set-OrganizationConfig | ExchangePowerShell | Microsoft Learn</a></li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/dlp-ol365-win32-policy-tips#wait-on-send-dialog-support-for-oversharing-for-outlook-for-microsoft-365\" target=\"_blank\">Wait on Send dialog support for Oversharing for Outlook for Microsoft 365 | Microsoft Learn</a></p><ul>\n</ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -16441,43 +16365,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated November 12, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re updating how we bill for mid-term subscription changes to improve clarity and efficiency.</p><p><b>What’s changing:</b></p><p>Starting November 18, 2025 changes to existing subscriptions—such as adding or removing licenses, cancellations, and upgrades—will be billed the next day instead of at the beginning of the following month. This change ensures more timely and transparent billing, helping you better track and manage your subscription costs.&nbsp;</p><p><b>When this will happen:</b></p><p>When you see this change will depend on the country/region your account is in.&nbsp;</p><ul><li>Singapore and Italy: November 18 (previously November 13)&nbsp;</li><li>Asia-Pacific: November 24 (previously Nov 18)&nbsp;</li><li>Worldwide: Jan 6th</li></ul><p> <b>How this will affect your organization:</b>\n</p><p>If you have an account where your invoices start with a “G” and have purchased directly from Microsoft, your organization will be impacted by this change on the date the change is launched in your region. Purchases made through a partner or a volume licensing agreement are not impacted by this change.</p><p><b>Example \n</b></p><p><b>\n</b></p><p>If your account is in Singapore or Italy and you add a license to your subscription on November 18, you will receive an invoice for that additional license on November 19. Any consumption charges for Azure will continue to be billed on the monthly invoice available at the beginning of the following month.&nbsp;</p><p><b>Additional details about this change&nbsp;</b></p><p>During the month your region transitions:&nbsp;</p><ul><li>If you make no changes after the transition, previous changes remain on their original invoice schedule.&nbsp;</li><li>If you make changes after the transition, any pending charges from before the transition are invoiced immediately. You’ll also receive a separate invoice for the new changes.</li></ul><p> <b>What you need to do to prepare:</b></p><p>No action is required. This update will be applied automatically to all eligible subscriptions.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting November 18, 2025, mid-term subscription changes will be billed the next day instead of the following month, varying by region. This applies to direct Microsoft purchases with invoices starting with “G.” No action is needed; the update is automatic."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1176303",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-11-13T19:51:56.903Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-20T18:38:34Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact"
-    ],
-    "Title": "We’re updating how we bill for mid-term subscription changes",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated November 12, 2025: We have updated the content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To help organizations adopt Microsoft 365 Copilot securely, Microsoft Purview is introducing new capabilities in Microsoft Admin Center. These enhancements allow AI and IT admins to gain visibility into oversharing risks, remediate issues, and apply a new&nbsp;<b>Data Loss Prevention (DLP) </b>policy directly within&nbsp;<b>Microsoft Admin Center</b>. This update supports secure usage of Copilot by enabling protection of sensitive interactions.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/29f297a1-43ba-4cf8-97b4-8271996c8859\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523212\" target=\"_blank\" style=\"\">523212</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:</b>&nbsp;We will begin rolling out mid-November 2025 and expect to complete by late November 2025.</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;We will begin rolling out mid-January 2026 and expect to complete by late January 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft 365 Copilot and data security policies via Microsoft Admin Center or Purview portal.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>A new Security pivot will be added to the Microsoft Admin Center.</li>\n    <li>By default, a Purview data loss prevention policy for Copilot will be available in simulation mode. Admins can configure this policy and enable it to block specific sensitive information types from being used in Copilot. You can learn more in Message Center Post 1181998.</li>\n    <li>Visibility into oversharing risks and sensitive Copilot interactions will be available.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review how Copilot is secure by default and assess if additional protections are needed.</li>\n<li>Once the feature is released:<ul><li>Use an <a href=\"https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#ai-administrator\" target=\"_blank\">Entra AI Admin</a> or <a href=\"https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#global-administrator\" target=\"_blank\">Entra Global Admin</a> role to create a policy to block sensitive information types in Microsoft Admin Center.</li><li>Collaborate with your data security admin to apply additional protections and ensure compliance with AI regulations.</li><li>These actions can also be performed in the Purview portal. Learn more: <a href=\"https://learn.microsoft.com/purview/ai-m365-copilot\" target=\"_blank\">Use Microsoft Purview to manage data security &amp; compliance for Microsoft 365 Copilot &amp; Microsoft 365 Copilot Cha</a>t.</li></ul></li>\n\n</ul><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Alters how existing customer data is processed</td><td>Sensitive information types can be blocked from Copilot interactions, modifying how data is accessed and used.</td></tr>\n\n<tr><td>Modifies Purview capabilities</td><td>Adds ability to create DLP policy for Copilot from the Microsoft Admin Center.</td></tr>\n<tr><td>Alters admin monitoring/reporting</td><td>Admins gain visibility into oversharing risks and Copilot data usage.</td></tr>\n<tr><td>Includes admin control via Entra ID</td><td>Requires Entra AI Admin or Global Admin role to configure policies.</td></tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -16798,43 +16685,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Entra: Soft deletion and restoration for cloud security groups",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2025-12-02T08:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>As mentioned in MC1147982, as part of Microsoft’s ongoing <a href=\"https://www.microsoft.com/trust-center/security/secure-future-initiative\" target=\"_blank\">Secure Future Initiative (SFI)</a>, starting on or shortly after <b>December&nbsp;2, 2025</b>,&nbsp;the network service endpoints for Microsoft Intune  will also use the Azure Front Door IP addresses. This improvement supports better alignment with modern security practices and over time will make it easier for organizations using multiple Microsoft products to manage and maintain their firewall configurations. As a result, customers may be required to add these network (firewall) configurations in third-party applications to enable proper function of Intune device and app management. This change will affect customers using a firewall allowlist that allows outbound traffic based on IP addresses or Azure service tags.</p><p>Do not remove any existing network endpoints required for Microsoft Intune. Additional network endpoints are documented as part of the Azure Front Door and service tags information referenced in the files linked below:</p><ul><li>Public clouds: <a href=\"https://www.microsoft.com/download/details.aspx?id=56519\" target=\"_blank\">Download Azure IP Ranges and Service Tags – Public Cloud from Official Microsoft Download Center</a>&nbsp;</li><li>Government clouds: <a href=\"https://www.microsoft.com/download/details.aspx?id=57063\" target=\"_blank\">Download Azure IP Ranges and Service Tags – US Government Cloud from Official Microsoft Download Center</a>&nbsp;</li></ul><p>The additional ranges are those listed in the JSON files linked above and can be found by searching for “AzureFrontDoor.MicrosoftSecurity”.</p><p><b>How this will affect your organization:</b>\n</p><p>If you have configured an outbound traffic policy for Intune IP address ranges or Azure service tags for your firewalls, routers, proxy servers, client-based firewalls, VPN or network security groups, you will need to update them to include the new Azure Front Door ranges with the “AzureFrontDoor.MicrosoftSecurity” tag.&nbsp;</p><p>Intune requires internet access for devices under Intune management, whether for mobile device management or mobile application management. If your outbound traffic policy doesn’t include the new Azure Front Door IP address ranges, users may face login issues, devices might lose connectivity with Intune, and access to apps like the Intune Company Portal or those protected by app protection policies could be disrupted.</p><p><b>Note:</b> The previously available PowerShell scripts for retrieving Microsoft Intune endpoint IP addresses and FQDNs no longer returns accurate data from the Office 365 Endpoint service. Instead, use the <a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/intune-endpoints#consolidated-endpoint-list\" target=\"_blank\">consolidated list</a> provided in the Intune endpoints documentation. Using the original scripts or endpoint lists from the Office 365 Endpoint service is insufficient and may lead to incorrect configurations.</p><p><b>What you need to do to prepare:</b>\n</p><p>Ensure that your firewall rules are updated and added to your firewall’s allowlist with the additional IP addresses documented under Azure Front Door by <b>December 2, 2025</b>.&nbsp;</p><p>Alternatively, you may add the service tag “AzureFrontDoor.MicrosoftSecurity” to your firewall rules to allow outbound traffic on port 443 for the addresses in the tag.&nbsp;</p><p>If you are not the IT admin who can make this change, notify your networking team. If you are responsible for configuring internet traffic, refer to the following documentation for more details:</p><ul><li><a href=\"https://learn.microsoft.com/azure/frontdoor/origin-security?tabs=app-service-functions&amp;pivots=front-door-classic\" target=\"_blank\">Azure Front Door</a></li><li><a href=\"https://learn.microsoft.com/azure/virtual-network/service-tags-overview\" target=\"_blank\">Azure service tags</a></li><li><a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/intune-endpoints#intune-core-service\" target=\"_blank\">Intune network endpoints</a></li><li><a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/intune-us-government-endpoints\" target=\"_blank\">US government network endpoints for Intune</a></li></ul><p>For network best practices, make sure to check out the blog: <a href=\"https://techcommunity.microsoft.com/blog/intunecustomersuccess/support-tip-aligning-network-policy-with-microsoft-intune-and-zero-trust/4466688\" target=\"_blank\">Support tip: Aligning network policy with Intune and Zero Trust</a></p><p>If you have a helpdesk, inform them about this upcoming change. If you need additional assistance, contact <a href=\"https://learn.microsoft.com/intune/get-support\" target=\"_blank\">Microsoft Support</a> and refer to this message center post.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "By December 2, 2025, update firewall configurations to include new Azure Front Door IP addresses for Microsoft Intune. Add the service tag “AzureFrontDoor.MicrosoftSecurity” to allow outbound traffic on port 443. Do not remove existing Intune endpoints to ensure uninterrupted device and app management."
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183289",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-06T00:09:36.053Z",
-    "Services": [
-      "Microsoft Intune"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-06T00:07:49Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Reminder: Update firewall configurations to include new Intune network endpoints",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17981,52 +17831,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction:</b></b></p><p>To improve transparency and streamline post-export workflows, Microsoft Purview eDiscovery is enhancing metadata reporting in the <code>item.csv</code> files generated during Add to Review Set and Export processes. These updates are designed to provide deeper insights into item-level attributes and improve error traceability.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506220\" target=\"_blank\">506220</a>.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>General Availability (Worldwide, GCC, GCCH, DoD):</b> Rollout will begin in early October 2025 and is expected to complete by mid-November 2025.</li></ul><p><b><b>How this affects your organization:</b></b></p><p>Who is affected: Admins and users working with Microsoft Purview eDiscovery (Standard and Premium) workflows, particularly those who rely on metadata exports for review and automation.</p><p>What will happen:</p><ul><li>The <code>item.csv</code> report will have the follow updates:<ul><li>Status: Indicates if the item is processed successfully or has errors.</li><li>Error Detail: Detailed error messages for the item.</li><li>Custodian: SMTP address of the custodian the item was associated with.</li><li>Sensitivity label: GUID of the sensitivity label applied to the item.</li><li>IsEncrypted: True or false value to indicate if the item is encrypted.</li><li>SharePoint Item Content Type ID: Hexadecimal value representing the SharePoint content type.</li></ul></li><li>Admins will continue to have access to reports generated prior to this update. Newly generated reports will include the updated metadata fields and structure.</li><li>These changes will enhance visibility into item-level processing and support downstream automation and auditing.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review and update internal documentation to reflect the new field names and structure in the <code>item.csv</code> report.</li><li>Adjust automation or post-export workflows to rely on field names rather than fixed column positions.</li><li>Communicate these changes to relevant compliance and legal teams.</li><li>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "506220"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery will enhance metadata in item.csv reports starting October 2025, adding fields like status, error details, custodian, sensitivity label, encryption, and SharePoint content type ID. These updates improve item-level insights, error traceability, and support automation. Admins should update workflows and documentation accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1162273",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-29T23:04:02.527Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-29T23:03:53Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery - Metadata field enhancements in process reporting",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated September 29, 2025: After further review, we need to roll this back. We apologize for any inconvenience.</p><p><b>Introduction\n</b></p><p>Outlook Mobile for iOS and Android will soon support Data Loss Prevention (DLP) policy tips and enforcement. This update helps users avoid accidental data leaks by providing inline alerts or pop-ups when sensitive content is detected—based on admin-configured DLP rules. This enhancement brings DLP behavior in Outlook Mobile in line with Outlook for desktop and web, ensuring consistent compliance enforcement across platforms.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=496146\" target=\"_blank\">496146</a>.</p><p>\n</p><p><b>When this will happen\n</b></p><p>We will communicate via Message center when we are ready to proceed. </p><p><b>How this affects your organization</b></p><p>With this update, organizations using Microsoft Purview DLP policies will see those policies enforced in Outlook Mobile. When users attempt to send messages containing sensitive information—such as credit card numbers or national IDs—they will receive policy tips or blocking dialogs, depending on how the policy is configured.\n</p><p>This change enhances your organization’s data protection posture and supports regulatory compliance. If DLP policies are already in place for Outlook desktop or web, no additional configuration is required. The feature is on by default and requires no admin action to enable.\n</p><p>What you can do to prepare</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><b style=\"box-sizing: border-box; font-weight: bold;\">What you can do to prepare</b></p><p><b></b></p><ul><li>Review existing DLP policies in Microsoft Purview to ensure they are scoped to include mobile clients.\n</li><li>No new policies are required if DLP is already in use for Outlook desktop or web.\n</li><li>No additional licensing is needed beyond what is already in place for Microsoft Purview DLP.\n</li></ul><p>Find more on this topic:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies\" target=\"_blank\">Learn about data loss prevention</a>.</p><p><b>Compliance considerations</b></p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>DLP policies or enforcement</td><td>This release introduces DLP enforcement in Microsoft Outlook Mobile.</td></tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -18522,97 +18326,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>\nWe’re introducing Microsoft Graph APIs for tenants with <i>Standard eDiscovery licenses</i>, enabling automation and integration of eDiscovery workflows. These APIs support case management, search, hold, and export operations, offering a secure and consistent experience aligned with the Purview portal.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500869\" target=\"_blank\">500869</a>.</p>\n\n<p><b>When this will happen</b></p><p>\n</p><ul>\n<li><b>Public Preview:</b> Rolling out early September 2025; expected completion by mid-September 2025.</li>\n<li><b>General Availability (Worldwide):</b> Rolling out early November 2025; expected completion by mid-November 2025.</li>\n</ul><p></p>\n\n<p><b>How this affects your organization</b></p><p>\nIf your organization uses a <i>Standard eDiscovery license</i>, you can now automate eDiscovery workflows using Graph APIs. These APIs replicate the portal experience and include:\n</p><ul>\n<li><b>Case management:</b> Create, Get, List, Update, Close, Reopen, Delete</li>\n<li><b>Search management:</b> Create, List, Get, Update, Delete, Estimate Statistics</li>\n<li><b>Hold management:</b> List, Create, Get, Update, Delete</li>\n<li><b>Data source management:</b> Add, List</li>\n<li><b>Export:</b> Export results, Export report only</li>\n</ul>\nExport operations via API are subject to billing. Each tenant receives <b>50GB/month free</b>, with additional usage billed at <b>$10/GB</b>.\nThis feature is <b>off by default</b> and requires a Purview pay-as-you-go subscription.<p></p>\n\n<p><b>What you can do to prepare</b></p><p>\n</p><ul>\n</ul><p>Subscribe to Purview pay-as-you-go billing to enable API usage.</p><ul>\n</ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/graph/api/resources/security-ediscovery-apioverview?view=graph-rest-beta\">Use the Microsoft Purview eDiscovery API in Microsoft Graph (beta)</a></li><li><a href=\"https://learn.microsoft.com/purview/edisc-billing\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Billing in eDiscovery | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><ul><p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th><p style=\"\">Compliance Area</p></th><th>Explanation</th></tr>\n<tr><td>New customer data storage</td><td>Exported data via API may be stored in downstream systems integrated by the customer. Microsoft does not cache or store this data beyond the export operation.</td></tr>\n<tr><td>Changes to existing data processing</td><td>Enables automated access and export of eDiscovery data, which may alter how customer data is accessed and transferred.</td></tr>\n<tr><td>Modifies eDiscovery or Content Search</td><td>Introduces API-based access to eDiscovery case, search, and export operations, expanding automation capabilities.</td></tr>\n<tr><td>Admin compliance monitoring/reporting</td><td>Admins can now monitor and report on eDiscovery activities via Graph API, enhancing audit and compliance workflows.</td></tr>\n<tr><td>Integration with 3rd party software</td><td>APIs are designed for integration with downstream systems, allowing third-party tools to interact with eDiscovery data.</td></tr>\n<tr><td>Admin control via Entra ID</td><td>Access to APIs can be scoped using Entra ID group membership and role-based access control.</td></tr>\n</tbody></table>\n</p></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500869"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is introducing Microsoft Graph APIs for Standard eDiscovery licenses, enabling automation of case, search, hold, data source, and export management. Public preview starts September 2025; general availability in November 2025. APIs require Purview pay-as-you-go billing, with 50GB free monthly and $10/GB thereafter."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1148532",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-05T21:55:56.307Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-05T21:55:41Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview |eDiscovery - Graph APIs for Standard eDiscovery",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p>We’re excited to announce performance and usability improvements to the <b>DLP Alerts Page&nbsp;</b>in <i>Microsoft Purview Portal&nbsp;</i>to help you triage incidents faster and more efficiently.</p><p>\n</p><p></p><p>🚀 What’s New:&nbsp;</p><ul><li>Unified View: Events related to each alert are now available directly on the alerts page — no need to switch to new tab or drill down.&nbsp;</li><li>Faster Access: Access event details (e.g. Impacted assets) with just one click on the main alerts page itself, compared to four clicks earlier, reducing triage time significantly.&nbsp;</li><li>Enhanced Context: We've added four new columns - <i>Location</i>, <i>DLP policy name</i>, <i>DLP rule name</i>, and <i>Rule action</i> to display key alert and event attributes upfront — giving you more visibility at a glance.&nbsp;</li><li>Performance Boost: Cache improvements to ensure faster load times and a smoother experience.&nbsp;</li></ul><p></p><p>These updates are designed to streamline your workflow, reduce response times, and give you the context you need — all in a single, efficient view.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=501787\" target=\"_blank\">501787</a>.</p><p><b>When this will happen:</b></p><ul><li>Public Preview: We will begin rolling out late September 2025 and expect to complete by early October 2025.\n</li><li>General Availability (Worldwide): We will begin rolling out late October 2025 and expect to complete by early November 2025.</li></ul><p></p><p><b>How this will affect your organization:</b>\n</p><p>Alerts will be loaded in collapsed state. Expand an alert to view the list of associated events (screenshots 1 and 2):</p><p> \n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d2ef51c7-5922-4c3f-a688-b77d742d2c06/3e2351102ac08ec332f8f9c27ff0c1fe0806d2cd.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8a6c5475-e76a-41f7-852d-4053380b14b1/11e88a135af0114aecb6d487e847dcb081584421.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>To access event details, select the event to open the right-side pane (screenshot 3):</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/426828fc-2b22-4adf-b1a0-2ac7665547ce/06927f2a408fd6d4d2e169e44de4e8bebcad168b.png\" style=\"width: 1046.98px;\"></p><p></p><p>To access the four new columns- <i>Location, DLP policy name, DLP rule name, and Rule action</i>, click on <i>Customize columns</i> and add the new columns (screenshot 4):</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3868053e-a3f2-4c6e-8cc4-d1c415375d8e/537bb66070f95537fbcedf539570fd7e2b630efd.png\" style=\"width: 1005.97px;\"></p><p></p><p>To update alert status, use the&nbsp;<i>Update alert status</i>&nbsp;button in the event details side pane (screenshot 5):</p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/48e2b529-7553-42ad-8758-05df90718048/9632c5ad4e8a6bd1cc37d083b9e8e52b6114998f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p>To access the alert details in a new tab, click on <i>Open alerts page</i><i>:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fd4b3871-c35f-4504-935a-a01bb828ca0c/96cdd3a90e225c7928ad5e2b27c6786727e349ff.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p style=\"margin-left: 25px;\"><b><i>Note:</i></b> Up to 50 events per alert will be visible/accessible in the alerts list page. To view more than 50 events, open the alert in a new tab.</p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7d9654c5-126f-4963-b346-f4b885414ee6/e137c7e4b7ada4102f8ab469890392f2c311e51f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>\n</p><p></p><p><b>What you need to do to prepare:</b>\n</p><p>No preparation is required from the admin’s side. Change will be rolled out automatically.</p><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "501787"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Portal's DLP Alerts page now offers a unified, faster view with event details accessible in one click, four new columns for enhanced context, and improved performance. Rollout starts late September 2025, requiring no admin preparation and supporting up to 50 events per alert on the main page."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-02-28T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1148526",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-05T21:52:49.547Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-05T21:52:16Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Loss Prevention - UX improvements to the DLP Alerts in Purview Portal",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
