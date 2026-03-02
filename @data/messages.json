@@ -228,7 +228,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -317,7 +317,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13456,53 +13456,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated December 15, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction:</b></b></p>\n<p>We are introducing<b> inline file upload protection</b> for Microsoft Edge for Business to help prevent data leakage when users upload files to consumer generative AI (GenAI) apps in the browser. This complements the existing text upload protections available today for unmanaged GenAI apps and can be layered with Endpoint DLP protections. With this update, admins can detect and enforce inline protections on file uploads in <i>Edge for Business</i>. Policies can target file-specific conditions such as file size, file type, and sensitive information types, enabling organizations to audit or block activities for users on Intune-managed Windows devices.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=518642\" target=\"_blank\">518642</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview: </b>Begins late November 2025 (previously mid-November); expected to complete by early December 2025.</li>\n<li><b>General Availability (Worldwide): </b>Begins mid-January 2026 (previously early December 2025) (previously late November); expected to complete by end of January 2026 (previously mid-December 2025).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Purview DLP policies and Edge for Business on Intune-managed Windows devices.</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Admins can extend existing Purview collection and DLP policies to include file upload protection for unmanaged GenAI apps.</li>\n    <li>Inline protections are built directly into <i>Edge for Business</i>.</li>\n    <li>Automated behaviors will block use of unprotected browsers for users included in blocking policies.</li>\n    <li>Policies can be configured based on file size, type, and sensitivity.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li><b>No action is required before rollout</b>.</li>\n<li>Review your current collection and DLP policies.</li>\n<li>Update policies to include file upload conditions if needed.</li>\n<li>Inform your Security and Edge admins about this enhancement.</li>\n</ul>\n<p><b>Learn more:</b></p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/purview/collection-policies-policy-reference#cloud-apps-detection\" target=\"_blank\">Collection policy reference - Collection policies | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-browser-dlp-learn\" target=\"_blank\">Data Loss Prevention for Cloud Apps in Edge for Business | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-policy-reference\" target=\"_blank\">Data Loss Prevention policy reference | Microsoft Purview | Microsoft Learn</a></li>\n<li><a href=\"https://learn.microsoft.com/purview/dlp-create-policy-block-to-ai-via-edge#help-prevent-sharing-via-microsoft-edge-for-business-to-unmanaged-ai-apps-from-managed-devices\" target=\"_blank\">Help prevent sharing via Microsoft Edge for Business to unmanaged AI apps from managed devices | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\">\n<tbody><tr><th>Question</th><th>Impact</th><th>Explanation</th></tr>\n<tr><td>Does the change modify, interrupt, or disable any of the following capabilities (Purview): DLP policies or enforcement</td><td>Yes</td><td>Inline file upload protection modifies how DLP policies are enforced in Edge for Business.</td></tr>\n<tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes</td><td>Admins gain new visibility and control over file uploads to unmanaged GenAI apps.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "518642"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview DLP now offers inline file upload protection in Edge for Business to prevent data leaks to unmanaged GenAI apps. Admins can enforce policies based on file size, type, and sensitivity on Intune-managed Windows devices. Public preview starts late November 2025; general availability begins mid-January 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183007",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-15T23:20:00.347Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-05T00:19:00Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview DLP and Edge for Business: Inline data protection for file uploads to unmanaged GenAI apps",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated December 15, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction:</b></b>\n</p><p>We are expanding inline protections for uploads in <i>Microsoft Edge for Business</i> to cover more unmanaged consumer generative AI (GenAI) apps. With this update, admins can apply Microsoft Purview collection policies and Purview Data Loss Prevention (DLP) policies to detect and prevent sensitive data sharing in the <i>Edge browser </i>when users interact with these additional unmanaged app locations.\nInline protections are built directly into <i>Edge for Business</i> and work for users on Intune-managed Windows devices. This enhancement complements existing capabilities, giving organizations greater flexibility to enforce data security controls across a broader set of GenAI apps.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=518643\" target=\"_blank\">518643</a>.\n</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul>\n<li><b>Public Preview:</b> Begins late November 2025 (previously mid-November), expected to complete by early December 2025.</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;Begins in mid-January 2026 (previously early December 2025) and is expected to complete by end of January 2026 (previously mid-December 2025).</li>\n</ul>\n<p></p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\n</p><ul>\n<li>Admins managing Microsoft Purview DLP and collection policies for Edge for Business</li>\n<li>Users on Intune-managed Windows devices using Edge for Business</li>\n</ul>\n<b>What will happen:</b>\n<ul>\n<li>Admins can extend current Purview collection and DLP policies to include new unmanaged GenAI app locations for inline protection.</li>\n<li>No additional deployment steps are required.</li>\n<li>Inline protections are built directly into<i> Edge for Business</i>.</li>\n<li>Automated behaviors will block use of unprotected browsers for users included in policies that block activities in unmanaged GenAI apps.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No action is required to enable this feature. To learn more or update your policies, review the following resources:</p><ul><li><a href=\"https://learn.microsoft.com/purview/collection-policies-policy-reference#cloud-apps-detection\" target=\"_blank\">Cloud apps detection - Collection policy reference | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-policy-reference\" target=\"_blank\">Data Loss Prevention policy reference | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-browser-dlp-learn\" target=\"_blank\">Learn about Data Loss Prevention for Cloud Apps in Edge for Business | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does this change modify, interrupt, or disable any Data Loss Prevention (DLP) policies or enforcement in Microsoft Purview?</td><td>Yes. This update expands DLP enforcement by allowing admins to apply existing policies to additional unmanaged GenAI app locations in Edge for Business.</td></tr><tr><td>Does this change alter how admins can monitor, report on, or demonstrate compliance activities using Microsoft Purview or admin reporting tools?</td><td>Yes. Admins will gain expanded visibility and control over data sharing activities in Edge for Business, enabling more comprehensive reporting and compliance oversight.</td></tr></tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -16958,56 +16911,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated October 22, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon: We are excited to announce a new feature in Microsoft Teams that allows users to insert emojis in the compose box by typing a word surrounded by colons. For example, :smile: will turn into the smiling face emoji. Users can soon add any emoji, including custom ones, for faster and easier personal expression.</p><p>This feature applies to Teams for Windows desktop and Windows for Mac desktop.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=369345\" target=\"_blank\">369345</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early June 2025 and expect to complete by mid-June 2025.</p><p>General Availability (Worldwide): We will begin rolling out mid October 2025 (previously early September) and expect to complete by late October 2025 (previously mid September).\n</p><p>General Availability (GCC): We will begin rolling out mid October 2025 (previously mid September) and expect to complete by late October 2025 (previously late September).&nbsp;\n</p><p>General Availability (GCC High): We will begin rolling out early December 2025 (previously late September) and expect to complete by mid-December 2025 (previously late September).\n</p><p>General Availability (DoD): We will begin rolling out mid-January 2026 (previously early October) and expect to complete by late January 2026 (previously mid October).</p><p><b>How this will affect your organization:</b>\n</p><p>This feature will be available by default.\n</p><p><a href=\"https://cxcs.microsoft.net/file/ccp/en-us/c7fcab0a-41a6-4848-96cb-049addb05d98\" target=\"_blank\">Watch the video: Use colons to insert emojis</a> (0:04 minutes)\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before or after the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "369345"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"369345\":[{\"RoadmapId\":369345,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461736Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.946174Z\",\"LatestRing\":null},{\"RoadmapId\":369345,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-07-10T17:16:54.9461744Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce a new feature allowing users to insert emojis by typing words surrounded by colons (e.g., :smile:). Rolling out from June 2025 to January 2026 across various regions, it requires no admin action and will be enabled by default on Windows and Mac desktops."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-03-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1000269",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-22T16:46:46.847Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-07T23:03:35Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: New keyboard shortcut for adding emojis",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "Updated October 22, 2025: We have updated the content below. Thank you for your patience.&nbsp;<br><br><b><b>Introduction</b></b>\n<p>We’re introducing Knowledge Agent, a built-in SharePoint capability that helps organizations prepare content for AI at scale. It unifies fragmented AI features into a single, context-aware interface that adapts to user roles and surfaces intelligent actions directly in the flow of work. This enhancement supports high-quality, trustworthy responses from Microsoft 365 Copilot and custom agents.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins mid-September 2025; completes by late February 2026.</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Users with a Microsoft 365 Copilot license on tenants opted into Knowledge Agent preview.</li>\n<li>Admins managing SharePoint content and agents.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>A floating button will appear in the lower-right corner of SharePoint surfaces, launching a context-aware menu with intelligent actions.</li>\n<li>Role-based capabilities include:\n  <ul>\n    <li>Content managers can structure, tag, and enrich content using smart metadata and AI recommendations.</li>\n    <li>Site owners can identify stale pages, broken links, and content gaps.</li>\n    <li>Content creators can generate pages and documents using natural language prompts.</li>\n    <li>Collaborators and viewers can surface grounded insights via natural language chat.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b>Impact to SharePoint agents users:</b></p>\n<ul>\n<li>Ready-made SharePoint site agents are now exclusively available to customers with Microsoft 365 Copilot licenses. These agents are no longer accessible through the Microsoft 365 Pay-As-You-Go (PAYG) billing model under the SharePoint agents meter.</li>\n<li>PAYG customers can still create custom-built, no-code SharePoint agents using the same SharePoint agents meter, but they will not have access to the ready-made site agents unless they are Microsoft 365 Copilot licensed.</li>\n<li>The SharePoint ribbon icon has changed from the Copilot logo to a hexagon to indicate Knowledge Agent-enabled sites.</li>\n<li>Agent creation remains available via:\n  <ul>\n    <li>Site homepage</li>\n    <li>Agent chat pane</li>\n    <li><i>AI actions</i>&nbsp;menu in the command bar of a document library</li>\n    <li>Content menu of selected file(s) in a document library</li>\n  </ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Knowledge Agent Public Preview begins September 18, 2025 on a tenant opt-in basis&nbsp;to users with a Microsoft 365 Copilot license.</li>\n<li>Learn more about opting into the preview:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/knowledge-agent-get-started\">Get started with Knowledge Agent (preview)</a>. If you receive&nbsp;a command not recognized&nbsp;error running the commands , please review <a href=\"https://learn.microsoft.com/troubleshoot/sharepoint/administration/sharepoint-online-powershell-command-does-not-work-correctly\">this article</a>&nbsp;for additional troubleshooting.</li><li>For tenants who have opted in, it is possible to opt out for specific sites.The ability to opt-in for certain types is coming in mid-to-late November.</li><a href=\"https://aka.ms/knowledgeagentoptin\">\n</a><li>No setup is required for individual features.</li>\n<li>Learn more via the <a href=\"http://aka.ms/KnowledgeAgentLaunch\">Knowledge Agent blog</a>.</li></ul><a href=\"https://aka.ms/knowledgeagentblog\"></a>\n\n<b><b>Compliance considerations:</b></b>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Introduces or modifies AI/ML capabilities</td><td>Knowledge Agent introduces new AI-driven features that interact with customer content to provide intelligent actions and insights.</td></tr>\n<tr><td>Provides new user interaction with generative AI</td><td>Users can interact with SharePoint content using natural language prompts and chat.</td></tr>\n<tr><td>Modifies access to existing features</td><td>Changes availability of ready-made SharePoint agents based on licensing.</td></tr>\n<tr><td>Includes admin control</td><td>Admins can opt in/out of preview and manage site-level availability.</td></tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -17914,52 +17817,6 @@
       "User impact"
     ],
     "Title": "Co-organizer experience updates in Teams Webinars and Townhalls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated September 8, 2025: We have updated the timeline. Thank you for your patience.\n</p><p>Microsoft Purview Communication Compliance is improving the capabilities and customization of policy alerts.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=181825\" target=\"_blank\">181825</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out late July 2025 (previously late June) and expect to complete by mid-Aug 2025 (previously mid-July).</p><p>General Availability (Worldwide): We will begin rolling out early January 2026 and expect to complete by early January 2026.</p><p><b>How this will affect your organization:</b>\n</p><p>Communication Compliance is improving the capabilities and customization of policy alerts. Admins will be able to customize the alert frequency per policy as well as adjust the email alerts frequency and recipients within the policy creation wizard by navigating to the new alerts page.</p><p>This new feature is available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>Microsoft Purview Communication Compliance provides the tools to help organizations detect business conduct and regulatory compliance violations (e.g. SEC or FINRA), such as sensitive or confidential information, harassing or threatening language, and sharing of adult content. Usernames are pseudonymized by default, role-based access controls are built in, investigators are opted in by an admin, and audit logs are in place to help ensure user-level privacy.</p><p>You can access the Communication Compliance solution in the <a href=\"https://purview.microsoft.com/compliance\" target=\"_blank\">Microsoft Purview compliance portal.&nbsp;</a></p><p>Learn more:&nbsp;</p><p>•\t<a href=\"https://docs.microsoft.com/microsoft-365/compliance/communication-compliance?view=o365-worldwide\" target=\"_blank\">Learn about communication compliance&nbsp;</a></p><p>•\t<a href=\"https://learn.microsoft.com/purview/communication-compliance-policies?view=o365-worldwide#alert-policies\" target=\"_blank\">Create and manage communication compliance alert policies | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "181825"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Communication Compliance is enhancing policy alerts with customizable frequency and recipients. Public preview starts late July 2025, general availability in January 2026. Features include pseudonymized usernames, role-based access, and audit logs to ensure privacy and compliance monitoring."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC920304",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-09-08T19:28:57.72Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-28T22:51:49Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
