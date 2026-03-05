@@ -4,6 +4,100 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re introducing the ability for organizations to<b> customize Microsoft 365 profile cards</b> by adding up to 10 custom properties sourced from external systems such as HR platforms. This enhancement helps enrich user profiles with relevant organizational details, improving discoverability and context for collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=529851\" target=\"_blank\">529851</a>.</p>\n<b>When this will happen:</b><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>June 2026 </b>(previously&nbsp;March)&nbsp;and expect to complete in <b>June 2026</b> (previously&nbsp;March).</p><ul>\n</ul>\n<b>How this affects your organization</b><p><i>Who is affected:</i> Microsoft 365 tenant admins managing user profile cards</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>You can add up to 10 custom properties to profile cards using Microsoft Graph People connectors.</li>\n<li>Properties can be sourced from external systems (such as HR platforms).</li><li><b>This feature is OFF by default and requires admin configuration to enable.</b></li>\n<li>Admins can configure visibility, display name, and icon for each property in <i>Microsoft 365 admin center</i> under: <b><i>Settings &gt; Org settings &gt; People settings &gt; Profile &gt; Person info on profile cards&nbsp;</i></b><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0dfbbdd-8108-4924-9253-179773031372/cc331bf01d93d49946982aa0f9e293df2a5518c2.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</li><li>Once enabled, properties appear in the <i>Contact Information </i>section of profile cards in <i>Outlook Web:</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d284d7ad-c18f-483e-b139-8bfd10e4bf83/a871f3780b6b19d1653abbed7d75d1cec8426e5a.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Changes may take up to 24 hours to propagate across profile cards.</li>\n<li>Future updates will include direct ingestion from SAP SuccessFactors and Workday connectors.</li>\n</ul>\n<b>What you can do to prepare</b><ul>\n<li>Review external systems for properties you want displayed on profile cards.</li>\n<li>Ingest these properties using a Microsoft Graph People connector.</li>\n<li>Configure visibility and enable properties in the <i>Microsoft 365 admin center</i>.</li>\n<li>Communicate this change to helpdesk staff and update internal documentation if needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/graph/peopleconnectors\" target=\"_blank\">Microsoft 365 Copilot connectors for people data | Microsoft Learn</a></p><ul>\n</ul>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "529851"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will allow tenant admins to add up to 10 custom properties from external systems to profile cards, enhancing user information. This feature, off by default, rolls out worldwide in June 2026 and requires admin configuration via Microsoft Graph People connectors and the admin center."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1193692",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T21:19:44.117Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-10T00:21:08Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365: Enrich profile cards with custom properties from third-party systems",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 4, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are introducing a new SharePoint experience that includes a redesigned SharePoint app bar, a refreshed SharePoint start page for finding sites, content, and news, and support for AI-assisted creation, management, and discovery features. The new experience applies to all SharePoint users. Some capabilities in this experience use AI. Access to those capabilities requires a Microsoft 365 Copilot license.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547732\" target=\"_blank\">547732</a>.</p><p>Before the new experience rolls out broadly, it will be available as a <b>public preview</b>. During the preview period, administrators can enable the experience for their tenant to evaluate the changes and prepare users. When enabled during preview, the experience applies to all users in the tenant. Users may opt out of the new experience during the preview period.</p><p>When the <b>public preview ends, Targeted Release</b> rollout will begin, followed by <b>General Availability (GA)</b>. Starting with Targeted Release, the new SharePoint experience will automatically apply to all tenants and users. Any tenant-level preview settings or individual user opt-outs configured during the preview period will be overridden, and no tenant or user controls will remain.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Rolling out in <b>early March 2026</b>; expected completion by<b> late April 2026</b>.</li><li><b>Targeted Release:</b> Rolling out in<b> late April 2026</b>; expected completion by <b>early May 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rolling out in<b> early May 2026</b>; expected completion by<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected</b></p><ul><li>All SharePoint users</li><li>Users with a Microsoft 365 Copilot license will have access to AI capabilities included in this experience.<br class=\"Apple-interchange-newline\"></li></ul><p><b>What will happen</b></p><p>When the new experience is enabled—either during preview or as part of the <b>Targeted Release and General Availability (GA) rollout</b>—users will see an updated SharePoint app bar that introduces entry points for discovering content, publishing communications, and building SharePoint solutions.</p><p>The updated app bar includes:</p><p><b>Discover</b></p><p>A refreshed start experience to find relevant sites, content, and news.</p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/cb5622b9-011b-4281-9d13-13b61d4a0fbf/8812dac023726a48c71a5797a6e28c8dfec2bf32.png\" alt=\"user settings\" style=\"width: 400px;\"><b><br></b></p><p><b>Publish</b>&nbsp;</p><p>A unified publishing hub that brings together pages, news, and campaign-style communications powered by Amplify.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/822e372d-987b-4dff-adf7-0254a8b1412d/864f1985c3e9d302c89b248339431777ab3f99f1.png\" alt=\"user settings\" style=\"width: 400px;\"><b><br></b></p><p><b>Build</b>&nbsp;</p><p>A centralized place where makers can create and manage SharePoint sites, lists, libraries, and AI-powered agents from a single surface.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f75254ad-7a4c-488a-9062-6ea7ade5dfbb/a1580a5a20188b868d814a880437ed2c1898e5fd.png\" alt=\"user settings\" style=\"width: 400px;\"><b><br></b></p><p><b>The app bar will also include:</b></p><ul><li><b>OneDrive </b>– Provides quick access to files.</li><li><b>Home</b> – Appears when a Home site with global navigation is configured in the tenant.</li></ul><p>Additional updates include:</p><p style=\"\"></p><ul><li>Updated page, news, library, and list experiences with improved content visibility</li><li>Neutral theming applied across SharePoint product surfaces (site-level branding remains unchanged)</li></ul><p><b><b>What you can do to prepare</b></b></p><p>If you plan to enable the preview experience:</p><ul><li>Enable the setting in the SharePoint admin center:&nbsp;<b>Settings → SharePoint → New SharePoint Experience</b></li><li>Review documentation:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/enable-new-sharepoint-experience\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Enable the new SharePoint experience (preview) | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></li><li>Review changes to the SharePoint navigation experience, including the new app bar:<a href=\"https://support.microsoft.com/office/e568387f-bfef-41cf-8dc0-e1fdc5c08c73\"> SharePoint App Bar</a></li><li>Communicate expected UI changes to helpdesk teams and users before enabling the preview.</li><li>Update internal documentation that references SharePoint navigation or app bar elements.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "547732"
+      },
+      {
+        "Name": "Summary",
+        "Value": "A new SharePoint experience launching in 2026 includes a redesigned app bar with Discover, Publish, and Build features, AI-assisted capabilities for Copilot license holders, and updated navigation. It will roll out via public preview, Targeted Release, then General Availability, affecting all SharePoint users."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240699",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T20:59:21.197Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-27T22:07:05Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Introducing the new SharePoint experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to enable push notifications in custom branded apps in Power Apps. This feature will reach general availability on April 7, 2026.<br><br><b>How does this affect me?</b><br>This feature enables you to configure push notifications in custom‑branded, white‑label apps (wrapped apps).<br><br>\nKey functionality of this feature include:<ul>\n    <li>Enable notification toggles in the wrap wizard for both Android and iOS platforms.</li>\n    <li>Create a new project in your Firebase console (Google Firebase).</li>\n    <li>Register your apps in Firebase by creating both an Android app and an iOS app under the messaging section.</li>\n    <li>Add platform details by selecting the platform and entering your app's bundle ID (ensure the package name matches your app's bundle ID exactly).</li>\n    <li>Download configuration files - Firebase provides a google-services.json file for Android and a google-services.plist file for iOS.</li>\n    <li>Upload configuration files to the notification step in the wrap wizard.</li>\n    <li>Complete the wrap process - the remaining steps will work automatically to generate your APK or IPA file.</li>\n    <li>Set up Power Automate flow to send notifications by creating an HTTP request action that calls the Firebase API.</li>\n    <li>Configure trigger conditions in Power Automate (for example, when a record is created or updated in Dataverse).</li>\n    <li>Extract recipient email address from the triggered record in your Power Automate flow.</li>\n    <li>Include Firebase API credentials by storing the API key as a secret value in Power Automate.</li>\n   <li> Define notification content including title, body, and target topic in your HTTP request.</li>\n    <li>Test notifications using Firebase's notification composer in the console before deploying to production.</li>\n    <li>Target specific users by sending notifications to their email-based topic or target all app users by selecting the appropriate user segment option.</li>\n</ul><b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO14093\"target=\"_blank\">Enable push notifications in custom branded apps</a>.",
       "ContentType": "html"
     },
@@ -1602,52 +1696,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Code block line numbers and improved keyboard accessibility",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing a<b> </b>reimagined SharePoint experience that simplifies how users discover knowledge, publish content, and build solutions. This update delivers an intuitive design, a streamlined information architecture, and foundational support for future AI‑assisted creation scenarios in <i>SharePoint Online</i>. A Microsoft 365 Copilot license is required to access the AI capabilities in this update.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547732\" target=\"_blank\">547732</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Rolling out in <b>early March 2026</b>; expected completion by<b> late April 2026</b>.</li><li><b>Targeted Release:</b> Rolling out in<b> late April 2026</b>; expected completion by <b>early May 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rolling out in<b> early May 2026</b>; expected completion by<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations with users who have a Microsoft 365 Copilot license.</li><li>Organizations that choose to enable the new SharePoint experience in the <i>SharePoint admin center</i>.</li></ul><p><i>What will happen</i></p><p>If your organization enables the new SharePoint experience in the<i> SharePoint admin center</i>, licensed users will see:</p><ul><li>A redesigned <b>SharePoint app bar</b>, including:<ul><li><b>Discover </b>– a refreshed start experience to quickly find relevant sites, content, and news: <p style=\"margin-left: 25px;\">&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/cb5622b9-011b-4281-9d13-13b61d4a0fbf/8812dac023726a48c71a5797a6e28c8dfec2bf32.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li><b>Publish</b> – A unified publishing hub in <i>SharePoint</i> that brings together pages, news and campaign-style communications powered by Amplify:<p style=\"margin-left: 25px;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/822e372d-987b-4dff-adf7-0254a8b1412d/864f1985c3e9d302c89b248339431777ab3f99f1.png\" style=\"width: 400px;\" alt=\"user settings\"> </p></li><li><b>Build</b> – A centralized experience to create, manage, and scale Sites, Lists, Libraries, and Agents all with a streamlined surface:&nbsp;<p style=\"margin-left: 25px;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f75254ad-7a4c-488a-9062-6ea7ade5dfbb/a1580a5a20188b868d814a880437ed2c1898e5fd.png\" style=\"width: 400px;\" alt=\"user settings\"><b></b></p></li><li><b>OneDrive </b>– Provides quick access to files.</li><li><b>Home</b> – Displayed when a Home site with global navigation is enabled, with the appropriate logo and name as configured in global navigation.</li></ul></li></ul><p style=\"\"></p><ul><li>Updated page, news, library, and list experiences with improved content elevation</li><li>Neutral theming applied across core product surfaces (site‑level branding remains unchanged)</li></ul><p>If you do not enable the preview, there is <b>no impact </b>to your users or admin experience.</p><p><b><b>What you can do to prepare</b></b></p><p>If you plan to enable the new experience:</p><ul><li>Verify that users who need access have a <b>Microsoft 365 Copilot license</b> assigned to access the AI capabilities in this update.</li><li>Enable the experience in the<i> SharePoint admin center</i>: <b><i>Settings → SharePoint → New SharePoint Experience</i></b></li><li>Review instructions for enabling the experience:&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/enable-new-sharepoint-experience\" target=\"_blank\">Enable the new SharePoint experience (preview) | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></li><li>Communicate expected UI changes to helpdesk and affected teams before enabling.\n</li><li>Update internal documentation if you describe SharePoint navigation or app bar elements.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "547732"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A reimagined SharePoint experience with an intuitive design, streamlined architecture, and AI-assisted features (requiring a Microsoft 365 Copilot license) will roll out from March to May 2026. It includes a redesigned app bar with Discover, Publish, Build, OneDrive, and Home features. Enabling it is optional."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Web"
-      }
-    ],
-    "EndDateTime": "2026-07-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1240699",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-27T22:08:20.08Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-27T22:07:05Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Introducing the new SharePoint experience",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -7803,37 +7851,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to trigger forecast scenarios on demand in Dynamics 365 Customer Service. This feature will reach general availability on February 27, 2026.<br><br><b>How does this affect me?</b><br>Supervisors will be able to generate up-to-date forecasts during planning and operational reviews without waiting for scheduled runs. This feature allows supervisors to initiate the \"Run forecast scenario\" action, which starts a background job to generate the forecast asynchronously. After the job completes, updated forecast outputs will be available in forecast reports and views. The completion of the forecast run also triggers a capacity planning job to refresh staffing requirements based on the latest forecast output.<br><br><b>What action do I need to take?</b><br> \nTo use this feature, you must install the <i>Workforce Management for Customer Service</i> package from the Power Platform admin center.\n<br><br>If you would like more information on this feature, please visit <a href=\"https://aka.ms/13853/1\"target=\"_blank\">Create and manage forecast scenarios</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-03-05T20:36:03Z",
-    "HasAttachments": false,
-    "Id": "MC1227577",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-05T20:36:58.993Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T20:36:03Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Service - Run Forecast Scenario on demand",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 5, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in mid-February 2026 (previously early February) and is expected to complete by end of February 2026 (previously mid-February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -11037,53 +11054,6 @@
       "Admin impact"
     ],
     "Title": "Plan for Change: Removing Intune guided scenarios from the Intune admin center in March 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 20, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re introducing the ability for organizations to<b> customize Microsoft 365 profile cards</b> by adding up to 10 custom properties sourced from external systems such as HR platforms. This enhancement helps enrich user profiles with relevant organizational details, improving discoverability and context for collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=529851\" target=\"_blank\">529851</a>.</p>\n<b>When this will happen:</b><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>March 2026</b> (previously&nbsp;mid-January)&nbsp;and expect to complete in <b>March 2026</b> (previously&nbsp;late January).</p><ul>\n</ul>\n<b>How this affects your organization</b><p><i>Who is affected:</i> Microsoft 365 tenant admins managing user profile cards</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>You can add up to 10 custom properties to profile cards using Microsoft Graph People connectors.</li>\n<li>Properties can be sourced from external systems (such as HR platforms).</li><li><b>This feature is OFF by default and requires admin configuration to enable.</b></li>\n<li>Admins can configure visibility, display name, and icon for each property in <i>Microsoft 365 admin center</i> under: <b><i>Settings &gt; Org settings &gt; People settings &gt; Profile &gt; Person info on profile cards&nbsp;</i></b><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0dfbbdd-8108-4924-9253-179773031372/cc331bf01d93d49946982aa0f9e293df2a5518c2.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</li><li>Once enabled, properties appear in the <i>Contact Information </i>section of profile cards in <i>Outlook Web:</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d284d7ad-c18f-483e-b139-8bfd10e4bf83/a871f3780b6b19d1653abbed7d75d1cec8426e5a.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Changes may take up to 24 hours to propagate across profile cards.</li>\n<li>Future updates will include direct ingestion from SAP SuccessFactors and Workday connectors.</li>\n</ul>\n<b>What you can do to prepare</b><ul>\n<li>Review external systems for properties you want displayed on profile cards.</li>\n<li>Ingest these properties using a Microsoft Graph People connector.</li>\n<li>Configure visibility and enable properties in the <i>Microsoft 365 admin center</i>.</li>\n<li>Communicate this change to helpdesk staff and update internal documentation if needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/graph/peopleconnectors\" target=\"_blank\">Microsoft 365 Copilot connectors for people data | Microsoft Learn</a></p><ul>\n</ul>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "529851"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting March 2026, Microsoft 365 admins can add up to 10 custom properties from external systems to profile cards via Microsoft Graph People connectors. This feature is off by default, requires configuration, and enhances profile information in Outlook Web. Future updates will support SAP SuccessFactors and Workday connectors."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1193692",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-21T18:14:49.49Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-10T00:21:08Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365: Enrich profile cards with custom properties from third-party systems",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
