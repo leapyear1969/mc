@@ -4,6 +4,76 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to enable push notifications in custom branded apps in Power Apps. This feature will reach general availability on April 7, 2026.<br><br><b>How does this affect me?</b><br>This feature enables you to configure push notifications in custom‑branded, white‑label apps (wrapped apps).<br><br>\nKey functionality of this feature include:<ul>\n    <li>Enable notification toggles in the wrap wizard for both Android and iOS platforms.</li>\n    <li>Create a new project in your Firebase console (Google Firebase).</li>\n    <li>Register your apps in Firebase by creating both an Android app and an iOS app under the messaging section.</li>\n    <li>Add platform details by selecting the platform and entering your app's bundle ID (ensure the package name matches your app's bundle ID exactly).</li>\n    <li>Download configuration files - Firebase provides a google-services.json file for Android and a google-services.plist file for iOS.</li>\n    <li>Upload configuration files to the notification step in the wrap wizard.</li>\n    <li>Complete the wrap process - the remaining steps will work automatically to generate your APK or IPA file.</li>\n    <li>Set up Power Automate flow to send notifications by creating an HTTP request action that calls the Firebase API.</li>\n    <li>Configure trigger conditions in Power Automate (for example, when a record is created or updated in Dataverse).</li>\n    <li>Extract recipient email address from the triggered record in your Power Automate flow.</li>\n    <li>Include Firebase API credentials by storing the API key as a secret value in Power Automate.</li>\n   <li> Define notification content including title, body, and target topic in your HTTP request.</li>\n    <li>Test notifications using Firebase's notification composer in the console before deploying to production.</li>\n    <li>Target specific users by sending notifications to their email-based topic or target all app users by selecting the appropriate user segment option.</li>\n</ul><b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/ADO14093\"target=\"_blank\">Enable push notifications in custom branded apps</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-04-07T17:22:00Z",
+    "HasAttachments": false,
+    "Id": "MC1244930",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T17:25:57.19Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T17:22:39Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps - Enable push notifications in custom branded apps",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 4, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are updating the entry points for Copilot in <i>Word</i> to provide a clearer, more consistent, and more intuitive experience. These changes unify how users access Copilot and<b> introduce Word Agent in the <i>chat pane </i>as the primary Copilot interface</b>. This update improves discoverability, simplifies the user workflow, and creates consistency with other Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide, GCC, GCCH and DoD)</b>: We will begin rolling out in <b>late March 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by<b> late April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users of Microsoft 365 apps for Word on Windows, macOS, and Web.</p><p><i>What will happen</i></p><ul><li>The existing Copilot entry point in the left margin will be replaced by a consolidated entry point positioned in a consistent corner location.</li><li>Users will see contextual Copilot entry points when selecting content:<ul><li><b>Windows and Web</b>: inside the selection floatie</li><li><b>Mac</b>: in the right‑click context menu</li></ul></li><li>Word Agent in the <i>right-side chat pane </i>becomes the primary Copilot experience for prompts and responses.</li><li>All Copilot entry points—consolidated and contextual—will connect to Word Agent to ensure a unified experience.</li><li>There is no change to admin configuration, policy behavior, or Copilot availability settings.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>You may optionally:</p><ul><li>Inform your users about the new Copilot access points and updated experience in Word.</li><li>Update internal help content or training materials if you document Copilot entry points.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting late March to late April 2026, Word's Copilot entry points will be unified and moved to consistent locations, with Word Agent in the right-side chat pane as the primary interface. This affects all Word users across platforms, requires no admin changes, and no action is needed."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240704",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T16:57:34.253Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-27T22:10:37Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Copilot entry point changes in Word and handoff to Agent in chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction</b></p><p>We’re adding the ability to preview content directly within Insider Risk Management (IRM) alerts in Microsoft Purview. This enhancement removes the need to create a case to view potentially risky content, helping investigators quickly evaluate alerts and accelerate triage. This feature aligns with customer feedback requesting faster, more streamlined investigation workflows.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557189\" target=\"_blank\">557189</a></b>.</p><p><b>When this will happen:</b></p><ul><li><b>Public Preview: </b>Rolling out in <b>early April 2026 </b>and expected to complete by<b> late April 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCC‑High, DoD): </b>Rolling out in <b>mid‑June 2026 </b>and expected to complete by <b>late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p>Who is affected:</p><ul><li>Organizations using Microsoft Purview Insider Risk Management.</li><li>Only users with Investigator permissions will have access to content preview.</li></ul><p><i>What will happen</i></p><ul><li>A new <b>Content preview tab</b> will appear within activity details in IRM alerts:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5097bbeb-9a85-4353-a643-a2c7066f2763/6fd6ccbc1d2477ec166f6f81c235a4fdb21601e2.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Investigators will be able to view supported content directly from the alert without creating a case.</li><li>Supported activity types include:<ul><li>Viewing, downloading, syncing, or sending activities involving content from SharePoint, OneDrive, or Exchange.</li></ul></li><li>Unsupported activity types include:<ul><li>State changes, permissions changes, deletions, and Endpoint activities.</li></ul></li><li>The feature is <b>enabled by default</b> for tenants licensed for Insider Risk Management.</li><li>No impact on end‑user experience outside of investigators handling alerts.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses IRM for investigations, you may want to:</p><ul><li>Confirm which users hold <b>Investigator </b>permissions.</li><li>Update internal investigation workflows or playbooks to reflect new alert‑level content preview.</li><li>Inform your security operations or compliance teams of the new capability.</li><li>Review supported content preview scenarios documented here:</li><li>Learn more about investigating alerts in Insider Risk Management.</li><li>To use content preview when available:<ul><li>Navigate to<b> <a href=\"https://sip.purview.microsoft.com/insiderriskmgmt/overviewpage\" target=\"_blank\">Insider Risk Management</a>.</b></li><li>Open <b><i>Alerts.</i></b></li><li>Select an alert.</li><li>Open an activity marked as content preview available.</li><li>View content in the <i><b>Content preview</b> tab</i>.</li></ul></li></ul><p></p><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/purview/insider-risk-management-activities#activity-explorer-tab\" target=\"_blank\">Investigate Insider Risk Management activities | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -1498,44 +1568,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are updating the entry points for Copilot in <i>Word</i> to provide a clearer, more consistent, and more intuitive experience. These changes unify how users access Copilot and<b> introduce Word Agent in the <i>chat pane </i>as the primary Copilot interface</b>. This update improves discoverability, simplifies the user workflow, and creates consistency with other Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide, GCC, GCCH and DoD)</b>: We will begin rolling out in <b>early March 2026</b> and expect to complete by<b> late April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users of Microsoft 365 apps for Word on Windows, macOS, and Web.</p><p><i>What will happen</i></p><ul><li>The existing Copilot entry point in the left margin will be replaced by a consolidated entry point positioned in a consistent corner location.</li><li>Users will see contextual Copilot entry points when selecting content:<ul><li><b>Windows and Web</b>: inside the selection floatie</li><li><b>Mac</b>: in the right‑click context menu</li></ul></li><li>Word Agent in the <i>right-side chat pane </i>becomes the primary Copilot experience for prompts and responses.</li><li>All Copilot entry points—consolidated and contextual—will connect to Word Agent to ensure a unified experience.</li><li>There is no change to admin configuration, policy behavior, or Copilot availability settings.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>You may optionally:</p><ul><li>Inform your users about the new Copilot access points and updated experience in Word.</li><li>Update internal help content or training materials if you document Copilot entry points.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Copilot entry points in Word are being unified and moved to a consistent corner, with contextual access via selection floatie (Windows/Web) or right-click menu (Mac). Word Agent in the chat pane becomes the primary interface. Rollout starts March 2026, no admin changes required."
-      }
-    ],
-    "EndDateTime": "2026-05-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1240704",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-27T22:11:07.933Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-27T22:10:37Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Copilot entry point changes in Word and handoff to Agent in chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing<b> </b>improvements to the <b>code block experience</b> in <i>Microsoft Teams Compose</i>. These updates make reading, sharing, and referencing code more efficient by adding default line numbers and enhancing keyboard navigation. These changes also support better accessibility and help users who frequently share code in chats or channels.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554933#Roadmap\" target=\"_blank\">554933</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: Rolling out in <b>April 2026</b> and expected to complete in <b>April 2026</b>.</li><li><b>General Availability (Worldwide)</b>: Rolling out in <b>April&nbsp;2026 </b>and expected to complete in <b style=\"background-color: rgb(255, 255, 255);\">May</b><b>&nbsp;2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users who compose and share messages in <i>Microsoft Teams </i>on Windows, Mac, and Web.</p><p><i>What will happen</i></p><p>Users will see enhancements to the code block experience, including:</p><ul><li><b>Default line numbers</b> appearing automatically when a code block is inserted, supporting easier line-by-line collaboration and review.</li><li><b>Improved keyboard navigation</b> within code blocks, allowing users to move more easily through code using keyboard commands, improving overall accessibility.</li><li><b>Consistent language selection</b> for syntax highlighting; Teams will remember the last language a user selected.</li><li><b>Support for collaborative editing</b>, with the option to convert a code block to a Loop component before sending.</li><li><b>Multiple insertion methods remain supported</b> (slash commands, keyboard shortcuts, and Markdown), ensuring familiarity and flexibility for users.</li><li><b>This feature is enabled by default</b>, and no admin controls or configuration changes are required.</li></ul><p>These updates improve the development and engineering collaboration experience in <i>Teams</i> and help achieve better parity with other industry-standard collaboration tools.</p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.&nbsp;</p><p>Optional steps:</p><ul><li>Inform helpdesk or support teams that users may notice changes to how code blocks appear and behave in <i>Teams</i>.</li><li>Update any internal documentation for engineering teams or developer communities that rely on code sharing within <i>Teams</i>.</li><li>Review Microsoft Support documentation for additional user-facing guidance about inserting, formatting, and collaborating on code blocks in <i>Teams</i>.</li></ul><p>Learn more:&nbsp;&nbsp;<a href=\"https://support.microsoft.com/office/use-code-blocks-in-microsoft-teams-3b8f43ee-86bd-479b-8ad6-6f52661b21e3\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Use code blocks in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><b><b>Introduction</b></b></p><p>We’re introducing<b> </b>improvements to the <b>code block experience</b> in <i>Microsoft Teams Compose</i>. These updates make reading, sharing, and referencing code more efficient by adding default line numbers and enhancing keyboard navigation. These changes also support better accessibility and help users who frequently share code in chats or channels.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554933#Roadmap\" target=\"_blank\">554933</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: Rolling out in <b>April 2026</b> and expected to complete in <b>April 2026</b>.</li><li><b>General Availability (Worldwide)</b>: Rolling out in <b>April&nbsp;2026 </b>and expected to complete in <b style=\"background-color: rgb(255, 255, 255);\">May</b><b>&nbsp;2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users who compose and share messages in <i>Microsoft Teams </i>on Windows, Mac, and Web.</p><p><i>What will happen</i></p><p>Users will see enhancements to the code block experience, including:</p><ul><li><b>Default line numbers</b> appearing automatically when a code block is inserted, supporting easier line-by-line collaboration and review.</li><li><b>Improved keyboard navigation</b> within code blocks, allowing users to move more easily through code using keyboard commands, improving overall accessibility.</li><li><b>Consistent language selection</b> for syntax highlighting; Teams will remember the last language a user selected.</li><li><b>Support for collaborative editing</b>, with the option to convert a code block to a Loop component before sending.</li><li><b>Multiple insertion methods remain supported</b> (slash commands, keyboard shortcuts, and Markdown), ensuring familiarity and flexibility for users.</li><li><b>This feature is enabled by default</b>, and no admin controls or configuration changes are required.</li></ul><p>These updates improve the development and engineering collaboration experience in <i>Teams</i> and help achieve better parity with other industry-standard collaboration tools.</p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.&nbsp;</p><p>Optional steps:</p><ul><li>Inform helpdesk or support teams that users may notice changes to how code blocks appear and behave in <i>Teams</i>.</li><li>Update any internal documentation for engineering teams or developer communities that rely on code sharing within <i>Teams</i>.</li><li>Review Microsoft Support documentation for additional user-facing guidance about inserting, formatting, and collaborating on code blocks in <i>Teams</i>.</li></ul><p>Learn more:&nbsp;&nbsp;<a href=\"https://support.microsoft.com/office/use-code-blocks-in-microsoft-teams-3b8f43ee-86bd-479b-8ad6-6f52661b21e3\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Use code blocks in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -1639,7 +1671,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1728,7 +1760,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3013,7 +3045,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3336,7 +3368,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4065,7 +4097,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8596,7 +8628,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8688,7 +8720,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9331,7 +9363,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9514,7 +9546,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9764,7 +9796,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11407,7 +11439,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14069,7 +14101,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14370,7 +14402,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
+        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14710,7 +14742,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17170,7 +17202,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17472,7 +17504,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
