@@ -4,6 +4,268 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing ad-hoc room reservation directly from the Microsoft Teams Rooms on Windows console. This update enables users to reserve an available room on the spot without relying on a personal device or hallway panel, supporting quick, spontaneous meetings and helping reduce scheduling conflicts. This feature requires a Teams Rooms Pro license.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548648\" target=\"_blank\" style=\"\">548648</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late April 2026</b>.</li><li><b>General Availability (GCC High): </b>We will begin rolling out late<b>&nbsp;in April 2026 </b>and expect to complete by <b>early May 2026</b>.</li><li><b>General Availability (DoD): </b>We will begin rolling out in<b> late April 2026 </b>and expect to complete by<b> mid-May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users and admins of Teams Rooms on Windows with Teams Rooms Pro licenses.</li></ul><p>What will happen</p><ul><li>After this feature becomes available on room devices, users can reserve an available room directly from the Teams Rooms calendar by choosing <i><b>Reserve</b></i> and selecting an<b> end time</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5208696b-e82e-4d76-aa65-b50abb61433c/cf2b8c67fd9d949cb1e48a191d291559496d590e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>End times appear in 15-minute increments for up to the end of the day or until the next scheduled meeting, whichever comes sooner:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d0cc7eac-2e6d-4170-9095-4943968f5bf3/f57041e5b42942c36c0b7c4047a43efea3966d27.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The feature is <b>enabled by default</b>.</li><li>Admin controls will be available on the<b> Teams Rooms Pro Management portal</b>:&nbsp;<b>Rooms &gt; Settings &gt; Meetings &gt; Allow ad-hoc room reservation</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>Notify users of the new reservation workflow.</li><li>Update internal training or documentation.</li><li>Use Teams Rooms Pro Management portal or device settings if you want to restrict ad-hoc reservations.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "548648"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Windows will support ad-hoc room reservations directly from the console, enabling quick bookings without personal devices. This feature, requiring a Teams Rooms Pro license, rolls out globally starting late April 2026, is enabled by default, and can be managed via the Teams Rooms Pro Management portal."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-06-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245225",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T23:36:54.557Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:36:47Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>The <b>People agent</b> in <i>Frontier </i>will no longer be available starting March 2026. Frontier agents help us learn what users value most and how they want to experience M365 Copilot. Through the People agent, users explored new ways to understand colleagues, prepare for meetings, and navigate organizational relationships, and this feedback has directly shaped our broader people experiences in M365 Copilot.</p><p>As part of moving these capabilities into core M365 Copilot surfaces—where more users can benefit—we are retiring the standalone People agent.</p><p><b><b>When this will happen</b></b></p><p><b>People agent retirement (Worldwide): </b>Begins in <b>early March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing Microsoft 365 Copilot deployments</li><li>Users who previously accessed the People agent through the Frontier program</li></ul><p><i>What will happen</i>:</p><ul><li>The People agent will no longer be available.</li><li>Key capabilities from the People agent are being incorporated into broader Copilot people experiences.</li><li>No admin configuration changes are required.</li><li>No impact to existing admin policies or controls.</li><li>There is no user action required.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No preparation is required.&nbsp;</p><p>Users can continue to leverage the People companion app or Copilot to find people with specific skills, and explore the greater organizational context of any colleague using the org explorer. Learn more here:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/topic/org-explorer-40c65909-b12d-4ab9-8d6c-a1592789dc8e\" target=\"_blank\">Org Explorer - Microsoft Support</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/companions/overview\" target=\"_blank\">Microsoft 365 companions apps overview - Microsoft 365 Apps | Microsoft Learn&nbsp;</a></li></ul><p>We encourage continued feedback on Copilot experiences through Frontier, which remains the primary program where we gather insights to inform early Copilot innovations.</p><p>Learn more about the Frontier program:&nbsp;<a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program | Microsoft 365 Copilot</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The People agent in Frontier will retire in March 2026, with its key features integrated into core Microsoft 365 Copilot. No admin or user action is needed. Users can still use the People companion app and Org Explorer. Feedback via Frontier remains encouraged. No compliance issues identified."
+      }
+    ],
+    "EndDateTime": "2026-04-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245224",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-05T23:36:30.837Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:36:11Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft 365 Copilot: People agent availability update",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding support for sending locally stored Word, Excel, and PowerPoint files as email attachments directly through the new Outlook for Windows. This update streamlines the sharing experience and aligns with ongoing efforts to bring feature parity between classic Outlook for Windows and the new Outlook.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557675#Roadmap\" target=\"_blank\">557675</a></b>.</p><p><b><b>When this will happen</b>\n</b></p><ul><li><b>General Availability (Worldwide):&nbsp;</b>We will begin rolling out in <b>early May 2026</b> and expect to complete by<b> late May 2026</b>.</li><li><b>General Availability (GCC):</b>&nbsp;We will begin rolling out in <b>early June 2026</b> and expect to complete by<b> late June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users working with <b>locally stored </b>Word, Excel, or PowerPoint files (not stored in <i>OneDrive</i>).</li><li>Organizations adopting or transitioning to the <b>new Outlook for Windows</b>.</li></ul><p><i>What will happen</i></p><ul><li>Users can now share local Office files as email attachments directly through the new Outlook for Windows.</li><li>Users will no longer need to rely on the classic Outlook for Windows to send local file attachments.</li><li>This feature is <b>ON by default</b>.</li><li>There is no change to existing admin controls or policies, and all existing Outlook/Exchange policies continue to apply.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>To prepare your organization, you may:</p><ul><li>Inform help desk staff about this update to reduce support inquiries.</li><li>Update your internal documentation if it references classic Outlook workflows.</li><li>Encourage users to adopt the new Outlook for Windows if your organization is transitioning away from classic Outlook.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557675"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The new Outlook for Windows will support sending locally stored Word, Excel, and PowerPoint files as email attachments starting May 2026 (June for GCC). This feature is on by default, requires no admin action, and aligns with classic Outlook functionality, aiding users transitioning to the new Outlook."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245222",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T23:35:38.92Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:35:29Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook: Share Word, Excel and PowerPoint local files via the new Outlook for Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b>\n</b></p><p>To align with the iOS platform lifecycle and ensure customers remain protected with the most up‑to‑date security capabilities, <b>Microsoft Defender for iOS will end support for devices running iOS 16</b>. After support ends, Defender on iOS 10 devices will no longer receive feature updates, security fixes, or technical support. Devices running iOS 17 or later will continue to be fully supported.\n</p><p><b><b>When this will happen</b>\n</b></p><p>Support for Microsoft Defender on iOS 16 devices will end on <b>April 30, 2026</b>.\n</p><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected: </b>Organizations with users or managed devices running iOS 16 and using Microsoft Defender for iOS.\n</p><p><b>What will happen:</b></p><ul><li>Existing installations of Microsoft Defender for iOS 16 devices will continue to function, but:\n<ul><li>They will no longer receive new features.\n</li><li>They will no longer receive security updates.\n</li><li>They will no longer receive technical support.\n</li></ul></li><li>New installations on iOS 16 devices will no longer be available after support ends.\n</li><li>Devices updated to iOS 17 or later will continue to receive full support.\n</li></ul><p><b><b>What you can do to prepare</b>\n</b></p><p>No admin action is required for this change to occur. </p><p>To prepare, you can:\n</p><ul><li>Identify iOS 16 devices using your organization’s device management tools.\n</li><li>Encourage users to upgrade eligible devices to iOS 17 or later.\n</li><li>Replace devices that cannot be upgraded, if necessary.\n</li><li>Update internal documentation and support team guidance.\n</li><li>Notify impacted users about the upcoming end of support.\n</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/defender-endpoint/minimum-requirements\" target=\"_blank\">Minimum requirements for Microsoft Defender for Endpoint</a></p><p><b><b>Compliance considerations</b>\n</b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for iOS will end support for iOS 16 devices on April 30, 2026. Devices on iOS 16 will no longer receive updates or support, while iOS 17 or later devices remain fully supported. Organizations should identify affected devices and encourage upgrades or replacements."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245219",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-05T23:34:58.99Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:34:45Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Defender for iOS: End of support for iOS 16 devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft is introducing <b>granular restore capabilities in Microsoft 365 Backup</b>, allowing administrators to browse, search, and restore individual files or folders from restore points for protected SharePoint sites and OneDrive accounts. This update helps organizations reduce recovery time and operational impact by restoring only the content that is needed.</p><p>Screenshot:&nbsp; <i>Select&nbsp;the granular restore path when restoring content from a SharePoint site or OneDrive account</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7f40fe3f-c4a2-40ef-a01d-781bb3854372\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=464991\" target=\"_blank\">464991</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview (Worldwide): We will begin rolling out in <b>early March 2026</b> and expect to complete by <b>mid-March 2026</b>.</li>\n  <li>General Availability (Worldwide): We will begin rolling out in <b>late April 2026</b> and expect to complete by <b>early May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 tenants with <b>Microsoft 365 Backup enabled</b></li>\n  <li>Admins responsible for <b>SharePoint Online and OneDrive for Business data protection and recovery</b></li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins will be able to browse and search restore points for protected SharePoint sites and OneDrive accounts.</li><li>Admins will be able to restore individual files or folders instead of restoring entire sites or drives.</li><li>Only admins assigned the <b>SharePoint Backup Administrator</b> role can perform granular restore operations for SharePoint sites and OneDrive accounts.</li><li>Existing Microsoft 365 Backup protection policies and restore points are respected.</li><li>This feature is available only to tenants with Microsoft 365 Backup enabled.</li><li>There is no direct impact to users; restore operations remain admin‑initiated.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required to receive this feature.</li>\n  <li>Review your current<b> Microsoft 365 Backup coverage </b>for SharePoint and OneDrive to ensure critical workloads are protected.</li>\n  <li>Familiarize backup administrators with the <b>granular restore experience</b> once Public Preview begins.</li>\n  <li>Update internal recovery procedures or runbooks to include file- and folder-level restore scenarios.</li>\n  <li>Inform helpdesk or IT operations teams when granular restores may be appropriate instead of full restores.</li>\n</ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/microsoft-365/backup/backup-restore-data?view=o365-worldwide&amp;tabs=onedrive#option-2-selected-content-only-preview\" target=\"_blank\">Restore data in Microsoft 365 Backup | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>This feature introduces a new method for admins to access existing Microsoft 365 Backup restore points at a more granular level (file or folder), without changing where or how backup data is stored.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n    <td>Restore operations continue to be auditable, and the scope of restore actions becomes more granular, which may be reflected in audit and operational review scenarios.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify how users can access, export, delete, or correct their personal data (GDPR Data Subject Rights)?</td>\n    <td>Admins gain finer control to restore specific files or folders containing personal data when responding to recovery, correction, or remediation scenarios.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "464991"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Backup will enable admins to browse, search, and restore individual files or folders from SharePoint and OneDrive restore points starting early 2026. This granular restore reduces recovery time, requires the SharePoint Backup Administrator role, and respects existing backup policies without impacting users."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245216",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-05T23:34:20.257Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "SharePoint Online",
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:33:56Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Targeted file and folder restores in Microsoft 365 Backup",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 5, 2026: We have updated the timeline. Thank you for your patience.\n</p><p>Manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421612\" target=\"_blank\">421612</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-April 2026 (previously late March) and expect to complete by mid-May 2026 (previously mid-April).</p><p><b>How this will affect your organization:</b></p><p>Once available, admins will be able to manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization. Updates will include the ability to provide temporary access to other employees or administrators to save important data before deletion policies take effect.</p><p>More details will become available closer to the release date.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "421612"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will roll out retention and deletion management for user-owned Loop workspaces starting mid-April 2026, allowing admins to control data when users leave. Temporary access can be granted to save important data. No preparation is needed; the update will apply automatically."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929014",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-05T22:45:19.26Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:19:42Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Loop – Departed User Content Workflows for User-Owned Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re introducing the ability for organizations to<b> customize Microsoft 365 profile cards</b> by adding up to 10 custom properties sourced from external systems such as HR platforms. This enhancement helps enrich user profiles with relevant organizational details, improving discoverability and context for collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=529851\" target=\"_blank\">529851</a>.</p>\n<b>When this will happen:</b><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>June 2026 </b>(previously&nbsp;March)&nbsp;and expect to complete in <b>June 2026</b> (previously&nbsp;March).</p><ul>\n</ul>\n<b>How this affects your organization</b><p><i>Who is affected:</i> Microsoft 365 tenant admins managing user profile cards</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>You can add up to 10 custom properties to profile cards using Microsoft Graph People connectors.</li>\n<li>Properties can be sourced from external systems (such as HR platforms).</li><li><b>This feature is OFF by default and requires admin configuration to enable.</b></li>\n<li>Admins can configure visibility, display name, and icon for each property in <i>Microsoft 365 admin center</i> under: <b><i>Settings &gt; Org settings &gt; People settings &gt; Profile &gt; Person info on profile cards&nbsp;</i></b><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0dfbbdd-8108-4924-9253-179773031372/cc331bf01d93d49946982aa0f9e293df2a5518c2.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</li><li>Once enabled, properties appear in the <i>Contact Information </i>section of profile cards in <i>Outlook Web:</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d284d7ad-c18f-483e-b139-8bfd10e4bf83/a871f3780b6b19d1653abbed7d75d1cec8426e5a.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Changes may take up to 24 hours to propagate across profile cards.</li>\n<li>Future updates will include direct ingestion from SAP SuccessFactors and Workday connectors.</li>\n</ul>\n<b>What you can do to prepare</b><ul>\n<li>Review external systems for properties you want displayed on profile cards.</li>\n<li>Ingest these properties using a Microsoft Graph People connector.</li>\n<li>Configure visibility and enable properties in the <i>Microsoft 365 admin center</i>.</li>\n<li>Communicate this change to helpdesk staff and update internal documentation if needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/graph/peopleconnectors\" target=\"_blank\">Microsoft 365 Copilot connectors for people data | Microsoft Learn</a></p><ul>\n</ul>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -805,53 +1067,6 @@
       "Admin impact"
     ],
     "Title": "What’s new in the Microsoft Intune service update for February 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 2, 2026: We have updated the timeline. Thank you for your patience.\n</p><p>Manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421612\" target=\"_blank\">421612</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out late March 2026 (previously early March) and expect to complete by mid-April 2026 (previously end of March).</p><p><b>How this will affect your organization:</b></p><p>Once available, admins will be able to manage retention and deletion workflows for user-owned Loop workspaces such as Copilot Pages and the Loop personal workspace when users leave the organization. Updates will include the ability to provide temporary access to other employees or administrators to save important data before deletion policies take effect.</p><p>More details will become available closer to the release date.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "421612"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting late March 2026, admins can manage retention and deletion workflows for user-owned Microsoft Loop workspaces when users leave, including temporary access for data saving. The rollout completes by mid-April 2026, with no preparation needed from organizations."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC929014",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-02T23:47:51.617Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-08T23:19:42Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Loop – Departed User Content Workflows for User-Owned Loop workspaces",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
