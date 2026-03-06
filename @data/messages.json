@@ -4,6 +4,93 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 6, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>To reduce notification noise and improve signal quality, Microsoft will disable <b>Teams Meeting Recording (TMR) </b>expiration notification emails. Customer feedback indicates these emails generate high volume with minimal engagement. Only the email notifications are being removed; recording expiration and deletion behavior remains unchanged.</p>\n\n<p><b>When this will happen</b></p>\n<p>June 1, 2026</p>\n\n<p><b>How this affects your organization</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Microsoft 365 tenants</li>\n  <li>Users who receive Teams meeting recording expiration emails</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will no longer receive email notifications when a Teams meeting recording expires.</li>\n  <li>Recording expiration and deletion policies remain unchanged.</li>\n  <li>No admin action or policy updates are required.</li>\n  <li>This change is <b>enabled by default</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and helpdesk teams of this change.</li>\n  <li>Update internal documentation if it references expiration emails.</li>\n  <li>If your organization requires these notifications, submit the survey linked in the original communication.</li>\n</ul>\n\n<p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting June 1, 2026, Microsoft will disable Teams meeting recording expiration notification emails for all Microsoft 365 tenants to reduce notification noise. Recording expiration and deletion remain unchanged. No admin action is needed, but organizations can notify users or update documentation if desired."
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245635",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-06T22:14:13.01Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-06T15:46:01Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Upcoming change: disabling Teams meeting recording expiration notification emails",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re improving external collaboration in Microsoft Teams by enabling file attachments and Loop sharing in 1:1, group and meeting chats with external users. This update improves the collaboration experience for Files and Loop and add a new control for IT admins. Specifically, Files and Loop components will be shared automatically with external participants in the chat and won’t require any action by the sender by default. Additionally, Entra B2B Guests in your organization will be able to attach and share files from their home tenant’s OneDrive or SharePoint.&nbsp;</p><p>This change applies to Teams for Windows desktop, Mac desktop, and web and is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492625\" target=\"_blank\">492625</a>.</p><p>Screenshot 1: <i>Files are automatically provisioned.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a099fd76-7665-4ce8-b043-0f3331b55971\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Files shared have an external label and always open on Web.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/27858dcc-8fd4-4e98-b1af-27dd3678887d\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>When this will happen:</b></b></p><ul><p></p>\n<li><b>Targeted Release:</b>&nbsp;Rollout begins late October 2025; expected to complete by mid-November 2025</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins mid-January 2026</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>All Microsoft Teams users in your organization who participate in 1:1, group, or meeting chats with external users, including guest and Teams for Free users.</p><p><b>What will happen:</b></p><p>With this update: \n</p><ul><li>Unless the user chooses to share File and Loop by pasting links, external users in chat will be automatically provisioned to allow frictionless collaboration. \n</li><li>You can disable automatic provisioning and have the user change permissions manually by using policy controls.\n</li><li>If disabled, users will have to manually provision the file to users in the chat. \n</li><li>Guest users will be able to upload files from their home tenant’s OneDrive and SharePoint.\n</li><li>Files shared by external users will continue to display an <b>External&nbsp;</b>tag for clarity.\n</li><li>Loop components will now be rendered inside external chats in Teams.\n</li><li>Recipients will access File and Loop components as B2B guests within the resource tenant. If they are not already added as guests, they will need to give consent and might need to complete MFA, depending on your company’s B2B policy, before viewing the chat content.</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n\n\n<ul><li>No action is required to enable the feature—it will be automatically available as the rollout progresses.</li><li>To disable the automatic provisioning behavior for files and loops set the <code>AutoShareFilesInExternalChats</code> attribute of <code>TeamsMessagingPolicy</code> to <code>Disabled</code>. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-autosharefilesinexternalchats\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation</a>.\n</li><li>To provide seamless Loop access experience for external users, we recommend turning on Entra B2B Guest Access. Refer to: <a href=\"https://learn.microsoft.com/sharepoint/sharepoint-azureb2b-integration\" target=\"_blank\">Microsoft Entra B2B integration for SharePoint &amp; OneDrive - SharePoint in Microsoft 365 | Microsoft Learn</a>.</li><li>For configuration guidance, refer to: <a href=\"https://learn.microsoft.com/powershell/module/teams/set-csteamsfilespolicy?view=teams-ps#-filesharinginchatswithexternalusers\" target=\"_blank\">Set-CsTeamsFilesPolicy documentation</a> (documentation will be updated before rollout).</li></ul><p><b>Compliance considerations</b></p><p><b></b></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>New communication method between tenants</td>\n<td>Enables file sharing in external chats, expanding cross-tenant collaboration</td>\n</tr>\n<tr>\n<td>Admin control available</td>\n<td>Admins can disable the feature via PowerShell</td>\n</tr>\n<tr>\n<td>Can be controlled through Entra ID group membership</td>\n<td>Policy can be scoped using Entra ID groups</td>\n</tr>\n<tr>\n<td>Data processing changes</td>\n<td>Files shared in external chats are tagged and stored per existing Teams file sharing protocols</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "492625"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams now enables automatic file and Loop component sharing by default in external 1:1, group, and meeting chats, improving collaboration. Admins can disable this via policy. Guest users can share files from their home tenant. Rollout starts October 2025, completing worldwide by January 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-03-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1181772",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T21:27:22.787Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T00:11:41Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: File attachment control now enabled by default in external 1:1 and group chats",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>enhancing the Data Security Triage Agent</b> in <i>Microsoft Purview Insider Risk Management </i>to help analysts triage alerts more efficiently and focus investigations on the activities and users that matter most. These updates respond to customer feedback for clearer risk context, streamlined alert review, and improved investigation accuracy.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557683\" target=\"_blank\">557683</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in&nbsp;<b>early March 2026 </b>and expect to complete by <b>early April 2026</b>.\n</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late June 2026 </b>and expect to complete by <b>late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins and security analysts who use <b>Microsoft Purview Insider Risk Management</b>.</li><li>Organizations with Insider Risk Management enabled and analysts using alert triage workflows.</li></ul><p><i>What will happen</i></p><p>The newly enhanced <b>Data Security Triage Agent</b>&nbsp;acts as the front door to investigations, helping teams immediately understand who and what matters most. Instead of manually reviewing raw alerts, the Data Security Triage Agent provides:</p><ul><li><b>Prioritized alerts</b> based on user risk and activity patterns.</li><li><b>Behavioral risk patterns</b> summarized into investigative themes, helping analysts move more quickly from alert to insight.</li><li><b>Expanded user context</b>, including role, employment status (such as last working date), and prior alert history.</li><li>Access to the enhanced experience in:<ul><li><i><b>Purview portal → Insider Risk Management → Agent tab</b></i></li><li><i><b>Alerts tab → Triage Agent toggle</b></i></li></ul></li><li>The enhancement is <b>not enabled by default</b>; admins must turn on the Data Security Triage Agent.</li><li>Organizations using Microsoft 365 E5 will also receive<b> Security Copilot</b> to support investigations; rollout is ongoing and customers will receive advance notice.</li></ul><p><i>Screenshot 1 - View of alerts</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c9fc26c9-e464-4047-85bf-00587154af3d/a52eba74623a93572f34544f02f406daa6d54eb1.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><i>Screenshot 2 - How to access the enhanced Triage Agent in Microsoft Purview Insider Risk Management (IRM):</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/16cfa9bb-cccb-45be-a4a7-91a4ee6595a9/9c4a2e764654735a32de770b9e0257c4526ccbed.png\" style=\"width:400px;\" alt=\"user settings\"></p><p> </p><p><b><b>What you can do to prepare</b></b></p><p>No immediate action is required. However, to make use of the new capabilities, consider the following steps:</p><ul><li>Enable the <b>Data Security Triage Agent </b>in the <i>Purview portal (<b><a href=\"https://sip.purview.microsoft.com/agent/agentoverview\" target=\"_blank\">Agent tab</a></b>)</i>.</li><li><b>Train analysts to access the enhanced view</b> using the<i><b> <a href=\"https://sip.purview.microsoft.com/insiderriskmgmt/alertspage\" target=\"_blank\">Triage Agent</a></b></i> toggle in the <i>Alerts tab</i>.</li><li>Review your internal documentation for Insider Risk investigation processes and update it as needed.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://www.microsoft.com/security/blog/2025/11/18/agents-built-into-your-workflow-get-security-copilot-with-microsoft-365-e5/\" target=\"_blank\">Agents built into your workflow: Get Security Copilot with Microsoft 365 E5</a></p><p></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p>\n</p>",
       "ContentType": "html"
     },
@@ -457,43 +544,6 @@
       "Admin impact"
     ],
     "Title": "AI Admin RBAC updates",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p>\n<p>To reduce notification noise and improve signal quality, Microsoft will disable <b>Teams Meeting Recording (TMR) </b>expiration notification emails. Customer feedback indicates these emails generate high volume with minimal engagement. Only the email notifications are being removed; recording expiration and deletion behavior remains unchanged.</p>\n\n<p><b>When this will happen</b></p>\n<p>June 1, 2026</p>\n\n<p><b>How this affects your organization</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Microsoft 365 tenants</li>\n  <li>Users who receive Teams meeting recording expiration emails</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will no longer receive email notifications when a Teams meeting recording expires.</li>\n  <li>Recording expiration and deletion policies remain unchanged.</li>\n  <li>No admin action or policy updates are required.</li>\n  <li>This change is <b>enabled by default</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and helpdesk teams of this change.</li>\n  <li>Update internal documentation if it references expiration emails.</li>\n  <li>If your organization requires these notifications, submit the survey linked in the original communication.</li>\n</ul>\n\n<p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting June 1, 2026, Microsoft will disable Teams meeting recording expiration notification emails for all Microsoft 365 tenants. Recording expiration and deletion policies remain unchanged. No admin action is needed, but organizations can notify users or update documentation if desired."
-      }
-    ],
-    "EndDateTime": "2026-07-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1245635",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-06T15:46:24.383Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-06T15:46:01Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Upcoming change: disabling Teams meeting recording notification emails",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
