@@ -4,6 +4,171 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>enhancing the Data Security Triage Agent</b> in <i>Microsoft Purview Insider Risk Management </i>to help analysts triage alerts more efficiently and focus investigations on the activities and users that matter most. These updates respond to customer feedback for clearer risk context, streamlined alert review, and improved investigation accuracy.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557683\" target=\"_blank\">557683</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in&nbsp;<b>early March 2026 </b>and expect to complete by <b>early April 2026</b>.\n</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late June 2026 </b>and expect to complete by <b>late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins and security analysts who use <b>Microsoft Purview Insider Risk Management</b>.</li><li>Organizations with Insider Risk Management enabled and analysts using alert triage workflows.</li></ul><p><i>What will happen</i></p><p>The newly enhanced <b>Data Security Triage Agent</b>&nbsp;acts as the front door to investigations, helping teams immediately understand who and what matters most. Instead of manually reviewing raw alerts, the Data Security Triage Agent provides:</p><ul><li><b>Prioritized alerts</b> based on user risk and activity patterns.</li><li><b>Behavioral risk patterns</b> summarized into investigative themes, helping analysts move more quickly from alert to insight.</li><li><b>Expanded user context</b>, including role, employment status (such as last working date), and prior alert history.</li><li>Access to the enhanced experience in:<ul><li><i><b>Purview portal → Insider Risk Management → Agent tab</b></i></li><li><i><b>Alerts tab → Triage Agent toggle</b></i></li></ul></li><li>The enhancement is <b>not enabled by default</b>; admins must turn on the Data Security Triage Agent.</li><li>Organizations using Microsoft 365 E5 will also receive<b> Security Copilot</b> to support investigations; rollout is ongoing and customers will receive advance notice.</li></ul><p><i>Screenshot 1 - View of alerts</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c9fc26c9-e464-4047-85bf-00587154af3d/a52eba74623a93572f34544f02f406daa6d54eb1.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><i>Screenshot 2 - How to access the enhanced Triage Agent in Microsoft Purview Insider Risk Management (IRM):</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/16cfa9bb-cccb-45be-a4a7-91a4ee6595a9/9c4a2e764654735a32de770b9e0257c4526ccbed.png\" style=\"width:400px;\" alt=\"user settings\"></p><p> </p><p><b><b>What you can do to prepare</b></b></p><p>No immediate action is required. However, to make use of the new capabilities, consider the following steps:</p><ul><li>Enable the <b>Data Security Triage Agent </b>in the <i>Purview portal (<b><a href=\"https://sip.purview.microsoft.com/agent/agentoverview\" target=\"_blank\">Agent tab</a></b>)</i>.</li><li><b>Train analysts to access the enhanced view</b> using the<i><b> <a href=\"https://sip.purview.microsoft.com/insiderriskmgmt/alertspage\" target=\"_blank\">Triage Agent</a></b></i> toggle in the <i>Alerts tab</i>.</li><li>Review your internal documentation for Insider Risk investigation processes and update it as needed.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://www.microsoft.com/security/blog/2025/11/18/agents-built-into-your-workflow-get-security-copilot-with-microsoft-365-e5/\" target=\"_blank\">Agents built into your workflow: Get Security Copilot with Microsoft 365 E5</a></p><p></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557683"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Insider Risk Management is enhancing the Data Security Triage Agent to prioritize alerts, summarize behavioral risks, and expand user context for more efficient investigations. The update rolls out from March to July 2026, requires admin activation, and includes Security Copilot for Microsoft 365 E5 users."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1246005",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T21:24:22.177Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-06T21:23:53Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Insider Risk Management – Enhancements to the Data Security Triage Agent",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing <b>Phase 2 of always-on diagnostics</b> for Endpoint Data Loss Prevention (DLP). This update enables admins to collect diagnostic traces directly from Windows endpoints and upload them to Microsoft through the Purview portal during support investigations—without involving the employee or information worker . This improves troubleshooting efficiency and helps resolve support cases faster.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499431\" target=\"_blank\">499431</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): We will begin rolling out in&nbsp;early March 20265</b>&nbsp;and expect to complete by <b>mid-March&nbsp;2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who manage <b>Endpoint DLP </b>in <i>Microsoft Purview</i></li><li>Organizations using Windows endpoints with Endpoint DLP enabled</li></ul><p><i>What will happen</i></p><ul><li>Admins can request and retrieve always-on diagnostics directly from Windows endpoints using the Purview portal.</li><li>Users are not interrupted, and no device-side interaction is required.</li><li>Diagnostic traces can be uploaded directly to Microsoft Support using a request number.</li><li>The change reduces time to reproduce issues, collect logs, and resolve support cases.</li><li>Existing Endpoint DLP policies and enforcement remain unchanged.</li><li>This feature requires admin enablement; it is <b>not automatically turned on</b>. Learn more: <a href=\"https://learn.microsoft.com/purview/dlp-always-on-diagnostics\" target=\"_blank\">Always-on diagnostics for Endpoint DLP</a>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review the documentation for configuring always-on diagnostics for Endpoint DLP.</li><li>Enable the feature for your organization if you plan to use the enhanced troubleshooting capabilities.</li><li>Update internal helpdesk documentation to ensure support staff know how to request traces from the Purview portal.</li><li>Share the Learn documentation with admins who manage Purview or DLP policies.</li></ul><p><b>Learn more:</b> <a href=\"https://learn.microsoft.com/purview/dlp-always-on-diagnostics\" target=\"_blank\">Always-on diagnostics for endpoint DLP | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "499431"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Phase 2 of always-on diagnostics for Endpoint Data Loss Prevention enables admins to collect diagnostic traces from Windows endpoints via the Purview portal without user involvement, improving troubleshooting. Rolling out worldwide from March 2026, it requires admin enablement and does not affect existing DLP policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-04-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1246003",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T21:23:29.92Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-06T21:23:22Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Endpoint Data Loss Prevention: Always-on diagnostics for Windows endpoints (Phase 2)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Problem detected: Microsoft Baseline Security Mode has automatically triggers Entra Conditional Access policy creation</p><p>Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 might see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a Disabled state. These policies are associated with Baseline Security Mode and might appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.<br></p><p><b>How this will affect your organization:</b></p><p>This behavior doesn't represent a security incident and has no effect on tenant security. The policies are in a disabled draft state.&nbsp;<br></p><p><b>What you need to do to prepare:</b></p><p>There's no action needed to prepare. A fix has rolled out to ensure policies are created only through explicit administrator action. Any unintentionally created policy drafts will be removed as part of addressing this issue.&nbsp;</p><p><b>Learn more about Microsoft Baseline Security Mode</b><br>Baseline Security Mode: https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings?view=o365-worldwide</p>",
+      "ContentType": "html"
+    },
+    "Category": "preventOrFixIssue",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Between November 2025 and February 2026, Microsoft Baseline Security Mode automatically created two disabled draft Entra Conditional Access policies in some tenants. This is not a security issue, requires no action, and a fix will remove unintended drafts and prevent automatic creation."
+      }
+    ],
+    "EndDateTime": "2026-04-03T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1246002",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T21:22:58.01Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-06T21:22:39Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Prevent/Fix: Microsoft Baseline Security Mode has automatically trigger Entra Conditional Access policy creation",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Starting in the second week of April 2026, <b>Always-on diagnostics for Endpoint Data Loss Prevention (DLP) will be turned on by default</b> for onboarded Windows devices in Microsoft Purview. Endpoint DLP diagnostic traces including policy evaluation logs, file classification results, enforcement actions, and error states are stored locally on the device in a secure, compressed proprietary format for up to 90 days. This collection helps eliminate the need to reproduce issues during Microsoft Support investigations. The ability to request that Microsoft collects critical diagnostic data as part of a support case will also be enabled. Endpoint diagnostic logs that you choose can then be securely shared with Microsoft for troubleshooting, reducing investigation effort and accelerating time to resolution for Endpoint DLP issues.\n</p><p><b style=\"\"><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide): This change will go into effect <b style=\"\">mid-April 2026</b></p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b style=\"\">Who is affected:</b></p>\n<ul>\n  <li>Organizations using <b>Endpoint Data Loss Prevention (DLP)</b> on Windows devices</li>\n  <li>Admins managing Endpoint DLP settings in Microsoft Purview</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>From the date of this Message Center post through the second week of April 2026, admins may choose to opt out of this setting in the Microsoft Purview portal. If an admin opts out during this period, their selection will be respected, and the setting will remain unchanged.</li><li>If no action is taken, diagnostics will be automatically enabled in the second week of April 2026, after which admins can opt out at any time via the existing settings.</li>\n</ul> <p><b>Note:</b> Opting out of Always-on diagnostics may hinder your ability to effectively troubleshoot issues that arise in Endpoint Data Loss Prevention scenarios. Without this feature, organizations may experience prolonged investigation times, reduced visibility into policy behavior, and increased difficulty identifying and resolving Endpoint DLP issues. Keeping Always-on diagnostics enabled helps support the security, reliability, and operational stability of your environment.</p>\n\n<p><b style=\"\"><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li><b>No action is required</b> if you want to keep the default behavior.</li>\n  <li>Review your organization’s diagnostic and data collection policies.</li>\n  <li>If you want to opt out before the default change:<ul><li>Go to <b>Microsoft Purview portal</b></li><li>Navigate to <b>Endpoint DLP settings</b></li><li>Disable <b>Always-on diagnostics</b></li></ul></li>\n  <li>Communicate this change to security, compliance, and helpdesk teams</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/dlp-always-on-diagnostics\" target=\"_blank\">Always-on diagnostics for endpoint DLP | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/always%E2%80%91on-diagnostics-for-purview-endpoint-dlp-effortless-zero%E2%80%91friction-troubles/4479008\" target=\"_blank\">Always-on diagnostics troubleshooting blog</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-security-blog/always-on-diagnostics-for-endpoint-dlp/4435551\" target=\"_blank\">Always-on diagnostics blog</a></li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Question</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change store new customer data, and if so, where?</td>\n    <td>Endpoint DLP diagnostic logs (including policy evaluation, classification results, enforcement actions, and error states) are stored locally on Windows devices in a secure, compressed proprietary format for up to 90 days.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n    <td>Admins gain enhanced troubleshooting capabilities by collecting and selectively sharing Endpoint DLP diagnostic data with Microsoft during support cases - eliminating the need to reproduce issues or engage end users, and improving investigation efficiency.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control?</td>\n    <td>Admins can opt out of Always-on diagnostics at any time through existing Endpoint DLP settings in the Microsoft Purview portal.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-April 2026, Always-on diagnostics for Endpoint DLP will be enabled by default on Windows devices, storing diagnostic logs locally for 90 days to aid troubleshooting. Admins can opt out anytime via Microsoft Purview. This improves issue resolution but may affect investigation efficiency if disabled."
+      }
+    ],
+    "EndDateTime": "2026-05-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1246001",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-06T21:22:19.353Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-06T21:22:03Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Always-on diagnostics for Endpoint DLP – Turned on by default",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in late April 2026 (previously late March) and expect to complete by mid-May 2026 (previously early April).</p><p>\n<b><b>What's changing?</b></b>\n</p><p><b>Who is affected:</b></p>\n<ul>\n  <li>Affected tenants: If your TeamsMeetingPolicy was created or modified before the Copilot without transcription policy option was introduced (June 2024), your tenant will be affected by this change.</li>\n  <li>Not Affected: If your TeamsMeetingPolicy was created or modified after June 2024 when the Copilot without transcription option was introduced, your tenant will not be affected.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">What will happen:</p>\n<ul style=\"\">\n  <li style=\"\">The default Copilot policy will change from <code>EnabledWithTranscript</code> to <code>Enabled</code> for both new and existing Teams meetings where Copilot is allowed.</li>\n  <li style=\"\">Copilot and Facilitator will no longer automatically start transcription for meetings in affected tenants.</li>\n  <li style=\"\">Users must manually enable transcription to use post-meeting Copilot or Facilitator queries.</li>\n  <li style=\"\">Conversation history will persist during meetings for Copilot without transcription.</li>\n  <li style=\"\">Tenants with TeamsMeetingPolicy created or modified after <b>June 2024</b> are <b>not affected</b>.</li>\n</ul>\n\n<b style=\"font-weight: bold;\"><b>What you can do to prepare:</b></b>\n<p style=\"\"><b>If adopting the new defaults:</b></p>\n<ul style=\"\">\n  <li style=\"\">Review TeamsMeetingPolicy for transcription dependencies.</li>\n  <li style=\"\">Update internal documentation and training.</li>\n  <li style=\"\">Communicate to users how to enable transcription when needed.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">Optional admin steps to retain current behavior:</p>\n<ul style=\"\">\n  <li style=\"\">Update Global and Custom TeamsMeetingPolicy settings via TAC or PowerShell.</li>\n  <li style=\"\">TAC UI Portal: Navigate to Teams Admin Center and set the Copilot policy default value as required. For example, if the current default value is desired, update it to a different value, then set it back. Please ensure both TeamsMeetingPolicy and all Custom Policies are updated.</li>\n  <li style=\"\">PowerShell example to set Copilot policy to <code>EnabledWithTranscript</code> for all relevant meeting policies:\n\n<pre style=\"\">get-csteamsmeetingpolicy | ? {\n &nbsp;$_.Identity -ne \"Tag:AllOn\" -and\n &nbsp;$_.Identity -ne \"Tag:AllOff\" -and\n &nbsp;$_.Identity -ne \"Tag:Default\" -and\n &nbsp;$_.Identity -ne \"Tag:Kiosk\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousAccess\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousNoRecording\"\n} | % {\n &nbsp;$_.Identity;\n &nbsp;set-csteamsmeetingpolicy -identity $_.Identity -Copilot EnabledWithTranscript\n}<b>\n    </b></pre>\n  </li>\n</ul>\n<p style=\"font-weight: bold;\">Learn more:&nbsp;</p><ul style=\"\"><li style=\"\"><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\" style=\"\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li style=\"\"><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\" style=\"\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p style=\"font-weight: bold;\"><b>Compliance considerations</b></p><table class=\"table table-bordered\" style=\"font-weight: bold;\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change alter how existing customer data is processed, stored, or accessed?</span></td><td><span style=\"font-weight: normal;\">Conversation history is now retained during the meeting instead of being cleared when switching panels.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</span></td><td><span style=\"font-weight: normal;\">Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change provide end users any new way of interacting with generative AI?</span></td><td><span style=\"font-weight: normal;\">Users can now maintain a continuous Copilot interaction during meetings without transcription.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change include an admin control and, can it be controlled through Entra ID group membership?</span></td><td><span style=\"font-weight: normal;\">IT admins can enforce or override defaults via Teams meeting policy.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change allow a user to enable and disable the feature themselves?</span></td><td><span style=\"font-weight: normal;\">Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</span></td></tr></tbody></table><p style=\"font-weight: bold;\"></p>",
       "ContentType": "html"
     },
@@ -853,6 +1018,10 @@
       {
         "Name": "RoadmapIds",
         "Value": "500378"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"500378\":[{\"RoadmapId\":500378,\"Platform\":\"Android\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6643799Z\",\"LatestRing\":null},{\"RoadmapId\":500378,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-11-27T13:29:07.66438Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6852,6 +7021,10 @@
         "Value": "476488"
       },
       {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+      },
+      {
         "Name": "Summary",
         "Value": "Microsoft Teams will separate event invite emails by participant roles—attendee, presenter, and co-organizer—starting mid-April 2026. Organizers and presenters receive distinct invites, aiding town hall management. Rollout is automatic; admins should inform users and update documentation accordingly."
       },
@@ -8983,7 +9156,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871125Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
