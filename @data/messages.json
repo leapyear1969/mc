@@ -4,6 +4,128 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We're introducing two new remediation actions as part of the <b>Email</b> table in&nbsp;Advanced Hunting that help&nbsp;<b>security operations (SecOps) </b>teams respond more quickly during investigations:</p><ul><li><b>Attachment  block action\n</b></li><li><b>Top-level URL domain block action\n</b></li></ul><p>These actions let SecOps teams move directly from detection to mitigation within the same workflow, reducing response time and operational friction when addressing malicious campaigns.</p><p>These actions will be available through <b>Take action</b> if the query returns all the required columns.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out <b>early March 2026</b> and expect to complete by <b>early April 2026</b> (previously&nbsp;end of March).</p><p><b><b>How this affects your organization:</b>\n\n</b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Security operations teams and administrators using Advanced Hunting in Microsoft Defender for Office 365</li><li><b>T</b>his feature is available to customers with <b>Microsoft Defender for Office 365 Plan 2 </b>or<b> Microsoft 365 E5 licenses.</b></li></ul><p><b>What will happen:</b></p>\n<ul>\n<li>Security teams can block malicious email attachments directly from Advanced Hunting results.</li>\n<li>Security teams can block top-level URL domains<b> </b>associated with phishing or malicious campaigns.</li>\n<li>Remediation actions are available in the Advanced Hunting “Take action” wizard.</li>\n<li>The feature is<b> enabled by default</b>; no configuration changes are required.</li>\n<li>There is <b>no impact to user workflows</b> unless a security action is taken.</li></ul><p><b style=\"\">Note: </b></p><ul><li>Attachment entries in the Tenant Allow/Block List are supported only if the query results include the <b>Attachment </b>column by joining with the <b>EmailAttachmentInfo</b> table on <b>NetworkMessageId</b>.</li><li><b>Submit to Microsoft</b> may be unavailable if required columns are missing.&nbsp;To resolve this issue, select <b>Show empty columns</b> before you select <b>Take actions</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No action is required.</li>\n<li>Review security investigation and response procedures to include the new remediation options.</li>\n<li>Inform SecOps teams of the updated<b> </b>Advanced Hunting capabilities.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-take-action\" target=\"_blank\">Take action on advanced hunting query results in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a>&nbsp;(documentation will be updated before rollout)</p><ul>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Office 365 introduces two new Advanced Hunting remediation actions—blocking attachments and top-level URL domains—to speed SecOps response. Available early March 2026 for Plan 2 and Microsoft 365 E5 users, these features enable direct mitigation from hunting results with no user workflow impact."
+      }
+    ],
+    "EndDateTime": "2026-05-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1237728",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T17:23:56.433Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-23T23:48:43Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Advanced Hunting: new actions to block attachments and top-level URL domains",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 4, 2026: We have updated the timing of this change below. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Purview Communication Compliance is undergoing a scheduled infrastructure upgrade. Although this migration is planned outside of normal business hours, some production clusters may experience higher loads, potentially causing brief delays in downstream processing. Brief delays in processing may occur during this migration, but no data will be lost.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>This migration will begin <b>January 5, 2026</b>, and end<b> April 15, 2026</b> (Previously February 28, 2026).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Microsoft Purview Communication Compliance policies and review workflows.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Updates to policy insights and aggregated counts (<b>New pending today</b>, <b>Total pending</b>, <b>Total resolved</b>) may occur at a slower pace than usual.</li>\n<li>Intermittent errors may occur when reviewing flagged messages.</li>\n<li>Brief delays may be observed between receiving an alert notification and accessing messages for review.</li>\n<li>Certain report views may display outdated data until backlog processing is complete.</li>\n<li>Some export functions, such as exporting reports and files, might be temporarily unavailable.</li>\n<li>No data loss will occur—only temporary slowdowns in processing times.</li>\n</ul>\n<p>This maintenance is scheduled outside of normal business hours to minimize impact. However, global organizations may experience some overlap with active hours.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required from administrators; the upgrade will be implemented automatically.</li>\n<li>We recommend informing your administrative and compliance teams about these possible short-term delays.</li>\n<li>If needed, update internal documentation to reflect potential temporary limitations.</li><li><a href=\"https://learn.microsoft.com/purview/communication-compliance\" target=\"_blank\">Learn about Communication Compliance</a>.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Communication Compliance is undergoing an infrastructure upgrade from January 5 to April 15, 2026, causing temporary processing delays, intermittent errors, and possible outdated report data. No data loss will occur. No action is required, but admins should inform teams about these short-term impacts."
+      }
+    ],
+    "EndDateTime": "2026-05-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1214183",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T17:07:13.37Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-06T22:48:30Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "Purview Communication Compliance: Temporary delays in processing due to planned infrastructure migration",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 4, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re updating how entities inserted from <b>Add Work Content </b>under the <b>+ menu </b>behave in <i>Microsoft 365 Copilot </i>and<i> Copilot Chat</i>. With this change, entity names (such as document titles, people names, or other referenced objects) will <b>no longer be inserted as text within the input box</b>, making it easier for users to craft clean prompts without needing to manually delete entity labels. This feature is available to both users with a Microsoft 365 Copilot license (Microsoft 365 Copilot users) and users without a Microsoft 365 Copilot license (Copilot Chat users), but the experience varies.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=552592#Roadmap\" target=\"_blank\">552592</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b> Rollout begins in <b>mid‑February 2026 </b>and completes in <b>mid-March 2026</b> (previously<b> </b>late February).</p><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i>: All users with access to <b>Microsoft 365 Copilot and Copilot Chat </b>in <i>commercial (non-government) clouds</i>.</p><p>What will happen: </p><ul><li>When users insert entities through <b>Add Work Content (+)</b>:<ul><li>The<b> entity pill</b> will appear in <i>context</i>, but the <b>entity name will no longer be inserted as text </b>in the<i> chat input box:</i><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ebc3107c-817a-4c26-ae41-0e6d1425db19/e7c20ce159de09706465b9602575fdd1eec442ea.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li><li>This change creates a cleaner prompt-building experience by removing extraneous text.</li><li>No admin controls are changing.</li><li>This update is <b>enabled by default for all tenants</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Optional steps include:</p><ul><li>Informing helpdesk or training teams about the change.</li><li>Updating internal documentation that references entity insertion behavior in <i>Copilot</i> or <i>Copilot Chat</i>.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0?preview=true\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "552592"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot and Copilot Chat will update entity inserts from \"Add Work Content (+)\" to show entity pills without inserting entity names as text in the chat input box. This cleaner prompt experience rolls out worldwide from mid-February to mid-March 2026, enabled by default with no admin changes."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-04-24T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1230892",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T16:55:49.04Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-11T23:19:18Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Updated handling of entity inserts in the Copilot Chat input box",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>\nWe are updating the <b>AI Administrator</b>&nbsp;role to support <b>Agent 365</b>. This update enables delegated, day-to-day agent management while preserving enterprise security and least-privilege principles.</p>\n\n<p>The AI Admin role is designed for managing agent lifecycles and agentic users. By removing the dependency on <b>Global Administrators</b> for routine, agent-scoped actions, this change helps eliminate operational bottlenecks, supports scale, and maintains clear separation of duties. Global Admin elevation remains required only for rare, high-risk scenarios.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability: Rollout begins <b>early March 2026</b>; expected completion by <b>late March 2026</b></p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected</b></p>\n<ul>\n  <li>Microsoft 365 tenants using Agent 365</li>\n  <li>Administrators assigned the <b>AI Administrator role</b></li>\n  <li>Organizations that currently require <b>Global Administrator</b> involvement for routine agent management</li>\n</ul>\n\n<p><b>What will happen</b></p>\n<ul>\n  <li><b>AI Administrators </b>can grant tenant-wide admin consent for apps and agents requesting permissions, except Microsoft Graph application permissions</li>\n  <li>AI Admins can view basic subscription properties</li>\n  <li>AI Admins can view agents flagged as risky through Microsoft Entra Identity Protection. Learn more: <a href=\"https://learn.microsoft.com/entra/id-protection/concept-risky-agents\" target=\"_blank\">ID Protection for agents (Preview)</a>&nbsp;(this article will be updated soon).</li><li>To review existing capabilities of the AI Admin, visit <a href=\"https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#ai-administrator\" target=\"_blank\" style=\"\">AI Administrator</a>.</li>\n  <li>AI Admins can perform full CRUD (create, read, update, delete) operations on agents</li>\n  <li>This includes adding, deleting, and managing agent credentials</li>\n  <li>Agent management is available through the Microsoft 365 admin center, Microsoft Entra admin center, PowerShell, and APIs</li>\n</ul>\n\n<p><b>What is not included</b></p>\n<ul>\n  <li>Apps or agents requiring Microsoft Graph application permissions will continue to require <b>Privileged Role Administrator</b> or <b>Global Administrator</b> approval</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Review existing assignments for the <b>AI Administrator</b> role to ensure only appropriate users have access</li>\n  <li>If you want to opt out, remove the AI Admin role from users who should not grant tenant-wide consent or manage agents</li>\n</ul>\n\n<p><b>Review or update role assignments</b></p>\n<ol>\n  <li>Sign in to the Microsoft 365 admin center at <a href=\"https://admin.cloud.microsoft\" target=\"_blank\">admin.cloud.microsoft</a> using a <b>Global Administrator</b> or <b>User Administrator</b> account.</li>\n  <li>Go to <b>Roles </b>&gt; <b>Role assignments</b>.</li>\n  <li>Select <b>AI Administrator</b>.</li>\n  <li>Review the list of users assigned to the role.</li>\n  <li>If needed, remove the role from users or add users who should legitimately manage AI agents.</li>\n</ol>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide\" target=\"_blank\">About administrator roles in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>AI Administrators gain expanded permissions to manage agents and agent credentials, which may indirectly affect how agents access tenant data.</td>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI or agent capabilities that interact with customer data?</td>\n    <td>The update expands AI Administrator authority over agent lifecycles and tenant-wide consent, increasing control over agent behavior and data access.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor or demonstrate compliance activities?</td>\n    <td>AI Administrators can now view agents flagged as risky through Identity Protection, improving visibility and compliance monitoring.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control, and can it be controlled through Entra ID role membership?</td>\n    <td>All new capabilities are governed by assignment of the AI Administrator role in Microsoft Entra ID.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -2040,7 +2162,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2129,7 +2251,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3375,7 +3497,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3698,7 +3820,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3812,43 +3934,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing two new remediation actions as part of the <b>Email</b> table in&nbsp;Advanced Hunting that help&nbsp;<b>security operations (SecOps) </b>teams respond more quickly during investigations:</p><ul><li><b>Attachment  block action\n</b></li><li><b>Top-level URL domain block action\n</b></li></ul><p>These actions let SecOps teams move directly from detection to mitigation within the same workflow, reducing response time and operational friction when addressing malicious campaigns.</p><p>These actions will be available through <b>Take action</b> if the query returns all the required columns.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out <b>early March 2026</b> and expect to complete by <b>the end of March 2026</b>.</p><p><b><b>How this affects your organization:</b>\n\n</b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Security operations teams and administrators using Advanced Hunting in Microsoft Defender for Office 365</li><li><b>T</b>his feature is available to customers with <b>Microsoft Defender for Office 365 Plan 2 </b>or<b> Microsoft 365 E5 licenses.</b></li></ul><p><b>What will happen:</b></p>\n<ul>\n<li>Security teams can block malicious email attachments directly from Advanced Hunting results.</li>\n<li>Security teams can block top-level URL domains<b> </b>associated with phishing or malicious campaigns.</li>\n<li>Remediation actions are available in the Advanced Hunting “Take action” wizard.</li>\n<li>The feature is<b> enabled by default</b>; no configuration changes are required.</li>\n<li>There is <b>no impact to user workflows</b> unless a security action is taken.</li></ul><p><b style=\"\">Note: </b></p><ul><li>Attachment entries in the Tenant Allow/Block List are supported only if the query results include the <b>Attachment </b>column by joining with the <b>EmailAttachmentInfo</b> table on <b>NetworkMessageId</b>.</li><li><b>Submit to Microsoft</b> may be unavailable if required columns are missing.&nbsp;To resolve this issue, select <b>Show empty columns</b> before you select <b>Take actions</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No action is required.</li>\n<li>Review security investigation and response procedures to include the new remediation options.</li>\n<li>Inform SecOps teams of the updated<b> </b>Advanced Hunting capabilities.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-take-action\" target=\"_blank\">Take action on advanced hunting query results in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a>&nbsp;(documentation will be updated before rollout)</p><ul>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "New Advanced Hunting actions in Microsoft Defender for Office 365 allow SecOps teams to block malicious email attachments and top-level URL domains directly from query results, enabling faster response. Available from March 2026 for Microsoft Defender for Office 365 Plan 2 or Microsoft 365 E5 users, enabled by default with no user impact."
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1237728",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-23T23:48:46.33Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-23T23:48:43Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Advanced Hunting: new actions to block attachments and top-level URL domains",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4427,7 +4512,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6828,52 +6913,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re updating how entities inserted from <b>Add Work Content </b>under the <b>+ menu </b>behave in <i>Microsoft 365 Copilot </i>and<i> Copilot Chat</i>. With this change, entity names (such as document titles, people names, or other referenced objects) will <b>no longer be inserted as text within the input box</b>, making it easier for users to craft clean prompts without needing to manually delete entity labels. This feature is available to both users with a Microsoft 365 Copilot license (Microsoft 365 Copilot users) and users without a Microsoft 365 Copilot license (Copilot Chat users), but the experience varies.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=552592#Roadmap\" target=\"_blank\">552592</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b> Rollout begins in <b>mid‑February 2026 </b>and completes in<b> late February 2026</b>.</p><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i>: All users with access to <b>Microsoft 365 Copilot and Copilot Chat </b>in <i>commercial (non-government) clouds</i>.</p><p>What will happen: </p><ul><li>When users insert entities through <b>Add Work Content (+)</b>:<ul><li>The<b> entity pill</b> will appear in <i>context</i>, but the <b>entity name will no longer be inserted as text </b>in the<i> chat input box:</i><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ebc3107c-817a-4c26-ae41-0e6d1425db19/e7c20ce159de09706465b9602575fdd1eec442ea.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li><li>This change creates a cleaner prompt-building experience by removing extraneous text.</li><li>No admin controls are changing.</li><li>This update is <b>enabled by default for all tenants</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Optional steps include:</p><ul><li>Informing helpdesk or training teams about the change.</li><li>Updating internal documentation that references entity insertion behavior in <i>Copilot</i> or <i>Copilot Chat</i>.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0?preview=true\" target=\"_blank\">Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "552592"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot and Copilot Chat will update entity inserts from Add Work Content so entity names no longer appear as text in the input box, enabling cleaner prompts. This change rolls out worldwide from mid to late February 2026, is enabled by default, and requires no admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2026-03-26T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230892",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-11T23:19:32.717Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-11T23:19:18Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Updated handling of entity inserts in the Copilot Chat input box",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-04-14T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -8896,7 +8935,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8988,7 +9027,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9631,7 +9670,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9814,7 +9853,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10064,7 +10103,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11660,7 +11699,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12997,42 +13036,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Purview Communication Compliance is undergoing a scheduled infrastructure upgrade. Although this migration is planned outside of normal business hours, some production clusters may experience higher loads, potentially causing brief delays in downstream processing. Brief delays in processing may occur during this migration, but no data will be lost.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>This migration will begin&nbsp;<b>January 5, 2026</b>, and end <b>February 28, 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Microsoft Purview Communication Compliance policies and review workflows.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Updates to policy insights and aggregated counts (<b>New pending today</b>, <b>Total pending</b>, <b>Total resolved</b>) may occur at a slower pace than usual.</li>\n<li>Intermittent errors may occur when reviewing flagged messages.</li>\n<li>Brief delays may be observed between receiving an alert notification and accessing messages for review.</li>\n<li>Certain report views may display outdated data until backlog processing is complete.</li>\n<li>Some export functions, such as exporting reports and files, might be temporarily unavailable.</li>\n<li>No data loss will occur—only temporary slowdowns in processing times.</li>\n</ul>\n<p>This maintenance is scheduled outside of normal business hours to minimize impact. However, global organizations may experience some overlap with active hours.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required from administrators; the upgrade will be implemented automatically.</li>\n<li>We recommend informing your administrative and compliance teams about these possible short-term delays.</li>\n<li>If needed, update internal documentation to reflect potential temporary limitations.</li><li><a href=\"https://learn.microsoft.com/purview/communication-compliance\" target=\"_blank\">Learn about Communication Compliance</a>.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Communication Compliance will undergo infrastructure migration from January 5 to February 28, 2026, causing temporary delays, intermittent errors, and slower updates in policy insights and reports. No data loss will occur. No action is required, but admins should inform teams of possible short-term slowdowns."
-      }
-    ],
-    "EndDateTime": "2026-04-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1214183",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-06T22:48:36.643Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-06T22:48:30Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Purview Communication Compliance: Temporary delays in processing due to planned infrastructure migration",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated January 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing new features to the Copilot Notebooks module in the following apps:</p>\n<ul>\n<li>M365 Copilot App for Desktop (Windows and macOS)</li>\n<li>M365 Copilot App for Web</li>\n<li>OneNote Win32 (Insiders/Beta ring)</li>\n</ul>\n<p>These updates make it easier for users to onboard and find value within Copilot Notebooks by improving navigation, personalization, and AI capabilities.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516042\" target=\"_blank\">516042</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul><li><b>Public Preview: </b>Rollout begins mid-November 2025 and is expected to complete by mid-December.</li><li><b>General Availability (Worldwide): </b>Rollout begins early February 2026 (previously early January) and is expected to complete by end of March 2026 (previously mid-February).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b style=\"\">Who is affected:</b></p>\n<ul>\n<li>Frontier Public users with an <b>M365 Copilot license</b>.</li>\n</ul>\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>Users will experience a streamlined interface with a persistent navigation pane and chat on the right for optimized notebook workflows.</li><p>Screenshot: <i>A view of the new UX, Overview Page, and Suggestions.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5e09b531-583a-4cf4-bff2-9aa8418f02b0\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>\n<li>Suggested Notebooks and references will provide personalized recommendations based on projects, graph context, and recent files.</li>\n<li>An automatically generated overview page will summarize the Notebook and key insights, refreshable as new references are added.</li>\n<li>Advanced AI features will expand reference types to include SharePoint folders and OneNote notebooks.</li>\n<li>Features will be <b>ON by default for Frontier Public users</b> starting November 19, 2025.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No admin action is required for rollout.</li>\n<li>Communicate these changes to helpdesk staff to prepare for user questions.</li>\n<li>Update internal documentation if you detail Copilot Notebook functionality.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06\" target=\"_blank\">Get started with Microsoft 365 Copilot Notebooks</a>&nbsp;(will be updated soon)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14276,7 +14279,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14577,7 +14580,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
+        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14880,7 +14883,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17340,7 +17343,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17642,7 +17645,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
