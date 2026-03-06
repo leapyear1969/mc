@@ -4,6 +4,147 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in late April 2026 (previously late March) and expect to complete by mid-May 2026 (previously early April).</p><p>\n<b><b>What's changing?</b></b>\n</p><p><b>Who is affected:</b></p>\n<ul>\n  <li>Affected tenants: If your TeamsMeetingPolicy was created or modified before the Copilot without transcription policy option was introduced (June 2024), your tenant will be affected by this change.</li>\n  <li>Not Affected: If your TeamsMeetingPolicy was created or modified after June 2024 when the Copilot without transcription option was introduced, your tenant will not be affected.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">What will happen:</p>\n<ul style=\"\">\n  <li style=\"\">The default Copilot policy will change from <code>EnabledWithTranscript</code> to <code>Enabled</code> for both new and existing Teams meetings where Copilot is allowed.</li>\n  <li style=\"\">Copilot and Facilitator will no longer automatically start transcription for meetings in affected tenants.</li>\n  <li style=\"\">Users must manually enable transcription to use post-meeting Copilot or Facilitator queries.</li>\n  <li style=\"\">Conversation history will persist during meetings for Copilot without transcription.</li>\n  <li style=\"\">Tenants with TeamsMeetingPolicy created or modified after <b>June 2024</b> are <b>not affected</b>.</li>\n</ul>\n\n<b style=\"font-weight: bold;\"><b>What you can do to prepare:</b></b>\n<p style=\"\"><b>If adopting the new defaults:</b></p>\n<ul style=\"\">\n  <li style=\"\">Review TeamsMeetingPolicy for transcription dependencies.</li>\n  <li style=\"\">Update internal documentation and training.</li>\n  <li style=\"\">Communicate to users how to enable transcription when needed.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">Optional admin steps to retain current behavior:</p>\n<ul style=\"\">\n  <li style=\"\">Update Global and Custom TeamsMeetingPolicy settings via TAC or PowerShell.</li>\n  <li style=\"\">TAC UI Portal: Navigate to Teams Admin Center and set the Copilot policy default value as required. For example, if the current default value is desired, update it to a different value, then set it back. Please ensure both TeamsMeetingPolicy and all Custom Policies are updated.</li>\n  <li style=\"\">PowerShell example to set Copilot policy to <code>EnabledWithTranscript</code> for all relevant meeting policies:\n\n<pre style=\"\">get-csteamsmeetingpolicy | ? {\n &nbsp;$_.Identity -ne \"Tag:AllOn\" -and\n &nbsp;$_.Identity -ne \"Tag:AllOff\" -and\n &nbsp;$_.Identity -ne \"Tag:Default\" -and\n &nbsp;$_.Identity -ne \"Tag:Kiosk\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousAccess\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousNoRecording\"\n} | % {\n &nbsp;$_.Identity;\n &nbsp;set-csteamsmeetingpolicy -identity $_.Identity -Copilot EnabledWithTranscript\n}<b>\n    </b></pre>\n  </li>\n</ul>\n<p style=\"font-weight: bold;\">Learn more:&nbsp;</p><ul style=\"\"><li style=\"\"><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\" style=\"\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li style=\"\"><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\" style=\"\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p style=\"font-weight: bold;\"><b>Compliance considerations</b></p><table class=\"table table-bordered\" style=\"font-weight: bold;\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change alter how existing customer data is processed, stored, or accessed?</span></td><td><span style=\"font-weight: normal;\">Conversation history is now retained during the meeting instead of being cleared when switching panels.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</span></td><td><span style=\"font-weight: normal;\">Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change provide end users any new way of interacting with generative AI?</span></td><td><span style=\"font-weight: normal;\">Users can now maintain a continuous Copilot interaction during meetings without transcription.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change include an admin control and, can it be controlled through Entra ID group membership?</span></td><td><span style=\"font-weight: normal;\">IT admins can enforce or override defaults via Teams meeting policy.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change allow a user to enable and disable the feature themselves?</span></td><td><span style=\"font-weight: normal;\">Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</span></td></tr></tbody></table><p style=\"font-weight: bold;\"></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "478611"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Copilot will default to operating without transcription in new meetings starting late April 2026, with conversation history persisting during meetings. Transcription must be manually enabled for post-meeting queries. Tenants with policies updated after June 2024 are unaffected; admins can adjust policies to retain current behavior."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1139493",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T18:29:52.207Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-22T00:09:47Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams Copilot without transcription becomes default for meetings - conversation history now persists",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>Frontier (Preview):</b> Rollout will start late March 2026 and is expected to complete by end of March 2026.&nbsp;</p><p><b>General Availability (Worldwide): </b>Rollout will begin mid-April 2026 (previously end of March) and is expected to complete by early May 2026 (previously end of February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "502875"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 introduces two new Graph APIs for admins to manage Copilot agents and apps programmatically, enabling automated reporting and integration. Preview starts late March 2026; general availability begins mid-April 2026. No UI or policy changes; existing licenses suffice. Review Microsoft Graph API documentation to prepare."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173195",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T17:34:50.823Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:41:56Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b>&nbsp;mid-March 2026</b> (previously early March)<b>&nbsp;</b>and expect to complete rollout by <b>end of March 2026</b> (previously&nbsp;mid‑March).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557348"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will roll out infinite scroll for chat history from mid- to end-March 2026, allowing users to seamlessly access full chat history in the navigation pane. The feature is enabled by default, requires no admin action, and does not affect existing workflows or compliance."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1237701",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-06T17:30:45.87Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-23T22:52:43Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Introducing infinite scroll for chat history",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We're introducing two new remediation actions as part of the <b>Email</b> table in&nbsp;Advanced Hunting that help&nbsp;<b>security operations (SecOps) </b>teams respond more quickly during investigations:</p><ul><li><b>Attachment  block action\n</b></li><li><b>Top-level URL domain block action\n</b></li></ul><p>These actions let SecOps teams move directly from detection to mitigation within the same workflow, reducing response time and operational friction when addressing malicious campaigns.</p><p>These actions will be available through <b>Take action</b> if the query returns all the required columns.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out <b>early March 2026</b> and expect to complete by <b>early April 2026</b> (previously&nbsp;end of March).</p><p><b><b>How this affects your organization:</b>\n\n</b></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Security operations teams and administrators using Advanced Hunting in Microsoft Defender for Office 365</li><li><b>T</b>his feature is available to customers with <b>Microsoft Defender for Office 365 Plan 2 </b>or<b> Microsoft 365 E5 licenses.</b></li></ul><p><b>What will happen:</b></p>\n<ul>\n<li>Security teams can block malicious email attachments directly from Advanced Hunting results.</li>\n<li>Security teams can block top-level URL domains<b> </b>associated with phishing or malicious campaigns.</li>\n<li>Remediation actions are available in the Advanced Hunting “Take action” wizard.</li>\n<li>The feature is<b> enabled by default</b>; no configuration changes are required.</li>\n<li>There is <b>no impact to user workflows</b> unless a security action is taken.</li></ul><p><b style=\"\">Note: </b></p><ul><li>Attachment entries in the Tenant Allow/Block List are supported only if the query results include the <b>Attachment </b>column by joining with the <b>EmailAttachmentInfo</b> table on <b>NetworkMessageId</b>.</li><li><b>Submit to Microsoft</b> may be unavailable if required columns are missing.&nbsp;To resolve this issue, select <b>Show empty columns</b> before you select <b>Take actions</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>No action is required.</li>\n<li>Review security investigation and response procedures to include the new remediation options.</li>\n<li>Inform SecOps teams of the updated<b> </b>Advanced Hunting capabilities.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-take-action\" target=\"_blank\">Take action on advanced hunting query results in Microsoft Defender XDR - Microsoft Defender XDR | Microsoft Learn</a>&nbsp;(documentation will be updated before rollout)</p><ul>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -3934,52 +4075,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b> early March 2026 </b>and expect to complete rollout by <b>mid‑March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 200px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557348"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will introduce infinite scroll for chat history, allowing users to seamlessly access older conversations as they scroll. This feature, enabled by default for all users, will roll out worldwide from early to mid-March 2026 with no admin changes or impact on workflows."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-14T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1237701",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-23T22:53:33.403Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-23T22:52:43Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Introducing infinite scroll for chat history",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8141,53 +8236,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated February 5, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in mid-February 2026 (previously early February) and is expected to complete by end of February 2026 (previously mid-February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "502875"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 introduces two new Graph APIs for admins to manage Copilot agents and apps programmatically, enabling automated reporting and integration. Rollout starts mid-February 2026, completing by month's end. No UI or policy changes; existing licenses suffice. Admins should review Graph API documentation to prepare."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1173195",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-05T17:58:13.903Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T23:41:56Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We're introducing more flexible and<b> precise audience targeting</b> in <i>Viva Engage</i>, starting with <b>Storyline Announcements</b>. This update allows leaders and their delegates to define a custom audience at the time of posting—without relying on pre-configured Leader Audiences. Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users by name. This flexibility enables more timely, targeted communication, helping leaders reach the right people with the right message. Notifications and delivery channels (such as Teams, email) will continue to follow existing Storyline Announcement behavior, ensuring a seamless experience for recipients.\n</p><p>This feature is ideal for leaders who want to tailor communications to specific departments, locations, or existing groups, enhancing relevance and engagement across the organization.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499895\" target=\"_blank\">499895</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by mid-March 2026 (previously early February).\n</li><li><b>General Availability (Worldwide):</b> Begins mid-March 2026 (previously early February) and completes by mid-April 2026 (previously early March).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Leaders and delegates using Viva Engage Storyline Announcements in tenants enrolled in public preview.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>This capability is being introduced as part of the public preview for Viva Engage. During this phase, leaders and their delegates can actively experiment with flexible audience targeting for Storyline Announcements—defining a custom audience at the time of posting, rather than relying solely on pre‑configured Leader Audiences.</li><li>Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users.</li><li>Notifications and delivery channels (Teams, email, Viva Engage Inbox) remain unchanged for recipients.</li><li>No dependency on IT or advance audience setup—leaders can act immediately when communication needs arise.</li><li><b>Available only in public preview</b>; functionality and targeting options may evolve before general availability.</li><li>Admins should ensure organizational attributes in Entra ID or Organizational Data in Microsoft are accurate to support successful targeting.</li><li><b>Available platforms:</b> Desktop and web.</li><li><b>Licensing requirements: </b>This feature requires a premium license available through Viva or Communications and Communities (C&amp;C). Availability may vary depending on your organization's Microsoft 365 licensing agreement.</li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No admin action is required for rollout. To prepare, you may want to:</p><ul>\n<li>Validate organizational attributes (reporting structure, country, department, role, job title) in <i>Microsoft Entra ID</i> or Organizational Data in <i>Microsoft</i>.</li>\n<li>Confirm leader and delegate assignments to ensure the right people can use Storyline Announcements and the new targeting control.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/viva/organizational-data\" target=\"_blank\">Use your organizational data in Microsoft 365 and Microsoft Viva | Microsoft Viva | Microsoft Learn</a></li>\n</ul><p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -11772,53 +11820,6 @@
       "Admin impact"
     ],
     "Title": "Rewrite with Microsoft 365 Copilot Chat coming soon to Edge for Business users",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 14, 2026: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re updating the default behavior of <b>Microsoft Teams Copilot in meetings</b>. Copilot without transcription will become the default mode for newly scheduled Teams meetings where Copilot is allowed. Additionally, conversation history will now persist during meetings, improving multitasking and continuity of insights.\n</p><p>This update is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=478611\" target=\"_blank\">478611</a>.\n</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out in late March 2026 (previously mid-January) and expect to complete by early April 2026 (previously early February).</p><p>\n<b><b>What's changing?</b></b>\n</p><p><b>Who is affected:</b></p>\n<ul>\n  <li>Affected tenants: If your TeamsMeetingPolicy was created or modified before the Copilot without transcription policy option was introduced (June 2024), your tenant will be affected by this change.</li>\n  <li>Not Affected: If your TeamsMeetingPolicy was created or modified after June 2024 when the Copilot without transcription option was introduced, your tenant will not be affected.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">What will happen:</p>\n<ul style=\"\">\n  <li style=\"\">The default Copilot policy will change from <code>EnabledWithTranscript</code> to <code>Enabled</code> for both new and existing Teams meetings where Copilot is allowed.</li>\n  <li style=\"\">Copilot and Facilitator will no longer automatically start transcription for meetings in affected tenants.</li>\n  <li style=\"\">Users must manually enable transcription to use post-meeting Copilot or Facilitator queries.</li>\n  <li style=\"\">Conversation history will persist during meetings for Copilot without transcription.</li>\n  <li style=\"\">Tenants with TeamsMeetingPolicy created or modified after <b>June 2024</b> are <b>not affected</b>.</li>\n</ul>\n\n<b style=\"font-weight: bold;\"><b>What you can do to prepare:</b></b>\n<p style=\"\"><b>If adopting the new defaults:</b></p>\n<ul style=\"\">\n  <li style=\"\">Review TeamsMeetingPolicy for transcription dependencies.</li>\n  <li style=\"\">Update internal documentation and training.</li>\n  <li style=\"\">Communicate to users how to enable transcription when needed.</li>\n</ul>\n\n<p style=\"font-weight: bold;\">Optional admin steps to retain current behavior:</p>\n<ul style=\"\">\n  <li style=\"\">Update Global and Custom TeamsMeetingPolicy settings via TAC or PowerShell.</li>\n  <li style=\"\">TAC UI Portal: Navigate to Teams Admin Center and set the Copilot policy default value as required. For example, if the current default value is desired, update it to a different value, then set it back. Please ensure both TeamsMeetingPolicy and all Custom Policies are updated.</li>\n  <li style=\"\">PowerShell example to set Copilot policy to <code>EnabledWithTranscript</code> for all relevant meeting policies:\n\n<pre style=\"\">get-csteamsmeetingpolicy | ? {\n &nbsp;$_.Identity -ne \"Tag:AllOn\" -and\n &nbsp;$_.Identity -ne \"Tag:AllOff\" -and\n &nbsp;$_.Identity -ne \"Tag:Default\" -and\n &nbsp;$_.Identity -ne \"Tag:Kiosk\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousAccess\" -and\n &nbsp;$_.Identity -ne \"Tag:RestrictedAnonymousNoRecording\"\n} | % {\n &nbsp;$_.Identity;\n &nbsp;set-csteamsmeetingpolicy -identity $_.Identity -Copilot EnabledWithTranscript\n}<b>\n    </b></pre>\n  </li>\n</ul>\n<p style=\"font-weight: bold;\">Learn more:&nbsp;</p><ul style=\"\"><li style=\"\"><a href=\"https://learn.microsoft.com/microsoftteams/copilot-teams-transcription\" target=\"_blank\" style=\"\">Manage Microsoft 365 Copilot in Teams meetings and events | Microsoft Teams | Microsoft Learn</a></li><li style=\"\"><a href=\"https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9\" target=\"_blank\" style=\"\">Use Copilot without recording a Teams meeting | Copilot in Teams | Copilot | Microsoft Support</a></li></ul><p style=\"font-weight: bold;\"><b>Compliance considerations</b></p><table class=\"table table-bordered\" style=\"font-weight: bold;\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change alter how existing customer data is processed, stored, or accessed?</span></td><td><span style=\"font-weight: normal;\">Conversation history is now retained during the meeting instead of being cleared when switching panels.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</span></td><td><span style=\"font-weight: normal;\">Copilot behavior is updated to persist conversation history, enhancing AI-driven meeting insights.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change provide end users any new way of interacting with generative AI?</span></td><td><span style=\"font-weight: normal;\">Users can now maintain a continuous Copilot interaction during meetings without transcription.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change include an admin control and, can it be controlled through Entra ID group membership?</span></td><td><span style=\"font-weight: normal;\">IT admins can enforce or override defaults via Teams meeting policy.</span></td></tr><tr><td><span style=\"font-weight: normal;\">Does the change allow a user to enable and disable the feature themselves?</span></td><td><span style=\"font-weight: normal;\">Users can manually enable transcription during meetings to retain Copilot insights post-meeting.</span></td></tr></tbody></table><p style=\"font-weight: bold;\"></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "478611"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Copilot will default to a mode without transcription for new meetings starting late March 2026, with conversation history persisting during meetings. Transcription must be manually enabled for post-meeting queries. Tenants with policies updated after June 2024 are unaffected; admins can adjust policies to retain current behavior."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-25T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1139493",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-14T23:38:09.56Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-22T00:09:47Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams Copilot without transcription becomes default for meetings - conversation history now persists",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
