@@ -10865,45 +10865,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We hear your feedback about ways we can improve the notifications experience in Viva Engage. It's always a fine balance between ensuring your users are notified of relevant content without notifications feeling too overwhelming or noisy. In response to your feedback, we're rolling out an intelligent notifications experience. Specifically, this change will improve how <i>Community Announcement</i> notifications are delivered. This smarter delivery approach optimizes notifications delivery based on a user’s engagement behavior, helping to reduce notifications fatigue while ensuring timely visibility of announcements.&nbsp;</p>\n\n<p><b>When this will happen</b><b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this change in mid-September 2025 and expect the rollout to reach GA (General Availability) by February 6, 2026 (previously end of January).</p>\n\n<p><b>How this affects your organization</b>\n</p><p>Previously, when an admin created a new Community Announcement, this would send a notification in Teams and Mobile Push immediately, followed by an email notification two hours later if the announcement was not opened already in Teams and/or Mobile Push.&nbsp;\nWith this new update:\n</p><ul>\n<li>Users will now receive the notification in <b>one channel only</b>—either Teams, Mobile Push, or Email. This notification channel may differ by user and is selected based on where a user has engaged with Engage notifications most frequently in the past 30 days.&nbsp;</li><li>If the announcement is not opened within two hours in the first notification channel, a <b>secondary notification channel</b> will be sent, also determined by where a user engages with Engage notifications most frequently.&nbsp;</li></ul><p>We will continue to respect all user notification preferences and settings where applicable. If a notification channel is disabled or the app is not installed, it will not be selected as a potential notification channel for the Community Announcement delivery.</p><p>Note that this change applies only to<b> regular Community Announcements in Viva Engage</b> and does not affect the \"immediate\" Community Announcement feature (where admins can still select the checkbox to send emails immediately —this functionality remains unchanged).</p><p><b>Can I still notify Community users via email immediately (along with other notification channels)?&nbsp;</b></p><p>Yes! In Viva Engage, we offer an option to send an “immediate” Community Announcement. With this feature, Community admins can choose to send email notifications immediately after posting a Community Announcement, even if a user has opted out of receiving emails. All other notification channels will also send immediately along with email, including Teams and Mobile Push. Therefore, we recommend admins to use this feature when there is a Community Announcement that requires immediate attention from users.&nbsp;</p><p>Community Admins can find this “immediate” Community Announcement option by firstly navigating to the announcement publisher and selecting the hyperlinked <b><i>“option to send emails immediately” </i></b>at the bottom of the publisher. Upon clicking this option, an additional pop-up box will open called <i><b>“Immediate email delivery”</b></i>. By selecting this checkbox, this will ensure that all three notification channels – Email, Teams, and Mobile Push – will send to customers immediately after a Community Announcement is made.&nbsp;</p><p><b>\n&nbsp;What you can do to prepare</b>\n</p><p>No admin action is required. However, we recommend:\n</p><ul>\n<li>Informing your users about the new notifications change to reduce confusion</li>\n<li>Monitoring user feedback and engagement with <i>Community Announcements' notifications delivery</i></li>\n<li>Reviewing internal communication strategies to align with the new notification's behavior</li></ul><p></p><p></p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Notification delivery logic now uses user behavior data (last 30 days of notification engagement) to determine delivery channels. This data is used to personalize delivery but is not stored permanently.</td></tr>\n<tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. The system uses behavioral data to determine the most effective notification channel, which is a form of machine learning-based personalization.</td></tr>\n<tr><td>Does the change provide a new way of communicating between users, tenants, or subscriptions?</td><td>Yes. The change modifies how users receive communications (Community Announcements) by introducing a dynamic, behavior-based delivery method.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Engage is updating Community Announcement notifications to use a smarter, behavior-based delivery system. Users will receive notifications through their most engaged channel first, with a secondary channel if unopened. Immediate email notifications remain available for urgent announcements. Rollout begins mid-September 2025, completing by January 2026."
-      }
-    ],
-    "EndDateTime": "2026-03-09T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1143276",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-24T00:40:12.983Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-27T21:41:19Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Engage: Smarter delivery of Community Announcement notifications",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>By the&nbsp;<b>end of March 2026</b>, Microsoft Defender for Android will no longer support protection of personal profiles on enrolled devices. This change aligns with our enterprise-first security strategy, ensuring resources are focused on protecting corporate data while maintaining user privacy.</p><p><b><b>When will this happen</b></b></p><p>Rollout will begin in <b>mid-March 2026</b> and complete by late <b>March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><b style=\"\">Who is affected: </b>Organizations using <b style=\"\">Microsoft Defender for Endpoint (MDE)</b> on Android in personal profiles on enrolled devices that are managed through <b style=\"\">mobile device management (MDM)</b> configuration policies.</p><ul>\n</ul><p><b>What’s changing:</b></p><p>We're ending support, monitoring, and feature development for protecting personal profiles on enrolled devices (personal profiles managed via MDM configuration policy). Our main objective is to safeguard corporate assets, with emphasis on identity and data contained within the work profile in enrolled environments. We rely on Android’s platform-level separation to ensure robust isolation. Current research indicates that the likelihood of cross-profile attacks compromising enterprise data remains minimal at present.</p><p><b>Current State:</b></p><p>Defender can be enrolled in the personal profile and managed through MDM configuration policies along with controlling work profile configuration (App Configuration policies targeted to managed devices).</p><p><b>Reference link: </b><a href=\"https://learn.microsoft.com/defender-endpoint/android-intune#set-up-microsoft-defender-in-personal-profile-on-android-enterprise-in-byod-mode\" target=\"_blank\">Deploy Microsoft Defender for Endpoint on Android with Microsoft Intune</a></p><p><b>New State:</b></p><p>Deploying and managing Defender in personal profile on enrolled devices via MDM policies will be retired by the end of March 2026. Defender in work profile on enrolled devices and unenrolled <b>mobile application management (MAM)-enabled devices</b>&nbsp;remains unchanged.&nbsp;</p><p><b>Reference link: </b><a href=\"https://learn.microsoft.com/defender-endpoint/android-configure-mam\" target=\"_blank\">Configure Microsoft Defender for Endpoint on Android risk signals using App Protection Policies (MAM)</a></p><p><b>Benefits of the Change:</b></p><p>This update enhances our enterprise-focused strategy by providing more efficient and dependable protection for corporate data. It safeguards user privacy and ensures that Defender exclusively protects corporate assets, maintaining the integrity of personal information in accordance with privacy regulations and platform separation requirements.<b>&nbsp;&nbsp;</b></p>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>No action is required from admins or users. </li><li>These changes will be applied automatically in the back end and will not impact your work profile or unenrolled experience.</li></ul>\n\n<b><b>Compliance considerations:</b></b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -12865,43 +12826,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot for Android: Preview and chat with Word, Excel, and PowerPoint files in the Copilot app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 9, 2026: We have updated this post to reflect timeline updates. Thank you for your patience.&nbsp;</p><p>We will retire the Microsoft Lens app from iOS and Android in a phased approach starting January 9th, 2026. We recommend users to use the scan capability in the OneDrive app.</p><p><b>This change applies to the Microsoft Lens mobile app on iOS and Android.</b></p><p><b>How this affects your organization\n</b></p><p>The app will be removed from the stores on February 9, 2026. Users who already have the app downloaded on their devices can continue to use the scanning capability in the app until March 9, 2026. After that, users will no longer be able to create new scans in the app. Users can continue to access their previous scans from MyScans in the app after the change while they still have the app on their devices, although this capability will not be supported by Microsoft. Please note that users need to be signed into your last active account on the Microsoft Lens app to access past scans.<br></p><p><b>What you can do to prepare\n</b></p><p>This change will happen automatically on the specified dates above. No admin action is required. Please notify your users of this change, update any internal documentation, and encourage users to use the OneDrive app for their scanning needs.<br><br>For more information, read the <a href=\"https://support.microsoft.com/topic/retirement-of-microsoft-lens-fc965de7-499d-4d38-aeae-f6e48271652d\">support article</a>.&nbsp;</p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The Microsoft Lens app for iOS and Android will be removed from stores on February 9, 2026, and scanning will stop on March 9, 2026. Users should switch to OneDrive's scan feature. No admin action is needed; notify users accordingly."
-      }
-    ],
-    "EndDateTime": "2026-03-09T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1131064",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-01-09T17:44:12.23Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-07T23:39:53Z",
-    "Tags": [
-      "Updated message",
-      "Retirement"
-    ],
-    "Title": "Microsoft Lens app will retire",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16917,53 +16841,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Loop: Copilot experience upgrade",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 7, 2025: We have updated the timeline. Thank you for your patience.</p><p>Microsoft Purview Insider Risk Management (IRM) is introducing enhanced detection capabilities that allow organizations to identify sensitive files and text shared to any cloud application or website—including Generative AI platforms—via the network layer. This capability is powered by integration with third-party network partners, enabling data capture at the network level.\n</p><p>IRM correlates signals to detect potential insider risks such as IP theft, data leakage, and policy violations. Built with privacy by design, IRM pseudonymizes users by default and includes role-based access controls and audit logs to help ensure user-level privacy.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484084\" target=\"_blank\">484084</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out mid-July 2025 and expect to complete by late July 2025.\n</p><p>General Availability (Worldwide): We will begin rolling out mid-January 2026 and expect to complete by late January 2026.</p><p><b>How this will affect your organization:</b></p><p>Organizations will gain visibility into sensitive data shared to any cloud application or website via the network layer. This helps strengthen insider risk detection and supports compliance and data protection efforts across cloud environments.\n</p><p>This capability will be available by default but requires admin configuration to take effect at Insider Risk Management <i>&gt; Insider Risk Management settings &gt; Policy indicators &gt; Network indicators (preview):</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6cbb765f-1669-4461-b9c8-1c80f03ac338\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. Review your current Insider Risk Management configuration to assess the impact on your organization. You may want to notify your admins and/or users about this change and update internal documentation.</p><ul><li>Complete network onboarding as outlined in <a href=\"https://learn.microsoft.com/purview/dlp-network-data-security-learn\" target=\"_blank\">Learn about Microsoft Purview Network Data Security (preview) | Microsoft Learn</a></li><li>Enable network indicators in IRM and incorporate them into your Insider Risk Management policies to begin leveraging this new detection capability.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/purview/insider-risk-management-settings-policy-indicators\" target=\"_blank\">Configure policy indicators in insider risk management | Microsoft Learn</a> (will be updated before rollout)</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "484084"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Insider Risk Management will add network-based detection of sensitive data shared to cloud apps and Generative AI, rolling out from mid-2025 to early 2026. It enhances insider risk detection with privacy protections and requires admin configuration to enable network indicators in policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-09T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1102773",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-07T12:46:43.993Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-25T00:06:04Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Insider Risk Management: Network-based detection of sensitive data sharing to cloud apps and Gen AI",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
