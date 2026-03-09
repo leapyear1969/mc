@@ -4,6 +4,37 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to configure offline profile using the FetchXML editor in Power Apps. This feature will reach general availability on April 10, 2026.<br><br><b>How does this affect me?</b><br>This feature improves the maker workflow by allowing direct control of query logic used for offline profiles—helping you finetune filters without leaving the app-building experience.<br><br>You can open the FetchXML editor directly within Power Apps Studio, making it easier to customize data filters for offline profiles without switching tools. To access the FetchXML editor:<ol><li>Open the offline profile editor in your canvas app or model-driven app.</li><li>Select the <b>Filter</b> option for an entity.</li><li>Under <b>Related rows</b> or <b>Custom filter</b>, choose <B>Edit FetchXML</b> or <b>View FetchXML</b> to open the editor.</li></ol> \n\n<b>What action do I need to take?</b><Br>This message is for awareness, and no action is required.<br><Br> If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14132\">Continue offline profile using FetchXML editor</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-04-24T15:30:00Z",
+    "HasAttachments": false,
+    "Id": "MC1247603",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-09T15:31:59.827Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-09T15:30:09Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps - Configure offline profile using FetchXML editor",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>\n\n</p><p>We’re introducing a visual refresh of the <b>Access Request and Access Denied</b>&nbsp;page experience across <i>Microsoft 365</i>, redesigned to help users quickly request access to content such as documents, SharePoint sites, or Teams meeting recordings. This update features modern Fluent illustrations, animations, and clearer messaging to make it easier to understand and resolve access issues for a more seamless collaboration experience.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553214\">553214</a>.</p><p> </p>\n\n<p></p>\n\n\n\n\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p><b>\nGeneral Availabilit<span style=\"background-color: rgb(255, 255, 255);\">y (Worldwide, GCC, GCC High, DoD):</span></b> We will begin rolling out in late March 2026 and expect to complete mid-April 2026 (previously March)<b>.</b></p>\n\n<p><b>\n<b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>All users requesting access to content stored on <i>OneDrive</i> and<i> SharePoint</i>.</p><b>What will happen:</b><p></p><ul><li>Users will see a redesigned Access Request page when attempting to access restricted content:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1c634d49-0724-4e6a-8bbc-86d24bf25334/14d6749f89c45f98c4a273cfb4d0e29c69044a55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The page will feature updated Fluent visuals and animations.\n</li><li>Messaging will be clearer to help users understand the status of their request:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b6bc1f3-3827-4760-833e-d9af2b7c8709/df373642b72eb96268796ff5674fa3d11384ae8e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>No changes to admin policies or access controls.\n</li><li>The update will be <b>enabled by default</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>No action is required to enable this update; it will be <b>applied automatically</b>.</p><p>However, to ensure a smooth experience for your users, we recommend the following:</p><ul><li>Communicate this change to helpdesk and support staff so they can assist users who may have questions about the new visuals or messaging.\n</li><li>Update internal documentation if you reference the Access Request or Access Denied experience in training materials or support guides.\n</li><li>Review any custom workflows or access request processes to ensure they align with the updated experience.\n</li><li>Monitor user feedback after rollout to identify any confusion or support needs related to the new design.</li></ul><p><b><b>Compliance considerations:</b>&nbsp;</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -7918,37 +7949,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot Chat: New ways to include files and emails in prompts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to use custom instructions for Microsoft Copilot ask a question in Dynamics 365 – Customer Service. This feature will reach general availability on February 28, 2026.<br><br><b>How does this affect me?</b><br>This feature allows you to define persistent preferences that guide how your Copilot agents respond across conversations. Instead of adapting on every prompt, you can specify upfront how you want your agent to behave with ask a question. This includes preferred tone, desired level of detail (e.g. summary vs. deep analysis), formatting preferences, role or context to assume, and constraints to follow.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-03-09T15:29:58Z",
-    "HasAttachments": false,
-    "Id": "MC1229769",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-09T15:30:45.08Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-09T15:29:58Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Customer Service – Custom instructions for Copilot ask a question",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
