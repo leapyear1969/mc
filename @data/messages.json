@@ -8253,44 +8253,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are updating <b>Microsoft Purview’s out-of-box (OOB) sensitive information type (SIT)</b> detection logic to improve accuracy and reduce false positives. As part of this update, the relaxed proximity matching behavior previously used in some OOB SITs will be removed. After this change, all OOB SITs will consistently use stricter proximity rules for more consistent and precise detections.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Production, GCC, GCC High, DoD):</b>&nbsp;Available now</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizations using Microsoft Purview out-of-box sensitive information types in data classification or <b>Data Loss Prevention (DLP)</b> policies.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>OOB SITs will stop using the relaxed proximity behavior previously applied in some detection rules.</li>\n  <li>All OOB SITs will consistently use stricter proximity matching rules going forward.</li>\n  <li>Content that previously matched under relaxed proximity conditions may no longer trigger a detection unless it meets the stricter proximity requirements.</li>\n  <li>This may result in fewer detections in scenarios that relied on broader proximity matching.</li>\n  <li>Custom sensitive information types are not affected and can still be configured to use broader proximity logic if required.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Review existing DLP and classification policies that rely on OOB SIT detections.</li>\n  <li>Test policy behavior in a non-production environment if broader proximity matching is required for certain workflows.</li>\n  <li>Create custom sensitive information types if your organization needs relaxed proximity logic.</li>\n  </ul><p>Learn more: <a href=\"https://learn.microsoft.com/purview/sensitive-information-type-learn-about\" target=\"_blank\">Sensitive Information Types in Microsoft Purview</a></p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th><b>Question</b></th>\n    <th><b>Explanation</b></th>\n  \n  </tr>\n  <tr>\n    <td>Does the change modify, interrupt, or disable Data Loss Prevention (DLP) policies or enforcement?</td>\n    <td>Stricter proximity detection may reduce the number of matches, which could indirectly affect DLP behavior.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify Information Protection labels or sensitive information types?</td>\n    <td>Out-of-box SITs are updated to retire relaxed proximity matching and use stricter proximity logic.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview has removed relaxed proximity matching in out-of-box sensitive information types, enforcing stricter proximity rules to improve detection accuracy. This change may reduce detections in some scenarios and affects organizations using OOB SITs in data classification or DLP policies. Custom SITs remain configurable."
-      }
-    ],
-    "EndDateTime": "2026-03-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227624",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-06T00:43:33.66Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-06T00:43:14Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Removing support for relaxed proximity matching in out-of-box sensitive information types",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p></p><p>We’re adding a<b> new PowerShell cmdlet</b> that lets administrators <b>change the organizer of an existing meeting</b> or <b>meeting series </b>in <i>Exchange Online</i>. This feature supports continuity when a meeting owner changes roles, goes on leave, or is offboarded—removing the need to recreate long‑running series. After the transfer, the new organizer can update meeting properties, and attendees within the tenant won’t need to re‑RSVP.</p><p>A future release will enable users to change the organizer directly in <i>Modern Calendar experiences</i> in<i> Outlook on the web</i>, the <i>new Outlook</i>, and <i>Teams</i>. For user‑initiated transfers, the new organizer must accept the meeting before the transfer completes.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554937#Roadmap\" target=\"_blank\">554937</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability&nbsp;</b></p><ul style=\"\"></ul><p></p><ul><li><b>Worldwide and GCC: </b>We will begin rolling out in <b>mid-May 2026 </b>and expect to complete by<b> late June 2026.</b></li><li><b>GCC High and DoD: </b>We will begin rolling out in <b style=\"font-weight: bold;\">mid-May 2026 </b>and expect to complete by<b style=\"font-weight: bold;\"> late July 2026</b><b>.</b></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: </p><ul><li>Administrators managing Exchange Online</li><li>Meeting organizers and attendees in your tenant may see updated organizer information when applicable.</li></ul><p><i>What will happen</i>:</p><ul><li>Administrators can use a new PowerShell cmdlet to change the organizer of an existing meeting or meeting series.</li><li>The new organizer will have full control of the event, including recurrence, description, attendees, and meeting details.</li><li>For attendees within the tenant, the <b>existing event</b> on attendees’ calendars <b>will be silently updated</b> <b>to reflect the new organizer</b>. These attendees won't need to decline or reaccept the meeting.</li><li>Attendees outside the tenant will receive 2 meeting messages - one ending the series with the previous organizer and another inviting them to a series with the new organizer. These attendees should reaccept the meeting.</li><li><b>Meeting history is preserved</b>, supporting continuity and reducing abandoned meeting series.</li><li>This feature is<b> enabled by default</b>; no configuration is required.</li></ul><b><b>What you can do to prepare</b></b><p></p><p></p><p>No action is required. The feature will roll out automatically.</p><p>To prepare:</p><ul><li>Review upcoming public documentation for the cmdlet when it becomes available (a link will be added to this message).</li><li>Update internal processes for organizer transitions, such as role changes or offboarding.</li><li>You may test the cmdlet ahead of the user‑initiated organizer change experience coming to Outlook on the web, new Outlook, and Teams.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -11108,52 +11070,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 23, 2026: We have updated the timeline. Thank you for your patience.\n</p><p>We’re expanding offline capabilities in the new Outlook for Windows. Users will soon be able to create, edit, and delete single calendar events even when not connected to the internet. This enhancement improves productivity and flexibility when working offline.</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=490059\" target=\"_blank\">490059</a></p><p><b>When this will happen:</b></p><p>Targeted Release: Rollout will begin in late September 2025 and is expected to complete by late October 2025.</p><p>General Availability (Worldwide): Rollout will begin in late October 2025 (previously mid-September) and is expected to complete by early February 2026 (previously mid-December 2025).</p><p><b>How this will affect your organization:</b></p><p>Users with offline mode enabled in the new Outlook for Windows will be able to:\n</p><ul><li>Create new single calendar events while offline.\n</li><li>Edit or delete existing calendar events that have been previously synchronized within the offline timeframe set in Outlook settings.\n</li></ul><p>Note: Support for recurring (series) events while offline is not currently available.\n</p><p>This functionality is controlled by the existing mailbox policy setting:\n</p><p><code>OWAMailboxPolicy -OfflineEnabledWin</code>.\n</p><p>If this policy is set to True, offline calendar functionality will be available. If set to False, it will be disabled. This update does not change the default value of the policy.\n</p><p><b>What you need to do to prepare:</b></p><p>Ensure that offline mode is enabled for users who need this functionality. At the user level, this can be verified in the new Outlook under:\n</p><p><i>Settings &gt; General &gt; Offline\n</i></p><ul><li>Enable offline email, calendar, and people\n</li></ul><p>Admins can manage this setting using the Set-OwaMailboxPolicy cmdlet. Learn more here:&nbsp;<a href=\"https://learn.microsoft.com/powershell/module/exchange/set-owamailboxpolicy\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Set-OwaMailboxPolicy</a>&nbsp;</p><p>For end-user guidance, see: <a href=\"https://support.microsoft.com/en-us/office/work-offline-in-outlook-2460e4a8-16c7-47fc-b204-b1549275aac9#picktab=new_outlook\" target=\"_blank\">Work offline in Outlook</a></p><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed?\tYes – calendar data is now accessible and editable offline</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490059"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Offline support in the new Outlook for Windows will allow users to create, edit, and delete single calendar events without internet. Rollout starts late September 2025, completing by February 2026. Recurring events offline are not supported. Controlled by the Owamailboxpolicy -OfflineEnabledWin setting."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-03-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1101906",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-23T20:34:32.347Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-24T00:00:18Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Offline Support for Calendar - Create, Edit and Delete Event support",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated January 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>To support broader reporting needs and customer feedback, the Queues app will soon allow users to <b>view up to 45 days of historical data</b> for call queues, auto attendants, and agents. This update expands reporting options without changing how users access or create reports.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547825\" target=\"_blank\">547825</a>.</p>\n\n<p><b><b>When this will happen</b></b><b>\n</b></p><p><b>Targeted Release: </b>We will begin rolling out in <b>mid-February 2026</b> and expect to complete by <b>late February 2026</b>.</p><p><b>General Availability (Worldwide): </b>We will begin rolling out&nbsp;in <b>early March 2026</b> and expect to complete by<b> mid-March 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n  <li>Users with access to historical reports in the <i>Queues app</i>.</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>Users can view up to 45 days of historical data.</li>\n  <li>The default 7-day range remains unchanged.</li>\n  <li>No changes to report access, permissions, or workflows.</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9668d04b-c5ec-4b3f-b0ec-3d1ef3b05f98/626bd0b342a793d463e048ee2945a9766058449f.png\" style=\"width: 400px;\"></p><ul>\n</ul>\n\n<p><b></b></p><p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optional: Inform users of the expanded range and update internal documentation.</li>\n  <li>Learn more about historical reporting: <a href=\"https://learn.microsoft.com//microsoftteams/aa-cq-cqd-historical-reports\" target=\"_blank\">Auto attendant and Call queue historical reports | Microsoft Teams | Microsoft Learn</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -12427,52 +12343,6 @@
       "Retirement"
     ],
     "Title": "Endpoint DLP-sensitive data alerting retiring in Defender; use Purview DLP",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b>\n</p><p>Microsoft is <b>expanding Edge for Business policy management</b> in the <i>Edge management service</i>. In addition to existing Windows policy configurations, organizations will be able to <b>configure Edge for Business policies for macOS, iOS, and Android devices in one place</b>. This enhancement will streamline cross‑platform policy management and support more consistent browser governance across devices.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=522536\" target=\"_blank\">522536</a>.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b>&nbsp;We began rolling out in <b>mid-November 2025</b> and expect to complete by<b> late January 2026</b>.</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;We will begin rolling out in <b>late January 2026</b> and expect to complete by<b> early February 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Admins who manage Microsoft Edge for Business using the Edge management service</li>\n<li>Organizations deploying Edge on Windows, macOS, iOS, or Android</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n<li>You will be able to configure Edge for Business policies for macOS, iOS, and Android directly in the <i>Edge management service</i>.</li>\n<li>Existing Windows configuration policies remain unchanged.</li>\n<li>You can edit an existing Windows configuration policy or create new policies that target multiple platforms:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/362bda52-461e-4b2a-87ff-6469311c0807/1b764d348e0b9fa3dde31b9d2ea97c8f9185397d.png\" style=\"width: 400px;\"></p>\n<li>Some policy settings will continue to apply only to Windows devices.</li>\n<li>No user impact unless your organization deploys new or updated policies.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><p>No action is required before rollout. After the feature becomes available:</p>\n<ul>\n<li>Review existing configuration policies and update them if you want to apply settings to macOS, iOS, or Android.</li>\n<li>Update internal admin documentation if you manage Edge policies across platforms.</li>\n<li>Learn more about configuration policies in the Edge management service.</li>\n</ul>\n\n<p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-management-service\" target=\"_blank\">Get started with configuration policies | Microsoft Edge | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "522536"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is expanding Edge for Business policy management to allow configuring policies for macOS, iOS, and Android in the Edge management service alongside Windows. Public preview starts mid-November 2025; general availability begins late January 2026. No user impact unless new policies are deployed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1217641",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-14T02:08:05.957Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-14T02:07:59Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Edge: Cross-platform policies in the Edge management service",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15468,52 +15338,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p></p><p><b><b>Introduction</b></b></p><p>We’re introducing <b>shared call history</b> in the <b>Microsoft Teams Queues app</b>. This feature provides queue members with a unified view of all call events—missed, incoming, and outgoing—within a call queue. By enabling shared history, teams can access consistent, up-to-date information, follow up efficiently, and improve operational responsiveness.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2d761294-90a6-40bf-a5fa-48ffdb656c1b\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=530579\" target=\"_blank\">530579</a>&nbsp;and applies to Teams for Windows desktop and Teams for Mac desktop.</p><p>\n</p>\n\n<b><div><b><b>When this will happen:</b></b></div></b><ul><li><b style=\"\">Targeted Release:</b> Rolling out early&nbsp;January 2026, expected completion by mid-January 2026.</li>\n<li><b>General Availability (Worldwide):</b> Rolling out mid-January 2026, expected completion by early February 2026.</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b><p></p><p></p><p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations using <b>Microsoft Teams Queues app</b> on desktop, web, and Mac.</li>\n<li>Users with appropriate permissions and a <b>Teams Premium license</b>.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Queue members will be able to view <b>shared call history</b> for all missed, incoming, and outgoing calls.</li>\n<li>Feature is <b>disabled by default</b>; admins must enable it in <b>Teams Admin Center (TAC)</b>.</li>\n<li>Admins can grant <b>shared call history</b> access to all queue members or restrict access to authorized users only.</li>\n<li>Known limitation: Tenant migration is not supported for <b>Queues call history</b>. If your organization moves to a new region, existing history will not transfer; a new history will begin. Support for migration will be added in a future update.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b><p></p><p></p><ul><li>Enable <b>shared call history</b> in <b>Teams Admin Center</b>.</li>\n<li>Configure permissions for queue members or authorized users.</li>\n<li>Communicate this change to your helpdesk and affected users.</li>\n<li>Update internal documentation to reflect this feature.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/MicrosoftTeams/plan-auto-attendant-call-queue?branch=pr-en-us-18379\" target=\"_blank\">Plan for Teams Auto attendants and Call queues</a> (will be updated before rollout)</li><li><a href=\"https://learn.microsoft.com/microsoftteams/create-a-phone-system-call-queue?tabs=general-info\" target=\"_blank\">Create a Call queue in Microsoft Teams</a> (will be updated before rollout)</li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p><p></p><p></p><p>No compliance considerations identified; review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "530579"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Queues app will introduce shared call history for queue members to view all call events. Rolling out January–February 2026, the feature is disabled by default and requires Teams Premium license and admin enablement. Tenant migration of call history is not supported initially."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-03-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1188999",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-11-22T00:32:46.417Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-22T00:32:02Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Shared call history in Queues app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated November 20, 2025: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>To enhance transparency and user control, Microsoft Teams is expanding the Explicit Recording Consent feature to include 1:1 Teams calls. This update ensures that participants must provide explicit consent before their media (audio, video, and content sharing) is included in any recording or transcription initiated by another user. This change supports privacy compliance and aligns with customer feedback requesting more granular consent controls.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=503295\" target=\"_blank\">503295</a>.</p>\n\n<b><b>When this will happen:</b></b>\n<ul>\n<li>Targeted Release: Begins early January 2026 (previously early December 2025), completes mid-January 2026 (previously mid-December 2025).\n</li><li>General Availability (Worldwide, GCC): Begins mid-January 2026 (previously mid-December 2025), completes late January 2026 (previously mid-January).\n</li><li>General Availability (GCC High): Begins early February 2026 (previously late January), completes mid-February 2026 (previously early February).\n</li><li>General Availability (DoD): Begins mid-February 2026 (previously late January), completes late February 2026 (previously mid-February).</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Teams administrators managing calling policies.</li>\n<li>Users participating in 1:1 Teams VoIP calls where recording or transcription is initiated.</li><li>Public Switched Telephone Network (PSTN) endpoints will be auto consented. Explicit consent support for PSTN will be included in a future release.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>This feature applies to Microsoft Teams desktop apps on Windows and macOS. </li><li>By default, Explicit Recording Consent is OFF and must be enabled by administrators.</li>\n<li>When enabled:\n  <ul>\n    <li>Users initiating recording or transcription in 1:1 calls will trigger a consent prompt for the other VoIP participant.</li>\n    <li>Until consent is granted, the participant’s audio, video, and screen/content sharing will be disabled, and as a result, excluded from the recording.</li><li>PSTN users will be auto-consented. Learn more at Manage Teams recording policies | Auto consent endpoints and platforms</li>\n  </ul>\n</li>\n<li>Administrators can apply this policy tenant-wide or to specific users.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n<li>Update training materials to reflect that Explicit Recording Consent now applies to 1:1 calls (PSTN and Teams VoIP).</li>\n<li>Inform users that consent is required before recording or transcription can begin in 1:1 calls.</li>\n<li>Administrators can manage this feature via PowerShell or the Microsoft Teams admin center.</li>\n</ul>\n<p><b>PowerShell commands:</b></p>\n<pre>Set-CsTeamsCallingPolicy -Identity Global -ExplicitRecordingConsent \"Enabled\"\nSet-CsTeamsCallingPolicy -Identity Global -ExplicitRecordingConsent \"Disabled\"\n</pre>\n<p>Learn more: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamscallingpolicy?view=teams-ps#-explicitrecordingconsent\">Set-CsTeamsCallingPolicy documentation</a></p><p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Compliance Area</th><th>Explanation</th></tr>\n<tr><td>Audit Logging</td><td>Consent data is captured in audit logs. Refer to&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/audit-log-activities?view=o365-worldwide\">Audit log activities in Microsoft Purview</a>.</td></tr>\n</tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -16379,43 +16203,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Word: The \"Send to Kindle\" feature will retire",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>\nWe’re introducing a redesigned Microsoft Teams Store that enhances the agent-first discovery experience. This update simplifies how users find, explore, and manage apps and agents, aligning with feedback for a more intuitive and efficient interface.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\nPreview (Worldwide): We will begin rolling out late October 2025 and expect to complete by late January 2026.</p>\n\n<p><b><b>How this affects your organization:</b></b></p><p>\n<b>Who is affected:</b> </p><ul><li>All Microsoft Teams users across commercial and education tenants.</li></ul><p><b>What will happen:</b>\n</p><ul>\n<li>Users will see a modernized Teams Store interface.</li>\n<li>A new “Agent” filter pill will appear under every category for faster agent discovery.</li>\n<li>App tiles will be streamlined to show only essential information.</li>\n<li>Search will be prominently centered on the page.</li>\n<li>Categories will be simplified with subcategories for easier navigation.</li>\n<li>The app details page will be redesigned to highlight the most relevant information.</li>\n<li>A new “Your Apps &amp; Agents” hub will allow users to view and manage all installed apps and agents in one place.</li>\n<li>No action is needed from users or admins.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\nNo action is required at this time. However, you may wish to:\n</p><ul>\n<li>Communicate this change to helpdesk staff to reduce potential confusion.</li>\n<li>Update internal documentation or training materials that reference the Teams Store interface.</li>\n<li>Review app and agent usage in your tenant to anticipate user questions.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Store is being redesigned for a more intuitive app and agent discovery experience, rolling out worldwide from late October 2025 to January 2026. Changes include a modern interface, new agent filter, streamlined app tiles, centered search, simplified categories, and a unified app management hub. No user or admin action is needed."
-      }
-    ],
-    "EndDateTime": "2026-03-09T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1182697",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-04T00:41:34.06Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-04T00:41:27Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New Microsoft Teams Store (preview)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
