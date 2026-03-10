@@ -4,7 +4,200 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 10, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>To reduce notification noise and improve signal quality, Microsoft will disable <b>Teams Meeting Recording (TMR) </b>expiration notification emails. Customer feedback indicates these emails generate high volume with minimal engagement. Only the email notifications are being removed; recording expiration and deletion behavior remains unchanged.</p>\n\n<p><b>When this will happen</b></p>\n<p>June 1, 2026</p>\n\n<p><b>How this affects your organization</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Microsoft 365 tenants</li>\n  <li>Users who receive Teams meeting recording expiration emails</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will no longer receive email notifications when a Teams meeting recording expires.</li>\n  <li>Recording expiration and deletion policies remain unchanged.</li>\n  <li>No admin action or policy updates are required.</li>\n  <li>This change is <b>enabled by default</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and helpdesk teams of this change.</li>\n  <li>Update internal documentation if it references expiration emails.</li><li>Review the change in more detail here: <a href=\"https://techcommunity.microsoft.com/discussions/microsoftteams/upcoming-change-disabling-teams-meeting-recording-expiration-notification-emails/4501038\">Upcoming change: disabling Teams meeting recording expiration notification emails</a></li>\n</ul>\n\n<p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing a<b> new satisfaction rate metric</b> in the <i>Microsoft 365 Copilot analytics dashboard</i>. This metric aggregates user-provided thumbs-up and thumbs-down feedback across Microsoft 365 apps over the past 28 days. It helps organizations understand how users perceive Copilot responses and provides improved visibility into sentiment trends. The satisfaction rate will appear in the<i><b> Impact </b>tab</i>, with filtering options for scope, organization, and job function.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496655#Roadmap\" target=\"_blank\">496655</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;March 2026</b> and expect to complete in <b>April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>:</p><ul><li>All Microsoft 365 tenants with users who have access to the Copilot analytics dashboard.</li><li>Admins who manage Copilot feedback visibility or sentiment reporting.</li><li>Users with Microsoft 365 Copilot licenses.</li></ul><p><i>What will happen</i>:</p><p>A new Satisfaction rate metric will appear in the <i>Copilot analytics dashboard</i> under the<b> </b><i><b>Impact </b>tab</i>.</p><ul><li>The metric aggregates all thumbs-up and thumbs-down feedback on Copilot responses from the past 28 days.</li><li>The dashboard will include a<b>&nbsp;4‑month backfill of satisfaction data</b>, going back to Dec 16, 2025.</li><li>Page‑level filters (organization, scope, job function) allow admins to view sentiment in more detail.</li><li>For organizations that have enabled Copilot feedback collection in the <i>Microsoft admin center</i>, aggregated tenant‑level sentiment will appear automatically.</li><li>No changes to user workflow; no admin policy configuration is required.</li></ul><p><i>Screenshot 1 - View of the Satisfaction rate hero card:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b8547fa6-7815-4f81-94d0-e3589469a544/88021d4697c05f93a10c4f87029213e31cc255d7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><i>Screenshot 2 - View of the Satisfaction rate - 6 month trend:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/13af47d2-b448-4299-a8ac-e7de317f7060/9bd089fa392d703d0e81f166b8f87bdec0f1572a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>However, you may choose to:</p><ul><li>Inform Copilot dashboard users about the new metric and how it can support sentiment analysis.</li><li>Update internal documentation or helpdesk materials to include this new reporting capability.</li><li>Review existing Copilot feedback settings in the <i>Microsoft admin center</i> if you want to manage how user sentiment is collected.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Viva Insights | Microsoft Viva | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496655"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot analytics dashboard will add a new satisfaction rate metric aggregating thumbs-up/down feedback from the past 28 days, visible in the Impact tab with filters. It rolls out worldwide March–April 2026, includes a 4-month data backfill, and requires no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1248394",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-10T22:51:24.637Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:50:56Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva: Satisfaction rate metric for Microsoft 365 Copilot in the Copilot analytics dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing a new <b>Follow</b> option for meetings in <i>Outlook Mobile</i>.&nbsp; This feature helps users stay informed when they cannot attend by prompting organizers to record the meeting and by ensuring followers receive key updates and follow‑up items.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑March 2026</b> and is expected to complete by<b> mid‑April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users who schedule or respond to meetings in <i>Outlook Mobile</i>. Attendees will only see the option to respond with <i><b>Follow</b> </i>if a meeting has two or more participants and when the organizer has requested responses.</li></ul><p><i>What will happen</i></p><ul><li>A new <b>Follow</b> option will appear as the third option in the<i> mobile RSVP menu</i>. To select “Maybe,” tap the three dots ... :&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e4855fa4-c943-4f9d-b25e-681c0a935288/e305ef8377ec2d56dc39a4f2072368944d7ca288.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>Maybe RSVP </b>option will move into the overflow menu:\n&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f27eb372-d0c2-4b15-979d-488465cc82b6/e9a2f6f33704e2b7790195f05b6aec26b4ff96e9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>No </b>response option will move to the second position in the RSVP list.</li><li>The feature will be<b> on by default </b>for all tenants.</li><li>Organizers may receive prompts to record the meeting or address follow‑up items when attendees choose to Follow.</li><li>No changes to existing Outlook or Exchange Online admin policies.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>Optional steps:</p><ul><li>Notify helpdesk and support teams about the updated RSVP options and UI behavior.</li><li>Update internal end‑user documentation if your organization provides guidance for meeting responses.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/follow-a-meeting-in-outlook-4dd196ec-b4ae-4fca-9577-cb9c297723be\" target=\"_blank\">Follow a meeting in Outlook | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will introduce a \"Follow\" option for meetings starting mid-March 2026, allowing users to stay informed without attending. It appears in the RSVP menu, is on by default, and prompts organizers to record meetings or send follow-ups. No admin action is required."
+      }
+    ],
+    "EndDateTime": "2026-05-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1248393",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-10T22:50:23.503Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:50:11Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook Mobile: Follow a meeting option",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft is retiring the <a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-exchangeonline?view=exchange-ps#-credential\" target=\"_blank\" style=\"\">-Credential parameter</a> used when connecting to Exchange Online PowerShell. Starting with module versions released in&nbsp;<b style=\"\">July 2026 and later</b>, the -Credential parameter will be removed from both <a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-exchangeonline?view=exchange-ps\" target=\"_blank\">Connect-ExchangeOnline</a> and <a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-ippssession?view=exchange-ps\" target=\"_blank\">Connect-IppsSession</a> cmdlets. Organizations using this parameter in automation scripts must migrate to a supported authentication method before that date. This change improves security by moving away from legacy authentication methods that do not support modern protections such as multifactor authentication (MFA).</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>The <b>-Credential parameter</b> will be removed from <b>Connect-ExchangeOnline</b> and <b>Connect-IppsSession</b> cmdlets in <b>Exchange Online PowerShell</b> module versions released beginning <b>July 2026</b>.</li>\n<li>A separate server-side retirement of the underlying authentication flow is planned for a later date and will be communicated in advance.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft 365 administrators using <b>Exchange Online </b>or <b>Security &amp; Compliance PowerShell</b></li>\n<li>Organizations with automation scripts that use the <b>-Credential parameter</b></li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>If your organization uses the <b>-Credential parameter</b> in PowerShell scripts or automation workflows connecting to <b>Exchange Online</b> or <b>Security &amp; Compliance PowerShell</b>, those scripts will break when you update to an Exchange Online PowerShell module version released beginning <b style=\"\">July 2026</b>.</li>\n<li>No impact if your organization does not use the <b>-Credential parameter</b></li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p><ul><li>If you are using the <b>-Credential parameter</b>, begin migrating your scripts now. Do not wait until <b>July&nbsp;2026</b>. Choose the appropriate alternative based on your scenario:</li></ul>\n<ul>\n\n<ul><li><b>Interactive admin access:</b> Switch to modern authentication with MFA. Learn more:&nbsp;<a href=\"https://learn.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps\" target=\"_blank\">Connect to Exchange Online PowerShell</a>.</li><li><b>Automation outside Azure: </b>Use app-only authentication (certificate-based or client secret). Learn more: <a href=\"https://learn.microsoft.com/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps\" target=\"_blank\">App-only authentication for unattended scripts in Exchange Online PowerShell and Security &amp; Compliance PowerShell</a>.</li><li><b>Automation within Azure: </b>Use managed identity authentication (no secrets required). Learn more:&nbsp;<a href=\"https://learn.microsoft.com/powershell/exchange/connect-exo-powershell-managed-identity?view=exchange-ps\" target=\"_blank\">Use Azure managed identities to connect to Exchange Online PowerShell</a>.</li></ul><li>Review internal documentation and communicate changes to admins</li>\n</ul>\n\n<ul><li>If you are not using the <b>-Credential parameter</b>, no action is required.</li></ul><p><b>Additional information</b></p>\n\n<p>This change is currently <b>client-side only</b> and will not take effect automatically. Your existing scripts will continue to work if you continue using an Exchange Online PowerShell module version released before <b>July 2026</b>. The <b>-Credential parameter</b> will only be removed when you upgrade to a module version released in <b>July 2026 and later</b>.</p>\n\n<p>A separate <b>server-side retirement</b> of the Credential parameter authentication flow is planned for a later date. When that occurs, the <b>-Credential parameter</b> will stop functioning even on older module versions. Microsoft will communicate that timeline separately and provide advance notice before any service-side changes take effect.</p>\n\n<p>We strongly recommend migrating proactively rather than waiting, to avoid disruption when either change occurs. If you have questions or concerns, contact Microsoft Support or leave a comment on the&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/exchange/deprecation-of-the--credential-parameter-in-exchange-online-powershell/4494584\" target=\"_blank\">Exchange Team Blog</a> post.</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><td><b>Compliance area</b></td>\n<td><b>Impact</b></td>\n</tr>\n<tr>\n<td>Conditional Access policies</td>\n<td>Retiring the -Credential parameter removes use of the ROPC authentication flow and enables enforcement of Conditional Access and multifactor authentication for Exchange Online PowerShell connections.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will retire the -Credential parameter in Exchange Online PowerShell cmdlets starting July 2026, requiring organizations to migrate scripts to modern authentication methods with MFA or app-only/managed identity authentication to avoid disruptions. This enhances security by eliminating legacy authentication."
+      }
+    ],
+    "EndDateTime": "2026-11-29T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1248389",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-10T22:47:01.15Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:46:28Z",
+    "Tags": [
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of -Credential parameter when connecting to Exchange Online PowerShell",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Starting with the <b>May 2026 Windows security update</b>, Windows Autopatch is enabling hotpatch security updates by default because they are the quickest way to get secure. This change in default behavior will impact all eligible Intune devices. Additional controls are expected in April.&nbsp;</p><p><b>When this will happen:</b></p><ul><li>Devices will start receiving hotpatch updates by default with the May 2026 Windows security update.</li><li>A tenant setting to opt out of hotpatch updates is expected to be available on April 1, 2026, or soon after.</li></ul><p>&nbsp;<b>How this will affect your organization:</b>\n</p><p>Devices that meet <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#prerequisites\" target=\"_blank\">hotpatch prerequisites</a> will get secure faster because full Windows security updates are applied without waiting for a restart. Devices are secured as soon as the update is installed. You do not need to wait for devices to restart, saving on average three to five days. \n</p><p>\n</p><p>Devices will restart during <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#release-cycles\" target=\"_blank\">baseline months</a>, which are January, April, July, and October.</p><p><b>What you need to do to prepare:</b>\n</p><p>If you already use Windows Autopatch, no action is needed to get hotpatch updates enabled by default. We recommend keeping hotpatch updates enabled for your devices.</p><p>To maximize the number of devices receiving hotpatch updates, ensure they meet the <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#prerequisites\" target=\"_blank\">prerequisites</a>. Most commonly, this means enabling Virtualization-based Security (VBS) for x86 devices.</p><p>If you’re not ready for this change, you can opt out groups of devices using <a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates#enroll-devices-to-receive-hotpatch-updates\" target=\"_blank\">Quality Update policies</a> or the whole tenant.  \n</p><p><b>Additional information:</b></p><p>Read the announcement in <a href=\"https://aka.ms/HotpatchByDefault\" target=\"_blank\">Securing devices faster with hotpatch updates on by default</a>. \n</p><p>Learn more about hotpatch updates with the following resources:   \n</p><ul><li><a href=\"https://learn.microsoft.com/windows/deployment/windows-autopatch/manage/windows-autopatch-hotpatch-updates\" target=\"_blank\">Hotpatch updates</a> \n</li><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-for-windows-client-now-available/4399808\" target=\"_blank\">Hotpatch for Windows client now available </a></li><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatching-now-available-for-64-bit-arm-architecture/4430949\" target=\"_blank\">Hotpatching now available for 64-bit Arm architecture </a></li><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-for-client-frequently-asked-questions/4413582\" target=\"_blank\">Hotpatch for client: Frequently asked questions </a></li><li><a href=\"https://www.microsoft.com/insidetrack/blog/transforming-security-and-compliance-at-microsoft-with-windows-hotpatch/\" target=\"_blank\">Transforming security and compliance at Microsoft </a></li><li><a href=\"https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-efficiency-unlocked-smaller-update-size/4460681\" target=\"_blank\">Hotpatch efficiency unlocked: Smaller update size </a></li><li>YouTube: <a href=\"https://www.youtube.com/watch?v=_OBB1F2ZMYs\" target=\"_blank\">Inside hotpatch updates for Windows</a></li><li>YouTube: <a href=\"https://www.youtube.com/watch?v=VpY4R8-NzcY\" target=\"_blank\">Hotpatching 101: Enable virtualization-based security (VBS)</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting May 2026, Windows Autopatch will enable hotpatch security updates by default for eligible Intune devices, speeding up security without restarts. An opt-out setting will be available from April 2026. Devices must meet prerequisites like enabling Virtualization-based Security to receive hotpatches."
+      }
+    ],
+    "EndDateTime": "2026-06-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1248388",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-10T22:46:00.2Z",
+    "Services": [
+      "Microsoft Intune"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:45:44Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Plan for Change: Windows Autopatch is enabling hotpatch updates by default",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>We&#39;ve released updates to the following update channels for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li>\r\n<li>Monthly Enterprise Channel</li>\r\n<li>Semi-Annual Enterprise Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out these updates of Microsoft 365 Apps to users on those update channels starting March 10th, 2026 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download these latest updates and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about these updates view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2602-march-10\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/monthly-enterprise-channel#version-2512-march-10\" target=\"_blank\" rel=\"noopener noreferrer\">Monthly Enterprise Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/monthly-enterprise-channel#version-2602-march-10\" target=\"_blank\" rel=\"noopener noreferrer\">Monthly Enterprise Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/semi-annual-enterprise-channel#version-2508-march-10\" target=\"_blank\" rel=\"noopener noreferrer\">Semi-Annual Enterprise Channel</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "ExternalLink",
+        "Value": "https://docs.microsoft.com/officeupdates/"
+      }
+    ],
+    "EndDateTime": "2026-03-24T22:45:17.54Z",
+    "HasAttachments": false,
+    "Id": "MC1248387",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-10T22:45:18.637Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:45:17.54Z",
+    "Tags": [
+      "Feature update"
+    ],
+    "Title": "Updates available for Microsoft 365 Apps for all channels",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 10, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>To reduce notification noise and improve signal quality, Microsoft will disable <b>Teams Meeting Recording (TMR) </b>expiration notification emails. Customer feedback indicates these emails generate high volume with minimal engagement. Only the email notifications are being removed; recording expiration and deletion behavior remains unchanged.</p>\n\n<p><b>When this will happen</b></p>\n<p>June 1, 2026</p>\n\n<p><b>How this affects your organization</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Microsoft 365 tenants</li>\n  <li>Users who receive Teams meeting recording expiration emails</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will no longer receive email notifications when a Teams meeting recording expires.</li>\n  <li>Recording expiration and deletion policies remain unchanged.</li>\n  <li>No admin action or policy updates are required.</li>\n  <li>This change is <b>enabled by default</b>.</li>\n</ul>\n\n<p><b>What you can do to prepare</b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and helpdesk teams of this change.</li>\n  <li>Update internal documentation if it references expiration emails.</li><li>Learn more and reply to our survey: <a href=\"https://techcommunity.microsoft.com/discussions/microsoftteams/upcoming-change-disabling-teams-meeting-recording-expiration-notification-emails/4501038\">Upcoming change: disabling Teams meeting recording expiration notification emails | Tech Community</a></li>\n</ul>\n\n<p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
     "Category": "planForChange",
@@ -18,7 +211,7 @@
     "HasAttachments": false,
     "Id": "MC1245635",
     "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-10T22:22:10.293Z",
+    "LastModifiedDateTime": "2026-03-10T22:24:45.753Z",
     "Services": [
       "Microsoft Teams"
     ],
