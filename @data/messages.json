@@ -4,6 +4,83 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 11, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To support organizations that will run additional employee listening programs, such as surveys for AI transformation or change management, we will introduce a dedicated <b>Survey designer role</b>. This role will grant selected users the ability to create and run Viva Glint surveys with only the permissions required for that work. It will not provide access to platform settings or sensitive data. This will allow organizations to expand survey creation in a secure and flexible way.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>We<b>&nbsp;</b>will begin rolling out on March 23 (previously March 9) and expect to complete by March 23 (previously March 9).</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Viva Glint customers in <i>Microsoft Viva</i></li>\n<li>Admins assigning roles and users who create surveys</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n<li>A new Survey designer role will be available in <i>Viva Glint.</i></li>\n<li>Users assigned this role will be able to create and run Viva Glint surveys, collect employee feedback, and manage survey lifecycle tasks.</li>\n<li>Survey designers won’t have access to broader Viva Glint configuration settings or sensitive admin data.</li>\n<li>The role will be available by default but must be explicitly assigned by an admin.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Review which users may benefit from expanded survey creation capabilities.</li>\n<li>Assign the Survey designer role as needed in <i>Viva Glint role management</i>.</li>\n<li>Update internal documentation as relevant.</li>\n<li>Communicate this role availability to stakeholders who run employee listening programs.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Glint will introduce a Survey designer role starting March 23, 2026, allowing designated users to create and manage surveys without access to sensitive settings. Admins must assign this role explicitly. Organizations should prepare by identifying users, updating documentation, and informing stakeholders. No compliance issues noted."
+      }
+    ],
+    "EndDateTime": "2026-04-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1218413",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-11T20:45:52.04Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-16T00:09:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva: Viva Glint - Survey Designer Role",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 11, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We are adding new, more granular permissions for users to get access to administrative areas in Viva Glint. These areas include <b>Advanced Configuration</b>, <b>Nudges</b>, <b>General Settings</b>, and <b>Viva Integrations</b>. We are also updating the name of the highest privileged role in Viva Glint to <b>“Viva Glint Service Admin,”</b>&nbsp;and for increased security, restricting the ability to assign new <b>Viva Glint Service Admins</b> to the&nbsp;<b>Microsoft Admin Center (MAC)</b>&nbsp;only.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout will begin March 23, 2026 (previously March 9) and complete by March 23, 2026 (previously March 9).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Admins managing Viva Glint roles and permissions.</p>\n<p><b>What will happen:</b></p><ul>\n<li>Additional permissions will be introduced for <b>Advanced Configuration</b>, <b>General Settings</b>, <b>Nudges</b>, and <b>Viva Integrations</b>.</li>\n<li>Assigning <b>Viva Glint Service Admins</b> will only be possible through the MAC.</li>\n<li><b>M365 Global Admins</b> and <b>Viva Glint Tenant Admins</b> will have sole responsibility for assigning Service Admins.</li><li>All <b>Viva Glint Service Admins</b>&nbsp;will have Advanced Configuration access going forwards</li>\n<li>No changes to existing admin policies; this update enhances security and role clarity.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s needs to determine how to use these new permissions</li>\n<li>Ensure that only <b>M365 Global Admins</b> or <b>Viva Glint Tenant Admins</b> are prepared to assign Service Admins via MAC.</li>\n<li>Update internal documentation and communicate these changes to your helpdesk or support teams.</li>\n</ul><p>Learn more about Viva Glint roles and permissions: <a href=\"https://learn.microsoft.com/viva/glint\">Viva Glint documentation</a>.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Glint introduces granular permissions for Advanced Configuration, Nudges, General Settings, and Integrations. The top role is renamed \"Viva Glint Service Admin,\" assignable only via Microsoft Admin Center by M365 Global or Viva Glint Tenant Admins. Rollout begins March 23, 2026, enhancing security and role clarity."
+      }
+    ],
+    "EndDateTime": "2026-04-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1217642",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-11T20:43:49.597Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-14T02:08:24Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva: Viva Glint – New permissions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p style=\"\">Updated March 11, 2026: We have updated the content. Thank you for your patience.</p><p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.</p><p><b>Important:</b> Only tenants that <b>already have Passkeys (FIDO2) enabled</b> are affected by this update.&nbsp;</p><p>  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If your tenant already has Passkeys (FIDO2) enabled and you do not opt in to passkey profiles during the initial rollout window, your tenant will be automatically migrated to the passkey profiles schema at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings.</li><li>For tenants that have synced passkeys enabled, <b>Microsoft-managed</b> registration campaigns will update to target passkeys.</li><li>No new authentication methods are enabled as part of this migration.&nbsp;</li></ul><p><b>Authentication Methods Registration Campaign changes (Microsoft-Managed Only)</b></p><p>For tenants with passkeys (FIDO2) enabled and active Authentication methods registration campaign set to “Microsoft-managed” state, the registration campaign settings may change after passkey profile automatic migration.&nbsp;</p><p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in<b> early March 2026 </b>and is expected to complete by<b> late March 2026</b>.<ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (Worldwide):</b> Rollout begins in <b>early April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul></li><li><b>General Availability (GCC, GCC High, and DoD): </b>Rollout begins in<b> early April 2026 </b>and is expected to complete by<b> late April 2026.</b><ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (GCC, GCC High, and DoD): </b>Rollout begins in<b> early June 2026 </b>and is expected to complete by<b> late June 2026.&nbsp;</b></li></ul></li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected: </i>Microsoft Entra ID tenants with Passkeys (FIDO2) enabled</p>\n<p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b><b>Who is affected for Authentication Methods Registration Campaign changes:</b></b></p><p>Microsoft Entra ID tenants with passkeys (FIDO2) enabled and active Authentication methods registration campaign set to “Microsoft-managed” state.</p><p><i>What will happen:</i></p><p>If your tenant has passkey profiles that allow both device-bound and synced passkeys, does not have attestation enforcement, and does not have AAGUID‑specific key restrictions, your Microsoft-managed registration campaign settings will be updated.</p><p>Resulting Microsoft-managed registration campaign changes:</p><ul><li>\"Targeted authentication method” will change from Microsoft Authenticator to “passkeys (FIDO2)”.</li><li>“Days allowed to snooze” setting will change from 3days to “1 day”. This setting will no longer be configurable.</li><li>“Limited number of snoozes” setting will change from Enabled to \"Disabled”. This setting will no longer be configurable.</li><li>The default user targeting will be updated from voice call or text message users to all multifactor authentication (MFA) capable users.&nbsp;</li></ul><p>What is the end user impact:</p><p>Once the above changes have taken effect, users targeted in the registration campaign will begin to receive passkey registration nudges during sign-in flows after they have completed multifactor authentication.</p><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you want synced passkeys enabled in your tenant but do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-mfa-registration-campaign\" target=\"_blank\">How to run a registration campaign to set up Microsoft Authenticator - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
       "ContentType": "html"
     },
@@ -578,7 +655,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557253\":[{\"RoadmapId\":557253,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T19:38:40.5163687Z\",\"LatestRing\":null},{\"RoadmapId\":557253,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T19:38:40.5163688Z\",\"LatestRing\":null}],\"557254\":[{\"RoadmapId\":557254,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T19:38:40.5163639Z\",\"LatestRing\":null},{\"RoadmapId\":557254,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T19:38:40.5163643Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557253\":[{\"RoadmapId\":557253,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T21:28:59.0079149Z\",\"LatestRing\":null},{\"RoadmapId\":557253,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T21:28:59.007915Z\",\"LatestRing\":null}],\"557254\":[{\"RoadmapId\":557254,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T21:28:59.0079101Z\",\"LatestRing\":null},{\"RoadmapId\":557254,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T21:28:59.0079102Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11750,83 +11827,6 @@
       "User impact"
     ],
     "Title": "PowerPoint adds AI-powered image editing with \"Designer editor\"",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 22, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We are adding new, more granular permissions for users to get access to administrative areas in Viva Glint. These areas include <b>Advanced Configuration</b>, <b>Nudges</b>, <b>General Settings</b>, and <b>Viva Integrations</b>. We are also updating the name of the highest privileged role in Viva Glint to <b>“Viva Glint Service Admin,”</b>&nbsp;and for increased security, restricting the ability to assign new <b>Viva Glint Service Admins</b> to the&nbsp;<b>Microsoft Admin Center (MAC)</b>&nbsp;only.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout will begin March 9, 2026 (previously early February) and complete by March 9, 2026 (previously early February).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Admins managing Viva Glint roles and permissions.</p>\n<p><b>What will happen:</b></p><ul>\n<li>Additional permissions will be introduced for <b>Advanced Configuration</b>, <b>General Settings</b>, <b>Nudges</b>, and <b>Viva Integrations</b>.</li>\n<li>Assigning <b>Viva Glint Service Admins</b> will only be possible through the MAC.</li>\n<li><b>M365 Global Admins</b> and <b>Viva Glint Tenant Admins</b> will have sole responsibility for assigning Service Admins.</li><li>All <b>Viva Glint Service Admins</b>&nbsp;will have Advanced Configuration access going forwards</li>\n<li>No changes to existing admin policies; this update enhances security and role clarity.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s needs to determine how to use these new permissions</li>\n<li>Ensure that only <b>M365 Global Admins</b> or <b>Viva Glint Tenant Admins</b> are prepared to assign Service Admins via MAC.</li>\n<li>Update internal documentation and communicate these changes to your helpdesk or support teams.</li>\n</ul><p>Learn more about Viva Glint roles and permissions: <a href=\"https://learn.microsoft.com/viva/glint\">Viva Glint documentation</a>.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Glint will introduce granular permissions for Advanced Configuration, Nudges, General Settings, and Integrations. The top role is renamed \"Viva Glint Service Admin,\" assignable only via Microsoft Admin Center by M365 Global or Viva Glint Tenant Admins. Rollout begins March 9, 2026, enhancing security without changing existing policies."
-      }
-    ],
-    "EndDateTime": "2026-04-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1217642",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-01-22T20:15:44.72Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-14T02:08:24Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva: Viva Glint – New permissions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 22, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To support organizations that will run additional employee listening programs, such as surveys for AI transformation or change management, we will introduce a dedicated <b>Survey designer role</b>. This role will grant selected users the ability to create and run Viva Glint surveys with only the permissions required for that work. It will not provide access to platform settings or sensitive data. This will allow organizations to expand survey creation in a secure and flexible way.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>We<b>&nbsp;</b>will begin rolling out on March 9, 2026 (previously&nbsp;mid‑February) and expect to complete by March 9, 2026 (previously&nbsp;mid‑February).</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Viva Glint customers in <i>Microsoft Viva</i></li>\n<li>Admins assigning roles and users who create surveys</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n<li>A new Survey designer role will be available in <i>Viva Glint.</i></li>\n<li>Users assigned this role will be able to create and run Viva Glint surveys, collect employee feedback, and manage survey lifecycle tasks.</li>\n<li>Survey designers won’t have access to broader Viva Glint configuration settings or sensitive admin data.</li>\n<li>The role will be available by default but must be explicitly assigned by an admin.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Review which users may benefit from expanded survey creation capabilities.</li>\n<li>Assign the Survey designer role as needed in <i>Viva Glint role management</i>.</li>\n<li>Update internal documentation as relevant.</li>\n<li>Communicate this role availability to stakeholders who run employee listening programs.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Glint will introduce a Survey designer role on March 9, 2026, allowing selected users to create and manage surveys without access to sensitive settings. Admins must assign this role. Organizations should prepare by identifying users, updating documentation, and informing stakeholders. No compliance issues noted."
-      }
-    ],
-    "EndDateTime": "2026-04-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1218413",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-22T20:13:19.25Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-16T00:09:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva: Viva Glint - Survey Designer Role",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
