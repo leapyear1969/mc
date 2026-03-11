@@ -4,6 +4,216 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p style=\"\">Updated March 11, 2026: We have updated the content. Thank you for your patience.</p><p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.</p><p><b>Important:</b> Only tenants that <b>already have Passkeys (FIDO2) enabled</b> are affected by this update.&nbsp;</p><p>  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If your tenant already has Passkeys (FIDO2) enabled and you do not opt in to passkey profiles during the initial rollout window, your tenant will be automatically migrated to the passkey profiles schema at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings.</li><li>For tenants that have synced passkeys enabled, <b>Microsoft-managed</b> registration campaigns will update to target passkeys.</li><li>No new authentication methods are enabled as part of this migration.&nbsp;</li></ul><p><b>Authentication Methods Registration Campaign changes (Microsoft-Managed Only)</b></p><p>For tenants with passkeys (FIDO2) enabled and active Authentication methods registration campaign set to “Microsoft-managed” state, the registration campaign settings may change after passkey profile automatic migration.&nbsp;</p><p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in<b> early March 2026 </b>and is expected to complete by<b> late March 2026</b>.<ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (Worldwide):</b> Rollout begins in <b>early April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul></li><li><b>General Availability (GCC, GCC High, and DoD): </b>Rollout begins in<b> early April 2026 </b>and is expected to complete by<b> late April 2026.</b><ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (GCC, GCC High, and DoD): </b>Rollout begins in<b> early June 2026 </b>and is expected to complete by<b> late June 2026.&nbsp;</b></li></ul></li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected: </i>Microsoft Entra ID tenants with Passkeys (FIDO2) enabled</p>\n<p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b><b>Who is affected for Authentication Methods Registration Campaign changes:</b></b></p><p>Microsoft Entra ID tenants with passkeys (FIDO2) enabled and active Authentication methods registration campaign set to “Microsoft-managed” state.</p><p><i>What will happen:</i></p><p>If your tenant has passkey profiles that allow both device-bound and synced passkeys, does not have attestation enforcement, and does not have AAGUID‑specific key restrictions, your Microsoft-managed registration campaign settings will be updated.</p><p>Resulting Microsoft-managed registration campaign changes:</p><ul><li>\"Targeted authentication method” will change from Microsoft Authenticator to “passkeys (FIDO2)”.</li><li>“Days allowed to snooze” setting will change from 3days to “1 day”. This setting will no longer be configurable.</li><li>“Limited number of snoozes” setting will change from Enabled to \"Disabled”. This setting will no longer be configurable.</li><li>The default user targeting will be updated from voice call or text message users to all multifactor authentication (MFA) capable users.&nbsp;</li></ul><p>What is the end user impact:</p><p>Once the above changes have taken effect, users targeted in the registration campaign will begin to receive passkey registration nudges during sign-in flows after they have completed multifactor authentication.</p><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you want synced passkeys enabled in your tenant but do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-mfa-registration-campaign\" target=\"_blank\">How to run a registration campaign to set up Microsoft Authenticator - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting March 2026, Microsoft Entra ID will GA passkey profiles and synced passkeys for tenants with Passkeys (FIDO2) enabled. Existing configurations migrate to a Default passkey profile with a new passkeyType property. Automatic migration occurs April–May 2026 (worldwide) and June 2026 (GCC/DoD). Registration campaigns may update accordingly."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221452",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-11T16:43:56.923Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:54:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra ID: General Availability of passkey profiles and migration for existing Passkeys (FIDO2) tenants",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 11, 2025: We have updated the timeline. Thank you for your patience.</p><p>When users delete a Loop workspace, owners will be able to restore it from a recycle bin in Loop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421615\" target=\"_blank\">421615</a></p><p><b>When this will happen:</b>\n</p><p>We will begin rolling out June 2026 (previously early March) and expect to complete by end of June 2026 (previously late March).</p><p><b>How this will affect your organization:</b></p><p>Once available, when users delete a Loop workspace, owners can restore it from a recycle bin in Loop.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "421615"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting June 2026, owners can restore deleted Microsoft Loop workspaces from a recycle bin. The rollout will complete by the end of June 2026, with no action needed from organizations. The timeline was updated from early March to June 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929021",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-11T16:23:48.317Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:21:20Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Loop – User Accessible Recycle Bin for Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 11, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re enhancing <b>Microsoft Purview Content Explorer </b>with new summary metrics to improve visibility into scanning and classification activities. These updates will help admins identify unscanned files and monitor classification trends, enabling better data governance and informed decisions.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526796\" target=\"_blank\">526796</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b style=\"\">Public Preview:</b>&nbsp;We will begin rolling out mid-July 2026 (previously late&nbsp;January) and expect to complete by early August 2026 (previously mid-February).&nbsp;</li>\n<li><b style=\"\">General Availability (Worldwide):</b>&nbsp;We will begin rolling out mid-August 2026 (previously early March) and expect to complete by late August 2026 (previously late March).&nbsp;</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing <b>Microsoft Purview Information Protection</b> and using <b>Content Explorer</b>.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new <b>Unscanned Files Summary</b> will display the count and percentage of files not scanned for classification.</li>\n<li><b>Classification History Insights</b> will show trends and details of classification changes over time.</li>\n<li>These metrics will appear in <b>Content Explorer</b> alongside existing <b>Sensitive Information Types (SITs)</b> and labels.</li><li>Admins can explore the new metrics to identify gaps and use on-demand classification capabilities to retrigger scans if needed.</li>\n<li>No changes to existing policies or configurations; the feature is enabled by default.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6fca886b-7dca-418c-a7c9-aeeee7493d47\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required. </li><li>These metrics will automatically appear in <b>Content Explorer.</b></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Question</th>\n<th>Explanation</th>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed, stored, or accessed (e.g., documents, emails, chats, etc.)?</td>\n<td>The feature accesses existing classification metadata to display trends and scanning status in <b>Content Explorer</b>.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "526796"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Content Explorer will add summary metrics showing unscanned files and classification history trends to help admins monitor data classification. The rollout begins mid-July 2026 for public preview and mid-August 2026 for general availability, with no required action or policy changes."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1217640",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-11T16:18:37.977Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-14T02:06:53Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Information Protection - Content Explorer: Unscanned data and Classification History summary metrics",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 11, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>As previously announced in MC1219792, PowerPoint will update the Microsoft 365 Copilot experience by enabling Agent mode for several on‑canvas authoring features, including rewrite, translate, and speaker notes. These enhancements will support more intelligent multi‑step reasoning and allow users to interact with Copilot through chat while performing actions directly on their presentations. This update aligns with our goal of delivering a more consistent, flexible, and powerful Copilot experience across Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in<b> mid‑March 2026</b> starting with <b>PowerPoint for the web</b>, followed by <b>PowerPoint for Windows (Win32)</b> and <b>PowerPoint for Mac</b>, and is expected to complete by <b>end of April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users of PowerPoint for the web, Windows, and Mac in Microsoft 365 tenants with Copilot access</li></ul><p><i>What will happen</i></p><p><b>Rewrite</b></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9820e66d-bfde-4252-b730-c574438df68a/d0fe6f811fa0df0fc65716554ca5cc7191c17cd6.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Rewrite actions will be processed through Copilot Agent mode chat.</li><li>Users will see progress and outputs directly in chat.</li><li>Updated text will automatically appear on the slide.</li><li>Existing rewrite entry point and options will remain unchanged.</li><li>Partial text rewrite will not be supported.</li><li>Rewrite will continue to not support tables, charts, or other non‑text objects.</li><li>Rewrite will be <b>enabled by default</b> for tenants with Copilot access.</li></ul><p><b>Translate</b></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ddb7cbca-a409-4ee1-940a-093ca53e44fd/6662ba19872500af60c228c425d0da650759e7e8.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Users will be able to initiate translation for a text box, a selected slide, or an entire presentation using Copilot Agent mode chat.</li><li>Users will be able to prompt chat with:<i> “Translate this presentation to <b>language</b>.”</i></li><li>The Copilot slide menu (sparkle icon) for translation will be removed starting in mid‑March for PowerPoint for the web, followed by Windows and Mac in April.</li><li>Presentation‑level translation will continue to function as before.</li><li>Translation will not support presentations larger than 1M text characters, with a large number of slide masters, or file sizes larger than 500MB.</li><li>All Copilot‑supported languages will be available; however, English and Spanish will not support regional variants.</li><li>During the transition, Copilot may edit the current file. Users should save a copy before initiating translation if needed.</li><li>Translate will be<b> enabled by default </b>for tenants with Copilot access.</li><li>The existing Translate feature will be accessible during the transition period from Ribbon Menu Review -&gt; Translate with Copilot.</li></ul><p><b>Speaker notes</b></p><ul><li>Users will be able to generate speaker notes for a slide or an entire presentation through Agent mode chat.</li><li>Users will be able to prompt: <i>“Add speaker notes to this slide.”</i></li><li>Notes will be inserted directly into the Notes pane and can be refined using chat.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>However, you may consider the following optional steps:</p><ul><li>Inform users of upcoming changes to rewrite, translate, and speaker note workflows.</li><li>Ensure that users intending on using this feature have an active Microsoft 365 Copilot license.</li><li>Update internal training or documentation related to Copilot in PowerPoint.</li><li>Encourage users to save a copy of large or critical presentations before initiating translation during the transition period.</li><li>Notify users if your organization currently trains or instructs users to rely on the sparkle icon, as it will be removed.</li></ul><p><b>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/agent-mode-in-powerpoint-frontier-008f17aa-8e5f-4cda-ba6c-0588000bdad7\" target=\"_blank\">Agent Mode in PowerPoint (Frontier) | Copilot | Microsoft Support</a></b></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot updates PowerPoint with Agent mode for rewrite, translate, and speaker notes features, enabling chat-based interaction and multi-step reasoning. Rollout starts mid-March 2026 for web, then Windows and Mac, completing by April end. No admin action required; users should save copies during transition."
+      }
+    ],
+    "EndDateTime": "2026-05-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1243550",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-11T16:14:29.617Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-04T01:22:33Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Updates to PowerPoint on‑canvas features with Agent mode",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 11, 2026: Agent Mode in Excel and Word are starting to roll out across web, Windows, and Mac and are expected to complete in the following weeks. Additionally, Anthropic has onboarded as a Microsoft subprocessor and we have updated the related information below.</p><p>Updated January 20, 2026: The change to Copilot Chat in Outlook to expand reasoning to include a user's entire inbox, calendar, meetings, and other enterprise data is starting to roll out across web, new Outlook for Windows, Classic Outlook for Windows, Mac and mobile and is expected to complete in the following weeks. For more information on the data Copilot Chat in Outlook will be able to access, please see <a href=\"https://learn.microsoft.com/copilot/privacy-and-protections#organizational-data\">Organizational Data</a> in our documentation. Users can learn more about this change from the <a href=\"https://support.microsoft.com/topic/use-copilot-chat-in-microsoft-365-apps-676db5e8-9568-4bdb-bf0b-e207e29e056b\">Use Copilot Chat in Microsoft 365 apps</a> article. There is no update at this time regarding Agent Mode and the Word, Excel, and PowerPoint Agents availability.</p><p><b>Introduction</b></p><p>We’re introducing new capabilities for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) to help them better manage their day in Outlook and create and refine Word documents, Excel workbooks, and PowerPoint presentations. These updates include:\n</p><ul><li><b>Copilot Chat in Outlook</b> will expand from reasoning over a single email thread to reasoning over a user’s entire inbox, calendar, meetings, and other enterprise data. \n</li><li><b>Agent Mode in Word, Excel, and PowerPoint </b>uses web data and referenced files to help users create and refine content in the apps. \n</li><li><b>Word, Excel, and PowerPoint Agents</b> allow users to create high-quality documents, workbooks, and presentations in Copilot Chat using web data and referenced files.</li></ul><p>Please find our Microsoft Ignite announcements <a href=\"https://aka.ms/ABSIgnite2025\" target=\"_blank\">here</a>.</p><p><b>When this will happen:</b></p><p>We will begin rolling out early January 2026 and expect to complete by late March 2026.</p><p><b>How this will affect your organization:</b>\n</p><ul><li><b>Who is affected: </b><a href=\"https://learn.microsoft.com/en-us/copilot/manage#microsoft-365--chat-eligibility\" target=\"_blank\">Eligible Copilot Chat users</a> with a Microsoft 365 or Office 365 subscription. There is no change for users with a Microsoft 365 Copilot license.</li><li><b>What will happen:\n</b><ul style=\"\"><li style=\"\">Copilot Chat in Outlook will understand the entire inbox, calendar, meetings, and other enterprise data for a user. Additional documentation will be provided closer to rollout. Users will be able to ask Copilot to source information across their inbox, uncover action items, or manage their calendar. \n</li><li style=\"\">Users will be able to access Agent Mode in Word, Excel, and PowerPoint through the Tools menu in the Copilot Chat input box in each individual app. Agent Mode lets users create and refine content as they are working. Agent Mode will use web data and referenced files but will not have access to work data.\n</li><li style=\"\">Users will be able to access the Word, Excel, and PowerPoint Agents in Copilot Chat from the Tools menu in the input box or by typing “@” and selecting the agents. These agents use several models, including Anthropic’s Claude model, to help create high-quality documents, spreadsheets, and presentations. These agents will use web data and referenced files but will not have access to work data.</li></ul></li></ul><p><b>What you need to do to prepare:</b>\n</p><ul><li>No admin action is required for Copilot Chat in Outlook. If you’d like to manage Copilot Chat in Outlook, you can use Integrated Apps in the Microsoft 365 admin center. Learn more <a href=\"https://learn.microsoft.com/en-us/copilot/manage#manage--chat-on-the-web-in-the-microsoft-365--app-and-in-outlook\" target=\"_blank\">here</a>.\n</li><li>No admin action is required for Agent Mode in Word, Excel, and PowerPoint. If you’d like to manage Copilot Chat in Word, Excel, and PowerPoint, you can use the Pin Microsoft 365 Copilot Chat setting. Learn more <a href=\"https://learn.microsoft.com/en-us/copilot/manage#pinning-settings-for--chat\" target=\"_blank\">here</a>.\n</li><li>To provide access to Word, Excel, and PowerPoint Agents, you must connect to Anthropic’s Claude model. Learn how to connect <a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\">here</a>.</li></ul><p><b>Compliance considerations:</b></p><p>The following considerations are relevant to the use of Word, Excel, and PowerPoint Agents.</p><ul><li>Anthropic has onboarded as a Microsoft subprocessor: Learn more <a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\">here</a>.</li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat is expanding: Outlook will analyze entire inboxes, calendars, and meetings; Agent Mode in Word, Excel, and PowerPoint will assist content creation using web data and referenced files. Rollout began January 2026, completing by March, with no admin action required for most features."
+      }
+    ],
+    "EndDateTime": "2026-05-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1187671",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-11T16:12:11.02Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-18T16:07:00Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New features coming to Microsoft 365 Copilot Chat for Outlook, Word, Excel, and PowerPoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing a<b> new satisfaction rate metric</b> in the <i>Microsoft 365 Copilot analytics dashboard</i>. This metric aggregates user-provided thumbs-up and thumbs-down feedback across Microsoft 365 apps over the past 28 days. It helps organizations understand how users perceive Copilot responses and provides improved visibility into sentiment trends. The satisfaction rate will appear in the<i><b> Impact </b>tab</i>, with filtering options for scope, organization, and job function.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496655#Roadmap\" target=\"_blank\">496655</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;March 2026</b> and expect to complete in <b>April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>:</p><ul><li>All Microsoft 365 tenants with users who have access to the Copilot analytics dashboard.</li><li>Admins who manage Copilot feedback visibility or sentiment reporting.</li><li>Users with Microsoft 365 Copilot licenses.</li></ul><p><i>What will happen</i>:</p><p>A new Satisfaction rate metric will appear in the <i>Copilot analytics dashboard</i> under the<b> </b><i><b>Impact </b>tab</i>.</p><ul><li>The metric aggregates all thumbs-up and thumbs-down feedback on Copilot responses from the past 28 days.</li><li>The dashboard will include a<b>&nbsp;4‑month backfill of satisfaction data</b>, going back to Dec 16, 2025.</li><li>Page‑level filters (organization, scope, job function) allow admins to view sentiment in more detail.</li><li>For organizations that have enabled Copilot feedback collection in the <i>Microsoft admin center</i>, aggregated tenant‑level sentiment will appear automatically.</li><li>No changes to user workflow; no admin policy configuration is required.</li></ul><p><i>Screenshot 1 - View of the Satisfaction rate hero card:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b8547fa6-7815-4f81-94d0-e3589469a544/88021d4697c05f93a10c4f87029213e31cc255d7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p></p><p><i>Screenshot 2 - View of the Satisfaction rate - 6 month trend:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/13af47d2-b448-4299-a8ac-e7de317f7060/9bd089fa392d703d0e81f166b8f87bdec0f1572a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>However, you may choose to:</p><ul><li>Inform Copilot dashboard users about the new metric and how it can support sentiment analysis.</li><li>Update internal documentation or helpdesk materials to include this new reporting capability.</li><li>Review existing Copilot feedback settings in the <i>Microsoft admin center</i> if you want to manage how user sentiment is collected.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Viva Insights | Microsoft Viva | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -2186,44 +2396,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>As previously announced in MC1219792, PowerPoint will update the Microsoft 365 Copilot experience by enabling Agent mode for several on‑canvas authoring features, including rewrite, translate, and speaker notes. These enhancements will support more intelligent multi‑step reasoning and allow users to interact with Copilot through chat while performing actions directly on their presentations. This update aligns with our goal of delivering a more consistent, flexible, and powerful Copilot experience across Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in<b> mid‑March 2026</b> starting with <b>PowerPoint for the web</b>, followed by <b>PowerPoint for Windows (Win32)</b> and <b>PowerPoint for Mac</b>, and is expected to complete by <b>end of April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users of PowerPoint for the web, Windows, and Mac in Microsoft 365 tenants with Copilot access</li></ul><p><i>What will happen</i></p><p><b>Rewrite</b></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9820e66d-bfde-4252-b730-c574438df68a/d0fe6f811fa0df0fc65716554ca5cc7191c17cd6.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Rewrite actions will be processed through Copilot Agent mode chat.</li><li>Users will see progress and outputs directly in chat.</li><li>Updated text will automatically appear on the slide.</li><li>Existing rewrite entry point and options will remain unchanged.</li><li>Partial text rewrite will not be supported.</li><li>Rewrite will continue to not support tables, charts, or other non‑text objects.</li><li>Rewrite will be <b>enabled by default</b> for tenants with Copilot access.</li></ul><p><b>Translate</b></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ddb7cbca-a409-4ee1-940a-093ca53e44fd/6662ba19872500af60c228c425d0da650759e7e8.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Users will be able to initiate translation for a text box, a selected slide, or an entire presentation using Copilot Agent mode chat.</li><li>Users will be able to prompt chat with:<i> “Translate this presentation to <b>language</b>.”</i></li><li>The Copilot slide menu (sparkle icon) for translation will be removed starting in mid‑March for PowerPoint for the web, followed by Windows and Mac in April.</li><li>Presentation‑level translation will continue to function as before.</li><li>Translation will not support presentations larger than 1M text characters, with a large number of slide masters, or file sizes larger than 500MB.</li><li>All Copilot‑supported languages will be available; however, English and Spanish will not support regional variants.</li><li>During the transition, Copilot may edit the current file. Users should save a copy before initiating translation if needed.</li><li>Translate will be<b> enabled by default </b>for tenants with Copilot access.</li></ul><p><b>Speaker notes</b></p><ul><li>Users will be able to generate speaker notes for a slide or an entire presentation through Agent mode chat.</li><li>Users will be able to prompt: <i>“Add speaker notes to this slide.”</i></li><li>Notes will be inserted directly into the Notes pane and can be refined using chat.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>However, you may consider the following optional steps:</p><ul><li>Inform users of upcoming changes to rewrite, translate, and speaker note workflows.</li><li>Ensure that users intending on using this feature have an active Microsoft 365 Copilot license.</li><li>Update internal training or documentation related to Copilot in PowerPoint.</li><li>Encourage users to save a copy of large or critical presentations before initiating translation during the transition period.</li><li>Notify users if your organization currently trains or instructs users to rely on the sparkle icon, as it will be removed.</li></ul><p><b>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/agent-mode-in-powerpoint-frontier-008f17aa-8e5f-4cda-ba6c-0588000bdad7\" target=\"_blank\">Agent Mode in PowerPoint (Frontier) | Copilot | Microsoft Support</a></b></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "PowerPoint will update Microsoft 365 Copilot with Agent mode for rewrite, translate, and speaker notes features, enabling chat-based interaction directly on slides. Rollout starts mid-March 2026 for web, then Windows and Mac, completing by April end. No admin action required; features enabled by default for Copilot users."
-      }
-    ],
-    "EndDateTime": "2026-05-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1243550",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-04T01:27:24.71Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-04T01:22:33Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Updates to PowerPoint on‑canvas features with Agent mode",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing new capabilities for Channel Agent in Microsoft Teams to improve how agents support collaboration within channels. These updates enhance agent welcome messages, give users more control over agent creation, and expand agent actions within channels to help teams work more efficiently.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, and Teams for iOS/Android and is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557555\" target=\"_blank\">557555</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>Targeted Release: Rolling out <b>early March 2026</b> and completing by <b>late March 2026</b>.</p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft Teams users who create or interact with Channel Agents</li>\n  <li>Admins managing Teams preview features</li><li>A <b>Microsoft 365 Copilot license</b> is required to use this feature.</li>\n</ul>\n\n<p><b><b>What will happen:</b></b></p>\n<ul>\n  <li>New Channel Agents generate customized welcome messages based on channel context.</li>\n  <li>Users can disable automatic Channel Agent creation during team or channel setup.</li>\n  <li>Improved scheduling suggestions using updated calendar logic.</li>\n  <li>Users can ask the agent to add members to a channel with a simple prompt such as “@agent add John Doe to this channel.”</li>\n  <li>Channel Agents can post messages directly to a channel.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if your organization is not opted into Targeted Release.</li><li>Ensure your tenant is opted into Targeted Release if you want to receive this update earlier.</li><li>Confirm Channel Agent is enabled for your tenant.</li>\n  <li>Notify helpdesk staff of the new behaviors.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://support.microsoft.com/office/get-started-with-channel-agent-for-teams-channels-b85945cf-deef-4f1e-9db1-66e1a23b6a65\" target=\"_blank\">Get started with Channel Agent for Teams channels | Microsoft Support</a></li><li><a href=\"https://learn.microsoft.com/MicrosoftTeams/set-up-channel-agent-teams\" target=\"_blank\">Set up a Channel Agent for Microsoft Teams - Microsoft Teams | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p>\n<p>Channel Agent can access channel roster data to support member management actions. No other compliance impacts have been identified.</p>",
       "ContentType": "html"
     },
@@ -2886,45 +3058,6 @@
       "Retirement"
     ],
     "Title": "SharePoint 2013 workflow retirement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p style=\"\"><b>Updated March 2, 2026: </b>We have updated the content. Thank you for your patience.</p><p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.</p><p><b>Important:</b> Only tenants that <b>already have Passkeys (FIDO2) enabled</b> are affected by this update.&nbsp;</p><p>  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If your tenant already has Passkeys (FIDO2) enabled and you do not opt in to passkey profiles during the initial rollout window, your tenant will be automatically migrated to the passkey profiles schema at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings.</li><li>For tenants that have synced passkeys enabled, <b>Microsoft-managed</b> registration campaigns will update to target passkeys.</li><li>No new authentication methods are enabled as part of this migration.&nbsp;</li></ul><p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in<b> early March 2026 </b>and is expected to complete by<b> late March 2026</b>.<ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (Worldwide):</b> Rollout begins in <b>early April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul></li><li><b>General Availability (GCC, GCC High, and DoD): </b>Rollout begins in<b> early April 2026 </b>and is expected to complete by<b> late April 2026.</b><ul><li><b>Automatic migration for existing  Passkeys (FIDO2) enabled tenants (GCC, GCC High, and DoD): </b>Rollout begins in<b> early June 2026 </b>and is expected to complete by<b> late June 2026.&nbsp;</b></li></ul></li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected: </i>Microsoft Entra ID tenants with Passkeys (FIDO2) enabled</p>\n<p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b><b>Registration Campaign behavior (Microsoft-managed campaigns only)</b></b></p><ul><li>For tenants where synced passkeys are enabled, if your registration campaign is set to Microsoft-managed:&nbsp;<ul><li>The targeted authentication method will be updated from <b>Microsoft Authenticator</b> to <b>passkeys</b>.</li><li>The default user targeting will be updated from <b>voice call </b>or <b>text message</b> <b>users </b>to <b>all multifactor authentication (MFA) capable users.&nbsp;</b></li><li>The settings <b>Limited number of snoozes</b> and<b> Days allowed to snooze </b>will no longer be configurable. These will be set to allow unlimited snoozes with a one-day reminder cadence.</li></ul></li></ul><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you want synced passkeys enabled in your tenant but do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-mfa-registration-campaign\" target=\"_blank\">How to run a registration campaign to set up Microsoft Authenticator - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting March 2026, Microsoft Entra ID will GA passkey profiles and synced passkeys for tenants with Passkeys (FIDO2) enabled. Existing configurations migrate to a Default passkey profile with a new passkeyType property. Automatic migration occurs April–May 2026 (worldwide) and June 2026 (GCC/DoD). Admins can opt in early to customize settings."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221452",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-02T18:05:11.52Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:54:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra ID: General Availability of passkey profiles and migration for existing Passkeys (FIDO2) tenants",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8994,45 +9127,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated February 5, 2026: Agent Mode in Excel and Word are starting to roll out across web, Windows, and Mac and are expected to complete in the following weeks. Additionally, Anthropic has onboarded as a Microsoft subprocessor and we have updated the related information below.</p><p>Updated January 20, 2026: The change to Copilot Chat in Outlook to expand reasoning to include a user's entire inbox, calendar, meetings, and other enterprise data is starting to roll out across web, new Outlook for Windows, Classic Outlook for Windows, Mac and mobile and is expected to complete in the following weeks. For more information on the data Copilot Chat in Outlook will be able to access, please see <a href=\"https://learn.microsoft.com/copilot/privacy-and-protections#organizational-data\">Organizational Data</a> in our documentation. Users can learn more about this change from the <a href=\"https://support.microsoft.com/topic/use-copilot-chat-in-microsoft-365-apps-676db5e8-9568-4bdb-bf0b-e207e29e056b\">Use Copilot Chat in Microsoft 365 apps</a> article. There is no update at this time regarding Agent Mode and the Word, Excel, and PowerPoint Agents availability.</p><p><b>Introduction</b></p><p>We’re introducing new capabilities for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) to help them better manage their day in Outlook and create and refine Word documents, Excel workbooks, and PowerPoint presentations. These updates include:\n</p><ul><li><b>Copilot Chat in Outlook</b> will expand from reasoning over a single email thread to reasoning over a user’s entire inbox, calendar, meetings, and other enterprise data. \n</li><li><b>Agent Mode in Word, Excel, and PowerPoint </b>uses web data and referenced files to help users create and refine content in the apps. \n</li><li><b>Word, Excel, and PowerPoint Agents</b> allow users to create high-quality documents, workbooks, and presentations in Copilot Chat using web data and referenced files.</li></ul><p>Please find our Microsoft Ignite announcements <a href=\"https://aka.ms/ABSIgnite2025\" target=\"_blank\">here</a>.</p><p><b>When this will happen:</b></p><p>We will begin rolling out early January 2026 and expect to complete by late March 2026.</p><p><b>How this will affect your organization:</b>\n</p><ul><li><b>Who is affected: </b><a href=\"https://learn.microsoft.com/en-us/copilot/manage#microsoft-365--chat-eligibility\" target=\"_blank\">Eligible Copilot Chat users</a> with a Microsoft 365 or Office 365 subscription. There is no change for users with a Microsoft 365 Copilot license.</li><li><b>What will happen:\n</b><ul style=\"\"><li style=\"\">Copilot Chat in Outlook will understand the entire inbox, calendar, meetings, and other enterprise data for a user. Additional documentation will be provided closer to rollout. Users will be able to ask Copilot to source information across their inbox, uncover action items, or manage their calendar. \n</li><li style=\"\">Users will be able to access Agent Mode in Word, Excel, and PowerPoint through the Tools menu in the Copilot Chat input box in each individual app. Agent Mode lets users create and refine content as they are working. Agent Mode will use web data and referenced files but will not have access to work data.\n</li><li style=\"\">Users will be able to access the Word, Excel, and PowerPoint Agents in Copilot Chat from the Tools menu in the input box or by typing “@” and selecting the agents. These agents use several models, including Anthropic’s Claude model, to help create high-quality documents, spreadsheets, and presentations. These agents will use web data and referenced files but will not have access to work data.</li></ul></li></ul><p><b>What you need to do to prepare:</b>\n</p><ul><li>No admin action is required for Copilot Chat in Outlook. If you’d like to manage Copilot Chat in Outlook, you can use Integrated Apps in the Microsoft 365 admin center. Learn more <a href=\"https://learn.microsoft.com/en-us/copilot/manage#manage--chat-on-the-web-in-the-microsoft-365--app-and-in-outlook\" target=\"_blank\">here</a>.\n</li><li>No admin action is required for Agent Mode in Word, Excel, and PowerPoint. If you’d like to manage Copilot Chat in Word, Excel, and PowerPoint, you can use the Pin Microsoft 365 Copilot Chat setting. Learn more <a href=\"https://learn.microsoft.com/en-us/copilot/manage#pinning-settings-for--chat\" target=\"_blank\">here</a>.\n</li><li>To provide access to Word, Excel, and PowerPoint Agents, you must connect to Anthropic’s Claude model. Learn how to connect <a href=\"https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models\" target=\"_blank\">here</a>.</li></ul><p><b>Compliance considerations:</b></p><p>The following considerations are relevant to the use of Word, Excel, and PowerPoint Agents.</p><ul><li>Anthropic has onboarded as a Microsoft subprocessor: Learn more <a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\">here</a>.</li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Chat is expanding: Outlook will analyze entire inboxes, calendars, and meetings; Agent Mode in Word, Excel, and PowerPoint will assist content creation using web data and referenced files. Rollout began January 2026, completing by March, with no admin action required for most features."
-      }
-    ],
-    "EndDateTime": "2026-05-04T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187671",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-05T23:22:04.92Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T16:07:00Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New features coming to Microsoft 365 Copilot Chat for Outlook, Word, Excel, and PowerPoint",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We're introducing more flexible and<b> precise audience targeting</b> in <i>Viva Engage</i>, starting with <b>Storyline Announcements</b>. This update allows leaders and their delegates to define a custom audience at the time of posting—without relying on pre-configured Leader Audiences. Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users by name. This flexibility enables more timely, targeted communication, helping leaders reach the right people with the right message. Notifications and delivery channels (such as Teams, email) will continue to follow existing Storyline Announcement behavior, ensuring a seamless experience for recipients.\n</p><p>This feature is ideal for leaders who want to tailor communications to specific departments, locations, or existing groups, enhancing relevance and engagement across the organization.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499895\" target=\"_blank\">499895</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by mid-March 2026 (previously early February).\n</li><li><b>General Availability (Worldwide):</b> Begins mid-March 2026 (previously early February) and completes by mid-April 2026 (previously early March).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Leaders and delegates using Viva Engage Storyline Announcements in tenants enrolled in public preview.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>This capability is being introduced as part of the public preview for Viva Engage. During this phase, leaders and their delegates can actively experiment with flexible audience targeting for Storyline Announcements—defining a custom audience at the time of posting, rather than relying solely on pre‑configured Leader Audiences.</li><li>Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users.</li><li>Notifications and delivery channels (Teams, email, Viva Engage Inbox) remain unchanged for recipients.</li><li>No dependency on IT or advance audience setup—leaders can act immediately when communication needs arise.</li><li><b>Available only in public preview</b>; functionality and targeting options may evolve before general availability.</li><li>Admins should ensure organizational attributes in Entra ID or Organizational Data in Microsoft are accurate to support successful targeting.</li><li><b>Available platforms:</b> Desktop and web.</li><li><b>Licensing requirements: </b>This feature requires a premium license available through Viva or Communications and Communities (C&amp;C). Availability may vary depending on your organization's Microsoft 365 licensing agreement.</li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No admin action is required for rollout. To prepare, you may want to:</p><ul>\n<li>Validate organizational attributes (reporting structure, country, department, role, job title) in <i>Microsoft Entra ID</i> or Organizational Data in <i>Microsoft</i>.</li>\n<li>Confirm leader and delegate assignments to ensure the right people can use Storyline Announcements and the new targeting control.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/viva/organizational-data\" target=\"_blank\">Use your organizational data in Microsoft 365 and Microsoft Viva | Microsoft Viva | Microsoft Learn</a></li>\n</ul><p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -12794,52 +12888,6 @@
       "Retirement"
     ],
     "Title": "Endpoint DLP-sensitive data alerting retiring in Defender; use Purview DLP",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re enhancing <b>Microsoft Purview Content Explorer </b>with new summary metrics to improve visibility into scanning and classification activities. These updates will help admins identify unscanned files and monitor classification trends, enabling better data governance and informed decisions.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526796\" target=\"_blank\">526796</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b style=\"\">Public Preview:</b>&nbsp;We will begin rolling out&nbsp;late&nbsp;January 2026&nbsp;and expect to complete by&nbsp;mid-February 2026.&nbsp;</li>\n<li><b style=\"\">General Availability (Worldwide):</b>&nbsp;We will begin rolling out&nbsp;early March&nbsp;2026 and expect to complete by&nbsp;late March 2026.&nbsp;</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing <b>Microsoft Purview Information Protection</b> and using <b>Content Explorer</b>.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new <b>Unscanned Files Summary</b> will display the count and percentage of files not scanned for classification.</li>\n<li><b>Classification History Insights</b> will show trends and details of classification changes over time.</li>\n<li>These metrics will appear in <b>Content Explorer</b> alongside existing <b>Sensitive Information Types (SITs)</b> and labels.</li><li>Admins can explore the new metrics to identify gaps and use on-demand classification capabilities to retrigger scans if needed.</li>\n<li>No changes to existing policies or configurations; the feature is enabled by default.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6fca886b-7dca-418c-a7c9-aeeee7493d47\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required. </li><li>These metrics will automatically appear in <b>Content Explorer.</b></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Question</th>\n<th>Explanation</th>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed, stored, or accessed (e.g., documents, emails, chats, etc.)?</td>\n<td>The feature accesses existing classification metadata to display trends and scanning status in <b>Content Explorer</b>.</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "526796"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Content Explorer will add summary metrics showing unscanned files and classification history trends, helping admins monitor data scanning and classification. Rolling out from January to March 2026, these features require no action and do not change existing policies or data processing."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1217640",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-14T02:07:40.727Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-14T02:06:53Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Information Protection - Content Explorer: Unscanned data and Classification History summary metrics",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17770,52 +17818,6 @@
       "Admin impact"
     ],
     "Title": "Limiting onmicrosoft domain usage for sending emails",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 13, 2025: We have updated the timeline. Thank you for your patience.</p><p>When users delete a Loop workspace, owners will be able to restore it from a recycle bin in Loop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=421615\" target=\"_blank\">421615</a></p><p><b>When this will happen:</b>\n</p><p>We will begin rolling out early March 2026 (previously mid September) and expect to complete by late March 2026 (previously late September).</p><p><b>How this will affect your organization:</b></p><p>Once available, when users delete a Loop workspace, owners can restore it from a recycle bin in Loop.</p><p><b>What you need to do to prepare:</b></p><p>There is nothing you need to do to prepare. These changes will roll to your tenant automatically.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "421615"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Loop will add a user-accessible recycle bin for workspaces, allowing owners to restore deleted workspaces. The rollout starts early March 2026 and completes by late March 2026, delayed from the original September 2025 timeline. No preparation is needed from users."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC929021",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-08-13T19:46:16.623Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-08T23:21:20Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Loop – User Accessible Recycle Bin for Loop workspaces",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
