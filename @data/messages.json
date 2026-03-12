@@ -4,6 +4,88 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 12, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Exchange Online includes email‑sending limits based on three factors: recipient rate limit, recipient limit, and message rate limit. To support customers whose internal communication needs exceed these standard limits, we are introducing <b>High Volume Email (HVE)</b>&nbsp;for&nbsp;<i>Microsoft 365</i>. HVE is designed for large‑scale internal communications and integrates with business applications and devices to support operational and mass‑mailing scenarios. It uses a transactional pricing model based on the number of recipients.</p><p>HVE is available at no additional cost during Public Preview. Pricing for General Availability (GA) will be announced with the GA release, and billing will begin in June 2026 following a free promotional period after GA in March 2026.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=382633#Roadmap\" target=\"_blank\">382633</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Available now.\n</li><li><b>General Availability (worldwide): </b>Rollout begins in late <b>March 2026 </b>and is expected to complete <b>early April 2026</b>.\n</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing Exchange Online mail flow and reporting\n</li><li>Organizations with large-scale internal email distribution needs\n</li></ul><p><i>What will happen</i></p><ul><li>A new<b> High Volume Email page</b> will appear under <b><i>Mail flow </i></b>in the<i> Exchange admin center</i>.\n</li><li>Admins can create and manage<b> Mail User accounts enabled for HVE</b>.\n</li><li>HVE accounts use a<b> dedicated SMTP endpoint</b> for high-volume sending.\n</li><li>A new High Volume Email report will appear under <b><i>Reports &gt; Mail flow</i></b> to help admins monitor HVE usage per account.\n</li><li>HVE is <b>opt‑in</b>; it does not modify default sending limits or existing mail flow behavior.</li></ul><p><i>Screenshot 1 - Create new HVE specific accounts:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bd67e955-ee37-4ef5-b684-fcb3d0c4a421/0712d8ef517d8c135585b2b1f7a7e4636ed7416d.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><i></i></p><p><i>Screenshot 2 - Manage HVE accounts, including assigned billing policies:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8c18f190-00f9-476e-a743-4469b3b31327/0b87b1f6570e862f542957a06968b71c77a84c40.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to prepare for this change.</p><p>You may want to:</p><ul><li>Review and update any internal documentation that describes email‑sending processes.</li><li>Learn more about setup and configuration:&nbsp;<a href=\"https://learn.microsoft.com/exchange/mail-flow-best-practices/high-volume-mails-m365\" target=\"_blank\">Manage high volume emails for Microsoft 365 Public preview | Mail flow best practices | Exchange Online | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "382633"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 introduces High Volume Email (HVE) for large-scale internal communications, available now in Public Preview and rolling out globally in March 2026. HVE offers dedicated SMTP endpoints, opt-in management via Exchange admin center, and new reporting, with pricing starting post-free promotional period in June 2026."
+      }
+    ],
+    "EndDateTime": "2026-05-03T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1243552",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T16:02:03.823Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-04T01:27:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "High Volume Email for Microsoft 365 upcoming general availability",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 12, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are updating the entry points for Copilot in <i>Word</i> to provide a clearer, more consistent, and more intuitive experience. These changes unify how users access Copilot and<b> introduce Word Agent in the <i>chat pane </i>as the primary Copilot interface</b>. This update improves discoverability, simplifies the user workflow, and creates consistency with other Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: We will begin rolling out in <b>late March 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by<b> late April 2026</b>.</p><p><b>General Availability (GCC, GCCH and DoD):</b> We will begin rolling out in <b>October 2026</b> (previously late March) and expect to complete by<b> late October 2026 </b>(previously late April).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users of Microsoft 365 apps for Word on Windows, macOS, and Web.</p><p><i>What will happen</i></p><ul><li>The existing Copilot entry point in the left margin will be replaced by a consolidated entry point positioned in a consistent corner location.</li><li>Users will see contextual Copilot entry points when selecting content:<ul><li><b>Windows and Web</b>: inside the selection floatie</li><li><b>Mac</b>: in the right‑click context menu</li></ul></li><li>Word Agent in the <i>right-side chat pane </i>becomes the primary Copilot experience for prompts and responses.</li><li>All Copilot entry points—consolidated and contextual—will connect to Word Agent to ensure a unified experience.</li><li>There is no change to admin configuration, policy behavior, or Copilot availability settings.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>You may optionally:</p><ul><li>Inform your users about the new Copilot access points and updated experience in Word.</li><li>Update internal help content or training materials if you document Copilot entry points.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is updating Word's Copilot entry points, introducing Word Agent in the chat pane as the primary interface. Rollout begins late March 2026 worldwide and October 2026 for GCC/DoD. Entry points will be consolidated and contextual, with no admin or policy changes. No action required."
+      }
+    ],
+    "EndDateTime": "2026-11-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240704",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T15:56:24.307Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-27T22:10:37Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Copilot entry point changes in Word and handoff to Agent in chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are improving how users find their files on the Word, Excel, and PowerPoint app home pages by adding a <b>Search box in the page header</b>. This change helps users locate files more quickly with file suggestions shown as users click or type in the box.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide, GCC): Rollout began in<b> late December 2025</b>&nbsp;and is expected to complete by <b>March 2026</b>.</li>\n  </ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users of the Word (word.cloud.microsoft.com), Excel (excel.cloud.microsoft.com) and PowerPoint (powerpoint.cloud.microsoft.com) app home pages.&nbsp;&nbsp;</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see a <b>Search box in the page header</b> on Word, Excel, and PowerPoint app home pages.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3290fc52-392e-4340-87d2-5887d4ab0868\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>Clicking into the search box will show&nbsp;<b>file suggestions</b> in a drop down list.</li>\n  <li>File suggestions will update dynamically as users type in the box.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Existing Microsoft 365 permissions and access controls are respected.</li>\n  <li>No admin policy changes are required.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and update internal documentation.</li></ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Compliance question</th>\n  \n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed (for example, documents, files, or metadata)?</td>\n    \n    <td>This feature enhances how existing Microsoft 365 files are searched and surfaced on the Word, Excel, and PowerPoint app home pages. File suggestions use existing file metadata and relevance signals and fully respect current user permissions. No new data types are introduced and no changes are made to data storage, retention, or access controls.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -2487,45 +2569,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 4, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are updating the entry points for Copilot in <i>Word</i> to provide a clearer, more consistent, and more intuitive experience. These changes unify how users access Copilot and<b> introduce Word Agent in the <i>chat pane </i>as the primary Copilot interface</b>. This update improves discoverability, simplifies the user workflow, and creates consistency with other Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide, GCC, GCCH and DoD)</b>: We will begin rolling out in <b>late March 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by<b> late April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users of Microsoft 365 apps for Word on Windows, macOS, and Web.</p><p><i>What will happen</i></p><ul><li>The existing Copilot entry point in the left margin will be replaced by a consolidated entry point positioned in a consistent corner location.</li><li>Users will see contextual Copilot entry points when selecting content:<ul><li><b>Windows and Web</b>: inside the selection floatie</li><li><b>Mac</b>: in the right‑click context menu</li></ul></li><li>Word Agent in the <i>right-side chat pane </i>becomes the primary Copilot experience for prompts and responses.</li><li>All Copilot entry points—consolidated and contextual—will connect to Word Agent to ensure a unified experience.</li><li>There is no change to admin configuration, policy behavior, or Copilot availability settings.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>You may optionally:</p><ul><li>Inform your users about the new Copilot access points and updated experience in Word.</li><li>Update internal help content or training materials if you document Copilot entry points.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting late March to late April 2026, Word's Copilot entry points will be unified and moved to consistent locations, with Word Agent in the right-side chat pane as the primary interface. This affects all Word users across platforms, requires no admin changes, and no action is needed."
-      }
-    ],
-    "EndDateTime": "2026-05-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1240704",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-05T16:57:34.253Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-27T22:10:37Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Copilot entry point changes in Word and handoff to Agent in chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>We’re adding the ability to preview content directly within Insider Risk Management (IRM) alerts in Microsoft Purview. This enhancement removes the need to create a case to view potentially risky content, helping investigators quickly evaluate alerts and accelerate triage. This feature aligns with customer feedback requesting faster, more streamlined investigation workflows.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557189\" target=\"_blank\">557189</a></b>.</p><p><b>When this will happen:</b></p><ul><li><b>Public Preview: </b>Rolling out in <b>early April 2026 </b>and expected to complete by<b> late April 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCC‑High, DoD): </b>Rolling out in <b>mid‑June 2026 </b>and expected to complete by <b>late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p>Who is affected:</p><ul><li>Organizations using Microsoft Purview Insider Risk Management.</li><li>Only users with Investigator permissions will have access to content preview.</li></ul><p><i>What will happen</i></p><ul><li>A new <b>Content preview tab</b> will appear within activity details in IRM alerts:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5097bbeb-9a85-4353-a643-a2c7066f2763/6fd6ccbc1d2477ec166f6f81c235a4fdb21601e2.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Investigators will be able to view supported content directly from the alert without creating a case.</li><li>Supported activity types include:<ul><li>Viewing, downloading, syncing, or sending activities involving content from SharePoint, OneDrive, or Exchange.</li></ul></li><li>Unsupported activity types include:<ul><li>State changes, permissions changes, deletions, and Endpoint activities.</li></ul></li><li>The feature is <b>enabled by default</b> for tenants licensed for Insider Risk Management.</li><li>No impact on end‑user experience outside of investigators handling alerts.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses IRM for investigations, you may want to:</p><ul><li>Confirm which users hold <b>Investigator </b>permissions.</li><li>Update internal investigation workflows or playbooks to reflect new alert‑level content preview.</li><li>Inform your security operations or compliance teams of the new capability.</li><li>Review supported content preview scenarios documented here:</li><li>Learn more about investigating alerts in Insider Risk Management.</li><li>To use content preview when available:<ul><li>Navigate to<b> <a href=\"https://sip.purview.microsoft.com/insiderriskmgmt/overviewpage\" target=\"_blank\">Insider Risk Management</a>.</b></li><li>Open <b><i>Alerts.</i></b></li><li>Select an alert.</li><li>Open an activity marked as content preview available.</li><li>View content in the <i><b>Content preview</b> tab</i>.</li></ul></li></ul><p></p><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/purview/insider-risk-management-activities#activity-explorer-tab\" target=\"_blank\">Investigate Insider Risk Management activities | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -2716,48 +2759,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Changes to Teams Events licensing",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Exchange Online includes email‑sending limits based on three factors: recipient rate limit, recipient limit, and message rate limit. To support customers whose internal communication needs exceed these standard limits, we are introducing <b>High Volume Email (HVE)</b>&nbsp;for&nbsp;<i>Microsoft 365</i>. HVE is designed for large‑scale internal communications and integrates with business applications and devices to support operational and mass‑mailing scenarios. It uses a transactional pricing model based on the number of recipients.</p><p>HVE is available at no additional cost during Public Preview. Pricing for General Availability (GA) will be announced with the GA release, and billing will begin in May 2026 following a free promotional period after GA in March 2026.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=382633#Roadmap\" target=\"_blank\">382633</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Available now.\n</li><li><b>General Availability (worldwide): </b>Rollout begins in late <b>March 2026 </b>and is expected to complete <b>early April 2026</b>.\n</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing Exchange Online mail flow and reporting\n</li><li>Organizations with large-scale internal email distribution needs\n</li></ul><p><i>What will happen</i></p><ul><li>A new<b> High Volume Email page</b> will appear under <b><i>Mail flow </i></b>in the<i> Exchange admin center</i>.\n</li><li>Admins can create and manage<b> Mail User accounts enabled for HVE</b>.\n</li><li>HVE accounts use a<b> dedicated SMTP endpoint</b> for high-volume sending.\n</li><li>A new High Volume Email report will appear under <b><i>Reports &gt; Mail flow</i></b> to help admins monitor HVE usage per account.\n</li><li>HVE is <b>opt‑in</b>; it does not modify default sending limits or existing mail flow behavior.</li></ul><p><i>Screenshot 1 - Create new HVE specific accounts:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bd67e955-ee37-4ef5-b684-fcb3d0c4a421/0712d8ef517d8c135585b2b1f7a7e4636ed7416d.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><i></i></p><p><i>Screenshot 2 - Manage HVE accounts, including assigned billing policies:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8c18f190-00f9-476e-a743-4469b3b31327/0b87b1f6570e862f542957a06968b71c77a84c40.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to prepare for this change.</p><p>You may want to:</p><ul><li>Review and update any internal documentation that describes email‑sending processes.</li><li>Learn more about setup and configuration:&nbsp;<a href=\"https://learn.microsoft.com/exchange/mail-flow-best-practices/high-volume-mails-m365\" target=\"_blank\">Manage high volume emails for Microsoft 365 Public preview | Mail flow best practices | Exchange Online | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "382633"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 is introducing High Volume Email (HVE) for large-scale internal communications, available now in Public Preview and generally available March 2026. HVE offers dedicated SMTP endpoints, new admin controls, and reporting, with a transactional pricing model starting May 2026 after a free promotional period."
-      }
-    ],
-    "EndDateTime": "2026-05-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1243552",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-04T01:28:09.687Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-04T01:27:55Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "High Volume Email for Microsoft 365 upcoming general availability",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
