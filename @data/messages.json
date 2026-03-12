@@ -4,6 +4,303 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are improving how users find their files on the Word, Excel, and PowerPoint app home pages by adding a <b>Search box in the page header</b>. This change helps users locate files more quickly with file suggestions shown as users click or type in the box.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide, GCC): Rollout began in<b> late December 2025</b>&nbsp;and is expected to complete by <b>March 2026</b>.</li>\n  </ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users of the Word (word.cloud.microsoft.com), Excel (excel.cloud.microsoft.com) and PowerPoint (powerpoint.cloud.microsoft.com) app home pages.&nbsp;&nbsp;</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see a <b>Search box in the page header</b> on Word, Excel, and PowerPoint app home pages.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3290fc52-392e-4340-87d2-5887d4ab0868\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>Clicking into the search box will show&nbsp;<b>file suggestions</b> in a drop down list.</li>\n  <li>File suggestions will update dynamically as users type in the box.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Existing Microsoft 365 permissions and access controls are respected.</li>\n  <li>No admin policy changes are required.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally notify users and update internal documentation.</li></ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Compliance question</th>\n  \n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed (for example, documents, files, or metadata)?</td>\n    \n    <td>This feature enhances how existing Microsoft 365 files are searched and surfaced on the Word, Excel, and PowerPoint app home pages. File suggestions use existing file metadata and relevance signals and fully respect current user permissions. No new data types are introduced and no changes are made to data storage, retention, or access controls.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A new Search box will be added to the Word, Excel, and PowerPoint app home pages by March 2026, enabling quick file search with dynamic suggestions. The feature is enabled by default, respects existing permissions, requires no admin changes, and no user action is needed."
+      }
+    ],
+    "EndDateTime": "2026-04-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249435",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T00:12:30.347Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:12:10Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Find your files quickly and easily on Word, Excel and PowerPoint App home pages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding<b> live transcription capabilities </b>to Microsoft Teams Rooms on Android. This update allows room participants to view real-time transcription—including speaker attribution and timestamps—directly on the device. If configured, translated transcripts can also display on the front-of-room screen. This enhancement supports accessibility, hybrid collaboration, and meeting clarity. <b>A Teams Rooms Pro license is required.</b></p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555234\" target=\"_blank\">555234</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCCH):</b> Rollout begins in<b> late April 2026 </b>and completes in<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using<b> Teams Rooms on Android </b>devices</li><li><b>Only customers with Teams Rooms Pro licenses</b> will receive this feature</li></ul><p><i>What will happen</i></p><ul><li>Users can start transcription from the room console via<i><b> More &gt; Record </b></i><b><i>and transcribe</i></b> or <i><b>Transcribe</b></i> (based on tenant settings).</li><li>When transcription begins, room users will be prompted to confirm the meeting’s spoken language.</li><li>Participants will see a notification that transcription is active, including a link to privacy details at <a href=\"https://www.microsoft.com/privacy/privacystatement\" target=\"_blank\">aka.ms/privacy</a>:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/490448fe-23b5-4729-88e2-bb9f9c552b31/e901f1ad5f1b996c12d8b32162c81fa99203fd0b.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Icons will update based on activity:<ul><li><b>Transcription icon</b> appears when only transcription is running.</li><li><b>Recording icon </b>appears when the meeting is being recorded (with or without transcription).</li></ul></li><li>If translation is enabled, both <b>original </b>and<b> translated </b>transcripts will display on the front-of-room screen (original on top, translation below).</li><li>Devices without a Teams Rooms Pro license will not receive this capability.</li><li>This feature is <b>on by default </b>for licensed devices and respects existing admin policies.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>Recommended steps:</p><ul><li>Confirm that impacted Teams Rooms on Android devices are assigned<b> Teams Rooms Pro licenses</b>.</li><li>Review your meeting transcription settings in the <i>Teams admin center</i> if you want to allow/block transcription for users and resource accounts.</li><li>Notify helpdesk or support teams as needed.</li><li>Update internal guidance for meeting room usage to reflect new transcription options.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/Microsoftteams/meeting-transcription-captions#transcription\" target=\"_blank\">Admins- Manage transcription and captions for Teams meetings | Microsoft Teams | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "555234"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Android will gain live transcription with speaker attribution, timestamps, and optional translation, requiring a Teams Rooms Pro license. Rollout starts late April 2026. Transcription is enabled by default, with no action needed, supporting accessibility and hybrid collaboration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249432",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T00:09:50.873Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:09:32Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Live transcription in Teams Rooms on Android",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are introducing new auto-labeling actions for SharePoint and OneDrive in Microsoft Purview as part of the convergence of <b>Microsoft Defender for Cloud Apps (MDA)</b> into Purview. These enhancements allow administrators to automatically override manually applied sensitivity labels or remove existing labels at scale when content no longer meets labeling criteria.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ba54f51a-acea-48b2-a67a-54e5fcc6cbf6\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>This update helps organizations maintain accurate and consistent data classification as policies, label taxonomies, and business requirements evolve—without relying on end users to manually update labels. It also improves governance and control for data at rest across Microsoft 365.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558342\" target=\"_blank\">558342</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Worldwide):</b> Rollout will begin in <b>mid-April 2026</b> and is expected to complete by <b>mid-April 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 administrators who manage Microsoft Purview Information Protection.</li>\n  <li>Organizations using auto-labeling policies for SharePoint and OneDrive.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can configure new auto-labeling actions in the Microsoft Purview portal.</li>\n  <li>Auto-labeling policies can now:\n    <ul>\n      <li>Override existing sensitivity labels, including labels applied manually by users.</li>\n      <li>Remove a specific sensitivity label from files that no longer meet policy conditions.</li>\n    </ul>\n  </li>\n  <li>These actions apply to files at rest in SharePoint Online and OneDrive.</li>\n  <li>The feature is <b>not enabled by default</b> and only <b>takes effect when configured by an admin</b>.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No immediate action is required.</li>\n  <li>If you use auto-labeling for SharePoint or OneDrive, review existing policies to understand where labels may be overridden or removed automatically.</li>\n  <li>Inform relevant stakeholders that <b>sensitivity labels on existing files may change automatically </b>when these policies are enabled.</li>\n  <li>Update internal governance or compliance documentation if you reference sensitivity label behavior.</li>\n  <li>Learn more about configuring auto-labeling policies:\n    <ul>\n      <li><a href=\"https://purview.microsoft.com/informationprotection/autolabeling\">Microsoft Purview auto-labeling</a></li>\n      <li><a href=\"https://learn.microsoft.com/en-us/purview/apply-sensitivity-label-automatically?tabs=apply-label#creating-an-auto-labeling-policy\">Creating an auto-labeling policy | Microsoft Learn</a></li>\n    </ul>\n  </li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed?</td>\n    <td>Auto-labeling policies can now override or remove existing sensitivity labels on files in SharePoint and OneDrive based on configured conditions.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify Information Protection capabilities?</td>\n    <td>It extends auto-labeling actions to include overriding manually applied labels and removing specific labels.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor or demonstrate compliance?</td>\n    <td>Label changes are enforced through Purview policies, improving consistency and auditability of classification outcomes.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control?</td>\n    <td>The feature is fully admin-controlled through auto-labeling policies in the Microsoft Purview portal.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558342"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview introduces auto-labeling actions for SharePoint and OneDrive, allowing admins to override or remove manually applied sensitivity labels automatically. This enhances data classification accuracy and governance, with rollout starting mid-April 2026. The feature is admin-controlled and not enabled by default."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249431",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-12T00:08:33.897Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:07:35Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Information Protection – Override manually applied labels and Remove labels with Auto-labeling",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding a<b> new soft purge mitigation action</b> in <i>Data Security Investigations (DSI)</i> to help administrators quickly remove sensitive or overshared items during an investigation. Soft purge allows items to be deleted while remaining recoverable until their deleted item retention period expires. This addition builds on DSI’s AI-powered content analysis capabilities—such as categorization, AI search, and risk examination—to help organizations identify and respond to data security risks more efficiently.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558109\" target=\"_blank\">558109</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and is expected to complete by<b> late May 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins using <b>Data Security Investigations (DSI)</b>&nbsp;in the <i>Microsoft Purview compliance portal</i></li></ul><p>What will happen:</p><ul><li>A new <b>soft purge</b> mitigation action will be available in <i>DSI:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5ada8cf3-e317-41b2-ab64-52e45441bee4/bb6ad90b82cd299560d7f1c39745c49347b5846e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></i></li><li>Admins can use soft purge to remove items that match an investigation query while still preserving the ability to recover those items until their retention period expires.</li><li>The feature is enabled by default and requires no configuration.</li><li>Existing Data Loss Prevention (DLP), labeling, and retention policies continue to apply; no policy changes are required.</li><li>This feature does not affect user workflows.</li><li>This capability appears automatically for eligible tenants when the rollout completes.</li></ul><p><b style=\"\"><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>To prepare, you may want to:</p><ul><li>Review how soft purge works in<i> DSI</i>.</li><li>Update internal documentation for investigation processes, if applicable.</li><li>Inform security teams or admins who use DSI about the new action.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations\" target=\"_blank\">Learn about Data Security Investigations | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations-mitigation-actions\" target=\"_blank\">Take mitigation actions in Data Security Investigations | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558109"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview compliance portal’s Data Security Investigations will add a new soft purge action by late May 2026, allowing admins to delete sensitive items recoverable until retention expires. It’s enabled by default, requires no configuration, and does not affect user workflows or existing policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249429",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T00:07:11.837Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:06:58Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview compliance portal: Data Security Investigations introduces new soft purge mitigation action",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Starting in April 2026, Microsoft <b>will retire the Semi-Annual Enterprise Channel installation option</b> for unmanaged devices in the Microsoft 365 admin center. We are making this change to streamline installation choices and help organizations move toward more predictable, secure, and up-to-date release channels.</p><p>This retirement only affects the installation option for unmanaged devices. It does not change the update channel of any existing unmanaged device already assigned to the Semi-Annual Enterprise Channel.</p><p>For more details on which devices are affected, review&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365-apps/deploy/manage-software-download-settings-office-365\" target=\"_blank\">Manage Microsoft 365 installation options in the Microsoft 365 admin center</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Worldwide and GCC: </b>We will begin retiring this option on<b> April 6, 2026, </b>and expect to complete the retirement by <b>April 11, 2026.</b></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who manage Microsoft 365 Apps installation options for <b>unmanaged devices</b> through the <a href=\"https://admin.microsoft.com/Adminportal/Home#/homepage\" target=\"_blank\">Microsoft 365 admin center</a>.</li><li>Tenants currently using the Semi-Annual Enterprise Channel <b>only</b> for unmanaged installation scenarios.</li></ul><p><i>What will happen</i></p><ul><li>The<b> Semi-Annual Enterprise Channel installation option will be retired</b> for unmanaged devices starting on<b>&nbsp;April 6, 2026</b>.</li><li>If your tenant currently has this channel selected:<ul><li>Your existing selection will remain but will appear <b>grayed out</b>.</li><li>If you switch to a different update channel, you <b>cannot reselect</b> the Semi-Annual Enterprise Channel for unmanaged installations.</li></ul></li><li>Existing unmanaged devices configured for this channel will continue to use it until you manually change the update channel.</li><li>Devices managed through <b>Intune</b>, <b>Configuration Manager</b>, <b>Cloud Update</b>, or other management tools are <b>not affected</b> by this retirement.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>Optionally, you may:</p><ul><li>Review your current installation channel selection for unmanaged devices.</li><li>Evaluate alternative update management approaches, such as <b>Cloud Update</b>, <b>Microsoft Intune</b>, or <b>Configuration Manager</b>.</li><li>Use Microsoft Learn guidance to change the update channel when appropriate: <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/change-update-channels\" target=\"_blank\">Change the Microsoft 365 Apps update channel for devices in your organization | Microsoft 365 | Microsoft Learn</a>.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting April 6, 2026, Microsoft will retire the Semi-Annual Enterprise Channel installation option for unmanaged devices in the Microsoft 365 admin center. Existing devices remain unaffected, but new selections cannot use this channel. Managed devices via Intune or Configuration Manager are not impacted. No immediate action required."
+      }
+    ],
+    "EndDateTime": "2026-05-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249428",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-12T00:06:26.563Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:05:50Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of the Semi-Annual Enterprise Channel installation option for unmanaged devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>retiring the Semi-Annual Enterprise Channel option from the Office Deployment Service</b> in the <i><a href=\"https://config.office.com/\" target=\"_blank\">Microsoft 365 apps admin center</a></i>. This retirement supports our ongoing efforts to simplify update channel management for Microsoft 365 Apps and ensure customers benefit from the most secure, up-to-date experience. We will continue to invest in the <b>Monthly Enterprise Channel </b>and <b>Current Channel</b>, which offer more frequent security and feature updates.</p><p><b><b>When this will happen</b></b></p><p>We will begin retiring this option on&nbsp;<b>April 6, 2026</b>, and expect to complete the retirement by<b> April 11, 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use the Office Deployment Service or Office Customization Service to create deployment configurations for Microsoft 365 Apps.</li></ul><p><i>What will happen</i></p><ul><li>The <b>Semi-Annual Enterprise Channel </b>will be removed from the list of available update channel options when creating new deployment configurations.</li><li>Deployment configurations <b>you have already created </b>that use Semi-Annual Enterprise Channel will continue to retain that value when viewed or edited; however, it will not be available as a selectable option for new configurations.</li><li>Only <b>Current Channel</b> and <b>Monthly Enterprise Channel </b>will be available for new configuration creation.</li><li>There is <b>no impact </b>to devices currently configured for Semi-Annual Enterprise Channel.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required for this retirement. You may choose to:</p><ul><li>Notify relevant admins or deployment teams of this upcoming change.</li><li>Update internal documentation if it references the Semi-Annual Enterprise Channel as a selectable option.</li><li>Review your existing configurations in the Office Deployment Service if you plan to transition to a different update channel going forward.</li><li>If desired, use this Microsoft Learn resource to plan channel migration: <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/change-update-channels\" target=\"_blank\">Change the Microsoft 365 Apps update channel for devices in your organization | Microsoft 365 | Microsoft Learn</a>.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Semi-Annual Enterprise Channel option in the Office Deployment Service will be retired between April 6-11, 2026. It will be removed for new deployment configurations, but existing ones remain unaffected. Only Current Channel and Monthly Enterprise Channel will be available for new setups. No admin action is required."
+      }
+    ],
+    "EndDateTime": "2026-05-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249427",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-12T00:05:21.61Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:04:42Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of the Semi-Annual Enterprise Channel option in the Office Deployment Service",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Microsoft Purview network data security now integrates with Island</b>, extending protection to Island’s browser-based workflows at the point of user interaction. With this integration, new and existing Island customers can configure <b>Microsoft Purview collection </b>and <b>data loss prevention policies</b> to detect and protect data shared with unmanaged cloud apps through the Island Enterprise Browser, the Island Extension, and browser add ins via HTTP and HTTPS, using the same classifiers, sensitive information types, and sensitivity labels used in other Purview policies. Island provides visibility and control at the presentation layer, including typed and pasted input, file transfers, and extension activity, so data can be inspected before it ever leaves the browser. </p><p>This integration further enriches <b>Purview Data Security Posture Management (DSPM)</b>, <b>Insider Risk Management (IRM)</b> risk score, enables data security and compliance for AI interactions, and more.&nbsp;</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558437\" target=\"_blank\">558437</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul><li>Public Preview: Rollout will begin in&nbsp;<b>late March 2026</b>&nbsp;and is expected to complete by<b>&nbsp;late April 2026</b>.</li><li>General Availability (Worldwide): Rollout will begin in <b>late June 2026</b> and is expected to complete by <b>late July 2026</b>.</li></ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizations using Microsoft Purview</li>\n  <li>Customers using or planning to use the Island Enterprise Browser, Island Extension, or supported browser add-ins.</li>\n  <li>Microsoft 365 administrators managing Purview collection and DLP policies.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The Island integration will automatically appear in the <b>Purview DLP Security Store</b> as the feature rolls out.</li>\n  <li>The integration is <b>not enabled by default</b>. Administrators must explicitly enable it before it can be used in policies.</li>\n  <li>Once enabled, admins can use existing or new Purview collection and DLP policies to inspect and protect data shared through Island-managed browser activity.</li>\n  <li>There is no impact to end users unless administrators enable the integration and configure network data security policies in Purview. </li><li>Existing network data security collection and DLP policies will automatically apply if the integration is enabled.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Confirm that <b>Purview pay-as-you-go is enabled&nbsp;</b>and configured for your tenant, as it is required to use this integration. Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/purview-payg-subscription-based-enablement\">Enable pay-as-you-go billing for Microsoft Purview</a>.</li>\n  <li>Review your existing Purview collection and DLP policies to determine where network-based data inspection may be appropriate.</li>\n  <li>Inform other data security and compliance administrators in your organization about this upcoming capability.</li>\n  <li>After rollout, enable the Island integration from the Purview DLP Security Store when you are ready to use it.</li>\n</ul>\n<p>Learn more:</p>\n<ul>\n  <li><a href=\"https://learn.microsoft.com/purview/collection-policies-solution-overview\">Microsoft Purview collection policies</a></li>\n  <li><a href=\"https://learn.microsoft.com/purview/dlp-learn-about-dlp\">Microsoft Purview data loss prevention</a></li>\n  <li><a href=\"https://learn.microsoft.com/purview/dlp-network-data-security-learn\">Microsoft Purview network data security</a></li>\n  <li><a href=\"https://securitystore.microsoft.com/\">Purview Security Store</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>New customer data processed</td>\n    <td>When the integration is enabled, browser-based activity metadata and inspection results may be processed as part of Microsoft Purview network data security.</td>\n  </tr>\n  <tr>\n    <td>Changes to existing customer data processing</td>\n    <td>Existing Purview classifiers, sensitive information types, and sensitivity labels are applied to data shared through Island-managed browser workflows.</td>\n  </tr>\n  <tr>\n    <td>AI and ML interaction with customer data</td>\n    <td>The integration supports data security and compliance for AI interactions occurring within browser-based workflows.</td>\n  </tr>\n  <tr>\n    <td>Purview DLP and information protection capabilities</td>\n    <td>Purview collection and DLP policies are extended to inspect and protect data at the browser presentation layer when configured by an administrator.</td>\n  </tr>\n  <tr>\n    <td>Admin monitoring and compliance reporting</td>\n    <td>Signals from browser-based inspections can contribute to Purview Data Security Posture Management and Insider Risk Management insights.</td>\n  </tr>\n  <tr>\n    <td>Third-party integration</td>\n    <td>This change introduces an integration between Microsoft Purview and Island browser technologies.</td>\n  </tr>\n  <tr>\n    <td>Admin control</td>\n    <td>The integration is admin-controlled and must be explicitly enabled from the Purview DLP Security Store.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558437"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview integrates with the Island Enterprise Browser to extend data loss prevention and network data security to unmanaged cloud app workflows. Administrators must enable this feature to inspect and protect browser-based data sharing using existing Purview policies. Rollout begins late March 2026 (preview) and late June 2026 (general availability)."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-09-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1249424",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-12T00:04:16.16Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T00:03:32Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Purview DLP: Unmanaged cloud app protection with Microsoft Purview and the Island Enterprise Browser",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 11, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To support organizations that will run additional employee listening programs, such as surveys for AI transformation or change management, we will introduce a dedicated <b>Survey designer role</b>. This role will grant selected users the ability to create and run Viva Glint surveys with only the permissions required for that work. It will not provide access to platform settings or sensitive data. This will allow organizations to expand survey creation in a secure and flexible way.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>We<b>&nbsp;</b>will begin rolling out on March 23 (previously March 9) and expect to complete by March 23 (previously March 9).</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Viva Glint customers in <i>Microsoft Viva</i></li>\n<li>Admins assigning roles and users who create surveys</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n<li>A new Survey designer role will be available in <i>Viva Glint.</i></li>\n<li>Users assigned this role will be able to create and run Viva Glint surveys, collect employee feedback, and manage survey lifecycle tasks.</li>\n<li>Survey designers won’t have access to broader Viva Glint configuration settings or sensitive admin data.</li>\n<li>The role will be available by default but must be explicitly assigned by an admin.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Review which users may benefit from expanded survey creation capabilities.</li>\n<li>Assign the Survey designer role as needed in <i>Viva Glint role management</i>.</li>\n<li>Update internal documentation as relevant.</li>\n<li>Communicate this role availability to stakeholders who run employee listening programs.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -655,7 +952,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557253\":[{\"RoadmapId\":557253,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T23:21:39.9930863Z\",\"LatestRing\":null},{\"RoadmapId\":557253,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T23:21:39.9930865Z\",\"LatestRing\":null}],\"557254\":[{\"RoadmapId\":557254,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T23:21:39.9930897Z\",\"LatestRing\":null},{\"RoadmapId\":557254,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-11T23:21:39.993091Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557253\":[{\"RoadmapId\":557253,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T01:49:33.4572471Z\",\"LatestRing\":null},{\"RoadmapId\":557253,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T01:49:33.4572473Z\",\"LatestRing\":null}],\"557254\":[{\"RoadmapId\":557254,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T01:49:33.4572392Z\",\"LatestRing\":null},{\"RoadmapId\":557254,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T01:49:33.4572398Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1111,7 +1408,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3611,7 +3908,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3700,7 +3997,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4872,7 +5169,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872261Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872262Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -5195,7 +5492,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5792,7 +6089,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8088,37 +8385,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to enable expense delegates to create cash advance requests in Dynamics 365 Project Operations. This feature will reach general availability on March 13, 2026.<br><br><b>How does this affect me?</b><br>This feature enables expense delegates to create and submit cash advance requests for other users. This feature can be turned on or off to meet the needs of your environment.<br><br><b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO13785\">Enable expense delegates to create cash advance requests</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-03-11T23:35:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230897",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-11T23:40:18.4Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-11T23:35:34Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Project Operations - Enable expense delegates to create cash advance requests",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to use the modern architecture for Project Operations Integrated with ERP scenarios on the Microsoft Dataverse platform in Dynamics 365 Project Operations. This feature will reach general availability on March 13, 2026.<br><br><b>How does this affect me?</b><br>The following changes will be made when this feature is enabled:<ul><li>Admins can use modern architecture for existing legal entities with additional transaction support, including project procurement documents and item requirements.</li><li>This feature allows the parallel use of projects from both deployment types, enabling long-running projects to enter transactions and create invoices.</li><li>Customers using the stocked deployment type are not impacted unless transitioning to the Project Operations Integrated with ERP deployment type, which does not require reimplementation of the existing legal entity.</li><li>Legacy functions in both deployment types, such as resource management and project work breakdown structures, will be removed or set to read-only in the finance and operations user interface for the Project Operations Integrated deployment type.</li><li>Projects created using modern architecture will use <b>Unified Resource Scheduling</b> for resource scheduling and <b>Project for the Web</b> for project planning.</li></ul>Please note that modern architecture can be tested in a test environment prior to full implementation.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a href=\"https://aka.ms/13958\" target=\"_blank\">Move to the modern architecture</a>.",
       "ContentType": "html"
     },
@@ -9920,7 +10186,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10012,7 +10278,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10791,7 +11057,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11041,7 +11307,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12438,7 +12704,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872721Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14796,7 +15062,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15097,7 +15363,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
+        "Value": "{\"534487\":[{\"RoadmapId\":534487,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939093Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939091Z\",\"LatestRing\":null},{\"RoadmapId\":534487,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-12-16T15:20:37.5939094Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15354,7 +15620,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17600,7 +17866,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17856,7 +18122,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",

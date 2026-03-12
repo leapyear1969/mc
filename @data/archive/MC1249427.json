@@ -1,0 +1,38 @@
+{
+  "ActionRequiredByDateTime": null,
+  "Attachments": null,
+  "AttachmentsArchive": null,
+  "Body": {
+    "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>retiring the Semi-Annual Enterprise Channel option from the Office Deployment Service</b> in the <i><a href=\"https://config.office.com/\" target=\"_blank\">Microsoft 365 apps admin center</a></i>. This retirement supports our ongoing efforts to simplify update channel management for Microsoft 365 Apps and ensure customers benefit from the most secure, up-to-date experience. We will continue to invest in the <b>Monthly Enterprise Channel </b>and <b>Current Channel</b>, which offer more frequent security and feature updates.</p><p><b><b>When this will happen</b></b></p><p>We will begin retiring this option on&nbsp;<b>April 6, 2026</b>, and expect to complete the retirement by<b> April 11, 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use the Office Deployment Service or Office Customization Service to create deployment configurations for Microsoft 365 Apps.</li></ul><p><i>What will happen</i></p><ul><li>The <b>Semi-Annual Enterprise Channel </b>will be removed from the list of available update channel options when creating new deployment configurations.</li><li>Deployment configurations <b>you have already created </b>that use Semi-Annual Enterprise Channel will continue to retain that value when viewed or edited; however, it will not be available as a selectable option for new configurations.</li><li>Only <b>Current Channel</b> and <b>Monthly Enterprise Channel </b>will be available for new configuration creation.</li><li>There is <b>no impact </b>to devices currently configured for Semi-Annual Enterprise Channel.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required for this retirement. You may choose to:</p><ul><li>Notify relevant admins or deployment teams of this upcoming change.</li><li>Update internal documentation if it references the Semi-Annual Enterprise Channel as a selectable option.</li><li>Review your existing configurations in the Office Deployment Service if you plan to transition to a different update channel going forward.</li><li>If desired, use this Microsoft Learn resource to plan channel migration: <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/change-update-channels\" target=\"_blank\">Change the Microsoft 365 Apps update channel for devices in your organization | Microsoft 365 | Microsoft Learn</a>.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+    "ContentType": "html"
+  },
+  "Category": "planForChange",
+  "Details": [
+    {
+      "Name": "Summary",
+      "Value": "The Semi-Annual Enterprise Channel option in the Office Deployment Service will be retired between April 6-11, 2026. It will be removed for new deployment configurations, but existing ones remain unaffected. Only Current Channel and Monthly Enterprise Channel will be available for new setups. No admin action is required."
+    }
+  ],
+  "EndDateTime": "2026-05-11T07:00:00Z",
+  "HasAttachments": false,
+  "Id": "MC1249427",
+  "IsMajorChange": true,
+  "LastModifiedDateTime": "2026-03-12T00:05:21.61Z",
+  "Services": [
+    "Microsoft 365 apps"
+  ],
+  "Severity": "normal",
+  "StartDateTime": "2026-03-12T00:04:42Z",
+  "Tags": [
+    "User impact",
+    "Admin impact",
+    "Retirement"
+  ],
+  "Title": "Retirement of the Semi-Annual Enterprise Channel option in the Office Deployment Service",
+  "ViewPoint": {
+    "IsArchived": null,
+    "IsFavorited": null,
+    "IsRead": null
+  },
+  "AdditionalProperties": {}
+}
