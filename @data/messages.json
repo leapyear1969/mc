@@ -3861,6 +3861,10 @@
         "Value": "554933"
       },
       {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+      },
+      {
         "Name": "Summary",
         "Value": "Microsoft Teams will enhance code blocks by adding default line numbers, improved keyboard navigation, consistent language selection, and collaborative editing via Loop components. These updates, rolling out April–May 2026, improve accessibility and developer collaboration without requiring admin action."
       },
@@ -8335,68 +8339,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing support for line discounts and fees in resource-based deployments in Dynamics 365 Project Operations. This feature will reach general availability on March 12, 2026. <br> <br> \n<b>How does this affect me? </b> <br>\nThis feature enables users to perform discount and fee calculations for project quotations, contracts, and invoices. <br> <br>\n<b>What action do I need to take? </b> <br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/13746/support-line-discounts-fees-resource-based-deployments\" target=\"_blank\">Support for line discounts and fees in resource-based deployments</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-03-12T15:24:18Z",
-    "HasAttachments": false,
-    "Id": "MC1231151",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-12T15:27:04.833Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-12T15:24:18Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Project Operations – Support for line discounts and fees in resource-based deployments",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to set a custom voice for voice agents in Dynamics 365 Contact Center. This feature will reach general availability on February 27, 2026.<br><br>\n<b>How does this affect me?</b><br>\nWith this feature, you can set a custom voice for your voice agents. After gaining approval through Microsoft's Responsible AI practices and <a href=\"https://aka.ms/13909/1\" target=\"_blank\">building a custom voice model</a>, you can then integrate with Dynamics 365 Contact Center.<br><br>\nNavigate to Channels > Custom AI Voices > + Connect Custom Voice.<br><br>\nYou will be prompted through a series of cascading drop-down boxes to select the speech resource and custom voice model to connect. Once connected, you can create a voice channel for self-service and use the custom voice.<br><br>\n<b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-03-12T14:35:51Z",
-    "HasAttachments": false,
-    "Id": "MC1231135",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-12T14:39:05.497Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-12T14:35:51Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center - Set a custom voice for voice agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to use the modern architecture for Project Operations Integrated with ERP scenarios on the Microsoft Dataverse platform in Dynamics 365 Project Operations. This feature will reach general availability on March 13, 2026.<br><br><b>How does this affect me?</b><br>The following changes will be made when this feature is enabled:<ul><li>Admins can use modern architecture for existing legal entities with additional transaction support, including project procurement documents and item requirements.</li><li>This feature allows the parallel use of projects from both deployment types, enabling long-running projects to enter transactions and create invoices.</li><li>Customers using the stocked deployment type are not impacted unless transitioning to the Project Operations Integrated with ERP deployment type, which does not require reimplementation of the existing legal entity.</li><li>Legacy functions in both deployment types, such as resource management and project work breakdown structures, will be removed or set to read-only in the finance and operations user interface for the Project Operations Integrated deployment type.</li><li>Projects created using modern architecture will use <b>Unified Resource Scheduling</b> for resource scheduling and <b>Project for the Web</b> for project planning.</li></ul>Please note that modern architecture can be tested in a test environment prior to full implementation.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a href=\"https://aka.ms/13958\" target=\"_blank\">Move to the modern architecture</a>.",
       "ContentType": "html"
     },
@@ -10933,7 +10875,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12716,7 +12658,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2487273Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
