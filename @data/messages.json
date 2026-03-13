@@ -4,6 +4,92 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated November 24, 2025: This change is currently on hold. We will communicate via Message center when we are ready to proceed. We apologize for any inconvenience this may have caused and thank you for your patience.&nbsp;</p><p>&nbsp;We’re introducing a new sign-in experience that enhances flexibility and accessibility for a limited number of users on Microsoft Teams for the web. This change introduces new sign-in options—<i>Continue with Apple</i> and <i>Continue with Google</i>—on the sign-in page (teams.microsoft.com or teams.com) for users routed through login.microsoftonline.com/common.</p><p><b>NOTE:</b> These options are intended for consumer Microsoft accounts and <i>may</i> be visible to both consumer and enterprise users, depending on your authentication configuration.\n</p><p><b>When this will happen:</b>\n</p><p>Preview, General Availability: We will update this Message center post when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout:\n</p><ul><li>Users can sign in or sign up for a Microsoft account using Apple or Google credentials.\n</li><li>Some users will be prompted to confirm whether they are using a personal or work/school account.\n</li><li>Existing sign-in methods remain unchanged, including entering an email/username or using <i>Sign-in options</i> to access organizational accounts.\n</li><li>Organizations using custom URLs (such as login.microsoftonline.com/contoso.com) will <b>not</b> be affected.</li><li>In the case of Teams on the web, the custom URLs will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; <b>or</b> https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;</li></ul><p><i>Screenshots of the new experience:\n</i></p><p>1. Users can select <i>Continue with Apple</i> or <i>Continue with Google</i> to sign in or sign up for a consumer Microsoft account using an Apple or Google credential. This image shows the Google option:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a77574ce-7170-4b70-82cd-37cc7022fdd7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>2. A subset of users who click these options will see a screen that confirms whether they are using a personal or work/school account. In this image, the user has selected the work/school option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f7cd81f8-2aef-4626-bebc-4ca33f25464b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>3. Users can still enter their email/username at the top of the sign-in screen, and sign into a specific organization with <i>Sign-in options</i>:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f130bb08-5ee4-416d-aef7-fd0e3e44dec7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>No action is required. This feature is only being added to login.microsoftonline.com/common. Users accessing login.microsoftonline.com with a custom URL will not see this feature.</p><p><i>You can show a custom URL for your organization by passing a domain hint to apply company branding at the initial sign-in screen. Custom URLs for Teams on the web will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; or https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;.\n</i></p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-customize-branding\" target=\"_blank\">Add company branding to your organization's sign-in page - Microsoft Entra | Microsoft Learn</a>\n</li><li><a href=\"https://devblogs.microsoft.com/identity/custom-url-domains/\" target=\"_blank\">Adding branded URLs to authentication with Microsoft Entra External ID Custom URL Domains | Microsoft Entra Identity Platform</a></li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams on the web plans a new sign-in preview with \"Continue with Apple\" and \"Continue with Google\" for consumer accounts via login.microsoftonline.com/common. Enterprise users with custom URLs won't be affected. The rollout is on hold, and no action is needed currently."
+      }
+    ],
+    "EndDateTime": "2026-07-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1102784",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-13T18:33:35.69Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-25T00:12:42Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams on the web: New Private Preview for Sign in with Apple and Google for consumers may affect enterprise",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 13, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing a private chat feature for organizers, co-organizers, and presenters in structured meetings and webinars in Microsoft Teams. This separate chat enhances collaboration by allowing key participants to communicate privately before, during, and after the event, without involving attendees. Additionally, we are <b>unifying backroom chat behavior in town halls</b> to ensure consistent functionality across all structured meetings. Currently, backroom chat behavior varies depending on whether streaming chat is enabled for town halls and whether the organizer has a Teams Premium license. This update removes that inconsistency.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392328\" target=\"_blank\">392328</a>&nbsp;and applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, Teams for iOS/Android, MTR-W and MTR-A devices.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul><li><b>Targeted Release:</b> Rollout begins in early May 2026 (previously early April) and is expected to complete by mid-May 2026 (previously late April).</li><li><b>General Availability (Worldwide and GCC): </b>Rollout begins in mid-May 2026 (previously mid-April) and is expected to complete by late May 2026 (previously late April).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Admins managing Microsoft Teams meetings, webinars, and town halls.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li><b>New private chat for organizers, co-organizers, and presenters:</b> This chat is separate from attendee chat and is available before, during, and after the event.</li>\n<li><b>Unified backroom chat policy for town halls:</b> The default setting will be ON for all town halls, regardless of streaming chat availability or license type.</li>\n<li>Existing town halls will adopt the new policy once meeting options are updated.</li>\n<li>If admins turn the backroom chat policy OFF, previously enabled town halls will lose access after update.</li>\n<li>Non-TPre town halls (those without a Teams Premium license) will have backroom chat ON by default after rollout and update.</li>\n</ul>\n<p><b>Two potential impacts:</b></p>\n<ul>\n<li>If an admin explicitly turns the new backroom chat policy OFF, any already-scheduled town hall that previously had backroom chat ON will lose access once the meeting options are updated.</li>\n<li>For non-TPre town halls where backroom chat was previously OFF, it will switch to ON by default after the rollout and a meeting options update.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your Teams meeting policies and decide whether to enable private chat for organizers and presenters.</li>\n<li>Communicate this change to helpdesk staff and event organizers.</li>\n<li>Update internal documentation to reflect the new backroom chat behavior.</li>\n<li>If you want to disable backroom chat, adjust the policy in the Teams admin center.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "392328"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce a private chat for organizers, co-organizers, and presenters in structured meetings, webinars, and town halls, unifying backroom chat behavior. Rollout begins May 2026. Admins should review policies, communicate changes, and update documentation accordingly. No new compliance issues identified."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1188222",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-13T18:10:59.423Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-19T23:26:22Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Private chat for organizers and presenters in structured meetings, webinars, and town halls",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 13, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft Teams is introducing simplified meeting passcodes to reduce friction when joining meetings, especially when participants must manually enter a passcode. This feature is off by default and must be explicitly enabled by a tenant administrator.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555858#Roadmap\" target=\"_blank\">555858</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: We will begin rolling out in<b> early April 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by <b>mid-April 2026 </b>(previously&nbsp;mid-March).</li><li><b>General Availability</b><ul><li><b>Worldwide &amp; GCC</b>: We will begin rolling out in <b>mid-April 2026</b> (previously&nbsp;mid-March)&nbsp;and expect to complete by <b>late April 2026</b> (previously&nbsp;late March).</li><li><b>GCCH &amp; DoD</b>: We will begin rolling out in<b>&nbsp;early May 2026</b> (previously early April)&nbsp;and expect to complete by <b>mid-May 2026</b> (previously&nbsp;mid-April).</li></ul></li></ul><p><b>Note on rollout timing and admin experience:</b></p><p>As part of a phased rollout, some backend capabilities may become available earlier, including PowerShell configuration starting in mid-March, ahead of the Teams Admin Center UI, which will be released following timelines shared above.</p><p>The feature remains off by default, and no change to meeting security behavior occurs unless an administrator explicitly enables it.</p><p><b><b>How this affects your organization</b></b></p><ul></ul><p></p><p><i>Who is affected</i>:</p><p>Tenant administrators who manage meeting security settings in <i>Microsoft Teams</i>.</p><p><i>What will happen</i>:</p><ul><li>A new admin setting allows simplified<b> 8‑digit numeric‑only meeting passcodes</b>.</li><li>The feature is <b>off by default</b>; admins must opt in.</li><li>The setting can be applied to:<ul><li>Specific users</li><li>Groups</li><li>The entire tenant</li></ul></li><li>Only newly scheduled meetings use numeric‑only passcodes.</li><li>Existing meetings are not changed.</li><li>If the feature remains off, Teams continues to use the default, more complex passcodes.</li></ul><p><b>Security considerations:</b></p><ul><li>Numeric‑only passcodes reduce cryptographic strength relative to the default setting.</li><li>The simplified passcode applies whether users join via meeting ID or by clicking a meeting link.</li><li>Admins will see a security warning when enabling the setting.</li><li>All other Teams meeting security controls remain unchanged, including:<ul><li>Lobby and admission controls</li><li>Organizer and participant policies</li><li>Tenant authentication and access controls</li></ul></li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review your organization's meeting security requirements.</li><li>Decide whether simplified passcodes meet your policies.</li><li>If enabling, determine appropriate scope (users, groups, or tenant‑wide).</li><li>If maintaining current behavior, no action is required.</li><li>Consider updating internal documentation and informing helpdesk staff if you enable the feature.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -8202,53 +8288,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated February 17, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing a private chat feature for organizers, co-organizers, and presenters in structured meetings and webinars in Microsoft Teams. This separate chat enhances collaboration by allowing key participants to communicate privately before, during, and after the event, without involving attendees. Additionally, we are <b>unifying backroom chat behavior in town halls</b> to ensure consistent functionality across all structured meetings. Currently, backroom chat behavior varies depending on whether streaming chat is enabled for town halls and whether the organizer has a Teams Premium license. This update removes that inconsistency.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=392328\" target=\"_blank\">392328</a>&nbsp;and applies to Teams for Windows desktop, Teams for Mac desktop, Teams for the web, Teams for iOS/Android, MTR-W and MTR-A devices.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul><li><b>Targeted Release:</b> Rollout begins in early April 2026 (previously early March) and is expected to complete by late April 2026 (previously mid-March).</li><li><b>General Availability (Worldwide and GCC): </b>Rollout begins in mid-April 2026 (previously mid-March) and is expected to complete by late April 2026 (previously late March).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Admins managing Microsoft Teams meetings, webinars, and town halls.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li><b>New private chat for organizers, co-organizers, and presenters:</b> This chat is separate from attendee chat and is available before, during, and after the event.</li>\n<li><b>Unified backroom chat policy for town halls:</b> The default setting will be ON for all town halls, regardless of streaming chat availability or license type.</li>\n<li>Existing town halls will adopt the new policy once meeting options are updated.</li>\n<li>If admins turn the backroom chat policy OFF, previously enabled town halls will lose access after update.</li>\n<li>Non-TPre town halls (those without a Teams Premium license) will have backroom chat ON by default after rollout and update.</li>\n</ul>\n<p><b>Two potential impacts:</b></p>\n<ul>\n<li>If an admin explicitly turns the new backroom chat policy OFF, any already-scheduled town hall that previously had backroom chat ON will lose access once the meeting options are updated.</li>\n<li>For non-TPre town halls where backroom chat was previously OFF, it will switch to ON by default after the rollout and a meeting options update.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your Teams meeting policies and decide whether to enable private chat for organizers and presenters.</li>\n<li>Communicate this change to helpdesk staff and event organizers.</li>\n<li>Update internal documentation to reflect the new backroom chat behavior.</li>\n<li>If you want to disable backroom chat, adjust the policy in the Teams admin center.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "392328"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce a private chat for organizers, co-organizers, and presenters in structured meetings, webinars, and town halls, unifying backroom chat behavior across town halls. Rollout begins April 2026. Admins should review policies, communicate changes, and update documentation accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-05-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1188222",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-17T17:17:26.927Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-19T23:26:22Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Private chat for organizers and presenters in structured meetings, webinars, and town halls",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to configure customer payment due dates without the use of workarounds or enforcement of requirements across all projects in a contract in Dynamics 365 Project Operations. This feature will reach general availability on March 13, 2026.<br> <br>\n<b>How does this affect me? </b><br>\nThis feature enables both the Due date and Terms of payment fields to allow for precise control of when payments are due. This feature will be available for both Project Operations Integrated with ERP and Project Operations for manufacturing deployment types. <br> <br>\n<b> What action do I need to take? </b><br>\nThe feature will be enabled automatically by default for all environments, but the due date field will not be enabled in the default set of fields for project invoice proposal. <br> <br>\nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -15991,45 +16030,6 @@
       "Retirement"
     ],
     "Title": "Retirement of external access token for actionable messages – moving to Microsoft Entra authentication",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated November 24, 2025: This change is currently on hold. We will communicate via Message center when we are ready to proceed. We apologize for any inconvenience this may have caused and thank you for your patience.&nbsp;</p><p>&nbsp;We’re introducing a new sign-in experience that enhances flexibility and accessibility for a limited number of users on Microsoft Teams for the web. This change introduces new sign-in options—<i>Continue with Apple</i> and <i>Continue with Google</i>—on the sign-in page (teams.microsoft.com or teams.com) for users routed through login.microsoftonline.com/common.</p><p><b>NOTE:</b> These options are intended for consumer Microsoft accounts and <i>may</i> be visible to both consumer and enterprise users, depending on your authentication configuration.\n</p><p><b>When this will happen:</b>\n</p><p>Preview, General Availability: We will update this Message center post when we are ready to proceed.</p><p><b>How this will affect your organization:</b>\n</p><p>After this rollout:\n</p><ul><li>Users can sign in or sign up for a Microsoft account using Apple or Google credentials.\n</li><li>Some users will be prompted to confirm whether they are using a personal or work/school account.\n</li><li>Existing sign-in methods remain unchanged, including entering an email/username or using <i>Sign-in options</i> to access organizational accounts.\n</li><li>Organizations using custom URLs (such as login.microsoftonline.com/contoso.com) will <b>not</b> be affected.</li><li>In the case of Teams on the web, the custom URLs will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; <b>or</b> https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;</li></ul><p><i>Screenshots of the new experience:\n</i></p><p>1. Users can select <i>Continue with Apple</i> or <i>Continue with Google</i> to sign in or sign up for a consumer Microsoft account using an Apple or Google credential. This image shows the Google option:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a77574ce-7170-4b70-82cd-37cc7022fdd7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>2. A subset of users who click these options will see a screen that confirms whether they are using a personal or work/school account. In this image, the user has selected the work/school option:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f7cd81f8-2aef-4626-bebc-4ca33f25464b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>3. Users can still enter their email/username at the top of the sign-in screen, and sign into a specific organization with <i>Sign-in options</i>:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f130bb08-5ee4-416d-aef7-fd0e3e44dec7\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><b>What you need to do to prepare:</b></p><p>No action is required. This feature is only being added to login.microsoftonline.com/common. Users accessing login.microsoftonline.com with a custom URL will not see this feature.</p><p><i>You can show a custom URL for your organization by passing a domain hint to apply company branding at the initial sign-in screen. Custom URLs for Teams on the web will be https://teams.microsoft.com?tenantId=&lt;YOUR_DOMAIN_NAME&gt; or https://teams.microsoft.com?tenantId=&lt;YOUR_TENANT_ID&gt;.\n</i></p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-customize-branding\" target=\"_blank\">Add company branding to your organization's sign-in page - Microsoft Entra | Microsoft Learn</a>\n</li><li><a href=\"https://devblogs.microsoft.com/identity/custom-url-domains/\" target=\"_blank\">Adding branded URLs to authentication with Microsoft Entra External ID Custom URL Domains | Microsoft Entra Identity Platform</a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams on the web plans a new sign-in preview with \"Continue with Apple\" and \"Continue with Google\" for consumer accounts via login.microsoftonline.com/common. Enterprise users with custom URLs won't be affected. The rollout is on hold, and no action is needed currently."
-      }
-    ],
-    "EndDateTime": "2026-04-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1102784",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-24T21:21:54.463Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-25T00:12:42Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams on the web: New Private Preview for Sign in with Apple and Google for consumers may affect enterprise",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
