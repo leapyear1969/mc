@@ -4,6 +4,212 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new <b>Follow</b> option for meetings in <i>Outlook Mobile</i>.&nbsp; This feature helps users stay informed when they cannot attend by prompting organizers to record the meeting and by ensuring followers receive key updates and follow‑up items.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid-April 2026</b> (previously&nbsp;mid‑March)&nbsp;and is expected to complete by<b>&nbsp;end of April 2026 </b>(previously mid‑April).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users who schedule or respond to meetings in <i>Outlook Mobile</i>. Attendees will only see the option to respond with <i><b>Follow</b> </i>if a meeting has two or more participants and when the organizer has requested responses.</li></ul><p><i>What will happen</i></p><ul><li>A new <b>Follow</b> option will appear as the third option in the<i> mobile RSVP menu</i>. To select “Maybe,” tap the three dots ... :&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e4855fa4-c943-4f9d-b25e-681c0a935288/e305ef8377ec2d56dc39a4f2072368944d7ca288.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>Maybe RSVP </b>option will move into the overflow menu:\n&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f27eb372-d0c2-4b15-979d-488465cc82b6/e9a2f6f33704e2b7790195f05b6aec26b4ff96e9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>No </b>response option will move to the second position in the RSVP list.</li><li>The feature will be<b> on by default </b>for all tenants.</li><li>Organizers may receive prompts to record the meeting or address follow‑up items when attendees choose to Follow.</li><li>No changes to existing Outlook or Exchange Online admin policies.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>Optional steps:</p><ul><li>Notify helpdesk and support teams about the updated RSVP options and UI behavior.</li><li>Update internal end‑user documentation if your organization provides guidance for meeting responses.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/follow-a-meeting-in-outlook-4dd196ec-b4ae-4fca-9577-cb9c297723be\" target=\"_blank\">Follow a meeting in Outlook | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will add a \"Follow\" RSVP option for meetings starting mid-April 2026, allowing users to stay informed without attending. This option appears if a meeting has two or more participants and organizer response is requested. The feature is on by default, with no admin action required."
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1248393",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-16T22:39:43.06Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-10T22:50:11Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook Mobile: Follow a meeting option",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p>\n<p>To improve reliability, compliance, and collaboration, we’re updating where Microsoft Whiteboard files created from a <b>Teams Channel tab</b> are stored. Previously, these whiteboards were saved in the OneDrive of the user who created them, which could lead to access issues due to sharing settings, Information Barriers, or Conditional Access policies.</p>\n<p>With this update, whiteboards created from Teams Channels will be stored in the <b>associated SharePoint site for the channel</b>, aligning Whiteboard with the storage behavior of other Microsoft 365 apps and ensuring consistent access for all channel members.</p>\n\n<p><b>When this will happen:</b></p>\n<p>We will begin rolling out this change in <b>late September 2026.</b></p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n  <li><b>Who is affected:</b>\n    <ul>\n      <li>All Microsoft Teams users who create or collaborate on Whiteboards using the <b>Teams Channel tab app</b></li>\n    </ul>\n  </li>\n  <li><b>What will happen:</b>\n    <ul>\n      <li>Whiteboards created from a Teams Channel tab will be stored in the <b>channel’s SharePoint site</b>.</li>\n      <li>All channel members will have consistent access based on channel permissions.</li>\n      <li>Existing Microsoft 365 compliance and security policies continue to apply.</li>\n      <li>Whiteboards will be discoverable from the <b>Whiteboard board picker</b>.</li>\n      <li>The change is<b> enabled by default</b>.</li>\n    </ul>\n  </li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<p>No action is required from administrators.</p><p>Recommended optional steps:</p><ul><li>Review internal documentation or helpdesk guidance that references Whiteboard storage locations.</li><li>Inform support teams that Whiteboards created in Teams Channels are now SharePoint-based for troubleshooting and access requests.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance area</th>\n    <th>Impact and explanation</th>\n  </tr>\n  <tr>\n    <td>Storage of customer data</td>\n    <td>Whiteboard files created from Teams Channel tabs are now stored in the channel’s SharePoint site instead of the creator’s OneDrive. The data is permanently stored in SharePoint.</td>\n  </tr>\n  <tr>\n    <td>Processing, storage, or access to existing customer data</td>\n    <td>The storage location changes from personal OneDrive to SharePoint, which alters how access is inherited and managed for channel members.</td>\n  </tr>\n  <tr>\n    <td>Purview compliance capabilities</td>\n    <td>Whiteboards now inherit SharePoint-based Purview controls, including DLP, sensitivity labels, retention policies, eDiscovery, audit logging, and Conditional Access.</td>\n  </tr>\n  <tr>\n    <td>Admin compliance monitoring and reporting</td>\n    <td>Centralized storage in SharePoint simplifies compliance monitoring, reporting, and eDiscovery for Teams Channel whiteboards.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Whiteboards created in Teams Channel tabs will be stored in the channel’s SharePoint site starting late September 2026, improving access, compliance, and collaboration. This change is enabled by default, requires no admin action, and aligns Whiteboard storage with other Microsoft 365 apps while maintaining existing security and compliance policies."
+      }
+    ],
+    "EndDateTime": "2027-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1253753",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-16T22:35:34.51Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-16T22:34:52Z",
+    "Tags": [
+      "Updated message",
+      "User impact"
+    ],
+    "Title": "Whiteboards created in Teams channels will now be stored in SharePoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Teams Phone user multi-line provides greater flexibility for organizations whose users manage multiple business numbers. This capability allows administrators to assign up to 10 telephone numbers to a single Teams Phone user, all within one Teams account. Users can make and receive calls from multiple numbers across Teams desktop, Teams mobile, and Teams devices without switching accounts or hardware. This enhancement supports a familiar and localized calling experience for users who work across regions, roles, or business lines.</p>\n\n<p>This capability supports scenarios such as:</p>\n<ul>\n  <li>Establishing local presence across multiple regions</li>\n  <li>Supporting users with multiple roles or responsibilities</li>\n  <li>Allowing executives, assistants, or support teams to manage multiple business lines within one Teams account</li>\n</ul>\n\n<p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557716\" target=\"_blank\">557716</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: We will begin rolling out in <b>early April 2026</b> and expect to complete by <b>late April 2026</b>.</li>\n  <li>General Availability (Worldwide): We will begin rolling out in<b> late April 2026</b> and expect to complete by <b>mid-May 2026</b>.</li>\n  </ul><p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizations using Microsoft Teams Phone</li>\n  <li>Teams administrators who manage phone number assignments</li>\n  <li>Users assigned more than one business telephone number</li><li>A Teams Phone license is required to use this feature</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can assign up to 10 telephone numbers to a single Teams Phone user.</li>\n  <li>Assigned numbers appear as separate lines in the Calls app in Microsoft Teams.</li>\n  <li>Additional numbers automatically appear for users after assignment; no user configuration is required.</li><li>This feature is <b>Off by default</b>. Admin must configure for it to be available to users.&nbsp;</li>\n  </ul><p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required before this feature rolls out.</p>\n<p>After the feature becomes available, administrators can:</p>\n<ul>\n  <li>Review which users may benefit from having multiple phone numbers.</li>\n  <li>Assign and manage additional telephone numbers in the Microsoft Teams admin center.</li>\n  <li>Confirm that each telephone number has a valid emergency address configured.</li>\n  <li>Ensure assigned numbers comply with regional telecommunications regulations and existing Teams Phone requirements.</li>\n</ul>\n<p>Managing multi-line number assignments requires the Teams Administrator role (or equivalent permissions).</p><p>Before rollout, we will update this&nbsp;post with new documentation.</p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557716"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Phone will allow assigning up to 10 phone numbers per user within one account, enabling calls from multiple numbers on various devices. Rolling out April-May 2026, this feature is off by default and requires admin configuration and a Teams Phone license. No prior action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2027-05-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1253752",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-16T22:32:44.913Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-16T22:32:26Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Manage multiple phone numbers within one Teams account",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding <b>support for .eml and .msg file uploads</b> in<i> Microsoft 365 Copilot</i>, including <b>Copilot Chat</b> and the <b>Microsoft 365 Copilot app</b>. This update makes it easier for users to include email files as context when prompting Copilot, helping them generate more relevant and grounded responses.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=552591#Roadmap\" target=\"_blank\">552591</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide): </b>Rollout begin in<b> late February 2026</b> and is expected to complete by<b> late March 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users in<i> Microsoft 365 tenants </i>who have access to <b>Microsoft 365 Copilot Chat </b>or the <b>Microsoft 365 Copilot app</b>.</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to upload .eml and .msg files directly when interacting with Copilot.</li><li>Uploaded files can be used<b> as grounding context for prompts</b>.</li><li>This feature is <b>available by default;</b> no admin configuration is required.</li><li>There is no change to existing policies governing file handling or data access.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. This feature will roll out automatically.</p><p>Optionally, you may:</p><ul><li>Inform helpdesk or support staff in case users ask about new upload capabilities.</li><li>Update internal Copilot usage or prompt‑writing guidance to reflect expanded supported file types.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "552591"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will support uploading .eml and .msg email files starting late February to March 2026, enabling users to provide email context for prompts. This feature is automatic, requires no admin setup, affects all Copilot users, and has no new compliance concerns."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-04-21T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1253750",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-16T22:32:05.767Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-16T22:31:42Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Upload local files now supports .eml and .msg file types",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>As previously announced in <i>MC1221452</i>,<b> Microsoft Registration Campaigns </b>will support <b>Passkeys (FIDO2)</b> as an <b>additional authentication method</b> starting in early April 2026. This update helps organizations accelerate adoption of phishing‑resistant credentials by allowing administrators to opt users into Passkeys and deliver Passkey registration nudges during sign‑in.</p><p><br></p><p></p><p><b><b>When this will happen</b>&nbsp;</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>early April 2026</b> and expect to complete in<b> late May 2026</b>.</p><p><br></p><p></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Microsoft Registration Campaigns</li><li>Tenants configured in either <b>Microsoft‑managed</b> or <b>Enabled</b> states</li><li>Users who are <b>MFA‑capable</b> and<b> eligible for Passkeys (FIDO2)</b></li></ul><p><i>What will happen</i></p><p><b><u>Microsoft‑managed state</u></b></p><p>Your tenant will be impacted <b>when all of the following conditions are met:</b></p><ul><li>The <b>Passkeys (FIDO2) authentication method policy</b> is enabled.</li><li><b>Allow self‑service setup</b> is enabled.</li><li><b><i>Target specific AAGUIDs</i></b> is <b>not</b> selected (no AAGUID restrictions configured).</li><li>The <b>Authentication Methods Registration Campaign</b> state is set to <i><b>Microsoft‑managed</b></i>.</li></ul><p>When these conditions are met, the following settings will update automatically:</p><ul><li>The targeted<b> authentication method</b> will change from <b>Microsoft Authenticator</b> to <b>Passkeys (FIDO2).</b></li><li><i><b>Days allowed to snooze</b></i> will change from three days to <b>one day.&nbsp;</b>(This setting will no longer be configurable.)</li><li><i><b>Limit number of snoozes </b></i>will be <b>disabled. </b>(This setting will no longer be configurable.)</li><li>Targeting will expand to <b>all MFA‑capable users</b>. (This setting will no longer be configurable.)</li><li>Default user targeting will change from <b>voice call or text message users</b> to <b>all multifactor authentication (MFA)–capable users</b>.</li></ul><p>Affected users will receive Passkey registration nudges at sign‑in after completing MFA.</p><p>We will roll out these changes incrementally over time to in‑scope tenants.</p><p><br></p><p></p><p><b><u>Enabled state</u></b></p><p>Passkey (FIDO2) can be selected as the Targeted Authentication Method when Microsoft Registration Campaigns are in the Enabled state.&nbsp;</p><p><i>Note: Registration Campaigns support targeting only one authentication method at a time—either Microsoft Authenticator or Passkeys (FIDO2), but not both simultaneously.</i></p><p><i><br></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p><b>Opting into Passkey Registration Nudges: \n</b></p><p><b>\n</b></p>You can opt into Passkeys and switch your users to receive a <b>Passkey registration nudge</b>. \nHowever, the nudge will only appear for the user if <b>all</b> of the following conditions are met:&nbsp;<ul><li>The user is <b>MFA‑capable</b><ul><li>They have at least one registered MFA method</li><li>They can successfully complete MFA at sign‑in</li></ul></li><li>Unde<b>r Authentication methods &gt; Policies,</b> the<b> user is in scope for Passkeys (FIDO2)</b></li><li>Under <b>Authentication methods &gt; Policies &gt; Passkeys (FIDO2) &gt; Configure</b>, make sure you have <b>Allow self-service set up </b>checked.&nbsp;</li></ul><p></p><p><b>Important Guidance:</b></p><b><u>Microsoft Managed State:</u></b><p>We will roll out these changes incrementally to in-scope tenants starting in early April. This rollout will take time, and even if your tenant meets the eligibility criteria, you may not see the changes immediately.&nbsp;</p><p></p><p><u style=\"\"><b>Enabled State&nbsp;</b></u></p><p>Over time, we will incrementally refine the logic for Passkeys nudges in<i> Microsoft Registration Campaigns</i> to guide users toward the appropriate passkey registration experience based on their passkey profile scope. Initially, the logic may not account for every edge‑case scenario, but we are actively expanding and improving it on an ongoing basis. When users have<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\"> passkey profile restrictions</a> (for example, AAGUID restrictions), the registration experience triggered by the nudge may not be optimal.&nbsp; &nbsp;</p><p><b></b></p><p><b>Using Passkeys Despite Restrictions</b></p><p>You can still set Passkeys as the target authentication method in Microsoft Registration Campaigns. However, users may encounter a poor or confusing experience if they have passkey profile restrictions.</p><p><b>Example:&nbsp;</b></p><p>If a user is scoped into specific <b>AAGUID synced passkeys only</b>, they may see a Passkey nudge at sign‑in. If they attempt to register a <b>device‑bound passkey,</b> the registration will fail because they are not in scope for that passkey type.&nbsp; </p><p><b></b></p><p><b>Recommended next steps</b></p><ul></ul><p></p><ul><li>Review your Registration Campaign state by <b>early April 2026</b>.</li><li>Communicate this change to helpdesk or support teams.</li><li>Update internal documentation on authentication method enrollment.</li><li>If you prefer to continue targeting Microsoft Authenticator, verify this configuration before rollout.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to enable passkey (FIDO2) profiles in Microsoft Entra ID (preview) | Authentication | Microsoft Entra ID | Microsoft Entra | Microsoft Learn</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting April 2026, Microsoft Registration Campaigns will support Passkeys (FIDO2) as an additional authentication method, enabling phishing-resistant credentials. Eligible Microsoft 365 tenants can opt users into Passkey registration nudges during sign-in. Changes will roll out gradually, affecting MFA-capable users with specific policy settings."
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1253746",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-16T22:27:27.43Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-16T22:27:17Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Passkeys in Microsoft registration campaigns",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 16, 2026: We have temporarily disabled the automatic installation of the Microsoft 365 Copilot app to eligible devices with the Microsoft 365 desktop apps. We will provide another update once we re-enable these installations.</p><p><b>Introduction</b></p><p>Starting in December 2025, Microsoft will begin automatically installing the Microsoft 365 Copilot app on Windows devices that have Microsoft 365 desktop client apps. This app provides a centralized entry point for accessing Copilot experiences and AI-powered capabilities across Microsoft 365. This change simplifies access to Copilot and ensures users can easily discover and engage with productivity-enhancing features.</p><p><b>When this will happen</b></p><p>Rollout begins in early December 2025 (previously early October) and completes mid-December 2025 (previously mid-November)</p><p><b>How this affects your organization</b></p><p><b>Who is affected:</b></p><ul><li>The Microsoft 365 Copilot app will not automatically deploy to eligible Microsoft 365 desktop apps devices during this time.</li><li>Existing installations are unaffected.</li></ul><p><b>What will happen:</b></p><ul><li>The Microsoft 365 Copilot app will be <b>automatically installed</b> on Windows devices that have Microsoft 365 desktop apps, unless administrators opt out.</li><li>The app will appear in the <i>Start menu</i> as a new entry point for accessing Copilot experiences across Microsoft 365.</li><li>On devices where the app is already installed, no visible change will occur.</li><li>The app installation is <b>enabled by default</b> and does not require user interaction.</li><li>This change does not apply to customers in the European Economic Area (EEA).</li></ul><p><b>What you can do to prepare</b></p><p><b>Admin Actions</b></p><ul><li>Use other app deployment methods to install the Microsoft 365 Copilot app until this capability is restored. You can use Intune and other software management tools to deploy the app.\n</li><li>Monitor this post for the next update on re-enablement.</li></ul><p><b>User Impact</b></p><ul><li>Users may see a new app icon for Microsoft 365 Copilot in the <i>Start menu.</i></li><li>On many devices, the app may already be installed, resulting in no visible change</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p>\n</p>",
       "ContentType": "html"
     },
@@ -1981,44 +2187,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva: Satisfaction rate metric for Microsoft 365 Copilot in the Copilot analytics dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing a new <b>Follow</b> option for meetings in <i>Outlook Mobile</i>.&nbsp; This feature helps users stay informed when they cannot attend by prompting organizers to record the meeting and by ensuring followers receive key updates and follow‑up items.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑March 2026</b> and is expected to complete by<b> mid‑April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users who schedule or respond to meetings in <i>Outlook Mobile</i>. Attendees will only see the option to respond with <i><b>Follow</b> </i>if a meeting has two or more participants and when the organizer has requested responses.</li></ul><p><i>What will happen</i></p><ul><li>A new <b>Follow</b> option will appear as the third option in the<i> mobile RSVP menu</i>. To select “Maybe,” tap the three dots ... :&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e4855fa4-c943-4f9d-b25e-681c0a935288/e305ef8377ec2d56dc39a4f2072368944d7ca288.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>Maybe RSVP </b>option will move into the overflow menu:\n&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f27eb372-d0c2-4b15-979d-488465cc82b6/e9a2f6f33704e2b7790195f05b6aec26b4ff96e9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The <b>No </b>response option will move to the second position in the RSVP list.</li><li>The feature will be<b> on by default </b>for all tenants.</li><li>Organizers may receive prompts to record the meeting or address follow‑up items when attendees choose to Follow.</li><li>No changes to existing Outlook or Exchange Online admin policies.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>Optional steps:</p><ul><li>Notify helpdesk and support teams about the updated RSVP options and UI behavior.</li><li>Update internal end‑user documentation if your organization provides guidance for meeting responses.</li></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/follow-a-meeting-in-outlook-4dd196ec-b4ae-4fca-9577-cb9c297723be\" target=\"_blank\">Follow a meeting in Outlook | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Outlook Mobile will introduce a \"Follow\" option for meetings starting mid-March 2026, allowing users to stay informed without attending. It appears in the RSVP menu, is on by default, and prompts organizers to record meetings or send follow-ups. No admin action is required."
-      }
-    ],
-    "EndDateTime": "2026-05-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1248393",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-10T22:50:23.503Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-10T22:50:11Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Outlook Mobile: Follow a meeting option",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
