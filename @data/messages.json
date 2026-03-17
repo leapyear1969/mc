@@ -4,6 +4,37 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "Custom theming for model-driven apps using the modern, refreshed look has been available in preview since October 2023. This capability allows organizations to align model-driven apps with their branding by customizing colors, fonts, and app header styling using the Microsoft Fluent 2 design system. As of March 31, 2026, custom theming will reach general availability.<br><br><b>How does this affect me?</b><br>Classic theming is not honored with the modern, refreshed look, which is becoming mandatory for model-driven apps in April 2026. The supported theming replacement with the modern look is custom modern themes, which gives makers the ability to:<ul><li>Apply a cohesive color scheme across the app based on a single base color, including hyperlinks, primary buttons, active tab indicators, row selection, and hover effects.</li><li>Customize the app header background and text colors, including hover, pressed, and selected states.</li><li>Set a custom logo for the app header to reinforce organizational branding. Note: Custom logo support in the modern theme XML is currently rolling out and will be available in all regions by the end of April 2026.</li><li>Override the default font used throughout the application.</li></ul>These customizations are applied through an XML web resource and can be scoped to your environment using the Custom theme definition app setting.<br><br><b>What action do I need to take?</b><br>To take advantage of custom theming, we recommend doing the following:<ul><li>If your organization was using classic themes, create a new custom theme XML web resource that reflects your branding. Follow the steps in the documentation to apply it to your environment.</li><li>Update internal documentation and training materials to reference the new custom theming approach instead of classic theming.</li><li>Report any issues or unexpected behavior through Microsoft Support so we can investigate.</li></ul>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14420\">Use modern themes in Power Apps - Power Apps. </a>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-04-17T21:54:38Z",
+    "HasAttachments": false,
+    "Id": "MC1254543",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-17T21:56:35.417Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-17T21:54:38Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps - Custom theming for model-driven apps is becoming generally available",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b> late March 2026</b> and is expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
