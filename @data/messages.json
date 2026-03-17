@@ -4,6 +4,54 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b> late March 2026</b> and is expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557255"
+      },
+      {
+        "Name": "Summary",
+        "Value": "DLP policies will block Microsoft 365 Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices. This rollout begins late March 2026, requires no policy changes, and ensures consistent DLP enforcement without altering Copilot capabilities."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac"
+      }
+    ],
+    "EndDateTime": "2026-05-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1234661",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-17T20:58:43.983Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft 365 apps",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-19T00:57:46Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 17, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re <b>retiring the Semi-Annual Enterprise Channel option from the Office Customization Tool</b>&nbsp;in the <i><a href=\"https://config.office.com/\" target=\"_blank\">Microsoft 365 apps admin center</a></i>. This retirement supports our ongoing efforts to simplify update channel management for Microsoft 365 Apps and ensure customers benefit from the most secure, up-to-date experience. We will continue to invest in the <b>Monthly Enterprise Channel </b>and <b>Current Channel</b>, which offer more frequent security and feature updates.</p><p><b><b>When this will happen</b></b></p><p>We will begin retiring this option on&nbsp;<b>April 6, 2026</b>, and expect to complete the retirement by<b> April 11, 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use the Office Customization Tool in the <a href=\"https://config.office.com/\"><i>Microsoft 365 apps admin center</i></a> to create deployment configurations for Microsoft 365 Apps.</li></ul><p><i>What will happen</i></p><ul><li>The <b>Semi-Annual Enterprise Channel </b>will be removed from the list of available update channel options when creating new deployment configurations.</li><li>Deployment configurations <b>you have already created </b>that use Semi-Annual Enterprise Channel will continue to retain that value when viewed or edited; however, it will not be available as a selectable option for new configurations.</li><li>Only <b>Current Channel</b> and <b>Monthly Enterprise Channel </b>will be available for new configuration creation.</li><li>There is <b>no impact </b>to devices currently configured for Semi-Annual Enterprise Channel.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required for this retirement. You may choose to:</p><ul><li>Notify relevant admins or deployment teams of this upcoming change.</li><li>Update internal documentation if it references the Semi-Annual Enterprise Channel as a selectable option.</li><li>Review your existing configurations in the Office Customization Tool if you plan to transition to a different update channel going forward.</li><li>If desired, use this Microsoft Learn resource to plan channel migration: <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/change-update-channels\" target=\"_blank\">Change the Microsoft 365 Apps update channel for devices in your organization | Microsoft 365 | Microsoft Learn</a>.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -561,7 +609,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T19:54:03.6281578Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T19:54:03.6281582Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T19:54:03.6281584Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T19:54:03.6281586Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T21:33:50.6543156Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T21:33:50.6543159Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T21:33:50.654316Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-17T21:33:50.6543163Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8290,54 +8338,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b> late March 2026</b> and is expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557255"
-      },
-      {
-        "Name": "Summary",
-        "Value": "DLP policies will block Microsoft 365 Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices. This rollout begins late March 2026, requires no policy changes, and ensures consistent DLP enforcement without altering Copilot capabilities."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac"
-      }
-    ],
-    "EndDateTime": "2026-05-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1234661",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-19T00:58:04.077Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft 365 apps",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-19T00:57:46Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>To help organizations gain better operational visibility into Microsoft Fabric workloads while maintaining centralized governance, Microsoft is enabling the tenant setting “Workspace admins can turn on monitoring for their workspaces” by default. This change reflects customer feedback requesting easier access to workspace-level insights without automatically enabling monitoring or changing existing permissions. This update does not turn on monitoring for any workspace.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>Starting March 23, 2026</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Tenants using Microsoft Fabric</li>\n  <li>Tenant admins managing Fabric tenant settings</li>\n  <li>Workspace Admins managing Fabric workspaces</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The tenant setting “Workspace admins can turn on monitoring for their workspaces” will be enabled by default.</li>\n  <li>No monitoring is automatically enabled for any existing or new workspace.</li>\n  <li>Workspace Admins can choose whether to enable monitoring for their individual workspaces.</li>\n  <li>If enabled by a Workspace Admin, monitoring provides access to logs, metrics, and operational insights related to Fabric items within that workspace.</li>\n  <li>Existing tenant governance, permissions, and security controls are respected.</li>\n  <li>There is no impact to end users unless Workspace Admins explicitly enable monitoring.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No immediate action is required.</li>\n  <li>Review the tenant setting in the Fabric Admin portal to understand or adjust your governance posture.</li>\n  <li>If needed, disable the setting to prevent Workspace Admins from enabling monitoring at the workspace level.</li>\n  <li>Consider communicating internal guidance to Workspace Admins about when and how workspace monitoring should be used.</li>\n  <li>Learn more about&nbsp;<a href=\"https://learn.microsoft.com/en-us/fabric/fundamentals/workspace-monitoring-overview\" target=\"_blank\">Workspace Monitoring</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Compliance area</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n    <td>Yes. When enabled by a Workspace Admin, workspace monitoring provides access to logs and metrics for Fabric items, improving operational monitoring, audit readiness, and compliance reporting within that workspace.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control, and can it be controlled through tenant settings?</td>\n    <td>Yes. The capability is governed by a tenant-level setting that admins can enable or disable centrally to control whether Workspace Admins can turn on monitoring.</td>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n    <td>Yes. Workspace Admins can choose to enable or disable monitoring for their own workspaces when the tenant setting is enabled.</td>\n  </tr>\n</tbody></table><br>",
       "ContentType": "html"
     },
@@ -13673,7 +13673,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
