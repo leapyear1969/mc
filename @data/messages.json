@@ -8817,42 +8817,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>\nTo ensure reliable delivery of Teams Events email notifications—and to protect organizations using custom HTML templates—we’re enforcing a requirement that all templates reference a verified custom domain in your Microsoft 365 tenant. This improves deliverability, reduces spoofing risk, and aligns with modern email authentication standards. As previously communicated in MC1176301 (October 2025), templates not configured with a verified domain may no longer function as expected after enforcement.\n</p>\n\n<p><b><b>When this will happen:</b></b><br>\nEnforcement was fully rolled out January 31, 2026.\n</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n  <li>Organizations with Teams Premium licenses.</li><li>Organizations using custom HTML templates for Teams Events email notifications.</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>Custom HTML templates must reference a domain verified in your Microsoft 365 tenant.</li>\n  <li>Templates without a verified domain may stop working as expected once enforcement begins.</li>\n  <li>Custom formatting or branding may fail without the required configuration.</li>\n  <li>No impact for organizations using default templates.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Verify or confirm ownership of the domain you want to use for product notifications in the Microsoft 365 admin center.</li>\n  <li>Update Teams Events email template settings so your custom HTML references a verified domain.</li>\n  <li>Allow up to 12 hours for global propagation after saving.</li>\n  <li>Update internal documentation and notify Teams Events owners or template maintainers.</li>\n</ul>\n\n<p>Learn more:<br>\n<a href=\"https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products?view=o365-worldwide\">\nConfigure domain selection for Microsoft 365 product notifications</a>\n</p>\n\n<p><b><b>Compliance considerations:</b></b><br>\nNo compliance considerations identified, review as appropriate for your organization.\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Teams Premium organizations using custom HTML templates for Teams Events emails must reference a verified custom domain in Microsoft 365 to ensure delivery and prevent spoofing. Enforcement began January 31, 2026. Default templates are unaffected. Verify domains and update templates accordingly to avoid disruptions."
-      }
-    ],
-    "EndDateTime": "2026-03-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1234575",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-18T18:48:24.793Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-18T18:48:19Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Follow‑up on Required Custom Domain Configuration for Teams Event Email Templates",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We will introduce <b>new control</b>s that allow users <b>to customize</b> how<b> quick views appear </b>at the top of their chat and channels lists in <i>Microsoft Teams</i>. This update aligns with customer feedback requesting a cleaner and more focused experience. These controls will help users see only the quick views that are relevant to them and manage when those views appear.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555856#Roadmap\" target=\"_blank\">555856</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: We will begin rolling out in<b> March 2026</b> and expect to complete in<b>&nbsp;March 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD)</b>: We will begin rolling out in<b> late March 2026</b> and expect to complete by<b> mid‑April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: All Microsoft Teams users in<i> commercial Microsoft 365 tenants</i>.</p><p><i>What will happen</i>:</p><ul><li>Today, within the Teams chat and Teams apps, users see a set of quick views displayed above the lists of chats and channels. These quick views are always visible for all users, regardless of whether they contain messages.</li><li>With this update,<b> quick views will appear only when they contain messages</b>, and users will have new controls to manage how their quick views behave:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ac2a8537-2aeb-4bdc-90ff-e00023af4651/7034df66d2728d9d810c7bdbe937e44f023b4ec9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Quick views such as <i><b>Mentions</b>, <b>Followed threads</b></i>, and <b><i>Tag mentions</i></b> will, by default, appear only when a user has at least one message associated with that view.</li><li>Users will be able to adjust each of these quick views from the context menu, including the ability to show them only when unread messages exist.</li><li>Quick views such as <i><b>Saved</b> </i>will be configurable to show always or be hidden.</li><li>Hidden quick views will be accessible by selecting the<b><i> eye icon </i></b>next to the <i><b>Quick views</b></i> header.</li><li>The <i><b>Quick views</b></i> section will be collapsible, and the header will appear in<b> bold </b>when any quick view contains unread messages.</li><li>This feature<b> will not require admin configuration</b> and will be<b> enabled automatically</b> for users.</li><li><b>Platform availability</b>: This update will be available on Microsoft Teams for<b> Windows, Mac, and web</b>. Support for mobile platforms will follow in a future update.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action will be required to enable this feature.</p><p>You may want to:</p><ul><li>Inform your helpdesk or support staff about the upcoming change.</li><li>Update user training materials or documentation if you maintain them.</li><li>Review Teams support resources once updated documentation for quick views becomes available.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -12908,44 +12872,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is improving time zone handling in the <i>Teams desktop client for Windows and Mac and Teams on the web</i>. With this update, Teams will automatically apply the new device time zone when a time zone change is detected, without requiring a client restart. This enhancement provides a smoother, more seamless experience for users who travel or work across multiple regions.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>Targeted Release:</b> Rollout will begin in<b> early February 2026</b> and complete in <b>early February 2026</b>.</p>\n<p><b>General Availability (Worldwide, GCC, GCC High, DoD):</b> Rollout will begin in<b> mid-February 2026</b> and complete in<b> late February 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Users on the Teams Desktop Client for Windows and Mac and Teams on the web.</li>\n</ul>\n<p><i>What will happen:</i></p>\n<ul>\n<li>Teams will automatically synchronize to the updated device time zone when a time zone change is detected.</li>\n<li>No restart will be required when the OS time zone changes.</li>\n<li>The active time zone will be shown in <i><b>Teams Settings &gt; General</b></i>.</li>\n<li>This update is applied automatically and does not require any admin configuration.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>The feature becomes <b>available once users update to a supported Teams client build</b>.</li><li>Optionally notify users of this improvement.</li>\n<li>Update internal documentation if it references client restarts for time zone changes.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will automatically sync with device time zone changes without needing a client restart, starting early February 2026. This applies to Teams desktop (Windows, Mac) and web clients, requires no admin action, and shows the active time zone in Teams settings."
-      }
-    ],
-    "EndDateTime": "2026-03-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1222651",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-27T00:42:36.023Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-27T00:42:29Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Automatic synchronization with device time zone, no client restart required",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Updated January 15, 2026: We have updated the content. Thank you for your patience.&nbsp;</b></p><p><b><b>Introduction</b></b></p>\n<p>We’re improving scheduled channel meetings in Microsoft Teams by reducing automatic meeting updates in channel conversations. This change helps keep channels cleaner and focused on real user replies, while meeting details remain accessible when you open the meeting thread.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release:</b> Rolling out mid-January 2026, expected to complete by late January 2026.</li>\n<li><b>General Availability (Worldwide):</b> Rolling out early February 2026, expected to complete by late February 2026.</li>\n<li><b>General Availability (GCC, GCCHigh, DoD):</b> Rolling out early March 2026, expected to complete by late March 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All Microsoft Teams users participating in scheduled channel meetings.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Automatic meeting updates in channel conversations will be reduced.</li>\n<li>Channel threads will appear cleaner and reply counts will reflect actual user responses.</li>\n<li>Meeting details remain accessible by opening the meeting thread.</li>\n<li>No admin configuration changes are required; the feature is enabled by default.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required. This update will roll out automatically.</li>\n<li>Optional: Communicate this change to helpdesk staff to reduce potential confusion.</li>\n<li>For more information on channel meetings, visit: <a href=\"https://learn.microsoft.com/microsoftteams/plan-meetings\">Meetings in Teams</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -13833,43 +13759,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>\nWe’re introducing a new <b>admin settings export in Viva Engage</b>, helping organizations meet regulatory requirements by making key admin configuration data easily accessible and portable. Additionally, the network data export file has also been updated to include visibility into users placed in view-only mode in Engage and corporate communicators assigned the advanced moderation permission.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\nGeneral Availability (Worldwide): We will begin rolling out <b>late January 2026</b> and expect to complete by <b>mid-February 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b style=\"\">Who is affected:</b></p><p><b>\nGlobal Admins</b>, <b>Engage Admins</b>, and <b>Verified Admins</b>.</p>\n\n<p><b>What’s new:</b></p>\n<ul>\n  <li>Admins can now export a snapshot of <b>Viva Engage admin settings</b> directly from the Engage Admin Center.</li>\n  <li>The export provides a point-in-time, human-readable (.csv) file capturing current configuration of all in-scope admin settings.</li>\n  <li>The network data export file now includes visibility into users placed in view-only mode and corporate communicators assigned the advanced moderation permission.</li>\n</ul>\n\n<p><b>How it works:</b></p>\n<ul>\n  <li><b>Where to find it:</b> <b>Engage Admin Center → Governance &amp; Compliance → Data Management</b></li>\n  <li><b>Export format:</b> CSV containing setting names and their current configured values</li>\n</ul>\n\n<p><b>What’s included</b></p>\n<ul>\n  <li>Tenant- and network-level admin configuration settings based on tenant licensing for <b>Engage Admins</b>, <b>Verified Admins</b>, <b>Network Admins</b>, and <b>Corporate Communicators</b>.</li>\n</ul>\n\n<p><b>What’s not included</b></p>\n<ul>\n  <li>Community-level or Microsoft 365 Group–specific settings</li>\n  <li>Engage settings managed in the Teams Admin Center or Microsoft 365 Admin Center</li>\n</ul>\n\n<p><b>Who can access the export</b></p>\n<ul>\n  <li><b>Global Administrator</b></li>\n  <li><b>Engage Administrator</b></li>\n  <li><b>Verified Administrator</b></li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><ul><li><b>\nEngage admins</b>, <b>Global admins</b>, and <b>Verified admins</b> can pull an export of admin settings when the feature becomes available. </li><li>No additional preparation is required.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/Viva/engage/eac-as-manage-data\" target=\"_blank\">Export and manage Viva Engage data</a>&nbsp;(will be updated before rollout)</p>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting late January 2026, Viva Engage admins can export a CSV snapshot of admin settings from the Engage Admin Center, including tenant- and network-level configurations. The export excludes community-level and Teams/Microsoft 365 Admin Center settings. Accessible by Global, Engage, and Verified Admins."
-      }
-    ],
-    "EndDateTime": "2026-03-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1218450",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-16T02:49:42.267Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-16T02:49:34Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Export Viva Engage admin settings from Engage Admin Center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction \n</b></p><p>We are announcing the retirement of Q&amp;A, Power BI’s legacy natural language tool. Starting December 2026, Q&amp;A experiences will be retired. Moving forward, users can leverage Power BI Copilot, which offers a more advanced and integrated solution for querying data using generative AI. This change reduces feature overlap, accelerates innovation, and provides a consistent experience across Power BI. \n</p><p><b>When this will happen:</b></p><p>Q&amp;A experiences and Q&amp;A Setup will be fully retired by the end of December 2026.</p><p><b>How this affects your organization: \n</b></p><p>Who is affected: All organizations using Q&amp;A experiences in Power BI reports, dashboards, mobile, or embedded analytics. \n</p><p><b>What will happen: \n</b></p><ul><li>Creation of new Q&amp;A visuals or experiences will no longer be permitted after December 2026. \n</li><li>Existing Q&amp;A visuals in reports, dashboards, mobile, and embedded scenarios will stop working and will be removed. \n</li><li>Q&amp;A Setup tools (synonyms, linguistic relationships, teach Q&amp;A, etc.) will be retired. \n</li><li>Users should transition to Power BI Copilot for natural language queries and insights. \n</li></ul><p><b>What you can do to prepare: \n</b></p><ul><li>Review reports and dashboards for Q&amp;A visuals and plan to replace them with Copilot experiences. Learn more:&nbsp;<a href=\"https://powerbi.microsoft.com/blog/deprecating-power-bi-qa/\" target=\"_blank\">Microsoft Power BI Updates Blog: Deprecating Power BI Q&amp;A</a>.</li><li>Familiarize yourself with Power BI Copilot and Prep Data for AI as alternatives to Q&amp;A and Q&amp;A Setup. \n</li><li>Update internal documentation and helpdesk guidance to reflect this change. \n</li></ul><p><b>Compliance considerations: \n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14648,44 +14537,6 @@
       "User impact"
     ],
     "Title": "Microsoft dark themes for SharePoint sites",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re making changes to modern <b>eDiscovery Content Search case</b>. Starting <b>February 16, 2026</b>, <b>Content Search cases will no longer support review sets or case-level data sources. </b>These capabilities will remain available in dedicated non-Content Search eDiscovery cases.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>This change will begin rolling out on <b>February 16, 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Organizations using eDiscovery Content Search case in Microsoft Purview.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users may notice that review sets and case-level data source options are no longer available in the Content Search case when this change is implemented.</li><li>Users who require review, filtering, tagging, analytics, or other advanced review capabilities may no longer be able to perform these actions in Content Search case after this change.</li>\n<li>Existing searches and direct exports in Content Search cases will not be affected.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required if you use Content Search cases only for search and direct export.</li><li>We recommend users move review activities to dedicated eDiscovery cases for investigations that are not Content Search cases.</li>\n<li>If your workflow requires review sets or case-level data sources:\n<ul>\n<li>Create a separate eDiscovery case for investigations.</li>\n<li>Add data sources and review sets in that case to continue your end-to-end eDiscovery workflow.</li>\n</ul>\n</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/compliance/ediscovery\">Learn about eDiscovery solutions | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting February 16, 2026, Microsoft Purview eDiscovery Content Search cases will no longer support review sets or case-level data sources. Users needing advanced review features should use dedicated eDiscovery cases. Existing searches and exports remain unaffected; no action is needed if only searching and exporting."
-      }
-    ],
-    "EndDateTime": "2026-03-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1216266",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-01-09T23:14:45.567Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-09T23:13:27Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery Content Search case changes",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
