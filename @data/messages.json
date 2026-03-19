@@ -4,6 +4,195 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 19, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re adding a new Exchange Online admin policy that gives admins more control over the default Mail Compose and Reply setting that determines whether commas are used as recipient separators.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557676\" target=\"_blank\">557676</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and complete by <b>mid‑April 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Exchange Online administrators in New Outlook for Windows and Outlook for Web</li><li>All users composing or replying to email in <i>Outlook</i> where no per‑user override is configured</li></ul><p><i>What will happen</i></p><ul><li>A new admin policy will be available to set the tenant‑wide default for “<i><b>Use commas as recipient separators</b></i>.”</li><li>Admins can choose whether the default is on or off for all users.</li><li>Users may still change this setting in their <i>Outlook client </i>unless an admin enforces a policy that locks it:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d53d4d89-2cf9-4b09-8916-ad98fa64e98e/51360c8601e14324e4cd6d6a0a45e002a951a767.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>This update is especially useful for organizations whose contacts commonly use “Last name, First name” formats.</li><li>No changes will occur automatically—tenants will retain existing behavior unless an admin modifies the policy.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. If desired, you may configure the new admin policy after rollout if you want to establish a consistent default.&nbsp;You can set this value&nbsp;via Powershell with the command \"Set-Organization Config -RecipientDelimeters&nbsp;&lt;Boolean&gt;.\"</p><p>You may also consider the following actions:&nbsp;</p><ul><li>Review your organization’s preferred recipient formatting conventions.</li><li>Update internal documentation if your helpdesk or user‑training materials reference this setting.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557676"
+      },
+      {
+        "Name": "Summary",
+        "Value": "A new Exchange Online admin policy will allow admins to set a tenant-wide default for using commas as recipient separators in Outlook, rolling out worldwide in April 2026. Users can override unless locked by policy. No automatic changes; admins can configure via PowerShell if desired."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-11T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1239176",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-19T23:03:23.253Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-26T00:20:37Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook: Delimiter setting admin policy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b> </b></p><p>We’re releasing an improvement to Microsoft Teams that syncs your recently used emojis and reactions across devices. With this update, users will see the same set of “recently used” emojis when using Teams on Android, iOS, Mac, Windows desktop, and Teams for the web, creating a more consistent and seamless experience when communicating across chats and channels. This enhancement aligns with customer feedback requesting a unified emoji experience across platforms. </p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554927#Roadmap\" target=\"_blank\">554927</a></b>. </p><p><b><b>When this will happen</b> </b></p><ul><li><b>Targeted Release:</b> We expect to complete rollout by <b>mid‑April 2026</b>. </li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;late April 2026 </b>and expect to complete in <b>May&nbsp;2026</b>.</li><li><b>General Availability (GCC and GCCH): </b>We will begin rolling out in <b>mid-April 2026</b> and expect to complete by<b> late April 2026</b>.</li><li><b>General Availability (DoD): </b>We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>mid-May 2026</b>.</li></ul><p><b><b>How this affects your organization</b> </b></p><p><i>Who is affected</i></p><ul><li>All Microsoft Teams users across supported clients. </li></ul><p><i>What will happen</i></p><ul><li>Recently used emojis and reactions will sync across devices. </li><li>Users will see the same “recently used” list regardless of which Teams client they use. </li><li>The feature will be<b> enabled by default</b>; no configuration is required for rollout. </li><li>Existing Teams admin settings and messaging policies will continue to apply. </li><li>There is no impact to message flow, data storage, compliance boundaries, or customer data pathways.</li></ul><p> </p><p><b><b>What you can do to prepare</b> </b></p><p>No action is required. This update will roll out automatically. </p><p>Admins may optionally: </p><ul><li>Inform helpdesk or support teams about this user experience update. </li><li>Update internal documentation if you reference emoji behavior or Teams UI details. </li><li>Review your Messaging settings and Messaging policies if you manage custom emoji usage. </li></ul><p>Learn more about emoji and reaction usage in <i>Microsoft Teams</i>: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad#id0ebbd=desktop\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b> </b></p><p>No compliance considerations identified. Review as appropriate for your organization. </p><p>This feature does not introduce new data storage, processing changes, AI/ML capabilities, communication pathways, admin reporting changes, or modifications to Purview‑governed workflows.&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "554927"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477103Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477105Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477106Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477107Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477108Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3477111Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will sync recently used emojis and reactions across all devices by mid-May 2026, providing a consistent experience. The feature is enabled by default, affects all users, requires no action, and does not impact data storage, compliance, or messaging policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1256307",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-19T22:27:10.13Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-19T22:26:54Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Recently used emojis sync across devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>The <b>Planner Agent </b>is now available in<i> Microsoft 365 Copilot</i> through Frontier. This capability brings Planner’s intelligent work management directly into Copilot chat, enabling users to create, update, and manage personal tasks and shared basic plans without switching context. Integrated across Microsoft 365, it helps users stay organized with insights into priorities, deadlines, and at‑risk work, and provides interactive task cards to maintain progress.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516576#Roadmap\" target=\"_blank\">516576</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Frontier availability: </b>Available now</li><li><b>Public Preview: </b>Rollout will begin in<b> mid-March 2026 </b>and is expected to complete by <b>late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>This capability is available to Microsoft 365 tenants whose IT admins:</p><ul><li>Enroll the tenant in the <b><a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program</a>&nbsp;</b>(automatically enrolled), and</li><li>Users must also have an <b>active Microsoft 365 Copilot license</b>.</li></ul><p><i>What will happen</i></p><p>Users will be able to:</p><ul><li>Access the Planner (Frontier) Agent across Microsoft 365 Copilot experiences</li><li>Create, view, and update personal tasks and basic shared plans directly in <i>Copilot chat</i></li><li>Use interactive task cards to draft updates, manage task hierarchies, and track progress</li><li><b>Receive intelligent insights</b> such as high‑priority work, upcoming deadlines, and at‑risk tasks</li><li>Find and add the agent from the <b>All agents</b> section in the<i> Copilot agent store</i></li><li><b>Use natural prompts </b>such as: “<i>Show me my recent high‑priority tasks and what’s due this week.</i>”<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6ee938c5-87c6-4025-aaab-d9152759e8e4/b25ae3472f8e3a4e900dc342dab9ee4100c8abe6.png\" alt=\"user settings\" style=\"width: 400px;\"></p></li></ul><p><b></b></p><p><b>Default state:</b></p><ul><li>Frontier features are opt‑in and require explicit admin enrollment and assignment.</li><li>Capabilities may change as these features are experimental and built for feedback.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Confirm users have<b> active Microsoft 365 Copilot licenses</b>.</li><li>Review and configure agent settings as needed.</li><li>Communicate that <b>Frontier features are experimental</b> and <b>may change</b>.</li><li>Update internal documentation if you track preview experiences.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier Program - Microsoft</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#settings-for-agents\" target=\"_blank\">Manage Copilot agents in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "516576"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot's Planner Agent is now available in Frontier, enabling users with Copilot licenses to create, update, and manage tasks and plans directly in Copilot chat. It offers intelligent insights, interactive task cards, and natural language prompts. Available now in Frontier; public preview starts mid-March 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-06-09T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1256306",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-19T22:26:34.063Z",
+    "Services": [
+      "Planner"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-19T22:26:23Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Planner Agent available in Frontier",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re updating <b>Microsoft Teams for macOS</b> to make account management easier for users. This update adds new entry points for account‑related actions in the Teams app menu and the macOS Dock icon menu. These changes improve discoverability without changing existing account behavior, policies, or admin controls.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558340\" target=\"_blank\">558340</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release: </b>Rolling out in <b>late April 2026</b>; expected to complete in <b>late April 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rolling out in<b> late April 2026</b>; expected to complete in<b> late May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users running Microsoft Teams on macOS.</li></ul><p><i>What will happen</i></p><ul><li>Users will see <b>new access points for account management </b>in:<ul><li>The <i>Teams app menu on macOS</i></li><li>The<i> macOS Dock icon context menu</i></li></ul></li><li>Existing tenant configurations, account policies, and administrative controls remain unchanged.</li><li>The feature is <b>enabled by default</b> for all macOS users.</li><li>No changes to user permissions or sign‑in behavior.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. This update will roll out automatically.</p><p>If helpful for internal readiness:</p><ul><li>Notify helpdesk staff about the new menu entry points for macOS users.</li><li>Update internal documentation or user guidance if you maintain macOS‑specific Teams instructions.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558340"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams for macOS will add new account management access points in the app menu and Dock icon menu by late April 2026. Existing policies and permissions remain unchanged. The update is automatic and enabled by default, requiring no user action. Notify helpdesk and update documentation if needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1256301",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-19T22:23:58.713Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-19T22:23:38Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams for Mac: Improved access to account management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 19, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b>&nbsp;early April 2026 </b>(previously mid-March)<b>&nbsp;</b>and expect to complete rollout by <b>end of April 2026</b> (previously&nbsp;end of March).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -939,7 +1128,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704552Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704553Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704554Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475643Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475644Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475646Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1611,7 +1800,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702612Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702614Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702615Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702616Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475885Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475887Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475888Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T23:26:36.3475889Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7198,52 +7387,6 @@
       "Admin impact"
     ],
     "Title": "SharePoint: Backend migration for Weather, World Clock, and Events web parts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re adding a new Exchange Online admin policy that gives admins more control over the default Mail Compose and Reply setting that determines whether commas are used as recipient separators.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557676\" target=\"_blank\">557676</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and complete by <b>mid‑April 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Exchange Online administrators</li><li>All users composing or replying to email in <i>Outlook</i> where no per‑user override is configured</li></ul><p><i>What will happen</i></p><ul><li>A new admin policy will be available to set the tenant‑wide default for “<i><b>Use commas as recipient separators</b></i>.”</li><li>Admins can choose whether the default is on or off for all users.</li><li>Users may still change this setting in their <i>Outlook client </i>unless an admin enforces a policy that locks it:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d53d4d89-2cf9-4b09-8916-ad98fa64e98e/51360c8601e14324e4cd6d6a0a45e002a951a767.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>This update is especially useful for organizations whose contacts commonly use “Last name, First name” formats.</li><li>No changes will occur automatically—tenants will retain existing behavior unless an admin modifies the policy.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>If desired, you may:</p><ul><li>Review your organization’s preferred recipient formatting conventions.</li><li>Update internal documentation if your helpdesk or user‑training materials reference this setting.</li><li>Configure the new admin policy after rollout if you want to establish a consistent default.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557676"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A new Exchange Online admin policy will let admins set a tenant-wide default for using commas as recipient separators in Outlook mail compose and reply. Rollout starts April 2026. Users can override unless locked by policy. No automatic changes; no action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1239176",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-26T00:20:48.14Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-26T00:20:37Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Outlook: Delimiter setting admin policy",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -14063,7 +14206,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
