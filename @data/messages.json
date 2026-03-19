@@ -4,6 +4,53 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 19, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b>&nbsp;early April 2026 </b>(previously mid-March)<b>&nbsp;</b>and expect to complete rollout by <b>end of April 2026</b> (previously&nbsp;end of March).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557348"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will introduce infinite scroll for chat history, allowing users to seamlessly access older conversations as they scroll. This feature, enabled by default worldwide from early to end of April 2026, affects all users without impacting existing workflows or requiring admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1237701",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-19T21:05:25.367Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-23T22:52:43Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Introducing infinite scroll for chat history",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 19, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re retiring the Semi-Annual Enterprise Channel option from the Office Customization Tool in the&nbsp;<i><a href=\"https://config.office.com/\" target=\"_blank\">Microsoft 365 apps admin center</a>&nbsp;</i>and in the Microsoft Office 365 Client Management experience in Configuration Manager. This retirement supports our ongoing efforts to simplify update channel management for Microsoft 365 Apps and ensure customers benefit from the most secure, up-to-date experience. We will continue to invest in the <b>Monthly Enterprise Channel</b> and <b>Current Channel</b>, which offer more frequent security and feature updates.</p><p><b><b>When this will happen</b></b></p><p>We will begin retiring this option on&nbsp;<b>April 6, 2026</b>, and expect to complete the retirement by<b> April 11, 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use the Office Customization Tool in the <a href=\"https://config.office.com/\"><i>Microsoft 365 apps admin center</i></a> to create deployment configurations for Microsoft 365 Apps.</li><li>Organizations that use the Microsoft Office 365 Client Management experience in Configuration Manager.</li></ul><p><i>What will happen</i></p><ul><li>The <b>Semi-Annual Enterprise Channel </b>will be removed from the list of available update channel options when creating new deployment configurations.</li><li>Deployment configurations <b>you have already created </b>that use Semi-Annual Enterprise Channel will continue to retain that value when viewed or edited; however, it will not be available as a selectable option for new configurations.</li><li>Only <b>Current Channel</b> and <b>Monthly Enterprise Channel </b>will be available for new configuration creation.</li><li>There is <b>no impact </b>to devices currently configured for Semi-Annual Enterprise Channel.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required for this retirement. You may choose to:</p><ul><li>Notify relevant admins or deployment teams of this upcoming change.</li><li>Update internal documentation if it references the Semi-Annual Enterprise Channel as a selectable option.</li><li>Review your existing configurations in the Office Customization Tool if you plan to transition to a different update channel going forward.</li><li>If desired, use this Microsoft Learn resource to plan channel migration: <a href=\"https://learn.microsoft.com/microsoft-365-apps/updates/change-update-channels\" target=\"_blank\">Change the Microsoft 365 Apps update channel for devices in your organization | Microsoft 365 | Microsoft Learn</a>.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -892,7 +939,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4378788Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4378789Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T19:43:46.437879Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704552Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704553Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4704554Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1564,7 +1611,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4376449Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4376453Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4376454Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T19:43:46.4376456Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702612Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702614Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702615Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-19T21:32:10.4702616Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4563,53 +4610,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft 365 Copilot is introducing infinite scroll for chat history, enabling users to seamlessly access older conversations by automatically loading additional chat sessions as they scroll. This update provides an improved and more fluid experience when navigating past conversations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557348\" target=\"_blank\">557348</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in<b>&nbsp;mid-March 2026</b> (previously early March)<b>&nbsp;</b>and expect to complete rollout by <b>end of March 2026</b> (previously&nbsp;mid‑March).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users of Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users will be able to view their <b>full chat history </b>directly in the <i>navigation pane:</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0b3f7cdd-84f5-4416-a2d1-451383d7cde9/da3c6a82f9c86f0f6c784a228d8ed7aed1d00d7a.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Additional conversations will load automatically as users scroll.</li><li>This feature will be <b>enabled by default</b> for all tenants.</li><li>No admin controls or policy changes are introduced with this release.</li><li>There is <b>no impact </b>to existing workflows or admin configurations.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Admins may choose to inform helpdesk or support teams about the updated navigation experience.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557348"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will roll out infinite scroll for chat history from mid- to end-March 2026, allowing users to seamlessly access full chat history in the navigation pane. The feature is enabled by default, requires no admin action, and does not affect existing workflows or compliance."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-04T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1237701",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-06T17:30:45.87Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-23T22:52:43Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Introducing infinite scroll for chat history",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
