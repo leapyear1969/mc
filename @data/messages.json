@@ -4,6 +4,139 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 20, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>We’re introducing a new feature in Viva Connections that helps users stay informed with SharePoint news. Starting with this rollout, users will receive a weekly notification in Microsoft Teams reminding them to catch up on SharePoint news articles they haven’t read from the previous week. These articles will be accessible under the <i>Unread</i> pill in the News tab within Viva Connections.&nbsp;&nbsp;</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498323\" target=\"_blank\">498323</a>.</p><p><b>When this will happen</b></p><p>General Availability: We will begin rolling out late March 2026 (previously mid-March) and expect to complete by end of March 2026 (previously end of February).&nbsp;</p><p><b>How this affects your organization</b></p><p>Once rolled out, users will receive a weekly notification in Microsoft Teams linking them to their unread SharePoint news in Viva Connections. This notification is enabled by default, but users can manage its visibility through their Teams notification settings.</p><p><b>What you can do to prepare</b></p><ul><li>No admin action is required. The rollout is automatic.</li><li>Admins may wish to inform users about the new notification and how to manage it in Teams settings.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498323"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting late March 2026, Viva Connections will send weekly Microsoft Teams notifications about unread SharePoint news articles. Notifications are enabled by default but can be managed by users. No admin action is needed, though admins may inform users about this feature."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS"
+      }
+    ],
+    "EndDateTime": "2026-05-04T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1138793",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-20T16:17:53.197Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-20T23:37:14Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Unread News Notifications in Viva Connections",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 20, 2026: We have paused release of this feature at this time. We will update this post when we are ready to move forward. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>Microsoft Edge for Business will soon support <i>Rewrite</i>, a new feature powered by Microsoft 365 Copilot Chat. This capability helps users draft and rephrase editable text directly within <i>Edge</i>, enhancing productivity and writing quality. Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=420335\" target=\"_blank\">420335</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>We will communicate via Message center when we are ready to proceed.&nbsp;</p><p><b>How this affects your organization</b></p><ul><li><i>Rewrite</i> will be <b>enabled by default</b> for Edge for Business users.&nbsp;</li><li>Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</li><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e0d954c7-eff4-4a2c-92b2-c6a479f1a8c0/9c483f3360fb2698d456b9325d6aeaf5d56bb61f.png\" style=\"width: 623.982px;\"><p></p><li>If Microsoft 365 Copilot is restricted from accessing page content due to Data Loss Prevention (DLP) policies, <i>Rewrite</i> will not function on that content.</li><li>Admins can manage this feature using the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/composeinlineenabled\" target=\"_blank\">InlineComposeEnabled</a> policy setting.</li></ul><p><b>What you can do to prepare</b></p><p>No admin action is required before rollout. </p><p>We recommend:</p><ul><li>Reviewing your current DLP configurations to understand how they may impact <i>Rewrite </i>functionality.</li><li>Notifying users about this new capability.</li><li>Updating internal documentation to reflect this change.</li></ul><p>Learn more about how DLP affects Copilot access to page content:&nbsp;<a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This change introduces a new generative AI capability through Microsoft 365 Copilot Chat, allowing users to rewrite or draft text directly in Edge for Business.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can interact with Copilot Chat by highlighting editable text and using the right-click context menu to access Rewrite, enabling AI-assisted drafting and rephrasing.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP policies restrict Copilot from accessing page content, the Rewrite feature will not function on that content.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage the availability of this feature using the InlineComposeEnabled policy setting.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can choose to use the Rewrite feature by manually invoking it through the right-click context menu in Edge.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "420335"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Edge for Business will soon include the Rewrite feature powered by Microsoft 365 Copilot Chat, enabling AI-assisted text drafting and rephrasing via right-click. Release is paused currently. Admins can manage it with the InlineComposeEnabled policy, and DLP restrictions may block its functionality. No immediate admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1146821",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-20T16:11:42.647Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-02T23:22:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Rewrite with Microsoft 365 Copilot Chat coming soon to Edge for Business users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 20, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><i>You are receiving this message because our telemetry indicates that you have at least one Conditional Access policy targeting All resources with one or more resource exclusions. \n</i></p><p>As described in this <a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Microsoft Entra Blog post</a>, we’re enhancing how Conditional Access policies that target All resources and have resource exclusions are enforced for a narrow set of authentication flows. This is a proactive security measure in alignment with Microsoft’s ongoing commitment to defense-in-depth. \n</p><p><b>What is changing? \n</b></p><p><b>Today</b>, when a user signs in through a client application that requests only <a href=\"https://learn.microsoft.com//entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\">OIDC scopes</a> or a <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#legacy-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">limited set of directory scopes</a>, Conditional Access policies that <b>target All resources are not enforced if the policy has one or more resource exclusions. \n</b></p><p><b>After this change</b>, Conditional Access policies that target <i>All resources</i> will be enforced for these sign-ins, <b>even when resource exclusions are present</b>. <a href=\"https://aka.ms/CAforLowValueScopes\" target=\"_blank\">Read more about this change.</a></p><p>In addition, customers who have scenarios that may be impacted by this change will have the ability to <b>retain the current behavior</b> while they assess impact and transition to the recommended Conditional Access enforcement. Additional details and guidance on this capability will be communicated in a future update. \n</p><p><b>When will you see this change? \n</b></p><p>Enforcement will now begin starting <b>May 13, 2026</b>, and will be rolled out progressively over several weeks.</p><p><b>How will this affect your organization? \n</b></p><p>When a user signs in through a client application that requests only the scopes listed above, users may now receive Conditional Access challenges (such as MFA or device compliance) where previously they were allowed access without enforcement. The exact challenge depends on the access controls configured in your policies that target <i>All resources</i> or policies that explicitly target <i>Azure AD Graph</i> as a resource. \n</p><p><b>What do you need to do to prepare? \n</b></p><p><b>In most cases, no action is required</b>, as most client applications request additional scopes beyond those listed above and are already subject to Conditional Access enforcement. In such cases, there is no change in behavior. \n</p><p>If you have custom applications that are intentionally designed to request <b>only</b> the scopes listed above, evaluate whether they can handle Conditional Access challenges such as MFA or device compliance. \n</p><ul><li>If they <b>already handle Conditional Access challenges</b>: no changes are required.</li><li>If they <b>do not</b>, updates may be needed. Refer to the <a href=\"https://learn.microsoft.com/entra/identity-platform/v2-conditional-access-dev-guide\">Microsoft Conditional Access developer guidance</a> on how to update your application appropriately.&nbsp;</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#new-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">Conditional Access behavior when an all resources policy has an app exclusion | Conditional Access | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\"> OpenID Connect scopes - Scopes and permissions in the Microsoft identity platform | Microsoft Entra | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions | Microsoft Entra Blog</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><i>\n</i></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting May 13, 2026, Conditional Access policies targeting All resources will be enforced even if they have resource exclusions, affecting sign-ins requesting only certain OIDC or directory scopes. Most organizations need no action, but custom apps requesting only these scopes should ensure they handle Conditional Access challenges."
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1223829",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-20T16:05:12.45Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-29T00:44:07Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 19, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re adding a new Exchange Online admin policy that gives admins more control over the default Mail Compose and Reply setting that determines whether commas are used as recipient separators.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557676\" target=\"_blank\">557676</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and complete by <b>mid‑April 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Exchange Online administrators in New Outlook for Windows and Outlook for Web</li><li>All users composing or replying to email in <i>Outlook</i> where no per‑user override is configured</li></ul><p><i>What will happen</i></p><ul><li>A new admin policy will be available to set the tenant‑wide default for “<i><b>Use commas as recipient separators</b></i>.”</li><li>Admins can choose whether the default is on or off for all users.</li><li>Users may still change this setting in their <i>Outlook client </i>unless an admin enforces a policy that locks it:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d53d4d89-2cf9-4b09-8916-ad98fa64e98e/51360c8601e14324e4cd6d6a0a45e002a951a767.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>This update is especially useful for organizations whose contacts commonly use “Last name, First name” formats.</li><li>No changes will occur automatically—tenants will retain existing behavior unless an admin modifies the policy.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. If desired, you may configure the new admin policy after rollout if you want to establish a consistent default.&nbsp;You can set this value&nbsp;via Powershell with the command \"Set-Organization Config -RecipientDelimeters&nbsp;&lt;Boolean&gt;.\"</p><p>You may also consider the following actions:&nbsp;</p><ul><li>Review your organization’s preferred recipient formatting conventions.</li><li>Update internal documentation if your helpdesk or user‑training materials reference this setting.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -6176,53 +6309,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams admin center: New Teams External Collaboration Administrator role",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>We’re introducing a new feature in Viva Connections that helps users stay informed with SharePoint news. Starting with this rollout, users will receive a weekly notification in Microsoft Teams reminding them to catch up on SharePoint news articles they haven’t read from the previous week. These articles will be accessible under the <i>Unread</i> pill in the News tab within Viva Connections.&nbsp;&nbsp;</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498323\" target=\"_blank\">498323</a>.</p><p><b>When this will happen</b></p><p>General Availability: We will begin rolling out mid-March 2026 (previously mid-February) and expect to complete by end of March 2026 (previously end of February).&nbsp;</p><p><b>How this affects your organization</b></p><p>Once rolled out, users will receive a weekly notification in Microsoft Teams linking them to their unread SharePoint news in Viva Connections. This notification is enabled by default, but users can manage its visibility through their Teams notification settings.</p><p><b>What you can do to prepare</b></p><ul><li>No admin action is required. The rollout is automatic.</li><li>Admins may wish to inform users about the new notification and how to manage it in Teams settings.</li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498323"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-March 2026, Viva Connections will send weekly Microsoft Teams notifications to users about unread SharePoint news from the past week. Notifications are enabled by default but can be managed in Teams settings. No admin action is needed; rollout completes by end of March 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS"
-      }
-    ],
-    "EndDateTime": "2026-05-04T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1138793",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-02T17:51:30.417Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-20T23:37:14Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Unread News Notifications in Viva Connections",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12494,45 +12580,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 30, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><i>You are receiving this message because our telemetry indicates that you have at least one Conditional Access policy targeting All resources with one or more resource exclusions. \n</i></p><p>As described in this <a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Microsoft Entra Blog post</a>, we’re enhancing how Conditional Access policies that target All resources and have resource exclusions are enforced for a narrow set of authentication flows. This is a proactive security measure in alignment with Microsoft’s ongoing commitment to defense-in-depth. \n</p><p><b>What is changing? \n</b></p><p><b>Today</b>, when a user signs in through a client application that requests only <a href=\"https://learn.microsoft.com//entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\">OIDC scopes</a> or a <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#legacy-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">limited set of directory scopes</a>, Conditional Access policies that <b>target All resources are not enforced if the policy has one or more resource exclusions. \n</b></p><p><b>After this change</b>, Conditional Access policies that target <i>All resources</i> will be enforced for these sign-ins, <b>even when resource exclusions are present</b>. <a href=\"https://aka.ms/CAforLowValueScopes\" target=\"_blank\">Read more about this change.</a> \n</p><p><b>When will you see this change? \n</b></p><p>Microsoft Entra ID will begin enforcing this change starting March 27, 2026. This will be rolled out progressively over several weeks until June 2026.  \n</p><p><b>How will this affect your organization? \n</b></p><p>When a user signs in through a client application that requests only the scopes listed above, users may now receive Conditional Access challenges (such as MFA or device compliance) where previously they were allowed access without enforcement. The exact challenge depends on the access controls configured in your policies that target <i>All resources</i> or policies that explicitly target <i>Azure AD Graph</i> as a resource. \n</p><p><b>What do you need to do to prepare? \n</b></p><p><b>In most cases, no action is required</b>, as most client applications request additional scopes beyond those listed above and are already subject to Conditional Access enforcement. In such cases, there is no change in behavior. \n</p><p>If you have custom applications that are intentionally designed to request <b>only</b> the scopes listed above, evaluate whether they can handle Conditional Access challenges such as MFA or device compliance. \n</p><ul><li>If they <b>already handle Conditional Access challenges</b>: no changes are required.</li><li>If they <b>do not</b>, updates may be needed. Refer to the <a href=\"https://learn.microsoft.com/entra/identity-platform/v2-conditional-access-dev-guide\">Microsoft Conditional Access developer guidance</a> on how to update your application appropriately.&nbsp;</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#new-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">Conditional Access behavior when an all resources policy has an app exclusion | Conditional Access | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\"> OpenID Connect scopes - Scopes and permissions in the Microsoft identity platform | Microsoft Entra | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions | Microsoft Entra Blog</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><i>\n</i></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting March 27, 2026, Conditional Access policies targeting All resources will be enforced even if they have resource exclusions, affecting sign-ins requesting only certain OIDC or directory scopes. Most organizations need no action unless custom apps request only these scopes and cannot handle Conditional Access challenges."
-      }
-    ],
-    "EndDateTime": "2026-07-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1223829",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-30T21:38:50.837Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-29T00:44:07Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<b></b>\n\n<p>Updated January 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Copilot readiness</b> in the <i>Microsoft 365 admin center</i> provides a centralized experience for applying Microsoft’s recommended settings, policies, and actions for Copilot. It organizes these into predefined packages so admins can quickly deploy Copilot securely and confidently.</p><p>To support IT admins in navigating the fast-paced AI landscape, Microsoft is introducing <b>Copilot Readiness Packages</b> in the <i>Microsoft 365 Admin Center</i>. These packages offer a centralized experience to discover Microsoft’s recommended admin presets, grouped by key administrative outcomes. Each package includes a personalized readiness assessment, contextual insights, and step-by-step guidance—helping admins deploy Copilot securely, confidently, and efficiently.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526793\" target=\"_blank\">526793</a>.</p>\n\n<p><b><b>When this will happen</b></b></p><ul>\n<li><b>Targeted Release:</b> Begins mid-February 2026 (previously&nbsp;mid-December 2025); completes mid-February 2026 (previously&nbsp;mid-January).</li>\n<li><b>General Availability (Worldwide):</b> Begins mid-March 2026 (previously&nbsp;mid-January); completes by end of March 2026 (previously&nbsp;late February).</li>\n</ul><p></p>\n\n<p><b><b>How this affects your organization</b></b>\n</p><p><b>Who is affected:&nbsp;</b>Admins managing Microsoft 365 tenants with Copilot capabilities.\n<b>What will happen:</b>\n</p><ul>\n<li>A new <b><i>Readiness</i></b> pivot will appear under <i><b>Copilot &gt; Settings</b></i> in the <i>Microsoft 365 admin center</i>.</li>\n<li>Admins will see grouped configuration sets aligned to key administrative outcomes.</li>\n<li>Each package includes Microsoft’s recommended presets, a personalized readiness assessment, and contextual insights.</li>\n<li><b>No changes will be made automatically;</b> admins can review and apply configurations as needed.</li>\n<li>The experience is designed to reduce setup complexity and improve governance and security alignment.</li><li><b>No Microsoft 365 Copilot license is required to use this feature. </b>Admins can configure both <b>Copilot Chat</b> and <b>Microsoft 365 Copilot </b>settings without needing a license.</li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare</b></b>\n</p><p>No special preparation is required. To get the most out of the experience, admins should:\n</p><ul>\n<li>Visit the Microsoft 365 admin center and navigate to <b>Copilot &gt; Settings &gt; Readiness</b></li>\n<li>Review the suggested presets and readiness assessments</li>\n<li>Follow the provided guidance to complete any missing actions or policy updates</li>\n<li>Share feedback directly in the <i>admin center</i> to help improve clarity and completeness</li>\n</ul><p></p>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14196,53 +14243,6 @@
       "User impact"
     ],
     "Title": "Create custom templates for immersive events in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 15, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>Microsoft Edge for Business will soon support <i>Rewrite</i>, a new feature powered by Microsoft 365 Copilot Chat. This capability helps users draft and rephrase editable text directly within <i>Edge</i>, enhancing productivity and writing quality. Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=420335\" target=\"_blank\">420335</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in mid-March 2026 (previously late January).</p><p><b>How this affects your organization</b></p><ul><li><i>Rewrite</i> will be <b>enabled by default</b> for Edge for Business users.&nbsp;</li><li>Users can access <i>Rewrite</i> by highlighting editable text and right-clicking to open the context menu.</li><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e0d954c7-eff4-4a2c-92b2-c6a479f1a8c0/9c483f3360fb2698d456b9325d6aeaf5d56bb61f.png\" style=\"width: 623.982px;\"><p></p><li>If Microsoft 365 Copilot is restricted from accessing page content due to Data Loss Prevention (DLP) policies, <i>Rewrite</i> will not function on that content.</li><li>Admins can manage this feature using the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/composeinlineenabled\" target=\"_blank\">InlineComposeEnabled</a> policy setting.</li></ul><p><b>What you can do to prepare</b></p><p>No admin action is required before rollout. </p><p>We recommend:</p><ul><li>Reviewing your current DLP configurations to understand how they may impact <i>Rewrite </i>functionality.</li><li>Notifying users about this new capability.</li><li>Updating internal documentation to reflect this change.</li></ul><p>Learn more about how DLP affects Copilot access to page content:&nbsp;<a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This change introduces a new generative AI capability through Microsoft 365 Copilot Chat, allowing users to rewrite or draft text directly in Edge for Business.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can interact with Copilot Chat by highlighting editable text and using the right-click context menu to access Rewrite, enabling AI-assisted drafting and rephrasing.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP policies restrict Copilot from accessing page content, the Rewrite feature will not function on that content.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage the availability of this feature using the InlineComposeEnabled policy setting.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can choose to use the Rewrite feature by manually invoking it through the right-click context menu in Edge.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "420335"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Edge for Business will launch the Rewrite feature powered by Microsoft 365 Copilot Chat in mid-March 2026. Enabled by default, it allows users to draft and rephrase text via right-click. Functionality depends on DLP policies, and admins can control it with the InlineComposeEnabled policy."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1146821",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-16T00:00:07.757Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-02T23:22:03Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Rewrite with Microsoft 365 Copilot Chat coming soon to Edge for Business users",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
