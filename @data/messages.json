@@ -4,6 +4,192 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We're introducing more flexible and<b> precise audience targeting</b> in <i>Viva Engage</i>, starting with <b>Storyline Announcements</b>. This update allows leaders and their delegates to define a custom audience at the time of posting—without relying on pre-configured Leader Audiences. Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users by name. This flexibility enables more timely, targeted communication, helping leaders reach the right people with the right message. Notifications and delivery channels (such as Teams, email) will continue to follow existing Storyline Announcement behavior, ensuring a seamless experience for recipients.\n</p><p>This feature is ideal for leaders who want to tailor communications to specific departments, locations, or existing groups, enhancing relevance and engagement across the organization.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499895\" target=\"_blank\">499895</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by mid-March 2026 (previously early February).\n</li><li><b>General Availability (Worldwide):</b> Begins late May 2026 (previously mid-March) and completes by end of June 2026 (previously mid-April).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Leaders and delegates using Viva Engage Storyline Announcements in tenants enrolled in public preview.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>This capability is being introduced as part of the public preview for Viva Engage. During this phase, leaders and their delegates can actively experiment with flexible audience targeting for Storyline Announcements—defining a custom audience at the time of posting, rather than relying solely on pre‑configured Leader Audiences.</li><li>Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users.</li><li>Notifications and delivery channels (Teams, email, Viva Engage Inbox) remain unchanged for recipients.</li><li>No dependency on IT or advance audience setup—leaders can act immediately when communication needs arise.</li><li><b>Available only in public preview</b>; functionality and targeting options may evolve before general availability.</li><li>Admins should ensure organizational attributes in Entra ID or Organizational Data in Microsoft are accurate to support successful targeting.</li><li><b>Available platforms:</b> Desktop and web.</li><li><b>Licensing requirements: </b>This feature requires a premium license available through Viva or Communications and Communities (C&amp;C). Availability may vary depending on your organization's Microsoft 365 licensing agreement.</li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No admin action is required for rollout. To prepare, you may want to:</p><ul>\n<li>Validate organizational attributes (reporting structure, country, department, role, job title) in <i>Microsoft Entra ID</i> or Organizational Data in <i>Microsoft</i>.</li>\n<li>Confirm leader and delegate assignments to ensure the right people can use Storyline Announcements and the new targeting control.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/viva/organizational-data\" target=\"_blank\">Use your organizational data in Microsoft 365 and Microsoft Viva | Microsoft Viva | Microsoft Learn</a></li>\n</ul><p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "499895"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Engage is introducing flexible, precise audience targeting for Storyline Announcements, allowing leaders to define custom audiences using organizational attributes, groups, or individuals at posting time. Public preview runs mid-November 2025 to mid-March 2026; general availability follows late May to June 2026. No admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1183013",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T16:32:04.947Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-05T00:23:16Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Engage: Flexible targeting of Storyline Announcements",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p></p><p>Updated March 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To help provide additional transparency about what content has been generated or altered by using AI in <i>Microsoft 365</i>, Microsoft is providing you with a policy setting that visually designates when content, such as video or audio content, is generated or altered by using AI. This policy setting controls your organization’s option to add a visual or audio watermark to video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>.  \n</p><p>\n</p><p>To turn on watermarks for video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>, you need to use the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy. This policy is available only in <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\" target=\"_blank\"><i>Cloud Policy service for Microsoft 365</i></a>.&nbsp;</p><p><b>Note:</b> Watermarks are not turned on unless you set the policy to <b>Enabled</b>. Your organization is always responsible for following the <a href=\"https://learn.microsoft.com/legal/ai-code-of-conduct\" target=\"_blank\">Microsoft Enterprise AI Services Code of Conduct</a>, including not generating or sharing deceptive AI content.&nbsp;</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=547831\" target=\"_blank\">547831</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We anticipate that this policy will be available in <i>Cloud Policy </i>by late March 2026 (previously&nbsp;mid-March).</p><p></p><p><b><b>How this will affect your organization</b></b></p><p></p><i>Who is affected</i><p></p><p>Users that generate or alter video and audio content by using AI in <i>Microsoft 365</i></p><p></p><p><i>What will happen</i></p><p>If you set the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy to <b>Enabled </b>in Cloud Policy, a visual or audio watermark is added to video and audio content that is generated or altered by using AI in <i>Microsoft 365</i>. Here are two examples:</p><ul><li>A visual watermark is added to a video generated with Clipchamp.</li><li>An audio watermark is added to an audio overview generated by Copilot from a Word document.</li></ul><b>Notes:</b><ul><li>This policy doesn’t affect images generated or altered by using AI in <i>Microsoft 365</i>.</li><li>Instead, your users will be able to turn on watermarks for images by going to<b> Settings &amp; Privacy &gt; Privacy</b> at <a href=\"https://myaccount.microsoft.com\" target=\"_blank\">https://myaccount.microsoft.com</a>. We anticipate this capability will be available in the <b>second half of February 2026</b>.&nbsp;</li></ul><p></p><p><b><b>What you need to do to prepare</b></b></p><p></p>Review the information in the following article: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/watermarks\" target=\"_blank\">Add watermarks to content generated or altered by using AI in Microsoft 365</a>. If you decide to set the<b> “Include a watermark when content from Microsoft 365 is generated or altered by AI”</b> policy to <b>Enabled</b>, inform your users that a visual or audio watermark will be added to video and audio content that they generate or alter by using AI in <i>Microsoft 365</i>.&nbsp;<p></p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "547831"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will offer a policy to add visual or audio watermarks to AI-generated or altered video and audio content, available via Cloud Policy by late March 2026. This enhances transparency but does not affect AI-generated images, which will have separate watermark controls starting February 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221451",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T16:28:26.613Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:53:50Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New policy to add watermarks to content generated or altered by using AI in Microsoft 365",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><span>Updated March 23, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</span></p><p><span>To help you manage agent adoption for Microsoft 365 Copilot Chat, we are\nintroducing a new usage report in the Microsoft 365 admin center. The report provides\nvisibility into how users in your organization are actively using agents in\nMicrosoft 365 Copilot Chat and includes metrics such as:&nbsp;</span></p><ul><li><span>Total number\nof active agent users and active agents&nbsp;</span></li><li><span>Usage\nbreakdown per user, per agent, and per user-agent pair&nbsp;</span></li><li><span>Segmentation\nby license state (licensed vs. unlicensed Microsoft 365 Copilot users)&nbsp;</span></li><li><span>Segmentation\nby agent creator type (i.e. agents built by your organization, Microsoft, or\nMicrosoft partners)&nbsp;</span></li></ul><p><span>The new report is rolling out in preview and will be available under\nReporting &gt; Usage &gt; Microsoft 365 Copilot &gt; Agent. During the preview\nstage, the report will display a maximum of 30 days of history. In addition,\nusage information from prior to August 19 2025 will not be\navailable in the report. This report only includes declarative agents. Usage data for SharePoint agents and Custom engine agents will be available in a future update.</span></p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497999\" target=\"_blank\">497999</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): Available now.</p><p>General Availability (Worldwide): We will begin rolling out in early May 2026 (previously March) and expect to complete by mid-May 2026 (previously end of March).</p><p><b>How this will affect your organization:</b></p><p></p><div><p><span>You will see a new “Agent” report in the Usage section in M365 Admin center showing usage associated with your organizations use of agents in Microsoft 365 Copilot Chat at Tenant, user, agent and agent-user level.</span></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1a7e47ca-3b21-4cd2-930d-95528d4bb6fe \" width=\"400\" height=\"\"></p><p><i><span>Learn more </span></i><a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new\"><span>Microsoft 365 reports in the admin center –Agent usage</span></a></p></div><p></p><p><b>What you need to do to prepare:</b></p><p></p>This rollout will happen automatically by the specified date with no\nadmin action required before the rollout. You may want to notify any admins\nthat manage agents in the&nbsp;Copilot Control system&nbsp;section of the\nMicrosoft 365 admin center. Learn more in&nbsp;<a href=\"https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\">Manage agents for Microsoft 365 Copilot in the Microsoft 365\nadmin center</a><span>.</span>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "497999"
+      },
+      {
+        "Name": "Summary",
+        "Value": "A new preview usage report for Microsoft 365 Copilot Chat agents is available in the admin center, showing active users, agents, and usage details by license and creator type. It covers up to 30 days of data from August 19, 2025, and will roll out fully by mid-May 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-15T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1148545",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T16:23:00.637Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-05T22:05:38Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 admin center - Usage reports: Agent usage (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To support frontline workers using personal devices, Microsoft is introducing a dynamic <b>onboarding wizard for Microsoft Teams</b>. This experience is designed to simplify setup on Android and iOS devices, especially in environments with security policies like <b>multi-factor authentication (MFA)</b> and mobile application management. The wizard adapts automatically to your organization’s policies, helping drive secure and efficient <b>Bring Your Own Device (BYOD)</b> adoption.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523213\" target=\"_blank\">523213</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:&nbsp;</b>Rollout begins in late November 2025 and is and expected to complete by mid-January 2026</li><li><b>General Availability:&nbsp;</b>Rollout begins in mid-May 2026 (previously late April) and is and expected to complete by early June 2026 (previously early May).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Frontline workers setting up Microsoft Teams on personal Android or iOS devices</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new onboarding wizard will be available via web, optimized for desktop kiosks or shared PCs</li>\n<li>The wizard dynamically adjusts based on your organization’s security policies</li>\n<li>Supports MFA setup, with emphasis on Microsoft Authenticator push notifications</li>\n<li>This tool is optional and designed to improve BYOD Microsoft Teams adoption</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review the admin documentation to understand the onboarding wizard’s capabilities and limitations</li>\n<li>Consider integrating the wizard into your new user onboarding workflows</li>\n<li>Communicate availability to helpdesk and frontline managers</li>\n<li>Update internal documentation if you support BYOD Microsoft Teams deployment</li><li>Review documentation at the following link: <a href=\"https://learn.microsoft.com/microsoft-365/frontline/flw-setup-frontline-personal-devices?view=o365-worldwide\">Set up frontline Teams on personal devices</a></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "523213"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing an updated onboarding wizard for frontline workers using personal Android or iOS devices with Microsoft Teams. It supports MFA and adapts to security policies, easing BYOD adoption. Public preview starts late November 2025; general availability begins mid-May 2026. Preparation includes reviewing admin documentation and updating workflows."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-13T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184994",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T16:16:09.703Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:09:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams frontline BYOD onboarding wizard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to use Microsoft 365 Copilot in model-driven apps in Power Apps. This feature will reach general availability on April 13, 2026.<br><br><b>How does this affect me?</b><br>This feature introduces an AI assistant that enables you to understand the data in your apps by engaging in natural language conversations and provides access to the full capabilities of Microsoft 365 Copilot directly in your apps.<br><br><b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/14551\">Use Microsoft 365 Copilot in model-driven apps</a>.",
       "ContentType": "html"
     },
@@ -8257,53 +8443,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p></p><p></p><p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To help provide additional transparency about what content has been generated or altered by using AI in <i>Microsoft 365</i>, Microsoft is providing you with a policy setting that visually designates when content, such as video or audio content, is generated or altered by using AI. This policy setting controls your organization’s option to add a visual or audio watermark to video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>.  \n</p><p>\n</p><p>To turn on watermarks for video and audio content that your users generate or alter by using AI in <i>Microsoft 365</i>, you need to use the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy. This policy is available only in <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\" target=\"_blank\"><i>Cloud Policy service for Microsoft 365</i></a>.&nbsp;</p><p><b>Note:</b> Watermarks are not turned on unless you set the policy to <b>Enabled</b>. Your organization is always responsible for following the <a href=\"https://learn.microsoft.com/legal/ai-code-of-conduct\" target=\"_blank\">Microsoft Enterprise AI Services Code of Conduct</a>, including not generating or sharing deceptive AI content.&nbsp;</p><p>This change is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=547831\" target=\"_blank\">547831</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We anticipate that this policy will be available in <i>Cloud Policy </i>by&nbsp;<b>mid-March 2026 (previously late February)</b>.</p><p></p><p><b><b>How this will affect your organization</b></b></p><p></p><i>Who is affected</i><p></p><p>Users that generate or alter video and audio content by using AI in <i>Microsoft 365</i></p><p></p><p><i>What will happen</i></p><p>If you set the “<b>Include a watermark when content from Microsoft 365 is generated or altered by AI</b>” policy to <b>Enabled </b>in Cloud Policy, a visual or audio watermark is added to video and audio content that is generated or altered by using AI in <i>Microsoft 365</i>. Here are two examples:</p><ul><li>A visual watermark is added to a video generated with Clipchamp.</li><li>An audio watermark is added to an audio overview generated by Copilot from a Word document.</li></ul><b>Notes:</b><ul><li>This policy doesn’t affect images generated or altered by using AI in <i>Microsoft 365</i>.</li><li>Instead, your users will be able to turn on watermarks for images by going to<b> Settings &amp; Privacy &gt; Privacy</b> at <a href=\"https://myaccount.microsoft.com\" target=\"_blank\">https://myaccount.microsoft.com</a>. We anticipate this capability will be available in the <b>second half of February 2026</b>.&nbsp;</li></ul><p></p><p><b><b>What you need to do to prepare</b></b></p><p></p>Review the information in the following article: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/watermarks\" target=\"_blank\">Add watermarks to content generated or altered by using AI in Microsoft 365</a>. If you decide to set the<b> “Include a watermark when content from Microsoft 365 is generated or altered by AI”</b> policy to <b>Enabled</b>, inform your users that a visual or audio watermark will be added to video and audio content that they generate or alter by using AI in <i>Microsoft 365</i>.&nbsp;<p></p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "547831"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 will offer a policy to add visual or audio watermarks to AI-generated or altered video and audio content, available mid-March 2026 via Cloud Policy. Images are excluded but will have watermark options from February 2026 through user privacy settings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221451",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-24T21:08:43.447Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:53:50Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "New policy to add watermarks to content generated or altered by using AI in Microsoft 365",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new capability in <i>Microsoft Purview eDiscovery (Premium) </i>that allows eDiscovery users to <b>add a statistical sample of search results to a review set</b>. This enhancement helps organizations validate search results earlier in the investigation process, improving confidence in data relevance before committing all results to review.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b43cf390-37c0-4683-bd5d-4016cb59ad16/2424bdacd6be642e5c5b336b5f841b642f617501.png\" style=\"width: 400px;\"></p><p>With this update, reviewers can include a representative subset of items based on configurable sampling criteria, enabling faster early‑stage assessment while reducing review volume.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516578#Roadmap\" target=\"_blank\">516578</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in<b>&nbsp;mid-March 2026&nbsp;</b>(previously late February)&nbsp;and is expected to complete by <b>late March 2026</b> (previously&nbsp;late February).</p><p><b>General Availability (GCC, GCCH, and DoD)</b>: Rollout will begin in<b>&nbsp;mid-March 2026 (previously early March)</b>&nbsp;and is expected to complete by<b> late March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Administrators and eDiscovery (Premium) users who manage or review search results and review sets in <i>Microsoft Purview</i>.</p><p><i>What will happen</i>:</p><ul><li>This change does not impact any other Microsoft Purview or Microsoft 365 services.</li><li>Users will see new sampling options after search statistics have been generated for a search.</li><li>Users can choose to add all search results to a review set or add a sample of results based on configurable statistical inputs.</li><li>When sampling is selected, reviewers can specify:<ul><li>Confidence level</li><li>Confidence interval</li><li>Percentage‑based sampling options</li></ul></li><li>This capability integrates with existing eDiscovery workflows.</li><li>No changes are made to permissions, access controls, or review set behaviors.</li><li>No features are being removed or replaced.</li><li>The feature will be <b>available by default</b> when it reaches your tenant.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No prerequisites are required, and no action is needed to prepare for this change. The capability will become available automatically.</p><p>If helpful, you may consider:</p><ul><li>Reviewing internal eDiscovery workflows.</li><li>Updating training or documentation to reflect how sampling can support early validation of search results.</li></ul><p>Learn more about eDiscovery: <a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery solutions | Microsoft Learn</a>\n</p><p>Learn more about adding search results to review set: <a href=\"https://learn.microsoft.com/purview/edisc-search-add-to-review-set?view=o365-worldwide\" target=\"_blank\">Add search results to a review set in eDiscovery | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -9459,52 +9598,6 @@
       "Retirement"
     ],
     "Title": "Retirement of several Microsoft Planner features in early 2026 as part of a Planner update",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 19, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To support frontline workers using personal devices, Microsoft is introducing a dynamic <b>onboarding wizard for Microsoft Teams</b>. This experience is designed to simplify setup on Android and iOS devices, especially in environments with security policies like <b>multi-factor authentication (MFA)</b> and mobile application management. The wizard adapts automatically to your organization’s policies, helping drive secure and efficient <b>Bring Your Own Device (BYOD)</b> adoption.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523213\" target=\"_blank\">523213</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:&nbsp;</b>Rollout begins in late November 2025 and is and expected to complete by mid-January 2026</li><li><b>General Availability:&nbsp;</b>Rollout begins in late April 2026 (previously mid-March) and is and expected to complete by early May 2026 (previously end of March).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Frontline workers setting up Microsoft Teams on personal Android or iOS devices</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new onboarding wizard will be available via web, optimized for desktop kiosks or shared PCs</li>\n<li>The wizard dynamically adjusts based on your organization’s security policies</li>\n<li>Supports MFA setup, with emphasis on Microsoft Authenticator push notifications</li>\n<li>This tool is optional and designed to improve BYOD Microsoft Teams adoption</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review the admin documentation to understand the onboarding wizard’s capabilities and limitations</li>\n<li>Consider integrating the wizard into your new user onboarding workflows</li>\n<li>Communicate availability to helpdesk and frontline managers</li>\n<li>Update internal documentation if you support BYOD Microsoft Teams deployment</li><li>Review documentation at the following link: <a href=\"https://learn.microsoft.com/microsoft-365/frontline/flw-setup-frontline-personal-devices?view=o365-worldwide\">Set up frontline Teams on personal devices</a></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "523213"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is introducing an updated onboarding wizard for frontline workers using personal Android or iOS devices with Microsoft Teams. It supports MFA and adapts to security policies, easing BYOD adoption. Public preview starts late November 2025; general availability begins late April 2026. Preparation includes reviewing admin documentation and updating workflows."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-06-12T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1184994",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-19T17:24:21.517Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-12T00:09:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams frontline BYOD onboarding wizard",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11681,53 +11774,6 @@
       "Admin impact"
     ],
     "Title": "Updated feedback experience for Microsoft Planner",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We're introducing more flexible and<b> precise audience targeting</b> in <i>Viva Engage</i>, starting with <b>Storyline Announcements</b>. This update allows leaders and their delegates to define a custom audience at the time of posting—without relying on pre-configured Leader Audiences. Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users by name. This flexibility enables more timely, targeted communication, helping leaders reach the right people with the right message. Notifications and delivery channels (such as Teams, email) will continue to follow existing Storyline Announcement behavior, ensuring a seamless experience for recipients.\n</p><p>This feature is ideal for leaders who want to tailor communications to specific departments, locations, or existing groups, enhancing relevance and engagement across the organization.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=499895\" target=\"_blank\">499895</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>Public Preview (Worldwide):</b> Begins mid-November 2025 and completes by mid-March 2026 (previously early February).\n</li><li><b>General Availability (Worldwide):</b> Begins mid-March 2026 (previously early February) and completes by mid-April 2026 (previously early March).</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Leaders and delegates using Viva Engage Storyline Announcements in tenants enrolled in public preview.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>This capability is being introduced as part of the public preview for Viva Engage. During this phase, leaders and their delegates can actively experiment with flexible audience targeting for Storyline Announcements—defining a custom audience at the time of posting, rather than relying solely on pre‑configured Leader Audiences.</li><li>Audiences can include organizational attributes (such as reporting structure, country, department, job title), existing groups (Microsoft 365 Groups, DLs, SGs), or individual users.</li><li>Notifications and delivery channels (Teams, email, Viva Engage Inbox) remain unchanged for recipients.</li><li>No dependency on IT or advance audience setup—leaders can act immediately when communication needs arise.</li><li><b>Available only in public preview</b>; functionality and targeting options may evolve before general availability.</li><li>Admins should ensure organizational attributes in Entra ID or Organizational Data in Microsoft are accurate to support successful targeting.</li><li><b>Available platforms:</b> Desktop and web.</li><li><b>Licensing requirements: </b>This feature requires a premium license available through Viva or Communications and Communities (C&amp;C). Availability may vary depending on your organization's Microsoft 365 licensing agreement.</li>\n</ul><p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No admin action is required for rollout. To prepare, you may want to:</p><ul>\n<li>Validate organizational attributes (reporting structure, country, department, role, job title) in <i>Microsoft Entra ID</i> or Organizational Data in <i>Microsoft</i>.</li>\n<li>Confirm leader and delegate assignments to ensure the right people can use Storyline Announcements and the new targeting control.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/viva/organizational-data\" target=\"_blank\">Use your organizational data in Microsoft 365 and Microsoft Viva | Microsoft Viva | Microsoft Learn</a></li>\n</ul><p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "499895"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Engage is introducing flexible, precise audience targeting for Storyline Announcements, allowing leaders to define custom audiences using organizational attributes, groups, or individuals at posting time. Public preview runs mid-November 2025 to mid-March 2026; general availability follows. No admin action needed, but validating organizational data is recommended."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183013",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-05T17:55:12.51Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-05T00:23:16Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Engage: Flexible targeting of Storyline Announcements",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16039,52 +16085,6 @@
       "Admin impact"
     ],
     "Title": "Please update Microsoft 365 Office apps to a version higher than 16.0.18827.20202",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><span>Updated December 12, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</span></p><p><span>To help you manage agent adoption for Microsoft 365 Copilot Chat, we are\nintroducing a new usage report in the Microsoft 365 admin center. The report provides\nvisibility into how users in your organization are actively using agents in\nMicrosoft 365 Copilot Chat and includes metrics such as:&nbsp;</span></p><ul><li><span>Total number\nof active agent users and active agents&nbsp;</span></li><li><span>Usage\nbreakdown per user, per agent, and per user-agent pair&nbsp;</span></li><li><span>Segmentation\nby license state (licensed vs. unlicensed Microsoft 365 Copilot users)&nbsp;</span></li><li><span>Segmentation\nby agent creator type (i.e. agents built by your organization, Microsoft, or\nMicrosoft partners)&nbsp;</span></li></ul><p><span>The new report is rolling out in preview and will be available under\nReporting &gt; Usage &gt; Microsoft 365 Copilot &gt; Agent. During the preview\nstage, the report will display a maximum of 30 days of history. In addition,\nusage information from prior to August 19 2025 will not be\navailable in the report. This report only includes declarative agents. Usage data for SharePoint agents and Custom engine agents will be available in a future update.</span></p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=497999\" target=\"_blank\">497999</a></p><p><b>When this will happen:</b></p><p>Public Preview (Worldwide): Available now.</p><p>General Availability (Worldwide): We will begin rolling out in March 2026 (previously mid-December 2025) and expect to complete by end of March 2026 (previously late December 2025).</p><p><b>How this will affect your organization:</b></p><p></p><div><p><span>You will see a new “Agent” report in the Usage section in M365 Admin center showing usage associated with your organizations use of agents in Microsoft 365 Copilot Chat at Tenant, user, agent and agent-user level.</span></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/1a7e47ca-3b21-4cd2-930d-95528d4bb6fe \" width=\"400\" height=\"\"></p><p><i><span>Learn more </span></i><a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new\"><span>Microsoft 365 reports in the admin center –Agent usage</span></a></p></div><p></p><p><b>What you need to do to prepare:</b></p><p></p>This rollout will happen automatically by the specified date with no\nadmin action required before the rollout. You may want to notify any admins\nthat manage agents in the&nbsp;Copilot Control system&nbsp;section of the\nMicrosoft 365 admin center. Learn more in&nbsp;<a href=\"https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide\">Manage agents for Microsoft 365 Copilot in the Microsoft 365\nadmin center</a><span>.</span>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "497999"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A new preview usage report for Microsoft 365 Copilot Chat agents is available in the Microsoft 365 admin center, showing active users, agents, usage details, and segmentation by license and creator type. It covers up to 30 days and excludes data before August 19, 2025. General rollout begins March 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-04-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1148545",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-12T17:25:28.603Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-05T22:05:38Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 admin center - Usage reports: Agent usage (preview)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
