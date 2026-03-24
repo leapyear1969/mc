@@ -4,6 +4,257 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing <b>OneLake storage tiers </b>(hot, cool, and cold) in <i>Microsoft Fabric</i>. As part of this rollout, we are updating how OneLake compute operations appear in your capacity billing. These updates improve clarity and align reporting with the new storage tier model. <b>There is no change to billing rates.</b></p><p><i>Key updates include</i></p><ul><li><b>Operation names include the storage tier.</b> For example, “<i>OneLake Read via Proxy</i>” becomes “<i>OneLake Read (Hot)</i>.”</li><li><b>Proxy and Redirect operations are consolidated.</b> Operations previously reported separately will appear under a single operation name. Because consumption rates are the same, this has <b>no billing impact</b>.</li><li><b>Operations are reported at the workspace level.</b> A new OneLake item in the<i> <a href=\"https://learn.microsoft.com/fabric/enterprise/metrics-app-install?tabs=1st\" target=\"_blank\">Fabric Capacity Metrics app</a></i> groups operations by workspace instead of individual items. For item-level detail, use OneLake diagnostics to understand usage across Fabric and non-Fabric workloads.</li></ul><p>Units of measure and consumption rates remain unchanged.</p><p><b><b>When this will happen</b></b></p><ul><li>Operation name updates <b>begin April 1, 2026</b>.</li><li>Operation consolidation and Metrics app updates will roll out over the following weeks.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations using Microsoft Fabric with OneLake storage and capacity billing</li></ul><p><i>What will happen</i></p><ul><li><b>Operation names</b> will include the applicable storage tier (for example, “Hot”): \n</li><li><b>Proxy and Redirect operations</b> will appear under a single consolidated operation name:\n</li><li><b>OneLake operations</b> will be grouped by workspace under a new OneLake item in the Fabric Capacity Metrics app.\n</li><li><b>Item-level compute reporting</b> will move to OneLake diagnostics.</li></ul><p>The following example illustrates how the report now appears:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/77a4feaa-4770-46c7-a628-5a5d650a79e2/972c042a60d89aadfd477ff86903c39ba9a98722.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p>There is <b>no change</b> to billing rates or your total costs.</p><p><i>Operation name changes:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c52ee5e-d1c0-479a-8746-c96c0ea66049/d26e2c0b56e2464fae9fab36667cf48c7077337f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><br></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f10be11d-045a-432d-8478-addf69f35e1a/4ff50d53c6bf36681022f47a421e688690a783f9.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><p> </p><p><b><b>What you can do to prepare</b></b></p><ul><li><b>Review any custom analytics or automation. </b>Update operation names in reports, dashboards, and scripts to align with the new naming convention <b>before April 1, 2026</b>.</li><li><b>Plan for workspace-level reporting. </b>If you rely on item-level operation details in the <i>Capacity Metrics app</i>, <a href=\"https://learn.microsoft.com/fabric/onelake/onelake-diagnostics-overview\" target=\"_blank\">configure OneLake diagnostics</a> to maintain that granularity.</li><li>Review the documentation for <a href=\"https://learn.microsoft.com/fabric/onelake/onelake-consumption\" target=\"_blank\">OneLake compute consumption</a>&nbsp;in <i>Microsoft Fabric</i>.</li><li>Share with your helpdesk and reporting teams if they monitor capacity or cost analytics.</li></ul><p>No other action is required.</p><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/fabric/enterprise/metrics-app-install?tabs=1st\" target=\"_blank\">Install the Microsoft Fabric capacity metrics app | Microsoft Fabric | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-consumption\" target=\"_blank\">OneLake compute and storage consumption | OneLake | Microsoft Fabric | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-diagnostics-overview\" target=\"_blank\">OneLake diagnostics | OneLake | Microsoft Fabric | Microsoft Learn</a></li><li><b>OneLake storage tiers </b>- <a href=\"https://roadmap.fabric.microsoft.com/?product=onelake\" target=\"_blank\">Microsoft Fabric Roadmap</a></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-overview\" target=\"_blank\">OneLake, the OneDrive for data | OneLake | Microsoft Fabric | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><b><b>Support</b></b></p><p>For assistance, contact your Microsoft account team or visit Microsoft Fabric support.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Fabric's OneLake introduces storage tiers (hot, cool, cold) and updates operation reporting by including tier names, consolidating proxy/redirect operations, and grouping by workspace in the Capacity Metrics app. Billing rates remain unchanged. Changes start April 1, 2026; item-level details move to OneLake diagnostics."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259829",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:32:03.427Z",
+    "Services": [
+      "Power BI"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:31:55Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Changes to OneLake operation reporting in Microsoft Fabric",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We are expanding the <b>Data Security Posture Agent </b>in <i>Microsoft Purview</i> with a <b>new credential scanning capability</b>. This update helps your organization discover exposed credentials and related data security risks across scoped locations. The agent analyzes selected data locations to detect sensitive credential types—including Microsoft Entra user credentials, private keys, and API tokens—and provides risk scores, AI-generated insights, confidence ratings, and credential categories so you can review, confirm, and take action from a single task board view.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558436\" target=\"_blank\">558436</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview:</b> Rollout will begin in<b> late March 2026</b> and complete by <b>early April 2026</b>.</li><li><b>General Availability (Worldwide):</b> Rollout will begin in<b> late June 2026 </b>and complete by <b>early July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who manage Microsoft Purview and use the Data Security Posture Agent within Microsoft 365 tenants</li></ul><p><i>What will happen</i></p><ul><li>A <b>new credential scanning capability</b> will be added to the Data Security Posture Agent under the <b style=\"font-style: italic;\">Explore Agent </b>tab (<i>figures 1-5</i>):</li></ul><p><i>1.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9663e53e-073f-4b44-8c9c-705cd73bf325/4cbc0f7636bfd5503679a77481cb95a28973cd27.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><i>2.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/42c1c121-700e-47c5-b852-de7357cfab60/4ab34bc5c0b4fe4501d9fd432c8d65c3d9a0aaaf.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p></p><p><i>3.</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1e58dd78-b0da-48c2-926e-df7916332ed0/6e085253b45377affdd19ce177abda15776d8074.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p></p><p><i>4.</i></p><p></p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/589bad52-4c1a-47d7-b2e8-a294f527f64f/b84d20fa90bac7432b094e6935ff1e7f0e43f79e.png\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><i>5.</i><p></p><p></p><p></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a29fe061-81f3-4ee3-956b-d8cf960ef522/3d8a28e26f875ad278ef87316e61657e6a83266c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>The feature uses LLM-powered credential detection to:<p></p><ul><li>Scan selected data locations for exposed credentials.</li><li>Detect Entra ID credentials, private keys, API tokens, and other credential types.</li></ul><p></p></li><li>Each finding includes:<ul><li>A risk score</li><li>AI-generated insights</li><li>A confidence score</li><li>A credential category</li></ul></li><li>A task board experience will be available to track progress, review findings, and take action.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Set up the Data Security Posture Agent in <i><b>Microsoft Purview &gt; Explore Agent</b></i> using the required admin roles.</li><li>Communicate this change to your security and compliance teams.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations-posture-agent\" target=\"_blank\">Get started with Microsoft Purview Posture Agent in Data Security Investigations | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/copilot-in-purview-agents-overview\" target=\"_blank\">Security Copilot Agents in Microsoft Purview overview | Microsoft Purview | Microsoft Learn</a></li></ul><p></p><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?&nbsp;</td><td>The agent discovers exposed credentials and data security risks across scoped locations&nbsp;</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?&nbsp;</td><td>Introduces LLM-powered discovery and risk assessment.&nbsp;</td></tr><tr><td>Does the change provide users any new way of interacting with generative AI?&nbsp;</td><td>Admins receive GenAI-generated summaries and LLM-assisted tasks.&nbsp;</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?&nbsp;</td><td>Setup requires admin roles in <i>Microsoft Purview</i>.&nbsp;</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558436"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview's Data Security Posture Agent will add a credential scanning feature by mid-2026, using LLM-powered detection to find exposed credentials like Entra ID credentials, private keys, and API tokens. It provides risk scores, AI insights, and a task board for managing findings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259828",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:31:38.277Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:31:30Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Credential scanning in Data Security Posture Agent",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing a<b> new audit log querying experience in <i>Data Security Investigations (DSI)</i> in<i> Microsoft Purview</i></b>. This update allows administrators and investigators to build audit log queries directly within DSI by specifying criteria such as date range, users, activities, and keywords. DSI will then automatically surface files associated with those activities. This removes the previous manual process of exporting and reviewing large audit log datasets and makes investigations faster and more accurate.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558548\" target=\"_blank\">558548</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Rollout will begin in <b>early April 2026</b> and is expected to complete by<b> late April 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rollout will begin in<b> early May 2026 </b>and is expected to complete by<b> early May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins and investigators who use Data Security Investigations in the Microsoft Purview compliance portal.</li></ul><p><i>What will happen</i></p><ul><li>A <b><i>new Audit tab</i></b> will appear in the<i> DSI search experience </i>alongside the existing Query Builder tab:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8b6a1251-41f9-4221-8adf-9b73bf0d756b/c41af9361a19422f60c985f31fa0741121e1a03a.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Admins and investigators will be able to enter audit search criteria (date range, users, activities, keywords) directly within DSI.</li><li>Users can view estimated audit query results or add them directly to the investigation scope.</li><li>Associated files identified through the audit query will automatically appear in the investigation.</li><li>This feature is <b>enabled by default </b>and requires no configuration.</li><li>The previous CSV upload option is being removed.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>To prepare, you may want to:</p><ul><li>Update internal documentation for investigation and incident response workflows.</li><li>Inform security teams and administrators who use DSI about this new capability and the removal of CSV upload support.</li><li>Review DSI investigation processes to incorporate audit-based file enrichment.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/purview/audit-log-activities\" target=\"_blank\">Audit log activities | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations\" target=\"_blank\">Learn about Data Security Investigations | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558548"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview's Data Security Investigations will add a new Audit tab for building audit log queries directly within DSI, automatically surfacing related files. This feature, replacing CSV uploads, rolls out April-May 2026, enabling faster, more accurate investigations for admins and investigators without requiring prior configuration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259827",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:31:05.093Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:30:56Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Data Security Investigations – analyze files tied to audit log activities",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>simplifying how organizations manage access to Data Security Investigations (DSI)</b> in <i>Microsoft Purview</i>. Based on customer feedback and continued alignment with Data Security Posture Management (DSPM), Insider Risk Management (IRM), and Microsoft Defender XDR, the <b>DSI Admin and DSI Contributor roles</b> will automatically be included in additional role groups. This reduces manual assignments and helps teams that frequently work across these solutions have the right access by default.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558546\" target=\"_blank\">558546</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>Rolling out in<b> late April 2026</b> and expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing roles and permissions in the<i> Microsoft Purview compliance portal</i></li></ul><p><i>What will happen</i></p><ul><li>The <b>Data Security Investigation Contributor role </b>will automatically be added to these role groups:<ul><li>Organization Management</li><li>Data Security Management</li><li>Insider Risk Management</li></ul></li><li>Members of these role groups will automatically receive the corresponding DSI access.</li><li>No existing permissions or role assignments will be removed.</li><li>No opt-in is required; this change applies by default.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>You may want to:</p><ul><li>Review which users in your organization are members of the affected role groups.</li><li>Confirm that the resulting DSI access is appropriate for those users.</li><li>Update internal access management documentation, if needed.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations\" target=\"_blank\">Learn about Data Security Investigations | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/purview-permissions\" target=\"_blank\">Permissions in the Microsoft Purview portal | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>This change will automatically grant DSI access to members of the affected role groups. Admins should review current role group membership and ensure DSI access aligns with their organization's security and compliance requirements.&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558546"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview will simplify Data Security Investigations access by automatically adding the DSI Contributor role to key role groups, effective late April 2026. No action or opt-in is needed, but admins should review role memberships to ensure appropriate access and update documentation if necessary."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259826",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:30:38.993Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:30:31Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Data Security Investigations – role-based access simplification",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing an enhancement to SharePoint Advanced Management that allows SharePoint admins to delegate control of the Restricted Content Discovery (RCD) setting to site admins. Restricted Content Discovery limits whether content from specific SharePoint sites can appear in organization-wide search results and in Microsoft 365 Copilot experiences. This update improves governance and accountability by enabling site admins to manage RCD for their sites while providing required justification for any changes.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: Available now.</b></li></ul><p><i>Who is affected</i></p><ul><li>SharePoint admins and SharePoint site admins using SharePoint Advanced Management.</li></ul><p><i>What will happen</i></p><ul><li>Delegation of Restricted Content Discovery is <b>off by default</b>.</li><li>SharePoint admins may enable delegation at the tenant level.</li><li>When enabled:<ul><li>Site admins will see the RCD setting in the <b><i>Site Information</i></b> panel for their sites.</li><li>Site admins can enable or disable RCD for their site.</li><li>Site admins must provide justification when changing the RCD setting.</li></ul></li><li>This provides clearer governance and decentralizes management for discoverability controls across the organization.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to receive this update. </p><p>If your organization uses Restricted Content Discovery, consider the following steps:</p><ul><li>Review whether delegating RCD management aligns with your SharePoint governance model.</li><li>To enable delegation, run the following in SharePoint Online Management Shell as an Administrator:</li></ul><p style=\"margin-left: 50px;\"><code>Set-SPOTenant -DelegateRestrictedContentDiscoverabilityManagement $true</code></p><ul><li>To check the current delegation status: <code>Get-SPOTenant | Select-Object DelegateRestrictedContentDiscoverabilityManagement</code></li><li>Update internal documentation or admin guidance if roles and responsibilities for RCD management are defined in your organization.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/sharepoint/restricted-content-discovery#delegate-management-of-restricted-content-discovery-to-site-admins\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Restrict discovery of SharePoint sites and content | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "SharePoint Advanced Management now lets SharePoint admins delegate Restricted Content Discovery (RCD) control to site admins, who can enable/disable RCD with justification. Delegation is off by default, can be enabled tenant-wide, improving governance and decentralizing content discoverability management. Public preview is available now."
+      }
+    ],
+    "EndDateTime": "2026-06-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259825",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:30:13.407Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:29:59Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "SharePoint Advanced Management: Site admin control for restricted content discovery",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are introducing a new <code>OWAMailboxPolicy</code> setting that allows administrators to control whether file attachments are available when users work offline in the new Outlook for Windows. This change adds a tenant-level configuration option for managing offline attachment access while preserving existing offline policy behavior by default.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>The new policy will rollout <b>mid-April 2026</b></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Exchange Online administrators</li>\n  <li>Users of the new Outlook for Windows who use Offline mode</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>A new <code>OWAMailboxPolicy</code> setting named <code>AttachmentsOfflineEnabledWin</code> becomes available.</li>\n  <li>The policy is <b>enabled by default</b> (<code>$true</code>).</li>\n  <li>Administrators can allow or block access to file attachments while working offline in the new Outlook for Windows.</li>\n  <li>This change does not affect the existing configuration of <code style=\"\">OfflineEnabledWin</code>.</li>\n  <li>If <code>OfflineEnabledWin</code> is set to <code>$false</code>, offline file attachments remain disabled even if <code>AttachmentsOfflineEnabledWin</code> is set to <code>$true</code>.</li>\n</ul>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>OfflineEnabledWin</th>\n    <th>AttachmentsOfflineEnabledWin</th>\n    <th>Offline mail available?</th>\n    <th>Offline attachments available?</th>\n    <th>Description</th>\n  </tr>\n  <tr>\n    <td>true</td>\n    <td>true</td>\n    <td>Yes</td>\n    <td>Yes</td>\n    <td>Offline mode is enabled. Users can work offline and access file attachments.</td>\n  </tr>\n  <tr>\n    <td>true</td>\n    <td>false</td>\n    <td>Yes</td>\n    <td>No</td>\n    <td>Offline mode is enabled, but file attachments are not accessible while offline.</td>\n  </tr>\n  <tr>\n    <td>false</td>\n    <td>true</td>\n    <td>No</td>\n    <td>No</td>\n    <td>Offline mode is disabled. File attachments are also not available while offline.</td>\n  </tr>\n  <tr>\n    <td>false</td>\n    <td>false</td>\n    <td>No</td>\n    <td>No</td>\n    <td>Offline mode is fully disabled. No offline mail or attachments are available.</td>\n  </tr>\n</tbody></table>\n\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if the default behavior meets your organization’s requirements.</li>\n  <li>Review your existing <code>OfflineEnabledWin</code> policy configuration.</li>\n  <li>Configure <code>AttachmentsOfflineEnabledWin</code> at the tenant level if you want to control offline attachment access.</li>\n  <li>Communicate any changes to helpdesk or security teams.</li>\n  </ul><p>Learn more and configure the policy using Exchange PowerShell: \n    <a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-owamailboxpolicy?view=exchange-ps\">Set-OwaMailboxPolicy documentation</a>.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A new OWAMailboxPolicy setting, AttachmentsOfflineEnabledWin, will roll out mid-April 2026, allowing admins to control offline access to file attachments in the new Outlook for Windows. It is enabled by default and works alongside the existing OfflineEnabledWin policy without affecting its configuration."
+      }
+    ],
+    "EndDateTime": "2026-05-17T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1259820",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-23T23:27:01.347Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-23T23:26:52Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Offline attachments policy for the new Outlook for Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>Agent in Viva Engage communities are now available in Public Preview. Community admins can add agents to communities to help draft answers to questions without best or verified answers based on community content and add context to posts by answering follow up questions using the community's conversations and SharePoint site and library.<br><br>We’re now adding&nbsp;the&nbsp;option&nbsp;for community admins to&nbsp;specify&nbsp;additional&nbsp;SharePoint sites outside the&nbsp;community as grounding sources.&nbsp;The agent will only use sites that community admins select, and it drafts answers from items that community members can view (Read).</p><p>We are also adding a new capability: tagging by community members. Tagging by community members enables Microsoft 365 copilot-licensed users to @-mention the community agent in the comments and replies of threads with follow up questions and requests to add context to posts. When tagged, the community agent will reply in the post. Tagging by community members will be enabled by default, but can be disabled by community admins in the agent settings.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>Agents in communities Public Preview: </b>available now</li><li><b>SharePoint Grounding on Community site and library Public Preview (Worldwide): </b>available now</li><li><b>Grounding on SharePoint sites and libraries outside the community and tagging by community members Public Preview (worldwide): </b>Rollout begins late March 2026 (previously mid-February) and should be completed by mid-April 2026 (previously mid-March).</li>\n<li><b>General Availability (Worldwide): </b>We will communicate via Message center when we are ready to proceed.</li>\n</ul>\n\n\n<b><b>How this affects your organization:</b></b>\n<ul>\n<li><b>Who is affected:</b> Viva Engage community admins and members with Microsoft 365 Copilot licenses; Global and Engage admins managing Viva Engage networks</li>\n<li><b>What will happen:</b></li>\n<ul>\n<li><b>During Public Preview:</b></li>\n<ul>\n<li>Admins can opt their network into the preview via the <i>Engage admin center: Engage</i>&nbsp;admin center &gt; Tenant Settings &gt; Enable Community Agent Public Preview.</li></ul></ul></ul><p></p><ul></ul>Once enabled, admins can add agents to any community they manage.<p><i>Figure i. Add agent to community​</i></p><p></p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c90ccffc-5ca8-456f-bcdd-4b47e6a330f2\" style=\"width: 400px;\" alt=\"user settings\"><p></p><p></p><p>The agent will proactively draft answers to unanswered questions using past conversations.</p><p>By default, the agent posts answers <i>automatically</i>.</p><p>Admins can configure whether the agent posts answers automatically or only after approval and if tagging by community members is enabled.</p><p><i>Figure ii. Configure the agent's capabilities and knowledge sources</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/20b8887e-52f2-490e-820d-0a445570f685/3b91f26ec384430db23f225b99f3bf25f0a27ce1.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b><b>Grounding on SharePoint sites outside the community</b><b></b></b></p><ul><li>Community admins can add SharePoint sites and libraries outside the community as additional grounding sources (for sites/libraries they administer).</li><li>When an admin adds a site or library, they’ll be prompted to grant the community’s Microsoft 365 group Read access if it doesn’t already have permission.</li><li>The agent only drafts answers using content that all community members can view (Read).</li><li>By default, the agent uses the community’s SharePoint site and library. Any sites outside the community are optional and add to (not replace) the default grounding.</li></ul><p>If Require review is enabled, admins and designated experts will be notified when the agent drafts an answer. They can approve, edit, or dismiss the response.</p><p><i>Figure iii. Community admins and experts can review agent suggestions​</i></p><p>\n<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/63c1e5bf-334c-4d4a-878f-ac20b558e5e1/e974e32b0f05133c6b86305b27caccb1bd03748c.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p>If tagging by community members is enabled, then community members can @-mention the agent in messages.</p><p><b>Coming soon (General Availability):</b></p><ul></ul><p></p><p>The agent will only use content that all community members can access.</p><p>Admins must be owners of the SharePoint sites they wish to configure.</p><p>Admins can add additional SharePoint sites to expand the agent’s grounding knowledge.</p><p>The agent will be grounded by default on the community’s SharePoint site.</p><p>Community members can tag the community agent in community posts.</p><p>All Microsoft 365 Copilot licensed users will have access to the <i>Community Agent</i> by default.</p><p>The <i>Community Agent Public Preview</i> toggle will be retired.</p>\n\n<p></p><b><b>What you can do to prepare:</b></b><p></p>\n<ul>\n<li>If participating in preview:</li>\n<li>Opt your network into the preview via the <i>Engage admin center</i> \n</li><li>Communicate this change to helpdesk staff.&nbsp;</li>\n<li>Update internal documentation that references <i>Viva Engage Community Agent</i> behavior or setup.</li>\n<li>No action is required at GA; the feature will be <b style=\"\">on by default</b>.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config\" target=\"_blank\">Set up and manage agents in Viva Engage communities | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\">\n<tbody><tr><th>Consideration</th><th>Explanation</th></tr>\n<tr><td>Uses customer data</td><td>The agent accesses SharePoint content to generate answers. Only content accessible to all community members is used.</td></tr>\n<tr><td>Introduces AI/ML agent capabilities</td><td>The agent uses generative AI to draft responses based on SharePoint content.</td></tr>\n<tr><td>Admin control available</td><td>(Optional) Community admins can configure which SharePoint sites are used for grounding. Admin must be site owner.</td></tr>\n<tr><td>User interaction with generative AI</td><td>End users receive AI-generated answers grounded in community conversations and SharePoint content</td></tr>\n<tr><td>Can be controlled through Entra ID group membership</td><td>Admin access and site ownership can be managed via Entra ID group membership.</td></tr>\n</tbody></table><br><p></p><p></p>",
       "ContentType": "html"
     },
@@ -4194,49 +4445,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 12, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Exchange Online includes email‑sending limits based on three factors: recipient rate limit, recipient limit, and message rate limit. To support customers whose internal communication needs exceed these standard limits, we are introducing <b>High Volume Email (HVE)</b>&nbsp;for&nbsp;<i>Microsoft 365</i>. HVE is designed for large‑scale internal communications and integrates with business applications and devices to support operational and mass‑mailing scenarios. It uses a transactional pricing model based on the number of recipients.</p><p>HVE is available at no additional cost during Public Preview. Pricing for General Availability (GA) will be announced with the GA release, and billing will begin in June 2026 following a free promotional period after GA in March 2026.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=382633#Roadmap\" target=\"_blank\">382633</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Available now.\n</li><li><b>General Availability (worldwide): </b>Rollout begins in late <b>March 2026 </b>and is expected to complete <b>early April 2026</b>.\n</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing Exchange Online mail flow and reporting\n</li><li>Organizations with large-scale internal email distribution needs\n</li></ul><p><i>What will happen</i></p><ul><li>A new<b> High Volume Email page</b> will appear under <b><i>Mail flow </i></b>in the<i> Exchange admin center</i>.\n</li><li>Admins can create and manage<b> Mail User accounts enabled for HVE</b>.\n</li><li>HVE accounts use a<b> dedicated SMTP endpoint</b> for high-volume sending.\n</li><li>A new High Volume Email report will appear under <b><i>Reports &gt; Mail flow</i></b> to help admins monitor HVE usage per account.\n</li><li>HVE is <b>opt‑in</b>; it does not modify default sending limits or existing mail flow behavior.</li></ul><p><i>Screenshot 1 - Create new HVE specific accounts:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bd67e955-ee37-4ef5-b684-fcb3d0c4a421/0712d8ef517d8c135585b2b1f7a7e4636ed7416d.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p><i></i></p><p><i>Screenshot 2 - Manage HVE accounts, including assigned billing policies:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8c18f190-00f9-476e-a743-4469b3b31327/0b87b1f6570e862f542957a06968b71c77a84c40.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to prepare for this change.</p><p>You may want to:</p><ul><li>Review and update any internal documentation that describes email‑sending processes.</li><li>Learn more about setup and configuration:&nbsp;<a href=\"https://learn.microsoft.com/exchange/mail-flow-best-practices/high-volume-mails-m365\" target=\"_blank\">Manage high volume emails for Microsoft 365 Public preview | Mail flow best practices | Exchange Online | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "382633"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 introduces High Volume Email (HVE) for large-scale internal communications, available now in Public Preview and rolling out globally in March 2026. HVE offers dedicated SMTP endpoints, opt-in management via Exchange admin center, and new reporting, with pricing starting post-free promotional period in June 2026."
-      }
-    ],
-    "EndDateTime": "2026-05-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1243552",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-12T16:02:03.823Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-04T01:27:55Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "High Volume Email for Microsoft 365 upcoming general availability",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated March 12, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are updating the entry points for Copilot in <i>Word</i> to provide a clearer, more consistent, and more intuitive experience. These changes unify how users access Copilot and<b> introduce Word Agent in the <i>chat pane </i>as the primary Copilot interface</b>. This update improves discoverability, simplifies the user workflow, and creates consistency with other Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: We will begin rolling out in <b>late March 2026</b> (previously&nbsp;early March)&nbsp;and expect to complete by<b> late April 2026</b>.</p><p><b>General Availability (GCC, GCCH and DoD):</b> We will begin rolling out in <b>October 2026</b> (previously late March) and expect to complete by<b> late October 2026 </b>(previously late April).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users of Microsoft 365 apps for Word on Windows, macOS, and Web.</p><p><i>What will happen</i></p><ul><li>The existing Copilot entry point in the left margin will be replaced by a consolidated entry point positioned in a consistent corner location.</li><li>Users will see contextual Copilot entry points when selecting content:<ul><li><b>Windows and Web</b>: inside the selection floatie</li><li><b>Mac</b>: in the right‑click context menu</li></ul></li><li>Word Agent in the <i>right-side chat pane </i>becomes the primary Copilot experience for prompts and responses.</li><li>All Copilot entry points—consolidated and contextual—will connect to Word Agent to ensure a unified experience.</li><li>There is no change to admin configuration, policy behavior, or Copilot availability settings.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>You may optionally:</p><ul><li>Inform your users about the new Copilot access points and updated experience in Word.</li><li>Update internal help content or training materials if you document Copilot entry points.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -8342,6 +8550,37 @@
       "Admin impact"
     ],
     "Title": "SharePoint branding governance via PowerShell",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to record and review full-screen representative activity in Dynamics 365 Customer Service. This feature will reach general availability on March 27, 2026.<br><br><b>How does this affect me?</b><br>This feature records full‑screen representative activity during customer interactions and uploads it for review, giving supervisors an exact view of what occurred in each session. The system records the active monitor, includes system audio when full‑screen capture is enabled, and securely uploads the file to Dataverse at session end. Local copies are automatically deleted to protect sensitive data.<br><br>Supervisors can review, download, and analyze recordings for coaching, quality assurance, and compliance. Each file includes metadata, such as case ID and representative name, for accurate identification and retrieval. Recordings support durations up to two hours with built‑in guardrails for performance and file size. As recordings are triggered by channel activity, no manual setup is required in automatic capture scenarios. For workflows requiring manual control, such as monitoring agents working on chats or cases, representatives can start and stop recordings manually.<br><br>Administrators can disable screen recording by uninstalling the Desktop Capture Application client, turning off channel‑based triggers, or configuring role‑based access so only authorized users can view or download recordings.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-03-25T15:40:05Z",
+    "HasAttachments": false,
+    "Id": "MC1238923",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-02-25T15:41:33.34Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-25T15:40:05Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service - Record and review full‑screen representative activity",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12575,51 +12814,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>\nWe’re introducing a new end-user moderation control in Viva Engage: <b>Hide a user’s messages</b>. This feature allows users to reduce visibility of messages from specific individuals, helping minimize unwanted or distracting interactions while preserving community engagement.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513276#Roadmap\" target=\"_blank\">513276</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>\nGeneral Availability (Worldwide): Rolling out <b>late February 2026</b> and completing by <b>late March 2026</b>.</p><p>\n\n</p><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p><p>\nAll Viva Engage users.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>The feature is <b>on by default</b>.</li>\n<li>Admins can <b>turn this feature off</b> in the Engage admin center.</li><li>Users will have a new option to hide another user’s messages from:<ul><li>Any message in Viva Engage</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f238f09d-56ec-4bd1-85da-76c04b46a993\" style=\"width: 400px;\" alt=\"user settings\"></p><li>A user’s profile page</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4b915ef7-a4ae-48f2-bd4e-233628410b3a\" style=\"width: 400px;\" alt=\"user settings\"></p></ul></li><li>When a user is hidden:<ul><li>Their threadstarters will no longer appear in Home Feed or email digests.</li><li>In communities and other locations, their threadstarters will appear collapsed with a click‑to‑reveal option.</li><li>In all surfaces, comments appear collapsed with a click-to-reveal option.</li></ul></li><li>Some roles cannot be hidden, including:<ul><li><b>Designated leaders </b>(requires the <b>Viva Communications &amp; Communities</b> or <b>Viva Suite</b> license)</li><li><b>Corporate communicators</b></li><li><b>Network/verified admins</b></li><li><b>Engage admins</b></li></ul>\n\n</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>\nNo admin action is required.</p>\n<p>We recommend:</p>\n<ul>\n<li>Informing users about this new moderation option.</li>\n<li>Updating internal documentation or guidance, as needed.</li>\n<li>Using the Engage admin center if you wish to disable the feature.</li></ul><p>Before rollout, we will update this post with new documentation.</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "513276"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Viva Engage will introduce a new feature allowing users to hide messages from specific individuals, reducing unwanted interactions. Rolling out worldwide from late February to late March 2026, the feature is on by default but can be disabled by admins. Some roles cannot be hidden. No admin action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, iOS, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1226225",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-02T23:50:44.307Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-02T23:50:34Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Viva Engage: New option to hide a user's messages",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are expanding access to <b>People Skills</b> within <b>Microsoft Teams</b>. With this update, employees will be able to view skills directly on the <b>Microsoft 365 profile card</b> in <b>Teams</b>—making it easier to learn about colleagues, strengthen collaboration, and manage their own skills profile in the flow of work.</p><p>As a reminder, <b>People Skills</b> enables employees to build a skills profile based on a shared taxonomy, helping them showcase expertise and connect with others. Eligible <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview#licensing\" target=\"_blank\">Microsoft 365 Copilot, Viva,</a> and <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-manage-skills-library#expand-ai-skill-inferencing-to-microsoft-365-e3-and-e5-licensed-users\" target=\"_blank\">Microsoft 365 E3/E5 users</a> may also benefit from AI‑powered skill inferencing, which uses Microsoft Graph signals to automatically generate a personalized skills profile for each eligible employee and keep it up to date.&nbsp;<b>People Skills</b> data enhances Microsoft 365, Copilot, and Viva experiences by providing richer, contextual insights about people across the organization.</p><p>Learn more:&nbsp;<a href=\"https://adoption.microsoft.com/ai-agents/people-skills/\" target=\"_blank\">People Skills | Microsoft Adoption</a></p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=552588#Roadmap\" target=\"_blank\">552588</a>.</p><p><b><b>When this will happen:</b></b></p><ul><li>Targeted Release: We will begin rolling out <b>early March 2026</b> and expect to complete by <b>mid-March 2026</b>.</li><li>General Availability (Worldwide):We will begin rolling out <b>March 2026</b> and expect to complete by<b>&nbsp;April 2026</b></li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:&nbsp;</b></p><ul><li>Users who have access to People Skills and can view the Microsoft 365 profile card in Teams</li></ul><p><b>What will happen:&nbsp;</b></p><p>Once this update is rolled out, all employees<b> in tenants who have already set up People Skills</b>&nbsp;will find a Skills section on the <b>Microsoft 365 profile card</b> in <b>Teams</b>. This makes it easier for users to:</p><ul><li>View colleagues’ skills in the profile card on Teams to better understand and connect with colleagues</li><li>Access and manage their own skills profile from the new Skills component on the profile card in Teams</li></ul><p>There is no change to existing <b>People Skills</b> admin controls, configuration settings, or data access permissions. People skills must be setup before the Skills component</p><p>is visible in M365 Profile Cards.<br></p><p><b><b>What you can do to prepare:</b>\n</b></p><p>&nbsp;If your organization uses People Skills today, no admin action is required. The experience will automatically appear on the<b> profile card</b> in <b>Teams</b>.<br>If you do not have People skills setup, please review your documentation to do so in admin center. <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-setup\" target=\"_blank\">Learn how to set up People Skills.</a></p><p>You may wish to:</p><ul><li>Inform users about this enhanced visibility of skills in <b>Teams</b>.</li><li>Set up <b>People Skills</b> in <b>admin center</b>. <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-setup\" target=\"_blank\">Learn how to set up People Skills</a>.</li></ul><p><b><b>Compliance considerations:</b></b></p><ul><li>No changes have been made to how existing customer data (including documents, emails, and chats) is processed, stored, or accessed. This update does not introduce new AI/ML capabilities or modify inferencing behavior; it only expands where <b>People Skills</b> data is displayed.</li></ul>",
       "ContentType": "html"
     },
@@ -16609,7 +16803,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16833,6 +17027,42 @@
       "Retirement"
     ],
     "Title": "Microsoft Entra ID: Retirement of duplicative properties in passkey (FIDO2) authentication methods policy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Expected in mid-February 2026, as part of our modernization efforts, we are updating the Intune Data Warehouse with a new architecture to enhance scalability, performance, and align with the reporting infrastructure. The Intune Data Warehouse provides structured access to historical Intune data through an OData API, enabling you to build custom reports and dashboards using tools like Power BI and Excel. This update includes several key changes to be aware of:</p><ul><li><b>Historical data reset:</b> Once updated, the data will be reset and there will only be approximately <b>30 days of data</b>.\n</li><li><b>Updated licensing definition:</b> The “IntuneLicensed” property will now include all forms of Intune licensing and grace periods.\n</li><li><b>Surrogate key refresh:</b> Surrogate keys will be regenerated as part of the infrastructure update.</li></ul><p><b>How this will affect your organization:</b>\n</p><p>If your organization is using the Intune Data Warehouse you will need to be aware of this upcoming change. Additionally, if you are using the Intune Data Warehouse (beta) Power BI connector, support for this connector will be discontinued. A new connector will be available, requiring use of the OData feed link within the Intune admin center.</p><p><b>What you need to do to prepare:</b>\n</p><ul><li>Ensure your reporting tools are configured to use the OData feed from the Intune admin center.\n</li><li>If you are using the Intune Data Warehouse (beta) Power BI connector, transfer to the OData feed. For instructions refer to: <a href=\"https://learn.microsoft.com/intune/intune-service/developer/reports-proc-create-with-odata#connect-to-the-odata-feed-for-the-intune-data-warehouse-for-your-tenant\" target=\"_blank\">Connect to the OData feed for the Intune Data Warehouse for your tenant</a>\n</li><li>Back up any historical data you wish to retain before this update.\n</li><li>Review any dependencies on surrogate keys and prepare for key refreshes.\n</li><li>Familiarize yourself with the updated licensing definitions and reporting behavior.\n</li></ul><p><b>Additional information:</b></p><p>For more details on the data warehouse and alternative solutions, please refer to: \n</p><ul><li><a href=\"https://learn.microsoft.com/intune/intune-service/developer/reports-api-url\" target=\"_blank\">Intune Data Warehouse API Endpoint </a></li><li><a href=\"https://techcommunity.microsoft.com/blog/intunecustomersuccess/integrating-azure-data-factory-and-the-microsoft-intune-export-api/4093359\" target=\"_blank\">Integrating Azure Data Factory and the Microsoft Intune Export API</a></li></ul><p>\n</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "In mid-February 2026, the Intune Data Warehouse will be updated with a new architecture, resetting historical data to about 30 days, changing licensing definitions, and regenerating surrogate keys. The Intune Data Warehouse (beta) Power BI connector will be discontinued; users must switch to the OData feed."
+      }
+    ],
+    "EndDateTime": "2026-04-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1188216",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2025-11-19T23:21:18.677Z",
+    "Services": [
+      "Microsoft Intune"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-19T23:21:07Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Plan for Change: Update to Intune Data Warehouse infrastructure",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18427,7 +18657,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
