@@ -4,6 +4,120 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 24, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p>We're launching a <b>user experience (UX)</b> update that displays existing <b>Awards and Certifications properties</b> from Microsoft 365 profile schema on users' <b>profile cards</b>.</p><p><b><b>When this will happen:</b>\n</b></p><p>General Availability (Worldwide): We will begin rolling out <b>mid-March 2026</b>&nbsp;and expect to complete by <b>early April 2026</b>.\n</p><p><b><b>How this affects your organization:</b>\n</b></p><p><b>Who is affected:</b></p><p>All users whose organizations populate the <b>Awards and Certifications</b> properties in the M365 profile.</p><p><b>What will happen:</b></p><ul><li>A new <b>Awards and Certifications</b> section will be introduced on the <b>profile card</b> in the <b>overview and contacts</b> tab below the <b>skills section</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/74471b13-b7d1-42b1-9fc9-6eb21e2c41e4\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Each entry in this section will show the <b>title </b>and <b>issuer </b>by default. Selecting a <b>badge </b>reveals additional details such as the <b>description </b>and <b>date awarded</b>.</li><li>The <b>profile card</b> will also feature highlights for recently earned awards or certificates (issued within the last 30 days) to improve discoverability.</li><li>If these properties are not in use today, there will be no change — the new section will not appear on <b>profile cards</b>.</li></ul><p><b><b>What you can do to prepare:</b>\n</b></p><ul><li>Review your profile data: Check whether your organization is currently populating the <b>Awards and Certifications</b> properties in M365 user profiles. If so, inform users that these values will now be visible on their profile cards.\n</li><li>Key points to note:\n<ul><li>If your organization does not use <b>Awards and Certifications</b> fields in M365 profile schema today, no action is required.</li><li>The <b>profile card</b> experience is read-only—it displays data from the profile but does not provide any in-service editing or management of awards and certifications.</li></ul></li><li>Review the following support article: <a href=\"https://support.microsoft.com/office/view-awards-and-certification-badges-on-your-profile-card-344f2340-8423-4c85-9d1c-35287f85b4dd\">View awards and certification badges on your profile card</a></li></ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-March to early April 2026, Microsoft 365 profile cards will display an Awards and Certifications section showing titles, issuers, and details of badges. This read-only feature appears only if organizations populate these properties, highlighting recent awards for better visibility. No compliance issues noted."
+      }
+    ],
+    "EndDateTime": "2026-05-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1250272",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-24T16:37:11.983Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-12T23:40:52Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Introducing awards and certifications section in M365 profile card",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 24, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>Connectivity changes between cmdlets and Microsoft 365 services like SharePoint and Exchange now require a new parameter for improved security and modern authentication. Starting Jan 31, 2026, Admins must use <a href=\"https://learn.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps\" target=\"_blank\">Exchange Online PowerShell v3.9.0</a> or later and include the <code>-EnableSearchOnlySession</code> parameter when running <code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-ippssession?view=exchange-ps\" target=\"_blank\">Connect-IPPSession</a></code> to execute Data Lifecycle Management cmdlets.</p>\n\n<p><b>When this will happen:</b></p>\n<p>Enforcement begins January 31, 2026.</p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins using Data Lifecycle Management cmdlets in Security &amp; Compliance PowerShell.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>You must use Exchange Online PowerShell v3.9.0 or later.</li>\n<li>You must include the <code>-EnableSearchOnlySession</code> parameter when running <code>Connect-IPPSession</code>.</li>\n<li>This applies to the following cmdlets:\n<ul>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">New-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">Set-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">New-RetentionComplianceRule</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">Set-RetentionComplianceRule</a></code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-compliancetag?view=exchange-ps\">New-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-compliancetag?view=exchange-ps\">Set-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-compliancetag?view=exchange-ps\">Remove-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentionevent?view=exchange-ps\">New-ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentioneventtype?view=exchange-ps\">New-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEventType</a></code></li>\n</ul>\n</li>\n<li>No impact for users accessing Data Lifecycle Management through the Purview portal.</li>\n<li>Cmdlets remain incompatible with <b>Certificate-Based Authentication (CBA)</b>.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>Update scripts and workflows to include the <code>-EnableSearchOnlySession</code> parameter.</li>\n<li>Ensure your organization is using Exchange Online PowerShell version 3.9.0 or later.</li>\n<li>For more information, visit: <a href=\"https://learn.microsoft.com/microsoft-365/compliance/data-lifecycle-management\">Learn about Data Lifecycle Management solutions in Microsoft Purview</a>.</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting January 31, 2026, admins using Data Lifecycle Management cmdlets must use Exchange Online PowerShell v3.9.0+ and include the -EnableSearchOnlySession parameter with Connect-IPPSession for improved security. This change affects specific cmdlets and does not impact portal users. Certificate-Based Authentication remains unsupported."
+      }
+    ],
+    "EndDateTime": "2026-03-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1213770",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-24T16:30:04.81Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-06T05:49:07Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data lifecycle Management cmdlet connectivity change",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-03-30T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>\n</p><p>Updated March 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re retiring the use of <b>external access tokens</b> for <b>actionable messages</b> and transitioning to Microsoft Entra-based authentication. This update enhances security and aligns with modern identity standards, providing a more robust and compliant experience for <b>actionable messages</b>.<b><br></b>\n\n</p><p><b><b>When this will happen</b></b></p><p>This change takes effect on <b>May 15, 2026</b>. After this date, <b>external access tokens</b> will no longer be supported.</p><p><b><b>How this affects your organization</b></b><b><br></b></p><p><b>Who is affected:</b></p><p>Organizations using <b>actionable messages</b> that currently rely on <b>external access tokens</b>.</p><p><b>What will happen:</b></p><ul>\n<li><b>Actionable messages</b> that depend on <b>external access tokens</b> will fail after<b> May 15, 2026</b>.</li>\n<li>All integrations and workflows using <b>actionable messages</b> must adopt <b>Microsoft Entra authentication</b>.</li>\n<li>This change improves security posture by leveraging Entra’s identity and access management capabilities.</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b><ul>\n<li>Review all actionable message implementations in your organization.</li>\n<li>Update integrations to use <b>Microsoft Entra authentication</b> before <b>May 15, 2026</b>.</li>\n</ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/outlook/actionable-messages/\" target=\"_blank\">Actionable messages in Outlook and Office 365 Groups</a></li><li><a href=\"https://learn.microsoft.com/outlook/actionable-messages/enable-entra-token-for-actionable-messages\" target=\"_blank\">Enable Entra token for Actionable messages</a></li>\n</ul>\n\n<b><b>Compliance considerations</b></b><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "External access tokens for actionable messages will be retired on May 15, 2026, requiring organizations to switch to Microsoft Entra authentication. This change enhances security and affects all integrations using actionable messages with external tokens, which will fail after the deadline. Organizations should update their implementations accordingly."
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1189663",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-24T16:15:49.247Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-25T00:05:43Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Retirement of external access token for actionable messages – moving to Microsoft Entra authentication",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We're introducing <b>OneLake storage tiers </b>(hot, cool, and cold) in <i>Microsoft Fabric</i>. As part of this rollout, we are updating how OneLake compute operations appear in your capacity billing. These updates improve clarity and align reporting with the new storage tier model. <b>There is no change to billing rates.</b></p><p><i>Key updates include</i></p><ul><li><b>Operation names include the storage tier.</b> For example, “<i>OneLake Read via Proxy</i>” becomes “<i>OneLake Read (Hot)</i>.”</li><li><b>Proxy and Redirect operations are consolidated.</b> Operations previously reported separately will appear under a single operation name. Because consumption rates are the same, this has <b>no billing impact</b>.</li><li><b>Operations are reported at the workspace level.</b> A new OneLake item in the<i> <a href=\"https://learn.microsoft.com/fabric/enterprise/metrics-app-install?tabs=1st\" target=\"_blank\">Fabric Capacity Metrics app</a></i> groups operations by workspace instead of individual items. For item-level detail, use OneLake diagnostics to understand usage across Fabric and non-Fabric workloads.</li></ul><p>Units of measure and consumption rates remain unchanged.</p><p><b><b>When this will happen</b></b></p><ul><li>Operation name updates <b>begin April 1, 2026</b>.</li><li>Operation consolidation and Metrics app updates will roll out over the following weeks.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations using Microsoft Fabric with OneLake storage and capacity billing</li></ul><p><i>What will happen</i></p><ul><li><b>Operation names</b> will include the applicable storage tier (for example, “Hot”): \n</li><li><b>Proxy and Redirect operations</b> will appear under a single consolidated operation name:\n</li><li><b>OneLake operations</b> will be grouped by workspace under a new OneLake item in the Fabric Capacity Metrics app.\n</li><li><b>Item-level compute reporting</b> will move to OneLake diagnostics.</li></ul><p>The following example illustrates how the report now appears:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/77a4feaa-4770-46c7-a628-5a5d650a79e2/972c042a60d89aadfd477ff86903c39ba9a98722.png\" alt=\"user settings\" style=\"width: 400px;\"></p><p>There is <b>no change</b> to billing rates or your total costs.</p><p><i>Operation name changes:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c52ee5e-d1c0-479a-8746-c96c0ea66049/d26e2c0b56e2464fae9fab36667cf48c7077337f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><br></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f10be11d-045a-432d-8478-addf69f35e1a/4ff50d53c6bf36681022f47a421e688690a783f9.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><p> </p><p><b><b>What you can do to prepare</b></b></p><ul><li><b>Review any custom analytics or automation. </b>Update operation names in reports, dashboards, and scripts to align with the new naming convention <b>before April 1, 2026</b>.</li><li><b>Plan for workspace-level reporting. </b>If you rely on item-level operation details in the <i>Capacity Metrics app</i>, <a href=\"https://learn.microsoft.com/fabric/onelake/onelake-diagnostics-overview\" target=\"_blank\">configure OneLake diagnostics</a> to maintain that granularity.</li><li>Review the documentation for <a href=\"https://learn.microsoft.com/fabric/onelake/onelake-consumption\" target=\"_blank\">OneLake compute consumption</a>&nbsp;in <i>Microsoft Fabric</i>.</li><li>Share with your helpdesk and reporting teams if they monitor capacity or cost analytics.</li></ul><p>No other action is required.</p><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/fabric/enterprise/metrics-app-install?tabs=1st\" target=\"_blank\">Install the Microsoft Fabric capacity metrics app | Microsoft Fabric | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-consumption\" target=\"_blank\">OneLake compute and storage consumption | OneLake | Microsoft Fabric | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-diagnostics-overview\" target=\"_blank\">OneLake diagnostics | OneLake | Microsoft Fabric | Microsoft Learn</a></li><li><b>OneLake storage tiers </b>- <a href=\"https://roadmap.fabric.microsoft.com/?product=onelake\" target=\"_blank\">Microsoft Fabric Roadmap</a></li><li><a href=\"https://learn.microsoft.com/fabric/onelake/onelake-overview\" target=\"_blank\">OneLake, the OneDrive for data | OneLake | Microsoft Fabric | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><b><b>Support</b></b></p><p>For assistance, contact your Microsoft account team or visit Microsoft Fabric support.</p>",
       "ContentType": "html"
     },
@@ -4207,43 +4321,6 @@
       "User impact"
     ],
     "Title": "Improved copy and paste support for @mentions and shared contacts in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We're launching a <b>user experience (UX)</b> update that displays existing <b>Awards and Certifications properties</b> from Microsoft 365 profile schema on users' <b>profile cards</b>.</p><p><b><b>When this will happen:</b>\n</b></p><p>General Availability (Worldwide): We will begin rolling out <b>mid-March 2026</b>&nbsp;and expect to complete by <b>early April 2026</b>.\n</p><p><b><b>How this affects your organization:</b>\n</b></p><p><b>Who is affected:</b></p><p>All users whose organizations populate the <b>Awards and Certifications</b> properties in the M365 profile.</p><p><b>What will happen:</b></p><ul><li>A new <b>Awards and Certifications</b> section will be introduced on the <b>profile card</b> in the <b>overview and contacts</b> tab below the <b>skills section</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/74471b13-b7d1-42b1-9fc9-6eb21e2c41e4\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Each entry in this section will show the <b>title </b>and <b>issuer </b>by default. Selecting a <b>badge </b>reveals additional details such as the <b>description </b>and <b>date awarded</b>.</li><li>The <b>profile card</b> will also feature highlights for recently earned awards or certificates (issued within the last 30 days) to improve discoverability.</li><li>If these properties are not in use today, there will be no change — the new section will not appear on <b>profile cards</b>.</li></ul><p><b><b>What you can do to prepare:</b>\n</b></p><ul><li>Review your profile data: Check whether your organization is currently populating the <b>Awards and Certifications</b> properties in M365 user profiles. If so, inform users that these values will now be visible on their profile cards.\n</li><li>Key points to note:\n<ul><li>If your organization does not use <b>Awards and Certifications</b> fields in M365 profile schema today, no action is required.</li><li>The <b>profile card</b> experience is read-only—it displays data from the profile but does not provide any in-service editing or management of awards and certifications.</li></ul></li></ul><p>Before rollout, we will update this post with new documentation.</p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-March to early April 2026, Microsoft 365 profile cards will display an Awards and Certifications section showing title, issuer, and details for recent entries. This read-only feature appears only if these properties are populated in user profiles; no action is needed if unused."
-      }
-    ],
-    "EndDateTime": "2026-05-12T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1250272",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-12T23:40:58.913Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-12T23:40:52Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Introducing awards and certifications section in M365 profile card",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8779,7 +8856,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16954,43 +17031,6 @@
       "Admin impact"
     ],
     "Title": "External workbook links to blocked file types will be disabled by default",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2026-03-30T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>\n<b><b>Introduction</b></b></p><p>We’re retiring the use of <b>external access tokens</b> for <b>actionable messages</b> and transitioning to Microsoft Entra-based authentication. This update enhances security and aligns with modern identity standards, providing a more robust and compliant experience for <b>actionable messages</b>.<b><br></b>\n\n</p><p><b><b>When this will happen</b></b></p><p>This change takes effect on <b>March 31, 2026</b>. After this date, <b>external access tokens</b> will no longer be supported.</p><p><b><b>How this affects your organization</b></b><b><br></b></p><p><b>Who is affected:</b></p><p>Organizations using <b>actionable messages</b> that currently rely on <b>external access tokens</b>.</p><p><b>What will happen:</b></p><ul>\n<li><b>Actionable messages</b> that depend on <b>external access tokens</b> will fail after<b> March 31, 2026</b>.</li>\n<li>All integrations and workflows using <b>actionable messages</b> must adopt <b>Microsoft Entra authentication</b>.</li>\n<li>This change improves security posture by leveraging Entra’s identity and access management capabilities.</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b><ul>\n<li>Review all actionable message implementations in your organization.</li>\n<li>Update integrations to use <b>Microsoft Entra authentication</b> before <b>March 31, 2026</b>.</li>\n</ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/outlook/actionable-messages/\" target=\"_blank\">Actionable messages in Outlook and Office 365 Groups</a></li><li><a href=\"https://learn.microsoft.com/outlook/actionable-messages/enable-entra-token-for-actionable-messages\" target=\"_blank\">Enable Entra token for Actionable messages</a></li>\n</ul>\n\n<b><b>Compliance considerations</b></b><p></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "External access tokens for actionable messages will be retired by March 31, 2026, requiring organizations to switch to Microsoft Entra authentication. This change enhances security and compliance. Organizations should review and update their actionable message integrations before the deadline to avoid failures."
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1189663",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-11-25T00:06:04.353Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-25T00:05:43Z",
-    "Tags": [
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Retirement of external access token for actionable messages – moving to Microsoft Entra authentication",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
