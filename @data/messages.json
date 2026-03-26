@@ -4,6 +4,141 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>&nbsp;We’re adding new peripheral health reporting capabilities to the Pro Management portal, enabling admins to proactively monitor device issues in bring your own device (BYOD) rooms and desks.</p><p>These reports help identify when peripherals are faulty, missing, moved, or undetectable by a PC—allowing admins to take action before users report problems. Reports for rooms require a Teams Shared Devices license. Desk reporting is currently in public preview.</p><p>This change is associated with Microsoft 365 Roadmap ID:&nbsp;<a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=493319\" target=\"_blank\">493319</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide and GCC): Rollout will begin in early May 2026 (previously early April) and is expected to complete by mid-May 2026 (previously mid-April).</p><p><b>How this affects your organization:</b></p><p>Admins can now use peripheral status data to detect hardware issues in BYOD rooms and desks before they impact users. This proactive monitoring can reduce support tickets and improve meeting space reliability.\n</p><ul><li>Reports for rooms require a Teams Shared Devices license.\n</li><li>Reports for desks are available in public preview and do not yet require a license.\n</li></ul><p><b>What you can do to prepare:</b></p><p>To ensure accurate peripheral status reporting:\n</p><ul><li>Use multiple peripherals in each room or desk setup. The system compares expected device pairings (e.g., if Peripheral A and B are usually connected together, but A is missing, it will be flagged).\n</li><li>Simplify connectivity for users by using a single cable solution to connect all peripherals.\n</li><li>Ensure rooms and desks are bookable and have associated peripherals—this enables the Teams desktop client to send the necessary telemetry. Peripheral association can be done manually or automatically.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? Maybe (device telemetry is used for reporting)\n</li></ul><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "493319"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is adding peripheral health reporting in the Pro Management portal for BYOD rooms and desks, enabling admins to detect device issues proactively. Room reports require a Teams Shared Devices license; desk reports are in public preview. Rollout begins May 2026, improving support and meeting reliability."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1090689",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T17:51:00.433Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-06-09T23:13:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Enhanced peripheral data in Pro Management portal reports for BYOD spaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.</p><p>Admins will be able to ensure that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out early April 2026 (previously early March) and expect to complete by late April 2026 (previously late March).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Once Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a>&nbsp;is available, end-users will have the ability to choose existing Microsoft 365 Groups for managing new Loop workspaces. This means that new Loop workspaces can optionally be connected to and managed by an existing Microsoft 365 Group, similar to how SharePoint Team sites are managed.</p><p>Additionally, Microsoft 365 Roadmap ID 422725 covers the capability to <b>ensure</b> that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites (it will not be an option for users to skip selecting an existing Microsoft 365 group if this policy is configured).</p><p>While this setting may align with existing governance processes, it's important for admins to note that scenarios like <a href=\"https://techcommunity.microsoft.com/blog/microsoft365insiderblog/automatically-aggregate-teams-meeting-content-in-a-loop-workspace/4287319\" target=\"_blank\">automatic aggregation of Teams meeting content into a Loop workspace</a>, or the creation of small, short-term project workspaces, will be more challenging for end-users unless they can skillfully select an existing M365 group during creation. Please consider this tradeoff in your adoption strategy.</p><p>If your organization has governance tools for SharePoint Communication sites that work effectively in a reactive manner (i.e., governance is applied after the site is created), Microsoft recommends extending this process to include Loop workspaces rather than using this policy.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. This capability will roll to your tenant automatically.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422725"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting April 2026, new Microsoft Loop workspaces must be connected to existing Microsoft 365 Groups if the policy is enabled, ensuring governance similar to SharePoint Team sites. This may complicate some scenarios, so admins should consider adoption impacts. No preparation is needed; rollout is automatic."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC929022",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T16:36:11.113Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-08T23:21:55Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Loop – Require Existing Microsoft 365 Group for New Loop workspaces",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>As part of our ongoing protection investments in<i> Microsoft Teams</i>, we will continue expanding the ways users can report suspicious or incorrect activity. Users can already report security concerns and incorrect detections in chats and channels (MC1037768, MC1147984), and more recently in calls (MC1223828). These user‑submitted reports help identify potential malicious activity and strengthen your organization’s security posture.</p><p>Building on this foundation, we will introduce new capabilities that allow Teams administrators to review and export user‑reported security submissions directly in the <i>Teams admin center</i>. A new<b> Protection reports</b> section will be added under <i><b>Analytics and reports</b></i>, giving admins unified visibility into user‑reported calls, chats, and channels.</p><p>This message relates to Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=536571#Roadmap\" target=\"_blank\">536571</a>.</p><p><b><b>When this will happen</b></b></p><p><b>Phase 1 – User‑reported call data</b></p><ul><li><b>Targeted Release: </b>Rollout will begin in<b>&nbsp;mid-April 2026&nbsp;</b>(previously mid‑March)<b>&nbsp;</b>and complete in <b>late April 2026</b> (previously&nbsp;late March).</li><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>late April 2026</b> (previously&nbsp;mid‑April)&nbsp;and complete in <b>early May 2026</b> (previously&nbsp;late April).</li></ul><p><b>Phase 2 – User‑reported chats and channels</b></p><ul><li>This phase will add message‑level reporting for security concerns and incorrect detections.</li><li>The timeline will be communicated in a future update to this Message center post.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Teams administrators who have access to <b>Analytics and reports</b> in the <i>Teams admin center</i>.</p><p><i>What will happen</i>:</p><ul><li>A new <b>Protection reports </b>section will appear under<b style=\"font-style: italic;\"> Teams admin center &gt; Analytics &amp; reports</b>:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9063fe57-d14e-401d-b7ce-c676b97a6ec7/476f4992fbfe76a78ca8b425da10f23db24e4b40.png\" style=\"width: 400px;\" alt=\"user settings\"> </p></li><li>Admins will be able to view and export data about user‑submitted security reports for calls (Phase 1) and later chats and channels (Phase 2).</li><li>Reported interactions will begin populating once users submit reports.</li><li>Admins will be able to review reported calls or messages and take appropriate action.</li><li>Admins will be able to view 1‑day, 7‑day, and 30‑day reporting windows.</li><li>This feature<b> will require that user reporting settings be enabled</b> in the <i>Teams admin center</i>.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>To ensure reporting data is available when rollout begins, verify that end‑user reporting features are enabled:</p><ul><li>Enable <b>Report a call</b>: <i><b>Teams admin center &gt; Calling settings</b></i></li><li>Enable <b>Report a security concern </b>and <b>Report incorrect detection</b>: <i><b>Teams admin center &gt; Messaging settings</b></i></li><li>Once enabled and users begin submitting reports, access data at: <b><i>Teams admin center &gt; Analytics &amp; reports &gt; Protection reports &gt; User‑reported security submission</i></b></li><li>Update internal documentation if your helpdesk relies on reporting workflows.</li><li>If you maintain training or onboarding materials about Teams security practices, consider adding guidance on how users can report suspicious interactions.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. This change stores new customer data because user‑submitted security reports for calls, chats, and channels are collected and made available in the Teams admin center for administrative review.</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. This change alters how existing customer data is accessed because it surfaces reported calls, messages, and detections to Teams administrators for investigation within the new Protection reports area.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes. This change adds new monitoring and reporting capabilities by providing a dedicated Protection reports section where admins can view and export user‑reported security submissions.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "536571"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will add a Protection reports section in the Teams admin center for admins to review and export user-reported security issues in calls (starting mid-April 2026) and later chats and channels. Admins must enable user reporting settings to access these new monitoring features."
+      }
+    ],
+    "EndDateTime": "2026-06-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227625",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T16:27:53.843Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-06T00:44:02Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "User reported security signals in Teams admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 26, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>As part of our ongoing mission to deliver a modern, secure, and scalable one-stop management portal for admins, we are transitioning Teams Android device management from the <b>Teams admin center (TAC)</b> to the <b>Teams Rooms Pro Management portal (PMP)</b>.</p>\n<p>This move consolidates management of all Teams devices, including Teams Rooms on Windows, Teams Rooms on Android, Teams phones, and Teams panels, into a single unified portal, providing IT admins a consistent and seamless experience for managing devices at scale.</p>\n<p><b><b>When this will happen:</b></b></p>\n\n\n\n<ul><li>Public Preview: We will begin rollout in <b>early&nbsp;April 2026</b> and expect to complete by <b>mid-April 2026</b>.&nbsp;</li><li>General Availability (Worldwide, GCC): We will begin rollout in <b>early&nbsp;June 2026</b> and expect to complete by <b>mid-June&nbsp;2026</b>.</li><li>General Availability (GCC High): We will begin rollout in<b> early August 2026</b> and expect to complete by mid-August 2026.</li><li>General Availability (DoD): We will begin rollout in <b>early&nbsp;September 2026</b> and expect to complete by <b>mid-September 2026</b>.</li></ul>\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Admins who manage Teams Rooms on Android, Teams phones, and Teams panels.</p><p><b>What will happen:</b></p>\n\n\n\n<ul><li>Starting <b>June 2026</b>, Android device management capabilities, including inventory, updates, health monitoring, and settings will transition from <b>TAC </b>to <b>PMP </b>for the device types, Teams Rooms on Android, Teams phones, Teams panels</li><li>The following capabilities will be available and enhanced in PMP:</li>\n<ul>\n  <li>Device inventories for Android-based Teams Rooms, phones, and panels, including metadata and app information</li>\n  <li>Remote device actions (restart, log collection, sign-in/out, provisioning, and more)</li>\n  <li>Update management</li>\n  <li>Device settings management</li>\n  <li>Device health monitoring</li>\n  <li>SIP device management</li>\n</ul>\n\n<li>PMP will become the primary portal for all Teams device management. By <b>July 2026</b>, overlapping TAC capabilities (updates, settings, restart, sign-in/out, log collection, provisioning) will begin redirecting to PMP.</li><li>This <a href=\"https://learn.microsoft.com/microsoftteams/rooms/aboutunifieddevicemanagement-pmp1\">article</a> serves as the main information source for this transition. We'll continue updating it with timelines, milestones, migration guidance, and readiness steps as the rollout progresses.</li></ul><p><b><b>What you need to do to prepare:</b></b></p>\n\n\n<ul><li>No action is required until Android device management reaches General Availability.</li><li>When Android device management reaches General Availability:</li>\n<ul><ul>\n  </ul><li>Your existing Android-based Teams devices will automatically appear in PMP.</li><li>Teams Rooms on Android and Teams panels are already visible in PMP.</li><ul>\n  </ul><ul>\n</ul>\n\n</ul><li>If your organization hasn’t used PMP before:</li><ul><li>Admins with <b>Global</b>, <b>Teams</b>, or <b>Teams Device Administrator </b>roles can access PMP at <a href=\"https://portal.rooms.microsoft.com.\" target=\"_blank\">https://portal.rooms.microsoft.com</a>.</li><li>Ensure required URLs are allowlisted per guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/enroll-a-device\" target=\"_blank\">Enrolling a device into the Pro Management Portal | Microsoft Learn</a>.</li><li>Learn more about Pro Management portal features with these <a href=\"https://www.youtube.com/playlist?list=PLyhj1WZ29G65glMRLXqtlq7DGBvXg-TnT\" target=\"_blank\">Teams Rooms Pro Management short YouTube videos</a>.</li><ul>\n  </ul><ul>\n</ul>\n\n</ul><li>Update internal helpdesk and IT documentation to reference PMP as the new management portal.</li><li>Additional migration guidance, timelines, and FAQs will be published closer to the transition date.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><ul><ul>\n</ul></ul>",
       "ContentType": "html"
     },
@@ -4306,52 +4441,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Q&A in Read Aloud enables real-time voice interactions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.</p><p>Admins will be able to ensure that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422725\" target=\"_blank\">422725</a></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out early April 2026 (previously early March) and expect to complete by late April 2026 (previously late March).&nbsp;</p><p><b>How this will affect your organization:</b></p><p>Once Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422728\" target=\"_blank\">422728</a> is available, end-users will have the ability to choose existing Microsoft 365 Groups for managing new Loop workspaces. This means that new Loop workspaces can optionally be connected to and managed by an existing Microsoft 365 Group, similar to how SharePoint Team sites are managed.</p><p>Additionally, Microsoft 365 Roadmap ID 422725 covers the capability to <b>ensure</b> that new Loop workspaces are connected to and managed by an existing Microsoft 365 Group, similar to SharePoint Team sites (it will not be an option for users to skip selecting an existing Microsoft 365 group if this policy is configured).</p><p>While this setting may align with existing governance processes, it's important for admins to note that scenarios like <a href=\"https://techcommunity.microsoft.com/blog/microsoft365insiderblog/automatically-aggregate-teams-meeting-content-in-a-loop-workspace/4287319\" target=\"_blank\">automatic aggregation of Teams meeting content into a Loop workspace</a>, or the creation of small, short-term project workspaces, will be more challenging for end-users unless they can skillfully select an existing M365 group during creation. Please consider this tradeoff in your adoption strategy.</p><p>If your organization has governance tools for SharePoint Communication sites that work effectively in a reactive manner (i.e., governance is applied after the site is created), Microsoft recommends extending this process to include Loop workspaces rather than using this policy.</p><p><b>What you need to do to prepare:</b>\n</p><p>There is nothing you need to do to prepare. This capability will roll to your tenant automatically.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422725"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting April 2026, new Microsoft Loop workspaces must be connected to existing Microsoft 365 Groups if the policy is enabled, ensuring governance similar to SharePoint Team sites. This may complicate some scenarios, so admins should consider adoption impacts. No preparation is needed; rollout is automatic."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC929022",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-16T16:55:19.687Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-08T23:21:55Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Loop – Require Existing Microsoft 365 Group for New Loop workspaces",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12633,48 +12722,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>As part of our ongoing protection investments in<i> Microsoft Teams</i>, we will continue expanding the ways users can report suspicious or incorrect activity. Users can already report security concerns and incorrect detections in chats and channels (MC1037768, MC1147984), and more recently in calls (MC1223828). These user‑submitted reports help identify potential malicious activity and strengthen your organization’s security posture.</p><p>Building on this foundation, we will introduce new capabilities that allow Teams administrators to review and export user‑reported security submissions directly in the <i>Teams admin center</i>. A new<b> Protection reports</b> section will be added under <i><b>Analytics and reports</b></i>, giving admins unified visibility into user‑reported calls, chats, and channels.</p><p>This message relates to Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=536571#Roadmap\" target=\"_blank\">536571</a>.</p><p><b><b>When this will happen</b></b></p><p><b>Phase 1 – User‑reported call data</b></p><ul><li><b>Targeted Release: </b>Rollout will begin in<b> mid‑March 2026 </b>and complete in <b>late March 2026</b>.</li><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑April 2026</b> and complete in <b>late April 2026</b>.</li></ul><p><b>Phase 2 – User‑reported chats and channels</b></p><ul><li>This phase will add message‑level reporting for security concerns and incorrect detections.</li><li>The timeline will be communicated in a future update to this Message center post.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Teams administrators who have access to <b>Analytics and reports</b> in the <i>Teams admin center</i>.</p><p><i>What will happen</i>:</p><ul><li>A new <b>Protection reports </b>section will appear under<b style=\"font-style: italic;\"> Teams admin center &gt; Analytics &amp; reports</b>:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9063fe57-d14e-401d-b7ce-c676b97a6ec7/476f4992fbfe76a78ca8b425da10f23db24e4b40.png\" style=\"width: 400px;\" alt=\"user settings\"> </p></li><li>Admins will be able to view and export data about user‑submitted security reports for calls (Phase 1) and later chats and channels (Phase 2).</li><li>Reported interactions will begin populating once users submit reports.</li><li>Admins will be able to review reported calls or messages and take appropriate action.</li><li>Admins will be able to view 1‑day, 7‑day, and 30‑day reporting windows.</li><li>This feature<b> will require that user reporting settings be enabled</b> in the <i>Teams admin center</i>.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>To ensure reporting data is available when rollout begins, verify that end‑user reporting features are enabled:</p><ul><li>Enable <b>Report a call</b>: <i><b>Teams admin center &gt; Calling settings</b></i></li><li>Enable <b>Report a security concern </b>and <b>Report incorrect detection</b>: <i><b>Teams admin center &gt; Messaging settings</b></i></li><li>Once enabled and users begin submitting reports, access data at: <b><i>Teams admin center &gt; Analytics &amp; reports &gt; Protection reports &gt; User‑reported security submission</i></b></li><li>Update internal documentation if your helpdesk relies on reporting workflows.</li><li>If you maintain training or onboarding materials about Teams security practices, consider adding guidance on how users can report suspicious interactions.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. This change stores new customer data because user‑submitted security reports for calls, chats, and channels are collected and made available in the Teams admin center for administrative review.</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. This change alters how existing customer data is accessed because it surfaces reported calls, messages, and detections to Teams administrators for investigation within the new Protection reports area.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes. This change adds new monitoring and reporting capabilities by providing a dedicated Protection reports section where admins can view and export user‑reported security submissions.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "536571"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Teams admins will soon access a new Protection reports section in the Teams admin center to review and export user-reported security submissions for calls (from mid-April 2026) and later for chats and channels. This requires enabling user reporting settings and helps improve organizational security monitoring."
-      }
-    ],
-    "EndDateTime": "2026-05-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227625",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-06T00:44:09.27Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-06T00:44:02Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "User reported security signals in Teams admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p></p><p>We’re adding a<b> new PowerShell cmdlet</b> that lets administrators <b>change the organizer of an existing meeting</b> or <b>meeting series </b>in <i>Exchange Online</i>. This feature supports continuity when a meeting owner changes roles, goes on leave, or is offboarded—removing the need to recreate long‑running series. After the transfer, the new organizer can update meeting properties, and attendees within the tenant won’t need to re‑RSVP.</p><p>A future release will enable users to change the organizer directly in <i>Modern Calendar experiences</i> in<i> Outlook on the web</i>, the <i>new Outlook</i>, and <i>Teams</i>. For user‑initiated transfers, the new organizer must accept the meeting before the transfer completes.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554937#Roadmap\" target=\"_blank\">554937</a>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability&nbsp;</b></p><ul style=\"\"></ul><p></p><ul><li><b>Worldwide and GCC: </b>We will begin rolling out in <b>mid-May 2026 </b>and expect to complete by<b> late June 2026.</b></li><li><b>GCC High and DoD: </b>We will begin rolling out in <b style=\"font-weight: bold;\">mid-May 2026 </b>and expect to complete by<b style=\"font-weight: bold;\"> late July 2026</b><b>.</b></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: </p><ul><li>Administrators managing Exchange Online</li><li>Meeting organizers and attendees in your tenant may see updated organizer information when applicable.</li></ul><p><i>What will happen</i>:</p><ul><li>Administrators can use a new PowerShell cmdlet to change the organizer of an existing meeting or meeting series.</li><li>The new organizer will have full control of the event, including recurrence, description, attendees, and meeting details.</li><li>For attendees within the tenant, the <b>existing event</b> on attendees’ calendars <b>will be silently updated</b> <b>to reflect the new organizer</b>. These attendees won't need to decline or reaccept the meeting.</li><li>Attendees outside the tenant will receive 2 meeting messages - one ending the series with the previous organizer and another inviting them to a series with the new organizer. These attendees should reaccept the meeting.</li><li><b>Meeting history is preserved</b>, supporting continuity and reducing abandoned meeting series.</li><li>This feature is<b> enabled by default</b>; no configuration is required.</li></ul><b><b>What you can do to prepare</b></b><p></p><p></p><p>No action is required. The feature will roll out automatically.</p><p>To prepare:</p><ul><li>Review upcoming public documentation for the cmdlet when it becomes available (a link will be added to this message).</li><li>Update internal processes for organizer transitions, such as role changes or offboarding.</li><li>You may test the cmdlet ahead of the user‑initiated organizer change experience coming to Outlook on the web, new Outlook, and Teams.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -15231,52 +15278,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 16, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>&nbsp;We’re adding new peripheral health reporting capabilities to the Pro Management portal, enabling admins to proactively monitor device issues in bring your own device (BYOD) rooms and desks.</p><p>These reports help identify when peripherals are faulty, missing, moved, or undetectable by a PC—allowing admins to take action before users report problems. Reports for rooms require a Teams Shared Devices license. Desk reporting is currently in public preview.</p><p>This change is associated with Microsoft 365 Roadmap ID:&nbsp;<a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=493319\" target=\"_blank\">493319</a></p><p>\n</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide and GCC): Rollout will begin in early April 2026 (previously late February) and is expected to complete by mid-April 2026 (previously early March).</p><p><b>How this affects your organization:</b></p><p>Admins can now use peripheral status data to detect hardware issues in BYOD rooms and desks before they impact users. This proactive monitoring can reduce support tickets and improve meeting space reliability.\n</p><ul><li>Reports for rooms require a Teams Shared Devices license.\n</li><li>Reports for desks are available in public preview and do not yet require a license.\n</li></ul><p><b>What you can do to prepare:</b></p><p>To ensure accurate peripheral status reporting:\n</p><ul><li>Use multiple peripherals in each room or desk setup. The system compares expected device pairings (e.g., if Peripheral A and B are usually connected together, but A is missing, it will be flagged).\n</li><li>Simplify connectivity for users by using a single cable solution to connect all peripherals.\n</li><li>Ensure rooms and desks are bookable and have associated peripherals—this enables the Teams desktop client to send the necessary telemetry. Peripheral association can be done manually or automatically.</li></ul><p><b>Compliance considerations:</b></p><ul><li>Does the change alter how existing customer data is processed, stored, or accessed? Maybe (device telemetry is used for reporting)\n</li></ul><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "493319"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is adding peripheral health reporting in the Pro Management portal for BYOD rooms and desks, enabling admins to detect device issues proactively. Room reports need a Teams Shared Devices license; desk reports are in public preview. Rollout starts April 2026, improving support and meeting reliability."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-05-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1090689",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-16T18:12:16.933Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-06-09T23:13:28Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Enhanced peripheral data in Pro Management portal reports for BYOD spaces",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction \n</b></p><p>We are announcing the retirement of Q&amp;A, Power BI’s legacy natural language tool. Starting December 2026, Q&amp;A experiences will be retired. Moving forward, users can leverage Power BI Copilot, which offers a more advanced and integrated solution for querying data using generative AI. This change reduces feature overlap, accelerates innovation, and provides a consistent experience across Power BI. \n</p><p><b>When this will happen:</b></p><p>Q&amp;A experiences and Q&amp;A Setup will be fully retired by the end of December 2026.</p><p><b>How this affects your organization: \n</b></p><p>Who is affected: All organizations using Q&amp;A experiences in Power BI reports, dashboards, mobile, or embedded analytics. \n</p><p><b>What will happen: \n</b></p><ul><li>Creation of new Q&amp;A visuals or experiences will no longer be permitted after December 2026. \n</li><li>Existing Q&amp;A visuals in reports, dashboards, mobile, and embedded scenarios will stop working and will be removed. \n</li><li>Q&amp;A Setup tools (synonyms, linguistic relationships, teach Q&amp;A, etc.) will be retired. \n</li><li>Users should transition to Power BI Copilot for natural language queries and insights. \n</li></ul><p><b>What you can do to prepare: \n</b></p><ul><li>Review reports and dashboards for Q&amp;A visuals and plan to replace them with Copilot experiences. Learn more:&nbsp;<a href=\"https://powerbi.microsoft.com/blog/deprecating-power-bi-qa/\" target=\"_blank\">Microsoft Power BI Updates Blog: Deprecating Power BI Q&amp;A</a>.</li><li>Familiarize yourself with Power BI Copilot and Prep Data for AI as alternatives to Q&amp;A and Q&amp;A Setup. \n</li><li>Update internal documentation and helpdesk guidance to reflect this change. \n</li></ul><p><b>Compliance considerations: \n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -15326,7 +15327,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
