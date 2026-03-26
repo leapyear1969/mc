@@ -4,6 +4,152 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 25, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>\n\n</p><p>We’re introducing a visual refresh of the <b>Access Request and Access Denied</b>&nbsp;page experience across <i>Microsoft 365</i>, redesigned to help users quickly request access to content such as documents, SharePoint sites, or Teams meeting recordings. This update features modern Fluent illustrations, animations, and clearer messaging to make it easier to understand and resolve access issues for a more seamless collaboration experience.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553214\">553214</a>.</p><p> </p>\n\n<p></p>\n\n\n\n\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p><b>\nGeneral Availabilit<span style=\"background-color: rgb(255, 255, 255);\">y (Worldwide, GCC, GCC High, DoD):</span></b> We will begin rolling out in early May 2026 (previously late March) and expect to complete by end of May 2026 (previously mid-April)<b>.</b></p>\n\n<p><b>\n<b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>All users requesting access to content stored on <i>OneDrive</i> and<i> SharePoint</i>.</p><b>What will happen:</b><p></p><ul><li>Users will see a redesigned Access Request page when attempting to access restricted content:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1c634d49-0724-4e6a-8bbc-86d24bf25334/14d6749f89c45f98c4a273cfb4d0e29c69044a55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The page will feature updated Fluent visuals and animations.\n</li><li>Messaging will be clearer to help users understand the status of their request:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b6bc1f3-3827-4760-833e-d9af2b7c8709/df373642b72eb96268796ff5674fa3d11384ae8e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>No changes to admin policies or access controls.\n</li><li>The update will be <b>enabled by default</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>No action is required to enable this update; it will be <b>applied automatically</b>.</p><p>However, to ensure a smooth experience for your users, we recommend the following:</p><ul><li>Communicate this change to helpdesk and support staff so they can assist users who may have questions about the new visuals or messaging.\n</li><li>Update internal documentation if you reference the Access Request or Access Denied experience in training materials or support guides.\n</li><li>Review any custom workflows or access request processes to ensure they align with the updated experience.\n</li><li>Monitor user feedback after rollout to identify any confusion or support needs related to the new design.</li></ul><p><b><b>Compliance considerations:</b>&nbsp;</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "553214"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 will roll out a redesigned Access Request and Access Denied page in May 2026, featuring modern visuals, animations, and clearer messaging for OneDrive and SharePoint users. No admin policy changes; the update is automatic. Organizations should inform support staff and update documentation accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1188599",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T00:02:25.113Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft OneDrive",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-21T00:17:08Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 25, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b>&nbsp;April 2026 (previously late March)</b>&nbsp;and is expected to complete by<b>&nbsp;May 2026 (previously late April)</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557255"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview DLP policies will block Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices, starting April 2026. This update requires no policy changes and ensures consistent DLP enforcement in supported Microsoft 365 apps."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1234661",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-25T23:41:56.493Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft 365 apps",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-19T00:57:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 25, 2026: We have updated the content with some additional support articles. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>We're introducing support for <i>Microsoft Purview sensitivity labels</i> in <i>OneNote</i>. This update enables users to manually classify and protect OneNote sections using the same compliance standards available across Microsoft 365 apps. Labels can be applied to each&nbsp;OneNote Section, helping ensure sensitive content is encrypted, access-controlled, and aligned with organizational policies. This change supports consistent data protection across platforms and endpoints.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500020\" target=\"_blank\">500020</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b>&nbsp;We expect to complete the rollout by late February 2026 (previously late January).</p><p><b>How this affects your organization</b></p><p>This update enhances data protection and compliance capabilities by introducing sensitivity labeling to <i>OneNote </i>sections. Admins will gain greater control over how sensitive information is handled within <i>OneNote</i>, aligning it with other Microsoft 365 apps. This is particularly beneficial for organizations in regulated industries, helping mitigate risk and enforce compliance policies across endpoints.</p><p><b>Who is affected:</b></p><p>All users of supported OneNote clients across platforms, including organizations in regulated industries and those with compliance requirements.</p><p><b>What will happen:</b></p><ul><li><i>Sensitivity labels</i> will be available in supported <i>OneNote</i> clients:<ul><li>OneNote Win32 (Desktop)</li><li>OneNote for Web</li><li>OneNote for iOS</li><li>OneNote for Android</li><li>OneNote for Mac</li></ul></li><li> OneNote for Windows 10 (UWP) will not support this feature.</li><li>Users will be able to manually apply sensitivity labels directly to OneNote sections.</li><li>Labeled sections will be encrypted and access-controlled based on organizational policies.</li><li>Admins can enforce labeling policies and monitor usage via Microsoft Purview.</li><li>Label policies can be scoped using Entra ID group membership.</li><li>Manual Labeling capability will be supported with this rollout. Other Sensitivity Label capabilities such as auto labeling, mandatory labels, default labeling and user defined permissions (UDP) labels will be rolled out at a future date.</li></ul><p><b>What you can do to prepare</b></p><p>To prepare for this rollout:</p><ul><li>Ensure endpoints are using supported OneNote clients: Win32, Web, iOS, Android, and Mac.</li><li>Transition away from OneNote for Windows 10 (UWP), which will not support sensitivity labels.</li><li>No additional setup is required beyond maintaining updated builds.</li><li>Admins may want to validate readiness and communicate expected changes to users.</li><li>Review and update internal documentation to reflect supported platforms.</li></ul><p>Getting Started: </p><p>OneNote uses the same sensitivity labels configured for files. However, the labeling capability in OneNote is not enabled by default and must be enabled manually by the IT administrator. For detailed guidance, please refer to ‘<a href=\"https://learn.microsoft.com/purview/sensitivity-labels-sharepoint-onedrive-files#:~:text=the%20Setup%20configuration.-,Run%20the%20PowerShell%20command%20to%20enable%20support%20for%20sensitivity%20labels,-To%20enable%20the\">Enable sensitivity labels for files in SharePoint and OneDrive</a>’ and to ‘<a href=\"https://support.microsoft.com/office/microsoft-purview-sensitivity-labels-in-onenote-5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d\">Microsoft Purview sensitivity labels in OneNote</a>’.</p><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/sensitivity-labels\" target=\"_blank\">Learn about sensitivity labels | Microsoft Purview | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g., documents, emails, chats, etc.)?</td><td>Yes. This change enables encryption and access control for OneNote sections, modifying how sensitive customer data is processed and accessed within OneNote.</td></tr><tr><td>Does the change modify Information Protection labels or sensitive information types?</td><td>Yes. It extends the applicability of Microsoft Purview sensitivity labels to OneNote sections, modifying how labels are used across Microsoft 365 apps.</td></tr><tr><td>Does the change modify Conditional Access policies, Data Loss Prevention (DLP), or other Purview capabilities?</td><td>Yes. Admins can enforce labeling policies in OneNote, which may interact with existing DLP and Conditional Access configurations.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities (e.g., via Purview or admin reporting)?</td><td>Yes. Admins will be able to track and report on sensitivity label usage in OneNote through Microsoft Purview compliance solutions.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Label policies can be scoped and enforced using Entra ID group membership, allowing targeted deployment and control.</td></tr></tbody></table><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500020"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview sensitivity labels are now supported in OneNote sections on Win32, Web, iOS, Android, and Mac, enabling manual classification, encryption, and access control. Admins can enforce policies and monitor usage via Purview. OneNote for Windows 10 (UWP) is not supported. Rollout completes by late February 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-04-17T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1157712",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-25T23:37:56.33Z",
+    "Services": [
+      "Microsoft 365 apps",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-22T22:54:11Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft OneNote | Sensitivity labels now available on desktop, web, iOS, Android, and Mac",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b>Introduction</b></p><p>Microsoft Security Copilot agents are built into the flow of work of security teams using Microsoft Defender, Microsoft Entra, Microsoft Intune and Microsoft Purview. At <a href=\"https://www.microsoft.com/security/blog/2025/11/18/agents-built-into-your-workflow-get-security-copilot-with-microsoft-365-e5/\" target=\"_blank\">Ignite 2025</a>, Microsoft introduced a dozen new agents across these products, bringing agentic defense across workflows to enable autonomous and proactive protection.</p><p>To make it easier for teams to get started, Microsoft announced that <b>Security Copilot will be included with Microsoft 365 E5</b>. Eligible tenants will automatically transition to the new entitlement—no action required.&nbsp;</p><p><b>When this will happen</b></p><p>As part of your existing Microsoft 365 E5 entitlement, you’ll gain access to Security Copilot features and agents through a phased rollout between <b>April 20, 2026, and June 30, 2026</b>. You’ll receive a notification 7 days before your tenant is enabled, and again on the enablement date.&nbsp; </p><p><b>How this affects your organization&nbsp;</b></p><p>Your organization will have access to Security Copilot with:&nbsp;</p><ul><li>400 Security Compute Units (SCUs) per month per 1,000 user licenses, included with Microsoft 365 E5 (up to 10,000 SCUs/month)&nbsp;</li><li>Core agentic experiences across Microsoft Entra, Intune, Purview, Defender, and the Security Copilot portal</li><li>Developer tools and APIs for custom agents and integrations&nbsp;</li></ul><b>Note</b>: Any capabilities beyond those that are part of the core Security Copilot value will require additional payment. For example:&nbsp;<p></p><ul><li>Sentinel data lake compute or storage costs&nbsp;</li><li>Non-agentic Data Security Investigations experience in Microsoft Purview&nbsp;</li><li>Charges for Azure Logic Apps for usage with Security Copilot&nbsp;</li><li>Third-party agent licensing paid via Security Store&nbsp;</li></ul><p><b>We recommend:\n</b></p><ul><li>Signing up for the <a href=\"https://aka.ms/sc/workshops\" target=\"_blank\">Security Copilot skilling series</a>.\n</li><li>Reviewing new agentic scenarios and developer capabilities in the <a href=\"https://adoption.microsoft.com/security-copilot/\" target=\"_blank\">Security Copilot Adoption Hub</a>.\n</li><li>Reviewing the <a href=\"https://aka.ms/scpinclusioninfo\" target=\"_blank\">documentation</a>&nbsp;for details on what’s included.&nbsp;<b>&nbsp;</b></li><li><a href=\"http://aka.ms/Microsoft365RFA\" target=\"_blank\">Requesting assistance</a> from a Microsoft 365 FastTrack specialist to unlock the full value of Security Copilot</li></ul><p><b>\n</b></p>",
       "ContentType": "html"
     },
@@ -56,7 +202,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-25T23:30:54.3172492Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-25T23:30:54.3172495Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-25T23:30:54.3172496Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T02:02:30.2723752Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T02:02:30.2723754Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T02:02:30.2723757Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2132,7 +2278,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3198,7 +3344,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3255,54 +3401,6 @@
       "New feature"
     ],
     "Title": "Power Apps - Custom theming for model-driven apps is becoming generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b> late March 2026</b> and is expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557255"
-      },
-      {
-        "Name": "Summary",
-        "Value": "DLP policies will block Microsoft 365 Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices. This rollout begins late March 2026, requires no policy changes, and ensures consistent DLP enforcement without altering Copilot capabilities."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac"
-      }
-    ],
-    "EndDateTime": "2026-05-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1234661",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-17T20:58:43.983Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft 365 apps",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-19T00:57:46Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -3795,7 +3893,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670192Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670201Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670192Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670201Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4287,7 +4385,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6193,7 +6291,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6281,55 +6379,6 @@
       "New feature"
     ],
     "Title": "Power Apps - Configure offline profile using FetchXML editor",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>\n\n</p><p>We’re introducing a visual refresh of the <b>Access Request and Access Denied</b>&nbsp;page experience across <i>Microsoft 365</i>, redesigned to help users quickly request access to content such as documents, SharePoint sites, or Teams meeting recordings. This update features modern Fluent illustrations, animations, and clearer messaging to make it easier to understand and resolve access issues for a more seamless collaboration experience.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553214\">553214</a>.</p><p> </p>\n\n<p></p>\n\n\n\n\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p><b>\nGeneral Availabilit<span style=\"background-color: rgb(255, 255, 255);\">y (Worldwide, GCC, GCC High, DoD):</span></b> We will begin rolling out in late March 2026 and expect to complete mid-April 2026 (previously March)<b>.</b></p>\n\n<p><b>\n<b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>All users requesting access to content stored on <i>OneDrive</i> and<i> SharePoint</i>.</p><b>What will happen:</b><p></p><ul><li>Users will see a redesigned Access Request page when attempting to access restricted content:&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1c634d49-0724-4e6a-8bbc-86d24bf25334/14d6749f89c45f98c4a273cfb4d0e29c69044a55.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The page will feature updated Fluent visuals and animations.\n</li><li>Messaging will be clearer to help users understand the status of their request:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6b6bc1f3-3827-4760-833e-d9af2b7c8709/df373642b72eb96268796ff5674fa3d11384ae8e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>No changes to admin policies or access controls.\n</li><li>The update will be <b>enabled by default</b>.</li></ul><p><b><b>What you need to do to prepare:</b>\n</b></p><p>No action is required to enable this update; it will be <b>applied automatically</b>.</p><p>However, to ensure a smooth experience for your users, we recommend the following:</p><ul><li>Communicate this change to helpdesk and support staff so they can assist users who may have questions about the new visuals or messaging.\n</li><li>Update internal documentation if you reference the Access Request or Access Denied experience in training materials or support guides.\n</li><li>Review any custom workflows or access request processes to ensure they align with the updated experience.\n</li><li>Monitor user feedback after rollout to identify any confusion or support needs related to the new design.</li></ul><p><b><b>Compliance considerations:</b>&nbsp;</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "553214"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 will update the Access Request and Access Denied pages with modern visuals, animations, and clearer messaging for OneDrive and SharePoint users. The rollout begins late March 2026, completes mid-April, with no policy changes. The update is automatic; organizations should inform support staff and update documentation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1188599",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-06T23:30:16.58Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft OneDrive",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-21T00:17:08Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8275,7 +8324,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8325,7 +8374,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8414,7 +8463,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8649,7 +8698,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8837,7 +8886,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9470,7 +9519,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9700,7 +9749,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13334,7 +13383,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13384,7 +13433,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13857,7 +13906,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13884,54 +13933,6 @@
       "User impact"
     ],
     "Title": "Introducing the New Workflows Experience in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 30 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p><p>We're introducing support for <i>Microsoft Purview sensitivity labels</i> in <i>OneNote</i>. This update enables users to manually classify and protect OneNote sections using the same compliance standards available across Microsoft 365 apps. Labels can be applied to each&nbsp;OneNote Section, helping ensure sensitive content is encrypted, access-controlled, and aligned with organizational policies. This change supports consistent data protection across platforms and endpoints.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500020\" target=\"_blank\">500020</a>.</p><p><b>When this will happen</b></p><p><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b>&nbsp;We expect to complete the rollout by late February 2026 (previously late January).</p><p><b>How this affects your organization</b></p><p>This update enhances data protection and compliance capabilities by introducing sensitivity labeling to <i>OneNote </i>sections. Admins will gain greater control over how sensitive information is handled within <i>OneNote</i>, aligning it with other Microsoft 365 apps. This is particularly beneficial for organizations in regulated industries, helping mitigate risk and enforce compliance policies across endpoints.</p><p><b>Who is affected:</b></p><p>All users of supported OneNote clients across platforms, including organizations in regulated industries and those with compliance requirements.</p><p><b>What will happen:</b></p><ul><li><i>Sensitivity labels</i> will be available in supported <i>OneNote</i> clients:<ul><li>OneNote Win32 (Desktop)</li><li>OneNote for Web</li><li>OneNote for iOS</li><li>OneNote for Android</li><li>OneNote for Mac</li></ul></li><li> OneNote for Windows 10 (UWP) will not support this feature.</li><li>Users will be able to manually apply sensitivity labels directly to OneNote sections.</li><li>Labeled sections will be encrypted and access-controlled based on organizational policies.</li><li>Admins can enforce labeling policies and monitor usage via Microsoft Purview.</li><li>Label policies can be scoped using Entra ID group membership.</li><li>Manual Labeling capability will be supported with this rollout. Other Sensitivity Label capabilities such as auto labeling, mandatory labels, default labeling and user defined permissions (UDP) labels will be rolled out at a future date.</li></ul><p><b>What you can do to prepare</b></p><p>To prepare for this rollout:</p><ul><li>Ensure endpoints are using supported OneNote clients: Win32, Web, iOS, Android, and Mac.</li><li>Transition away from OneNote for Windows 10 (UWP), which will not support sensitivity labels.</li><li>No additional setup is required beyond maintaining updated builds.</li><li>Admins may want to validate readiness and communicate expected changes to users.</li><li>Review and update internal documentation to reflect supported platforms.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/sensitivity-labels\" target=\"_blank\">Learn about sensitivity labels | Microsoft Purview | Microsoft Learn</a></p><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g., documents, emails, chats, etc.)?</td><td>Yes. This change enables encryption and access control for OneNote sections, modifying how sensitive customer data is processed and accessed within OneNote.</td></tr><tr><td>Does the change modify Information Protection labels or sensitive information types?</td><td>Yes. It extends the applicability of Microsoft Purview sensitivity labels to OneNote sections, modifying how labels are used across Microsoft 365 apps.</td></tr><tr><td>Does the change modify Conditional Access policies, Data Loss Prevention (DLP), or other Purview capabilities?</td><td>Yes. Admins can enforce labeling policies in OneNote, which may interact with existing DLP and Conditional Access configurations.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities (e.g., via Purview or admin reporting)?</td><td>Yes. Admins will be able to track and report on sensitivity label usage in OneNote through Microsoft Purview compliance solutions.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Label policies can be scoped and enforced using Entra ID group membership, allowing targeted deployment and control.</td></tr></tbody></table><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500020"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft OneNote now supports Microsoft Purview sensitivity labels on Win32, Web, iOS, Android, and Mac clients (excluding Windows 10 UWP). Users can manually label sections for encryption and access control, enhancing compliance and data protection. Rollout completes by late February 2026, with admin controls via Entra ID."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1157712",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-30T17:04:45.73Z",
-    "Services": [
-      "Microsoft 365 apps",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-22T22:54:11Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft OneNote | Sensitivity labels now available on desktop, web, iOS, Android, and Mac",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13993,7 +13994,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14243,7 +14244,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15324,7 +15325,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15592,7 +15593,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243517Z\",\"LatestRing\":null},{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243514Z\",\"LatestRing\":null},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243518Z\",\"LatestRing\":null}]}"
+        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243514Z\",\"LatestRing\":null},{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243517Z\",\"LatestRing\":null},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-16T11:43:02.7243518Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16947,7 +16948,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17364,7 +17365,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19145,7 +19146,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -19401,7 +19402,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
