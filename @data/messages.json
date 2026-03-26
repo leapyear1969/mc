@@ -4,6 +4,146 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 26, 2026: We have updated the timeline below. Thank you for your patience.\n</p><p>Your organization can already apply Microsoft Purview Data Loss Prevention (DLP) policies to Microsoft Fabric, but soon you will also be able to restrict access to Fabric sematic models and lakehouses by applying DLP policies. After this rollout, admins will be able to configure DLP policies that automatically detect sensitive information in sematic models and lakehouses and then restrict access to this data to internal users or data owners</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422501\" target=\"_blank\">422501</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: DLP restrict access for sematic models is already available in Public Preview as of November 2024. For Fabric lakehouse, public preview of restrict access will begin rollout mid-April 2025 and is expected to complete by late April 2025.&nbsp;</p><p>\n</p><p>General Availability: We will begin rolling out late October 2026 (previously June) and expect to complete by late November 2026 (previously end of June).</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, you can configure DLP policies for Fabric workspaces to audit and notify users through Policy Tips based on sensitive content. \n</p><p>After this rollout, DLP policies can also be configured to block or restrict access to internal users or data owners. This action is especially valuable when your organization has guest users, and you want to enforce proper restrictions to ensure these users do not accidentally access sensitive information.\n</p><p>This change is available by default for admins to configure.\n</p><p>Configuring the <i>Restrict access</i> action in DLP policy for Fabric:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/d94ac7d9-4c32-4263-8714-8da40ca65053\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. If your organization does not wish to start using the <i>Restrict access</i> action for Fabric, no additional action is required. If you would like to start restricting access to internal users or data owners, your security or compliance admin will need to update or create new DLP policies for Fabric to include the new <i>Restrict access</i> action.\n</p><p>Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/fabric/governance/data-loss-prevention-overview\" target=\"_blank\">Data loss prevention policies in Microsoft Fabric - Microsoft Fabric | Microsoft Learn</a>\n</li><li><a href=\"https://aka.ms/DLPblog\" target=\"_blank\">New Capabilities for Microsoft Purview DLP</a></li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422501"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview DLP now allows restricting access to Microsoft Fabric semantic models and lakehouses. Public preview began in November 2024 for semantic models and April 2025 for lakehouses. General availability is expected by late November 2026. Admins can configure policies to block or restrict access to sensitive data automatically."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-12-28T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC937920",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T22:17:51.133Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-19T23:41:26Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Loss Prevention: Restrict Access action for semantic models in Microsoft Fabric (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing ad-hoc room reservation directly from the Microsoft Teams Rooms on Windows console. This update enables users to reserve an available room on the spot without relying on a personal device or hallway panel, supporting quick, spontaneous meetings and helping reduce scheduling conflicts. This feature requires a Teams Rooms Pro license.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548648\" target=\"_blank\" style=\"\">548648</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in<b>&nbsp;late May 2026 </b>(previously late April)&nbsp;and expect to complete by<b>&nbsp;early June 2026 </b>(previously late April).</li><li><b>General Availability (GCC High): </b>We will begin rolling out late<b>&nbsp;</b>in <b>early June 2026 </b>(previously April)<b> </b>and expect to complete by <b>late June 2026 </b>(previously&nbsp;early May).</li><li><b>General Availability (DoD): </b>We will begin rolling out in<b>&nbsp;late June 2026 </b>(previously late April)<b> </b>and expect to complete by<b>&nbsp;mid-July 2026 </b>(previously mid-May).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users and admins of Teams Rooms on Windows with Teams Rooms Pro licenses.</li></ul><p>What will happen</p><ul><li>After this feature becomes available on room devices, users can reserve an available room directly from the Teams Rooms calendar by choosing <i><b>Reserve</b></i> and selecting an<b> end time</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5208696b-e82e-4d76-aa65-b50abb61433c/cf2b8c67fd9d949cb1e48a191d291559496d590e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>End times appear in 15-minute increments for up to the end of the day or until the next scheduled meeting, whichever comes sooner:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d0cc7eac-2e6d-4170-9095-4943968f5bf3/f57041e5b42942c36c0b7c4047a43efea3966d27.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The feature is <b>enabled by default</b>.</li><li>Admin controls will be available on the<b> Teams Rooms Pro Management portal</b>:&nbsp;<b>Rooms &gt; Settings &gt; Meetings &gt; Allow ad-hoc room reservation</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>Notify users of the new reservation workflow.</li><li>Update internal training or documentation.</li><li>Use Teams Rooms Pro Management portal or device settings if you want to restrict ad-hoc reservations.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "548648"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Windows will support ad-hoc room reservations directly from the console, requiring a Teams Rooms Pro license. Rollout begins late May 2026, with admin controls to enable or restrict this feature. Users can reserve rooms quickly without personal devices, aiding spontaneous meetings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-08-17T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245225",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T22:14:42.277Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:36:47Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Express voice enrollment</b> in Microsoft Teams makes registering your voice profile quick and seamless. A voice profile enables features such as voice isolation, speaker recognition, identification in meeting rooms, improved transcripts, and enhanced meeting recaps and insights powered by Microsoft 365 Copilot. If you haven’t enrolled, you’ll receive an in-product prompt to opt in and enroll simply by speaking during a meeting. <b>Admins can enable or disable this feature for their organization.</b></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269\" target=\"_blank\">537269</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release: </b>Rollout begins mid-May 2026 (previously early April) and is expected to complete by late May 2026 (previously mid-April).</li>\n<li><b>General Availability:</b> Rollout begins late May (previously mid-April) and is expected to complete by early June 2026 (previously end of April).</li>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All enterprise Microsoft Teams customers except Education (EDU) tenants.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new voice enrollment experience will be available in Teams.</li>\n<li>Users will receive an in-product prompt to enroll their voice profile by speaking during a meeting.</li>\n<li>The feature will be<b> ON by default</b> for enterprise tenants.</li>\n<li>EDU tenants are excluded from this rollout.</li>\n<li>If your organization previously disabled voice enrollment policies, this feature will not apply.</li>\n<li>Admins can manage this setting using new PowerShell cmdlets under the <code>PassiveVoiceEnroll</code> configuration in the <code>csTeamsAIPolicy</code> policy.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s Teams AI policy settings before rollout.</li>\n<li>If you want to disable this feature, update the <code>PassiveVoiceEnroll</code> configuration using PowerShell.</li>\n<li>Communicate this change to your helpdesk and end users as needed.</li>\n<li>Update internal documentation to reflect this new capability.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "537269"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Express voice enrollment in Microsoft Teams enables quick voice profile registration for enhanced meeting features. Rollout starts mid-May 2026 for enterprise tenants (excluding EDU), with the feature on by default. Admins can manage settings via PowerShell. Organizations should review policies and communicate changes accordingly."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-07-13T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1197146",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-26T22:08:31.847Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-15T20:39:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Express voice enrollment in Microsoft Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing <b>Viva&nbsp;Engage communities</b> in <i>Microsoft Teams</i> to make it easier for employees to connect, share, and learn across your organization. This new experience brings discoverable, asynchronous conversations and leadership engagement into Teams—helping employees explore ideas and perspectives beyond project-based collaboration.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513274\" target=\"_blank\">513274</a>.</p><p><b><b>When this will happen</b></b></p><ul><li>General Availability (Worldwide): May 2026 (previously April) to end of May 2026 (previously April)</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected: </i>All Microsoft Teams users with access to Viva Engage.</p><p><i>What will happen:</i></p><ul><li>This feature is available to all Microsoft Teams customers with a standard Microsoft 365 and Teams license and access to Viva Engage. No additional Teams license is required<b>.</b></li><li><b>Communities </b>will appear in <i>Teams navigation</i>:<ul><li><b>Unified view:</b> New section in the <i>Chat app</i>.</li><li><b>Split view:</b> New section in the <i>Chats</i> <i>and Channels app</i>.</li></ul></li><li>Existing Viva Engage community memberships will sync into <i>Teams</i>.</li><li>Favorited communities in Engage will appear in<i> Teams favorites</i>.</li><li>Notifications for announcements and mentions will surface in <i>Teams Activity feed </i>and deep link to the new experience.</li><li>Rich engagement features include:<ul><li>Posting discussions, questions, praise, polls, and announcements (admins only).</li><li>Reactions, delegated posting (requires setup in <i>Viva Engage</i>), and scoped search.</li><li>Event participation: ask questions, upvote, view live or replay.</li></ul></li><li>Admins can manage community settings, membership, and roles directly in<i> Teams</i>.</li><li><b>Default setting:</b> <b>ON for all tenants</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No immediate action required unless you want to disable this feature.</li><li><b>To turn off </b>communities<i> in Teams</i>:<ul><li>Go to <b><i>Teams admin center &gt; Viva Engage settings &gt; Toggle OFF</i></b>.</li></ul></li><li>Ensure prerequisites:<ul><li>Viva Engage IPs and URLs are not blocked.</li><li>Sign-ins for Viva Engage are enabled in <i>Microsoft Entra ID</i>.</li><li>Users have Microsoft 365 and Teams licenses.</li></ul></li><li>Consider sharing best practices and customization options with users.</li><li>Coordinate with Viva Engage admins for internal change communications.</li></ul><p>Learn more:&nbsp;&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/office/getting-started-with-viva-engage-communities-in-microsoft-teams-b9fa52b8-4d1f-4ed4-b285-03e2537d3dbe\" target=\"_blank\">Getting started with Viva Engage Communities in Microsoft Teams | Microsoft Support</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/teams-viva-experiences\" target=\"_blank\">Manage Viva Engage experiences in Microsoft Teams | Microsoft Teams | Micosoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
       "ContentType": "html"
     },
@@ -555,7 +695,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580671Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580669Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580672Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580669Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580671Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580672Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2593,7 +2733,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3659,7 +3799,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4208,7 +4348,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670192Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670201Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670192Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-25T10:44:22.1670201Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4654,7 +4794,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6560,7 +6700,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7108,52 +7248,6 @@
       "New feature"
     ],
     "Title": "Dynamics 365 Customer Service - Generate long-term forecasts up to three years",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing ad-hoc room reservation directly from the Microsoft Teams Rooms on Windows console. This update enables users to reserve an available room on the spot without relying on a personal device or hallway panel, supporting quick, spontaneous meetings and helping reduce scheduling conflicts. This feature requires a Teams Rooms Pro license.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548648\" target=\"_blank\" style=\"\">548648</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late April 2026</b>.</li><li><b>General Availability (GCC High): </b>We will begin rolling out late<b>&nbsp;in April 2026 </b>and expect to complete by <b>early May 2026</b>.</li><li><b>General Availability (DoD): </b>We will begin rolling out in<b> late April 2026 </b>and expect to complete by<b> mid-May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users and admins of Teams Rooms on Windows with Teams Rooms Pro licenses.</li></ul><p>What will happen</p><ul><li>After this feature becomes available on room devices, users can reserve an available room directly from the Teams Rooms calendar by choosing <i><b>Reserve</b></i> and selecting an<b> end time</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5208696b-e82e-4d76-aa65-b50abb61433c/cf2b8c67fd9d949cb1e48a191d291559496d590e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>End times appear in 15-minute increments for up to the end of the day or until the next scheduled meeting, whichever comes sooner:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d0cc7eac-2e6d-4170-9095-4943968f5bf3/f57041e5b42942c36c0b7c4047a43efea3966d27.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The feature is <b>enabled by default</b>.</li><li>Admin controls will be available on the<b> Teams Rooms Pro Management portal</b>:&nbsp;<b>Rooms &gt; Settings &gt; Meetings &gt; Allow ad-hoc room reservation</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>Notify users of the new reservation workflow.</li><li>Update internal training or documentation.</li><li>Use Teams Rooms Pro Management portal or device settings if you want to restrict ad-hoc reservations.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "548648"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Rooms on Windows will support ad-hoc room reservations directly from the console, enabling quick bookings without personal devices. This feature, requiring a Teams Rooms Pro license, rolls out globally starting late April 2026, is enabled by default, and can be managed via the Teams Rooms Pro Management portal."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-06-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1245225",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-05T23:36:54.557Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-05T23:36:47Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8593,7 +8687,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8643,7 +8737,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8732,7 +8826,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8967,7 +9061,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9155,7 +9249,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9788,7 +9882,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9971,7 +10065,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10304,53 +10398,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention – Export DLP and label policy configurations",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 20, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Express voice enrollment</b> in Microsoft Teams makes registering your voice profile quick and seamless. A voice profile enables features such as voice isolation, speaker recognition, identification in meeting rooms, improved transcripts, and enhanced meeting recaps and insights powered by Microsoft 365 Copilot. If you haven’t enrolled, you’ll receive an in-product prompt to opt in and enroll simply by speaking during a meeting. <b>Admins can enable or disable this feature for their organization.</b></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269\" target=\"_blank\">537269</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release: </b>Rollout begins early April 2026 (previously early March) and is expected to complete by mid-April 2026 (previously mid-March).</li>\n<li><b>General Availability:</b> Rollout begins mid-April 2026 (previously mid-March) and is expected to complete by end of April 2026 (previously end of March).</li>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All enterprise Microsoft Teams customers except Education (EDU) tenants.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new voice enrollment experience will be available in Teams.</li>\n<li>Users will receive an in-product prompt to enroll their voice profile by speaking during a meeting.</li>\n<li>The feature will be<b> ON by default</b> for enterprise tenants.</li>\n<li>EDU tenants are excluded from this rollout.</li>\n<li>If your organization previously disabled voice enrollment policies, this feature will not apply.</li>\n<li>Admins can manage this setting using new PowerShell cmdlets under the <code>PassiveVoiceEnroll</code> configuration in the <code>csTeamsAIPolicy</code> policy.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s Teams AI policy settings before rollout.</li>\n<li>If you want to disable this feature, update the <code>PassiveVoiceEnroll</code> configuration using PowerShell.</li>\n<li>Communicate this change to your helpdesk and end users as needed.</li>\n<li>Update internal documentation to reflect this new capability.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "537269"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Express voice enrollment in Microsoft Teams enables quick voice profile registration for enhanced features like voice isolation and improved transcripts. Rolling out April 2026 for enterprise tenants (excluding EDU), it’s on by default but can be managed by admins via PowerShell. Review policies and communicate changes accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-06-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1197146",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-20T22:58:05.85Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-15T20:39:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Express voice enrollment in Microsoft Teams",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13478,7 +13525,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13528,7 +13575,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14001,7 +14048,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14089,7 +14136,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14339,7 +14386,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"381953\":[{\"RoadmapId\":381953,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426859Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426864Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301961Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7426874Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":381953,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301966Z\",\"LatestRing\":null},{\"RoadmapId\":381953,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742689Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15327,7 +15374,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15595,7 +15642,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583357Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583332Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583361Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583332Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583357Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583361Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16913,7 +16960,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17229,52 +17276,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 3, 2025: We have updated the timeline below. Thank you for your patience.\n</p><p>Your organization can already apply Microsoft Purview Data Loss Prevention (DLP) policies to Microsoft Fabric, but soon you will also be able to restrict access to Fabric sematic models and lakehouses by applying DLP policies. After this rollout, admins will be able to configure DLP policies that automatically detect sensitive information in sematic models and lakehouses and then restrict access to this data to internal users or data owners</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422501\" target=\"_blank\">422501</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: DLP restrict access for sematic models is already available in Public Preview as of November 2024. For Fabric lakehouse, public preview of restrict access will begin rollout mid-April 2025 and is expected to complete by late April 2025.&nbsp;</p><p>\n</p><p>General Availability: We will begin rolling out June 2026.</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, you can configure DLP policies for Fabric workspaces to audit and notify users through Policy Tips based on sensitive content. \n</p><p>After this rollout, DLP policies can also be configured to block or restrict access to internal users or data owners. This action is especially valuable when your organization has guest users, and you want to enforce proper restrictions to ensure these users do not accidentally access sensitive information.\n</p><p>This change is available by default for admins to configure.\n</p><p>Configuring the <i>Restrict access</i> action in DLP policy for Fabric:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/d94ac7d9-4c32-4263-8714-8da40ca65053\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. If your organization does not wish to start using the <i>Restrict access</i> action for Fabric, no additional action is required. If you would like to start restricting access to internal users or data owners, your security or compliance admin will need to update or create new DLP policies for Fabric to include the new <i>Restrict access</i> action.\n</p><p>Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/fabric/governance/data-loss-prevention-overview\" target=\"_blank\">Data loss prevention policies in Microsoft Fabric - Microsoft Fabric | Microsoft Learn</a>\n</li><li><a href=\"https://aka.ms/DLPblog\" target=\"_blank\">New Capabilities for Microsoft Purview DLP</a></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422501"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview DLP now allows restricting access to Microsoft Fabric semantic models and lakehouses. Public preview for semantic models began November 2024; lakehouse preview starts April 2025. General availability is planned for June 2026. Admins can configure DLP policies to block or restrict access to sensitive data automatically."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC937920",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-03T20:06:05.457Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-19T23:41:26Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data Loss Prevention: Restrict Access action for semantic models in Microsoft Fabric (preview)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2025-12-07T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -17330,7 +17331,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19111,7 +19112,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -19367,7 +19368,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
