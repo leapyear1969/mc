@@ -4,6 +4,105 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated March 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing<b> </b>improvements to the <b>code block experience</b> in <i>Microsoft Teams Compose</i>. These updates make reading, sharing, and referencing code more efficient by adding default line numbers and enhancing keyboard navigation. These changes also support better accessibility and help users who frequently share code in chats or channels.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554933#Roadmap\" target=\"_blank\">554933</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: Rolling out in <b>early May 2026</b> (previously&nbsp;April)&nbsp;and expected to complete in <b>mid-May 2026</b> (previously&nbsp;April).</li><li><b>General Availability (Worldwide)</b>: Rolling out in <b>mid-May 2026</b> (previously&nbsp;April)<b>&nbsp;</b>and expected to complete in <b>late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users who compose and share messages in <i>Microsoft Teams </i>on Windows, Mac, and Web.</p><p><i>What will happen</i></p><p>Users will see enhancements to the code block experience, including:</p><ul><li><b>Default line numbers</b> appearing automatically when a code block is inserted, supporting easier line-by-line collaboration and review.</li><li><b>Improved keyboard navigation</b> within code blocks, allowing users to move more easily through code using keyboard commands, improving overall accessibility.</li><li><b>Consistent language selection</b> for syntax highlighting; Teams will remember the last language a user selected.</li><li><b>Support for collaborative editing</b>, with the option to convert a code block to a Loop component before sending.</li><li><b>Multiple insertion methods remain supported</b> (slash commands, keyboard shortcuts, and Markdown), ensuring familiarity and flexibility for users.</li><li><b>This feature is enabled by default</b>, and no admin controls or configuration changes are required.</li></ul><p>These updates improve the development and engineering collaboration experience in <i>Teams</i> and help achieve better parity with other industry-standard collaboration tools.</p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.&nbsp;</p><p>Optional steps:</p><ul><li>Inform helpdesk or support teams that users may notice changes to how code blocks appear and behave in <i>Teams</i>.</li><li>Update any internal documentation for engineering teams or developer communities that rely on code sharing within <i>Teams</i>.</li><li>Review Microsoft Support documentation for additional user-facing guidance about inserting, formatting, and collaborating on code blocks in <i>Teams</i>.</li></ul><p>Learn more:&nbsp;&nbsp;<a href=\"https://support.microsoft.com/office/use-code-blocks-in-microsoft-teams-3b8f43ee-86bd-479b-8ad6-6f52661b21e3\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Use code blocks in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "554933"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will enhance the code block experience by adding default line numbers, improved keyboard navigation, consistent language selection, and collaborative editing with Loop components. Rolling out from early to late May 2026, these features require no admin action and improve accessibility and developer collaboration."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1240703",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-27T21:10:04.853Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-27T22:09:53Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Code block line numbers and improved keyboard accessibility",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 27, 2026: We have updated the timeline to reflect that this feature has launched early. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft is introducing <b>granular restore capabilities in Microsoft 365 Backup</b>, allowing administrators to browse, search, and restore individual files or folders from restore points for protected SharePoint sites and OneDrive accounts. This update helps organizations reduce recovery time and operational impact by restoring only the content that is needed.</p><p>Screenshot:&nbsp; <i>Select&nbsp;the granular restore path when restoring content from a SharePoint site or OneDrive account</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7f40fe3f-c4a2-40ef-a01d-781bb3854372\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=464991\" target=\"_blank\">464991</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview (Worldwide): We will begin rolling out in <b>early March 2026</b> and expect to complete by <b>mid-March 2026</b>.</li>\n  <li>General Availability (Worldwide): We will begin rolling out in <b>late March 2026</b> (previously&nbsp;late April)&nbsp;and expect to complete <b>late March 2026</b> (previously&nbsp;early May).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 tenants with <b>Microsoft 365 Backup enabled</b></li>\n  <li>Admins responsible for <b>SharePoint Online and OneDrive for Business data protection and recovery</b></li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins will be able to browse and search restore points for protected SharePoint sites and OneDrive accounts.</li><li>Admins will be able to restore individual files or folders instead of restoring entire sites or drives.</li><li>Only admins assigned the <b>SharePoint Backup Administrator</b> role can perform granular restore operations for SharePoint sites and OneDrive accounts.</li><li>Existing Microsoft 365 Backup protection policies and restore points are respected.</li><li>This feature is available only to tenants with Microsoft 365 Backup enabled.</li><li>There is no direct impact to users; restore operations remain admin‑initiated.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required to receive this feature.</li>\n  <li>Review your current<b> Microsoft 365 Backup coverage </b>for SharePoint and OneDrive to ensure critical workloads are protected.</li>\n  <li>Familiarize backup administrators with the <b>granular restore experience</b> once Public Preview begins.</li>\n  <li>Update internal recovery procedures or runbooks to include file- and folder-level restore scenarios.</li>\n  <li>Inform helpdesk or IT operations teams when granular restores may be appropriate instead of full restores.</li>\n</ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/microsoft-365/backup/backup-restore-data?view=o365-worldwide&amp;tabs=onedrive#option-2-selected-content-only-preview\" target=\"_blank\">Restore data in Microsoft 365 Backup | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>This feature introduces a new method for admins to access existing Microsoft 365 Backup restore points at a more granular level (file or folder), without changing where or how backup data is stored.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n    <td>Restore operations continue to be auditable, and the scope of restore actions becomes more granular, which may be reflected in audit and operational review scenarios.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify how users can access, export, delete, or correct their personal data (GDPR Data Subject Rights)?</td>\n    <td>Admins gain finer control to restore specific files or folders containing personal data when responding to recovery, correction, or remediation scenarios.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "464991"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Backup now supports granular restore, allowing admins to browse, search, and restore individual files or folders from SharePoint and OneDrive restore points. This feature, launching early in March 2026, reduces recovery time and is available to tenants with Microsoft 365 Backup enabled."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245216",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-27T20:45:39.57Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "SharePoint Online",
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:33:56Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Targeted file and folder restores in Microsoft 365 Backup",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re expanding <b>Microsoft Purview Data Loss Prevention (DLP) </b>for <b>Microsoft 365 Copilot</b> and <b>Copilot Chat </b>to help organizations prevent sensitive data from being sent to external web search. This enhancement introduces<b> real‑time DLP evaluation for prompts</b> containing <b>sensitive information types (SITs)</b>, ensuring Copilot and Microsoft 365‑published agents avoid using sensitive content for external web queries. When blocked, Copilot will still respond based on internal Microsoft Graph grounding if licensed.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548671#Roadmap\" target=\"_blank\">548671</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Rollout begins in <b>late March 2026 </b>and completes in<b> late April 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rollout begins in<b> late June 2026</b> and completes in <b>late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using <b>Microsoft 365 Copilot</b>, <b>Copilot Chat</b>, and <b>Copilot Studio agents</b> <b>published to Microsoft 365 Copilot</b></li><li>Admins who manage DLP policies in the <i>Microsoft Purview portal</i></li></ul><p><i>What will happen</i></p><p><b>New DLP control for Copilot web search</b></p><ul><li>DLP policy creation will include a new option to restrict Copilot from performing external web searches when a prompt contains selected SITs.</li><li>When triggered, Copilot:<ul><li><b>Will not </b>send content to external web search.</li><li><b>Will</b> continue responding using<b> internal Microsoft Graph data sources</b>, if your licensing allows.</li></ul></li></ul><p><b>New investigation and monitoring experiences</b></p><ul><li>Alerts triggered by this policy will appear in <i>DLP Alerts</i> (if alerts are enabled).</li><li><b>Activity Explorer</b> under <i><b>DLP</b></i> and <i><b>DSPM for AI </b></i>will include Copilot‑related actions for monitoring and analysis.</li></ul><p><b>Policy management updates</b></p><ul><li>The DLP policy page may display <b>new recommendations</b> related to this feature.</li><li>Available in the <i>Microsoft Purview portal</i> and editable by:<ul><li>Admin roles listed in <a href=\"https://learn.microsoft.com/purview/dlp-create-deploy-policy#permissions\" target=\"_blank\">Permissions - Create and deploy data loss prevention policies</a>, and</li><li><b>Data Security AI Admins</b>.</li></ul></li></ul><p><b>Default state</b></p><ul><li>The feature becomes available automatically.</li><li>Organizations <b>must opt in</b> by creating or updating a DLP policy.</li></ul><p><i>Screenshot 1 - Choose M365 Copilot and Copilot Chat as the policy location:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b38cecc7-577d-449b-a2f2-c5690cb5e523/3fa1322aa9e873b15ccad241de0fd12250527a72.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - New DLP protection to restrict Copilot from performing web searches:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e76143bc-5188-48f4-b77a-25257b503d27/d9682c82129a18634e2876b02007fad04fc0b18a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required for enablement. To begin using the feature, admins can:</p><ul><li>Create or update a DLP policy for Microsoft 365 Copilot in the<i> Purview portal</i>.</li><li>Review current DLP configurations to understand potential impact.</li><li>Ensure the admin account includes the required roles described in Microsoft Learn.</li><li>Notify IT, security teams, or helpdesk staff about the new capability.</li><li>Update any internal documentation related to AI governance, DLP, or Copilot usage.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/dlp-learn-about-dlp?view=o365-worldwide\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about\" target=\"_blank\">Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat | Microsoft Purview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/dlp-create-deploy-policy#permissions\" target=\"_blank\">Permissions - Create and deploy data loss prevention policies | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Sensitive data included in <i>Copilot prompts </i>will now be assessed by DLP before being sent to external web search. When blocked, data remains internal and is not transmitted externally.</td></tr><tr><td>Does the change introduce or modify AI/ML or agent capabilities that interact with customer data?</td><td>Yes. Copilot agents adapt behavior by restricting web search when sensitive data is detected, using Microsoft Graph grounding only.</td></tr><tr><td>Does the change modify, interrupt, or disable Purview capabilities?</td><td>Yes. Adds new enforcement behavior for DLP policies in <i>Copilot scenarios</i>.</td></tr><tr><td>Does the change alter how admins can monitor or report compliance activities?</td><td>Yes. New Copilot‑specific activities appear in <i>Activity Explorer</i> and<i> DLP alerting</i>.</td></tr><tr><td>Does the change include an admin control?</td><td>Yes. Admins must explicitly configure or update a DLP policy to enable this protection.</td></tr></tbody></table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -7244,7 +7343,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7914,53 +8013,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Defender for iOS: End of support for iOS 16 devices",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft is introducing <b>granular restore capabilities in Microsoft 365 Backup</b>, allowing administrators to browse, search, and restore individual files or folders from restore points for protected SharePoint sites and OneDrive accounts. This update helps organizations reduce recovery time and operational impact by restoring only the content that is needed.</p><p>Screenshot:&nbsp; <i>Select&nbsp;the granular restore path when restoring content from a SharePoint site or OneDrive account</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7f40fe3f-c4a2-40ef-a01d-781bb3854372\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=464991\" target=\"_blank\">464991</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview (Worldwide): We will begin rolling out in <b>early March 2026</b> and expect to complete by <b>mid-March 2026</b>.</li>\n  <li>General Availability (Worldwide): We will begin rolling out in <b>late April 2026</b> and expect to complete by <b>early May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 tenants with <b>Microsoft 365 Backup enabled</b></li>\n  <li>Admins responsible for <b>SharePoint Online and OneDrive for Business data protection and recovery</b></li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins will be able to browse and search restore points for protected SharePoint sites and OneDrive accounts.</li><li>Admins will be able to restore individual files or folders instead of restoring entire sites or drives.</li><li>Only admins assigned the <b>SharePoint Backup Administrator</b> role can perform granular restore operations for SharePoint sites and OneDrive accounts.</li><li>Existing Microsoft 365 Backup protection policies and restore points are respected.</li><li>This feature is available only to tenants with Microsoft 365 Backup enabled.</li><li>There is no direct impact to users; restore operations remain admin‑initiated.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required to receive this feature.</li>\n  <li>Review your current<b> Microsoft 365 Backup coverage </b>for SharePoint and OneDrive to ensure critical workloads are protected.</li>\n  <li>Familiarize backup administrators with the <b>granular restore experience</b> once Public Preview begins.</li>\n  <li>Update internal recovery procedures or runbooks to include file- and folder-level restore scenarios.</li>\n  <li>Inform helpdesk or IT operations teams when granular restores may be appropriate instead of full restores.</li>\n</ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/microsoft-365/backup/backup-restore-data?view=o365-worldwide&amp;tabs=onedrive#option-2-selected-content-only-preview\" target=\"_blank\">Restore data in Microsoft 365 Backup | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>This feature introduces a new method for admins to access existing Microsoft 365 Backup restore points at a more granular level (file or folder), without changing where or how backup data is stored.</td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n    <td>Restore operations continue to be auditable, and the scope of restore actions becomes more granular, which may be reflected in audit and operational review scenarios.</td>\n  </tr>\n  <tr>\n    <td>Does the change modify how users can access, export, delete, or correct their personal data (GDPR Data Subject Rights)?</td>\n    <td>Admins gain finer control to restore specific files or folders containing personal data when responding to recovery, correction, or remediation scenarios.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "464991"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Backup will enable admins to browse, search, and restore individual files or folders from SharePoint and OneDrive restore points starting early 2026. This granular restore reduces recovery time, requires the SharePoint Backup Administrator role, and respects existing backup policies without impacting users."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-08T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1245216",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-05T23:34:20.257Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "SharePoint Online",
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-05T23:33:56Z",
-    "Tags": [
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Targeted file and folder restores in Microsoft 365 Backup",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9177,56 +9229,6 @@
       "User impact"
     ],
     "Title": "SharePoint page template gallery improvements and new templates",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing<b> </b>improvements to the <b>code block experience</b> in <i>Microsoft Teams Compose</i>. These updates make reading, sharing, and referencing code more efficient by adding default line numbers and enhancing keyboard navigation. These changes also support better accessibility and help users who frequently share code in chats or channels.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554933#Roadmap\" target=\"_blank\">554933</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: Rolling out in <b>April 2026</b> and expected to complete in <b>April 2026</b>.</li><li><b>General Availability (Worldwide)</b>: Rolling out in <b>April&nbsp;2026 </b>and expected to complete in <b style=\"background-color: rgb(255, 255, 255);\">May</b><b>&nbsp;2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users who compose and share messages in <i>Microsoft Teams </i>on Windows, Mac, and Web.</p><p><i>What will happen</i></p><p>Users will see enhancements to the code block experience, including:</p><ul><li><b>Default line numbers</b> appearing automatically when a code block is inserted, supporting easier line-by-line collaboration and review.</li><li><b>Improved keyboard navigation</b> within code blocks, allowing users to move more easily through code using keyboard commands, improving overall accessibility.</li><li><b>Consistent language selection</b> for syntax highlighting; Teams will remember the last language a user selected.</li><li><b>Support for collaborative editing</b>, with the option to convert a code block to a Loop component before sending.</li><li><b>Multiple insertion methods remain supported</b> (slash commands, keyboard shortcuts, and Markdown), ensuring familiarity and flexibility for users.</li><li><b>This feature is enabled by default</b>, and no admin controls or configuration changes are required.</li></ul><p>These updates improve the development and engineering collaboration experience in <i>Teams</i> and help achieve better parity with other industry-standard collaboration tools.</p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.&nbsp;</p><p>Optional steps:</p><ul><li>Inform helpdesk or support teams that users may notice changes to how code blocks appear and behave in <i>Teams</i>.</li><li>Update any internal documentation for engineering teams or developer communities that rely on code sharing within <i>Teams</i>.</li><li>Review Microsoft Support documentation for additional user-facing guidance about inserting, formatting, and collaborating on code blocks in <i>Teams</i>.</li></ul><p>Learn more:&nbsp;&nbsp;<a href=\"https://support.microsoft.com/office/use-code-blocks-in-microsoft-teams-3b8f43ee-86bd-479b-8ad6-6f52661b21e3\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Use code blocks in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><b><b>Introduction</b></b></p><p>We’re introducing<b> </b>improvements to the <b>code block experience</b> in <i>Microsoft Teams Compose</i>. These updates make reading, sharing, and referencing code more efficient by adding default line numbers and enhancing keyboard navigation. These changes also support better accessibility and help users who frequently share code in chats or channels.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554933#Roadmap\" target=\"_blank\">554933</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release</b>: Rolling out in <b>April 2026</b> and expected to complete in <b>April 2026</b>.</li><li><b>General Availability (Worldwide)</b>: Rolling out in <b>April&nbsp;2026 </b>and expected to complete in <b style=\"background-color: rgb(255, 255, 255);\">May</b><b>&nbsp;2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>All users who compose and share messages in <i>Microsoft Teams </i>on Windows, Mac, and Web.</p><p><i>What will happen</i></p><p>Users will see enhancements to the code block experience, including:</p><ul><li><b>Default line numbers</b> appearing automatically when a code block is inserted, supporting easier line-by-line collaboration and review.</li><li><b>Improved keyboard navigation</b> within code blocks, allowing users to move more easily through code using keyboard commands, improving overall accessibility.</li><li><b>Consistent language selection</b> for syntax highlighting; Teams will remember the last language a user selected.</li><li><b>Support for collaborative editing</b>, with the option to convert a code block to a Loop component before sending.</li><li><b>Multiple insertion methods remain supported</b> (slash commands, keyboard shortcuts, and Markdown), ensuring familiarity and flexibility for users.</li><li><b>This feature is enabled by default</b>, and no admin controls or configuration changes are required.</li></ul><p>These updates improve the development and engineering collaboration experience in <i>Teams</i> and help achieve better parity with other industry-standard collaboration tools.</p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.&nbsp;</p><p>Optional steps:</p><ul><li>Inform helpdesk or support teams that users may notice changes to how code blocks appear and behave in <i>Teams</i>.</li><li>Update any internal documentation for engineering teams or developer communities that rely on code sharing within <i>Teams</i>.</li><li>Review Microsoft Support documentation for additional user-facing guidance about inserting, formatting, and collaborating on code blocks in <i>Teams</i>.</li></ul><p>Learn more:&nbsp;&nbsp;<a href=\"https://support.microsoft.com/office/use-code-blocks-in-microsoft-teams-3b8f43ee-86bd-479b-8ad6-6f52661b21e3\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Use code blocks in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "554933"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will enhance code blocks by adding default line numbers, improved keyboard navigation, consistent language selection, and collaborative editing via Loop components. These updates, rolling out April–May 2026, improve accessibility and developer collaboration without requiring admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1240703",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-27T22:10:10.707Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-27T22:09:53Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Code block line numbers and improved keyboard accessibility",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19574,7 +19576,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
