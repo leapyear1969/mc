@@ -4,6 +4,369 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are expanding Microsoft Planner integration in Microsoft Teams by enabling <b>Planner tabs in</b> <b>Shared and Private channels</b>. This change allows teams to plan and track work directly within the channel where collaboration occurs, including scenarios that require restricted membership or cross-organization collaboration.</p><p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins <b>mid-May 2026</b> and is expected to complete by <b>late May 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Teams users working in <b>Shared or Private channels</b></li>\n<li>Microsoft 365 administrators managing Teams and Planner</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users can add <b>Planner </b>as a tab in Shared and Private channels using the <b>+</b> (<b>Add a tab</b>) experience.</li><li>Users can create a<b> new plan</b> for the channel or add an <b>existing plan</b> associated with that channel.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ed836a52-0037-401d-b266-55be25305306\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Planner inherits channel permissions and Microsoft 365 compliance controls.</li>\n<li>The feature is <b>enabled by default</b> and requires<b> no admin configuration</b>.</li>\n<li>There is no change to Planner behavior in standard channels.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>Update internal Teams and Planner documentation.</li>\n<li>Inform users that Planner is available in Shared and Private channels.</li>\n<li>Review governance policies related to Teams and Planner usage.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>New customer data storage</td>\n    <td>Users can create new Planner tasks and task comments in Shared and Private channels. This data is stored using existing Microsoft 365 Planner storage locations and retention policies.</td>\n  </tr>\n  <tr>\n    <td>New communication pathways</td>\n    <td>Users can communicate through Planner tasks and task comments within Shared and Private channels, including Shared channel scenarios.</td>\n  </tr>\n \n  <tr>\n    <td>User self-service enablement</td>\n    <td>Users can add Planner tabs to Shared and Private channels themselves, subject to existing Teams and app policies.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Planner tabs will be supported in Microsoft Teams Shared and Private channels starting mid-May 2026. Users can add new or existing plans directly in these channels with inherited permissions and compliance controls. The feature is enabled by default, requires no admin setup, and maintains existing Planner behavior in standard channels."
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262590",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-26T23:46:07.813Z",
+    "Services": [
+      "Planner",
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:45:54Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Planner tab support for Shared and Private Channels in Microsoft Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re improving the <b>Microsoft 365 group creation and editing experience in <a href=\"https://myaccount.microsoft.com/groups\" target=\"_blank\">My Groups</a></b> to give group owners more control and clarity from the start. The updated experience lets you configure key group, email, and security settings so your group works the way you expect.\n</p><p>With this update, group owners can:</p>\n<ul>\n<li>Set group usage guidelines, <b>email aliases</b>, and <b>sensitivity labels</b></li>\n<li>Configure Exchange settings such as sending <b>welcome emails</b>, subscribing members to conversations, and showing the <b>group mailbox</b> and <b>calendar </b>in <b>Outlook</b></li>\n<li>Control who can send emails to the group, hide the group from the <b>global address list</b>, and allow or block external senders</li>\n<li>Enable security group functionality when needed</li>\n</ul>\n\n<p>This streamlined, self‑service experience helps ensure Microsoft 365 groups are created with the right defaults and policies.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability: We will begin rolling out in <b>late March 2026</b> and expect to complete rollout by <b>early April 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users who are allowed to create or edit Microsoft 365 groups using My Groups</li>\n<li>Admins managing Microsoft 365 groups, <b>Exchange Online</b>, <b>Microsoft Entra ID</b>, and <b>Microsoft Purview</b> policies</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n\n<ul><li><b>Users / group owners:</b></li>\n<ul>\n<li>Users will see additional configuration options during Microsoft 365 group creation and editing in <b>My Groups</b></li>\n<li>The experience provides greater visibility into how the group will behave once created or edited</li>\n</ul></ul>\n\n<ul><li><b>Admins:</b></li>\n<ul>\n<li>There is no change to existing tenant‑level policies or controls</li>\n<li>All settings exposed during group creation continue to respect Microsoft Entra ID, Exchange Online, and Microsoft Purview configurations</li>\n<li><b>The feature is enabled by default and does not require admin configuration</b></li>\n<li>There is <b>no impact to existing Microsoft 365 groups</b></li>\n<li>This update may reduce follow‑up support requests related to group misconfiguration</li>\n</ul></ul>\n\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required to prepare for this change.</p>\n\n<p>If desired, admins can:</p>\n<ul>\n<li>Review existing Microsoft 365 group creation, naming, sensitivity label, and Exchange policies to ensure they align with organizational guidance</li>\n<li>Inform group owners that additional configuration options will be available during group creation and editing in My Groups</li>\n<li>Update internal documentation or help desk guidance related to Microsoft 365 groups</li>\n</ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/entra/identity/users/groups-self-service-management\" target=\"_blank\">Set up self-service group management - Microsoft Entra ID | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 group creation and editing in My Groups will be enhanced by late March 2026, allowing owners to configure usage guidelines, email aliases, sensitivity labels, Exchange settings, and security options. The update improves control and clarity without impacting existing groups or requiring admin setup."
+      }
+    ],
+    "EndDateTime": "2026-05-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262589",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:45:35.56Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:45:27Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "New M365 group creation and editing in My Groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is retiring CAPTCHA for meeting join to improve accessibility, reduce join friction, and modernize protections against automated participants. This change follows the release of a new, default‑on capability that detects external meeting assistant bots and provides organizers with increased visibility and control during the meeting join process, as previously announced in Message Center post MC1251206 (Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558107\" target=\"_blank\">558107</a>).</p>\n<p><b>To ensure a smooth transition:</b></p><ul><li>The new bot detection capability will be released and available to customers before CAPTCHA deprecation occurs.</li><li>There will be no gap where meetings are left without baseline bot protection.</li><li>CAPTCHA will be removed from meeting join flows and admin surfaces only after the new capability is fully in place.</li></ul>\n\n<p><b><b>When this will happen</b></b></p>\n<ul>\n<li><b>Early May 2026:</b> The <b>Require verification </b>by participants (CAPTCHA) policy will be locked and can no longer be enabled.</li>\n<li><b>Late July 2026:</b> CAPTCHA policy removed from PowerShell.</li>\n<li><b>Late August 2026:</b> CAPTCHA policy removed from the Teams Admin Center UI.</li>\n</ul>\n<p><b>Note:</b> Dates are subject to change based on the release of bot identification (MC1251206/Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558107\" target=\"_blank\">558107</a>).&nbsp;</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><b>Who is affected</b></p>\n<ul>\n<li>Microsoft Teams tenant administrators</li>\n<li>Meeting organizers with anonymous or external participants</li>\n</ul>\n\n<p><b>What will happen</b></p>\n<ul>\n<li>The CAPTCHA meeting policy will be retired and removed.</li>\n<li>CAPTCHA challenges will no longer appear during meeting join.</li>\n<li>A new, default‑on bot detection capability will provide baseline protection.</li>\n<li>Detected bots will require organizer approval to join meetings (recommended default).</li>\n<li>There will be no gap in bot protection during the transition.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>No immediate action is required.</li>\n<li>Review the new meeting policy when it becomes available in the Teams Admin Center.</li>\n<li>Keep the default setting that requires organizer approval for detected bots.</li>\n<li>Update internal documentation or helpdesk guidance related to meeting join and lobby controls.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<ul>\n<li>Admin control introduced: A new meeting policy governs how detected external bots are handled during meeting join.</li>\n</ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will retire CAPTCHA for meeting joins by August 2026, replacing it with a default-on bot detection feature that requires organizer approval for bots. This ensures continuous bot protection without join friction. Tenant admins and organizers should review new policies but no immediate action is needed."
+      }
+    ],
+    "EndDateTime": "2026-10-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262588",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-26T23:44:45.117Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:44:28Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Teams: Retirement of CAPTCHA for meeting join",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re rolling out new <b>community membership management and trusted‑answer capabilities in the Viva Engage mobile experience for iOS and Android</b>, available in both the standalone Viva Engage app and the Viva Engage app in Microsoft Teams. These updates extend existing web functionality to mobile, enabling more consistent community governance and moderation across devices and allowing key actions to be completed without switching to a desktop experience.</p>\n<p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=532722\" target=\"_blank\">532722</a>&nbsp;and <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?id=537270\" target=\"_blank\">537270</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins <b>late March 2026</b> and is expected to complete by<b> late April 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations using Viva Engage communities</li>\n<li>Community admins and designated experts</li>\n<li>Users accessing Viva Engage on iOS or Android (standalone app or within Microsoft Teams)</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Community admins can manage community members directly from mobile, including adding or removing members</li>\n<li>Community admins can assign or remove <b>community admin roles</b> from mobile</li>\n<li>Community admins can assign or remove <b>expert roles</b> from mobile</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/efb3c9b9-c9bf-4e17-9906-3bcf9abd0dac\" style=\"width: 250px;\" alt=\"user settings\"></p>\n<li>Eligible roles can mark <b>verified answers</b> from mobile devices</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/775d9f95-ff68-4028-98c1-6c1e98e2a6ec\" style=\"width: 250px;\" alt=\"user settings\"></p>\n<li>Users will see <b>community expert indicators</b> and <b>verified-answer indicators</b> in conversations</li>\n<li>The feature is <b>enabled by default </b>and respects existing role-based permissions</li>\n<li>No tenant-level configuration or policy changes are required</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required to enable this feature</li>\n<li>Review current <b>community admin</b> and <b>expert role assignments</b> to ensure they align with your governance model</li>\n<li>Inform community admins and moderators that these moderation and role-management tasks are now available on mobile</li>\n<li>Update internal documentation or helpdesk guidance if you document Viva Engage moderation workflows</li>\n</ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/viva/engage/\">Learn more about Viva Engage | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/introducing-community-experts-in-viva-engage/4366606\" target=\"_blank\">Introducing Community Experts in Viva Engage</a><br></li><li><a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/introducing-verified-answers-in-viva-engage/4386315\" target=\"_blank\">Introducing Verified Answers in Viva Engage</a></li><li><a href=\"https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a\" target=\"_blank\">Manage a community in Viva Engage | Microsoft Support</a></li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<td><b>Question</b></td>\n<td><b>Explanation</b></td>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n<td>Existing community membership data, role assignments, and conversation answers can now be accessed and managed from mobile clients. No new data types are introduced, and data storage locations remain unchanged.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control or role-based permission impact?</td>\n<td>Existing community admin and expert roles govern access to these capabilities on mobile. No new roles are introduced, and existing permission models are respected.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable or perform new actions themselves?</td>\n<td>Eligible users can now perform moderation and verified-answer actions directly from mobile apps, whereas these actions were previously limited to web experiences.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "532722,537270"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage is adding community membership and expert role management, plus verified-answer marking, to its iOS and Android apps (standalone and in Teams). These mobile features, rolling out March–April 2026, enable admins and experts to moderate and manage communities consistently without desktop access."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, iOS"
+      }
+    ],
+    "EndDateTime": "2026-05-25T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262586",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:44:06.677Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:44:00Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Viva Engage: Community membership and experts management in iOS and Android for Engage and Engage app in Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re updating the Viva Connections experience in the Microsoft Teams mobile app to provide a more modern, streamlined navigation that is easier to use across all devices. This update simplifies how users move between sections and improves discoverability, while keeping all existing functionality intact.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide): Rollout begins in <b>early April 2026</b> and is expected to complete by <b>late April 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who access <b>Viva Connections in the Microsoft Teams mobile app</b> (iOS and Android).</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The Teams mobile Viva Connections experience will move from a <b>three-tab layout</b> (Dashboard, News, Resources) to a <b>pill-based navigation</b> model.</li>\n  <li>Users will switch between Viva Connections sections using<b> pill-shaped navigation controls</b> at the top of the experience.</li><li>In the <b>News </b>experience:<ul><li>The <b>Unread </b>and <b>Saved for later</b> pills will be replaced with:<ul><li>An <b>Unread </b>toggle</li><li>A <b>Saved for later</b> button</li></ul></li></ul></li><li>There is no change to functionality or content—only the navigation and layout are updated.</li><li>The update is<b> enabled by default </b>and applies automatically.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required to enable this update.</li>\n  <li>Optionally, inform helpdesk staff and update internal documentation that references the previous navigation.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.\n</p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Connections in the Teams mobile app will update navigation from a three-tab layout to pill-based controls in April 2026. The change improves usability without altering functionality, is enabled by default, and requires no action, though internal documentation updates are optional."
+      }
+    ],
+    "EndDateTime": "2026-05-21T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262585",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:43:43.463Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:43:35Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Updated UX in Viva Connections on Teams mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Purview Information Protection admins</b> can now exclude<b> modern Microsoft 365 groups</b> and scope <b>sensitivity label</b> <b>policies </b>to dynamic and <b>non-mail enabled security groups</b>. These capabilities give admins more flexibility, expanding policy targeting beyond individual users and mail-enabled groups.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558685\" target=\"_blank\">558685</a>.</p><p> \n<b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Public Preview:</b>&nbsp;We will begin rolling out<b> late April 2026</b> and expect to complete by <b>mid-May 2026.</b></li>\n  <li><b>General Availability:</b>&nbsp;We will begin rolling out <b>late May 2026</b> and expect to complete by <b>late May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li><b>Information Protection admins</b> managing sensitivity label publishing policies</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can exclude <b>modern Microsoft 365 groups</b> from <b>label publishing policies</b></li>\n  <li>Admins can include <b>non-mail-enabled security groups</b>, including <b>dynamic security groups</b></li>\n  <li>Existing policies and configurations remain unchanged</li>\n  <li>No user impact unless admins update policy scope</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required</li>\n  <li>Optionally review and update label publishing policies to take advantage of expanded scoping</li>\n  </ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/purview/create-sensitivity-labels?tabs=classic-label-scheme#publish-sensitivity-labels-by-creating-a-label-policy\" target=\"_blank\">Create and publish sensitivity labels | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Compliance question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change modify Information Protection labels or policy configuration capabilities?</td>\n    <td>This update expands how sensitivity label publishing policies can be scoped by allowing admins to exclude modern Microsoft 365 groups and include non-mail-enabled security groups.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n    <td>Admins can scope sensitivity label publishing policies using non-mail-enabled security groups, including dynamic security groups in Microsoft Entra ID.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558685"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Information Protection admins can now exclude modern Microsoft 365 groups and include dynamic, non-mail-enabled security groups in sensitivity label policies. This expands policy targeting flexibility without impacting users unless policies are updated. Rollout begins April 2026 with general availability in late May 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262573",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:39:25.327Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:38:40Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Information Protection – Extended scoping capabilities for sensitivity label policies",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>The <b>Device Health Reporting Dashboard</b> provides admins with a consolidated view of device health and policy sync readiness across all onboarded Endpoint <b>Data Loss Prevention (DLP)</b> devices. It surfaces at-a-glance insights into configuration health, policy sync status, device activity, and Microsoft Defender version distribution, helping admins quickly understand whether devices are healthy and ready to receive policy updates. With built-in drilldowns from summary graphs to device lists, the dashboard enables targeted investigation of unhealthy or non-compliant devices, such as devices that are offline, misconfigured, or running outdated Defender versions, so admins can diagnose issues and take remediation actions without leaving the reporting workflow.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559267\" target=\"_blank\">559267</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview: We will begin rollout in <b>late May 2026</b> and expected to complete by<b> late May 2026</b></li>\n  <li>General Availability: We will begin rollout in <b>late June 2026</b> and expected to complete by<b> late June 2026</b></li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 administrators managing <b>Endpoint DLP</b> in Microsoft Purview</li>\n  <li>Organizations with onboarded Endpoint DLP devices</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins will see a new <b>Device Health Reporting Dashboard</b> in the Microsoft Purview portal.</li>\n  <li>The dashboard provides at-a-glance insights into: </li><li>Device configuration health </li><li>Policy sync readiness</li><li>Device activity and connectivity</li><li>Defender version distribution</li>\n  <li>Built-in drilldowns allow admins to navigate from summary charts to device-level lists for investigation.</li>\n  <li>Admins can quickly identify devices that are offline, misconfigured, or running outdated Defender versions.</li>\n  <li>The feature is <b>enabled by default</b> for eligible tenants.</li>\n  <li>There is <b>no impact to user workflows</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required.</p>\n<ul>\n  <li>The Device Health Reporting Dashboard will be enabled automatically for eligible tenants.</li>\n  <li>No additional configuration or onboarding steps are required.</li>\n  <li>Once available, access the dashboard directly in the <b>Microsoft Purview portal</b>.</li>\n  <li>Consider updating internal admin documentation or operational runbooks to reference the new reporting experience.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>This update introduces a new Microsoft Purview reporting dashboard that enhances how admins monitor Endpoint DLP device health and policy sync readiness.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "559267"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The Device Health Reporting Dashboard in Microsoft Purview offers admins a consolidated view of Endpoint DLP device health, policy sync status, activity, and Defender versions. Rolling out from May to June 2026, it enables quick issue diagnosis with no user impact and is enabled by default for eligible tenants."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262572",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:38:15.707Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:37:52Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Endpoint Data Loss Prevention - Device Health Reporting Dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is improving the <b>custom license request experience</b> for <b>Microsoft 365 Copilot</b> to help organizations better align Copilot license requests with their internal approval workflows. With this update, admins can create Copilot‑specific request policies and tailor guidance by user group, allowing more precise routing and clearer instructions for people requesting a license.</p><p><b><b>When this will happen</b></b></p><p style=\"\"><b>General Availability (Worldwide, DoD, GCC, GCC High):</b> We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late June 2026</b>.</p><p style=\"\"><b><b>How this affects your organization</b></b></p><p style=\"\"><i>Who is affected</i></p><ul><li>Users who request Microsoft 365 Copilot licenses</li><li>Admins who configure license request policies in the <i>Microsoft 365 admin center</i></li></ul><p style=\"\"><i>What will happen</i></p><ul><li>Admins will be able to create <b>product‑specific custom license request policies </b>for <b>Microsoft 365 Copilot</b>.</li><li>Admins can scope policies <b>by user group</b>, such as security groups or Microsoft 365 groups.</li><li>When someone requests a Copilot license, they will see:<ul><li>Admin‑defined instructions.</li><li>A link to your organization’s internal approval workflow.</li></ul></li><li>License approvals will continue to occur <b>outside Microsoft systems</b>, using your existing internal processes.</li><li>Existing custom license request behavior will remain unchanged unless an admin updates configuration.</li></ul><p style=\"\"><b><b>What you can do to prepare</b></b></p><p style=\"\">No action is required if you want to continue using your existing configuration.</p><p style=\"\">If you choose to adopt the new capabilities, you can:</p><ul><li>Review your current custom license request policies in the <i>Microsoft 365 admin center</i>.</li><li>Decide whether to apply <b>product‑specific </b>or <b>group‑specific </b>policies for Copilot.</li><li>Confirm that internal approval links and instructions are accurate and accessible.</li><li>Communicate these updates to your IT support or helpdesk teams.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide\" target=\"_blank\">Manage self-service license requests in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p style=\"\"><b><b>Compliance considerations</b></b></p><p style=\"\">No compliance considerations identified. Review as appropriate for your organization.</p><p style=\"margin-left: 25px;\"></p><p style=\"margin-left: 25px;\"></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will support custom license request policies by user group, enabling tailored guidance and routing aligned with internal approval workflows. Rolling out worldwide from late April to June 2026, admins can configure these policies in the Microsoft 365 admin center; existing setups remain unchanged unless updated."
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262570",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-26T23:36:38.123Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:36:28Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Updates to license request custom flow",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Copilot Notebooks enables users to generate Excel spreadsheets directly from the content and references collected in a notebook. Copilot creates a structured spreadsheet based on the notebook’s context, which can then be opened and edited in Excel. This capability streamlines the transition from ideas and source material into a usable spreadsheet by reducing manual setup and formatting.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview via <a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier</a>: Rollout begins in<b> late March 2026</b> and is expected to complete by<b> late April 2026</b>.</li>\n  <li>General Availability (Worldwide): Rollout begins in <b>late May 2026</b> and is expected to complete by<b> late May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users with access to Microsoft Copilot and Copilot Notebooks</li>\n  <li>Organizations using Excel in Microsoft 365</li><li>A Microsoft 365 Copilot (Premium) license is required to use this feature</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will be able to generate an Excel spreadsheet from content and references stored in a Copilot Notebook.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a51bc6bd-8f7d-4b29-9eed-577e5afd1fcf\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>The generated spreadsheet opens in Excel and can be edited like any other Excel file.</li>\n  <li>The feature is <b>enabled by default for eligible users</b>.</li>\n  <li>Existing Microsoft 365 security, compliance, and Copilot policies are respected.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li><b>No admin action is required</b>.</li>\n  <li>Review internal guidance or helpdesk documentation related to Copilot and Excel workflows.</li>\n  <li>Consider notifying users that Copilot Notebooks can now generate Excel spreadsheets from notebook content.</li></ul><p><b>Learn more:&nbsp;</b><a href=\"https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06\" target=\"_blank\">Get started with Microsoft 365 Copilot Notebooks | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;\">\n  <tbody><tr>\n    <th align=\"left\">Compliance question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>Copilot processes existing content and references stored in a Copilot Notebook to generate a structured Excel spreadsheet. This processing occurs within Microsoft 365 services and respects existing security, compliance, and data residency boundaries.</td>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI/ML capabilities that interact with customer data?</td>\n    <td>This change introduces a Copilot capability that uses generative AI to analyze notebook content and create an Excel spreadsheet based on that context.</td>\n  </tr>\n  <tr>\n    <td>Does the change provide end users any new way of interacting with generative AI?</td>\n    <td>Users can instruct Copilot to generate Excel spreadsheets directly from Copilot Notebook content, representing a new generative AI–assisted interaction within Microsoft 365.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Copilot Notebooks will enable users with a Microsoft 365 Copilot (Premium) license to generate and edit Excel spreadsheets directly from notebook content. This feature rolls out in public preview from late March to April 2026 and general availability in late May 2026, with no admin action required."
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262567",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-26T23:33:41.443Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:33:03Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Create Excel spreadsheets from Copilot Notebook content",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 26, 2026: We have updated the timeline below. Thank you for your patience.\n</p><p>Your organization can already apply Microsoft Purview Data Loss Prevention (DLP) policies to Microsoft Fabric, but soon you will also be able to restrict access to Fabric sematic models and lakehouses by applying DLP policies. After this rollout, admins will be able to configure DLP policies that automatically detect sensitive information in sematic models and lakehouses and then restrict access to this data to internal users or data owners</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422501\" target=\"_blank\">422501</a>.</p><p><b>When this will happen:</b>\n</p><p>Public Preview: DLP restrict access for sematic models is already available in Public Preview as of November 2024. For Fabric lakehouse, public preview of restrict access will begin rollout mid-April 2025 and is expected to complete by late April 2025.&nbsp;</p><p>\n</p><p>General Availability: We will begin rolling out late October 2026 (previously June) and expect to complete by late November 2026 (previously end of June).</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, you can configure DLP policies for Fabric workspaces to audit and notify users through Policy Tips based on sensitive content. \n</p><p>After this rollout, DLP policies can also be configured to block or restrict access to internal users or data owners. This action is especially valuable when your organization has guest users, and you want to enforce proper restrictions to ensure these users do not accidentally access sensitive information.\n</p><p>This change is available by default for admins to configure.\n</p><p>Configuring the <i>Restrict access</i> action in DLP policy for Fabric:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/d94ac7d9-4c32-4263-8714-8da40ca65053\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. If your organization does not wish to start using the <i>Restrict access</i> action for Fabric, no additional action is required. If you would like to start restricting access to internal users or data owners, your security or compliance admin will need to update or create new DLP policies for Fabric to include the new <i>Restrict access</i> action.\n</p><p>Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i>\n</p><ul><li><a href=\"https://learn.microsoft.com/en-us/fabric/governance/data-loss-prevention-overview\" target=\"_blank\">Data loss prevention policies in Microsoft Fabric - Microsoft Fabric | Microsoft Learn</a>\n</li><li><a href=\"https://aka.ms/DLPblog\" target=\"_blank\">New Capabilities for Microsoft Purview DLP</a></li></ul><p></p>",
       "ContentType": "html"
     },
@@ -3799,7 +4162,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9882,7 +10245,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16960,7 +17323,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
