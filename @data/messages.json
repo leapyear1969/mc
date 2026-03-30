@@ -12012,54 +12012,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated February 17, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re enhancing<b> Activity Explorer</b> in the<i> Microsoft Purview compliance portal</i> to provide better visibility into sensitive data detected in <i>Exchange Online</i>. Today, admins can only view email message bodies when investigating Data Loss Prevention (DLP) or Information Protection events. With this update, admins will be able to <b>preview flagged email attachments directly within <i>Activity Explorer</i></b>—without downloading the email—simplifying investigations and reducing risk exposure.</p><p>This message is associated with Microsoft Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=543969\" target=\"_blank\">543969</a>.</p>\n\n<p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide) </b>rollout will begin in <b>early February 2026 </b>and complete by <b>end of February 2026</b> (previously&nbsp;early February).</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:&nbsp;</i>Admins who use Microsoft Purview Activity Explorer to investigate Data Loss Prevention (DLP) or Information Protection events in<i> Exchange Online</i>.</p>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>Admins will be able to preview email attachments flagged for sensitive data directly within <i>Activity Explorer:</i></li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/49a4e19a-5362-4e2b-ad09-b4f268c741d8/45cd1b968f314fd2c8c98d1930ed61d867c6e710.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>A preview pane will appear for supported file types.</li>\n  <li>Email downloads will no longer be required for most investigations.</li><li>The feature will be <b>enabled by default</b>; no configuration changes will be required.</li><li>Existing DLP and Information Protection policies will remain unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>No action is required. This update will take effect automatically after rollout.</li>\n  <li>(Optional) Communicate this improvement to your security and compliance teams.</li><li>(Optional) Update internal investigation workflows or documentation.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "543969"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting February 2026, Microsoft Purview Activity Explorer will let admins preview flagged email attachments in Exchange Online without downloading them, simplifying investigations. This feature is enabled by default, requires no action, and does not change existing DLP or Information Protection policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1217153",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-17T17:38:41.85Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-13T00:09:22Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview compliance portal: Information Protection – Email attachment preview in Activity Explorer",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated February 17, 2026: We have updated the content and timelines. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n</p><p>We’re improving the reliability of Copilot chat by ensuring that conversations are preserved even when users navigate away from a chat. With this update, a session entry is created in the<i> navigation pane</i> as soon as a prompt is submitted. This allows users to return to the conversation later without losing context or progress.</p><p>This capability will be available to Microsoft 365 Copilot Chat and Microsoft 365 Copilot users.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500638\" target=\"_blank\">500638</a>.\n</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul>\n<li><b>Worldwide (General Availability):</b> Rolling out from December 12, 2025 (previously December 3), to March 2026 (previously January 12)</li>\n<li><b>GCC:</b> Rolling out from January 19, 2026 (previously January 3), to March 2026 (previously February 2)</li>\n<li><b>GCC High:</b> Rolling out from January 19, 2026 (previously January 3), to March 2026 (previously February 2)</li>\n<li><b>DoD:</b> Rolling out from January 19, 2026 (previously January 3), to March 2026 (previously February 2)</li>\n</ul>\n<p></p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected: </b>All Copilot Chat and Microsoft 365 Copilot users in commercial, GCC, GCC High, and DoD environments.</p><p><b>What will happen:</b>\n</p><ul>\n<li>A session entry will now appear in the <i>navigation pane</i> immediately after a prompt is submitted.</li>\n<li>Users can navigate away from a chat and return later without losing the conversation.</li>\n<li>This update improves continuity and reduces the risk of session loss.</li>\n<li>No changes to admin settings or policies are required.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><p>No admin action is required at this time.\nYou may wish to:</p><ul><li>Inform helpdesk staff of this behavior change.</li>\n<li>Update internal documentation if you describe Copilot chat behavior.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.\n</p>",
       "ContentType": "html"
     },
@@ -12302,45 +12254,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 12, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing new<b> Word, Excel, and PowerPoint agents in Microsoft 365 Copilot</b> to help users create documents, workbooks, and presentations more efficiently in Copilot Chat within the <b>Frontier program</b>. These agents assist with creating documents, workbooks, and presentations by using web and enterprise grounding. Each agent supports multi-turn chat, enabling user to refine content through an interactive back-and-forth conversation.</p><p>This rollout is for Microsoft 365 Copilot licensed users. The Copilot Chat user rollout has not yet started.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>General Availability:</b>&nbsp;We will begin rolling out on February 9, 2026 (previously January 29) and expect to complete by end of February 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p><p>If your organization has enabled Anthropic usage in your tenant, users will be able to access Word, Excel, and PowerPoint agents via the <b>navigation pane</b> in the M365 Copilot app or within the <b>Tools menu</b> in Copilot chat. Additionally, users can <b>invoke these agents by typing “@” followed by the agent name</b> (for example, <b>@PowerPoint</b>).</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5af01a28-f301-4a8c-86b6-41332b2913c5\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b style=\"\">Who is affected:</b></p>\n<ul>\n<li>Copilot Chat users and Microsoft 365 Copilot users in the Microsoft 365 Copilot app</li></ul><p><b>What will happen:</b></p>\n<ul>\n<li>Users will have access to the following Copilot agents:</li>\n<ul>\n<li><b>Word agent:</b> Assists with research, formatting, layout, and content refinement for documents such as strategic plans, policy documents, and technical papers.</li>\n<li><b>Excel agent:</b> Supports data analysis, formula generation, trend identification, and summarization of insights.</li>\n<li><b>PowerPoint agent:</b> Helps generate presentations from outlines or documents, suggests layouts, and refines visual storytelling.</li>\n</ul>\n<li>Each agent supports multi-turn chat for iterative content development.</li>\n<li>Users can perform high-level iterations on the generated files via chat directly in the <b>Word, Excel, and PowerPoint agents</b>. For more extensive or granular editing, users can open their documents in the respective applications.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d3bbc383-4bd2-43e2-9bd8-fab18f3e5992/b32f23c4b5284242a36d4d309c42118670165389.png\" style=\"width: 400px;\" alt=\"user settings\"></p><li>The feature will be <b>ON by default</b> for tenants with Copilot access and for tenants who have Anthropic usage enabled. If Anthropic usage is disabled by the admin, the agents will not appear in the user experience. Learn more: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-models\" target=\"_blank\">Connect to Anthropic's AI models | Microsoft Learn</a>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required at this time.</li>\n<li>Communicate availability to helpdesk or content teams.</li>\n<li>If desired, review internal documentation or training materials to reflect the new capabilities.</li>\n</ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/topic/get-started-with-word-excel-and-powerpoint-agents-in-microsoft-365-copilot-frontier-76691f5e-bb19-4029-a34d-33a00e0a0c4f\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Get started with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot (Frontier)</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot introduces Word, Excel, and PowerPoint agents to assist with content creation via multi-turn chat, rolling out from February 9 to end of February 2026. Available to licensed users with Anthropic enabled, these agents help refine documents, analyze data, and generate presentations interactively."
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187799",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-12T23:48:13.657Z",
-    "Services": [
-      "Microsoft 365 apps",
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T20:53:27Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Word, Excel, and PowerPoint agents: A new Copilot experience for content creation",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-04-30T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -12479,44 +12392,6 @@
       "Retirement"
     ],
     "Title": "Teams on the web – Browser Update Required by May 15, 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 11, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing <b>Multi-Select Forward in Microsoft Teams</b>. This feature lets users select up to five messages from a chat or channel and forward them together in one message, preserving context and order. This update addresses customer feedback for easier message sharing and supports better collaboration.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=536997\" target=\"_blank\">536997</a>&nbsp;and is applicable to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.</p><p><b><b>When this will happen:</b></b></p><ul><li>Targeted Release: We will begin rolling out early January 2026 and expect to complete by mid-January 2026.</li><li>General Availability (Worldwide, GCC): We will begin rolling out early February 2026 (previously mid-January) and expect to complete by mid-February 2026 (previously late January).</li><li>General Availability (GCCH, DoD): We will begin rolling out mid-February 2026 (previously early February) and expect to complete by late February 2026 (previously mid-February).</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected: </b>Users of Microsoft Teams for Desktop, Mac, and web</p><p><b>What will happen:</b></p><p>\n</p><ul><li>A new option will be available in the message action menu: <b>Forward </b>&gt; <b>Multiple messages</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0e1ec5c3-8709-411a-a408-375c35d25c2a\" style=\"width:\n400px;\" alt=\"user settings\"></p><li>They can select up to five messages and forward them together.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c739a2cf-70b5-4ce5-8c30-f55f0ae0ca46\" style=\"width: \n400px;\" alt=\"user settings\"></p><li>Forwarded messages appear bundled in one message, preserving order and context.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5565bf6f-1364-47f5-9666-8087a4a25d60\" style=\"width: 400px;\" alt=\"user settings\"> </p><li>Mobile users can view these messages but cannot forward multiple messages yet.&nbsp;</li><li>This feature is <b>ON by default</b>.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>No admin action is required before or after rollout.</li><li>Consider notifying your users about this change to help them understand the new behavior.</li><li>Update any internal documentation or training materials that reference message forwarding in Teams.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/office/forward-a-message-in-microsoft-teams-b3190ce7-00da-45aa-978d-a45a7b041d21\" target=\"_blank\">Forward a message in Microsoft Teams - Microsoft Support</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will introduce Multi-Select Forward, allowing users to select and forward up to five messages together in one bundled message. Rolling out from January to February 2026 across desktop, Mac, and web, this feature is on by default, requires no admin action, and improves message sharing and collaboration."
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1199767",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-11T17:37:58.283Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-18T23:41:21Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Select multiple messages to forward",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -14637,44 +14512,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 28, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p></p><p>The <b>Rate My Call survey</b> is a feedback screen that the Teams client will occasionally present to users after their Teams call or meeting has completed. Currently, the rating presents 1-5 stars on the first page and a list of potential issues (called <b>problem tokens</b>) on the second page.</p><p>We will be rolling out a new streamlined feedback experience for Teams on Windows, Mac, and Web that presents the feedback on a single screen with a <b>thumbs up</b> / <b>thumbs down rating system</b> and <b>problem tokens</b> for the user to select, plus an area to provide details. In testing, we found higher feedback returns with this new design, and clearer insights into call quality issues.</p><p>Screenshot 1: <i>New Rate My Call User Interface</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3672c1c2-9cf3-4b8f-91f5-2800ba72ab34\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>When this will happen:</b></b></p><ul>\n<li><b>General Availability/Targeted Release:</b>&nbsp;Rollout begins mid-February 2026 (previously late January), completes by late February 2026 (previously late January).</li>\n</ul>\n\n<b><b>How this affects your organization:</b></b><p></p><p>\n</p><p><b>Who is affected:</b> Users of Microsoft Teams on Windows desktop, Mac, and Web clients</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see a new <b>Rate My Call</b> screen after calls and meetings</li>\n<li>The new screen includes:\n  <ul>\n    <li>Thumbs up / thumbs down rating</li>\n    <li>Optional problem tokens</li>\n    <li>Optional free-text field for additional details</li>\n  </ul>\n</li>\n<li><b>Feedback Rating values</b> in Call Quality Dashboard (CQD) will change:\n  <ul>\n    <li><b>5:</b> Thumbs up / Good</li>\n    <li><b>1:</b> Thumbs down / Had issues</li>\n    <li><b>0:</b> Survey shown but not submitted</li>\n    <li><b>Null: </b>Survey not shown</li>\n  </ul>\n</li>\n<li>Problem tokens will still be recorded even if a rating (thumbs up or down) is not submitted</li>\n<li>Admins may notice an increase in poor feedback metrics due to the new rating method; this does not reflect a decline in service quality</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b><p></p><p>\n</p><ul>\n<li>Communicate this change to helpdesk and support staff</li>\n<li>Update internal documentation to reflect the new feedback format</li>\n<li>Monitor PCR (Poor Call Rate) telemetry until it stabilizes, then set your own threshold</li>\n</ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>\n\n<b><b>FAQ</b></b><p></p><p></p><p><b>Q: Will a higher PCR mean calls are worse?</b><br>\nA: No. The new design captures more dissatisfied users by reporting a higher willingness to report poor calls. The increase is a measurement effect, not a quality regression.</p>\n\n<p><b>Q: What is the new PCR target or threshold for your workstreams?</b><br>\nA: We cannot provide a fixed PCR threshold. Your action is to monitor your own PCR telemetry until it stabilizes (both volume and value relatively flat), then set your threshold. Stabilization may take weeks and once the data converges, you can then set your own.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will update the Rate My Call feedback to a single-screen thumbs up/down system with problem tokens and comments, rolling out mid-February to late February 2026. This may increase reported poor call rates due to easier reporting, not actual quality decline. Admins should update documentation and monitor telemetry."
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183608",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-28T22:05:38.527Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-07T00:48:30Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Rate my call feedback experience update in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated January 20, 2026: We’ve updated how Teams meeting join links appear in meeting invites. As part of the broader rollout of the new, shorter meeting URL format, meeting invites now display the full join link directly instead of a labeled “Join the meeting now” hyperlink. This improves link consistency, reliability across clients and email applications, and makes copying and sharing the link easier. This update does not change meeting functionality or attendee experience. Existing Teams and Outlook clients continue to support the new link format.</p><p>Please note that information about meeting link expiry changes related to this rollout has been added.</p><p>We are reducing the length of Microsoft Teams meeting URLs for easier sharing. This rollout applies to all Microsoft Teams platforms (Teams for iOS, Android, Mac, Teams devices, desktop, and web).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=381953\" target=\"_blank\">381953</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-February 2025 (previously mid-January) and expect to complete by late February 2025 (previously late January). Only Meet Now use cases (except Meet Now in chats and channels) will be affected in this timeframe. There will be no impact on the scheduled meetings in this phase.</p><p>General Availability (Worldwide, GCC): We will begin rolling out January 2026 (previously mid-May 2025) and expect to complete by end of January 2026 (previously late May 2025).&nbsp;&nbsp;</p><p>General Availability (GCC High, DoD):&nbsp; We will begin rolling out February 2026 (previously early August 2025) and expect to complete by end of February 2026 (previously late October 2025).</p><p><b>How this will affect your organization:</b>\n</p><p>The new URL syntax is: https://teams.microsoft.com/meet/&lt;meeting_id&gt;?p=&lt;HashedPasscode&gt; \n</p><p>To make meeting URL shorter, we are removing several parameters such as tenant ID, conversation ID etc. This change serves two main goals: 1) improving usability of URL during sharing and 2) making the URL more secure and less susceptible to malicious attacks. \n</p><p>Here are some details about how meeting links work and when they expire: \n</p><ol><li>In case the meeting organizer gets removed from the tenant, the links to the meetings scheduled by them automatically expire. \n</li><li>&nbsp;MeetNow meetings expire 60 days after creation. Learn more about expiration timelines for different types of meetings. \n</li></ol><p>With the Short Meeting URL release, expiration limit will be applied to all newly created links. \n</p><p>Once the change to Short Meeting URL is released, all newly created meetings will expire as described in the documentation: 60 days after meeting ends for scheduled meetings and 60 days after creation for MeetNow meetings. Once this expiry period is over, in case someone clicks the link (e.g. outside of Teams app OR in the meeting details inside Teams calendar section), they will be unable to join the meeting.</p><p>Note: Old links created before short meeting URL release will continue working as it previously was (user will be able to join even after the documented expiry limits).</p><p>The reason why we are making this change is simple: security is our topmost priority. Maintaining a high security level is essential to protect sensitive data, prevent financial losses, ensure business continuity, and meet compliance and legal obligations. It is a critical aspect of modern digital life and business operations. This adjustment is designed to enhance the security of Teams meeting links, thereby better safeguarding the customer tenant. We want to be on par with modern security standards, that’s why the new behavior is a step in the right direction that we must take. It’s not possible to keep the current behavior. If you think it breaks some of your business processes, please leave comment to the MC post and describe your case there. \n</p><p>Recommendations in case the meeting link has expired:  \n</p><p>For meeting organizer: We recommend scheduling a new meeting. If the meeting organizer got removed from the tenant someone else should reschedule their meetings from scratch. \n</p><p>For participant: Please reach out to the meeting organizer and ask them to reschedule the meeting or send you an updated link.</p><p><b>What you need to do to prepare:</b>\n</p><p>You may want to check if you have any integrations that use parameters from URL. After the rollout, the URL will only contain the meeting ID. Parameters such as tenant ID, organizer ID, conversation ID and message ID will not be in the URL. \n</p><p>You may inform meeting organizers from your tenant who use expired meeting links, or you may want to make a tenant-wide announcement about this change. \n</p><p>This rollout will happen automatically by the specified date with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
       "ContentType": "html"
     },
@@ -14803,53 +14640,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 27, 2026: Based on customer feedback and visibility into adoption progress, we are refining the Exchange Online SMTP AUTH Basic Authentication Deprecation timeline to provide clearer milestones and additional runway.</p><ul><li>Now to December 2026: SMTP AUTH Basic Authentication behavior remains unchanged.</li><li>End of December 2026: SMTP AUTH Basic Authentication will be disabled by default for existing tenants. Administrators will still be able to enable it if needed.\n</li><li>New tenants created after December 2026: SMTP AUTH Basic Authentication will be unavailable by default. OAuth will be the supported authentication method.\n</li><li>Second half of 2027: Microsoft will announce the final removal date for SMTP AUTH Basic Authentication.\n</li></ul><p>We will provide detailed information in a follow up Message Center Post. \n</p><p>Updated October 18, 2024: We have updated the SMTP AUTH Clients Submission Report in the Exchange admin center, adding the Authentication Protocol column to show if Basic auth or OAuth is being used to submit email to Exchange Online. The data will build up over the next 90 days. Thank you for your patience.</p><p>The SMTP AUTH Basic Authentication Deprecation has been put on hold. In 2027, Microsoft will announce the final removal date for SMTP AUTH Basic Authentication.</p><p>Once Basic Auth is removed from SMTP AUTH, applications and devices will no longer be able to use Basic auth as an authentication method and must use OAuth when using SMTP AUTH to send email.</p><p>Basic auth is a legacy authentication method that sends usernames and passwords in plain text over the network. This makes it vulnerable to credential theft, phishing, and brute force attacks.&nbsp;</p><p><b>When this will happen:</b>\n</p><p>The removal of Basic Auth from SMTP AUTH Client Submission has been put on hold&nbsp;(previously beginning March 1st, 2026, and completing April 30th, 2026).&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>The SMTP AUTH Clients Submission Report in the Exchange admin center has been updated to show if Basic auth or OAuth is being used to submit email to Exchange Online.&nbsp;</p><p>The removal of Basic Auth from SMTP AUTH Client Submission has been put on hold&nbsp;(previously beginning March 1st, 2026, and completing April 30th, 2026).</p><p><b>What you need to do to prepare:</b></p><p>\n</p><p>The removal of Basic Auth from SMTP AUTH Client Submission has been put on hold&nbsp;(previously beginning March 1st, 2026, and completing April 30th, 2026)</p><p>If your client supports OAuth, follow these steps: <a href=\"https://learn.microsoft.com/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth\" target=\"_blank\">Authenticate an IMAP, POP or SMTP connection using OAuth</a>\n</p><p>If your client doesn’t support OAuth and you must use Basic Auth with Client Submission (SMTP AUTH), you will need to switch to one of the following alternatives following the timeline that will be announced in 2027 (previously April 2026):</p><p>•\tIf you are using basic authentication with Client Submission (SMTP AUTH) to send emails to recipients internal to your tenant, you can use Microsoft 365 High Volume Email. Please visit this site to learn more: <a href=\"https://learn.microsoft.com/Exchange/mail-flow-best-practices/high-volume-mails-m365\" target=\"_blank\">Manage high volume emails for Microsoft 365 Public preview</a></p><p>•\tIf you have an Exchange Server on-premises in a hybrid configuration, you can use Basic auth to authenticate with the Exchange Server on-premises or configure the Exchange Server on-premises with a Receive connector that allows anonymous relay on Exchange servers. Please visit this site to learn more: <a href=\"https://learn.microsoft.com/exchange/mail-flow/connectors/allow-anonymous-relay?view=exchserver-2019\" target=\"_blank\">Allow anonymous relay on Exchange servers</a>\n</p><p>Regardless of the volume of email, if you must use Basic auth to send email with Exchange Online, then you must use one of the alternatives or a 3P solution.\n</p><p>We understand that this change requires some adjustments, but we believe that this is a necessary step to enhance the security and reliability of our email service and your data.\n</p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Exchange Online will retire SMTP AUTH Basic Authentication by default starting December 2026, with OAuth as the supported method. Basic Auth removal is on hold until 2027, when a final date will be announced. Administrators can enable Basic Auth temporarily, but should prepare to switch to OAuth or alternatives."
-      },
-      {
-        "Name": "BlogLink",
-        "Value": "https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-online-to-retire-basic-auth-for-client-submission-smtp/ba-p/4114750"
-      },
-      {
-        "Name": "ExternalLink",
-        "Value": "https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC786329",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-01-27T20:11:01.253Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-04-26T00:16:47Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Exchange Online to retire Basic Auth for Client Submission (SMTP AUTH)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n\n<p>We’re introducing the ability for Outlook mobile users to open and send <b>OFT files (Outlook File Templates)</b>. This feature allows users to view and open OFT files as draft messages, enabling easier reuse of existing Outlook email templates.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548642\" target=\"_blank\">548642</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n\n<p>\nGeneral Availability (Worldwide, GCC, GCC High, and DoD): We will begin rollout <b>early February 2026</b> and expect to complete<b> early March 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:&nbsp;</b>All users who access Outlook on mobile devices.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will be able to open OFT files on mobile.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9b3e7eea-3169-4cc6-a1a1-37f3b41ad1d4\" style=\"width: 250px;\" alt=\"user settings\"></p><li>This feature is available by default.</li>\n  <li>OFT files will open as a draft message.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/4c873724-b91d-4795-a061-e277343e9298\" style=\"width: 250px;\" alt=\"user settings\"></p>\n  <li>Users can reuse Outlook email templates directly from mobile.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n\n<ul><li>\nNo action is required.</li><li>Update your internal training and documentation if your organization references this feature.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n\n<p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -14920,53 +14710,6 @@
       "User impact"
     ],
     "Title": "Improvements to meeting threads in Microsoft Teams channels",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing an <b>integration between Microsoft Teams and Microsoft Defender for Office 365</b> that allows security admins to manage blocked external users in Teams through the <b>Tenant Allow/Block List (TABL)</b> in the <b>Microsoft Defender portal</b>. This centralized approach enhances security and compliance by enabling organizations to control external user access across Microsoft 365 services.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=542189\" target=\"_blank\">542189</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins mid-February 2026 (previously early January) and is expected to complete by end of February 2026 (previously mid-January).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> Organizations using Microsoft Teams and Microsoft Defender for Office 365 Plan 1 or Plan 2.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Security admins (with Teams admin permission) can add, delete, and view blocked external users and domains for Teams in the Microsoft Defender portal.</li><p>Screenshot 1:<i> Image showcasing the teams block sender and block domain list in Microsoft Teams</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/dc95a408-4be7-48cf-abf1-144374acc09d\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Incoming communications (chats, channels, meetings, and calls) from blocked users will be prevented.</li>\n<li>Existing communications from blocked users will be automatically deleted.</li>\n<li>Audit logs will track actions taken to block users for compliance monitoring.</li>\n<li>Entry limits: Up to 4,000 blocked domains and 200 email addresses can be configured for Teams.</li>\n<li>This applies to all Teams clients and the Defender XDR web portal.</li>\n<li>Existing federation configurations and domain blocks in the Teams admin center remain unaffected.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Enable the setting “Block specific users from communicating with people in my organization” in the Teams admin center (default: <b>Off</b>).</li><p>Screenshot 2:<i>&nbsp; Image showing the teams toggle for blocking sender email addresses in Microsoft Teams</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b106849c-21e7-4b6b-beaa-c7ee023ed12f\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Enable the setting “Allow my security team to manage blocked domains and blocked users” in the Teams admin center (default: <b>Off</b>).</li>\n<li>Grant security team access to manage blocked domains and users in the Teams admin center.</li>\n<li>Review internal documentation and inform helpdesk staff about this change.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/security/office-365-security/tenant-allow-block-list\">Tenant Allow/Block List documentation</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "542189"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-February 2026, admins can block external Microsoft Teams users via the Tenant Allow/Block List in the Microsoft Defender portal, controlling access and deleting existing communications. This applies to Teams and Defender XDR, with audit logging and limits of 4,000 domains and 200 emails blocked."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1200058",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-24T00:51:04.06Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-19T07:08:07Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Office 365: Admins can block external users in Microsoft Teams from Defender Portal",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15367,53 +15110,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated January 21, 2026: We have updated the timeline. Thank you for your patience.\n</p><p><b>Introduction</b></p><p>You can now deploy, manage, and measure a frontline worker (FLW) pilot directly from Teams Admin Center. This new capability enables Teams administrators to define pilot users and owners, configure workloads, and monitor adoption—all in one place. It’s designed to help IT admins and business leaders streamline the rollout of Teams features tailored for frontline teams.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=498226\" target=\"_blank\">498226</a></p><p>\n</p><p><b>When this will happen\n</b></p><p>Public Preview: Rolling out early November 2025; expected completion by mid-November 2025.\n</p><p>General Availability: Rolling out late February 2026 (previously mid-November 2025); expected completion by end of February 2026 (previously late November 2025).</p><p><b>How this affects your organization\n</b></p><p>This feature provides a simplified experience for piloting Teams capabilities for frontline workers. Admins can:\n</p><ul><li>Select and configure workloads such as Chat, Channels, Shifts, Walkie Talkie, Viva Engage, and Tasks.\n</li><li>Assign pilot users and owners.\n</li><li>Share access to the Teams mobile app via QR code.\n</li><li>Monitor adoption and usage insights directly in Teams Admin Center.</li></ul><p><b>What you can do to prepare\n</b></p><p>To prepare for this rollout:\n</p><ul><li>Identify frontline worker pilot participants and the workloads you want to enable.\n</li><li>Review your Teams Admin Center settings to ensure you have the necessary permissions.\n</li><li>Plan communications with pilot users to support adoption.\n</li><li>Learn more: <b>Link to be provided</b>\n</li></ul><p><b>Compliance considerations\n</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498226"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Teams Admin Center will enable deployment, management, and monitoring of frontline worker pilots, allowing admins to configure workloads, assign users, share app access via QR code, and track adoption. Public preview starts November 2025; general availability expected by February 2026. No compliance issues noted."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1130395",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-21T22:47:44.013Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-06T23:43:38Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Deploy a frontline worker pilot in Teams Admin Center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated January 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>Expected with Intune's March (2603) release, all <a href=\"https://learn.microsoft.com/intune/intune-service/fundamentals/guided-scenarios-overview\" target=\"_blank\">guided scenarios</a>, except Windows 365 Boot, will be removed from the Intune admin center.</p><p><b>How this will affect your organization:</b>\n</p><p>Admins will no longer have access to the guided scenario wizards in the Intune admin center. However, any Intune objects previously created by these wizards, such as policies and apps, will remain and can continue to be managed as usual.</p><p><b>What you need to do to prepare:</b>\n</p><p>No action is required, only awareness. This change will not impact existing configurations or require admin intervention.\n</p><p>For alternative solutions and step-by-step guidance, refer to the following resources:\n</p><ul><li><a href=\"https://go.microsoft.com/fwlink/?linkid=2310495\" target=\"_blank\">Microsoft Intune product and capabilities documentation | Microsoft Learn</a></li><li><a href=\"https://go.microsoft.com/fwlink/?linkid=2300666\" target=\"_blank\">Intune prescriptive guides</a></li><li>Intune administration guides: <a href=\"https://setup.cloud.microsoft/intune\" target=\"_blank\">https://setup.cloud.microsoft/intune</a>   \n</li><ul><li><a href=\"https://setup.cloud.microsoft/intune/manage-and-secure-apps-for-android\" target=\"_blank\">Securing apps for mobile | Android</a></li><li><a href=\"https://setup.cloud.microsoft/intune/manage-and-secure-apps-for-ios\" target=\"_blank\">Securing apps for mobile | iOS</a></li><li><a href=\"https://setup.cloud.microsoft/intune/microsoft-intune-and-configuration-manager-co-management-setup-guide\" target=\"_blank\">Configuring Intune and Configuration Manager to co-manage devices</a></li><li><a href=\"https://setup.cloud.microsoft/intune/windows-device-management\" target=\"_blank\">Manage and secure devices for Windows</a></li></ul><li><a href=\"https://learn.microsoft.com/intune/intune-service/copilot/copilot-intune-overview\" target=\"_blank\">Microsoft Copilot in Intune | Microsoft Learn</a></li></ul>",
       "ContentType": "html"
     },
@@ -15484,52 +15180,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention – Additional diagnostics for Data Loss Prevention and Information Protection",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 15, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>The <b>Interpreter agent</b> is now available in <b>Microsoft Teams Rooms on Windows</b> for devices with a <b>Teams Rooms Pro license</b>. This feature enables real-time interpretation in up to nine languages, allowing participants to speak and listen in their preferred language. It also offers an option to simulate a participant’s personal voice for a more inclusive experience. No additional Copilot license is required.</p><p>Screenshot 1: <i>Console</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6db07e31-9041-4f92-aad9-476cdda507ca\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Front of room display</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f41f7224-7e2c-4751-8f6d-25c4927c9106\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516571\" target=\"_blank\">516571</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rolling out late January 2026 (previously early January), expected completion by late February 2026 (previously late January).</li>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b> Organizations using <b>Teams Rooms on Windows</b> with <b>Teams Rooms Pro licensing</b>.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users can turn on <b>Interpreter</b> during a meeting:\n<ul>\n<li>Go to <b>More</b> &gt; <b>Turn on Interpreter</b>, then select the language and voice option.</li>\n</ul>\n</li>\n<li>Supported languages: Chinese (Mandarin), English, French, German, Italian, Japanese, Korean, Portuguese, Spanish.</li>\n<li>Voice representation options: <b>Simulated my voice</b> (default) or <b>Automated voice</b>.</li>\n<li>Privacy: Voice samples or biometric data are never stored; original audio is analyzed in real time and not retained.</li>\n<li>Interpretation is simultaneous and may introduce a short delay; accuracy and latency improvements are ongoing.</li>\n<li>Tenant settings:\n<ul>\n<li><b>Interpreter</b> is enabled by default. Admins can control whether the organization can use Interpreter and set the default voice option.</li>\n<li>No device-level setting in the <b>Pro Management Portal (PMP)</b>.</li>\n</ul>\n</li>\n<li>Licensing: 20 hours of interpretation included per room account per month with a <b>Teams Rooms Pro license</b>. Access beyond included hours is subject to available capacity.</li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/interpreter-agent-teams\" target=\"_blank\">Manage Interpreter agent for your organization - Microsoft Teams | Microsoft Learn&nbsp;</a></p><ul>\n</ul>\n\n<p><b><b>What you need to do to prepare:</b></b></p>\n<ul>\n<li>Ensure room accounts have a <b>Teams Rooms Pro license</b>.</li>\n<li>Review tenant settings:\n<ul>\n<li>Confirm <b>Interpreter</b> is enabled (default).</li>\n<li>Set the preferred default voice option in your tenant.</li>\n</ul>\n</li>\n<li>Communicate this change to helpdesk and support teams.</li>\n<li>Update internal documentation to reflect the new functionality.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "516571"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Interpreter agent support is now available in Microsoft Teams Rooms on Windows with a Teams Rooms Pro license, enabling real-time interpretation in nine languages and voice simulation. Rolling out globally from late January to late February 2026, it includes 20 hours of interpretation monthly per room account, with admin controls for tenant settings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1188221",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-16T21:51:17.967Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-19T23:24:48Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Interpreter agent support in Teams rooms on Windows",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15924,52 +15574,6 @@
       "Admin impact"
     ],
     "Title": "Tenant setting update: Copilot capacity designation enabled by default",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 18, 2025: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Coming soon to SharePoint: Site owners and admins will be able to apply two new Microsoft-designed multi-color dark themes. These official themes offer modern dark color palettes with multiple colors combinations, enabling richer visual experiences and consistent branding across sites. Both themes are available out-of-the-box and can be configured via site settings.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=526788\" target=\"_blank\">526788</a>.</p><p>\n</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release (Worldwide):</b>&nbsp;Rollout begins early January 2026 (previously mid-December 2025), completes January 2026 (previously early January)</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD):</b>&nbsp;Rollout begins late January 2026 (previously early February), completes February 2026 (previously early February)</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;SharePoint Site owners and SharePoint admins across all Microsoft 365 environments (Worldwide, GCC, GCC High, DoD)</li>\n<li><b>What will happen:</b>\n  <ul>\n    <li>Two new Microsoft-designed dark themes (Dark Teal, Dark Blue) will be available out-of-the-box</li>\n    <li>Themes can be applied via “Change the look” in site settings</li>\n    <li>The themes update site headers, footers, section design, Text web part, and Design Ideas</li>\n    <li>Designed for low-light environments and compliant with Microsoft accessibility standards</li>\n    <li>No impact to existing themes or site functionality</li></ul></li></ul><p></p><ul></ul><p></p><p><b>Note:</b> Previously applied PowerShell settings that disable all out-of-box themes from Microsoft remain effective, and the PowerShell command can still be used to manage the Microsoft theme availability.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No admin action is required prior to rollout. After rollout:</li>\n  <ul>\n    <li>Notify site owners and users about the new dark themes</li>\n    <li>Encourage exploration of the new options for improved branding and visual comfort</li>\n    </ul></ul><p>Learn more: </p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/site-theme\" target=\"_blank\">Site theme</a></li><li><font color=\"#000000\" style=\"\"><a href=\"https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/set-spohidedefaultthemes?view=sharepoint-ps\" target=\"_blank\">Set-SPOHideDefaultThemes</a></font></li><ul>\n  </ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "526788"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Two new Microsoft-designed dark themes (Dark Teal, Dark Blue) for SharePoint sites will roll out worldwide from January to February 2026. These accessible themes update site visuals without affecting existing themes. No admin action is needed before rollout; site owners should be notified afterward."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187401",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-12T18:03:04.183Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-17T23:55:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft dark themes for SharePoint sites",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16614,52 +16218,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated December 17, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction</b></p><p>We’re introducing a new AI audio briefing feature in Viva Connections for Teams mobile (iOS and Android). This feature provides users with a quick, AI-generated summary of top news items in their news feed, with playback controls such as play, pause, and speed adjustment. A Microsoft 365 Copilot license is required to access this feature.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498233\" target=\"_blank\">498233</a>.</p><p><b>When this will happen</b></p><p>General Availability: We will begin rolling out late September 2025 (previously mid-September) and complete by mid-February 2026 (previously end-November 2025).&nbsp;</p><p><b>How this affects your organization</b></p><p>Users with the Microsoft 365 Copilot license will be able to access the AI generated briefings in their Viva Connections news feed.</p><p>This feature is <b>on by default</b> and requires no configuration.</p><p><b>What you can do to prepare</b></p><ul><li>No action is required. The rollout will be automatic. </li><li>You may wish to inform licensed users about the new feature and its capabilities.</li></ul><p><b>Compliance considerations</b></p><p></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n\n<th>Details</th>\n</tr>\n<tr>\n<td>Provides end users any new way of interacting with generative AI</td>\n\n<td>Users can now interact with generative AI through audio briefings in Viva Connections.</td>\n</tr>\n\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "498233"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Connections mobile will introduce an AI audio briefing feature providing summaries of top news with playback controls. Available to users with a Microsoft 365 Copilot license, it rolls out from late September 2025 to mid-February 2026, enabled by default with no configuration needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, iOS"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1150671",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-17T17:06:16.617Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-09T23:15:35Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Viva : News AI audio briefing in Connections Mobile",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>To simplify cross-tenant migrations, we're introducing a unified interface that enables administrators to move user data—including Exchange mailboxes, OneDrive files, and Teams chats and meetings—across Microsoft 365 tenants. This streamlines migration workflows and supports seamless collaboration during organizational transitions.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins early December 2025.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft 365 tenant-to-tenant migrations; organizations planning mergers, acquisitions, or restructuring.</li>\n<li><b>What will happen:\n  </b><ul>\n    <li>A new set of PowerShell Graph commands will be available to migrate Exchange mailboxes, OneDrive content, and Teams chats and meetings across tenants.</li>\n    <li>The feature is <b>opt-in</b>; no changes will occur unless enabled by your organization.</li>\n    <li>Migration workflows are consolidated into a single experience, reducing complexity.</li>\n    <li>Admins can initiate and monitor migrations from a centralized location.</li>\n  </ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required unless your organization chooses to use the feature.</li>\n<li>If planning a migration:\n  <ul>\n    <li>Review internal migration policies and timelines.</li>\n    <li>Communicate availability of this feature to IT and helpdesk teams.</li></ul></li></ul><p>Learn more: <a href=\"https://learn.microsoft.com/microsoft-365/enterprise/migration-orchestrator-1-overview?view=o365-worldwide\" target=\"_blank\">Migration orchestrator overview - Microsoft 365 Enterprise | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -17149,52 +16707,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft baseline security mode for Office, SharePoint, Exchange, Teams, and Entra",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 8, 2025: We have changed the expiration date. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>The <b>Learning agent</b> is now available in Frontier. This agent helps employees build skills through personalized microlearning and structured learning experiences embedded directly into Microsoft 365 tools. These experiences include personalized task-based Copilot tips to augment workflows, learning recommendations tailored to user skills, curated learning paths, and interactive role-play exercises powered by LinkedIn Learning.</p>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fb85de82-4a01-4754-901f-d618ce1f525f\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=490154\" target=\"_blank\">490154</a>.</p><p><b>About Frontier</b></p>\n<p>The Frontier program gives customers early, hands-on access to experimental Microsoft 365 Copilot innovations in their own environment. The agents and AI features designated as “Frontier” are previews, built for evaluation and feedback purposes. As these features are still in development, their availability and capabilities may change at any time.</p>\n<p><b><b>When this will happen:</b></b></p>\n<p><b>Frontier Availability (Worldwide):</b> Available now.</p>\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> Customers with Microsoft 365 Copilot and the Microsoft 365 Copilot in <b>Productivity Apps service plan</b> (excluding faculty and student SKUs).</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Learning agent (Frontier) will be available to deploy in the <b>Copilot Control Center</b> within Microsoft 365 admin center.</li>\n<li>Users will be able to install and use the <b>Learning agent</b> within Microsoft 365 Copilot or Teams.</li>\n<li>Admins have controls to manage deployment, including install, restrict, or remove the agent.</li>\n<li>Feature is opt-in; admins must deploy or allow access.</li>\n</ul>\n</li>\n</ul>\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Ensure People Skills is set up in your tenant: <a href=\"https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview\" target=\"_blank\">People Skills Overview</a></li>\n<li>Confirm licensing: Users must have an active Microsoft 365 Copilot license.</li>\n<li>Approve or deny access at tenant or user level in Microsoft Admin Center under <b>Copilot </b>&gt; <b>Settings</b>.</li>\n<li>Review admin controls for agents: <a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#settings-for-agents\" target=\"_blank\">Settings for Agents</a></li>\n</ul>\n<p>Frontier features are experimental and subject to change. Participation in the Frontier program is optional.</p>\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "490154"
-      },
-      {
-        "Name": "Summary",
-        "Value": "The Learning agent is now available in Frontier, offering personalized microlearning and Copilot tips within Microsoft 365 tools. It’s deployable via the Copilot Control Center for licensed users, with admin controls for management. Frontier features are experimental and opt-in, requiring setup of People Skills and licensing confirmation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-03-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187676",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-08T18:35:27.037Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T16:17:27Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Learning agent in Frontier",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
