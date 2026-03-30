@@ -4,6 +4,405 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Today, IT admins can enable or disable<b> </b>third‑party model providers<b>,</b> such as Anthropic and xAI (US only), at the tenant level in the <i>Microsoft Admin Center</i>. With this update, admins will be able to assign access to a third‑party model provider to specific users or groups within the tenant.</p><p>This update is related to <i>MC1193290</i>, which announced that Anthropic models would be enabled by default for many customers in <i>certain Copilot experiences</i> and offered under the <a href=\"https://www.microsoft.com/licensing/terms/welcome/welcomepage\" target=\"_blank\">Microsoft Product Terms</a> and <a href=\"https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA\" target=\"_blank\">Data Protection Addendum (DPA)</a> as a Microsoft subprocessor. </p><p>This message corresponds to <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557371\" target=\"_blank\">557371</a></b>.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ab5f0f9a-6d69-4b64-bff0-1ed67ff4859f/b82aa463d6bae209e2799f8df25173f437a4ed97.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><p><b><b>When this will happen</b></b></p><p style=\"margin-left: 25px;\"><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete in<b> late April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use or plan to use<b> third‑party model providers</b> in <i>Microsoft 365 Copilot </i>and in <i>Copilot Studio</i></li><li>Admins who manage access in the <i>Microsoft Admin Center</i>, <i>Power Platform Admin Center (PPAC)</i>, or <i>Copilot Studio</i></li></ul><p><i>What will happen</i></p><ul><li>Admins will see a <b>new control </b>in the <i>Microsoft Admin Center</i> that allows assigning a third‑party model provider to specific users or Entra ID groups.</li><li>The setting will apply at the provider level, not at the individual model level.</li><li>Assignments will be enforced consistently across the Microsoft Admin Center, PPAC, and Copilot Studio.</li><li>The control <b>will apply to subprocessors</b> <b>and independent processors</b> for all current and future third‑party model providers.</li><li>Admins can add up to any combination of 999 groups and users; nested groups are supported.&nbsp;</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review your existing settings for Anthropic and xAI (US only) in the<i> Microsoft Admin Center</i>.</li><li>Update user or group assignments to align with your internal governance policies.</li><li>Update any existing agents and experiences that may be impacted when model access is limited by Entra ID security groups.</li><li>Communicate any planned changes to your helpdesk or impacted user groups.</li><li>Update internal documentation where you track AI access or model provider settings.</li><li>Review Microsoft documentation on managing third‑party model providers when it becomes available.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\" target=\"_blank\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-copilot-studio/authoring-select-external-response-model\" target=\"_blank\">Choose an external model as the primary AI model | Microsoft Copilot Studio | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/enterprise-data-protection\" target=\"_blank\">Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA\" target=\"_blank\">Microsoft Products and Services Data Protection Addendum (DPA) | Licensing Resources and Documents | Licensing | Microsoft</a></li><li><a href=\"https://www.microsoft.com/licensing/terms/welcome/welcomepage\" target=\"_blank\">Product Terms | Licensing | Microsoft</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI, ML, or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This update introduces new admin controls that define which users or groups can access third‑party AI model providers.</td></tr><tr><td>Does the change add any integration to third‑party software products, and if so what?</td><td>Yes. This update applies to model providers such as Anthropic and xAI (US only).</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Access can be assigned at the user or group level using Entra ID.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557371"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Admins will soon be able to assign third-party AI model providers like Anthropic and xAI to specific users or groups in Microsoft 365 Copilot via a new control in the Microsoft Admin Center. This rollout begins in late April 2026 and supports Entra ID group-based access management."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-21T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1263276",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T17:48:14.86Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-27T19:38:32Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Admins will be able to enable third‑party model providers for specific users and groups",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Copilot Cowork is now available in Frontier</b>. Copilot Cowork enables users to orchestrate complex, multi-step work across Microsoft 365 without switching between apps. Copilot Cowork moves beyond answering questions to turning intent into execution by automatically generating plans, coordinating work across emails, meetings, messages, files, and data, and carrying tasks forward with visible progress and user control. This update reflects customer feedback to reduce manual coordination for real work while maintaining enterprise-grade security, privacy, and controls. Learn more on our blog: <a href=\"https://www.microsoft.com/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/\" target=\"_blank\">Powering Frontier Transformation with Copilot and agents</a>.</p><p>Screenshot: <i>The Copilot Cowork interface in Microsoft 365 Copilot</i></p><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/92746cdd-2d55-4095-a3dd-7b8390135e8c\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Copilot Cowork is now available in Frontier.</li>\n  <li>General availability will be communicated at a later date.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users with a <b style=\"\">Microsoft 365 Copilot (Premium) license</b></li>\n  <li>Users enabled for <b>Frontier&nbsp;</b></li>\n  <li>English language only</li>\n</ul>\n\n<p><b>Prerequisites and controls:</b></p>\n<ul>\n  <li>The tenant must be enrolled in the <a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program</a>.</li>\n  <li>Microsoft‑built agents must be enabled.</li><li><b>Anthropic </b>must be enabled as a subprocessor (default: on).</li>\n  <li>For tenants based in the <b>European Union (EU)</b>, Copilot Cowork is<b> off by default</b> due to EU Data Boundary requirements and must be explicitly enabled.</li></ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Users can install<b> Copilot Cowork </b>from the <b>Agent Store in the Microsoft 365 Copilot app</b> and pin it to the left rail.</li>\n  <li>Users can describe an outcome in natural language, and Copilot Cowork will:</li>\n  <ul>\n    <li>Automatically generate a multi-step plan grounded in the user’s Microsoft 365 context</li>\n    <li>Coordinate tasks across Microsoft 365 apps such as Word, PowerPoint, Outlook, and others</li>\n    <li>Continue work overtime with visible checkpoints and progress tracking</li>\n  </ul>\n  <li>Copilot Cowork proposes actions and requires<b> explicit user approval</b> before acting on tasks such as:</li>\n  <ul>\n    <li>Sending emails or Teams messages</li>\n    <li>Scheduling, declining, or rescheduling meetings</li>\n    <li>Editing or moving files</li>\n  </ul>\n  <li>Users can pause, adjust, or stop execution at any time and return later to review progress.</li>\n  <li><span style=\"background-color: rgb(255, 255, 255);\">For eligible tenants, the experience is enabled by default and respects existing Microsoft 365 permissions and policies, unless restricted by EU Data Boundary settings.</span></li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/cowork\" target=\"_blank\">Copilot Cowork: Now Available in Frontier | Microsoft Learn</a><font color=\"#000000\" style=\"background-color: rgb(255, 255, 0);\"></font></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\" target=\"_blank\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor#opt-in-to-use-anthropics-models\" target=\"_blank\">Opt-in to use Anthropic's models | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings?view=o365-worldwide\" target=\"_blank\">Agent settings in Microsoft 365 admin center | Microsoft Learn</a>&nbsp;</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance question</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n    <td>Copilot Cowork introduces a new Microsoft-built agent that orchestrates multi-step work across Microsoft 365 services using existing customer data, while requiring explicit user approval before taking actions.</td>\n  </tr>\n  <tr>\n    <td>Does the change provide end users any new way of interacting with generative AI?</td>\n    <td>Users can describe an intended outcome in natural language and have Copilot Cowork generate and execute a multi-step plan with progress tracking.</td>\n  </tr>\n  <tr>\n    <td>Does the change add any integration to 3rd party software products?</td>\n    <td>Anthropic is used as a subprocessor to support Copilot Cowork capabilities and is enabled by default.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control?</td>\n    <td>Availability is controlled through Frontier enrollment, agent enablement settings, subprocessor configuration, and EU Data Boundary defaults.</td>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n    <td>Users can install Copilot Cowork from the Agent Store and can pause, adjust, or stop execution at any time.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Copilot Cowork is now available in Frontier for Microsoft 365 Copilot Premium users, enabling multi-step task orchestration across apps with user approval and progress tracking. It requires Frontier enrollment, enabled agents, and Anthropic as a subprocessor. EU tenants must enable it explicitly due to data boundary rules."
+      }
+    ],
+    "EndDateTime": "2026-04-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265767",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T17:16:07.113Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T17:15:40Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Copilot Cowork now available in Frontier",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing new capabilities in Researcher to help teams review AI‑generated research more confidently and reduce rework before using outputs in business decisions.</p><p><b>Critique</b> is a built-in review step in Researcher that automatically checks and improves a draft before it’s delivered. It uses a second reasoning pass to strengthen structure and completeness, prioritize reputable sources, and ensure key statements are grounded in clear citations—so the final report is more reliable and easier to trust.</p><p><b>Council</b> is Researcher’s multi-model comparison mode. It runs the same question through multiple deep‑reasoning research agents (for example, GPT and Claude) in parallel, preserves each model’s full standalone report, and adds a lightweight synthesis “cover letter” that highlights where the models agree, where they diverge, and what each uniquely contributes—so you can compare perspectives and make decisions with higher confidence.</p><p>These preview features are initially available only to organizations enrolled in the Microsoft 365 Copilot Frontier program, which provides early access to experimental Copilot capabilities.</p><p>This message is associated with Roadmaps <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553213#Roadmap\" target=\"_blank\">553213</a> and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558538#Roadmap\" target=\"_blank\" style=\"\">558538</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>Public preview: Rolling out to Frontier customers by <b>March 30, 2026.</b></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n\n<ul>\n<li>Organizations enrolled in the <b>Microsoft 365 Copilot Frontier program using Researcher</b></li>\n<li>Admins managing AI model access, including third-party models such as Anthropic Claude</li>\n\n<li>Users who generate long-form research reports using Researcher</li><li>A Microsoft 365 Copilot (Premium) license is required to use this feature</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Researcher drafts will run through Critique before delivery, improving structure, completeness, and citation quality, when “Auto” is selected as the Default option in the model picker.&nbsp;</li><li>Users will be able to enable <b>Council</b>, which generates:<ul><li>Two independent, full research reports from different reasoning models (for example, GPT and Claude).</li><li>A concise synthesis “cover letter” summarizing areas of agreement, disagreement, and unique contributions.</li></ul></li><li>Critique and Council availability is<b> tenant-admin controlled</b>, including the ability to allow or block third-party models such as Claude.</li><li>There is <b>no change to existing user workflows</b> unless the feature is enabled.</li><li>Existing security, compliance, and data handling policies continue to apply.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your <b>AI model access settings</b> and confirm whether <b>Anthropic Claude</b> is enabled for your tenant.</li>\n<li>Decide whether to allow Critique and Council based on your organization’s governance and compliance requirements. There are no separate controls for these features; both are enabled when Anthropic and Claude report generation are turned on.</li>\n<li>Inform helpdesk and support teams about the upcoming preview features.</li>\n<li>Update internal guidance or training materials if Researcher is documented in your organization.</li></ul><p>No action is required if you do not plan to enable the preview features.</p><p><b>Learn more:</b>&nbsp;<a href=\"https://go.microsoft.com/fwlink/?linkid=2356719\" target=\"_blank\">Use model choice in the Researcher agent | Microsoft Support</a><span style=\"background-color: rgb(255, 255, 0);\"></span></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "553213,558538"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Researcher’s new Auto Critique improves draft quality by reviewing structure, sources, and citations. Model Council compares reports from multiple AI models, highlighting agreements and differences. Available to Microsoft 365 Copilot Frontier program users by March 30, 2026, with tenant-admin control over feature and model access."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265765",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T17:16:03.15Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T17:13:38Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Auto Critique and Model Council features in Researcher (Frontier program)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 30, 2026: Chat Notes respect data residency at creation time based on the chat creator’s Preferred Data Location (PDL). If no PDL is set, Chat Notes are stored in the tenant’s central or default regional location. If the creator’s PDL changes later, the associated Chat Note is not automatically migrated, even though the chat data may move. Microsoft is aware of this limitation and is working to address it.</p><p><b>Introduction</b></p><p>We’re introducing <i>Teams Collaborative Notes</i> (powered by Loop) in group chats across desktop and web experiences. This feature enables users to co-create and edit notes, agendas, and action items directly within the Teams chat interface, enhancing real-time collaboration without switching contexts.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=498159\" target=\"_blank\">498159</a>.</p><p><b>When this will happen</b></p><ul><li>Targeted Release: Rollout begins late September (previously early September) and completes by late October 2025 (previously early October).&nbsp;&nbsp;</li><li>General Availability: Rollout begins early November 2025 (previously early October) and completes by end of January 2026 (previously mid-November 2025).</li></ul><p><b>How this affects your organization</b></p><p>Users will see a new <i>Notes </i>tab in group chats, allowing them to create and collaborate on Loop components such as agendas and action items. These components are editable inline, supporting synchronous collaboration directly within Teams.&nbsp;&nbsp;</p><p>This feature is on by default for all tenants. Users do not need to install anything to begin using it.</p><p><b>What you can do to prepare</b></p><ul><li>You can manage this feature via the Teams Admin Center. If desired, Collaborative Notes can be disabled at the tenant level.</li><li>Review internal documentation and training materials to ensure users are aware of the new Notes tab and its capabilities.</li><li>Admins can manage the feature via the Teams Admin Center under: Messaging → Messaging Settings → Messaging Notes<ul><li>Alternatively, it can be configured using the PowerShell cmdlet: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps#-messagingnotes\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Set-CsTeamsMessagingConfiguration</a></li></ul></li></ul><p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "498159"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce Collaborative Notes in group chats, enabling real-time co-creation of notes, agendas, and action items via a new Notes tab. Rollout starts late September 2025 for Targeted Release and early November 2025 for General Availability. The feature is on by default and manageable via Teams Admin Center or PowerShell."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-04-17T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1148543",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-30T16:54:21.673Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-05T22:05:07Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Collaborative Notes in Chats",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to boost engagement with Copilot-powered conversational text messages in Dynamics 365 Customer Insights - Journeys in conjunction with Dynamics 365 Contact Center. This feature will reach general availability on April 30, 2026. <br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to leverage Copilot Studio agents to deliver personalized SMS conversations with your customers.<br><br> \n\nKey functionality of this feature includes: \n\n<ul> \n\n<li>Seamless integration with Dynamics 365 Contact Center proactive engagement.</li> \n\n<li>Use the existing capabilities of consent, audience configurations, and quiet times.</li> \n\n<li>Design your journey to include conversational text messages and react to message outcomes. </li> \n\n<li>View detailed engagement metrics, such as the number of attempts, outcomes, and specific results for each conversation interaction in the out-of-the-box journey reporting.</li> \n\n<li>Access all text conversations and engagement interaction data in storage and build custom reports using Microsoft Fabric integration. </li> \n\n</ul> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-04T16:52:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265755",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T16:52:59.44Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T16:52:10Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights - Journeys - Boost engagement with Copilot-powered conversational text messages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing a new feature for Dynamics 365 Customer Service known as Case Sentiment Insights. This feature is designed to give agents and supervisors a clear, real-time view of customer sentiment across email, chat, and voice channels. This feature will help to identify potential escalations early and support better case prioritization. This feature will reach general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>You will be able to see sentiment scores as icons displayed directly on cases, in case grids, and on agent inbox cards when added to an agent profile. These scores reflect the combined emotional tone of recent customer interactions and update automatically as new communications arrive.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-04T16:47:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265753",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T16:47:53.327Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T16:47:06Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service – Case sentiment insights",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to simulate case‑resolution flows before production in Dynamics 365 Customer Service. This feature will reach general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>This feature enables you to validate Case Management Agent resolution logic to detect configuration and instruction issues before they impact customers. Actionable validations from simulated end-to-end case resolution flows include resolution accuracy, clarification gaps, failures, and estimated credit impact.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/14408\">Simulate case resolution flows before production</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-04T16:43:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265750",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T16:45:20.327Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T16:43:05Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service - Simulate case‑resolution flows before production",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 30, 2026: We have updated the title. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re improving external collaboration in Microsoft Teams by enabling file attachments and Loop sharing in 1:1, group and meeting chats with external users. This update improves the collaboration experience for Files and Loop and add a new control for IT admins. Specifically, Files and Loop components will be shared automatically with external participants in the chat and won’t require any action by the sender by default. Additionally, Entra B2B Guests in your organization will be able to attach and share files from their home tenant’s OneDrive or SharePoint.&nbsp;</p><p>This change applies to Teams for Windows desktop, Mac desktop, and web and is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492625\" target=\"_blank\">492625</a>.</p>\n<p>Screenshot 1: <i>File sharing option is available in external chats</i></p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6daea95f-fe2a-4fae-8a10-10cb6091e752/4e2a9f05f791267c91a9f4baa3e3027a033e6870.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>Screenshot 2: <i>Files shared have an external label and always open on Web</i></p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c14c4953-10e9-4616-9b3e-3e82830091aa/c3469c4611cbe286fea9d85ffef458ab1f403cf6.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>Screenshot 3: <i>Teams automatically shares the file or Loop component when uploaded to external chats</i></p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/38dfe9ca-f7f9-4102-87c5-d4df9d3c8aa9/c2fad821a355b98dcaf24a81f919bb8bf356356c.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<p>Screenshot 4: <i>User can also manually change permissions before sharing</i></p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/1b101287-80e8-41a3-8b5d-f7443802e428/b817c68259a49c081448904e516367168a567cc2.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>When this will happen:</b></b></p><ul><p></p>\n<li><b>Targeted Release:</b>&nbsp;Rollout begins late October 2025; expected to complete by mid-November 2025</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins mid-January 2026</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>All Microsoft Teams users in your organization who participate in 1:1, group, or meeting chats with external users, including guest and Teams for Free users.</p><p><b>What will happen:</b></p><p>With this update: \n</p><ul><li>Unless the user chooses to share File and Loop by pasting links, external users in chat will be automatically provisioned to allow frictionless collaboration. \n</li><li>You can disable automatic provisioning and have the user change permissions manually by using policy controls.\n</li><li>If disabled, users will have to manually provision the file to users in the chat. \n</li><li>Guest users will be able to upload files from their home tenant’s OneDrive and SharePoint.\n</li><li>Files shared by external users will continue to display an <b>External&nbsp;</b>tag for clarity.\n</li><li>Loop components will now be rendered inside external chats in Teams.\n</li><li>Recipients will access File and Loop components as B2B guests within the resource tenant. If they are not already added as guests, they will need to give consent and might need to complete MFA, depending on your company’s B2B policy, before viewing the chat content.</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n\n\n<ul><li>No action is required to enable the feature—it will be automatically available as the rollout progresses.</li><li>To disable the automatic provisioning behavior for files and loops set the <code>AutoShareFilesInExternalChats</code> attribute of <code>TeamsMessagingPolicy</code> to <code>Disabled</code>. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-autosharefilesinexternalchats\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation</a>.\n</li><li>To provide seamless Loop access experience for external users, we recommend turning on Entra B2B Guest Access. Refer to: <a href=\"https://learn.microsoft.com/sharepoint/sharepoint-azureb2b-integration\" target=\"_blank\">Microsoft Entra B2B integration for SharePoint &amp; OneDrive - SharePoint in Microsoft 365 | Microsoft Learn</a>.</li><li>For configuration guidance, refer to: <a href=\"https://learn.microsoft.com/powershell/module/teams/set-csteamsfilespolicy?view=teams-ps#-filesharinginchatswithexternalusers\" target=\"_blank\">Set-CsTeamsFilesPolicy documentation</a> (documentation will be updated before rollout).</li><li>Review the following article: <a href=\"https://learn.microsoft.com/microsoftteams/share-files-loop-in-external-chats\">Share Files and Loop components in external (federated) chats</a></li></ul><p><b>Compliance considerations</b></p><p><b></b></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>New communication method between tenants</td>\n<td>Enables file sharing in external chats, expanding cross-tenant collaboration</td>\n</tr>\n<tr>\n<td>Admin control available</td>\n<td>Admins can disable the feature via PowerShell</td>\n</tr>\n<tr>\n<td>Can be controlled through Entra ID group membership</td>\n<td>Policy can be scoped using Entra ID groups</td>\n</tr>\n<tr>\n<td>Data processing changes</td>\n<td>Files shared in external chats are tagged and stored per existing Teams file sharing protocols</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "492625"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will enable automatic file and Loop component sharing in external 1:1, group, and meeting chats, improving collaboration. Guests can share files from their own OneDrive or SharePoint. IT admins can disable automatic sharing via policy. Rollout starts late October 2025, and completed late March 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-04T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1181772",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T16:21:41.447Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-31T00:11:41Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Secure file and Loop sharing in external 1:1, group and meeting chats",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are introducing consent-based recording in Dynamics 365 Contact Center to enhance trust, ensure regulatory compliance, and reduce risk during customer voice interactions. This feature captures explicit customer consent at the start of calls with voice agents. This feature will reach general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>Calls with voice agents will now include a proactive consent prompt before recording or transcription begins. If consent is declined, calls continue without recording or transcription, and this preference carries over if the call transfers to a service representative. This ensures a consistent, privacy-respecting experience and helps meet voice-specific compliance requirements.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-04T16:16:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265742",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-03-30T16:19:07.343Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T16:16:17Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Consent-Based Recording for Voice Interactions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated March 30, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new slash command, <b>/createworkflow</b>, in the Microsoft Teams message compose box. A workflow is an automated process that handles repetitive tasks for users, such as sending notifications, creating tasks, or starting approvals when something happens in Teams. With this update, users can type <b>/createworkflow</b> while composing a message to quickly begin creating an automation, instead of navigating through menus. This change is designed to make workflow creation faster, easier to discover, and more accessible directly from chats and channels.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558544\" target=\"_blank\">558544</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Targeted Release (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by<b> late April 2026</b>.</li>\n  <li><b>General Availability (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by complete by <b>mid-May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>\nAll Microsoft Teams users.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users can create workflows directly from the compose box using the <b>/createworkflow</b> slash command.</li><p>Screenshot: <i>Example of the <b>/createworkflow</b> slash command appearing in the Teams message compose box</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6e0f2c01-af84-46cb-b498-013e2b05646a\" style=\"width: 300px;\" alt=\"user settings\"></p></ul><ul>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>No existing admin policies are changed.</li>\n  <li>Workflow creation is faster with fewer clicks.</li><li>If the Workflows app is blocked for users, they will see the Create Workflow slash command, however they will not be able to use it and will see the following dialogue:<br><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/08549fec-968c-4d01-8aed-810b9ba20c3f/a829476c354517bb036397bec2b0acf9cd059396.png\" style=\"width: 50%;\" alt=\"user settings\"></li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally inform users about the new slash command.</li>\n  </ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b\" target=\"_blank\">Use commands in Microsoft Teams | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n   \n    <td>The /createworkflow slash command provides users with a new, self-initiated entry point to create workflows directly from the Teams compose box. The feature is enabled by default, and usage is initiated by end users without admin action.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558544"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is introducing the /createworkflow slash command in the message compose box, enabling users to quickly create workflows directly from chats and channels. This feature, enabled by default, will roll out worldwide from late April to mid-May 2026 for all Teams users."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1254553",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-03-30T16:16:31.253Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-17T22:46:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: New slash command in compose to create workflows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated March 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re adding<b> new building‑level insights</b> to the recommended actions page in the <i>Teams Rooms Pro Management portal</i>. This update helps IT admins identify buildings with high Microsoft Teams Rooms (MTR) utilization that still have bring-your-own-device (BYOD) rooms in them, creating an inconsistent user experience from room to room. These insights support more consistent meeting experiences across buildings and help organizations optimize room‑technology investments. Available with a Teams Rooms Pro or Shared Space license.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553591\" target=\"_blank\">553591</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide):</b> We will begin rolling out<b> early May 2026</b> (previously&nbsp;early April)&nbsp;and expect to complete by<b>&nbsp;late May 2026 </b>(previously late April).</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using the Teams Rooms Pro Management portal with Teams Rooms Pro or Shared Device licenses</li></ul><p><i>What will happen</i></p><ul><li>A new building‑level insights view will appear on the portal’s <i><b>Recommended actions</b></i> page:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a3730884-7935-4ffb-a4ec-8484548ce0ff/75404d11fac76a75080aabddd91fa2c649f18299.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Insights will highlight buildings with high MTR usage and remaining BYOD meeting rooms:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/391f042f-d319-4afb-8dcb-6fd77d120f76/ab4ec118c9df83e7d259d1b5168538574c39e9d5.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>These insights are designed to help IT create more consistent room to room experiences for users within a building.</li><li>No changes will occur to existing configurations, policies, or settings.</li><li>The feature will be<b> enabled by default </b>for tenants with eligible licenses.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>If relevant to your organization’s deployment planning, you may:</p><ul><li>Review your current MTR and BYOD room distribution in the <i>Teams Rooms&nbsp;Pro Management portal</i>.</li><li>Update internal documentation or planning guidance as needed.</li><li>Share this update with teams responsible for meeting room technology decisions.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -641,52 +1040,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | DLP to safeguard sensitive data from external web search in Microsoft 356 Copilot and Copilot Chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Today, IT admins can enable or disable<b> </b>third‑party model providers<b>,</b> such as Anthropic and xAI (US only), at the tenant level in the <i>Microsoft Admin Center</i>. With this update, admins will be able to assign access to a third‑party model provider to specific users or groups within the tenant.</p><p>This update is related to <i>MC1193920</i>, which announced that Anthropic models would be enabled by default for many customers in <i>certain Copilot experiences</i> and offered under the <a href=\"https://www.microsoft.com/licensing/terms/welcome/welcomepage\" target=\"_blank\">Microsoft Product Terms</a> and <a href=\"https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA\" target=\"_blank\">Data Protection Addendum (DPA)</a> as a Microsoft subprocessor. </p><p>This message corresponds to <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557371\" target=\"_blank\">557371</a></b>.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ab5f0f9a-6d69-4b64-bff0-1ed67ff4859f/b82aa463d6bae209e2799f8df25173f437a4ed97.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><p><b><b>When this will happen</b></b></p><p style=\"margin-left: 25px;\"><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete in<b> late April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations that use or plan to use<b> third‑party model providers</b> in <i>Microsoft 365 Copilot </i>and in <i>Copilot Studio</i></li><li>Admins who manage access in the <i>Microsoft Admin Center</i>, <i>Power Platform Admin Center (PPAC)</i>, or <i>Copilot Studio</i></li></ul><p><i>What will happen</i></p><ul><li>Admins will see a <b>new control </b>in the <i>Microsoft Admin Center</i> that allows assigning a third‑party model provider to specific users or Entra ID groups.</li><li>The setting will apply at the provider level, not at the individual model level.</li><li>Assignments will be enforced consistently across the Microsoft Admin Center, PPAC, and Copilot Studio.</li><li>The control <b>will apply to subprocessors</b> <b>and independent processors</b> for all current and future third‑party model providers.</li><li>Admins can add up to any combination of 999 groups and users; nested groups are supported.&nbsp;</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Review your existing settings for Anthropic and xAI (US only) in the<i> Microsoft Admin Center</i>.</li><li>Update user or group assignments to align with your internal governance policies.</li><li>Update any existing agents and experiences that may be impacted when model access is limited by Entra ID security groups.</li><li>Communicate any planned changes to your helpdesk or impacted user groups.</li><li>Update internal documentation where you track AI access or model provider settings.</li><li>Review Microsoft documentation on managing third‑party model providers when it becomes available.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\" target=\"_blank\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-copilot-studio/authoring-select-external-response-model\" target=\"_blank\">Choose an external model as the primary AI model | Microsoft Copilot Studio | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/enterprise-data-protection\" target=\"_blank\">Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA\" target=\"_blank\">Microsoft Products and Services Data Protection Addendum (DPA) | Licensing Resources and Documents | Licensing | Microsoft</a></li><li><a href=\"https://www.microsoft.com/licensing/terms/welcome/welcomepage\" target=\"_blank\">Product Terms | Licensing | Microsoft</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI, ML, or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This update introduces new admin controls that define which users or groups can access third‑party AI model providers.</td></tr><tr><td>Does the change add any integration to third‑party software products, and if so what?</td><td>Yes. This update applies to model providers such as Anthropic and xAI (US only).</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Access can be assigned at the user or group level using Entra ID.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557371"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Admins will soon be able to assign third-party AI model providers like Anthropic and xAI to specific users or groups in Microsoft 365 Copilot via a new control in the Microsoft Admin Center. This rollout begins in late April 2026 and supports Entra ID group-based access management."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1263276",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-27T19:38:43.323Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-27T19:38:32Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Admins will be able to enable third‑party model providers for specific users and groups",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4851,55 +5204,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing a new slash command, <b>/createworkflow</b>, in the Microsoft Teams message compose box. A workflow is an automated process that handles repetitive tasks for users, such as sending notifications, creating tasks, or starting approvals when something happens in Teams. With this update, users can type <b>/createworkflow</b> while composing a message to quickly begin creating an automation, instead of navigating through menus. This change is designed to make workflow creation faster, easier to discover, and more accessible directly from chats and channels.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558544\" target=\"_blank\">558544</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Targeted Release (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by<b> late April 2026</b>.</li>\n  <li><b>General Availability (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by complete by <b>mid-May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>\nAll Microsoft Teams users.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users can create workflows directly from the compose box using the <b>/createworkflow</b> slash command.</li><p>Screenshot: <i>Example of the <b>/createworkflow</b> slash command appearing in the Teams message compose box</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6e0f2c01-af84-46cb-b498-013e2b05646a\" style=\"width: 300px;\" alt=\"user settings\"></p></ul><ul>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>No existing admin policies are changed.</li>\n  <li>Workflow creation is faster with fewer clicks.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally inform users about the new slash command.</li>\n  </ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b\" target=\"_blank\">Use commands in Microsoft Teams | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n   \n    <td>The /createworkflow slash command provides users with a new, self-initiated entry point to create workflows directly from the Teams compose box. The feature is enabled by default, and usage is initiated by end users without admin action.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "558544"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing the /createworkflow slash command in the message compose box, enabling users to quickly create workflows directly from chats and channels. This feature, enabled by default with no admin changes, will roll out worldwide from late April to mid-May 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1254553",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-17T22:47:20.78Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-17T22:46:28Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: New slash command in compose to create workflows",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "Custom theming for model-driven apps using the modern, refreshed look has been available in preview since October 2023. This capability allows organizations to align model-driven apps with their branding by customizing colors, fonts, and app header styling using the Microsoft Fluent 2 design system. As of March 31, 2026, custom theming will reach general availability.<br><br><b>How does this affect me?</b><br>Classic theming is not honored with the modern, refreshed look, which is becoming mandatory for model-driven apps in April 2026. The supported theming replacement with the modern look is custom modern themes, which gives makers the ability to:<ul><li>Apply a cohesive color scheme across the app based on a single base color, including hyperlinks, primary buttons, active tab indicators, row selection, and hover effects.</li><li>Customize the app header background and text colors, including hover, pressed, and selected states.</li><li>Set a custom logo for the app header to reinforce organizational branding. Note: Custom logo support in the modern theme XML is currently rolling out and will be available in all regions by the end of April 2026.</li><li>Override the default font used throughout the application.</li></ul>These customizations are applied through an XML web resource and can be scoped to your environment using the Custom theme definition app setting.<br><br><b>What action do I need to take?</b><br>To take advantage of custom theming, we recommend doing the following:<ul><li>If your organization was using classic themes, create a new custom theme XML web resource that reflects your branding. Follow the steps in the documentation to apply it to your environment.</li><li>Update internal documentation and training materials to reference the new custom theming approach instead of classic theming.</li><li>Report any issues or unexpected behavior through Microsoft Support so we can investigate.</li></ul>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14420\">Use modern themes in Power Apps - Power Apps. </a>",
       "ContentType": "html"
     },
@@ -7701,55 +8005,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re improving external collaboration in Microsoft Teams by enabling file attachments and Loop sharing in 1:1, group and meeting chats with external users. This update improves the collaboration experience for Files and Loop and add a new control for IT admins. Specifically, Files and Loop components will be shared automatically with external participants in the chat and won’t require any action by the sender by default. Additionally, Entra B2B Guests in your organization will be able to attach and share files from their home tenant’s OneDrive or SharePoint.&nbsp;</p><p>This change applies to Teams for Windows desktop, Mac desktop, and web and is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=492625\" target=\"_blank\">492625</a>.</p><p>Screenshot 1: <i>Files are automatically provisioned.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a099fd76-7665-4ce8-b043-0f3331b55971\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Files shared have an external label and always open on Web.</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/27858dcc-8fd4-4e98-b1af-27dd3678887d\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>When this will happen:</b></b></p><ul><p></p>\n<li><b>Targeted Release:</b>&nbsp;Rollout begins late October 2025; expected to complete by mid-November 2025</li>\n<li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins mid-January 2026</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>All Microsoft Teams users in your organization who participate in 1:1, group, or meeting chats with external users, including guest and Teams for Free users.</p><p><b>What will happen:</b></p><p>With this update: \n</p><ul><li>Unless the user chooses to share File and Loop by pasting links, external users in chat will be automatically provisioned to allow frictionless collaboration. \n</li><li>You can disable automatic provisioning and have the user change permissions manually by using policy controls.\n</li><li>If disabled, users will have to manually provision the file to users in the chat. \n</li><li>Guest users will be able to upload files from their home tenant’s OneDrive and SharePoint.\n</li><li>Files shared by external users will continue to display an <b>External&nbsp;</b>tag for clarity.\n</li><li>Loop components will now be rendered inside external chats in Teams.\n</li><li>Recipients will access File and Loop components as B2B guests within the resource tenant. If they are not already added as guests, they will need to give consent and might need to complete MFA, depending on your company’s B2B policy, before viewing the chat content.</li>\n</ul>\n\n<b>What you can do to prepare:</b>\n\n\n<ul><li>No action is required to enable the feature—it will be automatically available as the rollout progresses.</li><li>To disable the automatic provisioning behavior for files and loops set the <code>AutoShareFilesInExternalChats</code> attribute of <code>TeamsMessagingPolicy</code> to <code>Disabled</code>. Learn more: <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmessagingpolicy?view=teams-ps#-autosharefilesinexternalchats\" target=\"_blank\">Set-CsTeamsMessagingPolicy documentation</a>.\n</li><li>To provide seamless Loop access experience for external users, we recommend turning on Entra B2B Guest Access. Refer to: <a href=\"https://learn.microsoft.com/sharepoint/sharepoint-azureb2b-integration\" target=\"_blank\">Microsoft Entra B2B integration for SharePoint &amp; OneDrive - SharePoint in Microsoft 365 | Microsoft Learn</a>.</li><li>For configuration guidance, refer to: <a href=\"https://learn.microsoft.com/powershell/module/teams/set-csteamsfilespolicy?view=teams-ps#-filesharinginchatswithexternalusers\" target=\"_blank\">Set-CsTeamsFilesPolicy documentation</a> (documentation will be updated before rollout).</li></ul><p><b>Compliance considerations</b></p><p><b></b></p><p></p><table border=\"1\">\n<tbody><tr>\n<th>Compliance Area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>New communication method between tenants</td>\n<td>Enables file sharing in external chats, expanding cross-tenant collaboration</td>\n</tr>\n<tr>\n<td>Admin control available</td>\n<td>Admins can disable the feature via PowerShell</td>\n</tr>\n<tr>\n<td>Can be controlled through Entra ID group membership</td>\n<td>Policy can be scoped using Entra ID groups</td>\n</tr>\n<tr>\n<td>Data processing changes</td>\n<td>Files shared in external chats are tagged and stored per existing Teams file sharing protocols</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "492625"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams now enables automatic file and Loop component sharing by default in external 1:1, group, and meeting chats, improving collaboration. Admins can disable this via policy. Guest users can share files from their home tenant. Rollout starts October 2025, completing worldwide by January 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-04T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1181772",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-09T16:15:04.797Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-31T00:11:41Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: File attachment control now enabled by default in external 1:1 and group chats",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10626,7 +10881,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
