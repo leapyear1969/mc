@@ -108,7 +108,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-31T07:08:05.2839179Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-31T07:08:05.2839181Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-31T08:54:28.4834773Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-31T08:54:28.4834777Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3545,44 +3545,6 @@
       "User impact"
     ],
     "Title": "Introducing awards and certifications section in M365 profile card",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 24, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>Connectivity changes between cmdlets and Microsoft 365 services like SharePoint and Exchange now require a new parameter for improved security and modern authentication. Starting Jan 31, 2026, Admins must use <a href=\"https://learn.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps\" target=\"_blank\">Exchange Online PowerShell v3.9.0</a> or later and include the <code>-EnableSearchOnlySession</code> parameter when running <code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-ippssession?view=exchange-ps\" target=\"_blank\">Connect-IPPSession</a></code> to execute Data Lifecycle Management cmdlets.</p>\n\n<p><b>When this will happen:</b></p>\n<p>Enforcement begins January 31, 2026.</p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins using Data Lifecycle Management cmdlets in Security &amp; Compliance PowerShell.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>You must use Exchange Online PowerShell v3.9.0 or later.</li>\n<li>You must include the <code>-EnableSearchOnlySession</code> parameter when running <code>Connect-IPPSession</code>.</li>\n<li>This applies to the following cmdlets:\n<ul>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">New-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">Set-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">New-RetentionComplianceRule</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">Set-RetentionComplianceRule</a></code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-compliancetag?view=exchange-ps\">New-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-compliancetag?view=exchange-ps\">Set-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-compliancetag?view=exchange-ps\">Remove-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentionevent?view=exchange-ps\">New-ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentioneventtype?view=exchange-ps\">New-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEventType</a></code></li>\n</ul>\n</li>\n<li>No impact for users accessing Data Lifecycle Management through the Purview portal.</li>\n<li>Cmdlets remain incompatible with <b>Certificate-Based Authentication (CBA)</b>.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>Update scripts and workflows to include the <code>-EnableSearchOnlySession</code> parameter.</li>\n<li>Ensure your organization is using Exchange Online PowerShell version 3.9.0 or later.</li>\n<li>For more information, visit: <a href=\"https://learn.microsoft.com/microsoft-365/compliance/data-lifecycle-management\">Learn about Data Lifecycle Management solutions in Microsoft Purview</a>.</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting January 31, 2026, admins using Data Lifecycle Management cmdlets must use Exchange Online PowerShell v3.9.0+ and include the -EnableSearchOnlySession parameter with Connect-IPPSession for improved security. This change affects specific cmdlets and does not impact portal users. Certificate-Based Authentication remains unsupported."
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1213770",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-24T16:30:04.81Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-06T05:49:07Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Data lifecycle Management cmdlet connectivity change",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -12939,45 +12901,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 17, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b>\n</p><p>We’re introducing a simplified external collaboration (EC) admin experience in <i>Microsoft Teams</i> to help administrators manage external collaboration settings more efficiently. This update introduces two predefined collaboration modes—Open and Controlled—as well as a Custom mode for organizations with unique requirements. The new experience provides a streamlined interface in the <i>Teams admin center (TAC)</i> for configuring external collaboration policies across chats, calls, meetings, Teams, and channels (including shared channels).</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><p><b>Public Preview:</b> Rolling out mid-November 2025; expected completion by mid-November 2025.\n</p><p><b>General Availability (Worldwide):</b> Rolling out late February 2026 (previously mid-February); expected completion by late February 2026 (previously early February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b> Admins managing Microsoft Teams external collaboration settings.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>A new admin experience will be available in <i>Teams admin center (TAC)</i>.</li>\n<li>Admins can choose from three collaboration modes:</li>\n<ul>\n<li><b>Open (Mode 1):</b>\n<ul>\n<li>Enables chats, calls, and meetings with all external domains and Teams personal accounts using federation or external access.</li>\n<li>Allows Teams and channels collaboration with Microsoft and non-Microsoft partners using B2B collaboration and B2B direct connect.</li>\n</ul>\n</li>\n<li><b>Controlled (Mode 2):</b>\n<ul>\n<li>Aligns with current defaults for enterprise and EDU tenants.</li>\n<li>Enables chats, calls, and meetings with all external domains using federation or external access.</li>\n<li>Blocks collaboration in shared channels.</li>\n</ul>\n</li>\n<li><b>Custom:</b>\n<ul>\n<li>Provides full control over each external collaboration setting.</li>\n<li>Allows manual configuration of org-wide external collaboration policies across chats, calls, meetings, Teams, and channels (including shared channels).</li>\n<li>Changes in Custom mode apply only to Global org-wide policies and settings; they do not affect custom policies.</li>\n</ul>\n</li>\n</ul>\n<li>Existing settings will remain unchanged unless modified by the admin.</li></ul><p><i>Screenshot 1 - A new external collab section and overview page that shows external collab settings at a glance:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/41fcff49-a0bd-43e1-b77a-7e07185fbbfb/3832511b91a7cbb2ce2f56a6061c69e7df62a90a.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul>\n</ul>\n<p></p>\n\n<p><i>Screenshot 2: Manage external collab settings using a guided simple UX:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fa8a9a5e-2300-4261-9290-dcbe745358d5/cd0133512c1c578e2201406d5e22460b7f1f10a7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b>\n</p><p>No action is required at this time.\nAdmins may choose to explore the new interface once available to review and adjust external collaboration settings.\nFor more information, refer to the Teams admin center documentation once the update is live.</p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing a simplified external collaboration admin experience with three modes—Open, Controlled, and Custom—available in the Teams admin center. Public preview starts mid-November 2025, with general availability by late February 2026. Existing settings remain unless changed by admins."
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183006",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-18T17:33:40.95Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-05T00:18:25Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Introducing simplified admin controls to manage external collaboration in Teams admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-07-13T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -13354,45 +13277,6 @@
       "Retirement"
     ],
     "Title": "Teams on the web – Browser Update Required by May 15, 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 11, 2026: We have updated the timeline. After further review, we will not be rolling this out to GCC, GCCH, DoD, USSec, USNat during the timeline outlined below. We will communicate via Message center in dedicated posts when we are ready to proceed. Thank you for your patience.</p><p>We’re introducing the new Microsoft Teams calendar experience, designed to unify and enhance productivity across Microsoft 365. This calendar integrates familiar features with innovations like Microsoft Copilot and Microsoft Places, enabling seamless collaboration from anywhere. It works consistently across Teams, the new Outlook for Windows, Outlook on the web, and Places. As part of this update, the legacy calendar experience will be deprecated, and the toggle to switch between old and new calendars will be removed.</p>\n<p><b>When this will happen</b></p><ul>\n<li><b>General Availability (Worldwide):</b>&nbsp;Mid-January 2026 to late February 2026 (previously end of January)</li>\n</ul>\n\n<b>How this affects your organization</b><p></p><p>\n</p><p>Once this update is deployed, users accessing the Calendar app in Microsoft Teams will see the new calendar experience by default. The toggle to switch between the old and new calendar will be removed, and only the new Microsoft 365 calendar will be available. This change may impact users accustomed to the legacy calendar interface.</p>\n\n<b>What you can do to prepare</b><p></p><p>\n</p><p>No admin action is required. We recommend informing your users about the upcoming change and updating any internal documentation or training materials that reference the legacy calendar experience.</p>\n<p>For more information about the new calendar experience, visit the <a href=\"https://learn.microsoft.com/microsoftteams/teams-calendar-overview\">Microsoft Teams documentation</a>.</p><p><b>Compliance considerations</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The new Microsoft Teams calendar experience will replace the legacy calendar, removing the toggle to switch between them. Deployment is set worldwide from mid-January to late February 2026, excluding GCC, GCCH, DoD, USSec, and USNat for now. No admin action is needed; inform users accordingly."
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129730",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-11T17:32:30.33Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T23:18:10Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Remove toggle for Calendar in Teams",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -16704,44 +16588,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": "2025-06-18T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 23, 2025: We have paused rollout of this feature. We will announce via Message center when we are ready to proceed. Thank you for your patience.&nbsp;</p><p>As part of our ongoing convergence process for all Microsoft Defender workloads, we planned to retire SIEM (Security Information and Event Management) agents from Microsoft Defender for Cloud Apps in late December 2025 (previously mid-November) and ending early January 2026 (previously late November 2025). We have puased this release and will communicate via Message center when we are ready to proceed. <br><br>We recommend you transition to APIs that support the management of activities and alerts data from multiple workloads.\n</p><p><b>How this will affect your organization:</b>\n</p><p>Existing Microsoft Defender for Cloud Apps SIEM agents will function as is until the SIEM agents retire, but no new SIEM agents can be configured starting June 19, 2025. Microsoft Sentinel agents will remain supported and can still be added.</p><p>Defender for Cloud Apps alerts and activities data currently supported in the SIEM agents are also available in the unified API and SIEM solutions that provide access to alerts and activity data for all Microsoft security products, for cross-workload visibility:</p><ul><li>For alerts and activities, Defender XDR streaming API: <a href=\"https://learn.microsoft.com/defender-xdr/streaming-api\" target=\"_blank\">Stream Microsoft Defender XDR events - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For Microsoft Entra ID Protection login events: <a href=\"https://learn.microsoft.com/defender-xdr/advanced-hunting-identitylogonevents-table\" target=\"_blank\">IdentityLogonEvents table in the advanced hunting schema - Microsoft Defender XDR | Microsoft Learn</a>\n</li><li>For alerts, Microsoft Graph security alerts API (v2): <a href=\"https://learn.microsoft.com/graph/api/security-list-alerts_v2?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List alerts_v2 - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li>We also recommend viewing Defender for Cloud Apps alerts data in the Microsoft Defender XDR incidents API. Learn more: <a href=\"https://learn.microsoft.com/defender-xdr/api-incident\" target=\"_blank\">Microsoft Defender XDR incidents APIs and the incidents resource type - Microsoft Defender XDR | Microsoft Learn</a>\n</li></ul><p>These APIs enhance security monitoring and management and offer additional supported capabilities that utilize data from multiple Microsoft Defender workloads.</p><p><b>What you need to do to prepare:</b></p><p>To ensure continuity and access to the same data available before this retirement through Microsoft Defender for Cloud Apps SIEM agents, we recommend transitioning to the supported unified API and SIEM solutions. We encourage you to begin planning your migration to these solutions to take advantage of their enhanced capabilities. </p><p>Learn more: <a href=\"https://learn.microsoft.com/defender-cloud-apps/siem\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">Generic SIEM integration - Microsoft Defender for Cloud Apps | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Cloud Apps will retire SIEM agents, with no new agents configurable after June 19, 2025. The rollout is paused, and users are advised to transition to unified APIs and SIEM solutions for alerts and activity data to ensure continuity and enhanced capabilities."
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1077861",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2025-12-23T17:49:04.747Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-05-19T23:43:22Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Defender for Cloud Apps: SIEM agents will retire",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-08-01T08:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -17109,53 +16955,6 @@
       "Retirement"
     ],
     "Title": "Deprecation of Designer bot and Designer banners in Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 12, 2025: We have updated the timeline. We will not be rolling out this feature to GCC, GCCH and DoD customers at this time. We apologize for the inconvenience.&nbsp;</p><p><b><b>Introduction</b></b></p><p></p><p>We've added a new <i>Copilot button</i> that gives users a quick and visible entry point to Copilot directly within the <i>file previewer</i> in OneDrive and SharePoint. This button appears near the bottom-right corner of the file previewer (instead of in the <i>command bar</i>) and surfaces contextual prompts for Copilot-supported file types. It also provides access to the <i>Copilot chat</i>. This feature will be available to users with a paid Copilot license</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513432\" target=\"_blank\">513432</a>.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Worldwide): We will begin rolling out mid-November 2025 and expect to complete by end of February 2026 (previously December 2025).</p>\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users who preview files in OneDrive or SharePoint.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new<i> Copilot button</i> will appear in the bottom-right corner of the file previewer.</li><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ead76838-1d4d-48b8-ac20-09ce4c56d9ce\" style=\"width: 400px;\" alt=\"user settings\">\n<li>This button provides access to <i>Copilot chat</i> and contextual prompts based on the file type.</li>\n<li>The previous <i>Copilot command</i> in the <i>command bar</i> will be removed.</li>\n<li>No changes to admin policies or settings are required.</li>\n<li>This feature is enabled for <b>users with the paid Copilot license add-on</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required at this time.</li>\n<li>Communicate this change to helpdesk or support staff.</li>\n<li>Update internal documentation to reflect the new location of the <i>Copilot button</i>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "513432"
-      },
-      {
-        "Name": "Summary",
-        "Value": "A new Copilot button will appear in the bottom-right corner of the OneDrive and SharePoint file previewer, replacing the command bar button. It provides access to Copilot chat and contextual prompts for paid Copilot license users. Rollout begins mid-November 2025, excluding GCC, GCCH, and DoD customers."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1182707",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-12T23:00:29.933Z",
-    "Services": [
-      "SharePoint Online",
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-04T00:52:02Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "New Copilot button in file previewer for OneDrive and SharePoint",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18317,45 +18116,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 29, 2025: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction:</b></p><p>We’re enhancing Microsoft Secure Score by introducing new improvement actions based on Microsoft Defender for Identity posture recommendations for PingOne. These updates provide a more accurate reflection of your organization’s identity security posture and help strengthen your overall security configuration.</p><p><b>When this will happen:</b></p><ul><li>Public Preview: Rollout begins in late November 2025 (previously late October) and completes by mid-December 2025 (previously mid-November).</li><li>General Availability (Worldwide, GCC, GCC High, and DoD): Rollout begins in late January 2026 (previously late November 2025) and completes by late February 2026 (previously mid-December 2025).</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected: Tenants with a PingOne connector configured for Microsoft Defender for Identity.</p><p>What will happen:</p><p>New posture recommendations will appear in <i>Microsoft Secure Score</i> as improvement actions:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/96b77189-0b55-41fa-9754-7b6949595fdf/0a89be155db746aa06931f2c4c771ac7d06ec939.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Limit the number of PingOne accounts with organization admin role</li><li>Assign multi-factor authentication for PingOne privileged user accounts: <p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/8c587983-6275-4514-bc02-f9ea6141f028/e0c86d3639106eda058b39e358889044819d594f.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Change password for PingOne privileged user accounts</li><li>Remove stale PingOne privileged accounts</li><li>High number of PingOne accounts with a privileged role assigned</li></ul><p>These recommendations are enabled by default and require no configuration changes.</p><p><b>What you can do to prepare:</b></p><ul><li>No admin action is required before or after rollout.</li><li>Review your current identity configuration to assess potential impact.</li><li>Notify relevant administrators and update internal documentation as needed.</li><li>Regularly review Microsoft Secure Score to monitor and act on new improvement suggestions.</li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Secure Score will add new improvement actions based on Microsoft Defender for Identity recommendations for PingOne, rolling out from November 2025 to February 2026. These default-enabled actions target PingOne privileged account security, requiring no admin changes but encouraging review and monitoring by organizations with PingOne connectors."
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1155429",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-29T17:07:11.66Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-18T23:50:20Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Identity: New recommendations added to Microsoft Secure Score",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": "2026-10-28T07:00:00Z",
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -18602,53 +18362,6 @@
       "Retirement"
     ],
     "Title": "SharePoint Alerts retirement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated October 17, 2025: We have updated the rollout timeline below. Thank you for your patience.</p><p><b>Introduction</b></p><p>AI Workflows in the<i> Workflows app for Microsoft Teams</i> provide users with intelligent automation templates powered by Microsoft 365 Copilot. These workflows are powered by scheduled Copilot prompts through predefined templates for easier setup, helping users automate complex tasks and streamline daily operations. Admins can enable this feature by allowing access to the Workflows app in <i>Teams</i>.</p><p>This feature is available only to users with a Microsoft 365 Copilot license.</p><p>This message applies to Teams for Web and Mac.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500379\" target=\"_blank\">500379</a>.</p><p><b>When this will happen</b></p><p><b>Targeted Release: </b>Rolling out late September 2025; expected completion by early October 2025.</p><p><b>General Availability (Worldwide): </b>Rolling out late January 2026 (previously mid-October); expected completion by mid-February 2026 (previously late October).</p><p><b>How this affects your organization</b></p><p>Users with a Microsoft 365 Copilot license and access to the Workflows app in <i>Teams</i> will see new workflow templates powered by scheduled Copilot prompts. These templates simplify setup and enhance productivity through intelligent automation.</p><p><i><b>Screenshot 1 </b>- Workflow setup experience showing Copilot-powered workflow:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b13b7753-1b03-4795-819d-607fad65cf5e/ad7d58e1d1a6b09f4fb27bbb0e47e0083c0ab18b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i><b>Screenshot 2 </b>- Examples AI workflow templates on the homepage of the new Workflows app in Teams:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/35941ce9-b9b9-4571-810f-e3ca7c6409a0/b41bf391078411dc80fda4912491ca3bf78b2bad.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This feature is <b>off by default</b> unless the Workflows app is enabled.</p><p><b>What you can do to prepare</b></p><p>To enable this feature for your users:</p><ol><li>Familiarize yourself with <a href=\"https://learn.microsoft.com/copilot/microsoft-365/scheduled-prompts\" target=\"_blank\">Copilot scheduled prompts</a>.</li><li>Enable the Workflows app in <i>Microsoft Teams</i>.</li></ol><p>If you prefer to disable this feature, use <a href=\"https://config.office.com/officeSettings/officePolicies\" target=\"_blank\">Cloud Policy</a> to set the <b>“Allow the use of additional optional connected experiences in Office”</b> policy to <b>Disabled</b>. This will also disable scheduled prompts in Microsoft 365 Copilot. For more information, see <a href=\"https://learn.microsoft.com/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences\" target=\"_blank\">Admin controls for optional connected experiences</a>. If the Workflows app in <i>Microsoft Teams</i> is available to users, then this will disable AI Workflows powered by Copilot for those users.&nbsp;</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/scheduled-prompts\" target=\"_blank\">Manage scheduled prompts for Microsoft 365 Copilot | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365-apps/privacy/optional-connected-experiences\" target=\"_blank\">Overview of optional connected experiences in Office | Microsoft 365 | Microsoft Learn</a></li></ul><p><b>Compliance considerations</b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This change introduces scheduled Copilot prompts that interact with user data to automate workflows in Microsoft Teams.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can interact with Microsoft 365 Copilot through predefined workflow templates in the Workflows app in Teams.</td></tr></tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500379"
-      },
-      {
-        "Name": "Summary",
-        "Value": "AI Workflows in the Teams Workflows app use Microsoft 365 Copilot to automate tasks via scheduled prompts and templates, available to licensed users. Rolling out late 2025 to early 2026, the feature is off by default and requires enabling the Workflows app in Teams. Admin controls allow disabling it."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-03-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1147389",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-10-17T16:54:43.853Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-03T23:25:30Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: AI workflows powered by Microsoft 365 Copilot",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
