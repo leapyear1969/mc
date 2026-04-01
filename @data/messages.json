@@ -4,6 +4,172 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To provide a more consistent and predictable file viewing experience, we’re updating the user interface for text and image file previewers in Outlook for Android. These changes align text and image previewers with the existing preview experience for Word, Excel, and PowerPoint files.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide): Rollout begins<b> late April 2026</b> and completes by <b>mid-May 2026</b></li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users viewing text and image file attachments in Outlook for Android</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see updated styling in text and image file previewers to match other Office file previewers.</li><li>The <b>overflow action menu</b> will:<ul><li>Display updated icons</li><li>Use a revised action order consistent with Word, Excel, and PowerPoint previewers</li></ul></li><li>A new <b>Expand </b>button will appear in the action bar, making it easier to enter full-screen mode.</li><li>The feature is <b>enabled by default</b> and does not change existing policies or workflows.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required; the update is enabled automatically</li>\n  <li>Optionally notify users and helpdesk staff of the UI refresh</li>\n  <li>Update internal documentation or screenshots if applicable</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook for Android will update text and image file previewers with a unified interface matching Word, Excel, and PowerPoint previews. The rollout starts late April 2026, completing by mid-May. Changes include updated icons, action order, and a new Expand button. No action is required."
+      }
+    ],
+    "EndDateTime": "2026-06-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1267871",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-01T22:14:57.83Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-01T22:14:51Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Outlook for Android: Unified user interface in text and image previewers",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re updating attachment actions in Outlook for iOS by adding new actions and renaming existing ones. These changes improve consistency across attachment experiences in the reading pane and compose scenarios and introduce additional options for previewing and sharing attachments.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>General Availability (Worldwide):</b> Rollout begins <b>late April 2026</b> and is expected to complete by <b>mid‑May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users using Outlook for iOS.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>New attachment actions in the reading pane:\n    <ul>\n      <li><b>Preview</b> – Preview attachments directly from the reading experience.</li>\n      <li><b>Send a copy</b> – Send an attachment as a copy directly from the reading experience.</li>\n    </ul>\n  </li>\n  <li>Attachment action names are updated:\n    <ul>\n      <li>Save to device → <b>Share</b></li>\n      <li>Insert link → <b>Send a link</b></li>\n      <li>Attach a copy → <b>Send a copy</b></li>\n    </ul>\n  </li>\n  <li>Renamed actions apply across reading pane, compose, and file-related scenarios.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>You may notify users or update internal documentation.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook for iOS will update attachment actions and previewer experience worldwide from late April to mid-May 2026. New actions include \"Preview\" and \"Send a copy,\" with renamed actions for consistency. Changes apply by default to all users; no action is required, but user notification is optional."
+      }
+    ],
+    "EndDateTime": "2026-06-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1267870",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-01T22:14:25.03Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-01T22:14:17Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Outlook for iOS: New attachment actions and updates to previewer experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Today, Endpoint Data Loss Prevention (DLP) can only protect content after it’s saved to disk. Based on customer feedback and ongoing security investments, we’re<b> introducing the ability to detect and block egress activities on unsaved files</b>. This enhancement helps organizations prevent data leakage earlier in the workflow by applying DLP protection before content is written to the device.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=511791\" target=\"_blank\">511791</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide): </b>We will begin rolling out this feature in <b>early April 2026</b> and expect to complete by <b>mid‑April 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Endpoint DLP in the<i> Microsoft Purview compliance portal</i></li><li>Admins who configure or manage Endpoint DLP policies</li><li>Users on <b>devices running anti‑malware Client version 4.18.26020 or later</b></li></ul><p><i>What will happen</i></p><ul><li>New policy controls will be available that allow admins to detect or block egress activities involving <b>unsaved files</b>.</li><li>When enabled:<ul><li><b>Audit print and transfer activities for unsaved files: </b>Endpoint DLP will log egress actions involving unsaved files.</li><li><b>Block print and transfer activities for unsaved files:</b> Endpoint DLP will block egress actions involving unsaved files.</li></ul></li><li>Policy evaluation will begin earlier in the process, before a file is saved to disk.</li><li>This feature is <b>off by default </b>and <b>requires admin configuration</b> to take effect.</li><li>Existing policies continue to function with no changes unless these new settings are configured.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Ensure devices in scope are running <b>anti‑malware Client version 4.18.26020 or later</b>.</li><li>Review your existing Endpoint DLP policies and determine whether to enable the new unsaved‑file controls.</li><li>Update internal documentation or helpdesk materials that describe DLP behavior.</li><li>Communicate these upcoming policy options to your security and compliance teams.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "511791"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting April 2026, Microsoft Purview Endpoint DLP will enable detection and blocking of egress activities on unsaved files before they're saved, enhancing data loss prevention. This feature is off by default, requires admin setup, and needs devices running anti-malware Client version 4.18.26020 or later."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-05-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1267869",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-01T22:13:55.88Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-01T22:13:33Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview compliance portal: Enforce DLP protection on new content before it’s saved",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft 365 Copilot (Premium) in PowerPoint now allows users to choose which AI model to use when creating or editing presentations, providing additional flexibility while maintaining existing security, compliance, and admin controls.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558443\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">558443</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide): Rollout begins <b>early April 2026</b> and is expected to complete by <b>early May 2026</b>.</p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 Copilot (Premium)–licensed users using Copilot in PowerPoint.</li>\n  <li>Microsoft 365 administrators.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users can select which AI model to use when creating or editing slides in Copilot for PowerPoint.</li><li><b>To switch models</b>, open the Copilot pane and use the <b>dropdown menu in the top-right corner</b> to select a model. The default selection is <b>Auto</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/d3eeb9a5-c916-4926-ad06-cb83d509400e\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>Available models include OpenAI models and Anthropic’s Claude model.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Existing Microsoft 365 Copilot security and compliance controls continue to apply.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if you want this feature enabled.</li><li>Consider notifying helpdesk or compliance teams that users may see a new model selection option in PowerPoint Copilot.</li><li>Admins can disable Anthropic as a subprocessor in the Microsoft 365 admin center.&nbsp;Learn more:&nbsp;<a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn</a>.</li></ul><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table>\n  <tbody><tr>\n    <th>Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>AI/ML interaction with customer data</td>\n    <td>Users can select an Anthropic (Claude) model when using Copilot in PowerPoint, introducing an additional AI model that processes user prompts and slide content under Microsoft 365 Copilot data protections.</td>\n  </tr>\n  <tr>\n    <td>Third-party software integration</td>\n    <td>Anthropic is used as a subprocessor for Microsoft Online Services when the Claude model is enabled.</td>\n  </tr>\n  <tr>\n    <td>Admin control available</td>\n    <td>Admins can disable Anthropic as a subprocessor through settings in the Microsoft 365 admin center.</td>\n  </tr>\n  <tr>\n    <td>User control</td>\n    <td>Users can choose which AI model to use within Copilot for PowerPoint, subject to tenant configuration.</td>\n  </tr>\n</tbody></table><br>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558443"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot (Premium) in PowerPoint will let users choose AI models, including OpenAI and Anthropic’s Claude, when editing presentations. This feature, enabled by default, rolls out worldwide from April to May 2026, maintaining existing security and compliance controls with admin options to disable Anthropic."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1267867",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-01T22:11:40.697Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-01T22:11:30Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot (Premium): Choose your AI model when editing presentations in PowerPoint",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 1, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams will soon automatically remove <b>hidden metadata (EXIF)</b> from images shared in chats and channels. This helps protect sensitive details such as photo location and device information from being shared without user awareness, improving privacy and security.</p>\n<p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web and is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=542795\" target=\"_blank\">542795</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b style=\"\">Targeted Release: </b>Rollout begins in&nbsp;late January 2026 and completes by early February 2026.</li><li><b>Worldwide and GCC:</b> Rollout begins in mid-February 2026 and completes by mid-April 2026 (previously early March).</li>\n<li><b>GCC High:</b> Rollout begins in late February 2026 and completes by mid-April 2026 (previously mid-March 2026.</li>\n<li><b>DoD:</b> Rollout begins in early March 2026 and completes by mid-April 2026 (previously late March 2026.</li>\n</ul><p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All users sharing images in Microsoft Teams chats and channels.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>EXIF metadata (e.g., GPS location, camera model, manufacturer info) will be automatically removed from images shared in Teams conversations.</li>\n<li>The visible image content remains unchanged.</li>\n<li>No admin action is required; this feature is enabled by default.</li>\n<li>If users need to retain EXIF data, they can upload images to OneDrive and share a link via Teams.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Inform end users, security, and compliance stakeholders that EXIF data will no longer be available in Teams-shared images.</li>\n<li>Update internal documentation or training that references sharing metadata via images.</li>\n<li>Review workflows, diagnostics, or integrations that rely on EXIF data and plan alternatives.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -957,7 +1123,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-01T20:44:39.2259249Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-01T20:44:39.225925Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-01T22:33:43.4344739Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-01T22:33:43.4344741Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
