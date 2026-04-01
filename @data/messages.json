@@ -4,6 +4,44 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 1, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n\n<p>We’re improving the formatting of the <b>Authentication Methods Policy Update and Authentication Methods Policy Reset audit log entries</b>&nbsp;in <b>Microsoft Entra ID</b>. Previously, these audit logs included the full authentication methods policy payload under <b>Modified properties</b>, even when only a small number of settings were updated.</p>\n\n<p>With this update, the audit log will now display only the specific properties that changed, along with their corresponding old and new values. The audit log activity name and when it is triggered will not change. This update only changes how modified properties are displayed.</p>\n\n<p><b><b>When this will happen</b></b></p>\n\n<ul>\n  <li>General Availability (Worldwide): Rollout begins <b>early April 2026</b> and is expected to complete by <b>late April 2026</b>.</li>\n  <li>General Availability (GCC, GCCH, DoD): Rollout begins <b>late April 2026</b> and is expected to complete by <b>late May 2026</b>.</li>\n  </ul><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected:</b></p><ul><li>Organizations that use <b>Microsoft Entra ID audit logs</b>, particularly administrators and security teams who review or process <b>Authentication Methods Policy Update or Authentication Methods Policy Reset events</b>. </li><li>This may also affect organizations that rely on audit log modified properties for <b>automated processing, alerting, or custom parsing</b>.</li></ul><p><b>What will happen:</b></p>\n\n\n\n<ul><li>This update makes audit logs easier to read and interpret by reducing noise and highlighting exactly what was modified during an authentication methods policy update. </li><li>The audit log activity name, event timing, and policy behavior remain unchanged.</li><li>No new audit events are introduced, and <b>existing policy enforcement is not affected</b>.</li></ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n\n\n\n<ul><li>No action is required for most organizations. </li><li>If you use audit logs for <b>automated processing, alerting, or custom parsing</b>, review any logic that expects the full authentication methods policy payload in Authentication Methods Policy Update or Authentication Methods Policy Reset events’ modified properties.</li><li>After this change, audit log entries for authentication method setting changes  will surface only the specific properties that were modified, rather than the entire policy object. </li><li>Policy-wide updates, such as Registration Campaigns and System-preferred MFA, may continue to include the full policy payload.&nbsp;</li></ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/entra/identity/monitoring-health/reference-audit-activities#core-directory\" target=\"_blank\">Microsoft Entra audit log activity reference - Microsoft Entra ID | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra ID audit logs for Authentication Methods Policy updates will now show only changed properties with old and new values, improving readability. Rollout begins April 2026 worldwide. No changes to event names or policy enforcement. Organizations using automated log processing should review related logic."
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1260708",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-01T22:50:54.963Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-24T22:47:47Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra ID: Improved readability for Authentication Methods Policy Update audit logs",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>To provide a more consistent and predictable file viewing experience, we’re updating the user interface for text and image file previewers in Outlook for Android. These changes align text and image previewers with the existing preview experience for Word, Excel, and PowerPoint files.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide): Rollout begins<b> late April 2026</b> and completes by <b>mid-May 2026</b></li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users viewing text and image file attachments in Outlook for Android</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see updated styling in text and image file previewers to match other Office file previewers.</li><li>The <b>overflow action menu</b> will:<ul><li>Display updated icons</li><li>Use a revised action order consistent with Word, Excel, and PowerPoint previewers</li></ul></li><li>A new <b>Expand </b>button will appear in the action bar, making it easier to enter full-screen mode.</li><li>The feature is <b>enabled by default</b> and does not change existing policies or workflows.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required; the update is enabled automatically</li>\n  <li>Optionally notify users and helpdesk staff of the UI refresh</li>\n  <li>Update internal documentation or screenshots if applicable</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -4253,43 +4291,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n\n<p>We’re improving the formatting of the <b>Authentication Methods Policy Update audit log entry</b> in <b>Microsoft Entra ID</b>. Previously, this audit log included the full authentication methods policy payload under <b>Modified properties</b>, even when only a small number of settings were updated.</p>\n\n<p>With this update, the audit log will now display only the specific properties that changed, along with their corresponding old and new values. The audit log activity name and when it is triggered will not change. This update only changes how modified properties are displayed.</p>\n\n<p><b><b>When this will happen</b></b></p>\n\n<ul>\n  <li>General Availability (Worldwide): Rollout begins <b>early April 2026</b> and is expected to complete by <b>late April 2026</b>.</li>\n  <li>General Availability (GCC, GCCH, DoD): Rollout begins <b>late April 2026</b> and is expected to complete by <b>late May 2026</b>.</li>\n  </ul><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected:</b></p><ul><li>Organizations that use <b>Microsoft Entra ID audit logs</b>, particularly administrators and security teams who review or process <b>Authentication Methods Policy Update events</b>. </li><li>This may also affect organizations that rely on audit log modified properties for <b>automated processing, alerting, or custom parsing</b>.</li></ul><p><b>What will happen:</b></p>\n\n\n\n<ul><li>This update makes audit logs easier to read and interpret by reducing noise and highlighting exactly what was modified during an authentication methods policy update. </li><li>The audit log activity name, event timing, and policy behavior remain unchanged.</li><li>No new audit events are introduced, and <b>existing policy enforcement is not affected</b>.</li></ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n\n\n\n<ul><li>No action is required for most organizations. </li><li>If you use audit logs for <b>automated processing, alerting, or custom parsing</b>, review any logic that expects the full authentication methods policy payload in Authentication Methods Policy Update events’ modified properties.</li><li>After this change, audit log entries for authentication method setting changes  will surface only the specific properties that were modified, rather than the entire policy object. </li><li>Policy-wide updates, such as Registration Campaigns and System-preferred MFA, may continue to include the full policy payload.&nbsp;</li></ul>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/entra/identity/monitoring-health/reference-audit-activities#core-directory\" target=\"_blank\">Microsoft Entra audit log activity reference - Microsoft Entra ID | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Entra ID audit logs for Authentication Methods Policy Updates will now show only changed properties with old and new values, improving readability. Rollout starts April 2026. Existing event names and enforcement remain unchanged. Organizations using automated processing should review related logic. No compliance impact identified."
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1260708",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-24T22:47:56.017Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-24T22:47:47Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra ID: Improved readability for Authentication Methods Policy Update audit logs",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing <b><i>Catch up</i></b> in <i>Microsoft Teams mobile</i>. This new, consolidated view helps users triage conversations that need their attention across chats, meeting chats, and followed channels or threads. The experience uses a mobile-optimized card layout with swipe actions to help users stay organized and act quickly on important messages.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558108\" target=\"_blank\">558108</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> Rolling out in <b>early April 2026</b>; expected completion in <b>early April 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rolling out in <b>early May 2026</b>; expected completion in <b>early May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users accessing Microsoft Teams on mobile clients.</li></ul><p><i>What will happen</i></p><ul><li>Users will see a<b> new Catch up experience</b> summarizing:<ul><li>@mentions</li><li>Replies in followed channels/threads</li><li>Chats and meeting chats where actions may be required</li></ul></li><li>A new card‑based view will appear in<i> Teams mobile:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9acc6655-99c1-44a1-87d7-a9a5c18e38b0/323718edc5144db30a94d2402110c37ca8166ca9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can swipe cards to take quick actions and triage messages:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/862230ed-0769-4f55-ac3b-0083978ef3ff/9a1f4a45e2e8a8a1295d1734c53ccab0ab32cfbc.png\" style=\"width: 587px;\"></p></li><li>No admin configuration changes are required.</li><li>The feature is<b> enabled by default </b>for all tenants.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required at this time.</p><p>If your organization provides guidance or training for Teams usage, you may want to:</p><ul><li>Inform users about the<b> new Catch up mobile view </b>and how it supports triage.</li><li>Update internal helpdesk or user‑support documentation if it references existing Teams mobile views.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -6225,42 +6226,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Entra passkeys on Windows now support phishing-resistant sign-in",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting March 18th, 2026 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2602-march-18\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2026-04-01T22:45:20.723Z",
-    "HasAttachments": false,
-    "Id": "MC1255412",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-18T22:45:21.893Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-18T22:45:20.723Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
