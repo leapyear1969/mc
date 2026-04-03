@@ -4,6 +4,404 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft Purview Endpoint Data Loss Prevention (Endpoint DLP) is expanding to support Copilot+ PCs by enabling protection of Windows Recall snapshots. This update helps organizations prevent the capture of sensitive content, including content with restricted sensitivity labels or sensitive information types (SITs). Admins can create Endpoint DLP custom policies designed specifically for Copilot+ PC devices to manage Recall behavior.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=502519\" target=\"_blank\">502519</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and is expected to complete by<b> late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing <b>Endpoint DLP</b> within the Microsoft Purview compliance portal</li><li>Organizations deploying <b>Copilot+ PCs </b>with <b>Recall enabled through Intune</b></li></ul><p><i>What will happen</i></p><ul><li>Endpoint DLP will support detection and blocking of Recall snapshots that contain sensitive files.</li><li>Purview admins will be able to author<b> custom Endpoint DLP policies</b> that integrate with Windows Recall settings on Copilot+ PCs.</li><li>Policies will apply <b>only to Copilot+ PC devices </b>configured by Intune admins.</li><li>This change is<b> off by default </b>until policies are created and deployed.</li><li>Existing Endpoint DLP policies remain unchanged unless admins choose to extend them.</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0f0e6148-4f84-46b7-b1d1-56057062f966/96e46d28dc25bf5d1a856d192877a79affd99ce8.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li>Ensure all Copilot+ PCs are running anti malware Client version 4.18.26020 or later.</li><li>Review your existing Endpoint DLP policies and determine whether additional policies are needed for Recall scenarios.</li><li>Coordinate with your Intune administrator to confirm that Copilot+ PCs are configured for Recall.</li><li>Notify your helpdesk and security operations teams about expected behavior.</li><li>Update internal device or compliance documentation as needed.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Endpoint DLP will evaluate content captured in Windows Recall snapshots to determine whether sensitive content is present.</td></tr><tr><td>Does the change introduce or modify AI or ML capabilities that interact with customer data?</td><td>Yes. The Recall snapshot feature uses AI driven capture and Endpoint DLP will evaluate its output.</td></tr><tr><td>Does the change modify DLP policy enforcement?</td><td>Yes. DLP enforcement is extended to block or restrict Recall snapshot capture of sensitive content.</td></tr><tr><td>Does the change include an admin control, and can it be controlled with Entra ID groups?</td><td>Yes. Admins can configure Endpoint DLP policies and may target Entra ID user or device groups.</td></tr><tr><td>Does the change allow a user to enable or disable the feature?</td><td>Yes. Users can enable or disable Recall, but DLP policies still determine whether sensitive content can be captured.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "502519"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Endpoint DLP will support Copilot+ PCs by protecting Windows Recall snapshots from capturing sensitive content. Admins can create custom policies for these devices, with rollout starting April 2026. The feature is off by default and requires coordination with Intune and policy updates."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269217",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:17:44.62Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:17:14Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview compliance portal: Endpoint DLP expands protection to Copilot  PC Recall snapshots",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>To improve the event creation experience on mobile, Outlook for Android and iOS will now automatically beautify shareable links added to meeting descriptions. This enhancement makes meeting content easier to read and helps ensure that attendees have appropriate access to linked files before the event is sent.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b>&nbsp;Rollout begins in <b>mid‑April 2026 </b>and is expected to complete in <b>mid‑May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users who create or edit meetings in <i>Outlook for Android and iOS</i></li></ul><p><i>What will happen</i></p><ul><li>Shareable links in meeting descriptions will be automatically beautified when:<ul><li>Converting an email draft with shareable links into a meeting event.</li><li>Pasting content containing shareable links into the meeting description.</li></ul></li><li>This update also <b>addresses gaps during draft composition</b>, ensuring that shareable links are consistently beautified across meeting creation scenarios.</li><li>Users can click beautified links in the meeting description to view or update link permissions.</li><li>When sending or updating a meeting, Outlook will check whether all attendees can access linked files.</li><li>If any attendees lack access, users will see an alert prompting them to update link permissions:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/65f9bbc1-0cda-46f7-8dd0-84e4ca9ae90f/ac8a66d1eb909f59d794bd6ba7ef6282f3f418fd.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>This feature will be <b>enabled by default</b>; no configuration is required.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>You may choose to:</p><ul><li>Inform users about the new link beautification experience.</li><li>Note that link permissions can be updated directly from the meeting description.</li><li>Remind users that Outlook will now alert them if attendees lack access to linked content.</li></ul><p>No additional documentation is required for this change.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook for Android and iOS will automatically beautify shareable links in meeting descriptions starting mid-April 2026. Users can view and update link permissions directly, and Outlook will alert if attendees lack access. This feature is enabled by default with no admin action required."
+      }
+    ],
+    "EndDateTime": "2026-06-19T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269216",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:16:36.807Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:16:27Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook for Android and iOS: Support for shareable links beautification and permissions in meeting description",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p><b>Microsoft Teams on Windows </b>will now honor the Windows<b> “Do not disturb” (DND) system setting </b>on devices running <b>Windows 11 or later</b>. When this setting is enabled at the OS level, Teams toast notifications will be automatically suppressed to reduce interruptions and align with users’ focus preferences. This feature is available as an opt‑in client toggle, off by default.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557974\" target=\"_blank\">557974</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> Rolling out in <b>early May 2026</b> and expected to complete by <b>late May 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rolling out in<b> mid‑May 2026</b> and expected to complete by<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users running the Microsoft Teams desktop application on<b> Windows 11 or later</b></li><li>This change <b>does not apply</b> to Windows 10 devices.</li></ul><p><i>What will happen</i></p><ul><li>A new opt‑in toggle will appear in<i> Teams settings</i> (<b>off by default</b>):&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/744b1fa3-d565-4256-9357-0996d1cd5b72/2a982e1ef56678f3426c40ff01f70b2a7517dc7f.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Teams toast notifications will be suppressed when Windows<b> DND is turned on</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0ad9ed13-3f97-4db7-9d02-61a0127a10b7/7c275a7d49137cabdc9e6a53067fbcc6bf905f7e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Notifications will resume automatically when Windows <b>DND is turned off</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/249c9c06-c74b-460c-a4fc-e02e48a7d036/e483de91fad8fd6116509ad562791fde719c4486.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul><p></p><ul></ul><p></p><p></p><p></p><p></p><p></p><ul><li>No changes will occur unless the user enables this toggle.<p></p></li><li>Existing Windows DND configurations and schedules remain fully respected.</li><li>No impact to Teams notifications on macOS, web, mobile, VDI, or Windows 10 clients.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required.</p><p>Optionally, you may:</p><ul><li>Inform users that they will see a new notification setting in Teams once the rollout begins</li><li>Update internal support or training documentation to reference the new opt‑in toggle</li><li>Review any helpdesk scripts related to Windows DND or Teams notification behavior</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557974"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams on Windows 11+ will offer an opt-in toggle to suppress Teams toast notifications when Windows \"Do not disturb\" is enabled, starting May 2026. This feature respects existing Windows DND settings, affects only Windows 11 or later, and requires no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269215",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:16:08.49Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:15:53Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Honor Windows “Do not disturb” setting",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We hear your feedback about ways we can improve the notifications experience in Viva Engage. It's always a fine balance between ensuring your users are notified of relevant content without notifications feeling too overwhelming or noisy. In response to your feedback, we're rolling out a more intelligent notifications experience.</p>\n<p>Specifically, this change improves how <b>At-Mention and Reply notifications</b> are delivered. This smarter delivery approach optimizes notification delivery based on a user’s engagement behavior, helping to reduce notification fatigue while ensuring timely visibility of important announcements.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): We will begin rolling out this change in&nbsp;<b>early&nbsp;</b><b style=\"\">April 2026</b> and expect to complete the rollout at a later date (TBD).&nbsp;</p><ul>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Viva Engage users who receive <b>At-Mention or Reply notifications</b>.</li>\n  <li>Organizations using Viva Engage across Teams, email, or mobile devices.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n\n<ul><li><b>At-Mention Notifications:&nbsp;</b>Previously, when a user was at-mentioned in Viva Engage, notifications were sent immediately to Teams, email, and mobile push. With this update:</li>\n<ul>\n  <li>Users will receive the At-Mention notification in <b>one channel only</b> (Teams, email, or mobile push).</li>\n  <li>The notification channel is selected based on where the user has engaged most frequently with Viva Engage notifications over the past 30 days.</li>\n  <li>If the notification is not opened within one hour, a <b>secondary notification</b> is sent using another preferred channel.</li>\n</ul><li><b>Reply Notifications:</b> Previously, Reply notifications were sent immediately to Teams, email, and mobile push. With this update:</li>\n<ul>\n  <li>Users will receive Reply notifications in Teams and email, or Teams and mobile push.</li>\n  <li>The choice between email and mobile push is based on where the user has engaged most frequently with Viva Engage notifications over the past 30 days.</li>\n  <li>If the notification is not opened within one hour, a secondary notification is sent using another preferred channel.</li>\n</ul>\n\n<li>All existing user notification preferences and settings are respected. If a notification channel is disabled or the app is not installed, it will not be selected as a delivery option.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p><b>No admin action is required</b>. However, we recommend:</p>\n<ul>\n  <li>Informing users about the updated notification behavior to reduce confusion.</li>\n  <li>Monitoring user feedback and engagement after rollout.</li>\n  <li>Reviewing internal communication practices to align with the new notification delivery behavior.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage will roll out smarter At-Mention and Reply notifications starting April 2026, sending alerts via the user's most engaged channel to reduce notification fatigue. Secondary alerts occur if unopened within an hour. No admin action is needed, but user communication is recommended. Existing preferences remain respected."
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269214",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:15:28.667Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:15:13Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Viva Engage: At-Mentions & Replies notifications improvements",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing the ability for users to <b>Decline and Propose a New Time</b> when responding to meeting invitations. This update improves scheduling clarity by allowing recipients to explicitly decline a meeting while still suggesting an alternative time. </p><p>This update is applicable to Outlook for iOS and Android only; other platforms already include this feature.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide, GCC, GCCH): Rollout begins mid-April 2026 and is expected to complete by mid-May 2026</p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All Microsoft 365 users responding to meeting invitations in <b>Exchange Online–based calendar experiences</b> (for example, Outlook on the web, desktop, and mobile).</li><li>Worldwide, GCC, and GCC High tenants</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>A new <b>Decline and Propose a New Time</b> option will be available</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/79ea8e8f-e6dd-4f2f-a50b-878aba71f0a6\" style=\"width: 300px;\" alt=\"user settings\"></p><li>This option appears alongside existing responses such as <b>Tentative </b>and <b>Propose a New Time</b></li>\n  <li>When selected, the meeting is declined and an alternative time suggestion is sent to the organizer</li><li>The feature is <b>enabled by default</b></li>\n  <li>Existing meeting policies and workflows are respected; no policy changes are required</li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<ul><li>No admin action is required.&nbsp;</li><li>Consider updating internal documentation or training materials that describe meeting response behavior</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will add a \"Decline and Propose a New Time\" option for meeting responses, allowing users to decline while suggesting an alternative time. This feature rolls out worldwide from mid-April to mid-May 2026, is enabled by default, requires no admin action, and respects existing policies."
+      }
+    ],
+    "EndDateTime": "2026-06-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269213",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:14:47.41Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:14:37Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "New meeting response option: decline and propose a new time in Outlook Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re updating Outlook Mobile to give users more control over how meeting invitations are handled after they respond. With this change, users can choose whether meeting invitations stay in their inbox or are automatically removed after responding to a meeting invitation. This aligns Outlook Mobile with the existing behavior and settings already available in Outlook on the web and the new Outlook, providing a more consistent experience across platforms.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide, GCC, GCC High): Rollout begins <b>mid-April 2026</b> and is expected to complete by <b>mid-May 2026.</b></p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who use <b>Outlook Mobile</b> to respond to meeting invitations</li>\n  <li>Applies to Worldwide, GCC, and GCC High tenants</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will find a new setting in Outlook Mobile to control whether meeting invitations are deleted after responding.</li>\n<li>Users can manage this behavior in Outlook Mobile under <b>Settings &gt; Calendar &gt; Delete invite after RSVP</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a5ab0738-27a2-48e6-b1a8-858d00d0d019\" style=\"width: 300px;\" alt=\"user settings\"></p>\n<li>The setting is <b>per user account and roams across Outlook Mobile, Outlook on the web, and the new Outlook</b>.</li><li>Users can choose to:<ul><li>Keep meeting invitations in their inbox after responding, or</li><li>Automatically delete invitations after RSVP (current default behavior in Outlook Mobile).</li></ul></li>\n  <li>No admin configuration or policy changes are required.</li>\n  <li>The feature is <b>user-controlled</b> and does not change existing meeting or calendar functionality.</li></ul><p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n  <li>Notify users about the new setting.</li>\n  <li>Update internal documentation or helpdesk guidance if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    \n</tr></tbody></table><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance consideration</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n    <td>Meeting invitation messages may remain in a user’s inbox after RSVP based on user preference, changing message retention behavior at the user level.</td>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n    <td>Users can turn the “Delete invite after RSVP” setting on or off in Outlook settings.</td>\n  </tr>\n</tbody></table><br>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will add a user-controlled setting to keep or delete meeting invitations after responding, aligning with Outlook on the web and new Outlook. Rolling out mid-April to mid-May 2026 worldwide, no admin action is needed, and the setting roams across platforms per user account."
+      }
+    ],
+    "EndDateTime": "2026-06-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269212",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:14:04.577Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:13:55Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "New option to keep or delete meeting invitations after responding",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re improving the RSVP experience in Outlook Mobile by visually highlighting the response a user has selected (Yes, Maybe, or No). This makes it easier for users to quickly see how they’ve responded to a meeting invitation.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide, GCC, GCC High): Rollout begins in <b>late April 2026</b> and is expected to complete by <b>early June 2026.</b><b><br></b></p><p><b><b>How this affects your organization:</b></b><b><br></b></p><p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who access <b>Outlook Mobile</b> on iOS or Android</li>\n  <li>Applies to Worldwide, GCC, and GCC High tenants</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The selected RSVP option (Yes, Maybe, or No) will be visually highlighted</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/000bb42e-36b8-4be3-a07a-e655bb749319\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>Users can quickly confirm how they responded to a meeting invitation and edit as needed</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/bc41e3aa-02bc-442d-8564-80a8cd937a51\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>The feature is <b>enabled by default</b></li>\n  <li>No changes to existing meeting workflows or policies</li>\n  <li>No impact to Outlook on the web or Outlook desktop clients</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required; the update will roll out automatically</li>\n  <li>Consider notifying helpdesk staff of the visual change</li>\n  <li>Update internal documentation if needed</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will visually highlight users' RSVP responses (Yes, Maybe, No) to meeting invitations starting late April 2026, completing by early June 2026. This applies to all iOS and Android users worldwide, GCC, and GCC High tenants. The feature is enabled by default with no admin action needed."
+      }
+    ],
+    "EndDateTime": "2026-07-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269211",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-03T05:13:27.737Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:13:19Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Clearer RSVP selection in Outlook Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>The people card experience in<b> Classic Outlook</b>&nbsp;is simplifying. As part of this update, the <b>people card expanded view</b> in Classic Outlook will be retired. This change streamlines the experience and ensures consistency with other Office applications where only the <b>standard contact card</b> is available.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>We will retire the people card expanded view from Classic Outlook starting <b>June 1, 2026</b>, and ending<b> June 30, 2026</b>.&nbsp;</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users who use Classic Outlook and access the people card expanded view.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The people card expanded view in Classic Outlook will be retired.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e0c53f3a-463a-4c0c-9d00-0fce1452e59c\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>Only the standard contact card view will be available in Classic Outlook.<p></p></li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b09e7961-91ac-419a-af78-4d3452de87cf\" style=\"width: 300px;\" alt=\"user settings\"></p><p></p>\n  <li>Users will continue to find the standard contact card when hovering over a recipient. This experience already exists in other Office applications and in some Outlook configurations today.</li><li>Today, users can access the expanded view in Classic Outlook by right‑clicking an email recipient and selecting <b>Open contact card</b>, or by double‑clicking an email recipient. After retirement, these same actions will display the standard contact card instead.</li><li>The standard contact card does not include the following features that were available in the expanded view:</li>\n<ul>\n  <li>Local time</li>\n  <li>“Works with” in the organization chart</li>\n  <li>Change picture entry point (accessible from Outlook by selecting File, then clicking the Change link under your photo)</li>\n</ul>\n\n<li>Users who rely on these features can use Outlook on the web or New Outlook, which provide a richer people card experience.</li><li>The expanded view being retired was not customizable. Any customizations made to the standard contact card will remain after this change.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li><b>No admin action</b> is required; this change will occur automatically.</li>\n  <li>Notify users about the retirement of the people card expanded view in Classic Outlook.</li>\n  <li>Update internal documentation or helpdesk guidance, if applicable.</li>\n  <li>Encourage users who rely on features such as local time, works with, or changing profile pictures to use Outlook on the web or New Outlook.</li>\n</ul>\n\n<p>Admins and users who want to familiarize themselves with the standard contact card experience can test it in Office apps where this change already exists. For example:</p>\n<ul>\n  <li>Open Word and author some text.</li>\n  <li>Save the file to OneDrive.</li>\n  <li>Right-click text and select <b>New comment</b>.</li>\n  <li>Add a comment, @mention yourself or another user, and select the mentioned name.</li>\n  <li>Select Contact, Organization, or Membership to view the abbreviated people card.</li>\n</ul>\n<p><b>Learn more</b></p>\n<ul>\n  <li><a href=\"https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501\">Profile cards in Microsoft 365 | Microsoft Support</a></li>\n  <li><a href=\"https://support.microsoft.com/office/manage-your-contacts-in-outlook-for-windows-f03681a5-fe07-4f2c-bee6-d93d8fab0c00\">Manage your contacts in Outlook for Windows | Microsoft Support</a></li>\n  <li><a href=\"https://support.microsoft.com/office/customize-the-profile-card-in-win32-apps-using-registry-keys-449afd21-6e5e-4b1f-8051-6515630d7537\">Customize the profile card in Win32 apps using registry keys | Microsoft Support</a></li>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The people card expanded view in Classic Outlook will be retired between June 1-30, 2026, leaving only the standard contact card available. Users relying on expanded features should switch to Outlook on the web or New Outlook. No admin action is required; users should be notified."
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269210",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-03T05:13:03.847Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:12:41Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Classic Outlook: Retirement of people card expanded view",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing <b>custom skills for AI in SharePoint</b>, which let users teach AI in SharePoint how to perform common business tasks in a consistent, repeatable way. With skills, organizations can tailor AI behavior to their own documents, standards, and processes—such as reviewing compliance documents or offer letters—without writing code or using external tools. This update helps reduce manual effort and makes AI results more reliable for everyday SharePoint work.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559800\" target=\"_blank\">559800</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview (Worldwide): We will begin rolling out in <b>mid-April 2026</b> and expect to complete by <b>early May 2026</b>.\n</li><li>General Availability (Worldwide): We will begin rolling out in <b>late May 2026</b> and expect to complete by<b> early July 2026</b>.\n</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users of AI in SharePoint</li>\n<li>SharePoint site owners and admins</li>\n<li>Users with edit permissions on SharePoint sites</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users with edit permissions can create <b>custom skills</b> using natural language within AI in SharePoint.</li><li>Skills allow users to define reusable, multi‑step AI instructions for common business tasks (for example, reviewing compliance documents or offer letters).</li><li>AI in SharePoint can automatically select relevant skills from the current site based on a user’s query, or users can invoke a skill by name.</li><li>Skills are saved as Markdown (.md) files in the site’s Agent Assets library (/Agent Assets/Skills/&lt;skill-name&gt;/SKILLmd) and are governed by existing SharePoint permissions and compliance policies.</li><skill-name><li>Skills reuse native AI in SharePoint capabilities (content understanding, list manipulation, folder organization, and other supported SharePoint actions).</li><li>Skills <b>cannot </b>connect to external systems or execute custom code.</li><li>The feature is <b>enabled by default</b> and has no separate tenant‑level on/off toggle.</li><li>Existing SharePoint permissions are respected; users cannot perform actions they do not already have permission to do.</li></skill-name></ul><p><b><b>What you can do to prepare:</b></b></p><ul><skill-name></skill-name></ul><ul><skill-name></skill-name></ul>\n<ul>\n</ul><p>No action is required to enable this feature.</p><p>Recommended actions for admins:</p><ul>\n</ul><ul>\n<li>Review how SharePoint site permissions are managed, as any user with edit permissions can create skills.</li><li>If needed, customize who can create or use skills by breaking permission inheritance on the Agent Assets library.</li><li>Update internal governance or usage guidance to include skills as part of AI in SharePoint.</li><li>Inform helpdesk or power users that skills are stored as files and governed by existing SharePoint controls.</li></ul>\n\n<p>We will update this post with new documentation soon.</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<td><b>Compliance area</b></td>\n<td><b>Explanation</b></td>\n</tr>\n<tr>\n<td>Does the change store new customer data?</td>\n<td>Skill definitions are stored as Markdown (.md) files in the SharePoint “Agent Assets” library and are governed by existing SharePoint storage, retention, and compliance policies.</td>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed or accessed?</td>\n<td>AI in SharePoint can apply skills to site content, enabling more structured and repeatable AI processing of documents, lists, and folders within the site.</td>\n</tr>\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities?</td>\n<td>This change introduces reusable, multi-step AI skills that extend how AI in SharePoint performs tasks using native SharePoint capabilities.</td>\n</tr>\n<tr>\n<td>Does the change provide users a new way of interacting with generative AI?</td>\n<td>Users can create, invoke, and reuse custom AI skills directly within SharePoint using natural language.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control?</td>\n<td>Admins can control who can create or use skills by managing permissions on the Agent Assets library, including breaking permission inheritance if needed.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable or disable the feature themselves?</td>\n<td>The capability is enabled by default and cannot be turned off globally, but usage is constrained by SharePoint permissions and access to AI in SharePoint.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "559800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Custom skills for AI in SharePoint enable users with edit permissions to create reusable, multi-step AI tasks using natural language, stored as Markdown files in the site’s Agent Assets library. Rolling out from April to July 2026, this feature respects existing permissions and requires no tenant-level activation."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269209",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-03T05:12:18.437Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:11:53Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Extending AI in SharePoint using custom skills",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re improving the overall <b>digests email experience&nbsp;in Viva Engage</b> to reduce email noise and surface more relevant content for users to stay informed. We’re enhancing the weekly digest email to include new, subscribed catch-up content and while no longer sending the daily digest on the same day.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Some users may begin to see these changes starting <b>early April 2026</b></li><li>General Availability (Worldwide): Rollout begins in <b>early May 2026</b> and completes by <b>mid-May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users subscribed to both the daily and weekly Viva Engage digest emails</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will <b>no longer receive both daily and weekly digests on the same day</b>.</li>\n  <li>On the day the weekly digest is sent, the daily digest will be skipped.</li><li>The weekly digest will now include catch-up (subscribed) content, in addition to discovery content.</li><li>This change respects existing user subscription preferences.</li><li>No changes are made to admin policies or tenant configurations.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li><b>No admin action is required.</b></li><li>Consider notifying users or helpdesk staff about this change to set expectations.</li><li>Update any internal documentation that describes Viva Engage digest behavior, if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Compliance question</b></td><td><b>Explanation</b></td></tr><tr><td>Does the change provide a new way of communicating between users?</td><td>Weekly digest emails now include both discovery and catch-up content, changing how existing communications are surfaced to users.</td></tr><tr><td>Does the change allow a user to enable or disable the feature themselves?</td><td>Users continue to manage their daily and weekly digest subscriptions through existing Viva Engage notification settings.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage will enhance weekly digest emails by including subscribed catch-up content and stopping daily digests on the same day. Changes start April 2026, with full rollout by mid-May. No admin action is needed; users manage subscriptions as before. Notifications and documentation updates are recommended."
+      }
+    ],
+    "EndDateTime": "2026-06-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269207",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-03T05:11:21.74Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:10:49Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Viva Engage digest updates: Improvements to weekly",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in <b>MC1117814</b>,<b> Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft</b>, in September 2025.</p><p><b><b>When this will happen:</b></b></p><ul><li>The email sender domain rollout began in early September 2025 for U.S. and EU tenants that were receiving messages from @yammer.com and @eu.yammer.com, respectively. </li><li>The rollout is complete as of <b>March 31, 2026</b>.</li><li>A<b> fallback/coexistence period</b> will be in place between September 2025 and April 2026, during which some tenants will remain on the old experience while others transition to the new one.</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><ul><li>All Microsoft Viva Engage tenants in U.S., EU, and global regions.</li><li>All users who receive Viva Engage emails, including notifications, announcements, and digests.</li><li>Microsoft 365 administrators who manage:<ul><li>Exchange Online mail flow rules</li><li>Email security gateways</li><li>Journaling, archiving, or third-party mail integrations that reference the @yammer.com domain.</li></ul></li></ul><p><b>What will happen:</b></p><p>The sender domain for Viva Engage emails will change as follows:</p><ul><li><b>From @yammer.com to @engage.mail.microsoft</b> for U.S. and global regions.\n</li><li>From <b>@eu.yammer.com to @eu.engage.mail.microsoft </b>for European regions.\n</li></ul><p>These new domains are secured with industry standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a <b>tenant-specific prefix</b>. You may see emails from:</p><ul><li><b>noreply_tenant@engage.mail.microsoft</b> (digests, delegates, leader identification, community expert, and other notifications)\n</li><li><b>notifications_tenant@engage.mail.microsoft</b> (community, storyline, and activity notifications)\n</li><li><b>announcements_tenant@engage.mail.microsoft</b> (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p><b>Third-party integrations</b> (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p>Screenshot: <i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><p>Review and update the following configurations:</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on <b>@yammer.com</b> will no longer apply. Users can manually update or remove these rules.\n</li></ul><p><b>No admin action is required</b> unless your organization has custom configurations based on the old domain.</p><p>Learn more: <a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -256,7 +654,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8795288Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.879529Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8795292Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8795293Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8795294Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2032562Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2032566Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2032568Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2032569Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2032572Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -889,7 +1287,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583357Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583332Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583361Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"506750\":[{\"RoadmapId\":506750,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583332Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583357Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":506750,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8583361Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1520,7 +1918,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1781,7 +2179,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8793501Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T05:01:37.8793505Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.203783Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-03T07:03:03.2037832Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2183,7 +2581,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2614,7 +3012,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174561Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268287Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2025-06-25T01:20:12.9268288Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2025-07-17T11:15:09.4174571Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -2695,7 +3093,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3249,7 +3647,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4450,7 +4848,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580671Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580669Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580672Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580669Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580671Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-26T13:06:40.8580672Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6291,7 +6689,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781244Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7109,42 +7507,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Problem detected: Microsoft Baseline Security Mode has automatically triggers Entra Conditional Access policy creation</p><p>Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 might see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a Disabled state. These policies are associated with Baseline Security Mode and might appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.<br></p><p><b>How this will affect your organization:</b></p><p>This behavior doesn't represent a security incident and has no effect on tenant security. The policies are in a disabled draft state.&nbsp;<br></p><p><b>What you need to do to prepare:</b></p><p>There's no action needed to prepare. A fix has rolled out to ensure policies are created only through explicit administrator action. Any unintentionally created policy drafts will be removed as part of addressing this issue.&nbsp;</p><p><b>Learn more about Microsoft Baseline Security Mode</b><br>Baseline Security Mode: https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings?view=o365-worldwide</p>",
-      "ContentType": "html"
-    },
-    "Category": "preventOrFixIssue",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Between November 2025 and February 2026, Microsoft Baseline Security Mode automatically created two disabled draft Entra Conditional Access policies in some tenants. This is not a security issue, requires no action, and a fix will remove unintended drafts and prevent automatic creation."
-      }
-    ],
-    "EndDateTime": "2026-04-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1246002",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-18T16:01:40.29Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-06T21:22:39Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Prevent/Fix: Microsoft Baseline Security Mode has automatically trigger Entra Conditional Access policy creation",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p><p>We are introducing <a href=\"https://support.microsoft.com/topic/build-lightweight-apps-within-microsoft-365-copilot-pages-fd42d9f3-258e-4bf9-8c5e-a73083a197cc\" target=\"_blank\"><b>code previews</b></a> on Copilot Pages, a Microsoft 365 Copilot capability that allows Copilot to generate and render interactive previews of AI‑generated code within Copilot Pages.</p><p>Because this feature enables execution and rendering of AI‑generated code, it is admin‑controlled and dependent on Copilot Pages. If Copilot Pages are disabled, Code Previews are not available. If Copilot Pages are enabled (default or forced on), admins can independently enable or disable Code Previews using a new Cloud Policy setting.</p><p></p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-March 2026 and expect to complete by mid-April 2026.</p><p></p><p><b>How this will affect your organization:</b></p><p>When enabled, users may see AI‑generated code rendered as interactive previews within <b>Copilot Pages</b>, when Copilot determines a code preview is appropriate.</p><p>Key details:</p><ul><li>Code Previews are available <b>only in Copilot Pages</b>.</li><li>If Copilot Pages are disabled, code previews are unavailable.</li><li>If Copilot Pages are enabled, admins can still independently control code previews.</li><li>When disabled, Copilot will still generate code but not have a \"preview\" option to run code previews.</li></ul><p>There is no impact to tenants that have Copilot Pages disabled.</p><p></p><p><b>What you need to do to prepare:</b></p><p>No action is required if you are comfortable with the default behavior.</p><p>Admins who want to control availability should review and <a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration\" target=\"_blank\">configure</a> the following <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy\" target=\"_blank\">Cloud Policy</a> setting:</p><p><b>Policy name:</b></p><p>Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages</p><p><b>Policy behavior:</b></p><ul><li><b>Enabled</b>: Users can view and interact with code previews in Copilot Pages.</li><li><b>Disabled</b>: Copilot will not allow generated code to run in a preview experience in chat or Pages.</li><li><b>Not configured</b>: Code previews are enabled by default.</li></ul><p></p><p><b>Compliance considerations:</b></p><ul><li>New data stored: No, lives in existing .page files with existing management capabilities</li><li>Changes to data processing or access: No</li><li>New AI/ML capabilities accessing customer data: No</li><li>New communication channels: No</li><li>New generative AI interaction: Yes (AI‑generated code previews, admin‑controlled)</li><li>Impact to Purview (DLP, labels, eDiscovery, audit, retention, encryption): No, lives in existing .page files with existing workflows, no code previews run in eDiscovery output</li><li>Changes to admin compliance monitoring or reporting: No, lives in existing .page files with existing monitoring and reporting capabilities</li><li>Changes to GDPR data subject rights: No</li></ul><p></p>\n<p></p>",
       "ContentType": "html"
     },
@@ -7770,7 +8132,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-27T10:42:58.8114651Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-27T10:42:58.8114669Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-27T10:42:58.8114651Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780049Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8780051Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-03-27T10:42:58.8114669Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8216,7 +8578,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11505,7 +11867,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11594,7 +11956,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429687Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429691Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429695Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7429699Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11778,7 +12140,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12333,7 +12695,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021867Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T21:32:40.6021869Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12469,7 +12831,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430277Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430279Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7430281Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15384,7 +15746,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
+        "Value": "{\"537279\":[{\"RoadmapId\":537279,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871126Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871124Z\",\"LatestRing\":null},{\"RoadmapId\":537279,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871127Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15434,7 +15796,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
+        "Value": "{\"513272\":[{\"RoadmapId\":513272,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387135Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871349Z\",\"LatestRing\":null},{\"RoadmapId\":513272,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3871351Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15869,7 +16231,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
+        "Value": "{\"491632\":[{\"RoadmapId\":491632,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399539Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399543Z\",\"LatestRing\":null},{\"RoadmapId\":491632,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T04:20:38.1399544Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15957,7 +16319,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431249Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7431262Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16715,7 +17077,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17728,7 +18090,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
+        "Value": "{\"515169\":[{\"RoadmapId\":515169,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639668Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639669Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639671Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639672Z\",\"LatestRing\":null},{\"RoadmapId\":515169,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6639673Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18375,44 +18737,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>To help organizations recover from accidental or malicious deletions, <b>Microsoft Entra</b> is introducing <b>soft deletion and restoration for cloud security groups</b>. This feature allows deleted groups to be restored within 30 days, preserving their settings, ownership, and membership—reducing the need to rebuild access models from scratch.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public preview: </b>Rollout began in late in October 2025 and is expected to complete by early November 2025.</li>\n<li><b>General availability (Worldwide): </b>Rollout begins in late February 2026 and is expected to complete by early March 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><i>Who is affected:</i></p>\n<ul>\n<li>Admins managing Microsoft Entra cloud security groups.</li>\n<li>Users whose access is governed by security groups.</li>\n</ul>\n\n<p><i>What will happen:</i></p>\n<ul>\n<li>Deleted cloud security groups will enter a soft deleted state and appear in the <i>Deleted groups blade</i>.</li>\n<li>During soft deletion:\n  <ul>\n    <li>Access granted via the group is removed.</li>\n    <li>The group is restorable for up to 30 days.</li>\n  </ul>\n</li>\n<li>After 30 days, the group is permanently deleted.</li>\n<li>Restoration recovers:\n  <ul>\n    <li>Group properties (name, description, type)</li>\n    <li>Settings (roles, policies)</li>\n    <li>Ownership and membership (assigned and dynamic)</li>\n  </ul>\n</li>\n<li>Admin tools supported:\n  <ul>\n    <li>Microsoft Entra admin center</li>\n    <li>Microsoft Graph</li>\n    <li>PowerShell</li>\n  </ul>\n</li>\n<li>Audit logs will capture deletion, restoration, and hard delete actions.</li>\n<li>Users lose access via the group during soft deletion; restoring the group reapplies access based on the group’s previous configuration.\n</li><li>If a resource (for example, a SharePoint site, app, or policy scope) is protected by a soft deleted group, affected users immediately lose access via that group. If users had direct or alternate access paths, those remain unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Identify critical groups:<ul><li>Inventory and tag critical security groups that gate access to sensitive resources.</li></ul></li>\n<li>Update admin runbooks:<ul><li>Add steps to restore a deleted group before attempting to rebuild it.</li></ul></li>\n<li>Test in a pilot (after preview reaches your tenant):<ul>\n    <li>Create a test security group, grant it access to a nonproduction resource, soft delete, validate access removal, then restore and confirm access returns as expected</li>\n    <li>If you automate group management, validate your automation handles soft deleted objects and does not immediately hard delete them.</li>\n  </ul>\n</li>\n<li>Communicate to helpdesk and resource owners:\n  <ul>\n    <li>Create guidelines on how to check deleted groups, how to restore, and when to escalate before recreating a group.</li></ul></li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/entra/architecture/recover-from-deletions\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Recover from deletions in Microsoft Entra ID - Microsoft Entra | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/architecture/recoverability-overview\" target=\"_blank\">Recoverability best practices in Microsoft Entra ID | Azure Docs | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/users/groups-restore-deleted\" target=\"_blank\">Restore a deleted Microsoft 365 group - Microsoft Entra ID | Microsoft Learn</a></li></ul><p><b>MS Graph documentation:</b></p><ul><li><a href=\"https://learn.microsoft.com/graph/api/group-delete?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">Delete group - Microsoft Graph API - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li><a href=\"https://learn.microsoft.com/graph/api/directory-deleteditems-list?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">List deleted items (directory objects) - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li><a href=\"https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">Restore deleted directory object item - Microsoft Graph v1.0 | Microsoft Learn</a>\n</li><li><a href=\"https://learn.microsoft.com/graph/api/directory-deleteditems-delete?view=graph-rest-1.0&amp;tabs=http\" target=\"_blank\">Permanently delete an item (directory object) - Microsoft Graph v1.0 | Microsoft Learn</a></li></ul><p></p><ul>\n  </ul>\n<p></p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Entra introduces soft deletion and restoration for cloud security groups, allowing recovery within 30 days while preserving settings, ownership, and membership. Rollout begins in late October 2025 (preview) and February 2026 (general availability). Deleted groups remove access until restored; audit logs track actions."
-      }
-    ],
-    "EndDateTime": "2026-04-03T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1183299",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-11-06T00:20:24.447Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-06T00:20:03Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra: Soft deletion and restoration for cloud security groups",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>To streamline Microsoft Word and focus on core productivity features, we are retiring the Send to Kindle integration, which allows users to upload documents directly to Kindle from Word.\n</p><p><b>When this will happen:</b></p><p>The retirement will begin on February 9th, 2026, and the feature will be fully removed by March 9th, 2026.</p><p><b>How this will affect your organization:</b></p><p>The Send to Kindle feature will no longer be available in Word for Window desktop, Word for Mac desktop, and Word for the web after the retirement period. (This feature was never available for iOS/Android.) Users will still be able to upload .doc and .docx files to Kindle using <a href=\"https://www.amazon.com/sendtokindle\" target=\"_blank\">https://www.amazon.com/sendtokindle</a>. Documents already sent to Kindle will not be affected by this retirement.\n</p><p><b>What you need to do to prepare:</b></p><p>No admin action is required. We recommend informing users of this change and updating any internal documentation or workflows that reference the Send to Kindle feature.</p>",
       "ContentType": "html"
     },
@@ -19046,7 +19370,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428536Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428541Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.7428546Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-02-18T21:31:31.742855Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -19256,7 +19580,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
