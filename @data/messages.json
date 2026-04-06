@@ -1,5 +1,250 @@
 [
   {
+    "ActionRequiredByDateTime": "2026-07-05T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>retiring the Top domain mail flow report</b> in the <i>Exchange admin center (EAC) in WW.&nbsp;</i>This change is part of our ongoing work to streamline and modernize mail flow reporting in <i>Exchange Online</i>, helping admins consolidate workflows and adopt more flexible reporting options.</p><p><b><b>When this will happen</b></b></p><p>The Top domain mail flow report will be retired on<b> July 6, 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who use the Top domain mail flow report in the<i> Exchange admin center (EAC) in WW.&nbsp;</i></li></ul><p><i>What will happen</i></p><ul><li>The <b>Top domain mail flow report will no longer be accessible in EAC</b> after July 6, 2026.</li><li>Any workflows that rely on this report for troubleshooting, monitoring, or reporting will need to transition to an alternative reporting method.</li><li>No other Exchange Online mail flow reports are impacted by this change.</li><li>This retirement does <b>not </b>change mail delivery behavior or message routing.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Update internal documentation, runbooks, and bookmarks that reference the Top domain mail flow report.</li><li>Capture any baseline metrics you need <b>before July 6, 2026</b>.</li><li>Validate an alternative workflow for identifying top sender and recipient domains.</li><li>Review Exchange Online reporting options to ensure your organization has the tools needed to support ongoing mail flow analysis.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Top domain mail flow report in Exchange Online's Exchange admin center will retire on July 6, 2026. After this, it will be inaccessible, requiring admins to adopt alternative reporting methods. No other mail flow reports or mail delivery behaviors are affected. Prepare by updating documentation and validating new workflows."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1272554",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-06T22:06:24Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-06T22:06:03Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Top domain mail flow report in Exchange Online is retiring",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p><b>Outlook for iOS and iPad </b>will soon add a <b>Workweek calendar view </b>so users can focus on the days they work. This view will help reduce calendar clutter and make it easier to plan schedules on mobile devices.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC and GCC High): </b>Rollout will begin in <b>mid-April 2026 </b>and is expected to complete by <b>mid-May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with Outlook on iOS or iPadOS in Worldwide, GCC, and GCC High tenants</li></ul><p><i>What will happen</i></p><ul><li><b>iPad: </b>Users will be able to select <b>Workweek</b> directly from the calendar view picker, alongside Day, Week, and Month views.&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/949ce7c0-2789-4949-865c-e7e69f6e904a/710b30e2af789c42f0e4f2051a311d62300b1d7d.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li><b>iPhone:</b> Users will be able to select <b>Workweek</b> from the calendar view picker in<i> landscape orientation</i>.</li><li><b>Workweek configuration: </b>Users will be able to choose which days appear in Workweek by syncing from their default account or by selecting custom days for their device.<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f59c273b-4412-43ad-8dc2-185473873e99/0ce56493d1d1e2c61dead9866a8b6616b80a3785.png\" style=\"width: 400px;\" alt=\"user settings\"></p> </li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No admin action will be required to enable this feature.</li><li>Consider informing helpdesk staff and updating internal user guidance if you document Outlook calendar views.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users will be able to choose whether to use the Workweek calendar view and change the included days in<i> Outlook settings</i> on their iOS or iPadOS device. No administrator action will be required.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook for iOS and iPad will add a Workweek calendar view by mid-May 2026, allowing users to focus on their workdays. iPad users can select it anytime; iPhone users in landscape mode. Users can customize days shown. No admin action is needed to enable this feature."
+      }
+    ],
+    "EndDateTime": "2026-06-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1272552",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-06T22:00:43.673Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-06T22:00:36Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Workweek view for Outlook on iOS and iPad",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To streamline the video playback experience on OneDrive and SharePoint, Microsoft is retiring the <b>noise suppression</b> capability for video playback. Based on usage data and our ongoing efforts to simplify and optimize video experiences, this change removes a low-usage playback option while keeping core video and audio functionality unchanged.</p>\n\n<p><b><b>When this will happen:</b></b></p><p>Worldwide, GCC, GCC High, and DoD: Retirement will begin in <b>early July 2026</b> and complete by <b>early August 2026</b></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who play videos stored in <b>OneDrive</b> or <b>SharePoint </b>using the web playback experience</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The <b>noise suppression option</b> will be removed from video playback controls when viewing videos stored in OneDrive or SharePoint.</li>\n</ul>\n\n<p><b>What this means for your content:</b></p>\n<ul>\n  <li><b>Your video files are not affected.</b>\n    <ul>\n      <li>No original video or audio files will be modified, re-encoded, or replaced.</li>\n      <li>There is no impact to file storage, sharing permissions, or file integrity.</li>\n    </ul>\n  </li>\n  <li><b>This change only affects the playback experience.</b>\n    <ul>\n      <li>The noise suppression toggle will no longer be available during video playback.</li>\n    </ul>\n  </li>\n  <li><b>All other video and audio playback features remain available and unchanged</b>, including:\n    <ul>\n      <li>Playback speed controls</li>\n      <li>Captions</li>\n      <li>Transcripts</li>\n    </ul>\n  </li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required from administrators.</li>\n  <li>Optionally, you may want to:\n    <ul>\n      <li>Notify helpdesk staff that the noise suppression playback option will be removed.</li>\n      <li>Update internal documentation or training materials if they reference this feature.</li>\n    </ul>\n  </li>\n</ul>\n\n<p><b>Learn more:</b> <a href=\"http://aka.ms/noisesuppressionretirement\">Noise suppression retirement for OneDrive and SharePoint video</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will retire the noise suppression option for video playback in OneDrive and SharePoint between July and August 2026. This change affects only the playback experience; video files remain unchanged. No admin action is required, though updating documentation and notifying helpdesk is recommended."
+      }
+    ],
+    "EndDateTime": "2026-09-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1272549",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-06T22:00:12.643Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-06T21:59:59Z",
+    "Tags": [
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Upcoming change: Retirement of noise suppression capability for OneDrive and SharePoint video",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Copilot Cowork is now available in Frontier</b>. Copilot Cowork enables users to orchestrate complex, multi-step work across Microsoft 365 without switching between apps. Copilot Cowork moves beyond answering questions to turning intent into execution by automatically generating plans, coordinating work across emails, meetings, messages, files, and data, and carrying tasks forward with visible progress and user control. This update reflects customer feedback to reduce manual coordination for real work while maintaining enterprise-grade security, privacy, and controls. Learn more on our blog: <a href=\"https://www.microsoft.com/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/\" target=\"_blank\">Powering Frontier Transformation with Copilot and agents</a>.</p><p>Screenshot: <i>The Copilot Cowork interface in Microsoft 365 Copilot</i></p><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/92746cdd-2d55-4095-a3dd-7b8390135e8c\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Copilot Cowork is now available in Frontier.</li>\n  <li>General availability will be communicated at a later date.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users with a <b style=\"\">Microsoft 365 Copilot (Premium) license</b></li>\n  <li>Users enabled for <b>Frontier&nbsp;</b></li>\n  <li>English language only</li>\n</ul>\n\n<p><b>Prerequisites and controls:</b></p>\n<ul>\n  <li>The tenant must be enrolled in the <a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program</a>.</li>\n  <li>Microsoft‑built agents must be enabled.</li><li><b>Anthropic </b>must be enabled as a subprocessor (default: on).</li>\n  <li>For tenants based in the <b>European Union (EU)</b>, Copilot Cowork is<b> off by default</b> due to EU Data Boundary requirements and must be explicitly enabled.</li></ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Users can install<b> Copilot Cowork </b>from the <b>Agent Store in the Microsoft 365 Copilot app</b> and pin it to the left rail.</li>\n  <li>Users can describe an outcome in natural language, and Copilot Cowork will:</li>\n  <ul>\n    <li>Automatically generate a multi-step plan grounded in the user’s Microsoft 365 context</li>\n    <li>Coordinate tasks across Microsoft 365 apps such as Word, PowerPoint, Outlook, and others</li>\n    <li>Continue work overtime with visible checkpoints and progress tracking</li>\n  </ul>\n  <li>Copilot Cowork proposes actions and requires<b> explicit user approval</b> before acting on tasks such as:</li>\n  <ul>\n    <li>Sending emails or Teams messages</li>\n    <li>Scheduling, declining, or rescheduling meetings</li>\n    <li>Editing or moving files</li>\n  </ul>\n  <li>Users can pause, adjust, or stop execution at any time and return later to review progress.</li>\n  <li><span style=\"background-color: rgb(255, 255, 255);\">For eligible tenants, the experience is enabled by default and respects existing Microsoft 365 permissions and policies, unless restricted by EU Data Boundary settings.</span></li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/cowork\" target=\"_blank\">Copilot Cowork: Now Available in Frontier | Microsoft Learn</a><font color=\"#000000\" style=\"background-color: rgb(255, 255, 0);\"></font></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\" target=\"_blank\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor#opt-in-to-use-anthropics-models\" target=\"_blank\">Opt-in to use Anthropic's models | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings?view=o365-worldwide\" target=\"_blank\">Agent settings in Microsoft 365 admin center | Microsoft Learn</a>&nbsp;</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance question</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n    <td>Copilot Cowork introduces a new Microsoft-built agent that orchestrates multi-step work across Microsoft 365 services using existing customer data, while requiring explicit user approval before taking actions.</td>\n  </tr>\n  <tr>\n    <td>Does the change provide end users any new way of interacting with generative AI?</td>\n    <td>Users can describe an intended outcome in natural language and have Copilot Cowork generate and execute a multi-step plan with progress tracking.</td>\n  </tr>\n  <tr>\n    <td>Does the change add any integration to 3rd party software products?</td>\n    <td>Anthropic is used as a subprocessor to support Copilot Cowork capabilities and is enabled by default.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control?</td>\n    <td>Availability is controlled through Frontier enrollment, agent enablement settings, subprocessor configuration, and EU Data Boundary defaults.</td>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n    <td>Users can install Copilot Cowork from the Agent Store and can pause, adjust, or stop execution at any time.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Copilot Cowork is now available in Frontier for Microsoft 365 Copilot Premium users, enabling multi-step task orchestration across apps with user approval and progress tracking. It requires Frontier enrollment, enabled agents, and Anthropic as a subprocessor. EU tenants must enable it explicitly due to data boundary rules."
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265767",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-06T21:46:01.98Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T17:15:40Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Copilot Cowork now available in Frontier",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 6, 2026: We have updated the timeline. Thank you for your patience.</p><p><b>Introduction\n</b></p><p>The Outlook Mobile team is updating the release for Data Loss Prevention (DLP) Policy Tips &amp; Override for Outlook Mobile. A number of improvements have been made to the initial scope of this rollout, along with some unforeseen challenges that will be listed in detail.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=496146\" target=\"_blank\">496146</a>.</p><p>\n</p><p><b>When this will happen\n</b></p><p>Production Build App Store Release for Android and iOS: We are targeting May 4th to submit to the app store, and on average it can take up to a week for Apple and Google to then distribute that build via the App Stores.</p><p><b>How this affects your organization</b></p><p>The following updates have been made to this DLP rollout for Outlook Mobile:</p><ol><li><b>added</b> Custom oversharing dialog support</li><li><b>added</b> Custom policy information</li><li><b>added</b> Policy tip evaluation performance improvements</li><li><b>added</b> Attachment scanning</li><li><b>added</b> Intune control for Android and iOS to turn Data Leak Prevention on or off (default is set to OFF)</li><li><b>temporarily removed</b> External recipient rule validation</li></ol><p>Due to unique challenges with external recipient rule validation we are removing External Recipient rule validation from this release pending changes to the implementation.</p><p>After feedback we have added an Intune control that is defaulted to OFF to give your organization the opportunity for validation and user training prior to enabling DLP on Android and iOS. Documentation links for \"DLP on Android and iOS\" and \"Intune controls for DLP in Mobile\" will be provided in an update soon.</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><b style=\"box-sizing: border-box; font-weight: bold;\">What you can do to prepare</b></p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"box-sizing: border-box;\">Please prepare to validate your organization's rules in a test environment prior to enabling Data Leak Prevention on Mobile, and where possible provide training for users which can greatly improve their success and overall experience with policy tips and rules.</span></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496146"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook Mobile will support DLP policy tips and enforcement with new features like custom dialogs, attachment scanning, and Intune controls (default OFF). External recipient rule validation is temporarily removed. Organizations should test rules and train users before enabling DLP on mobile devices."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, iOS"
+      }
+    ],
+    "EndDateTime": "2026-06-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1129716",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-06T21:43:17.74Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-08-05T22:56:30Z",
+    "Tags": [
+      "Updated message",
+      "Feature update"
+    ],
+    "Title": "Microsoft Outlook Mobile adds support for DLP policy tips and enforcement",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b>&nbsp;mid-April 2026 (previously late March)</b>&nbsp;and is expected to complete by<b>&nbsp;May 2026 (previously late April)</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557255"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview DLP policies will block Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices. This rollout begins mid-April 2026, requires no policy changes, and ensures consistent DLP enforcement without altering Copilot capabilities."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1234661",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-06T21:40:04.643Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft 365 apps",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-19T00:57:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -99,7 +344,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602811Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602813Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602815Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602817Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602819Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602822Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534582Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534584Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534586Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534587Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534589Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534591Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -910,7 +1155,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9597853Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9597856Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9597858Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.959786Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9597861Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7533552Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7533555Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7533557Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7533558Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7533559Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2435,7 +2680,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602743Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T20:34:28.9602745Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557975\":[{\"RoadmapId\":557975,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534515Z\",\"LatestRing\":null},{\"RoadmapId\":557975,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-06T22:32:23.7534517Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2837,7 +3082,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3023,43 +3268,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Admins will be able to enable third‑party model providers for specific users and groups",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Copilot Cowork is now available in Frontier</b>. Copilot Cowork enables users to orchestrate complex, multi-step work across Microsoft 365 without switching between apps. Copilot Cowork moves beyond answering questions to turning intent into execution by automatically generating plans, coordinating work across emails, meetings, messages, files, and data, and carrying tasks forward with visible progress and user control. This update reflects customer feedback to reduce manual coordination for real work while maintaining enterprise-grade security, privacy, and controls. Learn more on our blog: <a href=\"https://www.microsoft.com/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/\" target=\"_blank\">Powering Frontier Transformation with Copilot and agents</a>.</p><p>Screenshot: <i>The Copilot Cowork interface in Microsoft 365 Copilot</i></p><p><img src=\" https://cxcs.microsoft.net/file/ccp/en-us/92746cdd-2d55-4095-a3dd-7b8390135e8c\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Copilot Cowork is now available in Frontier.</li>\n  <li>General availability will be communicated at a later date.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users with a <b style=\"\">Microsoft 365 Copilot (Premium) license</b></li>\n  <li>Users enabled for <b>Frontier&nbsp;</b></li>\n  <li>English language only</li>\n</ul>\n\n<p><b>Prerequisites and controls:</b></p>\n<ul>\n  <li>The tenant must be enrolled in the <a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program</a>.</li>\n  <li>Microsoft‑built agents must be enabled.</li><li><b>Anthropic </b>must be enabled as a subprocessor (default: on).</li>\n  <li>For tenants based in the <b>European Union (EU)</b>, Copilot Cowork is<b> off by default</b> due to EU Data Boundary requirements and must be explicitly enabled.</li></ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Users can install<b> Copilot Cowork </b>from the <b>Agent Store in the Microsoft 365 Copilot app</b> and pin it to the left rail.</li>\n  <li>Users can describe an outcome in natural language, and Copilot Cowork will:</li>\n  <ul>\n    <li>Automatically generate a multi-step plan grounded in the user’s Microsoft 365 context</li>\n    <li>Coordinate tasks across Microsoft 365 apps such as Word, PowerPoint, Outlook, and others</li>\n    <li>Continue work overtime with visible checkpoints and progress tracking</li>\n  </ul>\n  <li>Copilot Cowork proposes actions and requires<b> explicit user approval</b> before acting on tasks such as:</li>\n  <ul>\n    <li>Sending emails or Teams messages</li>\n    <li>Scheduling, declining, or rescheduling meetings</li>\n    <li>Editing or moving files</li>\n  </ul>\n  <li>Users can pause, adjust, or stop execution at any time and return later to review progress.</li>\n  <li><span style=\"background-color: rgb(255, 255, 255);\">For eligible tenants, the experience is enabled by default and respects existing Microsoft 365 permissions and policies, unless restricted by EU Data Boundary settings.</span></li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/cowork\" target=\"_blank\">Copilot Cowork: Now Available in Frontier | Microsoft Learn</a><font color=\"#000000\" style=\"background-color: rgb(255, 255, 0);\"></font></li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor\" target=\"_blank\">Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/copilot/microsoft-365/connect-to-ai-subprocessor#opt-in-to-use-anthropics-models\" target=\"_blank\">Opt-in to use Anthropic's models | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings?view=o365-worldwide\" target=\"_blank\">Agent settings in Microsoft 365 admin center | Microsoft Learn</a>&nbsp;</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance question</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td>\n    <td>Copilot Cowork introduces a new Microsoft-built agent that orchestrates multi-step work across Microsoft 365 services using existing customer data, while requiring explicit user approval before taking actions.</td>\n  </tr>\n  <tr>\n    <td>Does the change provide end users any new way of interacting with generative AI?</td>\n    <td>Users can describe an intended outcome in natural language and have Copilot Cowork generate and execute a multi-step plan with progress tracking.</td>\n  </tr>\n  <tr>\n    <td>Does the change add any integration to 3rd party software products?</td>\n    <td>Anthropic is used as a subprocessor to support Copilot Cowork capabilities and is enabled by default.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control?</td>\n    <td>Availability is controlled through Frontier enrollment, agent enablement settings, subprocessor configuration, and EU Data Boundary defaults.</td>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n    <td>Users can install Copilot Cowork from the Agent Store and can pause, adjust, or stop execution at any time.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Copilot Cowork is now available in Frontier for Microsoft 365 Copilot Premium users, enabling multi-step task orchestration across apps with user approval and progress tracking. It requires Frontier enrollment, enabled agents, and Anthropic as a subprocessor. EU tenants must enable it explicitly due to data boundary rules."
-      }
-    ],
-    "EndDateTime": "2026-04-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1265767",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-30T17:16:07.113Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-30T17:15:40Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Copilot Cowork now available in Frontier",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4943,55 +5151,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365: Modern Access Request and Access Denied web page",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 25, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re expanding Microsoft Purview Data Loss Prevention (DLP) controls to provide broader governance for Microsoft 365 Copilot. With this update, DLP policies that prevent Copilot from processing content based on sensitivity labels will now apply to Word, Excel, and PowerPoint files regardless of where they are stored. This enhancement responds to customer feedback requesting more consistent protection coverage across local and cloud-based file locations.</p><p>This feature is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557255#Roadmap\" target=\"_blank\">557255</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide and GCC)</b>: Rollout will begin in<b>&nbsp;April 2026 (previously late March)</b>&nbsp;and is expected to complete by<b>&nbsp;May 2026 (previously late April)</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using Microsoft Purview DLP to restrict Copilot processing of sensitivity-labeled content</li><li>Admins who manage Purview DLP policies</li><li>Users working with Microsoft 365 Copilot in Word, Excel, or PowerPoint</li></ul><p><i>What will happen</i></p><ul><li>DLP policies that restrict Copilot from processing sensitivity‑labeled files will apply to Word, Excel, and PowerPoint files in<b> all storage locations</b>, including:<ul><li>SharePoint</li><li>OneDrive for Business</li><li>Local device storage</li><li>Other storage locations accessible to Office apps</li></ul></li><li>When a DLP policy blocks Copilot processing, Copilot will not process the file’s content in Word, Excel, or PowerPoint.</li><li>Existing DLP policies will continue to function normally; <b>no policy migration or reconfiguration</b> is required.</li><li>The feature will be <b>on by default </b>for tenants with relevant DLP rules configured.</li><li>Users will see <b>consistent DLP enforcement</b> when invoking Copilot in <i>supported Microsoft 365 apps</i>.</li></ul><p><b>Implementation detail</b>:</p><p>This update does<b> not </b>modify Copilot capabilities. Instead, Office clients and AugLoop have been enhanced so AugLoop can read a file’s sensitivity label directly from the client. Today, AugLoop retrieves the label by calling Microsoft Graph using the file’s SharePoint or OneDrive URL, which limits DLP enforcement to files stored in OneDrive and SharePoint. By enabling the client to provide the label, DLP enforcement now applies uniformly across all storage locations, including local files.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this feature.</p><p>If your organization uses DLP controls for Copilot, you may optionally:</p><ul><li>Review existing DLP policies that include sensitivity-label-based restrictions</li><li>Update internal documentation or helpdesk guidance if needed</li><li>Communicate this enhancement to relevant security or compliance teams</li></ul><p>Learn about managing DLP policies:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\">Learn about data loss prevention | Microsoft Purview | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557255"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview DLP policies will block Copilot from processing sensitivity-labeled Word, Excel, and PowerPoint files across all storage locations, including local devices, starting April 2026. This update requires no policy changes and ensures consistent DLP enforcement in supported Microsoft 365 apps."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1234661",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-25T23:41:56.493Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft 365 apps",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-19T00:57:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "DLP policies will be able to block Copilot processing of sensitivity‑labeled files in all storage locations",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10283,51 +10442,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Insider risk management- Insider risk management for risky agents",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 9, 2026: We have updated the content. Thank you for your patience.</p><p><b>Introduction\n</b></p><p>The Outlook Mobile team is updating the release for Data Loss Prevention (DLP) Policy Tips &amp; Override for Outlook Mobile. A number of improvements have been made to the initial scope of this rollout, along with some unforeseen challenges that will be listed in detail.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&amp;searchterms=496146\" target=\"_blank\">496146</a>.</p><p>\n</p><p><b>When this will happen\n</b></p><p>Production Build App Store Release for Android and iOS: We are targeting April 6th to submit to the app store, and on average it can take up to a week for Apple and Google to then distribute that build via the App Stores.</p><p><b>How this affects your organization</b></p><p>The following updates have been made to this DLP rollout for Outlook Mobile:</p><ol><li><b>added</b> Custom oversharing dialog support</li><li><b>added</b> Custom policy information</li><li><b>added</b> Policy tip evaluation performance improvements</li><li><b>added</b> Attachment scanning</li><li><b>added</b> Intune control for Android and iOS to turn Data Leak Prevention on or off (default is set to OFF)</li><li><b>temporarily removed</b> External recipient rule validation</li></ol><p>Due to unique challenges with external recipient rule validation we are removing External Recipient rule validation from this release pending changes to the implementation.</p><p>After feedback we have added an Intune control that is defaulted to OFF to give your organization the opportunity for validation and user training prior to enabling DLP on Android and iOS. Documentation links for \"DLP on Android and iOS\" and \"Intune controls for DLP in Mobile\" will be provided in an update soon.</p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><b style=\"box-sizing: border-box; font-weight: bold;\">What you can do to prepare</b></p><p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"box-sizing: border-box;\">Please prepare to validate your organization's rules in a test environment prior to enabling Data Leak Prevention on Mobile, and where possible provide training for users which can greatly improve their success and overall experience with policy tips and rules.</span></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "496146"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Outlook Mobile will support DLP policy tips and enforcement with improvements like custom dialogs, attachment scanning, and Intune controls (default OFF). External recipient rule validation is temporarily removed. Organizations should test rules and train users before enabling DLP on mobile. Release targets April 6, 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, iOS"
-      }
-    ],
-    "EndDateTime": "2026-05-04T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1129716",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-09T20:01:46.86Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-08-05T22:56:30Z",
-    "Tags": [
-      "Updated message",
-      "Feature update"
-    ],
-    "Title": "Microsoft Outlook Mobile adds support for DLP policy tips and enforcement",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
