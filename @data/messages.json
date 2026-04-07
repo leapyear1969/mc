@@ -4,6 +4,80 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b>Introduction</b></p>\n<p>To improve compliance and legal review workflows, Microsoft is enhancing how Microsoft Whiteboard content appears in Microsoft Purview eDiscovery. Based on customer feedback, Whiteboard artifacts returned in eDiscovery search sets can now be opened and reviewed directly in a readable HTML format, eliminating the need to download and open files separately in the Whiteboard app.</p>\n\n<p><b>When this will happen:</b></p>\n<p>This capability is rolling out now and will complete by late April 2026.</p>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Compliance, legal, and eDiscovery reviewers using Microsoft Purview eDiscovery</li>\n  <li>Administrators managing Purview eDiscovery investigations that include Microsoft Whiteboard content</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Whiteboard files returned as artifacts in eDiscovery search sets can be opened directly within the eDiscovery experience</li>\n  <li>Whiteboard content is rendered as readable HTML for faster review and understanding</li>\n  <li>Reviewers no longer need to download Whiteboard files to view their contents</li>\n  <li>The feature is enabled by default and respects existing Purview permissions and controls</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<p>No action is required.</p>\n<ul>\n  <li>This capability is enabled automatically.</li>\n  <li>Existing Microsoft Purview eDiscovery workflows, permissions, and policies continue to apply.</li>\n  <li>You may want to inform compliance and legal teams that Whiteboard artifacts are now viewable directly in eDiscovery.</li>\n  <li>To learn more about Whiteboard data controls and organization-level settings, review <a href=\"https://learn.microsoft.com/en-us/microsoft-365/whiteboard/manage-data-organizations?view=o365-worldwide#controls-for-onedrive-storage\" target=\"_blank\">Manage data for Microsoft Whiteboard</a>.</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>This change enhances how existing Whiteboard data is viewed within Microsoft Purview eDiscovery. No new data is stored, and existing compliance, retention, and security controls continue to apply.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Whiteboard content in Microsoft Purview eDiscovery can now be viewed directly as readable HTML without downloading files. This rollout, completing by April 2026, improves compliance review workflows and applies automatically with existing permissions and controls intact. No user action is required."
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1273444",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-07T23:25:17.92Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-07T23:25:13Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Whiteboard content is now viewable in Microsoft Purview eDiscovery",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re improving the <b>Microsoft Teams search experience</b> with smarter, personalized <b>Autosuggest </b>to make it easier to find what you need as you type. With this update, Teams now shows clear, easy-to-recognize suggestions right in the search dropdown, helping you quickly choose the right direction without needing to retype or refine your query. These suggestions are tailored based on your activity across chats, channels, and the people you interact with.</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/161b9d2c-cb12-40ec-9038-5d591a199671\" style=\"width:400px;\" alt=\"user settings\"></p><p><b><b>When will this happen</b></b></p><p>General Availability (Worldwide): Rollout will begin in <b>mid-April 2026 </b>and is&nbsp;expected to complete by <b>late April 2026</b>.</p><p><b><b>How this affects your organization</b>\n</b></p><p><b>Who is affected:</b></p><ul><li>Microsoft Teams users</li></ul><ul>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>As users type in the Teams search box, Autosuggest will surface clearer, easier-to-recognize suggestions such as:</li><ul>\n<li>People</li><li>Channels</li><li>Chats - Group chats, meeting chats</li></ul><li>Selecting a suggestion automatically completes the search text.</li><li>Users can navigate and select suggestions using the keyboard.</li><li>Search results are more relevant, especially for short or informal queries (for example, “Alex release update” or “Jordan meeting preread”).</li><li>The feature is <b>enabled by default</b>.</li><li>No changes are made to existing admin policies.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>No action is required. The feature is enabled by default.</li><li>Consider notifying users about the improved search experience to help set expectations and reduce support questions.</li><li>Update internal help documentation or training materials if you reference Teams search behavior.</li></ul><p><b><b>Compliance considerations:</b></b></p><p>The feature changes how existing Teams data (messages, people, channels) is surfaced during search, but does not change underlying storage, permissions, or data residency.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce smarter, personalized Autosuggest in search by mid-April 2026, showing clearer suggestions for people, channels, and chats to improve search speed and relevance. The feature is enabled by default, requires no admin changes, and enhances user experience without affecting data storage or permissions."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1273443",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-07T23:24:53.407Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-07T23:24:47Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Smarter auto suggestions to help you search faster",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to use Microsoft 365 Copilot in model-drive apps in Power Apps. This feature will reach general availability on April 15, 2026.<br><br><b>How does this affect me?</b><br>Users will be able to use copilot as an assistant to help understand and interact with your model-driven app data using natural language. This will enable users to leverage the full capabilities of Microsoft 365 Copilot directly from model-driven apps.<br><br><b>What action do I need to take?</b><br>Once available, admins will be able to use a tenant-level control to allow them to manage whether their Power Apps data can be made available in Microsoft 365 Copilot. For tenants in the European Economic Area, admins will need to follow the steps in this documentation: <a target=\"_blank\" href=\"https://aka.ms/14744Link1\">Enable Microsoft 365 admin center Copilot Dataverse settings</a>.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/14744Link2\">Use Microsoft 365 Copilot in model-driven apps</a>.",
       "ContentType": "html"
     },
@@ -6358,42 +6432,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview: Information Protection - Policy sync status for M365 Label publishing policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting March 24th, 2026 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2603-march-24\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2026-04-07T22:45:47.223Z",
-    "HasAttachments": false,
-    "Id": "MC1260704",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-24T22:45:48.27Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-24T22:45:47.223Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for Current Channel",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
