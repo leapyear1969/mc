@@ -4,6 +4,222 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re enhancing the Engage Events experience to provide a more comprehensive and interactive platform for organizational events. This update introduces <b>Broadcast</b> for large-scale produced events, <b>Meetings-based Events</b>, and new capabilities such as moderated feeds and anonymous posting on both web and mobile. Additionally, an <b>Events Landing Page</b> will offer a unified experience for attendees and organizers across all stages: <b>Before</b>, <b>During</b>, and <b>After </b>the event.</p><p>Screenshot: <i>Broadcast user interface:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a32d181d-ad3b-4bc7-a831-a9f717d9af0d\" style=\"width: 400px;\" alt=\"user settings\"></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537280\" target=\"_blank\">537280</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout will begin in<b style=\"\"> late April 2026</b> and is expected to complete by <b style=\"\">early May 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b> All Engage customers using Events functionality.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Organizers can create <b>Broadcast Events</b> for large-scale, produced experiences.</li>\n<li>Support for <b>Meetings-based Events</b> will be available.</li>\n<li>Organizers can <b>moderate posted questions and conversations</b> during events.</li>\n<li>Attendees can <b>post questions anonymously</b> via web and mobile.</li>\n<li>A new <b>Events Landing Page</b> will provide a single location for event engagement before, during, and after the event.</li>\n<li>No changes to existing workflows; these features will be <b>enabled by default</b> for Engage customers.</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No immediate action is required for most customers.</li>\n<li>Configure <b>Engage Broadcast</b> and <b>Meetings</b> within Engage.</li>\n<li>Review internal documentation and update helpdesk guidance if needed.</li>\n</ul><p><b>Learn more: </b><a href=\"https://www.youtube.com/watch?v=4LimdgtrEWE\" target=\"_blank\">What’s New with Events in Viva Engage | Microsoft Community Learning YouTube</a></p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "537280"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Engage Events will add Broadcast for large-scale events, Meetings-based Events, moderated feeds, and anonymous posting on web and mobile. A new Events Landing Page will unify event engagement before, during, and after events. Rollout begins late April 2026, enabled by default for all Engage customers."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, iOS, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-09T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276513",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-10T22:26:21.67Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T22:26:12Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Engage events: Broadcast, meetings, and custom events with moderated feed and anonymous posting on web and mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-05-09T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>As part of our ongoing security hardening efforts, we have enhanced the security posture of the Microsoft Defender for Endpoint (MDE) mobile app. These security updates are available only in app versions released on or after February 2026.</p><p>To ensure devices are protected by the latest security updates, reliability improvements, and platform capabilities, Microsoft will retire older MDE mobile app versions released prior to February 2026 on iOS and Android.</p><p><b><b>When this will happen</b></b></p><p>Microsoft will&nbsp;<b>retire older MDE mobile app versions</b>&nbsp;released before February 2026 <b>starting on May 10, 2026.</b></p><p>This change will be implemented in a phased manner across tenants.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>Microsoft 365 tenants with devices running Microsoft Defender for Endpoint mobile app versions released prior to February 2026 on iOS or Android.</p><p><i>What will happen</i></p><p>Mobile app versions released before the minimum supported builds listed below will be retired.</p><p><b>Starting on May 10, 2026, retired app versions will no longer be able to:</b><ul></ul></p><ul><li><b>Connect to Microsoft Defender cloud services</b></li><li><b>Receive protection or security updates</b></li></ul><p>Users must upgrade to a supported app version to continue using Microsoft Defender for Endpoint mobile protection.</p><p><b>Minimum supported versions:</b></p><ul><li><b>Android: </b>version <b>1.0.8605.0101 </b>(rollout started February 9, 2026)</li><li><b>iOS:</b> version <b>1.1.73270102 </b>(released February 2, 2026)</li></ul><p><b><b>What you can do to prepare</b></b></p><p>To avoid service disruption prior to May 10, 2026, administrators should:</p><ul><li>Ensure all managed devices are updated to a <b>supported version</b> of the Microsoft Defender for Endpoint mobile app.</li><li>Communicate this change to users who may be affected.</li><li>Update internal documentation or helpdesk guidance to reflect this lifecycle change.</li></ul><p>No additional configuration changes are required beyond keeping the app version up to date.</p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will retire Microsoft Defender for Endpoint mobile app versions released before February 2026 on iOS and Android starting May 10, 2026. Older versions will lose cloud connectivity and updates. Administrators must ensure devices update to supported versions to maintain protection and avoid service disruption."
+      }
+    ],
+    "EndDateTime": "2026-06-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276511",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-10T22:25:21.91Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T22:24:55Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Upcoming retirement of older Microsoft Defender for Endpoint mobile app versions (iOS and Android)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p><b>We will complete the retirement of the Microsoft Outlook Lite app on Android on May 25, 2026.</b>&nbsp;As previously communicated in <i>MC1148534</i>, Outlook Lite will be retired as part of our broader effort to reduce overlap and focus development and support on Microsoft Outlook Mobile, our primary mobile email experience. After this change, Outlook Lite will no longer provide functional access to mailbox features.&nbsp;</p><p><b><b>When this will happen</b></b></p><ul><li><b>October 6, 2025</b>: New installations of the Outlook Lite app were blocked.</li><li><b>May 25, 2026: </b>Outlook Lite will be fully retired and will no longer provide mailbox functionality for existing users.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p style=\"margin-left: 25px;\">Organizations with users who currently have the Outlook Lite app installed on Android devices</p><p><i>What will happen</i></p><ul><li>After May 25, 2026:<ul><li>Users will be able to launch the Outlook Lite app.</li><li>Mailbox access will be disabled.</li><li>In‑app navigation and functionality will no longer work.</li></ul></li><li>User accounts will not be deleted or disabled.</li><li>All existing email, calendar items, and attachments will remain accessible when users sign in to <b>Microsoft Outlook Mobile</b>.</li><li>This change does not affect tenant‑level configurations, policies, or service availability.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li><b>No admin action is required.</b></li><li>Notify users who may still be using Outlook Lite about the upcoming retirement.</li><li>Encourage users to install and sign in to <b>Microsoft Outlook Mobile</b> from the <a href=\"https://play.google.com/store/apps/details?id=com.microsoft.office.outlook\" target=\"_blank\">Google Play Store</a>.</li><li>Update internal documentation or helpdesk guidance if Outlook Lite is referenced.</li></ul><p><b>Recommended alternative: Microsoft Outlook Mobile</b></p><p>Users can switch by:</p><ul><li>Selecting the <i><b>Upgrade</b></i> option in the<i> Outlook Lite app</i> (if available), or</li><li>Opening the <a href=\"https://play.google.com/store/apps/details?id=com.microsoft.office.outlook\" target=\"_blank\">Google Play Store</a>, searching for <b>Microsoft Outlook</b>, installing the app, and signing in with existing credentials.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/office/outlook-for-ios-and-android-quick-start-91a3fc25-3ba2-48cc-8257-805fd6892749\" target=\"_blank\">Outlook for iOS and Android Quick Start | Microsoft Support</a></li><li><a href=\"https://support.microsoft.com/office/outlook-for-ios-android-faqs-820ab229-529c-4e41-b227-b5dda358bfd4\" target=\"_blank\">Outlook for iOS &amp; Android FAQ | Microsoft Support</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does this change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. After retirement, users will no longer be able to access mailbox data through the Outlook Lite app. All existing data (email, calendar items, and attachments) remains accessible through Microsoft Outlook Mobile.</td></tr><tr><td>Does this change modify, interrupt, or disable Purview capabilities?</td><td>Yes. Outlook Lite does not support Purview features such as Data Loss Prevention (DLP). Microsoft Outlook Mobile supports applicable Purview capabilities.</td></tr><tr><td>Does this change modify how users can access, export, delete, or correct their personal data (GDPR data subject rights)?</td><td>Yes. Users will no longer access personal data through Outlook Lite, but can continue to access and manage their data through Microsoft Outlook Mobile.</td></tr><tr><td>Does this change include admin controls, such as Entra ID–based management?</td><td>Yes. Admins can manage access to Microsoft Outlook Mobile using Entra ID group membership and Conditional Access policies.</td></tr><tr><td>Can users enable or disable this feature themselves?</td><td>Yes. Users can install or uninstall Microsoft Outlook Mobile independently through the Google Play Store.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Outlook Lite app for Android will be fully retired on May 25, 2026, disabling mailbox access but allowing app launch. Users should switch to Microsoft Outlook Mobile, which supports all mailbox features and compliance capabilities. No admin action is required, but users should be notified to transition."
+      }
+    ],
+    "EndDateTime": "2026-07-25T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276508",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-10T22:23:39.133Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T22:23:16Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Complete retirement of the Outlook Lite app",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 10, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new capability in <i>Microsoft Purview eDiscovery (Premium) </i>that allows eDiscovery users to <b>add a statistical sample of search results to a review set</b>. This enhancement helps organizations validate search results earlier in the investigation process, improving confidence in data relevance before committing all results to review.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b43cf390-37c0-4683-bd5d-4016cb59ad16/2424bdacd6be642e5c5b336b5f841b642f617501.png\" style=\"width: 400px;\"></p><p>With this update, reviewers can include a representative subset of items based on configurable sampling criteria, enabling faster early‑stage assessment while reducing review volume.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516578#Roadmap\" target=\"_blank\">516578</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in<b>&nbsp;mid-March 2026&nbsp;</b>(previously late February)&nbsp;and is expected to complete by <b>late March 2026</b> (previously&nbsp;late February).</p><p><b>General Availability (GCC, GCCH, and DoD)</b>: Rollout will begin in<b>&nbsp;mid-March 2026 </b>(previously early March)&nbsp;and is expected to complete by<b>&nbsp;end of April 2026 </b>(previously late March).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Administrators and eDiscovery (Premium) users who manage or review search results and review sets in <i>Microsoft Purview</i>.</p><p><i>What will happen</i>:</p><ul><li>This change does not impact any other Microsoft Purview or Microsoft 365 services.</li><li>Users will see new sampling options after search statistics have been generated for a search.</li><li>Users can choose to add all search results to a review set or add a sample of results based on configurable statistical inputs.</li><li>When sampling is selected, reviewers can specify:<ul><li>Confidence level</li><li>Confidence interval</li><li>Percentage‑based sampling options</li></ul></li><li>This capability integrates with existing eDiscovery workflows.</li><li>No changes are made to permissions, access controls, or review set behaviors.</li><li>No features are being removed or replaced.</li><li>The feature will be <b>available by default</b> when it reaches your tenant.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No prerequisites are required, and no action is needed to prepare for this change. The capability will become available automatically.</p><p>If helpful, you may consider:</p><ul><li>Reviewing internal eDiscovery workflows.</li><li>Updating training or documentation to reflect how sampling can support early validation of search results.</li></ul><p>Learn more about eDiscovery: <a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery solutions | Microsoft Learn</a>\n</p><p>Learn more about adding search results to review set: <a href=\"https://learn.microsoft.com/purview/edisc-search-add-to-review-set?view=o365-worldwide\" target=\"_blank\">Add search results to a review set in eDiscovery | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "516578"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery (Premium) will add a feature allowing users to add a statistical sample of search results to review sets, enabling earlier validation and reduced review volume. Rollout begins mid-March 2026 worldwide, with no impact on permissions or other services. No preparation needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227079",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-10T22:02:16.233Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-05T00:02:25Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | eDiscovery – Add sample to review set",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 10, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>We’re updating <b>Memory in Microsoft 365 Copilot</b> to improve personalization and enhance the user experience. With this update, Copilot will personalize responses using <b>chat history</b>, helping users receive more relevant and contextual replies. We’re also introducing <b>refreshed user controls</b> in Copilot settings to make it easier to view and manage&nbsp;<b>Saved Memory</b>. This will be available to all Copilot Chat users.<br><br>Control over <b>personalization </b>using chat history is also available, with details for users via the settings screen.&nbsp;</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Public Preview (Frontier): </b>Begins rolling out mid-November 2025.</li><li><b>General Availability:</b> Begins early January 2026 (previously early November 2025) and is expected to completed in April 2026 (previously March).</li></ul><p><b><b>How this affects your organization:</b></b></p><p>All users of Microsoft 365 Copilot in tenants where Memory is enabled.</p><p>What will happen:</p><ul><li>Copilot will use chat history to personalize responses, making interactions more tailored and helpful:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/122f6f1e-b00d-4e9c-95af-1b22df3850cd/58819321eef3d70e1e30bc6f0779be0d0ef5f2ae.png\" alt=\"user settings\" style=\"width: 400px;\"></p><li>Users will see a redesigned Memory settings page that improves visibility and control over what Copilot remembers.</li><li>Existing admin and user-level Memory settings are respected. If Memory is toggled off, it will remain off.</li><li>No changes to admin controls or policy enforcement.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review the updated Memory settings experience with your users once available.</li><li>No admin action is required unless you wish to update internal documentation or training materials.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/graph/control-enhanced-personalization-privacy\" target=\"_blank\">Enhanced personalization control overview | Microsoft Graph | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/graph/api/resources/enhancedpersonalizationsetting?view=graph-rest-beta\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">enhancedPersonalizationSetting resource type | Microsoft Graph | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.)?</td><td>Yes. Copilot will now use chat history to personalize responses, which changes how existing customer data is processed to generate contextual replies.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This update enhances Copilot’s personalization model by incorporating chat history, allowing it to generate more tailored responses.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users will receive more personalized and contextual responses from Copilot based on their prior chat interactions.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can manage what Copilot remembers through the updated Memory settings page in Copilot settings.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "503955"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot updates Memory to personalize responses using chat history, with improved user controls for managing Saved Memory. Public preview starts mid-November 2025; general availability begins January 2026. Users can enable or disable personalization, with no changes to admin controls or policies."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1158329",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-10T21:57:44.133Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-23T23:06:08Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Updates to memory and personalization",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing Admin Agent in Dynamics 365 Contact Center. This feature will reach public preview on April 24, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Admin Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -13122,7 +13338,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13172,7 +13388,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13896,53 +14112,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Authenticator app: Upcoming changes to jailbreak and root detection",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new capability in <i>Microsoft Purview eDiscovery (Premium) </i>that allows eDiscovery users to <b>add a statistical sample of search results to a review set</b>. This enhancement helps organizations validate search results earlier in the investigation process, improving confidence in data relevance before committing all results to review.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b43cf390-37c0-4683-bd5d-4016cb59ad16/2424bdacd6be642e5c5b336b5f841b642f617501.png\" style=\"width: 400px;\"></p><p>With this update, reviewers can include a representative subset of items based on configurable sampling criteria, enabling faster early‑stage assessment while reducing review volume.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516578#Roadmap\" target=\"_blank\">516578</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin in<b>&nbsp;mid-March 2026&nbsp;</b>(previously late February)&nbsp;and is expected to complete by <b>late March 2026</b> (previously&nbsp;late February).</p><p><b>General Availability (GCC, GCCH, and DoD)</b>: Rollout will begin in<b>&nbsp;mid-March 2026 (previously early March)</b>&nbsp;and is expected to complete by<b> late March 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Administrators and eDiscovery (Premium) users who manage or review search results and review sets in <i>Microsoft Purview</i>.</p><p><i>What will happen</i>:</p><ul><li>This change does not impact any other Microsoft Purview or Microsoft 365 services.</li><li>Users will see new sampling options after search statistics have been generated for a search.</li><li>Users can choose to add all search results to a review set or add a sample of results based on configurable statistical inputs.</li><li>When sampling is selected, reviewers can specify:<ul><li>Confidence level</li><li>Confidence interval</li><li>Percentage‑based sampling options</li></ul></li><li>This capability integrates with existing eDiscovery workflows.</li><li>No changes are made to permissions, access controls, or review set behaviors.</li><li>No features are being removed or replaced.</li><li>The feature will be <b>available by default</b> when it reaches your tenant.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No prerequisites are required, and no action is needed to prepare for this change. The capability will become available automatically.</p><p>If helpful, you may consider:</p><ul><li>Reviewing internal eDiscovery workflows.</li><li>Updating training or documentation to reflect how sampling can support early validation of search results.</li></ul><p>Learn more about eDiscovery: <a href=\"https://learn.microsoft.com/purview/edisc?view=o365-worldwide\" target=\"_blank\">Learn about eDiscovery solutions | Microsoft Learn</a>\n</p><p>Learn more about adding search results to review set: <a href=\"https://learn.microsoft.com/purview/edisc-search-add-to-review-set?view=o365-worldwide\" target=\"_blank\">Add search results to a review set in eDiscovery | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "516578"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery (Premium) will add a feature to include a statistical sample of search results in review sets, enabling earlier validation and reduced review volume. Rollout begins mid-March 2026 worldwide, with no impact on permissions or existing workflows. No preparation is needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227079",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-24T21:05:07.767Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T00:02:25Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery – Add sample to review set",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15797,53 +15966,6 @@
       "Admin impact"
     ],
     "Title": "Prevent/Fix (Planned) - Search by Meeting ID in Call Quality Dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 6, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b></p><p>We’re updating <b>Memory in Microsoft 365 Copilot</b> to improve personalization and enhance the user experience. With this update, Copilot will personalize responses using <b>chat history</b>, helping users receive more relevant and contextual replies. We’re also introducing <b>refreshed user controls</b> in Copilot settings to make it easier to view and manage&nbsp;<b>Saved Memory</b>. This will be available to all Copilot Chat users.<br><br>Control over <b>personalization </b>using chat history is also available, with details for users via the settings screen.&nbsp;</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Public Preview (Frontier): </b>Begins rolling out mid-November 2025.</li><li><b>General Availability:</b> Begins early January 2026 (previously early November 2025) and is expected to completed in March 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p><p>All users of Microsoft 365 Copilot in tenants where Memory is enabled.</p><p>What will happen:</p><ul><li>Copilot will use chat history to personalize responses, making interactions more tailored and helpful:</li><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/122f6f1e-b00d-4e9c-95af-1b22df3850cd/58819321eef3d70e1e30bc6f0779be0d0ef5f2ae.png\" alt=\"user settings\" style=\"width: 400px;\"></p><li>Users will see a redesigned Memory settings page that improves visibility and control over what Copilot remembers.</li><li>Existing admin and user-level Memory settings are respected. If Memory is toggled off, it will remain off.</li><li>No changes to admin controls or policy enforcement.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review the updated Memory settings experience with your users once available.</li><li>No admin action is required unless you wish to update internal documentation or training materials.</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/graph/control-enhanced-personalization-privacy\" target=\"_blank\">Enhanced personalization control overview | Microsoft Graph | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/graph/api/resources/enhancedpersonalizationsetting?view=graph-rest-beta\" target=\"_blank\" style=\"font-family: sans-serif; font-weight: 400; background-color: rgb(255, 255, 255);\">enhancedPersonalizationSetting resource type | Microsoft Graph | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.)?</td><td>Yes. Copilot will now use chat history to personalize responses, which changes how existing customer data is processed to generate contextual replies.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. This update enhances Copilot’s personalization model by incorporating chat history, allowing it to generate more tailored responses.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users will receive more personalized and contextual responses from Copilot based on their prior chat interactions.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Users can manage what Copilot remembers through the updated Memory settings page in Copilot settings.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "503955"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot updates Memory to personalize responses using chat history, with improved user controls for managing Saved Memory. Public Preview starts mid-November 2025; General Availability begins January 2026. Existing settings remain respected, and users can enable or disable personalization themselves. No admin action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-04T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1158329",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-06T22:00:39.077Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-23T23:06:08Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Updates to memory and personalization",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
