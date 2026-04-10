@@ -4,6 +4,68 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing Admin Agent in Dynamics 365 Contact Center. This feature will reach public preview on April 24, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Admin Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-24T21:04:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276450",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-10T21:05:17.597Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T21:04:17Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Use Admin Agent to simplify setup tasks in contact center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to protect sensitive information in emails with data sensitivity labels in Dynamics 365 Customer Service. This feature will reach general availability on May 1, 2026.<br><br><b>How does this affect me?</b><br>This feature enables you to add data sensitivity labels to emails to help classify and protect sensitive information.<br><br>Data sensitivity labels provide the following benefits:<ul><li>Easy classification and protection of sensitive information.</li><li>Compliance with regulations like the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).</li><li>Improved user awareness about sensitive information.</li><li>Streamlined data management through centralized label creation and application.</li><li>Integration with other Microsoft services for consistent data protection across apps.</li></ul>To make data sensitivity labels available in email, admins must add and publish the labels. To add and publish the labels, admins need the required roles and privileges in Microsoft Purview and Dynamics 365 Customer Service.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-06-01T21:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276446",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-10T21:01:38.513Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T21:00:54Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service - Protect sensitive information in emails with data sensitivity labels",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 10, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Purview Information Protection admins</b> can now exclude<b> modern Microsoft 365 groups</b> and scope <b>sensitivity label</b> <b>policies </b>to dynamic and <b>non-mail enabled security groups</b>. These capabilities give admins more flexibility, expanding policy targeting beyond individual users and mail-enabled groups.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558685\" target=\"_blank\">558685</a>.</p><p> \n<b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Public Preview:</b>&nbsp;We will begin rolling out<b> late April 2026</b> and expect to complete by <b>mid-May 2026.</b></li>\n  <li><b>General Availability:</b>&nbsp;We will begin rolling out <b>mid-June 2026</b> (previously&nbsp;late May)&nbsp;and expect to complete by <b>late June 2026</b> (previously&nbsp;late May).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li><b>Information Protection admins</b> managing sensitivity label publishing policies</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can exclude <b>modern Microsoft 365 groups</b> from <b>label publishing policies</b></li>\n  <li>Admins can include <b>non-mail-enabled security groups</b>, including <b>dynamic security groups</b></li>\n  <li>Existing policies and configurations remain unchanged</li>\n  <li>No user impact unless admins update policy scope</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required</li>\n  <li>Optionally review and update label publishing policies to take advantage of expanded scoping</li>\n  </ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/purview/create-sensitivity-labels?tabs=classic-label-scheme#publish-sensitivity-labels-by-creating-a-label-policy\" target=\"_blank\">Create and publish sensitivity labels | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Compliance question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change modify Information Protection labels or policy configuration capabilities?</td>\n    <td>This update expands how sensitivity label publishing policies can be scoped by allowing admins to exclude modern Microsoft 365 groups and include non-mail-enabled security groups.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n    <td>Admins can scope sensitivity label publishing policies using non-mail-enabled security groups, including dynamic security groups in Microsoft Entra ID.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
