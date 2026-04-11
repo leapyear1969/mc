@@ -4026,45 +4026,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Your Microsoft Intune account has been updated to the latest service build.</p><p><b>How this will affect your organization:</b>\n</p><p>You will see the service release number updated in the Tenant Status blade of the Intune admin center soon. We have introduced some changes that we are excited for you to try out.</p><p><b>What you need to do to prepare:</b>\n</p><p>Review the additional information below to learn more about what’s new in this service release. We will continue to update the What’s new page with any features that are released between now and the next monthly service update. Learn more by reviewing features highlighted in the latest Intune <a href=\"https://aka.ms/IntuneWN2603\" target=\"_blank\">What's new 2603 (March) blog</a> and how the Intune service updates each month is described in the Microsoft Intune service updates blog. \n</p><p><b>Additional Information:</b>\n</p><p><a href=\"https://aka.ms/IntuneWN\" target=\"_blank\">Intune What's new</a></p><p><a href=\"https://aka.ms/Intune/ServiceChangeBlog\" target=\"_blank\">Staying up to date on Intune new features, service changes, and service health</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The Microsoft Intune service update for March 2026 introduces a new service build, visible in the Tenant Status blade. Users should review the latest features on the What's new page and related blogs to prepare for changes and stay informed about ongoing updates."
-      }
-    ],
-    "EndDateTime": "2026-04-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1266895",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-31T22:50:40.987Z",
-    "Services": [
-      "Microsoft Intune"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-31T22:49:46Z",
-    "Tags": [
-      "New feature",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "What’s new in the Microsoft Intune service update for March 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>We&#39;ve released updates to the following update channel for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out this update of Microsoft 365 Apps to users on that update channel starting March 31st, 2026 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download this latest update and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about this update view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2603-march-31\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li></ul>",
       "ContentType": "html"
     },
@@ -15715,42 +15676,6 @@
       "Retirement"
     ],
     "Title": "SharePoint Pages: Retirement of Web Search (Bing) image pivot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Expected in late February 2026, we are improving reporting accuracy in Intune by cleaning up stale device records. Devices that have not checked in for 12 months will be classified as inactive and excluded from reporting views. This update ensures that device counts and reporting metrics more accurately reflect your active, managed devices.</p><p><b>How this will affect your organization:</b>\n</p><p>If there are devices that have been offline for more than 12 months, these devices will be removed from Intune reports. You may notice a decrease in the total device count shown in reporting views such as the policy and setting status Summary reports. This reduction is expected and reflects a more accurate and current representation of active devices. Active devices that regularly check in are not affected by this change.</p><p><b>What you need to do to prepare:</b>\n</p><p>No action is required; only awareness. If you expect a device to appear in reports, ensure it checks in. To initiate a check‑in, power on the device, connect to the network, and start a sync or Company Portal check‑in as applicable.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting late February 2026, Intune will exclude devices inactive for 12+ months from reports to improve accuracy. This may reduce reported device counts but reflects active devices only. No action is needed; ensure devices check in to remain in reports."
-      }
-    ],
-    "EndDateTime": "2026-04-11T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230448",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-10T22:58:34.59Z",
-    "Services": [
-      "Microsoft Intune"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-10T22:58:13Z",
-    "Tags": [
-      "Admin impact"
-    ],
-    "Title": "Plan for Change: Improving Intune reporting accuracy",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
