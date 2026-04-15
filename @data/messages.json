@@ -4,6 +4,315 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 15, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><i>You are receiving this message because our telemetry indicates that you have at least one Conditional Access policy targeting All resources with one or more resource exclusions. \n</i></p><p>As described in this <a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Microsoft Entra Blog post</a>, we’re enhancing how Conditional Access policies that target All resources and have resource exclusions are enforced for a narrow set of authentication flows. This is a proactive security measure in alignment with Microsoft’s ongoing commitment to defense-in-depth. \n</p><p><b>What is changing? \n</b></p><p><b>Today</b>, when a user signs in through a client application that requests only <a href=\"https://learn.microsoft.com//entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\">OIDC scopes</a> or a <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#legacy-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">limited set of directory scopes</a>, Conditional Access policies that <b>target All resources are not enforced if the policy has one or more resource exclusions. \n</b></p><p><b>After this change</b>, Conditional Access policies that target <i>All resources</i> will be enforced for these sign-ins, <b>even when resource exclusions are present</b>. <a href=\"https://aka.ms/CAforLowValueScopes\" target=\"_blank\">Read more about this change.</a></p><p>In addition, customers who have scenarios that may be impacted by this change will have the ability to <b>retain the current behavior</b> while they assess impact and transition to the recommended Conditional Access enforcement. Additional details and guidance on this capability will be communicated in a future update. \n</p><p><b>When will you see this change? \n</b></p><p>Enforcement will now begin starting <b>May 13, 2026</b>, and will be rolled out progressively over several weeks.</p><p><b>How will this affect your organization? \n</b></p><p>When a user signs in through a client application that requests only the scopes listed above, users may now receive Conditional Access challenges (such as MFA or device compliance) where previously they were allowed access without enforcement. The exact challenge depends on the access controls configured in your policies that target <i>All resources</i> or policies that explicitly target <i>Azure AD Graph</i> as a resource. \n</p><p><b>What do you need to do to prepare? \n</b></p><p><b>In most cases, no action is required</b>, as most client applications request additional scopes beyond those listed above and are already subject to Conditional Access enforcement. In such cases, there is no change in behavior. \n</p><p>If you have custom applications that are intentionally designed to request <b>only</b> the scopes listed above, evaluate whether they can handle Conditional Access challenges such as MFA or device compliance. \n</p><ul><li>If they <b>already handle Conditional Access challenges</b>: no changes are required.</li><li>If they <b>do not</b>, updates may be needed. Refer to the <a href=\"https://learn.microsoft.com/entra/identity-platform/v2-conditional-access-dev-guide\">Microsoft Conditional Access developer guidance</a> on how to update your application appropriately.&nbsp;</li></ul><p><b>Additional guidance is now available</b> to help customers prepare for this change. A new configuration is also available to support impacted scenarios, enabling customers to assess impact and transition to the recommended Conditional Access enforcement. Refer to the links below for more details.</p><ul><li>Additional guidance: <a href=\"https://aka.ms/BaselineScopesSettings\" target=\"_blank\">https://aka.ms/BaselineScopesSettings</a></li><li>URL to access the configuration: <a href=\"https://aka.ms/BaselineScopesSettingsUX\" target=\"_blank\">https://aka.ms/BaselineScopesSettingsUX</a></li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#new-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">Conditional Access behavior when an all resources policy has an app exclusion | Conditional Access | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\"> OpenID Connect scopes - Scopes and permissions in the Microsoft identity platform | Microsoft Entra | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions | Microsoft Entra Blog</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><i>\n</i></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting May 13, 2026, Conditional Access policies targeting All resources will be enforced even with resource exclusions for certain authentication flows. Most organizations need no action, but custom apps requesting only specific scopes should verify they handle Conditional Access challenges like MFA or device compliance."
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1223829",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:53:27.563Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-29T00:44:07Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 15, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are adding <b>new Copilot metrics across Microsoft 365 apps</b> to help you better understand how users engage with Copilot. These metrics include actions taken in the <i>Microsoft 365 Copilot app</i>, <i>Microsoft Edge</i>, and <i>OneNote</i>, and intent-based usage across Outlook, Word, Excel, and PowerPoint. This update expands visibility into how users adopt Copilot and supports improved insights in the<i> Copilot Dashboard </i>and <i>Advanced Analysis</i> in <i>Copilot Analytics</i>.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557981\" target=\"_blank\">557981</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete in<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>This capability is <b>available to users who are licensed for Microsoft 365 Copilot</b>.</li><li>All Microsoft 365 tenants with access to Copilot Dashboard or Copilot Analytics in<i> Viva Insights</i></li></ul><p><i>What will happen</i></p><ul><li><b>New metrics</b> will appear in the <i>Copilot Dashboard</i> and <i>Advanced Analysis</i>.</li><li>You will be able to<b> track Copilot usage</b> in the <i>Microsoft 365 Copilot app</i>, <i>Microsoft Edge</i>, and <i>OneNote:</i><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/541186bb-205b-467e-acd9-171a7b90c75b/3cb851af5480cdce76559db63603d26e407f3025.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e8eca007-b073-4613-b500-5a6511c119a9/0223e48964c33ae762d44ace77d3c3b64ea38a35.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li><b>Additional intent-based scenarios</b> will be measured in <i>Outlook</i>, <i>Word</i>, <i>Excel</i>, and <i>PowerPoint</i>. These scenarios include suggested replies, translation, coaching, and clean data.</li><li>The feature will be <b>enabled automatically for all tenants</b>.</li><li><b>No configuration changes</b> or policy updates are required.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>You may choose to notify relevant teams about the new metrics.</li><li>Update internal documentation if your organization tracks Copilot usage analytics.</li><li>Review updated online documentation when it becomes available in early May.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557981"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 is adding new Copilot usage metrics across apps like Microsoft 365 Copilot, Edge, OneNote, Outlook, Word, Excel, and PowerPoint. These will appear in Copilot Dashboard and Analytics, rolling out worldwide from late April to late May 2026, enabled automatically without required actions."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1266023",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:45:46.19Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T21:49:45Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Comprehensive Copilot metrics in Copilot Analytics",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 15, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p><b>Intelligent summaries</b> in <i>Copilot Dashboard </i>help you quickly understand what’s driving Copilot adoption in your organization. These AI‑generated insights highlight key usage trends, areas of success, and opportunities where focused attention can accelerate value. Suggested prompts guide deeper exploration of underlying drivers and adoption patterns.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557681\" target=\"_blank\">557681</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>Rollout will begin in <b>late April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins using the<b> Microsoft 365 Copilot Dashboard</b> in <i>Microsoft Viva</i> and <i>Microsoft 365</i></li></ul><p><i>What will happen</i></p><ul><li><b>Intelligent summaries</b> will appear automatically in the <i>Copilot Dashboard</i>:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e7d90886-2158-4659-a5f8-d97848bb9ba5/fcc7c2b517f6d6c0e9cbaed53140c658280ed7c4.png\" style=\"width: 400px;\" alt=\"user settings\">&nbsp;</p></li><li>Admins will see <b>AI‑generated insights</b> that highlight adoption trends and key usage patterns.</li><li><b>Suggested prompts </b>will be available to help admins drill into specific drivers and areas of opportunity.</li><li>No configuration changes are required; the feature is <b>on by default </b>for eligible tenants.</li><li>Existing admin controls and permissions remain unchanged.</li><li>There is no user workflow impact.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>If helpful for your organization, you may:</p><ul><li>Notify helpdesk or training teams about the new summaries.</li><li>Update internal documentation that references the Copilot Dashboard.</li><li>Review updated online documentation, which will be refreshed as rollout begins in late April.</li><li>If you choose not to use this feature, you can roll back by disabling intelligent summaries using available admin controls.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557681"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Dashboard will automatically provide AI-generated intelligent summaries by late May 2026, highlighting adoption trends and usage patterns for admins. Suggested prompts aid deeper analysis. No configuration or workflow changes are needed, and the feature is on by default with existing controls unchanged."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1266912",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:43:44.023Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-31T23:04:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Intelligent Summaries in Copilot Dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 15, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing ad-hoc room reservation directly from the Microsoft Teams Rooms on Windows console. This update enables users to reserve an available room on the spot without relying on a personal device or hallway panel, supporting quick, spontaneous meetings and helping reduce scheduling conflicts. This feature requires a Teams Rooms Pro license.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548648\" target=\"_blank\" style=\"\">548648</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in<b>&nbsp;early June 2026 </b>(previously late May)&nbsp;and expect to complete by<b>&nbsp;late June 2026 </b>(previously early June).</li><li><b>General Availability (GCC High): </b>We will begin rolling out late<b>&nbsp;</b>in <b>early June 2026 </b>(previously April)<b> </b>and expect to complete by <b>late July 2026</b> (previously&nbsp;late June).</li><li><b>General Availability (DoD): </b>We will begin rolling out in <b>late July 2026</b> (previously<b>&nbsp;</b>late June)<b>&nbsp;</b>and expect to complete by<b>&nbsp;mid-August 2026 </b>(previously mid-July).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users and admins of Teams Rooms on Windows with Teams Rooms Pro licenses.</li></ul><p>What will happen</p><ul><li>After this feature becomes available on room devices, users can reserve an available room directly from the Teams Rooms calendar by choosing <i><b>Reserve</b></i> and selecting an<b> end time</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5208696b-e82e-4d76-aa65-b50abb61433c/cf2b8c67fd9d949cb1e48a191d291559496d590e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>End times appear in 15-minute increments for up to the end of the day or until the next scheduled meeting, whichever comes sooner:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d0cc7eac-2e6d-4170-9095-4943968f5bf3/f57041e5b42942c36c0b7c4047a43efea3966d27.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The feature is <b>enabled by default</b>.</li><li>Admin controls will be available on the<b> Teams Rooms Pro Management portal</b>:&nbsp;<b>Rooms &gt; Settings &gt; Meetings &gt; Allow ad-hoc room reservation</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>Notify users of the new reservation workflow.</li><li>Update internal training or documentation.</li><li>Use Teams Rooms Pro Management portal or device settings if you want to restrict ad-hoc reservations.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "548648"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Windows will support ad-hoc room reservations directly from the console starting early June 2026, requiring a Teams Rooms Pro license. The feature is enabled by default, allows quick room booking with 15-minute increments, and includes admin controls for management and restrictions."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-09-21T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1245225",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:40:59.55Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-05T23:36:47Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 14, 2026: After further review, we have decided not to move forward with this change at this time. You can refer to MC1279092 for updates. We apologize for any inconvenience this may cause and appreciate your understanding.</p><p><b><b>Introduction</b></b></p><p>As previously announced in <i>MC1221452</i>,<b> Microsoft Registration Campaigns </b>will support <b>Passkeys (FIDO2)</b> as an <b>additional authentication method</b> starting in early April 2026. This update helps organizations accelerate adoption of phishing‑resistant credentials by allowing administrators to opt users into Passkeys and deliver Passkey registration nudges during sign‑in.</p><p>Please refer to MC1279092&nbsp;for updates.&nbsp;</p><p></p><p><b><b>When this will happen</b>&nbsp;</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>early April 2026</b> and expect to complete in<b> late May 2026</b>.</p><p><br></p><p></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Microsoft Registration Campaigns</li><li>Tenants configured in either <b>Microsoft‑managed</b> or <b>Enabled</b> states</li><li>Users who are <b>MFA‑capable</b> and<b> eligible for Passkeys (FIDO2)</b></li></ul><p><i>What will happen</i></p><p><b><u>Microsoft‑managed state</u></b></p><p>Your tenant will be impacted <b>when all of the following conditions are met:</b></p><ul><li>The <b>Passkeys (FIDO2) authentication method policy</b> is enabled.</li><li><b>Allow self‑service setup</b> is enabled.</li><li><b><i>Target specific AAGUIDs</i></b> is <b>not</b> selected (no AAGUID restrictions configured).</li><li>The <b>Authentication Methods Registration Campaign</b> state is set to <i><b>Microsoft‑managed</b></i>.</li></ul><p>When these conditions are met, the following settings will update automatically:</p><ul><li>The targeted<b> authentication method</b> will change from <b>Microsoft Authenticator</b> to <b>Passkeys (FIDO2).</b></li><li><i><b>Days allowed to snooze</b></i> will change from three days to <b>one day.&nbsp;</b>(This setting will no longer be configurable.)</li><li><i><b>Limit number of snoozes </b></i>will be <b>disabled. </b>(This setting will no longer be configurable.)</li><li>Targeting will expand to <b>all MFA‑capable users</b>. (This setting will no longer be configurable.)</li><li>Default user targeting will change from <b>voice call or text message users</b> to <b>all multifactor authentication (MFA)–capable users</b>.</li></ul><p>Affected users will receive Passkey registration nudges at sign‑in after completing MFA.</p><p>We will roll out these changes incrementally over time to in‑scope tenants.</p><p><br></p><p></p><p><b><u>Enabled state</u></b></p><p>Passkey (FIDO2) can be selected as the Targeted Authentication Method when Microsoft Registration Campaigns are in the Enabled state.&nbsp;</p><p><i>Note: Registration Campaigns support targeting only one authentication method at a time—either Microsoft Authenticator or Passkeys (FIDO2), but not both simultaneously.</i></p><p><i><br></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p><b>Opting into Passkey Registration Nudges: \n</b></p><p><b>\n</b></p>You can opt into Passkeys and switch your users to receive a <b>Passkey registration nudge</b>. \nHowever, the nudge will only appear for the user if <b>all</b> of the following conditions are met:&nbsp;<ul><li>The user is <b>MFA‑capable</b><ul><li>They have at least one registered MFA method</li><li>They can successfully complete MFA at sign‑in</li></ul></li><li>Unde<b>r Authentication methods &gt; Policies,</b> the<b> user is in scope for Passkeys (FIDO2)</b></li><li>Under <b>Authentication methods &gt; Policies &gt; Passkeys (FIDO2) &gt; Configure</b>, make sure you have <b>Allow self-service set up </b>checked.&nbsp;</li></ul><p></p><p><b>Important Guidance:</b></p><b><u>Microsoft Managed State:</u></b><p>We will roll out these changes incrementally to in-scope tenants starting in early April. This rollout will take time, and even if your tenant meets the eligibility criteria, you may not see the changes immediately.&nbsp;</p><p></p><p><u style=\"\"><b>Enabled State&nbsp;</b></u></p><p>Over time, we will incrementally refine the logic for Passkeys nudges in<i> Microsoft Registration Campaigns</i> to guide users toward the appropriate passkey registration experience based on their passkey profile scope. Initially, the logic may not account for every edge‑case scenario, but we are actively expanding and improving it on an ongoing basis. When users have<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\"> passkey profile restrictions</a> (for example, AAGUID restrictions), the registration experience triggered by the nudge may not be optimal.&nbsp; &nbsp;</p><p><b></b></p><p><b>Using Passkeys Despite Restrictions</b></p><p>You can still set Passkeys as the target authentication method in Microsoft Registration Campaigns. However, users may encounter a poor or confusing experience if they have passkey profile restrictions.</p><p><b>Example:&nbsp;</b></p><p>If a user is scoped into specific <b>AAGUID synced passkeys only</b>, they may see a Passkey nudge at sign‑in. If they attempt to register a <b>device‑bound passkey,</b> the registration will fail because they are not in scope for that passkey type.&nbsp; </p><p><b></b></p><p><b>Recommended next steps</b></p><ul></ul><p></p><ul><li>Review your Registration Campaign state by <b>early April 2026</b>.</li><li>Communicate this change to helpdesk or support teams.</li><li>Update internal documentation on authentication method enrollment.</li><li>If you prefer to continue targeting Microsoft Authenticator, verify this configuration before rollout.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to enable passkey (FIDO2) profiles in Microsoft Entra ID (preview) | Authentication | Microsoft Entra ID | Microsoft Entra | Microsoft Learn</a></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft has decided not to proceed with adding Passkeys (FIDO2) as an authentication method in Microsoft Registration Campaigns starting April 2026. Previously planned changes, including automatic updates and nudges for MFA-capable users, will not be implemented at this time. Updates are available in MC1279092."
+      }
+    ],
+    "EndDateTime": "2026-04-17T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1253746",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:34:58.437Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-16T22:27:17Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Passkeys in Microsoft registration campaigns",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 15, 2026: We have updated the timeline. Thank you for your patience. </p><p>We’re introducing an enhanced organization chart experience in the Profile Card in Microsoft Teams for Windows Desktop, Mac, and Teams on the web. This update improves the user interface and navigation while maintaining the core browsing functionality. These changes are based on user feedback to streamline org chart exploration and reduce friction in navigating team structures.</p><p>This feature is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500696\" target=\"_blank\">500696</a>.</p>\n\n<b>When this will happen:</b>\n<p><b>Targeted Release: </b>We will begin rolling out in mid-March 2026 (previously early February) and expect to complete in late March 2026 (previously mid-February).</p>\n<p><b>General Availability (Worldwide):</b> We will begin rolling out in late March 2026 (previously mid-February) and expect to complete in late April 2026 (previously early April).</p>\n\n<b>How this affects your organization:</b>\n<p>Who is affected: All users of Microsoft Teams on Windows Desktop, Mac, and web platforms.</p>\n<p>What will happen:</p>\n<ul>\n<li>The organization chart in the Profile Card will receive UI/UX enhancements to improve navigation and usability.</li>\n<li>The focused individual remains centered when the manager chain is collapsed, improving visual clarity.</li>\n<li>Fewer clicks are needed to view another person’s Profile Card from the current view, reducing navigation effort.</li>\n<li>New navigation buttons allow users to scroll through previously viewed individuals within the same Profile Card instance, streamlining org chart exploration.</li>\n<li>The feature is <b>enabled by default</b> and requires no configuration changes.</li>\n</ul>\n\n<p><i>Screenshot 1 – Updated Profile Card with centered individual and collapsed manager chain:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ba1a3d3a-2e6c-45b4-8071-bfd8c0ca1fb2/e90e6f504ff5ae3e3707db5583773bcac01123b7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Expanded organization chart view:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fe21bb54-89d1-4f00-a88e-89331a1d4b99/1259487c3edba536300d5a5c0ef070fefa0bdd6a.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b>What you can do to prepare</b></p><ul><li>No admin action is required at this time.</li><li>We recommend informing users about the improved navigation experience to help them take full advantage of the update.</li><li>Update internal documentation or training materials if they reference the Profile Card experience.</li></ul><p>Learn more (to be updated closer to rollout):&nbsp;<a href=\"https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501\" target=\"_blank\">Profile cards in Microsoft 365 | Microsoft Support</a>&nbsp;</p>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><a href=\"https://learn.microsoft.com/microsoftteams/teams-overview\">\n<ul>\n</ul></a>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500696"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is enhancing the organization chart in the Profile Card on Desktop, Mac, and Web with improved UI, easier navigation, and fewer clicks. Rollout begins mid-March 2026, completing by late April. The feature is enabled by default, requiring no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1151242",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-15T16:25:36.877Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-10T22:49:19Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Improved organization chart in Profile Card (Desktop, Mac, Web)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p style=\"\">Updated April 15, 2026: We have updated the content. Thank you for your patience.</p><p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.</p><p><b>Important:</b> Only tenants that <b>already have Passkeys (FIDO2) enabled</b> are affected by this update.&nbsp;</p><p>  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If your tenant already has Passkeys (FIDO2) enabled and you do not opt in to passkey profiles during the initial rollout window, your tenant will be automatically migrated to the passkey profiles schema at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings. Synced passkeys will be enabled for tenants with attestation enforcement disabled.&nbsp;</li><li>No new authentication methods are enabled as part of this migration.&nbsp;</li><li>This migration also impacts Authentication methods registration campaign set to “Microsoft managed” state, which uses passkey configuration settings to determine which registration prompts are shown to users.</li></ul><p><b>Authentication Methods Registration Campaign changes (Microsoft-Managed Only)</b></p><p>Tenants are impacted when all the following conditions are met:</p><ul><li>The Passkeys (FIDO2) authentication method policy is Enabled</li><li>Authentication methods registration campaign is set to “Microsoft managed” state</li><li>Allow self-service setup is Enabled</li><li>Target specific AAGUIDs is not selected (no AAGUID restrictions configured)</li><li>The Authentication Methods Registration Campaign state is set to Microsoft-managed</li><li>The tenant has at least one user enabled for <b>both</b> synced passkeys and device‑bound passkeys<ul><li>Only users who are&nbsp;enabled for both synced passkeys&nbsp;and&nbsp;device‑bound&nbsp;passkeys, with no&nbsp;passkey profile restrictions&nbsp;configured&nbsp;(i.e.&nbsp;attestation enforcement, AAGUID restrictions), will receive a passkey registration nudge during&nbsp;sign‑in.</li></ul></li></ul><p>For these tenants, Microsoft-managed registration campaign settings will be updated after passkey profile automatic migration is complete. We will roll out changes incrementally to in-scope tenants according to the timeline outlined below.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>Passkey profile and Synced passkeys General Availability</b></p><ul><li><b>Public cloud Worldwide:</b> Rollout begins in early March 2026 and is expected to complete by late March 2026&nbsp;</li><li><b>GCC, GCC High, DoD clouds:</b> Rollout begins in early May 2026 and is expected to complete by late May 2026&nbsp;</li><li><b>USNat, USSec:</b> Rollout begins in early July 2026 and is expected to complete by late July 2026&nbsp;</li></ul><p><b>Automatic migration for existing passkeys (FIDO2) enabled tenants</b></p><ul><li><b>Public cloud Worldwide: </b>Rollout begins in early May 2026 and is expected to complete by late June 2026</li><li><b>GCC, GCC High, DoD clouds: </b>Rollout begins in early August 2026 and is expected to complete by late August 2026</li><li><b>USNat, USSec</b>: Rollout begins in early August 2026 and is expected to complete by late August 2026</li></ul><p><b>Authentication Methods registration campaign changes in Microsoft-Managed state (for in-scope tenants):</b></p><ul><li><b>Public cloud Worldwide: </b>Rollout begins in early May 2026 and is expected to complete by late June 2026&nbsp;</li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><b>Automatic migration for existing passkeys (FIDO2) enabled tenants&nbsp;</b></p><p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b>Authentication Methods registration campaign changes in Microsoft-Managed state (for in-scope tenants)&nbsp;&nbsp;</b></p><p><i>What will happen:</i></p><p>Microsoft-managed registration campaign settings will be updated:&nbsp;</p><ul><li>\"Targeted authentication method” will change from Microsoft Authenticator to “passkeys (FIDO2)”.&nbsp;</li><li>“Days allowed to snooze” setting will change from 3days to “1 day”. This setting will no longer be configurable.&nbsp;</li><li>“Limited number of snoozes” setting will change from Enabled to \"Disabled”. This setting will no longer be configurable.&nbsp;</li><li>The default user targeting will be updated from voice call or text message users to all multifactor authentication (MFA) capable users.&nbsp;&nbsp;</li></ul><p>What is the end user impact:&nbsp;</p><p>Once the above changes have taken effect, users targeted in the registration campaign will begin to receive passkey registration nudges during sign-in flows after they have completed multifactor authentication.&nbsp;</p><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-enable-passkey-fido2#enable-passkey-fido2-authentication-method\">Enable passkeys for your organization - Microsoft Entra ID | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting March 2026, Microsoft Entra ID will GA passkey profiles and synced passkeys for tenants with Passkeys (FIDO2) enabled. Existing tenants will be auto-migrated to a default passkey profile with a new passkeyType property. Changes also affect Microsoft-managed authentication registration campaigns."
+      }
+    ],
+    "EndDateTime": "2026-10-05T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221452",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-15T16:21:22.387Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:54:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "(Update)Microsoft Entra ID: General Availability of passkey profiles and migration for existing Passkeys (FIDO2) tenants",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>Data Governance Admins and Data Stewards can use a <b>built‑in migration tool</b> in <i>Microsoft Purview Unified Catalog</i> to migrate classic glossary terms, associated term templates, and asset and column relationships into Unified Catalog. After migration, glossary terms can be managed in <i>Unified Catalog</i> and associated with business concepts and data assets.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558683\" target=\"_blank\">558683</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in <b>late April 2026</b> and expect to complete by <b>late April 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in <b>early July 2026</b> and expect to complete by <b>early July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Data Governance Admins</li><li>Data Stewards</li><li>Organizations using classic glossary terms in <i>Microsoft Purview, </i>along with Unified Catalog</li></ul><p><i>What will happen</i></p><ul><li>Admins can choose to use the built‑in migration tool to migrate classic glossary terms to Unified Catalog.</li><li>Migration includes:<ul><li>Classic glossary terms</li><li>Associated term templates</li><li>Asset and column relationships</li></ul></li><li>Admins who do not need migration can skip the process and use glossary terms only in <i>Unified Catalog</i>.</li><li>In both cases, classic glossary terms will become <b>read‑only</b>.</li><li>After migration or switching, Unified Catalog glossary terms can be used to curate assets and columns.</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0add68ed-0a35-4417-8d01-53919b3f82dc/6850ce419d4deabd90873da84cd0b47cbe087a7b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/b94a12df-79d3-49e1-b9b6-30c8866eeceb/9563b5f2109a788aeb0d822ef31e8b0c6bd13ca8.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li>Determine whether your organization uses classic glossary terms.</li><li>Decide whether to:<ul><li>Migrate classic glossary terms to Unified Catalog, or</li><li>Abandon classic glossary terms and use Unified Catalog glossary terms only.</li></ul></li><li>If you choose migration:<ul><li>Review the detailed migration documentation.</li><li>Plan and execute the migration when your organization is ready for all required steps.</li></ul></li></ul><p>Links to detailed migration documentation will be added to the <a href=\"https://learn.microsoft.com/purview/unified-catalog-glossary-terms\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Unified Catalog glossary terms overview documentation</a> when the feature enters public preview.</p><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Classic glossary terms, associated term templates, and asset and column relationships may be migrated and stored in <i>Microsoft Purview Unified Catalog </i>instead of the classic glossary location.</td></tr><tr><td>Does the change include an admin control?</td><td>Yes. Data Governance Admins choose whether to migrate classic glossary terms using the built‑in migration tool or skip migration and switch to Unified Catalog glossary terms.</td></tr></tbody></table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -61,7 +370,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1515576Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1515577Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6993077Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6993079Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -448,45 +757,6 @@
       "Admin impact"
     ],
     "Title": "Purview Communication Compliance: Temporary delays in processing due to planned infrastructure migration",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 14, 2026: After further review, we have decided not to move forward with this change at this time. You can refer to <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1279092\">MC1279092</a> for updates. We apologize for any inconvenience this may cause and appreciate your understanding.</p><p><b><b>Introduction</b></b></p><p>As previously announced in <i>MC1221452</i>,<b> Microsoft Registration Campaigns </b>will support <b>Passkeys (FIDO2)</b> as an <b>additional authentication method</b> starting in early April 2026. This update helps organizations accelerate adoption of phishing‑resistant credentials by allowing administrators to opt users into Passkeys and deliver Passkey registration nudges during sign‑in.</p><p>Please refer to <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1279092\">MC1279092</a>&nbsp;for updates.&nbsp;</p><p></p><p><b><b>When this will happen</b>&nbsp;</b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>early April 2026</b> and expect to complete in<b> late May 2026</b>.</p><p><br></p><p></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Microsoft Registration Campaigns</li><li>Tenants configured in either <b>Microsoft‑managed</b> or <b>Enabled</b> states</li><li>Users who are <b>MFA‑capable</b> and<b> eligible for Passkeys (FIDO2)</b></li></ul><p><i>What will happen</i></p><p><b><u>Microsoft‑managed state</u></b></p><p>Your tenant will be impacted <b>when all of the following conditions are met:</b></p><ul><li>The <b>Passkeys (FIDO2) authentication method policy</b> is enabled.</li><li><b>Allow self‑service setup</b> is enabled.</li><li><b><i>Target specific AAGUIDs</i></b> is <b>not</b> selected (no AAGUID restrictions configured).</li><li>The <b>Authentication Methods Registration Campaign</b> state is set to <i><b>Microsoft‑managed</b></i>.</li></ul><p>When these conditions are met, the following settings will update automatically:</p><ul><li>The targeted<b> authentication method</b> will change from <b>Microsoft Authenticator</b> to <b>Passkeys (FIDO2).</b></li><li><i><b>Days allowed to snooze</b></i> will change from three days to <b>one day.&nbsp;</b>(This setting will no longer be configurable.)</li><li><i><b>Limit number of snoozes </b></i>will be <b>disabled. </b>(This setting will no longer be configurable.)</li><li>Targeting will expand to <b>all MFA‑capable users</b>. (This setting will no longer be configurable.)</li><li>Default user targeting will change from <b>voice call or text message users</b> to <b>all multifactor authentication (MFA)–capable users</b>.</li></ul><p>Affected users will receive Passkey registration nudges at sign‑in after completing MFA.</p><p>We will roll out these changes incrementally over time to in‑scope tenants.</p><p><br></p><p></p><p><b><u>Enabled state</u></b></p><p>Passkey (FIDO2) can be selected as the Targeted Authentication Method when Microsoft Registration Campaigns are in the Enabled state.&nbsp;</p><p><i>Note: Registration Campaigns support targeting only one authentication method at a time—either Microsoft Authenticator or Passkeys (FIDO2), but not both simultaneously.</i></p><p><i><br></i></p><p></p><p><b><b>What you can do to prepare</b></b></p><p><b>Opting into Passkey Registration Nudges: \n</b></p><p><b>\n</b></p>You can opt into Passkeys and switch your users to receive a <b>Passkey registration nudge</b>. \nHowever, the nudge will only appear for the user if <b>all</b> of the following conditions are met:&nbsp;<ul><li>The user is <b>MFA‑capable</b><ul><li>They have at least one registered MFA method</li><li>They can successfully complete MFA at sign‑in</li></ul></li><li>Unde<b>r Authentication methods &gt; Policies,</b> the<b> user is in scope for Passkeys (FIDO2)</b></li><li>Under <b>Authentication methods &gt; Policies &gt; Passkeys (FIDO2) &gt; Configure</b>, make sure you have <b>Allow self-service set up </b>checked.&nbsp;</li></ul><p></p><p><b>Important Guidance:</b></p><b><u>Microsoft Managed State:</u></b><p>We will roll out these changes incrementally to in-scope tenants starting in early April. This rollout will take time, and even if your tenant meets the eligibility criteria, you may not see the changes immediately.&nbsp;</p><p></p><p><u style=\"\"><b>Enabled State&nbsp;</b></u></p><p>Over time, we will incrementally refine the logic for Passkeys nudges in<i> Microsoft Registration Campaigns</i> to guide users toward the appropriate passkey registration experience based on their passkey profile scope. Initially, the logic may not account for every edge‑case scenario, but we are actively expanding and improving it on an ongoing basis. When users have<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\"> passkey profile restrictions</a> (for example, AAGUID restrictions), the registration experience triggered by the nudge may not be optimal.&nbsp; &nbsp;</p><p><b></b></p><p><b>Using Passkeys Despite Restrictions</b></p><p>You can still set Passkeys as the target authentication method in Microsoft Registration Campaigns. However, users may encounter a poor or confusing experience if they have passkey profile restrictions.</p><p><b>Example:&nbsp;</b></p><p>If a user is scoped into specific <b>AAGUID synced passkeys only</b>, they may see a Passkey nudge at sign‑in. If they attempt to register a <b>device‑bound passkey,</b> the registration will fail because they are not in scope for that passkey type.&nbsp; </p><p><b></b></p><p><b>Recommended next steps</b></p><ul></ul><p></p><ul><li>Review your Registration Campaign state by <b>early April 2026</b>.</li><li>Communicate this change to helpdesk or support teams.</li><li>Update internal documentation on authentication method enrollment.</li><li>If you prefer to continue targeting Microsoft Authenticator, verify this configuration before rollout.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to enable passkey (FIDO2) profiles in Microsoft Entra ID (preview) | Authentication | Microsoft Entra ID | Microsoft Entra | Microsoft Learn</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft has decided not to proceed with adding Passkeys (FIDO2) as an authentication method in Microsoft Registration Campaigns starting April 2026. Previously planned changes, including automatic updates and nudges for MFA-capable users, will not be implemented at this time. Updates are available in MC1279092."
-      }
-    ],
-    "EndDateTime": "2026-04-17T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1253746",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-14T18:43:16.963Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-16T22:27:17Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra: Passkeys in Microsoft registration campaigns",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -891,7 +1161,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1513803Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1513806Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1513807Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6987057Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6987059Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6987061Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4918,52 +5188,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p><b>Intelligent summaries</b> in <i>Copilot Dashboard </i>help you quickly understand what’s driving Copilot adoption in your organization. These AI‑generated insights highlight key usage trends, areas of success, and opportunities where focused attention can accelerate value. Suggested prompts guide deeper exploration of underlying drivers and adoption patterns.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557681\" target=\"_blank\">557681</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>Rollout will begin in <b>late April 2026</b> and is expected to complete by<b> late May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins using the<b> Microsoft 365 Copilot Dashboard</b> in <i>Microsoft Viva</i> and <i>Microsoft 365</i></li></ul><p><i>What will happen</i></p><ul><li><b>Intelligent summaries</b> will appear automatically in the <i>Copilot Dashboard</i>:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e7d90886-2158-4659-a5f8-d97848bb9ba5/fcc7c2b517f6d6c0e9cbaed53140c658280ed7c4.png\" style=\"width: 400px;\" alt=\"user settings\">&nbsp;</p></li><li>Admins will see <b>AI‑generated insights</b> that highlight adoption trends and key usage patterns.</li><li><b>Suggested prompts </b>will be available to help admins drill into specific drivers and areas of opportunity.</li><li>No configuration changes are required; the feature is <b>on by default </b>for eligible tenants.</li><li>Existing admin controls and permissions remain unchanged.</li><li>There is no user workflow impact.</li><li><b>Rollback is available: </b>Admins can disable intelligent summaries if needed. Disabling the feature removes the summaries from the Copilot Dashboard and restores the previous experience.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>If helpful for your organization, you may:</p><ul><li>Notify helpdesk or training teams about the new summaries.</li><li>Update internal documentation that references the Copilot Dashboard.</li><li>Review updated online documentation, which will be refreshed as rollout begins in late April.</li><li>If you choose not to use this feature, you can roll back by disabling intelligent summaries using available admin controls.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557681"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot Dashboard will automatically provide AI-generated intelligent summaries by late May 2026, highlighting adoption trends and usage insights for admins. Suggested prompts aid deeper analysis. The feature is on by default, requires no configuration, has no user impact, and can be disabled if desired."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-07-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1266912",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-31T23:04:45.817Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-31T23:04:29Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Intelligent Summaries in Copilot Dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b>Introduction</b></p>\n<p>Microsoft Purview <b>Data Loss Prevention&nbsp;(DLP)</b> <b>now supports document creation and modification</b> conditions for SharePoint and OneDrive. These new conditions enable admins to define DLP and Information Protection auto-labeling policies based on when a file was created or last modified, allowing more precise data protection. Organizations can now better target newly created, recently updated, or older content that requires stricter governance.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557590\" target=\"_blank\">557590</a>.</p><p><b>When this will happen:</b></p>\n<ul>\n<li>General Availability (Worldwide): We will begin rolling out <b>early April 2026</b> and expect to complete by <b>mid-April 2026</b>.</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Tenants using <b>Microsoft Purview DLP</b> or <b>Information Protection auto-labeling</b> for <b>SharePoint and OneDrive</b></li>\n<li>Admins managing DLP or auto-labeling policies</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Admins can configure DLP rules using: <ul><li>File created date</li><li>File last modified date</li></ul></li></ul><ul>\n<li>The same conditions are available in <b>auto-labeling policies</b></li>\n<li>Existing policies are <b>not changed automatically</b></li>\n<li><b>No user impact</b> unless admins configure these conditions</li>\n<li>The feature is <b>available for admin configuration</b> (not enabled by default)</li></ul><p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No action required if you do not plan to use this capability</p><p>If you want to take advantage of this capability:</p><ul><li>Review existing <b>DLP policies</b> for SharePoint and OneDrive to determine if lifecycle-based targeting would improve accuracy</li><li>Update or create DLP rules and select <b>file creation</b> or <b>last modified</b> conditions</li><li>Review <b>Information Protection auto-labeling policies</b> to apply the same conditions consistently</li><li>Update internal governance or compliance documentation if you reference DLP rule criteria</li></ul>\n\n<p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/microsoft-365/compliance/dlp-learn-about-dlp\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Learn about data loss prevention | Microsoft Learn</a></p><p><b>Compliance considerations</b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" width=\"100%\">\n  <tbody><tr>\n    <td><b>Compliance area</b></td>\n    <td><b>Impact and explanation</b></td>\n  </tr>\n  <tr>\n    <td>Processing of existing customer data</td>\n    <td>DLP and auto-labeling policies can now evaluate existing file metadata (created date and last modified date) when determining enforcement or labeling actions for SharePoint and OneDrive content.</td>\n  </tr>\n  <tr>\n    <td>Purview Data Loss Prevention (DLP)</td>\n    <td>Admins can refine DLP rules using file creation and modification conditions, enabling more precise enforcement without changing default policy behavior.</td>\n  </tr>\n  <tr>\n    <td>Information Protection labels</td>\n    <td>Auto-labeling policies can now apply sensitivity labels based on file age or recent modification, improving lifecycle-based governance.</td>\n  </tr>\n  <tr>\n    <td>Admin compliance controls and reporting</td>\n    <td>Additional policy conditions help admins better demonstrate targeted and risk-aligned compliance controls through Microsoft Purview.</td>\n  </tr>\n  <tr>\n    <td>Admin controls</td>\n    <td>The feature is configurable by admins through Microsoft Purview policy settings for DLP and Information Protection.</td>\n  </tr>\n</tbody></table><br>",
       "ContentType": "html"
     },
@@ -5664,52 +5888,6 @@
       "Admin impact"
     ],
     "Title": "Update on custom domain guidance for Teams Event emails",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are adding <b>new Copilot metrics across Microsoft 365 apps</b> to help you better understand how users engage with Copilot. These metrics include actions taken in the <i>Microsoft 365 Copilot app</i>, <i>Microsoft Edge</i>, and <i>OneNote</i>, and intent-based usage across Outlook, Word, Excel, and PowerPoint. This update expands visibility into how users adopt Copilot and supports improved insights in the<i> Copilot Dashboard </i>and <i>Advanced Analysis</i> in <i>Copilot Analytics</i>.&nbsp;</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557981\" target=\"_blank\">557981</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late April 2026</b> and expect to complete in<b> late May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>This capability is <b>available to users who are licensed for Microsoft 365 Copilot</b>.</li><li>All Microsoft 365 tenants with access to Copilot Dashboard or Copilot Analytics in<i> Viva Insights</i></li></ul><p><i>What will happen</i></p><ul><li><b>New metrics</b> will appear in the <i>Copilot Dashboard</i> and <i>Advanced Analysis</i>.</li><li>You will be able to<b> track Copilot usage</b> in the <i>Microsoft 365 Copilot app</i>, <i>Microsoft Edge</i>, and <i>OneNote:</i><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/541186bb-205b-467e-acd9-171a7b90c75b/3cb851af5480cdce76559db63603d26e407f3025.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e8eca007-b073-4613-b500-5a6511c119a9/0223e48964c33ae762d44ace77d3c3b64ea38a35.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li><b>Additional intent-based scenarios</b> will be measured in <i>Outlook</i>, <i>Word</i>, <i>Excel</i>, and <i>PowerPoint</i>. These scenarios include suggested replies, translation, coaching, and clean data.</li><li>The feature will be <b>enabled automatically for all tenants</b>.</li><li><b>A rollback is available</b> and will be managed through flight control.</li><li><b>No configuration changes</b> or policy updates are required.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>You may choose to notify relevant teams about the new metrics.</li><li>Update internal documentation if your organization tracks Copilot usage analytics.</li><li>Review updated online documentation when it becomes available in early May.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557981"
-      },
-      {
-        "Name": "Summary",
-        "Value": "New Microsoft 365 Copilot metrics will be added across apps like Edge, OneNote, Outlook, Word, Excel, and PowerPoint, enhancing usage insights in Copilot Dashboard and Analytics. Rolling out worldwide from late April to late May 2026, this feature is automatic for licensed users with no required configuration changes."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1266023",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-30T21:49:49.367Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-30T21:49:45Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Comprehensive Copilot metrics in Copilot Analytics",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -7483,53 +7661,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Data Loss Prevention: Restrict Access action for semantic models in Microsoft Fabric (preview)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 26, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing ad-hoc room reservation directly from the Microsoft Teams Rooms on Windows console. This update enables users to reserve an available room on the spot without relying on a personal device or hallway panel, supporting quick, spontaneous meetings and helping reduce scheduling conflicts. This feature requires a Teams Rooms Pro license.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=548648\" target=\"_blank\" style=\"\">548648</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in<b>&nbsp;late May 2026 </b>(previously late April)&nbsp;and expect to complete by<b>&nbsp;early June 2026 </b>(previously late April).</li><li><b>General Availability (GCC High): </b>We will begin rolling out late<b>&nbsp;</b>in <b>early June 2026 </b>(previously April)<b> </b>and expect to complete by <b>late June 2026 </b>(previously&nbsp;early May).</li><li><b>General Availability (DoD): </b>We will begin rolling out in<b>&nbsp;late June 2026 </b>(previously late April)<b> </b>and expect to complete by<b>&nbsp;mid-July 2026 </b>(previously mid-May).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users and admins of Teams Rooms on Windows with Teams Rooms Pro licenses.</li></ul><p>What will happen</p><ul><li>After this feature becomes available on room devices, users can reserve an available room directly from the Teams Rooms calendar by choosing <i><b>Reserve</b></i> and selecting an<b> end time</b>:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5208696b-e82e-4d76-aa65-b50abb61433c/cf2b8c67fd9d949cb1e48a191d291559496d590e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>End times appear in 15-minute increments for up to the end of the day or until the next scheduled meeting, whichever comes sooner:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d0cc7eac-2e6d-4170-9095-4943968f5bf3/f57041e5b42942c36c0b7c4047a43efea3966d27.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The feature is <b>enabled by default</b>.</li><li>Admin controls will be available on the<b> Teams Rooms Pro Management portal</b>:&nbsp;<b>Rooms &gt; Settings &gt; Meetings &gt; Allow ad-hoc room reservation</b>.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required before rollout.</li><li>Notify users of the new reservation workflow.</li><li>Update internal training or documentation.</li><li>Use Teams Rooms Pro Management portal or device settings if you want to restrict ad-hoc reservations.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "548648"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams Rooms on Windows will support ad-hoc room reservations directly from the console, requiring a Teams Rooms Pro license. Rollout begins late May 2026, with admin controls to enable or restrict this feature. Users can reserve rooms quickly without personal devices, aiding spontaneous meetings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-08-17T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1245225",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-26T22:14:42.277Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-05T23:36:47Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9705,45 +9836,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 20, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><i>You are receiving this message because our telemetry indicates that you have at least one Conditional Access policy targeting All resources with one or more resource exclusions. \n</i></p><p>As described in this <a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Microsoft Entra Blog post</a>, we’re enhancing how Conditional Access policies that target All resources and have resource exclusions are enforced for a narrow set of authentication flows. This is a proactive security measure in alignment with Microsoft’s ongoing commitment to defense-in-depth. \n</p><p><b>What is changing? \n</b></p><p><b>Today</b>, when a user signs in through a client application that requests only <a href=\"https://learn.microsoft.com//entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\">OIDC scopes</a> or a <a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#legacy-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">limited set of directory scopes</a>, Conditional Access policies that <b>target All resources are not enforced if the policy has one or more resource exclusions. \n</b></p><p><b>After this change</b>, Conditional Access policies that target <i>All resources</i> will be enforced for these sign-ins, <b>even when resource exclusions are present</b>. <a href=\"https://aka.ms/CAforLowValueScopes\" target=\"_blank\">Read more about this change.</a></p><p>In addition, customers who have scenarios that may be impacted by this change will have the ability to <b>retain the current behavior</b> while they assess impact and transition to the recommended Conditional Access enforcement. Additional details and guidance on this capability will be communicated in a future update. \n</p><p><b>When will you see this change? \n</b></p><p>Enforcement will now begin starting <b>May 13, 2026</b>, and will be rolled out progressively over several weeks.</p><p><b>How will this affect your organization? \n</b></p><p>When a user signs in through a client application that requests only the scopes listed above, users may now receive Conditional Access challenges (such as MFA or device compliance) where previously they were allowed access without enforcement. The exact challenge depends on the access controls configured in your policies that target <i>All resources</i> or policies that explicitly target <i>Azure AD Graph</i> as a resource. \n</p><p><b>What do you need to do to prepare? \n</b></p><p><b>In most cases, no action is required</b>, as most client applications request additional scopes beyond those listed above and are already subject to Conditional Access enforcement. In such cases, there is no change in behavior. \n</p><p>If you have custom applications that are intentionally designed to request <b>only</b> the scopes listed above, evaluate whether they can handle Conditional Access challenges such as MFA or device compliance. \n</p><ul><li>If they <b>already handle Conditional Access challenges</b>: no changes are required.</li><li>If they <b>do not</b>, updates may be needed. Refer to the <a href=\"https://learn.microsoft.com/entra/identity-platform/v2-conditional-access-dev-guide\">Microsoft Conditional Access developer guidance</a> on how to update your application appropriately.&nbsp;</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-cloud-apps?tabs=powershell#new-conditional-access-behavior-when-an-all-resources-policy-has-a-resource-exclusion\">Conditional Access behavior when an all resources policy has an app exclusion | Conditional Access | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity-platform/scopes-oidc#openid-connect-scopes\" target=\"_blank\"> OpenID Connect scopes - Scopes and permissions in the Microsoft identity platform | Microsoft Entra | Microsoft Learn</a></li><li><a href=\"https://techcommunity.microsoft.com/blog/microsoft-entra-blog/upcoming-conditional-access-change-improved-enforcement-for-policies-with-resour/4488925\" target=\"_blank\">Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions | Microsoft Entra Blog</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><i>\n</i></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting May 13, 2026, Conditional Access policies targeting All resources will be enforced even if they have resource exclusions, affecting sign-ins requesting only certain OIDC or directory scopes. Most organizations need no action, but custom apps requesting only these scopes should ensure they handle Conditional Access challenges."
-      }
-    ],
-    "EndDateTime": "2026-07-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1223829",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-20T16:05:12.45Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-29T00:44:07Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Upcoming Conditional Access change: Improved enforcement for policies with resource exclusions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated March 19, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re adding a new Exchange Online admin policy that gives admins more control over the default Mail Compose and Reply setting that determines whether commas are used as recipient separators.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557676\" target=\"_blank\">557676</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General availability (Worldwide): </b>Rollout will begin in <b>early April 2026</b> and complete by <b>mid‑April 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Exchange Online administrators in New Outlook for Windows and Outlook for Web</li><li>All users composing or replying to email in <i>Outlook</i> where no per‑user override is configured</li></ul><p><i>What will happen</i></p><ul><li>A new admin policy will be available to set the tenant‑wide default for “<i><b>Use commas as recipient separators</b></i>.”</li><li>Admins can choose whether the default is on or off for all users.</li><li>Users may still change this setting in their <i>Outlook client </i>unless an admin enforces a policy that locks it:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d53d4d89-2cf9-4b09-8916-ad98fa64e98e/51360c8601e14324e4cd6d6a0a45e002a951a767.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>This update is especially useful for organizations whose contacts commonly use “Last name, First name” formats.</li><li>No changes will occur automatically—tenants will retain existing behavior unless an admin modifies the policy.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. If desired, you may configure the new admin policy after rollout if you want to establish a consistent default.&nbsp;You can set this value&nbsp;via Powershell with the command \"Set-Organization Config -RecipientDelimeters&nbsp;&lt;Boolean&gt;.\"</p><p>You may also consider the following actions:&nbsp;</p><ul><li>Review your organization’s preferred recipient formatting conventions.</li><li>Update internal documentation if your helpdesk or user‑training materials reference this setting.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -11535,7 +11627,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1514627Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1514628Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.151463Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1514631Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T15:03:06.1514632Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6991491Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6991494Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6991496Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.6991498Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-15T16:59:08.69915Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11562,45 +11654,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Identify external bots joining your Teams meetings",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p style=\"\">Updated March 13, 2026: We have updated the content. Thank you for your patience.</p><p style=\"\"><b><b>Introduction</b></b></p><p>Starting in <b>March 2026</b>, Microsoft Entra ID will introduce <b>passkey profiles </b>and <b>synced passkeys</b> to General Availability (GA). This update allows administrators to opt in to a new passkey profiles experience that supports group-based passkey configurations and introduces a new <b>passkeyType</b> property.</p><p><b>Important:</b> Only tenants that <b>already have Passkeys (FIDO2) enabled</b> are affected by this update.&nbsp;</p><p>  \n</p><p>\n</p>\n<p>The <b>passkeyType</b>&nbsp;property enables admins to configure:</p><ul><li>Device-bound passkeys</li><li>Synced passkeys</li><li>Both</li></ul><p>If your tenant already has Passkeys (FIDO2) enabled and you do not opt in to passkey profiles during the initial rollout window, your tenant will be automatically migrated to the passkey profiles schema at the date range specified below. When this occurs:&nbsp;</p><ul><li>Existing Passkey (FIDO2) authentication method configurations will be moved into a <b>Default passkey profile.</b>&nbsp;</li><li>The <b>passkeyType</b> value will be set based on the tenant’s current attestation settings. Synced passkeys will be enabled for tenants with attestation enforcement disabled.&nbsp;</li><li>No new authentication methods are enabled as part of this migration.&nbsp;</li><li>This migration also impacts Authentication methods registration campaign set to “Microsoft managed” state, which uses passkey configuration settings to determine which registration prompts are shown to users.</li></ul><p><b>Authentication Methods Registration Campaign changes (Microsoft-Managed Only)</b></p><p>Tenants are impacted when all the following conditions are met:</p><ul><li>The Passkeys (FIDO2) authentication method policy is Enabled</li><li>Authentication methods registration campaign is set to “Microsoft managed” state</li><li>Allow self-service setup is Enabled</li><li>Target specific AAGUIDs is not selected (no AAGUID restrictions configured)</li><li>The Authentication Methods Registration Campaign state is set to Microsoft-managed</li></ul><p>For these tenants, Microsoft-managed registration campaign settings will be updated after passkey profile automatic migration is complete. We will roll out changes incrementally to in-scope tenants according to the timeline outlined below.&nbsp;</p><p><b><b>When this will happen</b></b></p><p><b>Passkey profile and Synced passkeys General Availability</b></p><ul><li><b>Public cloud Worldwide:</b> Rollout begins in early March 2026 and is expected to complete by late March 2026&nbsp;</li><li><b>GCC, GCC High, DoD clouds:</b> Rollout begins in early April 2026 and is expected to complete by late April 2026&nbsp;</li></ul><p><b>Automatic migration for existing passkeys (FIDO2) enabled tenants</b></p><ul><li><b>Public cloud Worldwide: </b>Rollout begins in early April 2026 and is expected to complete by late May 2026</li><li><b>GCC, GCC High, DoD clouds: </b>Rollout begins in early June 2026 and is expected to complete by late June 2026&nbsp;</li></ul><p><b>Authentication Methods registration campaign changes in Microsoft-Managed state (for in-scope tenants):</b></p><ul><li><b>Public cloud Worldwide: </b>Rollout begins in early April 2026 and is expected to complete by late May 2026&nbsp;</li>\n</ul>\n<p><b><b>How this affects your organization</b></b></p>\n<p><b>Automatic migration for existing passkeys (FIDO2) enabled tenants&nbsp;</b></p><p><i>What will happen:</i></p><p>If you have not opted in to passkey profiles by your automatic enablement period, your tenant will be migrated to passkey profiles.</p>\n<ul>\n<li>Your existing Passkey (FIDO2) configurations will be migrated into a <b>Default passkey profile</b></li><li>New <b>passkeyType </b>property will be auto-populated<ul><li>If <b>enforce attestation </b>is <b>enabled</b>, then device-bound allowed</li><li>If <b>enforce attestation </b>is <b>disabled</b>, then device-bound and synced allowed</li></ul></li><li>Any existing <b>key restrictions </b>will remain intact</li><li>Any existing <b>user targets </b>will be assigned to the <b>Default passkey profile</b></li></ul><p><b>Authentication Methods registration campaign changes in Microsoft-Managed state (for in-scope tenants)&nbsp;&nbsp;</b></p><p><i>What will happen:</i></p><p>Microsoft-managed registration campaign settings will be updated:&nbsp;</p><ul><li>\"Targeted authentication method” will change from Microsoft Authenticator to “passkeys (FIDO2)”.&nbsp;</li><li>“Days allowed to snooze” setting will change from 3days to “1 day”. This setting will no longer be configurable.&nbsp;</li><li>“Limited number of snoozes” setting will change from Enabled to \"Disabled”. This setting will no longer be configurable.&nbsp;</li><li>The default user targeting will be updated from voice call or text message users to all multifactor authentication (MFA) capable users.&nbsp;&nbsp;</li></ul><p>What is the end user impact:&nbsp;</p><p>Once the above changes have taken effect, users targeted in the registration campaign will begin to receive passkey registration nudges during sign-in flows after they have completed multifactor authentication.&nbsp;</p><ul>\n</ul><p><b><b>What you can do to prepare</b></b></p><p>If you want a configuration different from the migration defaults, review the timeline above and opt in to passkey profiles <b>before your tenant’s automatic enablement window begins</b>. Then configure the Default passkey profile’s<b> passkeyType</b> to your preferred values.</p><p>We also recommend:</p><ul><li>Review your <b>registration campaign </b>configuration,<b> especially if its set to Microsoft-managed</b>. If you do not want registration campaign to target passkeys, you can:&nbsp;<ul><li>Switch the registration campaign state to<b><i> Enabled</i></b> and continue targeting Microsoft Authenticator, or&nbsp;</li><li>Set the registration campaign state to <b><i>Disabled</i></b>.</li></ul></li><li>Update runbooks and help content so your help desk and end users understand any changes in passkey availability or behavior.&nbsp;</li></ul><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-enable-passkey-fido2#enable-passkey-fido2-authentication-method\">Enable passkeys for your organization - Microsoft Entra ID | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkey-profiles\" target=\"_blank\">How to Enable Passkey (FIDO2) Profiles in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-synced-passkeys\" target=\"_blank\">How to Enable Synced Passkeys (FIDO2) in Microsoft Entra ID (preview) - Microsoft Entra ID | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/entra/identity/authentication/synced-passkey-faq\" target=\"_blank\">Synced passkeys FAQ - Microsoft Entra ID | Microsoft Learn</a></li></ul>\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting March 2026, Microsoft Entra ID will GA passkey profiles and synced passkeys for tenants with Passkeys (FIDO2) enabled. Existing configurations migrate to a Default passkey profile with a new passkeyType property. Microsoft-managed registration campaigns will update, prompting users for passkey registration post-MFA."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221452",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-13T22:26:49.79Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:54:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "(Update)Microsoft Entra ID: General Availability of passkey profiles and migration for existing Passkeys (FIDO2) tenants",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17393,57 +17446,6 @@
       "Admin impact"
     ],
     "Title": "Updates to custom scripting in sites and Classic Publishing site creation",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 29, 2026: We have updated the timeline. Thank you for your patience. </p><p>We’re introducing an enhanced organization chart experience in the Profile Card in Microsoft Teams for Windows Desktop, Mac, and Teams on the web. This update improves the user interface and navigation while maintaining the core browsing functionality. These changes are based on user feedback to streamline org chart exploration and reduce friction in navigating team structures.</p><p>This feature is associated with Microsoft 365 Roadmap ID: <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=500696\" target=\"_blank\">500696</a>.</p>\n\n<b>When this will happen:</b>\n<p><b>Targeted Release: </b>We will begin rolling out in mid-March 2026 (previously early February) and expect to complete in late March 2026 (previously mid-February).</p>\n<p><b>General Availability (Worldwide):</b> We will begin rolling out in late March 2026 (previously mid-February) and expect to complete in early April 2026 (previously late February).</p>\n\n<b>How this affects your organization:</b>\n<p>Who is affected: All users of Microsoft Teams on Windows Desktop, Mac, and web platforms.</p>\n<p>What will happen:</p>\n<ul>\n<li>The organization chart in the Profile Card will receive UI/UX enhancements to improve navigation and usability.</li>\n<li>The focused individual remains centered when the manager chain is collapsed, improving visual clarity.</li>\n<li>Fewer clicks are needed to view another person’s Profile Card from the current view, reducing navigation effort.</li>\n<li>New navigation buttons allow users to scroll through previously viewed individuals within the same Profile Card instance, streamlining org chart exploration.</li>\n<li>The feature is <b>enabled by default</b> and requires no configuration changes.</li>\n</ul>\n\n<p><i>Screenshot 1 – Updated Profile Card with centered individual and collapsed manager chain:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ba1a3d3a-2e6c-45b4-8071-bfd8c0ca1fb2/e90e6f504ff5ae3e3707db5583773bcac01123b7.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Expanded organization chart view:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fe21bb54-89d1-4f00-a88e-89331a1d4b99/1259487c3edba536300d5a5c0ef070fefa0bdd6a.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b>What you can do to prepare</b></p><ul><li>No admin action is required at this time.</li><li>We recommend informing users about the improved navigation experience to help them take full advantage of the update.</li><li>Update internal documentation or training materials if they reference the Profile Card experience.</li></ul><p>Learn more (to be updated closer to rollout):&nbsp;<a href=\"https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501\" target=\"_blank\">Profile cards in Microsoft 365 | Microsoft Support</a>&nbsp;</p>\n<p><b>Compliance considerations</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><a href=\"https://learn.microsoft.com/microsoftteams/teams-overview\">\n<ul>\n</ul></a>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500696"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will enhance the organization chart in the Profile Card on Desktop, Mac, and web with improved navigation, centered individual view, fewer clicks, and new navigation buttons. Rollout begins mid-March 2026, enabled by default, requiring no admin action. Inform users and update training as needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-11T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1151242",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-29T17:20:48.577Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-09-10T22:49:19Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Improved organization chart in Profile Card (Desktop, Mac, Web)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
