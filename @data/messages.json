@@ -4,6 +4,83 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 16, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are enhancing how <b>Microsoft Defender for Office 365</b> identifies and manages promotional email. Promotional messages will be tagged as “promotions” (previously “Bulk” in preview) and can be moved automatically to a new Promotions folder. The system learns from user actions, such as moving messages into or out of the <i><b>Promotions folder</b></i> and applies those preferences to future messages. These improvements reduce inbox clutter and help users stay focused while still receiving promotional content they want.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview (Limited): </b>We will begin rolling out in <b>mid-April 2026</b>&nbsp;and expect to complete by<b>&nbsp;end of April 2026 </b>(previously late April). To be included in the public preview program, send an email to <a href=\"mailto://BulkMailPreviews@microsoft.com\">BulkMailPreviews@microsoft.com</a> indicating: Organization name, Tenant ID and your onmicrosoft.com domain (e.g contoso.onmicrosoft.com) . Slots are limited and will close on April 30th, 2026.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early July 2026 </b>and expect to complete by <b>late July 2026</b>.</li><li><b>General Availability (DoD, GCC, GCC High): </b>We will begin rolling out in <b>early July 2026</b> and expect to complete by&nbsp;<b>mid-August 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations that use <b>Microsoft Defender for Office 365</b> across Worldwide, GCC, GCC High, and DoD clouds</li></ul><p><i>What will happen</i></p><ul><li>Incoming promotional messages will be tagged as “<i><b>promotions</b></i>.” (previously “Bulk” in private and public&nbsp;preview)</li><li>If the <b>Bulk Moves Enabled setting</b> is turned on, tagged messages will automatically move to a <b>Promotions folder</b> created in user mailboxes.</li><li>The system will learn from user actions when they move messages into or out of the Promotions folder. Future messages will follow the learned behavior.</li><li>Users will be able to <b>create inbox rules that reference the promotions tag</b>.</li><li><b>During the Public Preview:</b>&nbsp;<b></b><ul><li><b>Tagging will be opt-in</b> and configured using Exchange transport rules.</li><li>Folder routing will be enabled through anti-spam policy settings (“Bulk moves enabled”). </li><li>Both features will be able to be scoped to pilot security groups for a staged rollout.</li></ul></li><li><b>At Worldwide General Availability, tagging will be enabled by default for all tenants and will always remain that way.</b></li></ul><p><i>Figure one - Admin configuration for tagging using exchange transport rule (required for public preview opt-In):</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/110e041c-9767-4ff6-b95a-b37dc4815cdc/8a8a6f9d519799822a0259a099b17f2aaf5f39b3.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure two - Admin configuration for Bulk moves enabled to provision the promotions folder:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a815915f-989a-4391-b135-19e188ee232d/05e417e5652a87e20081358693796972210ab83e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure three - System tagging of “Promotions” in outlook client and promotions folder (previously&nbsp; tagged as “Bulk” in private and public&nbsp;preview):</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6680f473-9df6-4ed8-8c16-ecbc69c42fb6/88c6582e0698b7b767ac961bf617cce0e1b00d3d.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure four - User inbox rules using the promotions” tag:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/62e24477-b653-432f-8840-edbc788b00e5/7acb536715ce421af5ac3ff77a913e3ba596384f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li>To be included in the public preview program, send an email to <a href=\"mailto://BulkMailPreviews@microsoft.com\">BulkMailPreviews@microsoft.com</a>&nbsp;indicating: Organization name, Tenant ID and your&nbsp;onmicrosoft.com domain (e.g contoso.onmicrosoft.com). Slots are limited and will close on April 30th, 2026.</li><li>Review your internal mailbox and message handling guidance and update training materials if needed.</li><li>If you plan to participate in the Public Preview, review your Exchange transport rule and anti-spam policy configurations to determine if you want to opt-in.</li><li>Monitor the product documentation. A link will be added to this post when it becomes available.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><b>Does the change alter how existing customer data is processed, stored, or accessed?</b></td><td><b>Yes. </b>Incoming email will receive the promotions classification and may be moved automatically to the Promotions folder depending on admin configuration.</td></tr><tr><td><p><b>Does the change introduce or significantly modify AI or ML that interacts with customer data?</b></p></td><td><b>Yes. </b>The system learns from user actions when they move messages and applies that learning to future similar messages.</td></tr><tr><td><b>Does the change include an admin control, and can it be controlled through Entra ID group membership?</b></td><td><b>Yes. </b>Admins can enable or disable Bulk Moves Enabled and can opt in to tagging during Public Preview. These controls can be scoped using existing admin delegation models.</td></tr><tr><td><b>Does the change allow a user to enable or disable the feature themselves?</b></td><td><b>Yes. </b>Users can override tagging behavior by moving messages in or out of the Promotions folder, which trains the ML model and adjusts future message handling.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Office 365 will tag promotional emails as “promotions” and can auto-move them to a Promotions folder, learning user preferences. Public preview starts mid-April 2026; general availability begins July 2026. Admins can configure settings, and users can train the system by moving messages."
+      }
+    ],
+    "EndDateTime": "2026-09-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1279093",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-16T22:42:24.583Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-13T22:54:05Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Defender for Office 365: Enhancing how we handle promotional mail",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 16, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To strengthen security when Microsoft Purview interacts with Microsoft 365 services (Exchange, SharePoint, OneDrive, and Teams), we’re updating how roles are managed in Microsoft Purview. Certain admin roles in Purview will now be mapped to three newly created roles in Microsoft Entra. Role assignments will be synchronized between Purview roles and Entra roles without any customer action. This ensures that user permissions and identity flow securely from Purview to Microsoft 365. M365 services will only allow high-privileged operations like search/export to Purview users with the correct level of permissions in Entra, further protecting customer data.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): Rollout begins mid-February 2026, finishes by late May 2026 (previously late March).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> All customers with admins assigned to high-privileged roles in Purview that access Microsoft 365 data. These admins will have their assignments synced to Entra, meaning they will be assigned membership to mapped Entra roles.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>New roles will be created in Entra to map to Purview roles listed below.</li>\n<li>Existing role assignments will sync automatically.</li>\n<li>New assignments will sync from Purview to Entra within 15 minutes.</li>\n<li>If an admin has multiple Purview roles, they will receive the highest privilege Entra role: Administrator &gt; Writer &gt; Reader.</li>\n<li>Customers may see new Purview-specific Entra roles in audit logs.</li>\n<li>Do not assign to these roles directly in Entra; Purview manages them.</li>\n</ul>\n\n<p><b>Role Mapping Table:</b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Purview Role(s)</th><th>Mapped Entra Role</th></tr>\n<tr><td><p>Insider Risk Management Analysis<br>Insider Risk Management Investigation<br>Compliance Search<br>Export<br>Privacy Management Admin<br>Privacy Management Analysis<br>Privacy Management Investigation<br>Privacy Management Permanent Contribution<br>Privacy Management Temporary Contribution<br>Privacy Management Viewer<br>Data Security Investigation Reviewer</p></td><td>Purview Workload Content Reader</td></tr>\n<tr><td>Hold<br>Privacy Management Investigation<br>Data Security Investigation Investigator</td><td>Purview Workload Content Writer</td></tr>\n<tr><td>Search and Purge<br>Data Security Investigation Admin<br>Data Security Investigation Analyst (New Role)</td><td>Purview Workload Content Administrator</td></tr>\n</tbody></table>\n\n<p><b>Example:</b> If you have both Export and Search and Purge roles, you’ll get the Purview Workload Content Administrator role in Entra.</p>\n\n<p><b>Audit logs:</b></p><p>The Audit logs will look like below, with Display Name always shown as “PurviewRoleAssignmentMigrator”.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6759802d-2401-4c09-a6bb-5a1936e41763/4a5943b81829ed862af4232c49b50da426aa838c.png\" style=\"width: 25%;\" alt=\"user settings\"></p>\n<p>New Value for Role would always be one of the 3 new Entra roles created in Entra for protecting Purview customers</p><p></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0840f18-037d-4c1a-9099-67c92e947f2e/c17432e2c98612efe0a9114d5774a57726d4e38a.png\" style=\"width: 25%;\" alt=\"user settings\"></p>\n<p><br></p><p><b><b>What you can do to prepare:</b></b></p><ul><li>No action is required.</li><li>You will see these changes in assignments in the Entra Audit logs.&nbsp; These changes will happen in two modes:<ul><li>Bulk/One time update when all existing assignments to Purview roles are synced with Entra. This will be done once for each customer. <b>This will generate extra activities in the Entra Audit logs as all previous assignments are synced from Purview to Entra</b>.</li><li>Continuous mode: all changes made subsequently in assignments for these Purview roles will be kept in sync with Entra. Customers will see these changes in Entra Audit Logs too. The amount of activity in audit logs will be in sync with the changes being made to Purview roles by admins.</li></ul></li><li>Active Assignments in Privileged Identity Management (PIM)<ul><li>Although the 3 new Entra roles are PIM-enabled, the assignments made to them by the sync process will be active (not eligible). If customers have PIM-enabled security groups assigned to Purview roles, then the same PIM-enabled security groups will be assigned to these 3 new Entra roles.</li></ul></li><li>Do not manually assign these roles in Entra; Purview will overwrite changes.</li>\n<li>For more details, review <a href=\"https://learn.microsoft.com/microsoft-365/compliance/\" target=\"_blank\">Microsoft Purview documentation</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview is updating role management by mapping certain Purview admin roles to three new Microsoft Entra roles, syncing assignments automatically to enhance security with Microsoft 365 services. Rollout begins mid-February 2026, finishing by late May 2026. No customer action is required."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1199765",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-16T22:33:59.6Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-18T23:40:22Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Role management update",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re updating how users access Copilot in Excel to provide a clearer, more consistent, and more intuitive experience across Microsoft 365 apps. These changes consolidate multiple Copilot entry points into a single, predictable location and establish<b> Excel Edit Mode in the right-side chat pane</b> as the primary Copilot interface. This update improves discoverability, simplifies user workflows, and aligns the Excel Copilot experience with other Microsoft 365 applications.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide): Rollout begins in <b>late April 2026</b> and is expected to complete by<b> early June 2026</b>.</li>\n  <li>General Availability (GCC, GCC High, and DoD): Rollout begins in <b>early&nbsp;October 2026</b> and is expected to complete by <b>late October 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All users of Microsoft 365 apps for <b>Excel on Windows, macOS, and the web</b> with Copilot enabled.</li><li>A <b>Microsoft 365 Copilot (Premium) license</b> is required to use this feature.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Some Copilot entry points that appear when selecting a cell or opening the right-click menu will be removed.</li>\n  <li>A single, consolidated Copilot entry point will appear in a consistent corner location within Excel.</li><p>Screenshot: <i>Updated Excel entry point:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/cef08032-4117-4f33-abf0-75c60f81b978\" style=\"width: 123px;\" alt=\"user settings\"></p>\n  <li>The<b> Excel Agent in the right-side chat pane</b> becomes the primary interface for Copilot prompts and responses.</li>\n  <li>Copilot availability, licensing, and existing admin policies remain unchanged.</li>\n  <li>The feature is <b>on by default</b> for users who already have Copilot access.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required.</p><p>You may optionally:</p>\n<ul>\n  <li>Inform users about the updated Copilot entry points and chat-based experience in Excel.</li>\n  <li>Update internal documentation or training materials if you reference specific Copilot buttons or menus.</li>\n  <li>Notify helpdesk teams to prepare for user questions during rollout.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Compliance area</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n \n  <tr>\n    <td>Does the change provide end users a new way of interacting with generative AI?</td>\n    <td>Users will primarily interact with Copilot through the right-side chat pane instead of multiple in-context entry points within Excel.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -812,7 +889,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -948,7 +1025,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525883Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525885Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7580046Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7580048Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1613,44 +1690,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are enhancing how <b>Microsoft Defender for Office 365</b> identifies and manages promotional email. Promotional messages will be tagged as “promotions” (previously “Bulk” in preview) and can be moved automatically to a new Promotions folder. The system learns from user actions, such as moving messages into or out of the <i><b>Promotions folder</b></i> and applies those preferences to future messages. These improvements reduce inbox clutter and help users stay focused while still receiving promotional content they want.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview (Worldwide): </b>We will begin rolling out in <b>mid-April 2026</b>&nbsp;and expect to complete by<b> late April 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early July 2026 </b>and expect to complete by <b>late July 2026</b>.</li><li><b>General Availability (DoD, GCC, GCC High): </b>We will begin rolling out in <b>early July 2026</b> and expect to complete by&nbsp;<b>mid-August 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations that use <b>Microsoft Defender for Office 365</b> across Worldwide, GCC, GCC High, and DoD clouds</li></ul><p><i>What will happen</i></p><ul><li>Incoming promotional messages will be tagged as “<i><b>promotions</b></i>.”</li><li>If the <b>Bulk Moves Enabled setting</b> is turned on, tagged messages will automatically move to a <b>Promotions folder</b> created in user mailboxes.</li><li>The system will learn from user actions when they move messages into or out of the Promotions folder. Future messages will follow the learned behavior.</li><li>Users will be able to <b>create inbox rules that reference the promotions tag</b>.</li><li><b>During the Public Preview:</b>&nbsp;<b></b><ul><li><b>Tagging will be opt-in</b> and configured using Exchange transport rules.</li><li>Folder routing will be enabled through anti-spam policy settings (“Bulk moves enabled”). </li><li>Both features will be able to be scoped to pilot security groups for a staged rollout.</li></ul></li><li><b>At Worldwide General Availability, tagging will be enabled by default for all tenants.</b></li></ul><p><i>Figure one - Admin configuration for tagging using exchange transport rule (required for public preview opt-In):</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/110e041c-9767-4ff6-b95a-b37dc4815cdc/8a8a6f9d519799822a0259a099b17f2aaf5f39b3.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure two - Admin configuration for Bulk moves enabled to provision the promotions folder:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a815915f-989a-4391-b135-19e188ee232d/05e417e5652a87e20081358693796972210ab83e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure three - System tagging of “Promotions” in outlook client and promotions folder:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6680f473-9df6-4ed8-8c16-ecbc69c42fb6/88c6582e0698b7b767ac961bf617cce0e1b00d3d.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure four - User inbox rules using the promotions” tag:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/62e24477-b653-432f-8840-edbc788b00e5/7acb536715ce421af5ac3ff77a913e3ba596384f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required at this time.</li><li>Review your internal mailbox and message handling guidance and update training materials if needed.</li><li>If you plan to participate in the Public Preview, review your Exchange transport rule and anti-spam policy configurations to determine if you want to opt-in.</li><li>Monitor the product documentation. A link will be added to this post when it becomes available.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><b>Does the change alter how existing customer data is processed, stored, or accessed?</b></td><td><b>Yes. </b>Incoming email will receive the promotions classification and may be moved automatically to the Promotions folder depending on admin configuration.</td></tr><tr><td><p><b>Does the change introduce or significantly modify AI or ML that interacts with customer data?</b></p></td><td><b>Yes. </b>The system learns from user actions when they move messages and applies that learning to future similar messages.</td></tr><tr><td><b>Does the change include an admin control, and can it be controlled through Entra ID group membership?</b></td><td><b>Yes. </b>Admins can enable or disable Bulk Moves Enabled and can opt in to tagging during Public Preview. These controls can be scoped using existing admin delegation models.</td></tr><tr><td><b>Does the change allow a user to enable or disable the feature themselves?</b></td><td><b>Yes. </b>Users can override tagging behavior by moving messages in or out of the Promotions folder, which trains the ML model and adjusts future message handling.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Defender for Office 365 will tag promotional emails as \"promotions\" and can auto-move them to a Promotions folder, learning from user actions to improve sorting. Rollout begins mid-April 2026 (preview) and July 2026 (general availability) worldwide, affecting all tenants with configurable admin controls."
-      }
-    ],
-    "EndDateTime": "2026-09-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1279093",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-13T22:54:19.833Z",
-    "Services": [
-      "Microsoft Defender XDR"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-13T22:54:05Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Defender for Office 365: Enhancing how we handle promotional mail",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are making an update to Passkeys (FIDO2) support within Microsoft Entra Authentication Methods Registration Campaigns.</p><p>Based on ongoing improvements to passkey registration nudge logic and user experience behavior, Passkeys (FIDO2) will no longer move forward to General Availability as the targeted authentication method for Registration Campaigns in the<b> Enabled state</b> as previously communicated in <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1253746\" target=\"_blank\">MC1253746.&nbsp;</a></p><p>Instead, we are continuing to refine the eligibility logic that determines when users receive passkey registration nudges during sign-in. In the interim, Passkey (FIDO2) will move forward as the targeted authentication method for Registration Campaigns in the <b>Microsoft Managed state </b>for tenants that meet our in-scope criteria.&nbsp;</p><p><b></b></p><p><b> <b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑May 2026 </b>to Microsoft Managed state&nbsp;and is expected to complete by<b> late June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft Entra tenants using <b>Authentication Methods Registration Campaigns</b></li><li>Tenants with <b>Passkeys (FIDO2) </b>enabled</li><li>Only tenants that meet the Microsoft‑managed eligibility criteria described below</li></ul><p><i>What will happen</i></p><p><b>Enabled state</b></p><ul><li>Passkeys (FIDO2) will <b>not</b> be supported as the targeted authentication method for Registration Campaigns in the <i><b>Enabled</b></i> state at this time.</li><li>We are continuing to improve registration campaign nudge behavior and eligibility logic to better align with passkey configuration and profile scope.</li><li>Further updates will be shared when support for the Enabled state becomes available.</li></ul><p><b>Microsoft‑managed state</b></p><ul><li>Passkeys (FIDO2) will be introduced as the targeted authentication method in the<b> Microsoft‑managed</b> state for eligible tenants.</li></ul><p>Tenants are impacted when <b>all </b>of the following conditions are met:</p><ul><li>The <b>Passkeys (FIDO2) </b>authentication method policy is<b> <i>Enabled</i></b>.</li><li><b>Allow self‑service setup</b> is<b><i> Enabled</i></b>.</li><li><b>Target specific AAGUIDs </b>is <b>not </b>selected (no AAGUID restrictions configured).</li><li>The Authentication Methods Registration Campaign state is set to <b>Microsoft‑managed</b>.</li><li>The tenant has at least one user enabled for <b>both synced passkeys and device‑bound passkeys</b>.</li></ul><p>Only users who are enabled for <b>both synced and device‑bound passkeys</b>, with&nbsp;<b>no passkey profile restrictions </b>configured<b>&nbsp;</b>(for example, attestation enforcement or AAGUID restrictions), will receive a passkey registration nudge during sign‑in.</p><p>For impacted tenants, the following Registration Campaign settings will be automatically updated:</p><ul><li><b>Targeted authentication method</b> changes from Microsoft Authenticator to Passkeys (FIDO2).</li><li><b>Days allowed to snooze</b> changes from 3 days to 1 day (no longer configurable).</li><li><b>Limited number of snoozes </b>changes from<i><b> </b>Enabled </i>to <i style=\"\">Disabled</i> (no longer configurable).</li><li><b>Default user targeting </b>changes from voice call or text message users to all MFA‑capable users.</li></ul><p>After these changes take effect, targeted users will begin receiving passkey registration nudges during sign‑in <b>after completing multifactor authentication</b>.</p><p>Rollout will occur incrementally across eligible Microsoft Entra tenants.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>If you plan to enable passkey registration nudges in the future:</p><ul><li>Ensure users are enabled for <b>both synced and device‑bound passkeys</b>.</li><li>Remove any <b>passkey profile restrictions </b>(such as AAGUID or attestation requirements).</li><li>Set your Authentication Methods Registration Campaign to <b>Microsoft‑managed</b>.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change include an admin control, and can it be controlled through Microsoft Entra settings?</td><td>Yes. This change is governed by existing Microsoft Entra Authentication Methods policies and Authentication Methods Registration Campaign configuration. Administrators control whether passkey registration nudges are delivered by enabling passkeys, configuring self‑service setup, and setting the registration campaign to the Microsoft‑managed state.</td></tr></tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -1739,7 +1778,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7527534Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7527536Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7527537Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576754Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576757Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576758Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3655,7 +3694,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3705,7 +3744,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3802,7 +3841,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4333,7 +4372,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5144,7 +5183,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6627,7 +6666,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7021,7 +7060,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7102,7 +7141,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7656,7 +7695,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8668,7 +8707,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10387,7 +10426,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11578,7 +11617,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11846,7 +11885,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11989,7 +12028,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525162Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525165Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525166Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525167Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T21:38:53.7525168Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578894Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578895Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578896Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578897Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578899Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12296,7 +12335,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14385,7 +14424,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14435,7 +14474,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15093,7 +15132,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15182,7 +15221,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15751,44 +15790,6 @@
       "Admin impact"
     ],
     "Title": "Tenant Default Change – Workspace Admins Will Be Allowed to Enable Monitoring",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 17, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To strengthen security when Microsoft Purview interacts with Microsoft 365 services (Exchange, SharePoint, OneDrive, and Teams), we’re updating how roles are managed in Microsoft Purview. Certain admin roles in Purview will now be mapped to three newly created roles in Microsoft Entra. Role assignments will be synchronized between Purview roles and Entra roles without any customer action. This ensures that user permissions and identity flow securely from Purview to Microsoft 365. M365 services will only allow high-privileged operations like search/export to Purview users with the correct level of permissions in Entra, further protecting customer data.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): Rollout begins mid-February 2026, finishes by late March 2026.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b> All customers with admins assigned to high-privileged roles in Purview that access Microsoft 365 data. These admins will have their assignments synced to Entra, meaning they will be assigned membership to mapped Entra roles.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>New roles will be created in Entra to map to Purview roles listed below.</li>\n<li>Existing role assignments will sync automatically.</li>\n<li>New assignments will sync from Purview to Entra within 15 minutes.</li>\n<li>If an admin has multiple Purview roles, they will receive the highest privilege Entra role: Administrator &gt; Writer &gt; Reader.</li>\n<li>Customers may see new Purview-specific Entra roles in audit logs.</li>\n<li>Do not assign to these roles directly in Entra; Purview manages them.</li>\n</ul>\n\n<p><b>Role Mapping Table:</b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr><th>Purview Role(s)</th><th>Mapped Entra Role</th></tr>\n<tr><td><p>Insider Risk Management Analysis<br>Insider Risk Management Investigation<br>Compliance Search<br>Export<br>Privacy Management Admin<br>Privacy Management Analysis<br>Privacy Management Investigation<br>Privacy Management Permanent Contribution<br>Privacy Management Temporary Contribution<br>Privacy Management Viewer<br>Data Security Investigation Reviewer</p></td><td>Purview Workload Content Reader</td></tr>\n<tr><td>Hold<br>Privacy Management Investigation<br>Data Security Investigation Investigator</td><td>Purview Workload Content Writer</td></tr>\n<tr><td>Search and Purge<br>Data Security Investigation Admin<br>Data Security Investigation Analyst (New Role)</td><td>Purview Workload Content Administrator</td></tr>\n</tbody></table>\n\n<p><b>Example:</b> If you have both Export and Search and Purge roles, you’ll get the Purview Workload Content Administrator role in Entra.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required.</li>\n<li>Be aware that new Purview-specific Entra roles may appear in audit logs.</li>\n<li>Do not manually assign these roles in Entra; Purview will overwrite changes.</li>\n<li>For more details, review <a href=\"https://learn.microsoft.com/microsoft-365/compliance/\" target=\"_blank\">Microsoft Purview documentation</a>.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview is updating role management by mapping certain Purview admin roles to new Microsoft Entra roles, synchronizing assignments automatically from mid-February to late March 2026. No customer action is needed, but new Entra roles will appear in audit logs and should not be assigned manually."
-      }
-    ],
-    "EndDateTime": "2026-04-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1199765",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-18T19:21:52.207Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-18T23:40:22Z",
-    "Tags": [
-      "Updated message",
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview: Role management update",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18246,7 +18247,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20423,7 +20424,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
