@@ -4,6 +4,81 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing <b>Create and edit SharePoint pages with Copilot-powered AI</b>, a new authoring experience that helps page editors plan, create, and refine SharePoint pages using natural language prompts. This feature reduces the time and effort required to build high-quality pages by allowing authors to generate and edit content, layouts, and web parts directly through an AI-assisted editing panel, grounded in their organization’s existing Microsoft 365 content.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> We began rolling out in <b>early April 2026</b> and expect to complete by <b>mid-April 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early May 2026</b> and expect to complete by <b>early June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>SharePoint page editors in Microsoft 365 tenants</li><li>Only users assigned a Microsoft 365 Copilot license</li><li>Production tenants (not GCC or Gallatin)</li></ul><p><i>What will happen</i></p><ul><li>Page editors with a Copilot license will see a new AI authoring panel automatically open when editing SharePoint pages:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c037336-6df1-40f0-987b-50b9dee37339/25ed4bb8a0f8282ed6aeab030f941e9f94b58fae.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0fd10e67-dba1-4813-808e-2521e8e7d2f8/3ce9af8cee4b8ec64384f972ed94fe40f15fb567.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can:<ul><li>Generate new page sections using natural language prompts:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/765f1ed5-aa73-4594-8d66-0164a72817f4/258821bfb0f294e2148382c585b0504b9e36ca33.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Edit existing text, layouts, and web parts through chat-based instructions.</li><li>Attach Microsoft 365 files as grounding context for better AI-generated results:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/73660836-33cb-4dd0-ae94-b4ebb8a1b170/f62d36b5508554e9e5ec7e7c5e3cb349f86ca514.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li><li>AI-generated changes are inserted directly into the page and visually highlighted:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/040b9868-e027-410a-80f3-82e94973d0a6/ff017175365571cbc4b683f2cd677d5cfe143a5d.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can switch between AI-assisted editing and standard manual editing at any time:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/296eb8bc-12f8-457e-b680-fd2bf66853aa/d2cd48938dc7efd1af891054388e1be102ee4f6b.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Chat history persists for the duration of the editing session unless manually cleared:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fce45b42-8417-4d09-adb5-91b153d41d9f/b17dffa7450ebf96eb2b896049e855d96e20274a.png\" alt=\"user settings\" style=\"width: 400px;\"></p></li><li>This feature is <b>enabled by default</b> for eligible users with Copilot licenses.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to prepare for this change.</p><p>Recommended actions:</p><ul><li>Inform SharePoint page authors about the new AI-assisted editing experience.</li><li>Update internal documentation or training materials if you provide guidance on SharePoint authoring.</li><li>Ensure Copilot license assignments align with who should have access to AI-powered page creation.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (for example, documents or page content)?</td><td>Yes. Copilot uses existing SharePoint page content and user-selected Microsoft 365 files (such as documents) as grounding context to generate or edit page sections. Content is processed at the time of generation to produce suggestions and changes directly in the page editor.</td></tr><tr><td>Does the change introduce or significantly modify AI or agent capabilities that interact with customer data?</td><td>Yes. This change introduces a Copilot-powered AI authoring experience in SharePoint. The AI assists users by generating and editing page content, layouts, and web parts based on prompts and selected Microsoft 365 content.</td></tr><tr><td>Does the change provide users a new way of interacting with generative AI?</td><td>Yes. Page editors with a Copilot license can interact with generative AI directly within the SharePoint page editing experience using natural language chat prompts to plan, create, and modify content.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Access to the feature is governed by Microsoft Copilot license assignment. Only users assigned a Copilot license can access the AI authoring panel. There is no additional tenant-level toggle specific to this feature.</td></tr><tr><td>Does the change allow users to enable or disable the feature themselves?</td><td>Yes. While the feature is available by default for Copilot-licensed users, users can choose when to use AI during page editing and can switch between AI-assisted editing and standard manual editing at any time.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "SharePoint page editors with a Microsoft 365 Copilot license will get an AI-powered authoring panel to create and edit pages using natural language prompts, leveraging existing Microsoft 365 content. The feature rolls out from April to June 2026, is enabled by default, and allows switching between AI and manual editing."
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1282683",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-16T23:50:41.473Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-16T23:50:37Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Create and edit SharePoint pages with Copilot-powered AI",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re updating the user experience in Agent Builder to make agent creation clearer, faster, and more intuitive. Based on customer feedback, these changes improve visual clarity and help users better understand how describing an agent, configuring it, and testing it work together—without changing how agents function or how they’re managed.</p>\n<p>This update focuses only on the agent creation experience. There are no changes to agent capabilities, publishing behavior, or admin controls.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide, GCC, GCCH): Rollout begins in <b>late April 2026.</b></li></ul><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users who create agents using Agent Builder in Microsoft 365 Copilot</li><li>This feature is available to those using <b>Copilot Chat (Basic)</b> as well as <b>Microsoft 365 Copilot (Premium)</b>.</li>\n  </ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Users can develop agents using natural language prompts, with guidance provided through an intuitive creation experience.</li>\n  <p>Screenshot 1: <i>The <b>Agent Builder</b> landing page now shows templates and a list of existing agents, making it easier to start or reuse an agent:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0146786c-375b-40e5-9fa3-f71b319c5086\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <p>Screenshot 2: <i>The <b>Describe </b>and <b>Configure </b>panes are displayed side by side</i>:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/443ed5c8-efa3-4a75-9bdc-0aa04609eb72\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <ul>\n      <li>Updates in the Describe pane automatically reflect in the configuration in real time.</li>\n      <li>The configuration pane highlights what changed and why.</li>\n      <li>Users can review how instructions evolve over time by selecting <b>Show changes</b>.</li>\n    </ul>\n  \n  <li>Testing an agent is now accessed through a <b>Try it</b> toggle, allowing users to switch between configuring and testing before publishing.</li>\n  <li>The feature is enabled by default and does not require admin configuration.</li>\n</ul>\n\n<p><b>There are no changes to:</b></p>\n<ul>\n  <li>How agents work once published</li>\n  <li>Admin policies, controls, or permissions</li>\n  <li>Existing agents or configurations</li>\n</ul>\n\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required.</p>\n<p>You may consider the following optional steps:</p>\n<ul>\n  <li>Inform helpdesk staff that Agent Builder has a refreshed creation layout.</li>\n  <li>Update internal training or documentation if you reference screenshots or step-by-step agent creation guidance.</li>\n</ul>\n\n<p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-build-agents\" target=\"_blank\">Build agents by using Agent Builder in Microsoft 365 Copilot | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot's Agent Builder will have an updated, more intuitive agent creation experience starting late April 2026, improving clarity and real-time configuration without changing agent functionality, publishing, or admin controls. No action is required, but internal training updates are optional."
+      }
+    ],
+    "EndDateTime": "2026-06-05T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1282682",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-16T23:50:12.403Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-16T23:50:08Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Agent Builder in Microsoft 365 Copilot: Updates to the agent creation experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 16, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are enhancing how <b>Microsoft Defender for Office 365</b> identifies and manages promotional email. Promotional messages will be tagged as “promotions” (previously “Bulk” in preview) and can be moved automatically to a new Promotions folder. The system learns from user actions, such as moving messages into or out of the <i><b>Promotions folder</b></i> and applies those preferences to future messages. These improvements reduce inbox clutter and help users stay focused while still receiving promotional content they want.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview (Limited): </b>We will begin rolling out in <b>mid-April 2026</b>&nbsp;and expect to complete by<b>&nbsp;end of April 2026 </b>(previously late April). To be included in the public preview program, send an email to <a href=\"mailto://BulkMailPreviews@microsoft.com\">BulkMailPreviews@microsoft.com</a> indicating: Organization name, Tenant ID and your onmicrosoft.com domain (e.g contoso.onmicrosoft.com) . Slots are limited and will close on April 30th, 2026.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early July 2026 </b>and expect to complete by <b>late July 2026</b>.</li><li><b>General Availability (DoD, GCC, GCC High): </b>We will begin rolling out in <b>early July 2026</b> and expect to complete by&nbsp;<b>mid-August 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations that use <b>Microsoft Defender for Office 365</b> across Worldwide, GCC, GCC High, and DoD clouds</li></ul><p><i>What will happen</i></p><ul><li>Incoming promotional messages will be tagged as “<i><b>promotions</b></i>.” (previously “Bulk” in private and public&nbsp;preview)</li><li>If the <b>Bulk Moves Enabled setting</b> is turned on, tagged messages will automatically move to a <b>Promotions folder</b> created in user mailboxes.</li><li>The system will learn from user actions when they move messages into or out of the Promotions folder. Future messages will follow the learned behavior.</li><li>Users will be able to <b>create inbox rules that reference the promotions tag</b>.</li><li><b>During the Public Preview:</b>&nbsp;<b></b><ul><li><b>Tagging will be opt-in</b> and configured using Exchange transport rules.</li><li>Folder routing will be enabled through anti-spam policy settings (“Bulk moves enabled”). </li><li>Both features will be able to be scoped to pilot security groups for a staged rollout.</li></ul></li><li><b>At Worldwide General Availability, tagging will be enabled by default for all tenants and will always remain that way.</b></li></ul><p><i>Figure one - Admin configuration for tagging using exchange transport rule (required for public preview opt-In):</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/110e041c-9767-4ff6-b95a-b37dc4815cdc/8a8a6f9d519799822a0259a099b17f2aaf5f39b3.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure two - Admin configuration for Bulk moves enabled to provision the promotions folder:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a815915f-989a-4391-b135-19e188ee232d/05e417e5652a87e20081358693796972210ab83e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure three - System tagging of “Promotions” in outlook client and promotions folder (previously&nbsp; tagged as “Bulk” in private and public&nbsp;preview):</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6680f473-9df6-4ed8-8c16-ecbc69c42fb6/88c6582e0698b7b767ac961bf617cce0e1b00d3d.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Figure four - User inbox rules using the promotions” tag:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/62e24477-b653-432f-8840-edbc788b00e5/7acb536715ce421af5ac3ff77a913e3ba596384f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li>To be included in the public preview program, send an email to <a href=\"mailto://BulkMailPreviews@microsoft.com\">BulkMailPreviews@microsoft.com</a>&nbsp;indicating: Organization name, Tenant ID and your&nbsp;onmicrosoft.com domain (e.g contoso.onmicrosoft.com). Slots are limited and will close on April 30th, 2026.</li><li>Review your internal mailbox and message handling guidance and update training materials if needed.</li><li>If you plan to participate in the Public Preview, review your Exchange transport rule and anti-spam policy configurations to determine if you want to opt-in.</li><li>Monitor the product documentation. A link will be added to this post when it becomes available.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><b>Does the change alter how existing customer data is processed, stored, or accessed?</b></td><td><b>Yes. </b>Incoming email will receive the promotions classification and may be moved automatically to the Promotions folder depending on admin configuration.</td></tr><tr><td><p><b>Does the change introduce or significantly modify AI or ML that interacts with customer data?</b></p></td><td><b>Yes. </b>The system learns from user actions when they move messages and applies that learning to future similar messages.</td></tr><tr><td><b>Does the change include an admin control, and can it be controlled through Entra ID group membership?</b></td><td><b>Yes. </b>Admins can enable or disable Bulk Moves Enabled and can opt in to tagging during Public Preview. These controls can be scoped using existing admin delegation models.</td></tr><tr><td><b>Does the change allow a user to enable or disable the feature themselves?</b></td><td><b>Yes. </b>Users can override tagging behavior by moving messages in or out of the Promotions folder, which trains the ML model and adjusts future message handling.</td></tr></tbody></table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -1025,7 +1100,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7580046Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7580048Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2541754Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2541755Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1778,7 +1853,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576754Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576757Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7576758Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2538483Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2538498Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2538499Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7060,7 +7135,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12028,7 +12103,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578894Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578895Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578896Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578897Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-16T23:36:47.7578899Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2540789Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.254079Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2540791Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2540804Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T02:12:02.2540806Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
