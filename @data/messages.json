@@ -1171,7 +1171,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1962992Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1962993Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3002719Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3002722Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1924,7 +1924,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1960728Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.196073Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1960731Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-17T22:34:46.2998176Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.2998181Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.2998184Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11294,37 +11294,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "Custom theming for model-driven apps using the modern, refreshed look has been available in preview since October 2023. This capability allows organizations to align model-driven apps with their branding by customizing colors, fonts, and app header styling using the Microsoft Fluent 2 design system. As of March 31, 2026, custom theming will reach general availability.<br><br><b>How does this affect me?</b><br>Classic theming is not honored with the modern, refreshed look, which is becoming mandatory for model-driven apps in April 2026. The supported theming replacement with the modern look is custom modern themes, which gives makers the ability to:<ul><li>Apply a cohesive color scheme across the app based on a single base color, including hyperlinks, primary buttons, active tab indicators, row selection, and hover effects.</li><li>Customize the app header background and text colors, including hover, pressed, and selected states.</li><li>Set a custom logo for the app header to reinforce organizational branding. Note: Custom logo support in the modern theme XML is currently rolling out and will be available in all regions by the end of April 2026.</li><li>Override the default font used throughout the application.</li></ul>These customizations are applied through an XML web resource and can be scoped to your environment using the Custom theme definition app setting.<br><br><b>What action do I need to take?</b><br>To take advantage of custom theming, we recommend doing the following:<ul><li>If your organization was using classic themes, create a new custom theme XML web resource that reflects your branding. Follow the steps in the documentation to apply it to your environment.</li><li>Update internal documentation and training materials to reference the new custom theming approach instead of classic theming.</li><li>Report any issues or unexpected behavior through Microsoft Support so we can investigate.</li></ul>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14420\">Use modern themes in Power Apps - Power Apps. </a>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-04-17T21:54:38Z",
-    "HasAttachments": false,
-    "Id": "MC1254543",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-17T21:56:35.417Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-17T21:54:38Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Apps - Custom theming for model-driven apps is becoming generally available",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated March 17, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b>\n<p>Enable Microsoft Purview to access, process, and store prompt and response data—including associated metadata—from Microsoft Foundry apps and agents. This integration supports key data security and compliance scenarios such as:</p>\n<ul>\n<li>Sensitive information type (SIT) classification</li>\n<li>Analytics and reporting through Microsoft Purview DSPM for AI</li>\n<li>Insider Risk Management</li>\n<li>Communication Compliance</li>\n<li>Microsoft Purview Audit</li>\n<li>Data Lifecycle Management</li>\n<li>eDiscovery</li>\n</ul>\n<p>Microsoft Foundry now has direct integration with Microsoft Purview. This capability helps your organization manage and monitor AI-generated data in alignment with enterprise policies and regulatory requirements.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=537271\" target=\"_blank\">537271</a>.</p>\n\n<b><b>When this will happen</b></b>\n<ul>\n<li><b>Public Preview:</b> Rolling out mid-December 2025, expected completion mid-January 2026.</li>\n<li><b>Worldwide:</b> Rolling out mid-May 2026 (previously mid-March), expected completion mid-June 2026 (previously mid-April).</li>\n</ul>\n\n<b><b>How this affects your organization</b></b>\n<ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Foundry and Purview integrations.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>Admins can enable a toggle in Foundry to send AI interaction data to Purview.</li>\n<li>Feature is opt-in; requires admin action to enable.</li>\n<li>Once enabled, AI interaction data will be monitored and secured for compliance purposes.</li>\n</ul>\n</li>\n</ul>\n\n<b><b>What you can do to prepare</b></b>\n<ul>\n<li>Work with the Foundry subscription owner to enable the toggle in the Foundry control plane.</li>\n<li>Pre-requisite: Assign “Cognitive Services Security Integration Administrator” role.</li>\n<li>Steps:\n<ul>\n<li>Go to Operate → Compliance.</li>\n<li>Select the “Security” tab.</li>\n<li>Select the Azure Subscription.</li>\n<li>Click the enablement toggle next to “Microsoft Purview.”</li>\n</ul>\n</li>\n<li>Repeat for other Azure subscriptions as needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/purview/ai-azure-foundry\" target=\"_blank\">Use Microsoft Purview to manage data security &amp; compliance for Microsoft Foundry | Microsoft Learn</a></p><ul>\n</ul>\n\n<b><b>Compliance considerations</b></b>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n\n</p>",
       "ContentType": "html"
     },
@@ -11978,7 +11947,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1961819Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.196182Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1961822Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1961823Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T20:44:15.1961824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3001126Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3001129Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3001131Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3001134Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T22:34:46.3001136Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
