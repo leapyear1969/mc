@@ -4,6 +4,44 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Microsoft Entra passkeys on Windows</b> will soon be Generally Available, enabling phishing‑resistant, passwordless sign‑in to Microsoft Entra‑protected resources from Windows devices.</p><p>The Public Preview of this capability was previously announced in <b>MC1247893</b>.</p><p>Users can create device‑bound passkeys stored in the Windows Hello container and authenticate using Windows Hello methods (face, fingerprint, or PIN). This expands passwordless authentication support to Windows devices that aren’t Microsoft Entra‑joined or registered, helping organizations strengthen security and reduce reliance on passwords across corporate‑managed, personal, and shared device scenarios.</p>\n<p><b><b>When this will happen:</b></b></p>\n\n\n<ul><li>General Availability (Worldwide):&nbsp;We will begin rolling out in <b>late April 2026</b> and expect to complete by <b>mid‑June 2026</b>.</li><li>General Availability (GCC, GCC High, DoD):&nbsp;We will begin rolling out in <b>early July 2026</b> and expect to complete by<b> late July 2026</b>.</li></ul><p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<p>Organizations using Microsoft Entra ID with passkeys enabled in the <b>Authentication Methods policy</b> whose users sign in from Windows devices, including:</p><ul><li>Corporate‑managed PCs</li><li>Personal devices</li><li>Shared devices</li></ul>\n<p><b>What will happen:</b></p><p>With this General Availability release:</p>\n<ul>\n<li>Microsoft Entra passkeys on Windows will no longer require explicit opt‑in through <b>Windows Hello AAGUID</b> allow‑listing in a <b>passkey (FIDO2) profile</b>.</li>\n<li>This represents a change from Public Preview behavior, where administrators were required to explicitly allow Windows Hello AAGUIDs in a passkey profile for Microsoft Entra passkeys on Windows to function.</li>\n<li>If your passkey profile allows <b>device‑bound, non‑attested passkeys</b>:</li><ul><li>Users scoped to that profile will now be able to register and use Microsoft Entra passkeys on Windows by default without additional administrator configuration.</li></ul><li>As a result:<ul><li>Users in scope of passkey profiles that allow device‑bound, non‑attested passkeys may begin registering and using passkeys on Windows devices.</li><li>If <b>Conditional Access policies</b> allow:<ul><li>Passkeys can be created and used on Windows devices that are not Microsoft Entra‑joined or registered, including personal or shared PCs.</li></ul></li></ul></li><li>Each Windows device requires separate passkey registration per Entra account.</li><li><b>Windows Hello for Business</b> remains recommended for managed, Microsoft Entra‑joined or registered devices.</li><li>Passkeys on Windows supplement unmanaged or shared device scenarios and do not support device sign‑in.</li><li>Attestation is not currently supported for Microsoft Entra passkeys on Windows but is planned for a future update.</li></ul><ul>\n</ul>\n<p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No action is required for most organizations.</p><p>If you do <b>not </b>want users to register or use Microsoft Entra passkeys on Windows:</p><ul>\n<li>Update the relevant passkey (FIDO2) profile to block <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-entra-passkeys-on-windows#supported-windows-hello-passkey-authenticator-attestation-guids-aaguids)\" target=\"_blank\">Windows Hello AAGUIDs</a>.</li><li>Review existing passkey profiles that allow device‑bound, non‑attested passkeys.</li><li>Add Windows Hello AAGUIDs to the block list in passkey profiles where passkey usage on Windows devices should not be permitted.</li></ul><ul>\n</ul>\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-entra-passkeys-on-windows#supported-windows-hello-passkey-authenticator-attestation-guids-aaguids)\" target=\"_blank\">Enable Microsoft Entra passkey on Windows | Microsoft Learn</a>&nbsp;(will be updated before GA rollout)</p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Compliance area</td><td>Explanation</td></tr><tr><td>Does the change modify, interrupt, or disable Conditional Access policies?</td><td>Existing Conditional Access policies continue to govern whether passkeys can be created or used on unmanaged Windows devices.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Admins can control passkey availability through Authentication Methods policies and FIDO2 passkey profiles scoped to Microsoft Entra ID groups.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users may register Microsoft Entra passkeys on Windows devices if permitted by administrator policy configuration.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra passkeys on Windows will be generally available from late April 2026, enabling passwordless, phishing-resistant sign-in on Windows devices without requiring explicit opt-in. This supports corporate, personal, and shared devices, with admin controls via Authentication Methods policies and Conditional Access. No action needed unless blocking is desired."
+      }
+    ],
+    "EndDateTime": "2026-09-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1282568",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-17T17:57:35.4Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-16T21:19:09Z",
+    "Tags": [
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "General Availability: Microsoft Entra passkeys on Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing <b>Create and edit SharePoint pages with Copilot-powered AI</b>, a new authoring experience that helps page editors plan, create, and refine SharePoint pages using natural language prompts. This feature reduces the time and effort required to build high-quality pages by allowing authors to generate and edit content, layouts, and web parts directly through an AI-assisted editing panel, grounded in their organization’s existing Microsoft 365 content.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> We began rolling out in <b>early April 2026</b> and expect to complete by <b>mid-April 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early May 2026</b> and expect to complete by <b>early June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>SharePoint page editors in Microsoft 365 tenants</li><li>Only users assigned a Microsoft 365 Copilot license</li><li>Production tenants (not GCC or Gallatin)</li></ul><p><i>What will happen</i></p><ul><li>Page editors with a Copilot license will see a new AI authoring panel automatically open when editing SharePoint pages:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4c037336-6df1-40f0-987b-50b9dee37339/25ed4bb8a0f8282ed6aeab030f941e9f94b58fae.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0fd10e67-dba1-4813-808e-2521e8e7d2f8/3ce9af8cee4b8ec64384f972ed94fe40f15fb567.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can:<ul><li>Generate new page sections using natural language prompts:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/765f1ed5-aa73-4594-8d66-0164a72817f4/258821bfb0f294e2148382c585b0504b9e36ca33.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Edit existing text, layouts, and web parts through chat-based instructions.</li><li>Attach Microsoft 365 files as grounding context for better AI-generated results:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/73660836-33cb-4dd0-ae94-b4ebb8a1b170/f62d36b5508554e9e5ec7e7c5e3cb349f86ca514.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul></li><li>AI-generated changes are inserted directly into the page and visually highlighted:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/040b9868-e027-410a-80f3-82e94973d0a6/ff017175365571cbc4b683f2cd677d5cfe143a5d.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can switch between AI-assisted editing and standard manual editing at any time:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/296eb8bc-12f8-457e-b680-fd2bf66853aa/d2cd48938dc7efd1af891054388e1be102ee4f6b.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Chat history persists for the duration of the editing session unless manually cleared:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/fce45b42-8417-4d09-adb5-91b153d41d9f/b17dffa7450ebf96eb2b896049e855d96e20274a.png\" alt=\"user settings\" style=\"width: 400px;\"></p></li><li>This feature is <b>enabled by default</b> for eligible users with Copilot licenses.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required to prepare for this change.</p><p>Recommended actions:</p><ul><li>Inform SharePoint page authors about the new AI-assisted editing experience.</li><li>Update internal documentation or training materials if you provide guidance on SharePoint authoring.</li><li>Ensure Copilot license assignments align with who should have access to AI-powered page creation.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (for example, documents or page content)?</td><td>Yes. Copilot uses existing SharePoint page content and user-selected Microsoft 365 files (such as documents) as grounding context to generate or edit page sections. Content is processed at the time of generation to produce suggestions and changes directly in the page editor.</td></tr><tr><td>Does the change introduce or significantly modify AI or agent capabilities that interact with customer data?</td><td>Yes. This change introduces a Copilot-powered AI authoring experience in SharePoint. The AI assists users by generating and editing page content, layouts, and web parts based on prompts and selected Microsoft 365 content.</td></tr><tr><td>Does the change provide users a new way of interacting with generative AI?</td><td>Yes. Page editors with a Copilot license can interact with generative AI directly within the SharePoint page editing experience using natural language chat prompts to plan, create, and modify content.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Access to the feature is governed by Microsoft Copilot license assignment. Only users assigned a Copilot license can access the AI authoring panel. There is no additional tenant-level toggle specific to this feature.</td></tr><tr><td>Does the change allow users to enable or disable the feature themselves?</td><td>Yes. While the feature is available by default for Copilot-licensed users, users can choose when to use AI during page editing and can switch between AI-assisted editing and standard manual editing at any time.</td></tr></tbody></table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -182,44 +220,6 @@
       "User impact"
     ],
     "Title": "Copilot entry point changes in Excel",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Microsoft Entra passkeys on Windows</b> are now Generally Available, enabling phishing‑resistant, passwordless sign‑in to Microsoft Entra‑protected resources from Windows devices.</p><p>The Public Preview of this capability was previously announced in <b>MC1247893</b>.</p><p>Users can create device‑bound passkeys stored in the Windows Hello container and authenticate using Windows Hello methods (face, fingerprint, or PIN). This expands passwordless authentication support to Windows devices that aren’t Microsoft Entra‑joined or registered, helping organizations strengthen security and reduce reliance on passwords across corporate‑managed, personal, and shared device scenarios.</p>\n<p><b><b>When this will happen:</b></b></p>\n\n\n<ul><li>General Availability (Worldwide):&nbsp;We will begin rolling out in <b>late April 2026</b> and expect to complete by <b>mid‑June 2026</b>.</li><li>General Availability (GCC, GCC High, DoD):&nbsp;We will begin rolling out in <b>early July 2026</b> and expect to complete by<b> late July 2026</b>.</li></ul><p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<p>Organizations using Microsoft Entra ID with passkeys enabled in the <b>Authentication Methods policy</b> whose users sign in from Windows devices, including:</p><ul><li>Corporate‑managed PCs</li><li>Personal devices</li><li>Shared devices</li></ul>\n<p><b>What will happen:</b></p><p>With this General Availability release:</p>\n<ul>\n<li>Microsoft Entra passkeys on Windows will no longer require explicit opt‑in through <b>Windows Hello AAGUID</b> allow‑listing in a <b>passkey (FIDO2) profile</b>.</li>\n<li>This represents a change from Public Preview behavior, where administrators were required to explicitly allow Windows Hello AAGUIDs in a passkey profile for Microsoft Entra passkeys on Windows to function.</li>\n<li>If your passkey profile allows <b>device‑bound, non‑attested passkeys</b>:</li><ul><li>Users scoped to that profile will now be able to register and use Microsoft Entra passkeys on Windows by default without additional administrator configuration.</li></ul><li>As a result:<ul><li>Users in scope of passkey profiles that allow device‑bound, non‑attested passkeys may begin registering and using passkeys on Windows devices.</li><li>If <b>Conditional Access policies</b> allow:<ul><li>Passkeys can be created and used on Windows devices that are not Microsoft Entra‑joined or registered, including personal or shared PCs.</li></ul></li></ul></li><li>Each Windows device requires separate passkey registration per Entra account.</li><li><b>Windows Hello for Business</b> remains recommended for managed, Microsoft Entra‑joined or registered devices.</li><li>Passkeys on Windows supplement unmanaged or shared device scenarios and do not support device sign‑in.</li><li>Attestation is not currently supported for Microsoft Entra passkeys on Windows but is planned for a future update.</li></ul><ul>\n</ul>\n<p><b>What you can do to prepare:</b></p>\n<ul>\n</ul><p>No action is required for most organizations.</p><p>If you do <b>not </b>want users to register or use Microsoft Entra passkeys on Windows:</p><ul>\n<li>Update the relevant passkey (FIDO2) profile to block <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-entra-passkeys-on-windows#supported-windows-hello-passkey-authenticator-attestation-guids-aaguids)\" target=\"_blank\">Windows Hello AAGUIDs</a>.</li><li>Review existing passkey profiles that allow device‑bound, non‑attested passkeys.</li><li>Add Windows Hello AAGUIDs to the block list in passkey profiles where passkey usage on Windows devices should not be permitted.</li></ul><ul>\n</ul>\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-entra-passkeys-on-windows#supported-windows-hello-passkey-authenticator-attestation-guids-aaguids)\" target=\"_blank\">Enable Microsoft Entra passkey on Windows | Microsoft Learn</a>&nbsp;(will be updated before GA rollout)</p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Compliance area</td><td>Explanation</td></tr><tr><td>Does the change modify, interrupt, or disable Conditional Access policies?</td><td>Existing Conditional Access policies continue to govern whether passkeys can be created or used on unmanaged Windows devices.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Admins can control passkey availability through Authentication Methods policies and FIDO2 passkey profiles scoped to Microsoft Entra ID groups.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Users may register Microsoft Entra passkeys on Windows devices if permitted by administrator policy configuration.</td></tr></tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Entra passkeys on Windows are generally available from late April 2026, enabling passwordless, phishing-resistant sign-in on Windows devices without explicit admin opt-in. This supports corporate, personal, and shared devices, with control via Authentication Methods policies and Conditional Access. No action is needed unless blocking is desired."
-      }
-    ],
-    "EndDateTime": "2026-09-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1282568",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-16T21:19:13.907Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-16T21:19:09Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "General Availability: Microsoft Entra passkeys on Windows",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -925,7 +925,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -1061,7 +1061,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3774981Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3774983Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7786939Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7786942Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1814,7 +1814,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3777424Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3777426Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3777427Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7783973Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7783976Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7783979Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3730,7 +3730,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3780,7 +3780,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3877,7 +3877,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4408,7 +4408,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5219,7 +5219,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6702,7 +6702,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7050,7 +7050,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7131,7 +7131,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7685,7 +7685,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8649,7 +8649,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10368,7 +10368,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11497,7 +11497,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -11725,7 +11725,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11868,7 +11868,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.377626Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3776262Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3776264Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3776265Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T16:55:10.3776266Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7785373Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7785375Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7785378Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.7785379Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-17T18:55:14.778538Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12175,7 +12175,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14264,7 +14264,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14314,7 +14314,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14972,7 +14972,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15061,7 +15061,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18049,7 +18049,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20226,7 +20226,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
