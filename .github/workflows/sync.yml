@@ -2,25 +2,27 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # 每12小时执行一次
-  workflow_dispatch:         # 支持手动触发
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout target repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false   # 避免 token 冲突
+          persist-credentials: false
 
-      - name: Sync with upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3
+      - name: Sync upstream changes
+        id: sync
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
         with:
-          upstream_sync_repo: merill/mc     # 👈 已帮你填好
-          upstream_sync_branch: main
           target_sync_branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          sync_mode: merge                 # 可选：merge 或 rebase
-          allow_forks: true                # 避免 fork 权限问题
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_sync_repo: merill/mc
+          upstream_sync_branch: main
