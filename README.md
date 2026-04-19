@@ -10,5 +10,3 @@ I created this site so I can link to it from my weekly newsletter [Entra.News](h
 > * This archive uses a tenant that has a Microsoft 365 E5 subscription. Your tenant may have different features and updates. 
 
 ## Feedback
-
-If you have any feedback or suggestions, please feel free to reach out to me on Twitter [@merill](https://twitter.com/merill) or [LinkedIn](https://linkedin.com/in/merill).
