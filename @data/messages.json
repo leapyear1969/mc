@@ -4,6 +4,211 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated December 5, 2025: We have paused GA release for this feature. Thank you for your patience.\n</p><p>Extend your sensitivity labels to specific or all subscriptions within Azure Storage, Azure SQL, Azure Cosmos DB, Azure Data Explorer, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Databricks Unity Catalog, Azure SQL Managed Instance, Azure Synapse Analytics, Snowflake, Dataverse, and SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=429876\" target=\"_blank\">429876</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p>General Availability (Worldwide): We will announce via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>You can create new auto-labeling policies for non-m365 workloads Server that allow you to specify specific data assets or ALL assets to be automatically labeled when the out-of-the-box sensitive information types are detected in a column or asset. After the auto-labeling policy is turned on, wait 15 minutes, and then rescan the scoped data assets. The assets will be labeled automatically.\n</p><p>This change will be available by default for admins to configure.\n</p><p>After the rollout, these capabilities will no longer be available:\n</p><ul><li>The ability to extend labeling to assets in the Microsoft Purview Data Map (opt in)\n<ul><li>Instead, you can select where to extend these assets in an auto-labeling policy\n</li></ul></li><li><i>Schematized data assets</i> as an applicable label scope\n<ul><li>You can select any label with the scope <i>Files &amp; other data assets</i> for labeling in non-Microsoft 365 workloads\n</li></ul></li><li>Auto-labeling for schematized data assets in label definition\n<ul><li>If you have configured <i>Auto-labeling for schematized data assets</i> in the label definition, you will need to reconfigure those conditions in an auto-labeling policy. \n</li></ul></li></ul><p>Tip: After you apply labeling to data assets, you can use protection policies to add access control settings associated with the label.\n</p><p>You will be able to select <i>non-m365 workloads</i>&nbsp;in the auto-labeling policy:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/e8fe772e-b2fe-4c68-b96d-a6eced6f3199\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><ul><li><a href=\"https://learn.microsoft.com/purview/sensitivity-labels-frequently-asked-questions\" target=\"_blank\">Sensitivity Labels in the Microsoft Purview Data Map FAQ</a>\n</li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\"></a><a href=\"https://learn.microsoft.com/purview/data-map-data-sources\" target=\"_blank\">Data sources that connect to Microsoft Purview Data Map | Microsoft Learn</a><br></li></ul><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "429876"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Auto-labeling for Microsoft Azure Storage and Azure SQL has paused its GA release. It allows extending sensitivity labels to various Azure and non-M365 data sources via auto-labeling policies. Public preview was planned for July 2025. Admins can configure labeling by default; some older labeling methods will be deprecated."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC933531",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-20T15:50:06.817Z",
+    "Services": [
+      "Microsoft 365 suite",
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-11-13T23:14:19Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Information Protection: Auto-labeling for Microsoft Azure Storage and Azure SQL",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-07-13T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is<b> retiring SharePoint Designer 2013</b>, which follows the <a href=\"https://learn.microsoft.com//lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy</a> and will reach end of support on <b>July 14, 2026</b>. This retirement aligns with our commitment to modernize workflow automation and customization experiences using supported tools such as Power Automate.</p><p><b><b>When this will happen</b></b></p><p>End of support <b>begins in mid-July 2026</b>, with retirement enforcement occurring between<b>&nbsp;mid-July and late July 2026</b> across all Microsoft 365 environments (<b>Worldwide, GCC, GCC High, and DoD</b>).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Organizations that use<b> SharePoint Designer 2013</b>&nbsp;for SharePoint workflows or site customizations.</p><p><i>What will happen</i>:</p><ul><li>Microsoft will no longer provide support, security updates, or fixes for SharePoint Designer 2013.</li><li><b>No extensions or exceptions will be offered beyond the retirement date</b>.</li><li>Workflows built with SharePoint Designer 2013 will require migration to supported alternatives such as Power Automate.</li><li>The SharePoint Migration Tool (SPMT) can migrate supported workflow actions to Power Automate.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>We recommend the following actions<b> before July 14, 2026</b>:</p><ul><li>Review existing SharePoint Designer 2013 workflows and customizations.</li><li>Plan and complete migration to supported technologies.</li><li>Update internal documentation, helpdesk knowledge bases, and user communications.</li><li>Use the <b>SharePoint Migration Tool (SPMT) 4.1 </b>to assess and migrate supported workflow actions to Power Automate.</li><li>Note: The SharePoint Migration Tool lets you migrate SharePoint Designer 2013 workflows to Power Automate.</li><li>Review SharePoint Designer 2013 lifecycle details and workflow migration guidance as part of your planning.</li></ul><p>No extension options will be available after the retirement date.</p><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows#classic-workflows-in-sharepoint\" target=\"_blank\">Guidance: Migrate from classic workflows to Power Automate flows in SharePoint | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepointmigration/spmt-workflow-migration-spd\" target=\"_blank\">SharePoint Designer 2010 and 2013 workflow migrations to Power Automate | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/products/sharepoint-designer-2013\" target=\"_blank\">SharePoint Designer 2013 Lifecycle | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "SharePoint Designer 2013 will reach end of support on July 14, 2026, with no extensions offered. Organizations must migrate workflows to supported tools like Power Automate using the SharePoint Migration Tool before this date, as Microsoft will stop providing updates or fixes after retirement."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1230891",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-20T15:43:06.583Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-11T23:18:38Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "SharePoint Designer 2013 reaches end of support on July 14, 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>As announced earlier in MC616550 (June 2023), InfoPath Forms Service in SharePoint Online is being retired and will be removed from existing tenants after July 14, 2026. To support this transition and reduce future migration effort, Microsoft will prevent the publication of InfoPath forms in SharePoint Online for all tenants ahead of the service’s retirement.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>: Publishing new InfoPath forms or publishing updates to existing forms will be blocked</li>\n  <li><b>July 14, 2026</b>: InfoPath Forms Service will be fully retired</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All SharePoint Online tenants</li>\n  <li>InfoPath designers, publishers, and site owners</li>\n  <li>IT administrators managing SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>, new InfoPath forms cannot be published</li>\n  <li>Modifications to existing InfoPath forms cannot be published</li>\n  <li>Existing published forms will remain available and usable</li>\n  <li>There is no option to extend InfoPath Forms Service beyond retirement</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n\n<p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://pnp.github.io/pnpassessment/infopath/readme.html\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the <a href=\"https://pnp.github.io/pnpassessment/infopath/report-intro.html\">Power BI InfoPath Report</a> generated by the scanner tool, you can:</p>\n\n<ul>\n  <li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li>\n  <li>Evaluate the recency and volume of usage of InfoPath Forms.</li>\n  <li>Understand lists, libraries, and content types that use InfoPath.</li>\n</ul>\n\n<p>We recommend communicating to the impacted site owners and teams inside your organization now, so they are aware of the coming change.</p>\n\n<p>For scenarios where InfoPath or InfoPath Forms Services are currently being used, we recommend migrating to <a href=\"https://www.microsoft.com/power-platform/products/power-apps/\">Power Apps</a>, <a href=\"https://www.microsoft.com/power-platform/products/power-automate/\">Power Automate</a>, or <a href=\"https://forms.office.com/\">Microsoft Forms</a>. Please ensure that you allow adequate time for migration of any use of InfoPath or InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in <a href=\"https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190\">this blog</a>.</p>\n\n<p><b>Note:</b> Please plan the migration appropriately as there will not be an option to extend InfoPath Forms Services beyond the InfoPath retirement date of July 14, 2026.</p>\n\n<p><b>Compliance considerations:</b></p>\n<p>This update disables the ability to publish or republish InfoPath forms in SharePoint Online as part of a planned service retirement; it does not change how existing customer data is stored, processed, or governed.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Publishing new or updated InfoPath forms in SharePoint Online will be blocked after May 18, 2026, with full retirement of InfoPath Forms Service on July 14, 2026. Existing forms remain usable. Organizations should assess usage and migrate to Power Apps, Power Automate, or Microsoft Forms before the deadline."
+      }
+    ],
+    "EndDateTime": "2026-07-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1255407",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-20T15:42:38.437Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-18T22:30:18Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Publishing InfoPath Forms in SharePoint Online will not be allowed for all tenants",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p>Industry trends and feedback from our customers and partners make it clear that today’s businesses demand an intelligent, integrated forms experience that spans devices which InfoPath does not provide. As announced earlier, InfoPath Client 2013 will reach the end of its extended support period on July 14, 2026 (<a href=\"https://learn.microsoft.com/lifecycle/products/infopath-2013\" target=\"_blank\">link</a>), and to keep an aligned experience across Microsoft products, InfoPath Forms Service will be retired from SharePoint Online. We’re sending this message to bring it to your early attention to minimize the potential impact on your organization.&nbsp;</p><p><b>Key Points:</b></p><ul><li>Major: Retirement</li><li>Timeline: After May 18, 2026: Publishing new InfoPath forms or publishing updates to existing forms will be blocked and from July 14, 2026, Microsoft will remove InfoPath Forms Services for existing tenants. </li><li>Action: Review and assess impact</li></ul><p><b>How this will affect your organization:</b><br></p><ul><li>After May 18, 2026, publishing new InfoPath forms or publishing updates to existing forms will be blocked. Existing published forms will remain available and usable till July 14, 2026</li><li>After July 14, 2026, users will no longer be able to use InfoPath forms in SharePoint Online.&nbsp;</li></ul><p><b>What you need to do to prepare:</b><br></p><p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://aka.ms/assessment/infopath\" target=\"_blank\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the Power BI <a href=\"https://aka.ms/assessment/infopathreport\" target=\"_blank\">InfoPath Report</a> generated by the scanner tool, you can:</p><ul><li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li><li>Evaluate the recency and volume of usage of InfoPath Forms.</li><li>Understand lists, libraries and content types that use InfoPath.</li></ul><p>We recommend communicating to the impacted site owners/teams inside your organization now, so they are aware of the coming change.\n</p><p>For scenarios where InfoPath or InfoPath Forms services are currently being used, we recommend migrating to <a href=\"https://powerapps.microsoft.com/\" target=\"_blank\">Power Apps</a>, <a href=\"https://powerautomate.microsoft.com/\" target=\"_blank\">Power Automate</a> or <a href=\"https://forms.office.com/\" target=\"_blank\">Forms</a>.  Please ensure that you allow adequate time for migration of any use of InfoPath/InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in this <a href=\"https://aka.ms/sp-infopath-update\" target=\"_blank\">blog</a>.&nbsp;</p><p>Please plan appropriately as there will not be an option to extend InfoPath Form Services beyond the InfoPath retirement date of July 14, 2026.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will retire by July 14, 2026. After May 18, 2026, publishing new or updated forms will be blocked. Organizations should assess usage with Microsoft tools and migrate to Power Apps, Power Automate, or Forms before the deadline."
+      },
+      {
+        "Name": "BlogLink",
+        "Value": "https://aka.ms/sp-infopath-update"
+      }
+    ],
+    "EndDateTime": "2026-07-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC616550",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-20T15:42:13.477Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2023-06-30T15:04:05Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will reach end of support in July 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 20, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>Connectivity changes between cmdlets and Microsoft 365 services like SharePoint and Exchange now require a new parameter for improved security and modern authentication. Starting April 30, 2026, Admins must use <a href=\"https://learn.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps\" target=\"_blank\">Exchange Online PowerShell v3.9.0</a> or later and include the <code>-EnableSearchOnlySession</code> parameter when running <code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/connect-ippssession?view=exchange-ps\" target=\"_blank\">Connect-IPPSession</a></code> to execute Data Lifecycle Management cmdlets.</p>\n\n<p><b>When this will happen:</b></p>\n<p>Enforcement begins April 30, 2026.</p>\n\n<p><b>How this affects your organization:</b></p>\n<ul>\n<li><b>Who is affected:</b> Admins using Data Lifecycle Management cmdlets in Security &amp; Compliance PowerShell.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>You must use Exchange Online PowerShell v3.9.0 or later.</li>\n<li>You must include the <code>-EnableSearchOnlySession</code> parameter when running <code>Connect-IPPSession</code>.</li>\n<li>This applies to the following cmdlets:\n<ul>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">New-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancepolicy?view=exchange-ps\" target=\"_blank\">Set-RetentionCompliancePolicy</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">New-RetentionComplianceRule</a></code></li>\n<li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-retentioncompliancerule?view=exchange-ps\" target=\"_blank\">Set-RetentionComplianceRule</a></code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-compliancetag?view=exchange-ps\">New-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-compliancetag?view=exchange-ps\">Set-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-compliancetag?view=exchange-ps\">Remove-ComplianceTag</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentionevent?view=exchange-ps\">New-ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEvent</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/new-complianceretentioneventtype?view=exchange-ps\">New-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/set-complianceretentioneventtype?view=exchange-ps\">Set-ComplianceRetentionEventType</a>\n</code></li><li><code><a href=\"https://learn.microsoft.com/powershell/module/exchangepowershell/remove-complianceretentioneventtype?view=exchange-ps\">Remove- ComplianceRetentionEventType</a></code></li>\n</ul>\n</li>\n<li>No impact for users accessing Data Lifecycle Management through the Purview portal.</li>\n<li>Cmdlets remain incompatible with <b>Certificate-Based Authentication (CBA)</b>.</li>\n</ul>\n</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n<ul>\n<li>Update scripts and workflows to include the <code>-EnableSearchOnlySession</code> parameter.</li>\n<li>Ensure your organization is using Exchange Online PowerShell version 3.9.0 or later.</li>\n<li>For more information, visit: <a href=\"https://learn.microsoft.com/microsoft-365/compliance/data-lifecycle-management\">Learn about Data Lifecycle Management solutions in Microsoft Purview</a>.</li>\n</ul>\n\n<p><b>Compliance considerations:</b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting April 30, 2026, admins using Data Lifecycle Management cmdlets must use Exchange Online PowerShell v3.9.0+ and include the -EnableSearchOnlySession parameter with Connect-IPPSession for improved security. This change affects specific cmdlets but not the Purview portal, and cmdlets remain incompatible with Certificate-Based Authentication."
+      }
+    ],
+    "EndDateTime": "2026-06-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1213770",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-20T15:33:57.93Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-06T05:49:07Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data lifecycle Management cmdlet connectivity change",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>We are introducing a <a href=\"http://aka.ms/m365chgmgmt\" target=\"_blank\">modernized change management model for Microsoft 365</a>&nbsp;to help IT teams manage the pace of innovation and realize value faster. Based on customer feedback, this new approach provides greater clarity, consistency, and control through flexible release audiences, more actionable Message center posts, and AI enabled access to trusted release information.</p><p><b>Clarity and Control for Admins</b></p><p>Microsoft 365 is evolving how updates are released and giving IT teams greater clarity, consistency, and control over change.&nbsp;</p><p>Audience based rollout model &nbsp;</p><ul><li>Align rollouts to operational readiness with channels that support both rapid innovation and regulated environments. Expanding release audience options (Frontier program,&nbsp;Standard release, and Deferred release) to better align rollout timing with organizational readiness and governance needs.&nbsp;</li><li>This is the first step in our modernization change management journey. We’re starting with Microsoft 365 Copilot.&nbsp;</li></ul><p>Actionable communications &nbsp;</p><ul><li>Enhanced Message center updates are timely and relevant, helping admins anticipate, validate, and prepare changes. Providing more structured, launch‑focused Message center announcements with clearer impact, actions, and compliance considerations.&nbsp;</li></ul><p>AI powered change insights&nbsp;</p><ul><li>Introducing the<a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/mrc-mcp\" target=\"_blank\"> Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server</a>, which enables MCP compatible AI clients to retrieve trusted Microsoft 365 roadmap and Azure Updates information using natural language.</li><li>Shift from passively reviewing service updates to actively reasoning over change data. With <a href=\"https://learn.microsoft.com/en-us/graph/mcp-server/overview\" target=\"_blank\">Microsoft MCP Server for Enterprise</a>, you can give AI agents conversational, read-only access to your organization's Message center and Service Health Dashboard data.</li></ul><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out mid-April 2026 and expect to complete by late April 2026.</p><p><b>How this will affect your organization:</b></p><p>Depending on your\nconfiguration and readiness model, you now\nhave the option to choose your release audience preference for your organization:</p><ul>\n <li>Stage\n     feature rollout using release audiences: &nbsp;</li>\n <ul>\n  <li><a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\"><b>Frontier\n      program</b></a> for early experimentation and feedback. &nbsp;</li>\n  <li><b>Standard\n      release</b> (default) for immediate access at general availability.&nbsp;</li>\n  <li><b>Deferred\n      release</b> (for eligible major features) to delay rollout by 30\n      days for additional security or compliance review.&nbsp;</li>\n  </ul><li>To\n      access the Admin Control to select release preference:&nbsp;</li></ul><p style=\"margin-left: 100px;\"><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/\nb2b19a83-3beb-4973-bd7d-488458f7def8\" width=\"400\" height=\"\"></p><p style=\"margin-left: 100px;\"><i>Preferences navigation</i></p><p style=\"margin-left: 100px;\"><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/\n66f2d792-b72f-45e9-80b5-9e26596d7adb\" width=\"400\" height=\"\"></p><p style=\"margin-left: 100px;\"><i>Release preferences Standard release</i></p><p style=\"margin-left: 100px;\"><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/\n2ba6df65-2a1e-4339-9fbd-611ccc97d3f9\" width=\"400\" height=\"\"></p><p style=\"margin-left: 100px;\"><i>Release preferences Deferred release</i></p><ul><ul>\n </ul></ul><ul>\n <li>Enable\n     AI tools and agents to query trusted release and roadmap data via the MRC\n     MCP Server and Microsoft MCP for Enterprise.&nbsp;</li>\n <li>Note: Additional Microsoft 365 workloads will be supported in the future.</li></ul><p><b>What you need to do to prepare:</b></p><ul><li><b>Review and configure your release\npreferences:</b> Assign your release audience your\ntenant and users are assigned to in the Microsoft 365 Admin Center.&nbsp;<ul><li>Please note we will begin leveraging this new model for Microsoft 365 Copilot features in late May and preferences will be honored.</li></ul></li><li><b>Explore MCP-powered insights:</b> Connect the MRC MCP\nServer and MCP for\nEnterprise to your AI-enabled tools to streamline change tracking and\nanalysis.&nbsp;</li></ul><p>Learn more&nbsp;</p><ul>\n <li><a href=\"http://aka.ms/m365chgmgmt\" target=\"_blank\">Modernizing Change Management for Microsoft 365 Customers&nbsp;| Microsoft 365 Insider Blog</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/plan-for-change-management\">Modern\n     change management for Microsoft 365 - Overview | Microsoft Learn</a></li>\n <li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/configure-release-options\">Configure\n     modern release options for Microsoft 365 |\n     Microsoft Learn</a></li>\n <li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/release-options-faq\">Frequently\n     asked questions about release options for Microsoft 365 | Microsoft Learn</a>&nbsp;</li>\n <li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/mrc-mcp\">Get\n     started with the Microsoft Release Communications MCP Server | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/en-us/graph/mcp-server/overview\">Overview of Microsoft MCP Server for\nEnterprise - Microsoft Graph | Microsoft Learn</a>&nbsp;</li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/message-center-updates\">What's\nnew in Message center |\nMicrosoft Learn</a></li></ul>",
       "ContentType": "html"
     },
@@ -10753,49 +10958,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 19, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p>Industry trends and feedback from our customers and partners make it clear that today’s businesses demand an intelligent, integrated forms experience that spans devices which InfoPath does not provide. As announced earlier, InfoPath Client 2013 will reach the end of its extended support period on July 14, 2026 (<a href=\"https://learn.microsoft.com/lifecycle/products/infopath-2013\" target=\"_blank\">link</a>), and to keep an aligned experience across Microsoft products, InfoPath Forms Service will be retired from SharePoint Online. We’re sending this message to bring it to your early attention to minimize the potential impact on your organization.&nbsp;</p><p><b>Key Points:</b></p><ul><li>Major: Retirement</li><li>Timeline: After May 18, 2026: Publishing new InfoPath forms or publishing updates to existing forms will be blocked and from July 14, 2026, Microsoft will remove InfoPath Forms Services for existing tenants. </li><li>Action: Review and assess impact</li></ul><p><b>How this will affect your organization:</b><br></p><ul><li>After May 18, 2026, publishing new InfoPath forms or publishing updates to existing forms will be blocked. Existing published forms will remain available and usable till July 14, 2026</li><li>After July 14, 2026, users will no longer be able to use InfoPath forms in SharePoint Online.&nbsp;</li></ul><p><b>What you need to do to prepare:</b><br></p><p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://aka.ms/assessment/infopath\" target=\"_blank\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the Power BI <a href=\"https://aka.ms/assessment/infopathreport\" target=\"_blank\">InfoPath Report</a> generated by the scanner tool, you can:</p><ul><li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li><li>Evaluate the recency and volume of usage of InfoPath Forms.</li><li>Understand lists, libraries and content types that use InfoPath.</li></ul><p>We recommend communicating to the impacted site owners/teams inside your organization now, so they are aware of the coming change.\n</p><p>For scenarios where InfoPath or InfoPath Forms services are currently being used, we recommend migrating to <a href=\"https://powerapps.microsoft.com/\" target=\"_blank\">Power Apps</a>, <a href=\"https://powerautomate.microsoft.com/\" target=\"_blank\">Power Automate</a> or <a href=\"https://forms.office.com/\" target=\"_blank\">Forms</a>.  Please ensure that you allow adequate time for migration of any use of InfoPath/InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in this <a href=\"https://aka.ms/sp-infopath-update\" target=\"_blank\">blog</a>.&nbsp;</p><p>Please plan appropriately as there will not be an option to extend InfoPath Form Services beyond the InfoPath retirement date of July 14, 2026.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will retire by July 14, 2026. After May 18, 2026, publishing new or updated forms will be blocked. Organizations should assess usage with Microsoft tools and migrate to Power Apps, Power Automate, or Forms before the deadline."
-      },
-      {
-        "Name": "BlogLink",
-        "Value": "https://aka.ms/sp-infopath-update"
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC616550",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-19T16:06:45.683Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2023-06-30T15:04:05Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will reach end of support in July 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>We are introducing <b>designer tools in Copilot</b>, a new set of user experience (UX)-based controls that give users greater control over how images and other visual artifacts are created. Designer tools help users refine prompts, adjust visual outputs, and iterate more effectively—reducing trial and error and improving the quality of generated visuals.</p>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/2c073b14-edd0-4f6d-8641-abb0523e643b\" style=\"width: 400px;\" alt=\"user settings\"></p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide): Rollout began in <b>mid-February 2026</b> and is expected to complete by <b>early April 2026</b>.</p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  </ul><p>All users with access to Copilot image creation experiences across Microsoft 365 workloads.</p><ul>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see new designer-style controls when creating images or visual artifacts in Copilot.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a4d6605a-9a49-439f-be53-8d1bbf085221\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>Users can refine prompts and adjust visual characteristics using guided UX elements.</li>\n  <li>The feature is enabled by default for eligible users.</li>\n  <li>Existing security, privacy, and Copilot policies continue to apply.</li>\n  <li>No changes are required to existing admin configurations.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No action is required to prepare for this change.</p>\n<ul>\n  <li>Optionally update internal Copilot training or documentation.</li>\n  <li>Inform helpdesk teams about the new image creation controls.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<ul>\n  </ul><p>This change introduces new UX-based interactions with generative AI for image creation.</p><ul>\n</ul>",
       "ContentType": "html"
     },
@@ -10966,44 +11128,6 @@
       "User impact"
     ],
     "Title": "Lists as a knowledge source for agents in SharePoint and OneDrive",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p>\n<p>As announced earlier in MC616550 (June 2023), InfoPath Forms Service in SharePoint Online is being retired and will be removed from existing tenants after July 14, 2026. To support this transition and reduce future migration effort, Microsoft will prevent the publication of InfoPath forms in SharePoint Online for all tenants ahead of the service’s retirement.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>: Publishing new InfoPath forms or publishing updates to existing forms will be blocked</li>\n  <li><b>July 14, 2026</b>: InfoPath Forms Service will be fully retired</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All SharePoint Online tenants</li>\n  <li>InfoPath designers, publishers, and site owners</li>\n  <li>IT administrators managing SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>, new InfoPath forms cannot be published</li>\n  <li>Modifications to existing InfoPath forms cannot be published</li>\n  <li>Existing published forms will remain available and usable</li>\n  <li>There is no option to extend InfoPath Forms Service beyond retirement</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n\n<p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://pnp.github.io/pnpassessment/infopath/readme.html\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the <a href=\"https://pnp.github.io/pnpassessment/infopath/report-intro.html\">Power BI InfoPath Report</a> generated by the scanner tool, you can:</p>\n\n<ul>\n  <li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li>\n  <li>Evaluate the recency and volume of usage of InfoPath Forms.</li>\n  <li>Understand lists, libraries, and content types that use InfoPath.</li>\n</ul>\n\n<p>We recommend communicating to the impacted site owners and teams inside your organization now, so they are aware of the coming change.</p>\n\n<p>For scenarios where InfoPath or InfoPath Forms Services are currently being used, we recommend migrating to <a href=\"https://www.microsoft.com/power-platform/products/power-apps/\">Power Apps</a>, <a href=\"https://www.microsoft.com/power-platform/products/power-automate/\">Power Automate</a>, or <a href=\"https://forms.office.com/\">Microsoft Forms</a>. Please ensure that you allow adequate time for migration of any use of InfoPath or InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in <a href=\"https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190\">this blog</a>.</p>\n\n<p><b>Note:</b> Please plan the migration appropriately as there will not be an option to extend InfoPath Forms Services beyond the InfoPath retirement date of July 14, 2026.</p>\n\n<p><b>Compliance considerations:</b></p>\n<p>This update disables the ability to publish or republish InfoPath forms in SharePoint Online as part of a planned service retirement; it does not change how existing customer data is stored, processed, or governed.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Publishing new or updated InfoPath forms in SharePoint Online will be blocked after May 18, 2026, with full retirement of InfoPath Forms Service on July 14, 2026. Existing forms remain usable. Organizations should assess usage and migrate to Power Apps, Power Automate, or Microsoft Forms before the deadline."
-      }
-    ],
-    "EndDateTime": "2026-07-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1255407",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-18T22:30:30.91Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-18T22:30:18Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Publishing InfoPath Forms in SharePoint Online will not be allowed for all tenants",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15814,44 +15938,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": "2026-07-13T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is<b> retiring SharePoint Designer 2013</b>, which follows the <a href=\"https://learn.microsoft.com//lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy</a> and will reach end of support on <b>July 14, 2026</b>. This retirement aligns with our commitment to modernize workflow automation and customization experiences using supported tools such as Power Automate.</p><p><b><b>When this will happen</b></b></p><p>End of support <b>begins in mid-July 2026</b>, with retirement enforcement occurring between<b>&nbsp;mid-July and late July 2026</b> across all Microsoft 365 environments (<b>Worldwide, GCC, GCC High, and DoD</b>).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Organizations that use<b> SharePoint Designer 2013</b>&nbsp;for SharePoint workflows or site customizations.</p><p><i>What will happen</i>:</p><ul><li>Microsoft will no longer provide support, security updates, or fixes for SharePoint Designer 2013.</li><li><b>No extensions or exceptions will be offered beyond the retirement date</b>.</li><li>Workflows built with SharePoint Designer 2013 will require migration to supported alternatives such as Power Automate.</li><li>The SharePoint Migration Tool (SPMT) can migrate supported workflow actions to Power Automate.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>We recommend the following actions<b> before July 14, 2026</b>:</p><ul><li>Review existing SharePoint Designer 2013 workflows and customizations.</li><li>Plan and complete migration to supported technologies.</li><li>Update internal documentation, helpdesk knowledge bases, and user communications.</li><li>Use the <b>SharePoint Migration Tool (SPMT) 4.1 </b>to assess and migrate supported workflow actions to Power Automate.</li><li>Note: The SharePoint Migration Tool lets you migrate SharePoint Designer 2013 workflows to Power Automate.</li><li>Review SharePoint Designer 2013 lifecycle details and workflow migration guidance as part of your planning.</li></ul><p>No extension options will be available after the retirement date.</p><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows#classic-workflows-in-sharepoint\" target=\"_blank\">Guidance: Migrate from classic workflows to Power Automate flows in SharePoint | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepointmigration/spmt-workflow-migration-spd\" target=\"_blank\">SharePoint Designer 2010 and 2013 workflow migrations to Power Automate | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/products/sharepoint-designer-2013\" target=\"_blank\">SharePoint Designer 2013 Lifecycle | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "SharePoint Designer 2013 will reach end of support on July 14, 2026, with no extensions offered. Organizations must migrate workflows to supported tools like Power Automate using the SharePoint Migration Tool before this date, as Microsoft will stop providing updates or fixes after retirement."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230891",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-17T18:57:13.883Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-11T23:18:38Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "SharePoint Designer 2013 reaches end of support on July 14, 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -18728,53 +18814,6 @@
       "User impact"
     ],
     "Title": "Workspaces in Edge: Upcoming migration to improved architecture",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated December 5, 2025: We have paused GA release for this feature. Thank you for your patience.\n</p><p>Extend your sensitivity labels to specific or all subscriptions within Azure Storage, Azure SQL, Azure Cosmos DB, Azure Data Explorer, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Databricks Unity Catalog, Azure SQL Managed Instance, Azure Synapse Analytics, Snowflake, Dataverse, and SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=429876\" target=\"_blank\">429876</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Public Preview: We will begin rolling out early July 2025 and expect to complete by late July 2025.</p><p>General Availability (Worldwide): We will announce via Message center when we are ready to proceed.&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>You can create new auto-labeling policies for non-m365 workloads Server that allow you to specify specific data assets or ALL assets to be automatically labeled when the out-of-the-box sensitive information types are detected in a column or asset. After the auto-labeling policy is turned on, wait 15 minutes, and then rescan the scoped data assets. The assets will be labeled automatically.\n</p><p>This change will be available by default for admins to configure.\n</p><p>After the rollout, these capabilities will no longer be available:\n</p><ul><li>The ability to extend labeling to assets in the Microsoft Purview Data Map (opt in)\n<ul><li>Instead, you can select where to extend these assets in an auto-labeling policy\n</li></ul></li><li><i>Schematized data assets</i> as an applicable label scope\n<ul><li>You can select any label with the scope <i>Files &amp; other data assets</i> for labeling in non-Microsoft 365 workloads\n</li></ul></li><li>Auto-labeling for schematized data assets in label definition\n<ul><li>If you have configured <i>Auto-labeling for schematized data assets</i> in the label definition, you will need to reconfigure those conditions in an auto-labeling policy. \n</li></ul></li></ul><p>Tip: After you apply labeling to data assets, you can use protection policies to add access control settings associated with the label.\n</p><p>You will be able to select <i>non-m365 workloads</i>&nbsp;in the auto-labeling policy:\n</p><p><img src=\"https://cxcs.microsoft.net/file/messagecenter/en-us/e8fe772e-b2fe-4c68-b96d-a6eced6f3199\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. Review your current configuration to determine the impact for your organization. You may want to notify your users about this change and update any relevant documentation.\n</p><ul><li><a href=\"https://learn.microsoft.com/purview/sensitivity-labels-frequently-asked-questions\" target=\"_blank\">Sensitivity Labels in the Microsoft Purview Data Map FAQ</a>\n</li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\">Learn about Microsoft Purview billing models | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/purview-billing-models\" target=\"_blank\"></a><a href=\"https://learn.microsoft.com/purview/data-map-data-sources\" target=\"_blank\">Data sources that connect to Microsoft Purview Data Map | Microsoft Learn</a><br></li></ul><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "429876"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Auto-labeling for Microsoft Azure Storage and Azure SQL has paused its GA release. It allows extending sensitivity labels to various Azure and non-M365 data sources via auto-labeling policies. Public preview was planned for July 2025. Admins can configure labeling by default; some older labeling methods will be deprecated."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC933531",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2025-12-05T17:31:00.24Z",
-    "Services": [
-      "Microsoft 365 suite",
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-11-13T23:14:19Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | Information Protection: Auto-labeling for Microsoft Azure Storage and Azure SQL",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
