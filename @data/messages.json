@@ -4,6 +4,54 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 20, 2026: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon: Users will be able to automatically see their automapped calendars when toggling from classic Microsoft Outlook to new Outlook for Windows. This message applies to classic Outlook for Windows desktop and new Outlook for Windows desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=415168\" target=\"_blank\">415168</a>.\n</p><p><b>When this will happen:</b>\n</p><p>General Availability: We will begin rolling out May 2026 (previously end of May) and expect to complete by end of May 2026 (previously end of June).&nbsp;&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, users were not able to see their automapped calendars when toggling from classic Outlook to new Outlook.\n</p><p>To access an automapped calendars, users can go to Microsoft Outlook &gt; <i>Calendar icon on left of screen &gt; My Calendars &gt; Automapped calendar.</i>\n</p><p>This feature is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i></p><ul><li>The section called Use the shared calendar from the shared mailbox in <a href=\"https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd#:~:text=Use%20the%20shared%20calendar%20from%20the%20shared%20mailbox\" target=\"_blank\">Open and use a shared mailbox in Outlook - Microsoft Support</a>\n</li><li>Definition of automapping: <a href=\"https://learn.microsoft.com/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox\" target=\"_blank\">Remove automapping for a shared mailbox - Outlook | Microsoft Learn</a></li></ul><p>#newoutlookforwindows</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "415168"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting May 2026, users will automatically see their automapped calendars when switching from classic to new Outlook for Windows. This feature is on by default, requires no admin action, and improves calendar access previously unavailable during toggling between versions. Notification to users is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC906502",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-20T18:44:50.28Z",
+    "Services": [
+      "Microsoft 365 for the web",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-10-07T23:08:46Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Outlook: Automatically display automapped calendars",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 20, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Purview Information Protection admins</b> can now exclude<b> modern Microsoft 365 groups</b> and scope <b>sensitivity label</b> <b>policies </b>to dynamic and <b>non-mail enabled security groups</b>. These capabilities give admins more flexibility, expanding policy targeting beyond individual users and mail-enabled groups.&nbsp;</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558685\" target=\"_blank\">558685</a>.</p><p> \n<b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Public Preview:</b>&nbsp;We will begin rolling out<b> late April 2026</b> and expect to complete by <b>mid-May 2026.</b></li>\n  <li><b>General Availability:</b>&nbsp;We will begin rolling out <b>late May 2026</b> (previously&nbsp;mid-June)&nbsp;and expect to complete by <b>early June 2026</b> (previously&nbsp;late June).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li><b>Information Protection admins</b> managing sensitivity label publishing policies</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can exclude <b>modern Microsoft 365 groups</b> from <b>label publishing policies</b></li>\n  <li>Admins can include <b>non-mail-enabled security groups</b>, including <b>dynamic security groups</b></li>\n  <li>Existing policies and configurations remain unchanged</li>\n  <li>No user impact unless admins update policy scope</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required</li>\n  <li>Optionally review and update label publishing policies to take advantage of expanded scoping</li>\n  </ul><p><b>Learn more:&nbsp;</b><a href=\"https://learn.microsoft.com/purview/create-sensitivity-labels?tabs=classic-label-scheme#publish-sensitivity-labels-by-creating-a-label-policy\" target=\"_blank\">Create and publish sensitivity labels | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Compliance question</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change modify Information Protection labels or policy configuration capabilities?</td>\n    <td>This update expands how sensitivity label publishing policies can be scoped by allowing admins to exclude modern Microsoft 365 groups and include non-mail-enabled security groups.</td>\n  </tr>\n  <tr>\n    <td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n    <td>Admins can scope sensitivity label publishing policies using non-mail-enabled security groups, including dynamic security groups in Microsoft Entra ID.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -10897,54 +10945,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Copilot: Introducing infinite scroll for chat history",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 19, 2026: We have updated the timeline. Thank you for your patience.\n</p><p>Coming soon: Users will be able to automatically see their automapped calendars when toggling from classic Microsoft Outlook to new Outlook for Windows. This message applies to classic Outlook for Windows desktop and new Outlook for Windows desktop.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=415168\" target=\"_blank\">415168</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out in late April 2026 (previously mid-March) and expect to complete by end of May 2026 (previously end of March).</p><p>General Availability: We will begin rolling out end of May 2026 (previously mid-April) and expect to complete by end of June 2026 (previously end of April).&nbsp;&nbsp;</p><p><b>How this will affect your organization:</b>\n</p><p>Before this rollout, users were not able to see their automapped calendars when toggling from classic Outlook to new Outlook.\n</p><p>To access an automapped calendars, users can go to Microsoft Outlook &gt; <i>Calendar icon on left of screen &gt; My Calendars &gt; Automapped calendar.</i>\n</p><p>This feature is on by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified date with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation.\n</p><p><i>Learn more</i></p><ul><li>The section called Use the shared calendar from the shared mailbox in <a href=\"https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd#:~:text=Use%20the%20shared%20calendar%20from%20the%20shared%20mailbox\" target=\"_blank\">Open and use a shared mailbox in Outlook - Microsoft Support</a>\n</li><li>Definition of automapping: <a href=\"https://learn.microsoft.com/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox\" target=\"_blank\">Remove automapping for a shared mailbox - Outlook | Microsoft Learn</a></li></ul><p>#newoutlookforwindows</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "415168"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting late April 2026, users will automatically see automapped calendars when switching between classic and new Outlook for Windows. The rollout requires no admin action and completes by June 2026. Users can access automapped calendars via the Calendar icon under My Calendars."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-07-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC906502",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-19T17:37:00.097Z",
-    "Services": [
-      "Microsoft 365 for the web",
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2024-10-07T23:08:46Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Outlook: Automatically display automapped calendars",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
