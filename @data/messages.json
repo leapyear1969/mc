@@ -4,6 +4,53 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 21, 2026: We have paused rollout of Web, Mac, and Desktop releases. Android and iOS will continue to rollout as planned.</p><p><b>Introduction</b></p><p>We're introducing a new way to quickly summarize emails and attachments using Copilot chat in Outlook. With a single click, users can generate concise summaries of email content and attachments, helping them stay focused and save time. This feature is available to Android and iOS users with a Microsoft 365 Copilot license and pinning enabled.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503316\" target=\"_blank\">503316</a>.</p><p><b>When this will happen:</b></p><ul><li>Targeted Release (Worldwide): Rollout started early October 2025; completed mid-October 2025.</li><li>General Availability (Worldwide): Began mid-October 2025; completed mid-October 2025.</li></ul><p><b>How this affects your organization:</b></p><p>Who is affected: Users with a Microsoft 365 Copilot license and pinning enabled in Outlook across Android and iOS.</p><p>What will happen:</p><p>Users will see a new option to summarize email content using Copilot chat:</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/87a98ede-18dc-4b05-b4af-1e8400d336eb/6c72b9a5df1d63f929a24ad3ff4dccaf6428c13e.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>The feature will be available across Android, Desktop, iOS, Mac, Web, and both Classic and New Outlook for Windows.</li><li>No admin configuration is required; the feature is enabled by default for eligible users.</li><li>Existing policies are respected; no changes to admin controls are needed.</li></ul><p><b>What you can do to prepare:</b></p><ul><li>No action is required.</li><li>You may choose to inform users about the new summarization capability.</li><li>If desired, update internal documentation to reflect the availability of this feature.</li></ul><p><b>Compliance considerations:</b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "503316"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook now offers email and attachment summarization via Copilot chat for Android and iOS users with a Microsoft 365 Copilot license. Rollout on Web, Mac, and Desktop is paused. The feature is enabled by default, requires no admin setup, and respects existing policies. No action is needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-08T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1162289",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-21T23:43:53.12Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-09-29T23:12:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Outlook: Summarize email with Copilot chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is introducing <b>Efficiency Mode</b>, a performance-optimized experience designed for hardware-constrained devices. This change improves app responsiveness and meeting quality by adjusting resource usage based on device capabilities.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop and is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=560055\" target=\"_blank\">560055</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Worldwide):</b> Rollout begins in <b>early May 2026</b> and is expected to complete by<b> mid-May 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users running Microsoft Teams on <b>hardware‑constrained devices</b> (for example, devices with limited CPU, memory)</li><li><b><br></b></li><li><b>What will happen:</b></li></ul>\n<ul>\n  <li>Efficiency Mode is <b>enabled by default </b>on eligible devices.</li>\n  <li>An <b>Efficiency Mode indicator</b> appears in the Teams app title bar.</li>\n  <li>When enabled:\n    <ul>\n      <li>Video resolution sent from the user’s camera is <b>dynamically adjusted</b> in meetings.</li>\n      <li>The app launches <b>without a pre-selected chat</b> and shows a static image in the message pane.</li>\n    </ul>\n  </li>\n  <li>Users can <b>opt out</b> via <b>Settings </b>&gt; <b>General </b>&gt; “<b>Never use efficiency mode</b>.”</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if the default behavior works for your organization.</li><li>Consider informing helpdesk teams about the new mode and opt-out option.</li>\n  <li>Update internal documentation if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>Users can enable or disable the feature themselves. No other compliance considerations were identified.</p>",
       "ContentType": "html"
     },
@@ -2389,7 +2436,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3402264Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3402266Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0251493Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0251494Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3142,7 +3189,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3404479Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3404481Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3404482Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250658Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-22T02:11:04.025066Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250661Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12582,7 +12629,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3401063Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3401066Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3401068Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.3401069Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-21T23:31:48.340107Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250547Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250549Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250552Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250553Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T02:11:04.0250555Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12886,10 +12933,6 @@
       {
         "Name": "RoadmapIds",
         "Value": "476488"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
