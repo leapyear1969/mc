@@ -4,6 +4,92 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 22, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>We’re introducing <b>cross-tenant group synchronization</b>, a new capability that enables organizations to <b>synchronize security groups across Microsoft Entra tenants</b>. This feature simplifies collaboration scenarios by allowing shared access to resources across tenants while maintaining centralized group management. It also streamlines administration of multiple tenants by centralizing group membership control, reducing duplication and manual overhead. The new group sync functionality will be part of the Microsoft Entra ID Governance / Microsoft Entra Suite <a href=\"https://learn.microsoft.com/entra/id-governance/licensing-fundamentals#types-of-licenses\">license</a>.&nbsp;</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=518221\" target=\"_blank\">518221</a>.</p>\n<b>When this will happen</b><ul>\n<li><b>Public Preview: </b>Rollout begins in <b>late January 2026</b> and completes by<b> late January 2026</b>.</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD): </b>Rollout begins in late<b> April 2026 </b>and completes by<b>&nbsp;end of May 2026 </b>(previously late April).</li>\n</ul>\n<b>How this affects your organization</b><ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Entra tenants who want to enable cross-tenant group synchronization.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>No impact unless you opt in during Public Preview.</li>\n<li>Admins can enable synchronization by updating attribute mappings.</li>\n<li>Cross-tenant access policies in the target tenant must allow group synchronization.</li>\n</ul>\n</li>\n</ul>\n<b>What you can do to prepare</b><ul>\n<li>Identify groups that require synchronization into other tenants.</li>\n<li>Collaborate with admins of other tenants to align on supported scenarios and business processes.</li>\n<li>Review and update attribute mappings and cross-tenant access policies as needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure?pivots=same-cloud-synchronization\" target=\"_blank\">Configure cross-tenant synchronization - Microsoft Entra ID | Microsoft Learn</a></p><ul>\n</ul>\n<b>Compliance considerations</b><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "518221"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra introduces cross-tenant security group synchronization to simplify collaboration and centralize group management across tenants. Public preview starts late January 2026; general availability by end of May 2026. Admins can enable sync by updating attribute mappings and access policies. No compliance issues identified."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-06T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1198077",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-22T21:27:56.103Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-16T23:40:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Cross-tenant security group synchronization",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-04-14T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 22, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To streamline and modernize reporting experiences across Microsoft 365, we are<b> retiring </b>the<b> Outlook for Windows Usage Report</b> in the <b><i>Exchange admin center (EAC)</i></b>. Admins can continue accessing Outlook usage information in the <i>Microsoft 365 admin center (MAC)</i>, which offers a more complete and up‑to‑date reporting experience across Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><ul><li>Retirement will begin in <b>mid-June 2026</b> (previously&nbsp;mid‑April).</li><li>Retirement will complete in <b>mid-July 2026</b> (previously&nbsp;mid‑May).</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who use the Exchange admin center (EAC) to view Outlook for Windows usage data.</li></ul><p><i>What will happen</i></p><ul><li>The Outlook for Windows Usage Report will be<b> removed from the EAC</b>.</li><li>No replacement Outlook usage reporting will remain in the <i>EAC</i> after this retirement.</li><li>Admins can continue accessing Outlook for Windows usage insights through the Microsoft 365 admin center (MAC):&nbsp;<i style=\"font-weight: bold;\">Reports &gt; Usage &gt; M365 Apps &gt; Usage &gt; Outlook for Windows</i></li><li>MAC provides consolidated usage reporting with charts and tables to help admins understand usage patterns across Outlook and other Microsoft 365 apps.</li><li>No impact to Outlook for Windows functionality for users.</li><li>This <b>report retirement will occur automatically</b>; <b>no opt‑out </b>or admin toggle will be available.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No admin action is required.</li><li>If your organization references the EAC usage report in documentation or internal processes, update those materials before the retirement is complete.</li></ul><p><b>Learn more</b>:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft365-apps-usage-ww?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Reports in the admin center - Microsoft 365 Apps usage | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "The Outlook for Windows Usage Report in the Exchange admin center will retire between mid-June and mid-July 2026. Admins must use the Microsoft 365 admin center for Outlook usage insights. No user impact or admin action is required, but update any related documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2026-08-24T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1230889",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-22T20:39:52.663Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-11T23:14:50Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Outlook for Windows report retirement in the Exchange admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 21, 2026: We have updated the timeline and content below. Thank you for your patience.&nbsp;&nbsp;</p><p><b>What it is</b></p><p>Microsoft is rolling out a new feature to streamline how app and agent availability is managed across Teams, Outlook, and Microsoft 365 Copilot. Until now, IT admins configured availability settings separately in both the Microsoft 365 Admin Center (MAC) and the Teams Admin Center (TAC), which led to mismatches. With this update, you’ll be able to unify availability policies for apps and agents across both portals, making app management more consistent and efficient<b>.</b></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">393931</a>,&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\">485712</a>&nbsp;and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" target=\"_blank\">503105</a>.</p><p><b>When this will happen:\n</b></p><p>We will begin rolling out this feature late September 2025 and expect to complete by August 2026 (previously end of June).</p><p>1. <b>Phase 1 – Default Tenant Unification of App/Agent Availability</b></p><p>We will begin rolling out this feature at the end of September 2025. This initial phase targets tenants that have never modified their organization-wide defaults, app availability, or block/unblock in either the Microsoft 365 admin center or the Teams admin center.  At the end of this phase, agent and app manageability will be unified across both Microsoft 365 admin center and Teams admin center ensuring agent and Microsoft 365 <b>apps availability</b> policies are in alignment for all future administrative changes. This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=393931\" target=\"_blank\">393931.</a></p><p>2.<b>Phase 2 – Modified Tenants Unification of App/Agent Availability</b></p><p>This phase targets tenants that have previously modified their organization-wide defaults, app availability, or block/unblock settings in either admin center. These tenants will be transitioned to a unified management experience across both Microsoft 365 and Teams admin centers.</p><ul><li><b>For tenants with no agent or app availability differences across both admin centers</b>, guidance will be provided to help maintain unified availability policy for all future changes. We will begin rolling out this feature in early November 2025.<br><ul><li>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\">485712</a>&nbsp;&amp;&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">503105</a>.</li></ul></li></ul><li><b>For tenants with agent or app availability differences across both admin centers, </b>a <b>wizard </b>in the Teams admin center will help identify affected agents and apps and guide through resolving discrepancies.<ul><li>As part of this phase we will also enable administrators to manage Microsoft 365 certified SaaS applications within their tenant through org-wide settings for third-party apps. We will begin rolling out this feature in January 2026 and complete rollout by end of June 2026.</li><li>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=485712\">485712</a>&nbsp;&amp;&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503105\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">503105</a>.</li></ul></li><li><p><b>Note:</b> In this phase, no changes will be applied to org-wide settings or app-level settings without administrator action.</p><p>3.\t<b>Phase 3 – Automatic Unification\n</b></p><p>Tenants that haven’t transitioned as part of Phase 1 &amp; Phase 2, will be automatically moved to unified app agent management. We will update this post with a timeline and more details later.</p><p><b>How this will affect your organization</b></p><p>Before this rollout, managing Teams apps that also work in Outlook and the Microsoft 365 app was fragmented across two admin centers:</p><ul><li>the Integrated apps and Agent apps pages in the Microsoft 365 admin center, and</li><li>the Manage apps page in the Teams admin center.</li></ul><div>This sometimes resulted in inconsistent availability settings for the same app.</div><div>With Unified agent app management, admins can manage apps and agents from either the Microsoft 365 admin center or the Teams admin center. Availability settings will remain synchronized across both, ensuring a consistent management experience.</div><div><br></div><div><b>What you can expect:</b></div><ul><li>You’ll gain a consolidated view of agent and Microsoft 365 app availability across both Microsoft 365 and Teams admin centers.\n</li><li>Changes made in either admin center to the agent and app availability will automatically apply across all supported hosts.\n</li><li>Organization-wide defaults for both admin centers will be in sync and govern app availability across Teams, Outlook, and the Microsoft 365 copilot app.</li></ul><p><b>What you need to do to prepare</b></p><p>To ensure a smooth transition, review your tenant-level and individual agent/app settings (app allow/block &amp; user availability) in both the Microsoft 365 Admin Center and the Teams Admin Center. If different departments within your organization manage these settings, we suggest coordinating efforts to complete the review collaboratively.\n</p><p>This update will be rolled out automatically by the stated date, and no immediate action is required. However, it's a good time to update any internal documentation related to agent and app management policies.&nbsp;</p><p>Learn more: <a href=\"https://learn.microsoft.com/microsoftteams/uam-tac-mac\" target=\"_blank\">Unified agent and app availability management across Microsoft 365 and Teams Admin Centers - Microsoft Teams | Microsoft Learn&nbsp;</a></p><p>\n</p></li><li><br></li><li><br></li>",
       "ContentType": "html"
     },
@@ -2604,7 +2690,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557984Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557985Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.710707Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7107071Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3357,7 +3443,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4555333Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4555335Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4555336Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7104835Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7104839Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.710484Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8353,7 +8439,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12700,7 +12786,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.455703Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557031Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557032Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557033Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T19:21:11.4557034Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7106107Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7106109Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.710611Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7106111Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T20:51:30.7106112Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16395,44 +16481,6 @@
     "AdditionalProperties": {}
   },
   {
-    "ActionRequiredByDateTime": "2026-04-14T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>To streamline and modernize reporting experiences across Microsoft 365, we are<b> retiring </b>the<b> Outlook for Windows Usage Report</b> in the <b><i>Exchange admin center (EAC)</i></b>. Admins can continue accessing Outlook usage information in the <i>Microsoft 365 admin center (MAC)</i>, which offers a more complete and up‑to‑date reporting experience across Microsoft 365 apps.</p><p><b><b>When this will happen</b></b></p><ul><li>Retirement will begin in&nbsp;<b>mid‑April 2026</b>.</li><li>Retirement will complete in&nbsp;<b>mid‑May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins who use the Exchange admin center (EAC) to view Outlook for Windows usage data.</li></ul><p><i>What will happen</i></p><ul><li>The Outlook for Windows Usage Report will be<b> removed from the EAC</b>.</li><li>No replacement Outlook usage reporting will remain in the <i>EAC</i> after this retirement.</li><li>Admins can continue accessing Outlook for Windows usage insights through the Microsoft 365 admin center (MAC):&nbsp;<i style=\"font-weight: bold;\">Reports &gt; Usage &gt; M365 Apps &gt; Usage &gt; Outlook for Windows</i></li><li>MAC provides consolidated usage reporting with charts and tables to help admins understand usage patterns across Outlook and other Microsoft 365 apps.</li><li>No impact to Outlook for Windows functionality for users.</li><li>This <b>report retirement will occur automatically</b>; <b>no opt‑out </b>or admin toggle will be available.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No admin action is required.</li><li>If your organization references the EAC usage report in documentation or internal processes, update those materials before the retirement is complete.</li></ul><p><b>Learn more</b>:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft365-apps-usage-ww?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Reports in the admin center - Microsoft 365 Apps usage | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "The Outlook for Windows Usage Report in the Exchange admin center will be retired between mid-April and mid-May 2026. Admins must use the Microsoft 365 admin center for Outlook usage insights. No impact on Outlook functionality; no admin action needed, but update related documentation."
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230889",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-11T23:15:12.8Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-11T23:14:50Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Outlook for Windows report retirement in the Exchange admin center",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
     "ActionRequiredByDateTime": null,
     "Attachments": null,
     "AttachmentsArchive": null,
@@ -18490,53 +18538,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 admin center multifactor authentication enforcement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated January 7, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p>We’re introducing <b>cross-tenant group synchronization</b>, a new capability that enables organizations to <b>synchronize security groups across Microsoft Entra tenants</b>. This feature simplifies collaboration scenarios by allowing shared access to resources across tenants while maintaining centralized group management. It also streamlines administration of multiple tenants by centralizing group membership control, reducing duplication and manual overhead. The new group sync functionality will be part of the Microsoft Entra ID Governance / Microsoft Entra Suite <a href=\"https://learn.microsoft.com/entra/id-governance/licensing-fundamentals#types-of-licenses\">license</a>.&nbsp;</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=518221\" target=\"_blank\">518221</a>.</p>\n<b>When this will happen</b><ul>\n<li><b>Public Preview: </b>Rollout begins in <b>late January 2026</b> and completes by<b> late January 2026</b>.</li>\n<li><b>General Availability (Worldwide, GCC, GCC High, DoD): </b>Rollout begins in late<b> April 2026 </b>and completes by<b> late April 2026</b>.</li>\n</ul>\n<b>How this affects your organization</b><ul>\n<li><b>Who is affected:</b> Admins managing Microsoft Entra tenants who want to enable cross-tenant group synchronization.</li>\n<li><b>What will happen:</b>\n<ul>\n<li>No impact unless you opt in during Public Preview.</li>\n<li>Admins can enable synchronization by updating attribute mappings.</li>\n<li>Cross-tenant access policies in the target tenant must allow group synchronization.</li>\n</ul>\n</li>\n</ul>\n<b>What you can do to prepare</b><ul>\n<li>Identify groups that require synchronization into other tenants.</li>\n<li>Collaborate with admins of other tenants to align on supported scenarios and business processes.</li>\n<li>Review and update attribute mappings and cross-tenant access policies as needed.</li></ul><p>Learn more:&nbsp;<a href=\"https://learn.microsoft.com/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure?pivots=same-cloud-synchronization\" target=\"_blank\">Configure cross-tenant synchronization - Microsoft Entra ID | Microsoft Learn</a></p><ul>\n</ul>\n<b>Compliance considerations</b><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "518221"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Entra introduces cross-tenant security group synchronization, enabling centralized group management and resource sharing across tenants. Public Preview starts late January 2026; general availability begins late April 2026. Admins must opt in, update attribute mappings, and configure cross-tenant access policies to enable this feature."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-05-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1198077",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-01-07T22:52:18.41Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-16T23:40:03Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra: Cross-tenant security group synchronization",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
