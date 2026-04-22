@@ -4,6 +4,180 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is introducing an <b>automatic upgrade for shared calendars</b> in <i>Outlook and Exchange Online</i>, <b>transitioning from the legacy MAPI-based model to the modern REST-based model</b>. This <b>server-side upgrade </b>will improve calendar sync reliability, performance, and consistency for delegates and users who access shared calendars. The change is designed to be seamless and will not require any action from users or administrators.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b></p><ul><li>Rollout start: <b>Late April 2026</b></li><li>Rollout completion: <b>Late July 2026</b></li></ul><p>Rollout timing may vary by tenant.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Exchange Online</li><li>Users who have <b>Editor or higher permissions</b> on shared calendars in <i>user or shared mailboxes</i></li><li>Delegates and users who access shared calendars in<i> Outlook</i></li></ul><p><i>What will happen</i></p><ul><li>Shared calendars will be <b>automatically upgraded</b> from the legacy MAPI-based model to the modern REST-based model.</li><li>The service will <b>create a new calendar folder</b> in a <i>hidden state</i>, complete a <b>full synchronization</b>, and then <b>make the calendar visible</b>.</li><li>The transition is expected to appear seamless, with no interruption to normal user workflows.</li><li><b>Events older than one year</b> will <b>not be included</b> in the initial sync window.</li><li><b>Existing permissions and sharing relationships</b> will be <b>preserved</b>; no re-sharing or permission reset will be required.</li><li><b>No Outlook restart</b>, profile recreation, or user action will be required in <i>normal upgrade scenarios</i>.</li><li><b>No data loss</b> is expected as a result of this change.</li><li><b>Up to four shared calendars per delegate or per principal will be eligible</b> for upgrade during this rollout cycle and will slowly be upgraded to 6.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>We recommend that administrators:</p><ul><li>Inform helpdesk and support teams that <b>temporarily hidden shared calendars during migration are expected</b> and do not indicate a failure.</li><li><b>Do not recommend deleting and re-adding shared calendars</b>, toggling <i><b>Shared Calendar Improvements</b></i>, or creating new Outlook profiles during the migration, as temporary changes may occur while the upgrade completes.</li><li>Monitor for persistent issues, such as missing meetings after the migration window or duplicate calendar folders, and contact Microsoft support if observed.</li><li>If a manual rollback is required after the calendar becomes visible, open a support request through standard Microsoft support channels.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will automatically upgrade shared calendars in Outlook and Exchange Online from the legacy MAPI model to the modern REST model between late April and late July 2026. The upgrade improves sync reliability without user action, preserves permissions, excludes events older than one year initially, and requires no Outlook restart."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1287370",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-22T16:42:08.64Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-21T22:51:16Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Auto upgrade of shared calendars from legacy MAPI model to modern REST model",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Engage will retire <b>live events powered by Teams Live Events</b>&nbsp;effective April 27, 2026. Existing live events already scheduled will continue to be supported through February 28, 2027. We encourage customers to transition to events in <b>Engage </b>powered by <b>Teams town halls</b>, which offer an improved experience for large-scale digital and hybrid events.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Effective April 27, 2026: </b>You will no longer have the option to schedule a <b>live event in Engage </b>powered by <b>Teams Live Events</b>.</li><li><b>Through February 28, 2027: Engage </b>will continue to support<b> any live events powered by Teams Live Events </b>that were scheduled before April 27, 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected: </b>Organizations using<b> live events in Engage</b> powered by <b>Teams Live Events</b>.</p>\n<p><b>What will happen: \n</b></p><ul><li>You will no longer be able to schedule a <b>live event in Engage</b> powered by<b> Teams Live Events</b> starting April 27, 2026.</li><li><b>Engage </b>will continue to support already scheduled <b>live events powered by Teams Live Events</b> through February 28, 2027.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Migrate to events in <b>Engage </b>powered by <b>Teams town halls</b>.</li><li>Review and update internal documentation to reflect this change.\n</li></ul><p>Explore these resources:</p><ul><li><a href=\"https://support.microsoft.com/office/organize-a-live-event-with-teams-town-hall-197dcfbb-14d8-4b8e-a038-5bc730c726d1\" target=\"_blank\">Organize a Live event with Teams town hall&nbsp;</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/plan-town-halls\" target=\"_blank\">Plan for Teams town halls</a> \n</li><li><a href=\"https://learn.microsoft.com/graph/cloud-communications-virtual-events-townhall-usecases\" target=\"_blank\">Virtual Events Graph APIs</a> \n</li><li><a href=\"https://adoption.microsoft.com/customer-hub/microsoft-teams-events-readiness/\" target=\"_blank\">Customer Hub events readiness sessions</a> - recommended sessions for Teams live event users transitioning to Teams town halls:<ul><li><i>What’s new in Microsoft Teams town halls and webinars</i></li><li><i>Migrating from Teams live events to town halls</i></li><li><i>Tips, tricks, and traps for town halls and webinars in Microsoft Teams</i></li></ul></li></ul><p><b><b>Compliance considerations:</b> \n</b></p><p>No compliance considerations identified; review as appropriate for your organization.\n</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Engage will retire live events powered by Teams Live Events on April 27, 2026, stopping new event scheduling then but supporting existing events until February 28, 2027. Organizations should migrate to Engage events powered by Teams town halls and update documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227085",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-22T16:14:04.883Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-05T00:07:04Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Engage is retiring live events powered by Teams Live Events effective April 27th, 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 21, 2026: We have updated the timeline. This post has also been updated to remind customers that this feature is <b>default-on</b> for Copilot Dashboard users with <b>full company-level data access</b>. The export output remains <b>de-identified</b>, with each user represented by a hashed ID. Please review and take any actions as appropriate for your organization. Thank you for your patience.</p><p>This MC post is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=500872\">500872</a>.</p><p><b><b>Introduction:</b></b></p><p>To support deeper analysis of Copilot adoption, Microsoft is introducing a <b>new export capability in the <i>Copilot Dashboard</i></b>. This feature allows dashboard users with company-level access to download de-identified Copilot usage metrics, aggregated by user and week, from the past six months. Organizations can use this data to track adoption trends, optimize licensing, and support AI transformation strategies.</p><p>This feature requires at least 50 Microsoft 365 Copilot licenses and applies to the Viva Insights web app.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Public Preview:</b> Begins in early December 2025 (previously late November 2025), completes by late December 2025.</li><li><b>General Availability (Worldwide):</b> Begins in early May 2026 (previously late April), completes by late May 2026 (previously early May).</li></ul><p><b><b>How this affects your organization:</b></b></p><p>Who is affected:</p><p>Copilot Dashboard users with <b>full company-level data access</b>, including senior leaders (as <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">identified in Entra ID</a>), admin-assigned company-level users, delegates with company-level access, as well as global analysts and admins.&nbsp;</p><p>Note: Group managers with data access limited to their own teams will <b>not </b>have access to this feature.</p><p>What will happen:</p><ul><li>Users will be able to export de-identified, row-level Copilot usage metrics from the dashboard.</li><li>The dataset includes weekly, user-level metrics from the past six months.</li><li>The export supports Copilot usage analysis across apps (such as Word, Excel, Teams), and includes two attributes: Organization, and Job function.</li><li>Organizations can use the data to track usage patterns, generate insights to inform adoption strategies, optimize licensing, and measure ROI.</li><li>The feature is <b>enabled by default</b> for eligible users.</li><li>Admins can manage access via Viva Feature Access Management (VFAM) settings, under <i>Module: Viva Insights; Feature: Copilot Metrics Export</i>.</li><li>No impact to user workflow unless accessed by eligible users.</li></ul><p><i>Screenshot 1 - View of the new Microsoft Copilot dashboard:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d3b1ff4d-e865-4735-99fe-89a85a92adae/c6b2526f8b2d42d219252086e589436f216baccb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Example of output:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ed28db4c-5c0c-42f4-a9fc-ce5d61fd13a4/eadf652eb77fa2338ecc3cc2f0623643ba7ca107.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review the assignment of the Copilot dashboard users with full company-wide data access and adjust VFAM policies as needed.</li><li>Communicate the upcoming feature to eligible users so they know what to expect.</li><li>No admin setup is required to start using the export.</li><li>Admins can disable the feature at the tenant or group level at any time using VFAM settings.</li></ul><p>Learn more:&nbsp;</p><p><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Microsoft Viva Feature access management | Microsoft Learn</a></p><p><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a>\n</p><p></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "500872"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a default-on, de-identified data export feature in the Copilot Dashboard for users with full company-level access. Available from December 2025 (preview) and May 2026 (general availability), it provides weekly user-level Copilot usage metrics for six months to support adoption analysis and licensing optimization."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173208",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-22T16:08:52.527Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-16T00:11:07Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Copilot Analytics: Data export public preview for Copilot metrics in the Copilot dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b> </b></p><p>We’re releasing an improvement to Microsoft Teams that syncs your recently used emojis and reactions across devices. With this update, users will see the same set of “recently used” emojis when using Teams on Android, iOS, Mac, Windows desktop, and Teams for the web, creating a more consistent and seamless experience when communicating across chats and channels. This enhancement aligns with customer feedback requesting a unified emoji experience across platforms. </p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554927#Roadmap\" target=\"_blank\">554927</a></b>. </p><p><b><b>When this will happen</b> </b></p><ul><li><b>Targeted Release:</b> We expect to complete rollout by <b>mid-May 2026</b> (previously&nbsp;mid‑April). </li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;mid-May 2026 </b>(previously late April)<b>&nbsp;</b>and expect to complete in <b>late&nbsp;May&nbsp;2026</b>.</li><li><b>General Availability (GCC and GCCH): </b>We will begin rolling out in <b>mid-May 2026</b> (previously&nbsp;mid-April)&nbsp;and expect to complete by<b>&nbsp;mid-June 2026 </b>(previously late April).</li><li><b>General Availability (DoD): </b>We will begin rolling out in <b>mid-June 2026</b> (previously&nbsp;early May)<b>&nbsp;</b>and expect to complete by<b> late June 2026</b> (previously&nbsp;mid-May).</li></ul><p><b><b>How this affects your organization</b> </b></p><p><i>Who is affected</i></p><ul><li>All Microsoft Teams users across supported clients. </li></ul><p><i>What will happen</i></p><ul><li>Recently used emojis and reactions will sync across devices. </li><li>Users will see the same “recently used” list regardless of which Teams client they use. </li><li>The feature will be<b> enabled by default</b>; no configuration is required for rollout. </li><li>Existing Teams admin settings and messaging policies will continue to apply. </li><li>There is no impact to message flow, data storage, compliance boundaries, or customer data pathways.</li></ul><p> </p><p><b><b>What you can do to prepare</b> </b></p><p>No action is required. This update will roll out automatically. </p><p>Admins may optionally: </p><ul><li>Inform helpdesk or support teams about this user experience update. </li><li>Update internal documentation if you reference emoji behavior or Teams UI details. </li><li>Review your Messaging settings and Messaging policies if you manage custom emoji usage. </li></ul><p>Learn more about emoji and reaction usage in <i>Microsoft Teams</i>: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad#id0ebbd=desktop\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b> </b></p><p>No compliance considerations identified. Review as appropriate for your organization. </p><p>This feature does not introduce new data storage, processing changes, AI/ML capabilities, communication pathways, admin reporting changes, or modifications to Purview‑governed workflows.&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "554927"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will sync recently used emojis and reactions across all devices by mid to late May 2026, creating a consistent emoji experience. The feature is enabled by default, requires no action, and does not affect data flow or compliance. Admins may inform support teams or update documentation if needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1256307",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-22T15:58:01.47Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-19T22:26:54Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Recently used emojis sync across devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to fill out forms quickly by using images, files, and emails with AI in Power Apps. This feature is now generally available.<br><br>\n<b>How does this affect me?</b><br>\nBased on your feedback, we have improved the form-filling experience and gave you more control over suggestions. <ul>\n<li>AI can help you fill out forms quickly by using images, files, and emails to save you time on tedious tasks.</li>\n<li>Model-driven app users can add a file, including images, or an email for Copilot to suggest form fields.</li></ul>\nAdmins can manage this capability through the Power Platform admin center.<br><br>\n\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.<br><br>\nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/14637/use-form-fill-assistance\" target=\"_blank\">Use AI form fill assistance in model-driven apps</a>.",
       "ContentType": "html"
     },
@@ -198,43 +372,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Shared voicemails for call queues will be easier to manage",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is introducing an <b>automatic upgrade for shared calendars</b> in <i>Outlook and Exchange Online</i>, <b>transitioning from the legacy MAPI-based model to the modern REST-based model</b>. This <b>server-side upgrade </b>will improve calendar sync reliability, performance, and consistency for delegates and users who access shared calendars. The change is designed to be seamless and will not require any action from users or administrators.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b></p><ul><li>Rollout start: <b>Late April 2026</b></li><li>Rollout completion: <b>Late July 2026</b></li></ul><p>Rollout timing may vary by tenant.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Exchange Online</li><li>Users who have <b>Editor or higher permissions</b> on shared calendars in <i>user or shared mailboxes</i></li><li>Delegates and users who access shared calendars in<i> Outlook</i></li></ul><p><i>What will happen</i></p><ul><li>Shared calendars will be <b>automatically upgraded</b> from the legacy MAPI-based model to the modern REST-based model.</li><li>The service will <b>create a new calendar folder</b> in a <i>hidden state</i>, complete a <b>full synchronization</b>, and then <b>make the calendar visible</b>.</li><li>The transition is expected to appear seamless, with no interruption to normal user workflows.</li><li><b>Events older than one year</b> will <b>not be included</b> in the initial sync window.</li><li><b>Existing permissions and sharing relationships</b> will be <b>preserved</b>; no re-sharing or permission reset will be required.</li><li><b>No Outlook restart</b>, profile recreation, or user action will be required in <i>normal upgrade scenarios</i>.</li><li><b>No data loss</b> is expected as a result of this change.</li><li><b>Up to four shared calendars per delegate or per principal will be eligible</b> for upgrade during this rollout cycle and will slowly be upgraded to 6.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>We recommend that administrators:</p><ul><li>Inform helpdesk and support teams that <b>temporarily hidden shared calendars during migration are expected</b> and do not indicate a failure.</li><li><b>Do not recommend deleting and re-adding shared calendars</b>, toggling <i><b>Shared Calendar Improvements</b></i>, or creating new Outlook profiles during the migration, as temporary changes may occur while the upgrade completes.</li><li>Monitor for persistent issues, such as missing meetings after the migration window or duplicate calendar folders, and contact Microsoft support if observed.</li><li>If a manual rollback is required after the calendar becomes visible, open a support request through standard Microsoft support channels.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft will auto-upgrade shared calendars in Exchange Online from the legacy MAPI model to the modern REST model between April and July 2026. The seamless, server-side upgrade improves sync reliability without user action, preserves permissions, excludes events older than one year initially, and requires no Outlook restart."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1287370",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-21T22:51:33.623Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-21T22:51:16Z",
-    "Tags": [
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Auto upgrade of shared calendars from legacy MAPI model to modern REST model",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -2467,7 +2604,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1779672Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1779674Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501958Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501959Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3220,7 +3357,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-22T15:09:47.176948Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1769484Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1769485Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9498844Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9498845Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9498846Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10100,53 +10237,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 25, 2026: We have updated the timeline. This post has also been updated to remind customers that this feature is <b>default-on</b> for Copilot Dashboard users with <b>full company-level data access</b>. The export output remains <b>de-identified</b>, with each user represented by a hashed ID. Please review and take any actions as appropriate for your organization. Thank you for your patience.</p><p>This MC post is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=500872\">500872</a>.</p><p><b><b>Introduction:</b></b></p><p>To support deeper analysis of Copilot adoption, Microsoft is introducing a <b>new export capability in the <i>Copilot Dashboard</i></b>. This feature allows dashboard users with company-level access to download de-identified Copilot usage metrics, aggregated by user and week, from the past six months. Organizations can use this data to track adoption trends, optimize licensing, and support AI transformation strategies.</p><p>This feature requires at least 50 Microsoft 365 Copilot licenses and applies to the Viva Insights web app.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Public Preview:</b> Begins in early December 2025 (previously late November 2025), completes by late December 2025.</li><li><b>General Availability (Worldwide):</b> Begins in late April 2026 (previously late March), completes by early May 2026 (previously early April).</li></ul><p><b><b>How this affects your organization:</b></b></p><p>Who is affected:</p><p>Copilot Dashboard users with <b>full company-level data access</b>, including senior leaders (as <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">identified in Entra ID</a>), admin-assigned company-level users, delegates with company-level access, as well as global analysts and admins.&nbsp;</p><p>Note: Group managers with data access limited to their own teams will <b>not </b>have access to this feature.</p><p>What will happen:</p><ul><li>Users will be able to export de-identified, row-level Copilot usage metrics from the dashboard.</li><li>The dataset includes weekly, user-level metrics from the past six months.</li><li>The export supports Copilot usage analysis across apps (such as Word, Excel, Teams), and includes two attributes: Organization, and Job function.</li><li>Organizations can use the data to track usage patterns, generate insights to inform adoption strategies, optimize licensing, and measure ROI.</li><li>The feature is <b>enabled by default</b> for eligible users.</li><li>Admins can manage access via Viva Feature Access Management (VFAM) settings, under <i>Module: Viva Insights; Feature: Copilot Metrics Export</i>.</li><li>No impact to user workflow unless accessed by eligible users.</li></ul><p><i>Screenshot 1 - View of the new Microsoft Copilot dashboard:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d3b1ff4d-e865-4735-99fe-89a85a92adae/c6b2526f8b2d42d219252086e589436f216baccb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 2 - Example of output:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ed28db4c-5c0c-42f4-a9fc-ce5d61fd13a4/eadf652eb77fa2338ecc3cc2f0623643ba7ca107.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review the assignment of the Copilot dashboard users with full company-wide data access and adjust VFAM policies as needed.</li><li>Communicate the upcoming feature to eligible users so they know what to expect.</li><li>No admin setup is required to start using the export.</li><li>Admins can disable the feature at the tenant or group level at any time using VFAM settings.</li></ul><p>Learn more:&nbsp;</p><p><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Microsoft Viva Feature access management | Microsoft Learn</a></p><p><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a>\n</p><p></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "500872"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is introducing a default-on, de-identified data export feature in the Copilot Dashboard for users with full company-level access. Available from December 2025 (preview) and April 2026 (general availability), it enables export of weekly Copilot usage metrics for analysis, licensing optimization, and adoption tracking."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1173208",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-25T17:46:56.997Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-16T00:11:07Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Copilot Analytics: Data export public preview for Copilot metrics in the Copilot dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing <b><i>Catch up</i></b> in <i>Microsoft Teams mobile</i>. This new, consolidated view helps users triage conversations that need their attention across chats, meeting chats, and followed channels or threads. The experience uses a mobile-optimized card layout with swipe actions to help users stay organized and act quickly on important messages.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558108\" target=\"_blank\">558108</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> Rolling out in <b>early April 2026</b>; expected completion in <b>early April 2026</b>.</li><li><b>General Availability (Worldwide): </b>Rolling out in <b>early May 2026</b>; expected completion in <b>early May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users accessing Microsoft Teams on mobile clients.</li></ul><p><i>What will happen</i></p><ul><li>Users will see a<b> new Catch up experience</b> summarizing:<ul><li>@mentions</li><li>Replies in followed channels/threads</li><li>Chats and meeting chats where actions may be required</li></ul></li><li>A new card‑based view will appear in<i> Teams mobile:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9acc6655-99c1-44a1-87d7-a9a5c18e38b0/323718edc5144db30a94d2402110c37ca8166ca9.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Users can swipe cards to take quick actions and triage messages:<p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/862230ed-0769-4f55-ac3b-0083978ef3ff/9a1f4a45e2e8a8a1295d1734c53ccab0ab32cfbc.png\" style=\"width: 587px;\"></p></li><li>No admin configuration changes are required.</li><li>The feature is<b> enabled by default </b>for all tenants.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required at this time.</p><p>If your organization provides guidance or training for Teams usage, you may want to:</p><ul><li>Inform users about the<b> new Catch up mobile view </b>and how it supports triage.</li><li>Update internal helpdesk or user‑support documentation if it references existing Teams mobile views.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -11431,56 +11521,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b> </b></p><p>We’re releasing an improvement to Microsoft Teams that syncs your recently used emojis and reactions across devices. With this update, users will see the same set of “recently used” emojis when using Teams on Android, iOS, Mac, Windows desktop, and Teams for the web, creating a more consistent and seamless experience when communicating across chats and channels. This enhancement aligns with customer feedback requesting a unified emoji experience across platforms. </p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554927#Roadmap\" target=\"_blank\">554927</a></b>. </p><p><b><b>When this will happen</b> </b></p><ul><li><b>Targeted Release:</b> We expect to complete rollout by <b>mid‑April 2026</b>. </li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;late April 2026 </b>and expect to complete in <b>May&nbsp;2026</b>.</li><li><b>General Availability (GCC and GCCH): </b>We will begin rolling out in <b>mid-April 2026</b> and expect to complete by<b> late April 2026</b>.</li><li><b>General Availability (DoD): </b>We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>mid-May 2026</b>.</li></ul><p><b><b>How this affects your organization</b> </b></p><p><i>Who is affected</i></p><ul><li>All Microsoft Teams users across supported clients. </li></ul><p><i>What will happen</i></p><ul><li>Recently used emojis and reactions will sync across devices. </li><li>Users will see the same “recently used” list regardless of which Teams client they use. </li><li>The feature will be<b> enabled by default</b>; no configuration is required for rollout. </li><li>Existing Teams admin settings and messaging policies will continue to apply. </li><li>There is no impact to message flow, data storage, compliance boundaries, or customer data pathways.</li></ul><p> </p><p><b><b>What you can do to prepare</b> </b></p><p>No action is required. This update will roll out automatically. </p><p>Admins may optionally: </p><ul><li>Inform helpdesk or support teams about this user experience update. </li><li>Update internal documentation if you reference emoji behavior or Teams UI details. </li><li>Review your Messaging settings and Messaging policies if you manage custom emoji usage. </li></ul><p>Learn more about emoji and reaction usage in <i>Microsoft Teams</i>: <a href=\"https://support.microsoft.com/office/send-an-emoji-gif-or-sticker-in-microsoft-teams-174248c9-e64d-4de1-9f41-3199cc0751ad#id0ebbd=desktop\" target=\"_blank\">Send an emoji, GIF, or sticker in Microsoft Teams | Microsoft Support</a></p><p><b><b>Compliance considerations</b> </b></p><p>No compliance considerations identified. Review as appropriate for your organization. </p><p>This feature does not introduce new data storage, processing changes, AI/ML capabilities, communication pathways, admin reporting changes, or modifications to Purview‑governed workflows.&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "554927"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will sync recently used emojis and reactions across all devices by mid-May 2026, providing a consistent experience. The feature is enabled by default, affects all users, requires no action, and does not impact data storage, compliance, or messaging policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1256307",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-19T22:27:10.13Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-19T22:26:54Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Recently used emojis sync across devices",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>The <b>Planner Agent </b>is now available in<i> Microsoft 365 Copilot</i> through Frontier. This capability brings Planner’s intelligent work management directly into Copilot chat, enabling users to create, update, and manage personal tasks and shared basic plans without switching context. Integrated across Microsoft 365, it helps users stay organized with insights into priorities, deadlines, and at‑risk work, and provides interactive task cards to maintain progress.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516576#Roadmap\" target=\"_blank\">516576</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Frontier availability: </b>Available now</li><li><b>Public Preview: </b>Rollout will begin in<b> mid-March 2026 </b>and is expected to complete by <b>late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>This capability is available to Microsoft 365 tenants whose IT admins:</p><ul><li>Enroll the tenant in the <b><a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier program</a>&nbsp;</b>(automatically enrolled), and</li><li>Users must also have an <b>active Microsoft 365 Copilot license</b>.</li></ul><p><i>What will happen</i></p><p>Users will be able to:</p><ul><li>Access the Planner (Frontier) Agent across Microsoft 365 Copilot experiences</li><li>Create, view, and update personal tasks and basic shared plans directly in <i>Copilot chat</i></li><li>Use interactive task cards to draft updates, manage task hierarchies, and track progress</li><li><b>Receive intelligent insights</b> such as high‑priority work, upcoming deadlines, and at‑risk tasks</li><li>Find and add the agent from the <b>All agents</b> section in the<i> Copilot agent store</i></li><li><b>Use natural prompts </b>such as: “<i>Show me my recent high‑priority tasks and what’s due this week.</i>”<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6ee938c5-87c6-4025-aaab-d9152759e8e4/b25ae3472f8e3a4e900dc342dab9ee4100c8abe6.png\" alt=\"user settings\" style=\"width: 400px;\"></p></li></ul><p><b></b></p><p><b>Default state:</b></p><ul><li>Frontier features are opt‑in and require explicit admin enrollment and assignment.</li><li>Capabilities may change as these features are experimental and built for feedback.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Confirm users have<b> active Microsoft 365 Copilot licenses</b>.</li><li>Review and configure agent settings as needed.</li><li>Communicate that <b>Frontier features are experimental</b> and <b>may change</b>.</li><li>Update internal documentation if you track preview experiences.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://adoption.microsoft.com/copilot/frontier-program/\" target=\"_blank\">Frontier Program - Microsoft</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#settings-for-agents\" target=\"_blank\">Manage Copilot agents in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p><p></p>",
       "ContentType": "html"
     },
@@ -12660,7 +12700,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1776444Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1776465Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.177647Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1776473Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T15:09:47.1776476Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501047Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501048Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501049Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.950105Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-22T16:55:19.9501051Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15625,7 +15665,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16928,43 +16968,6 @@
       "Retirement"
     ],
     "Title": "Exchange Web Services (EWS) retirement update",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Engage will retire <b>live events powered by Teams Live Events</b>&nbsp;effective April 15, 2026. Existing live events already scheduled will continue to be supported through February 28, 2027. We encourage customers to transition to events in <b>Engage </b>powered by <b>Teams town halls</b>, which offer an improved experience for large-scale digital and hybrid events.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Effective April 15, 2026: </b>You will no longer have the option to schedule a <b>live event in Engage </b>powered by <b>Teams Live Events</b>.</li><li><b>Through February 28, 2027: Engage </b>will continue to support<b> any live events powered by Teams Live Events </b>that were scheduled before April 15, 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected: </b>Organizations using<b> live events in Engage</b> powered by <b>Teams Live Events</b>.</p>\n<p><b>What will happen: \n</b></p><ul><li>You will no longer be able to schedule a <b>live event in Engage</b> powered by<b> Teams Live Events</b> starting April 15, 2026.</li><li><b>Engage </b>will continue to support already scheduled <b>live events powered by Teams Live Events</b> through February 28, 2027.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Migrate to events in <b>Engage </b>powered by <b>Teams town halls</b>.</li><li>Review and update internal documentation to reflect this change.\n</li></ul><p>Explore these resources:</p><ul><li><a href=\"https://support.microsoft.com/office/organize-a-live-event-with-teams-town-hall-197dcfbb-14d8-4b8e-a038-5bc730c726d1\" target=\"_blank\">Organize a Live event with Teams town hall&nbsp;</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/plan-town-halls\" target=\"_blank\">Plan for Teams town halls</a> \n</li><li><a href=\"https://learn.microsoft.com/graph/cloud-communications-virtual-events-townhall-usecases\" target=\"_blank\">Virtual Events Graph APIs</a> \n</li><li><a href=\"https://adoption.microsoft.com/customer-hub/microsoft-teams-events-readiness/\" target=\"_blank\">Customer Hub events readiness sessions</a> - recommended sessions for Teams live event users transitioning to Teams town halls:<ul><li><i>What’s new in Microsoft Teams town halls and webinars</i></li><li><i>Migrating from Teams live events to town halls</i></li><li><i>Tips, tricks, and traps for town halls and webinars in Microsoft Teams</i></li></ul></li></ul><p><b><b>Compliance considerations:</b> \n</b></p><p>No compliance considerations identified; review as appropriate for your organization.\n</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Engage will retire live events powered by Teams Live Events on April 15, 2026. Existing events scheduled before this date will be supported until February 28, 2027. Users should migrate to Engage events powered by Teams town halls and update internal documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2026-05-16T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227085",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-05T00:07:23.17Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T00:07:04Z",
-    "Tags": [
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Engage is retiring live events powered by Teams Live Events effective April 15th, 2026",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
