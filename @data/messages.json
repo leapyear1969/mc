@@ -4,6 +4,45 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Earlier communication indicated a change in direction; however, Microsoft will continue to add support for passkeys (FIDO2) in the Enabled state within Registration Campaigns. This is the final direction and aligns with our long‑term passkey adoption strategy.</p><p>We are making an update to Passkeys (FIDO2) support within Microsoft Entra Authentication Methods Registration Campaigns.</p><p>Passkeys (FIDO2) will continue moving forward to General Availability as the targeted authentication method for Registration Campaigns in the<b> Enabled state</b> as previously communicated in <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1253746\" target=\"_blank\">MC1253746.&nbsp;</a></p><p>Passkey (FIDO2) will also move forward as the targeted authentication method for Registration Campaigns in the <b>Microsoft Managed state </b>for tenants that meet our in-scope criteria.&nbsp;</p><p><b></b></p><p><b> <b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑May 2026 </b>to Microsoft Managed state&nbsp;and is expected to complete by<b> late June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft Entra tenants using <b>Authentication Methods Registration Campaigns</b></li><li>Tenants with <b>Passkeys (FIDO2) </b>enabled</li><li>Only tenants that meet the Microsoft‑managed eligibility criteria described below</li></ul><p><i>What will happen</i></p><p><b>Enabled state</b></p><ul><li>Passkeys (FIDO2) will be supported as the targeted authentication method for Registration Campaigns in the <i><b>Enabled</b></i> state.</li><li>Over time, we will incrementally refine the logic for Passkeys nudges in Microsoft Registration Campaigns to guide users toward the appropriate passkey registration experience based on their passkey profile scope. Initially, the logic may not account for edge‑case scenario if users have any passkey profile restrictions, but we are actively expanding and improving it on an ongoing basis. When users have <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkeys-fido2\" target=\"_blank\">passkey profile restrictions</a> (for example, device bound only passkeys allowed), the registration experience triggered by the nudge may not be optimal.</li></ul><p><b>Microsoft‑managed state</b></p><ul><li>Passkeys (FIDO2) will be introduced as the targeted authentication method in the<b> Microsoft‑managed</b> state for eligible tenants.</li></ul><p>Tenants are impacted when <b>all </b>of the following conditions are met:</p><ul><li>The <b>Passkeys (FIDO2) </b>authentication method policy is<b> <i>Enabled</i></b>.</li><li><b>Allow self‑service setup</b> is<b><i> Enabled</i></b>.</li><li><b>Target specific AAGUIDs </b>is <b>not </b>selected (no AAGUID restrictions configured).</li><li>The Authentication Methods Registration Campaign state is set to <b>Microsoft‑managed</b>.</li><li>The tenant has at least one user enabled for <b>both synced passkeys and device‑bound passkeys</b>.</li></ul><p>Only users who are enabled for <b>both synced and device‑bound passkeys</b>, with&nbsp;<b>no passkey profile restrictions </b>configured<b>&nbsp;</b>(for example, attestation enforcement or AAGUID restrictions), will receive a passkey registration nudge during sign‑in.</p><p>For impacted tenants, the following Registration Campaign settings will be automatically updated:</p><ul><li><b>Targeted authentication method</b> changes from Microsoft Authenticator to Passkeys (FIDO2).</li><li><b>Days allowed to snooze</b> changes from 3 days to 1 day (no longer configurable).</li><li><b>Limited number of snoozes </b>changes from<i><b> </b>Enabled </i>to <i style=\"\">Disabled</i> (no longer configurable).</li><li><b>Default user targeting </b>changes from voice call or text message users to all MFA‑capable users.</li></ul><p>After these changes take effect, targeted users will begin receiving passkey registration nudges during sign‑in <b>after completing multifactor authentication</b>.</p><p>Rollout will occur incrementally across eligible Microsoft Entra tenants.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>If you plan to enable passkey registration nudges in the future:</p><ul><li>Ensure users are enabled for <b>both synced and device‑bound passkeys</b>.</li><li>Remove any <b>passkey profile restrictions </b>(such as AAGUID or attestation requirements).</li><li>Set your Authentication Methods Registration Campaign to <b>Microsoft‑managed or Enabled</b>.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change include an admin control, and can it be controlled through Microsoft Entra settings?</td><td>Yes. This change is governed by existing Microsoft Entra Authentication Methods policies and Authentication Methods Registration Campaign configuration. Administrators control whether passkey registration nudges are delivered by enabling passkeys, configuring self‑service setup, and setting the registration campaign to the Microsoft‑managed state.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Entra will continue supporting Passkeys (FIDO2) in Enabled and Microsoft-managed states for Registration Campaigns, rolling out worldwide from mid-May to late June 2026. Eligible tenants will see automatic updates to campaign settings and passkey registration nudges after MFA, with no immediate action required."
+      }
+    ],
+    "EndDateTime": "2026-06-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1279092",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T19:57:04.747Z",
+    "Services": [
+      "Microsoft Entra"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-13T22:52:56Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Entra: Passkeys in registration campaigns update",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button&nbsp;</li></ul>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
       "ContentType": "html"
     },
@@ -408,7 +447,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321367Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321368Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.044349Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443492Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -759,7 +798,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1348,7 +1387,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1530,7 +1569,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3005,7 +3044,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3141,7 +3180,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6322676Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6322677Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0441807Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0441811Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3806,44 +3845,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are making an update to Passkeys (FIDO2) support within Microsoft Entra Authentication Methods Registration Campaigns.</p><p>Based on ongoing improvements to passkey registration nudge logic and user experience behavior, Passkeys (FIDO2) will no longer move forward to General Availability as the targeted authentication method for Registration Campaigns in the<b> Enabled state</b> as previously communicated in <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1253746\" target=\"_blank\">MC1253746.&nbsp;</a></p><p>Instead, we are continuing to refine the eligibility logic that determines when users receive passkey registration nudges during sign-in. In the interim, Passkey (FIDO2) will move forward as the targeted authentication method for Registration Campaigns in the <b>Microsoft Managed state </b>for tenants that meet our in-scope criteria.&nbsp;</p><p><b></b></p><p><b> <b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑May 2026 </b>to Microsoft Managed state&nbsp;and is expected to complete by<b> late June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft Entra tenants using <b>Authentication Methods Registration Campaigns</b></li><li>Tenants with <b>Passkeys (FIDO2) </b>enabled</li><li>Only tenants that meet the Microsoft‑managed eligibility criteria described below</li></ul><p><i>What will happen</i></p><p><b>Enabled state</b></p><ul><li>Passkeys (FIDO2) will <b>not</b> be supported as the targeted authentication method for Registration Campaigns in the <i><b>Enabled</b></i> state at this time.</li><li>We are continuing to improve registration campaign nudge behavior and eligibility logic to better align with passkey configuration and profile scope.</li><li>Further updates will be shared when support for the Enabled state becomes available.</li></ul><p><b>Microsoft‑managed state</b></p><ul><li>Passkeys (FIDO2) will be introduced as the targeted authentication method in the<b> Microsoft‑managed</b> state for eligible tenants.</li></ul><p>Tenants are impacted when <b>all </b>of the following conditions are met:</p><ul><li>The <b>Passkeys (FIDO2) </b>authentication method policy is<b> <i>Enabled</i></b>.</li><li><b>Allow self‑service setup</b> is<b><i> Enabled</i></b>.</li><li><b>Target specific AAGUIDs </b>is <b>not </b>selected (no AAGUID restrictions configured).</li><li>The Authentication Methods Registration Campaign state is set to <b>Microsoft‑managed</b>.</li><li>The tenant has at least one user enabled for <b>both synced passkeys and device‑bound passkeys</b>.</li></ul><p>Only users who are enabled for <b>both synced and device‑bound passkeys</b>, with&nbsp;<b>no passkey profile restrictions </b>configured<b>&nbsp;</b>(for example, attestation enforcement or AAGUID restrictions), will receive a passkey registration nudge during sign‑in.</p><p>For impacted tenants, the following Registration Campaign settings will be automatically updated:</p><ul><li><b>Targeted authentication method</b> changes from Microsoft Authenticator to Passkeys (FIDO2).</li><li><b>Days allowed to snooze</b> changes from 3 days to 1 day (no longer configurable).</li><li><b>Limited number of snoozes </b>changes from<i><b> </b>Enabled </i>to <i style=\"\">Disabled</i> (no longer configurable).</li><li><b>Default user targeting </b>changes from voice call or text message users to all MFA‑capable users.</li></ul><p>After these changes take effect, targeted users will begin receiving passkey registration nudges during sign‑in <b>after completing multifactor authentication</b>.</p><p>Rollout will occur incrementally across eligible Microsoft Entra tenants.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>If you plan to enable passkey registration nudges in the future:</p><ul><li>Ensure users are enabled for <b>both synced and device‑bound passkeys</b>.</li><li>Remove any <b>passkey profile restrictions </b>(such as AAGUID or attestation requirements).</li><li>Set your Authentication Methods Registration Campaign to <b>Microsoft‑managed</b>.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change include an admin control, and can it be controlled through Microsoft Entra settings?</td><td>Yes. This change is governed by existing Microsoft Entra Authentication Methods policies and Authentication Methods Registration Campaign configuration. Administrators control whether passkey registration nudges are delivered by enabling passkeys, configuring self‑service setup, and setting the registration campaign to the Microsoft‑managed state.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Entra updates Passkeys (FIDO2) support in Authentication Methods Registration Campaigns, delaying Enabled state availability and introducing Passkeys in Microsoft-managed state for eligible tenants starting mid-May 2026. Eligible tenants will see automatic campaign setting changes; no immediate action is required."
-      }
-    ],
-    "EndDateTime": "2026-06-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1279092",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-13T22:53:19Z",
-    "Services": [
-      "Microsoft Entra"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-13T22:52:56Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Entra: Passkeys in registration campaigns update",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing support for standalone capacity pack usage for Microsoft 365 Copilot Chat, enabling organizations to consume prepaid Copilot Credits without requiring Pay‑As‑You‑Go (PAYG) billing. With this update, administrators will be able to create<b> Copilot Credit Policies</b> to allocate prepaid Copilot Credits to specific departments or user groups, enabling departmental billing scenarios and policy‑based management of Copilot capacity from a shared pool of prepaid credits.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>Rollout will begin on<b>&nbsp;April 20, 2026,</b> and is expected to complete by<b> early May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenant administrators who manage Copilot capacity packs</li><li>Organizations using or planning to use prepaid Copilot Credits</li></ul><p><i>What will happen</i></p><ul><li>Prepaid Copilot capacity packs will be usable without enabling PAYG billing for M365 Copilot Chat.</li><li>Administrators will be able to create Copilot Credit Policies to allocate prepaid Copilot Credits to departments or user groups.</li><li>Copilot usage:<ul><li>Will be governed by administrator‑defined policies</li><li>Will consume capacity from a shared pool of prepaid Copilot Credits.</li><li>Will not exceed prepaid capacity when PAYG is not enabled.</li></ul></li><li>By default:<ul><li>No Copilot Credit Policies will be created automatically.</li><li>Existing Copilot capacity packs will remain unchanged.</li></ul></li><li>There will be no change to the Copilot end‑user experience unless usage is scoped through a policy.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required before rollout.</p><p>After the feature becomes available, administrators may choose to:</p><ul><li>Review existing Copilot capacity pack allocations.</li><li>Create Copilot Credit Policies to scope usage by department or team.</li><li>Update internal governance, billing, or chargeback documentation as needed.</li></ul><p><b>Learn more:</b> <b>to be updated closer to GA rollout</b>&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs\" target=\"_blank\">Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>Yes. This change will introduce Copilot Credit Policies that allow administrators to control how prepaid Copilot Credits are allocated and consumed. Policies can be scoped to user groups, including Entra ID groups.</td></tr></tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -3894,7 +3895,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320967Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320968Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320969Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443978Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-23T20:37:32.044398Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443981Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5679,7 +5680,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5776,7 +5777,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6260,7 +6261,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8465,7 +8466,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8813,7 +8814,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8894,7 +8895,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9448,7 +9449,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10320,7 +10321,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12727,7 +12728,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12909,7 +12910,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13006,7 +13007,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321761Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321762Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321763Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321764Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321765Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442954Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442955Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442957Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442959Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442964Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15174,7 +15175,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15224,7 +15225,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15882,7 +15883,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15971,7 +15972,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18458,7 +18459,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20493,7 +20494,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
