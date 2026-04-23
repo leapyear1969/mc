@@ -4,6 +4,270 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button&nbsp;</li></ul>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "89975"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will allow meeting participants on Windows and macOS apps to request collaborative annotation sessions during screen sharing, subject to the presenter's approval. Organizers can control who can start annotations via a new meeting option. Rollout begins May 2026 with no admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1019312",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T18:12:17.283Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-02-28T01:28:59Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Meeting Participants Can Request Collaborative Annotation Sessions Dependent on Host Permission",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p></p><p>Updated April 23, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>To improve security and user experience, Teams Mobile users on Android and iOS will soon be able to choose which browser opens non‑Office and PDF links. This update encourages the use of Microsoft Edge—which supports Single Sign-On (SSO), Copilot, and enhanced security—while still allowing users to choose their preferred browser.</p>\n\n<b><b>When this will happen</b></b><p><b>General Availability (Worldwide):</b>&nbsp;Rollout will begin in<b>&nbsp;late February 2026</b> and is expected to complete by <b>early May 2026</b> (previously&nbsp;late February).</p><p></p><p></p><p><b>General Availability (DoD, GCC, and GCCH):</b>&nbsp;Rollout will begin in <b>late February 2026</b> and is expected to complete by <b>early May 2026</b> (previously&nbsp;late February).</p><p>During rollout, we will monitor user satisfaction (DSAT), Microsoft Edge installation rates, and retention.</p><p></p><p style=\"margin-left: 25px;\">\n\n</p><p style=\"\"><b><b>How this affects your organization</b></b><i></i></p><p style=\"\"><i>Who is affected:&nbsp;</i>All users of Microsoft Teams Mobile on Android and iOS.</p><p style=\"\"><i>What will happen:</i></p><ul><li>When users tap a non‑Office (Word, Excel, PowerPoint) or PDF link, a pop-up will appear at the bottom of the screen (a bottom sheet) prompting them to choose a browser.</li><li>If Microsoft Edge is not installed and the user selects Edge, they will be prompted to download it.</li><li>A new <b>Links in Teams</b> setting will appear in <i>Teams Mobile settings</i>:</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ae469ad9-1228-4909-9564-df21cf8a8b02/f4ef9726d91e5391bebee764dd7047c3e9a86d97.png\" alt=\"user settings\" style=\"width: 400px;\"></p><li>This feature will be <b>enabled by default </b>for all tenants.</li></ul><p><i>Admins can manage this feature using PowerShell:</i></p><ul><li><b>Policy name:</b> <code>TeamsMobilityPolicy</code></li><li><b>Attribute</b>:<code>LinksInTeams</code></li><li><b>Allowed values:</b><ul style=\"\"><li style=\"\"><code>OfferBrowserOptions</code> — enables the feature</li><li style=\"\"><code>UseSystemDefaults</code> — disables the feature</li></ul></li></ul><p><b><b>What you can do to prepare</b></b></p><p><b>IT Admins:</b></p><ul><li>Review and configure the <code>LinksInTeams</code>attribute under <code>TeamsMobilityPolicy</code> via PowerShell.</li><li>Update internal documentation and notify helpdesk teams about the new browser-selection experience.</li><li>If your organization prefers to disable this feature, set <code>LinksInTeams</code> to <code>UseSystemDefaults</code>.</li></ul><p><b>Users -&nbsp;To change your preferred browser:</b></p><ol><li>Tap your profile icon in the upper-left corner of the Teams Mobile app.</li><li>Select <b>Settings</b>.</li><li>Select <b>Links in Teams</b>.</li><li>If Microsoft Edge is not installed and selected, you will be prompted to download it.</li></ol><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations have been identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting late February to early May 2026, Teams Mobile on Android and iOS will let users choose which browser opens non-Office and PDF links, promoting Microsoft Edge by default. Admins can manage this via the TeamsMobilityPolicy PowerShell attribute LinksInTeams. Users can set preferences in app settings."
+      }
+    ],
+    "EndDateTime": "2026-06-05T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1216263",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-23T17:21:07.593Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-09T23:09:10Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Browser selection for links in Teams Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re making a change to the characters allowed in naming and description fields across Microsoft Purview eDiscovery. As part of ongoing security hardening efforts, this update strengthens input validation for eDiscovery cases, holds, searches, and review sets to improve service resilience and reliability.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Production, GCC, GCC High, DoD): This change will begin rolling out in <b>mid-May 2026</b> and is expected to be completed by <b>late May 2026</b>.</p><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Organizations with users or administrators who create or manage Microsoft Purview eDiscovery:</p><ul><li>Cases</li><li>Holds</li><li>Searches</li><li>Review sets</li></ul><p><b>\n</b></p><p><b>What will happen:</b></p><ul><li>Beginning May 15th, 2026, the following special characters will no longer be permitted in naming or description fields when creating or editing:<ul><li>+ (plus sign)&nbsp;</li><li>= (equals sign)&nbsp;</li><li>@ (at sign)&nbsp;</li><li>/ (forward slash)&nbsp;</li><li>* (asterisk)&nbsp;</li></ul></li><li>This restriction applies to:<ul><li>Case name and description</li><li>Hold policy name and description</li><li>Search name and description</li><li>Review set name and description</li></ul></li><li>Existing entities are not affected. <ul><li>Cases, holds, searches, and review sets that already contain these characters will continue to function normally.</li></ul></li><li><b>Editing triggers enforcement:</b><ul><li>If a user edits an existing entity's name or description (e.g., updating an eDiscovery case name) that contains a restricted character, they will see a validation message prompting them to remove the special character before saving. Note that this does not apply when an existing hold policy is being reapplied or when data&nbsp;sources are added to or removed from hold policies.</li><li>The original name and description are preserved until the user chooses to make changes.</li></ul></li><li><b>New entities are enforced immediately:</b><ul><li>Any newly created case, hold, search, or review set must not contain restricted characters in name or description fields.</li></ul></li></ul><p><b><b>What you can do to prepare:</b>\n</b></p><p>No admin action is required to enable this change. However, we recommend the following:</p><ul><li>Inform your eDiscovery users that the characters + = @ / <b>and </b>* will no longer be accepted in entity names and descriptions. \n</li><li>Review and update existing naming conventions or templates that include these characters.</li><li>Update internal documentation or guidance for eDiscovery naming standards.</li><li>Communicate this change to helpdesk and compliance teams to prepare for validation messages when editing existing entities.</li></ul><p><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery (Premium) | Microsoft Learn</a></p><p>No data loss will occur. Existing entities retain their current names and continue to function. Enforcement applies only at the time of creation or editing.</p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting mid-May 2026, Microsoft Purview eDiscovery will restrict the use of +, =, @, /, and * in naming and description fields for new or edited cases, holds, searches, and review sets. Existing entities remain unaffected, and no admin action is required."
+      }
+    ],
+    "EndDateTime": "2026-06-18T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1282562",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-23T17:04:10.207Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-16T21:16:06Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Microsoft Purview eDiscovery: Naming and description fields will restrict certain special characters",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To support frontline workers using personal devices, Microsoft is introducing a dynamic <b>onboarding wizard for Microsoft Teams</b>. This experience is designed to simplify setup on Android and iOS devices, especially in environments with security policies like <b>multi-factor authentication (MFA)</b> and mobile application management. The wizard adapts automatically to your organization’s policies, helping drive secure and efficient <b>Bring Your Own Device (BYOD)</b> adoption.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523213\" target=\"_blank\">523213</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:&nbsp;</b>Rollout begins in late November 2025 and is and expected to complete by mid-January 2026</li><li><b>General Availability:&nbsp;</b>Rollout begins in mid-June 2026 (previously mid-May) and is and expected to complete by early July 2026 (previously early June).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Frontline workers setting up Microsoft Teams on personal Android or iOS devices</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new onboarding wizard will be available via web, optimized for desktop kiosks or shared PCs</li>\n<li>The wizard dynamically adjusts based on your organization’s security policies</li>\n<li>Supports MFA setup, with emphasis on Microsoft Authenticator push notifications</li>\n<li>This tool is optional and designed to improve BYOD Microsoft Teams adoption</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review the admin documentation to understand the onboarding wizard’s capabilities and limitations</li>\n<li>Consider integrating the wizard into your new user onboarding workflows</li>\n<li>Communicate availability to helpdesk and frontline managers</li>\n<li>Update internal documentation if you support BYOD Microsoft Teams deployment</li><li>Review documentation at the following link: <a href=\"https://learn.microsoft.com/microsoft-365/frontline/flw-setup-frontline-personal-devices?view=o365-worldwide\">Set up frontline Teams on personal devices</a></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "523213"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a dynamic onboarding wizard for frontline workers using personal Android or iOS devices with Microsoft Teams. It supports MFA and adapts to security policies, easing BYOD adoption. Public preview starts late November 2025; general availability begins mid-June 2026. Preparation includes reviewing admin documentation and updating workflows."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-08-10T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1184994",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T16:55:59.43Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-12T00:09:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams frontline BYOD onboarding wizard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We are expanding Microsoft Planner integration in Microsoft Teams by enabling <b>Planner tabs in</b> <b>Shared and Private channels</b>. This change allows teams to plan and track work directly within the channel where collaboration occurs, including scenarios that require restricted membership or cross-organization collaboration.</p><p>Only basic plans are being made available in Shared and Private Channels. Premium capabilities will come at a later date.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558928\" target=\"_blank\">558928</a>.</p><p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins <b>late July 2026</b> (previously&nbsp;mid-May)&nbsp;and is expected to complete by <b>end of July 2026</b> (previously<b>&nbsp;late May)</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Teams users working in <b>Shared or Private channels</b></li>\n<li>Microsoft 365 administrators managing Teams and Planner</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users can add <b>Planner </b>as a tab in Shared and Private channels using the <b>+</b> (<b>Add a tab</b>) experience.</li><li>Users can create a<b> new plan</b> for the channel or add an <b>existing plan</b> associated with that channel.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ed836a52-0037-401d-b266-55be25305306\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Planner inherits channel permissions and Microsoft 365 compliance controls.</li><li>Planner plans in shared and private channels will use the channel SharePoint for storage and access. Hence membership will be limited to channel members.</li>\n<li>The feature is <b>enabled by default</b> and requires<b> no admin configuration</b>.</li>\n<li>There is no change to Planner behavior in standard channels.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>Update internal Teams and Planner documentation.</li>\n<li>Inform users that Planner is available in Shared and Private channels.</li>\n<li>Review governance policies related to Teams and Planner usage.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>New customer data storage</td>\n    <td>Users can create new Planner tasks and tasks in Shared and Private channels. This data is stored using the Private or Shared channel SharePoint and follows the compliance policies of the Shared or Private channel.</td>\n  </tr>\n  <tr>\n    <td>New communication pathways</td>\n    <td>Users can communicate through Planner tasks and task chats within Shared and Private channels, including Shared channel scenarios.</td>\n  </tr>\n \n  <tr>\n    <td>User self-service enablement</td>\n    <td>Users can add Planner tabs to Shared and Private channels themselves, subject to existing Teams and app policies.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558928"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Planner tabs will be available in Microsoft Teams Shared and Private channels starting late July 2026, allowing users to create or add plans within these channels. Only basic plans are supported initially, with no admin setup required. Planner inherits channel permissions and stores data in the channel’s SharePoint."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262590",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-23T16:27:32.243Z",
+    "Services": [
+      "Planner",
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:45:54Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Planner tab support for Shared and Private Channels in Microsoft Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To support deeper analysis of Copilot agent adoption and usage across your organization, Microsoft will introduce a <b>new export capability</b> in the <i>Agent Dashboard</i>. This feature will allow eligible users to download <b>de‑identified Copilot agent usage data</b> for analysis, helping organizations track adoption trends, optimize licensing, and support AI transformation strategies, while maintaining existing privacy and access controls. User identifiers are removed from the output.</p><p>This feature will require at least<b> 50 Microsoft 365 Copilot licenses</b> and will apply to the <b>Viva Insights web app</b>.</p><p>This message is related to Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=560538\" target=\"_blank\">560538</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in<b> late May 2026 </b>and expect to complete rollout by<b> early June 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late July 2026 </b>and expect to complete rollout by<b> late August 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li><b>Agent Dashboard users with full company‑level data access</b>, including:<ul><li>Senior leaders (as identified in <i><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Microsoft Entra ID</a></i>)</li><li>Admin‑assigned company‑level users</li><li>Delegates with company‑level access</li><li>Global analysts and admins</li></ul></li></ul><p style=\"margin-left: 75px;\"><i><b>Note: </b>Group managers with data access limited to their own teams will not have access to this feature.</i></p><p><i>What will happen</i></p><ul><li>Eligible users will be able to export <b>de‑identified, user‑level Copilot agent metrics and agent attributes </b>aggregated by user and week, for up to the <b>past six months</b>. User identifiers are removed from the output.</li><li>The <b>export will include multiple data tables</b>, such as:<ul><li><b>Copilot agent metadata</b>including agent name, creator type, and publishing source</li><li><b>Copilot agent usage metrics</b>, including the number of responses generated</li><li><b>Copilot agent credit usage and user retention metrics</b></li><li><b>People metadata</b>, including organization and function type</li></ul></li><li><b>By default, this feature will be ON for all eligible users.</b></li><li>Admins will be able to <b>manage or disable the feature at the tenant or group level at any time using Viva Feature Access Management (VFAM):</b><ul><li>Module: Viva Insights</li><li>Feature: Agent Metrics Export</li></ul></li><li>There will be <b>no impact to user workflows</b> unless the feature is accessed by eligible users.</li></ul><p><i>Screenshot - View of the Agent Dashboard:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c74bd62d-26f7-4246-8557-9f6ab6f566d0/5e19d5959e94d0dcbb0385a2f532d9c558af8c11.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li><b>No action is required </b>to enable this feature.</li><li>If you do not want this feature enabled by default, you <b>can disable it at the tenant or group level</b> using <b>Viva Feature Access Management (VFAM)</b>.</li><li>Review which users have full company‑level access to the Agent Dashboard.</li><li>Communicate the upcoming change to eligible users so they understand the new export capability and its intended use.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/agent-dashboard\" target=\"_blank\">Connect to the Agent Dashboard | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/delegate-access\" target=\"_blank\">Delegate access to the Copilot Dashboard, Agent Dashboard, and Copilot insights | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/manage-settings-copilot-dashboard\" target=\"_blank\">Manage settings for the Microsoft Copilot Dashboard, Agent Dashboard, and Viva Insights web app | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Using Entra ID data - Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Viva features management - Control access to features in Microsoft 365 | Microsoft Viva | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "560538"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva will add an export feature in the Agent Dashboard for eligible users with at least 50 Copilot licenses to download de-identified Copilot agent usage data. Rolling out from May to August 2026, it supports analysis while maintaining privacy and can be managed via Viva Feature Access Management."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-09-21T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1288531",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-23T16:19:45.403Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-22T22:34:09Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva - Copilot Analytics: Export agent data from the Agent Dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re enhancing <b>Customer Connect in Microsoft Teams</b> by adding <b>appointment booking</b>, enabling customers to book follow-up meetings directly from your business website. This helps small businesses turn website conversations into scheduled consultations and ensures appointments are automatically managed in Teams and staff calendars.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557172\" target=\"_blank\">557172</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>General Availability (Worldwide): We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>early May 2026</b></li>\n  <li>General Availability (GCC): We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>late May 2026</b></li>\n</ul>\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 tenants using <b>Customer Connect in Microsoft Teams</b></li>\n  <li>Customers licensed for<b> Microsoft 365 Business Basic, Business Standard, or Business Premium</b></li><li>Teams administrators who manage Customer Connect settings</li></ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Website visitors can schedule appointments directly through the embedded Customer Connect widget.</li><li>Scheduled appointments are automatically:<ul><li>Added to the assigned staff member’s Outlook calendar</li><li>Posted to the <b>Customer Connect requests</b> channel with appointment details</li></ul></li><li>No changes occur to the existing Customer Connect experience until an admin enables and configures appointment scheduling.</li><li>Each tenant can assign <b>up to 25 users</b> as Customer Connect support agents.</li><li><b>Note</b>: <b>Customer Connect</b> was previously released under the name <b>Live Chat</b> in Teams. Documentation may refer to both names while the naming transition is in progress. Refer to MC1287369 for more information.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Set up <b>Customer Connect</b> in Microsoft Teams if not already configured. Learn more: <a href=\"https://aka.ms/CustomerConnectSetup\" target=\"_blank\">Set up and manage live chat | Microsoft Learn</a>.</li><li><b>Enable appointment scheduling </b>from the <a href=\"https://aka.ms/AdminAppInTeams\" target=\"_blank\">Teams Admin app</a>.</li><p>Screenshot:&nbsp; <i>Admin enables <b>Customer Connect</b> appointment scheduling and assigns staff availability:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/21ef8b0e-29eb-4c66-8e50-ddda4040f88d\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Configure appointment settings</b>, including:<ul><li>Adding or removing staff eligible for appointments</li><li>Defining staff availability hours</li><li>Creating, editing, or removing appointment types offered to customers</li></ul></li><li>Review internal support processes and update documentation or helpdesk guidance as needed.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified, review as appropriate for your organization.\n<p></p>",
       "ContentType": "html"
     },
@@ -38,44 +302,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Let customers book appointments directly from your website using the Customer Connect widget",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>To support deeper analysis of Copilot agent adoption and usage across your organization, Microsoft will introduce a <b>new export capability</b> in the <i>Agent Dashboard</i>. This feature will allow eligible users to download <b>de‑identified Copilot agent usage data</b> for analysis, helping organizations track adoption trends, optimize licensing, and support AI transformation strategies, while maintaining existing privacy and access controls. User identifiers are removed from the output.</p><p>This feature will require at least<b> 50 Microsoft 365 Copilot licenses</b> and will apply to the <b>Viva Insights web app</b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in<b> late May 2026 </b>and expect to complete rollout by<b> early June 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late July 2026 </b>and expect to complete rollout by<b> late August 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li><b>Agent Dashboard users with full company‑level data access</b>, including:<ul><li>Senior leaders (as identified in <i><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Microsoft Entra ID</a></i>)</li><li>Admin‑assigned company‑level users</li><li>Delegates with company‑level access</li><li>Global analysts and admins</li></ul></li></ul><p style=\"margin-left: 75px;\"><i><b>Note: </b>Group managers with data access limited to their own teams will not have access to this feature.</i></p><p><i>What will happen</i></p><ul><li>Eligible users will be able to export <b>de‑identified, user‑level Copilot agent metrics and agent attributes </b>aggregated by user and week, for up to the <b>past six months</b>. User identifiers are removed from the output.</li><li>The <b>export will include multiple data tables</b>, such as:<ul><li><b>Copilot agent metadata</b>including agent name, creator type, and publishing source</li><li><b>Copilot agent usage metrics</b>, including the number of responses generated</li><li><b>Copilot agent credit usage and user retention metrics</b></li><li><b>People metadata</b>, including organization and function type</li></ul></li><li><b>By default, this feature will be ON for all eligible users.</b></li><li>Admins will be able to <b>manage or disable the feature at the tenant or group level at any time using Viva Feature Access Management (VFAM):</b><ul><li>Module: Viva Insights</li><li>Feature: Agent Metrics Export</li></ul></li><li>There will be <b>no impact to user workflows</b> unless the feature is accessed by eligible users.</li></ul><p><i>Screenshot - View of the Agent Dashboard:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c74bd62d-26f7-4246-8557-9f6ab6f566d0/5e19d5959e94d0dcbb0385a2f532d9c558af8c11.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li><b>No action is required </b>to enable this feature.</li><li>If you do not want this feature enabled by default, you <b>can disable it at the tenant or group level</b> using <b>Viva Feature Access Management (VFAM)</b>.</li><li>Review which users have full company‑level access to the Agent Dashboard.</li><li>Communicate the upcoming change to eligible users so they understand the new export capability and its intended use.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/agent-dashboard\" target=\"_blank\">Connect to the Agent Dashboard | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/delegate-access\" target=\"_blank\">Delegate access to the Copilot Dashboard, Agent Dashboard, and Copilot insights | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/manage-settings-copilot-dashboard\" target=\"_blank\">Manage settings for the Microsoft Copilot Dashboard, Agent Dashboard, and Viva Insights web app | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Using Entra ID data - Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Viva features management - Control access to features in Microsoft 365 | Microsoft Viva | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva will add an export feature in the Agent Dashboard for eligible users with at least 50 Copilot licenses, allowing download of de-identified Copilot agent usage data for up to six months. Rollout begins late May 2026 (preview) and late July 2026 (general availability). Admins can manage or disable this feature."
-      }
-    ],
-    "EndDateTime": "2026-09-21T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1288531",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-22T22:34:26.92Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-22T22:34:09Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva - Copilot Analytics: Export agent data from the Agent Dashboard",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -182,7 +408,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6277653Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6277656Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321367Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321368Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2274,43 +2500,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We’re making a change to the characters allowed in naming and description fields across Microsoft Purview eDiscovery. As part of ongoing security hardening efforts, this update strengthens input validation for eDiscovery cases, holds, searches, and review sets to improve service resilience and reliability.</p><p><b><b>When this will happen:</b></b></p><p>General Availability (Production, GCC, GCC High, DoD): This change will begin rolling out in <b>mid-May 2026</b> and is expected to be completed by <b>late May 2026</b>.</p><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Organizations with users or administrators who create or manage Microsoft Purview eDiscovery:</p><ul><li>Cases</li><li>Holds</li><li>Searches</li><li>Review sets</li></ul><p><b>\n</b></p><p><b>What will happen:</b></p><ul><li>Beginning May 15th, 2026, the following special characters will no longer be permitted in naming or description fields when creating or editing:<ul><li>+ (plus sign)&nbsp;</li><li>- (hyphen)&nbsp;</li><li>= (equals sign)&nbsp;</li><li>@ (at sign)&nbsp;</li><li>/ (forward slash)&nbsp;</li><li>* (asterisk)&nbsp;</li></ul></li><li>This restriction applies to:<ul><li>Case name and description</li><li>Hold policy name and description</li><li>Search name and description</li><li>Review set name and description</li></ul></li><li>Existing entities are not affected. <ul><li>Cases, holds, searches, and review sets that already contain these characters will continue to function normally.</li></ul></li><li><b>Editing triggers enforcement:</b><ul><li>If a user edits an existing entity that contains a restricted character in the name or description, they will see a validation message prompting them to update the value before saving.</li><li>The original name and description are preserved until the user chooses to make changes.</li></ul></li><li><b>New entities are enforced immediately:</b><ul><li>Any newly created case, hold, search, or review set must not contain restricted characters in name or description fields.</li></ul></li></ul><p><b><b>What you can do to prepare:</b>\n</b></p><p>No admin action is required to enable this change. However, we recommend the following:</p><ul><li>Inform your eDiscovery users that the characters + - = @ / <b>and </b>* will no longer be accepted in entity names and descriptions. \n</li><li>Review and update existing naming conventions or templates that include these characters.</li><li>Update internal documentation or guidance for eDiscovery naming standards.</li><li>Communicate this change to helpdesk and compliance teams to prepare for validation messages when editing existing entities.</li></ul><p><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery (Premium) | Microsoft Learn</a></p><p>No data loss will occur. Existing entities retain their current names and continue to function. Enforcement applies only at the time of creation or editing.</p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting mid-May 2026, Microsoft Purview eDiscovery will restrict the use of +, -, =, @, /, and * in naming and description fields for cases, holds, searches, and review sets. Existing entities remain unaffected unless edited, which will trigger validation. No admin action is required, but user communication is recommended."
-      }
-    ],
-    "EndDateTime": "2026-06-18T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1282562",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-16T21:16:23.603Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-16T21:16:06Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Microsoft Purview eDiscovery: Naming and description fields will restrict certain special characters",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to supervise autonomous agents with agent feed in Power Apps. This feature will reach general availability on May 4, 2026.<br><br><b>How does this affect me?</b><br>This feature provides real-time visibility and control over agent activity. It allows users to oversee agent decisions, intervene when necessary, and ensure alignment with business rules and compliance standards.<br><br>Agent feed introduces an integration with the MCP server, enabling autonomous agents to create actionable tasks that surface directly to human users. These tasks are routed through the agent feed interface, where users can view, prioritize, and complete them using a streamlined human-in-the-loop (HITL) experience.<br><br>Agents can call tools like run human-in-the-loop action generation with contextual descriptions, triggering workflows that are grouped, prioritized, and formatted for human review. Once surfaced in the agent feed, users engage with these tasks through a responsive UI designed to enhance transparency and control.<br><br><b>What action do I need to take?</b><br>\nThis message is for awareness, and no action is required.<br><br> If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14720\">Supervise autonomous agents with agent feed</a>.",
       "ContentType": "html"
     },
@@ -2952,7 +3141,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6279979Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6279982Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6322676Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6322677Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3705,7 +3894,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6276931Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6276938Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6276941Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320967Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320968Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6320969Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7925,46 +8114,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 31, 2026: We have updated the content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We are expanding Microsoft Planner integration in Microsoft Teams by enabling <b>Planner tabs in</b> <b>Shared and Private channels</b>. This change allows teams to plan and track work directly within the channel where collaboration occurs, including scenarios that require restricted membership or cross-organization collaboration.</p><p>Only basic plans are being made available in Shared and Private Channels. Premium capabilities will come at a later date.</p><p><b><b>When this will happen:</b></b></p>\n<p>General Availability (Worldwide): Rollout begins <b>mid-May 2026</b> and is expected to complete by <b>late May 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Teams users working in <b>Shared or Private channels</b></li>\n<li>Microsoft 365 administrators managing Teams and Planner</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users can add <b>Planner </b>as a tab in Shared and Private channels using the <b>+</b> (<b>Add a tab</b>) experience.</li><li>Users can create a<b> new plan</b> for the channel or add an <b>existing plan</b> associated with that channel.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ed836a52-0037-401d-b266-55be25305306\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>Planner inherits channel permissions and Microsoft 365 compliance controls.</li><li>Planner plans in shared and private channels will use the channel SharePoint for storage and access. Hence membership will be limited to channel members.</li>\n<li>The feature is <b>enabled by default</b> and requires<b> no admin configuration</b>.</li>\n<li>There is no change to Planner behavior in standard channels.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>Update internal Teams and Planner documentation.</li>\n<li>Inform users that Planner is available in Shared and Private channels.</li>\n<li>Review governance policies related to Teams and Planner usage.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Compliance area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>New customer data storage</td>\n    <td>Users can create new Planner tasks and tasks in Shared and Private channels. This data is stored using the Private or Shared channel SharePoint and follows the compliance policies of the Shared or Private channel.</td>\n  </tr>\n  <tr>\n    <td>New communication pathways</td>\n    <td>Users can communicate through Planner tasks and task chats within Shared and Private channels, including Shared channel scenarios.</td>\n  </tr>\n \n  <tr>\n    <td>User self-service enablement</td>\n    <td>Users can add Planner tabs to Shared and Private channels themselves, subject to existing Teams and app policies.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Planner tabs will be available in Microsoft Teams Shared and Private channels starting mid-May 2026, allowing users to create or add plans with inherited channel permissions and compliance. The feature is enabled by default, requires no admin setup, and supports basic plans initially, with premium features coming later."
-      }
-    ],
-    "EndDateTime": "2026-07-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1262590",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-31T16:21:18.01Z",
-    "Services": [
-      "Planner",
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-26T23:45:54Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Planner tab support for Shared and Private Channels in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to connect Microsoft Fabric Lakehouse data to AI-powered sales research in Dynamics 365 Sales. This feature will reach general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>This feature enables AI-powered experiences to combine sales activity data with trusted operational data in a single, coherent view for users. The Microsoft Fabric Lakehouse connector provides an integration between Dynamics 365 Sales research experiences and data stored in Microsoft Fabric (OneLake). Key capabilities of this feature allow users to:<ul><li>Connect to Microsoft Fabric Lakehouse tables without manual exports or data replication.</li><li>Allow AI-powered agents to query and reason across Dynamics 365 Sales (Dataverse) and Lakehouse data together.</li>\n\n<li>Add support for operational and financial datasets, including:\n    <ul>\n      <li>Revenue actuals</li>\n      <li>Targets and budgets</li>\n      <li>Invoicing and backlog</li>\n    </ul>\n</li>\n  </li>\n <li>View sales and sales operations insights seamlessly within AI-powered research and analysis experiences</li>\n</ul>\n</ul>\n<b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>\nIf you would like more information about this feature, please visit<a href=\" https://aka.ms/ADO14418\"> Connect Fabric lakehouse data to AI powered sales research</a>.",
       "ContentType": "html"
     },
@@ -11271,52 +11420,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>To support frontline workers using personal devices, Microsoft is introducing a dynamic <b>onboarding wizard for Microsoft Teams</b>. This experience is designed to simplify setup on Android and iOS devices, especially in environments with security policies like <b>multi-factor authentication (MFA)</b> and mobile application management. The wizard adapts automatically to your organization’s policies, helping drive secure and efficient <b>Bring Your Own Device (BYOD)</b> adoption.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=523213\" target=\"_blank\">523213</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview:&nbsp;</b>Rollout begins in late November 2025 and is and expected to complete by mid-January 2026</li><li><b>General Availability:&nbsp;</b>Rollout begins in mid-May 2026 (previously late April) and is and expected to complete by early June 2026 (previously early May).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<ul>\n<li><b>Who is affected:</b>&nbsp;Frontline workers setting up Microsoft Teams on personal Android or iOS devices</li>\n<li><b>What will happen:</b>\n<ul>\n<li>A new onboarding wizard will be available via web, optimized for desktop kiosks or shared PCs</li>\n<li>The wizard dynamically adjusts based on your organization’s security policies</li>\n<li>Supports MFA setup, with emphasis on Microsoft Authenticator push notifications</li>\n<li>This tool is optional and designed to improve BYOD Microsoft Teams adoption</li>\n</ul>\n</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review the admin documentation to understand the onboarding wizard’s capabilities and limitations</li>\n<li>Consider integrating the wizard into your new user onboarding workflows</li>\n<li>Communicate availability to helpdesk and frontline managers</li>\n<li>Update internal documentation if you support BYOD Microsoft Teams deployment</li><li>Review documentation at the following link: <a href=\"https://learn.microsoft.com/microsoft-365/frontline/flw-setup-frontline-personal-devices?view=o365-worldwide\">Set up frontline Teams on personal devices</a></li></ul><ul>\n</ul><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "523213"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is introducing an updated onboarding wizard for frontline workers using personal Android or iOS devices with Microsoft Teams. It supports MFA and adapts to security policies, easing BYOD adoption. Public preview starts late November 2025; general availability begins mid-May 2026. Preparation includes reviewing admin documentation and updating workflows."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2026-07-13T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1184994",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-23T16:16:09.703Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-12T00:09:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams frontline BYOD onboarding wizard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing <b>endpoint Data Loss Prevention (DLP) events</b> as a <b>queryable data source</b> in <i>Data Security Investigations (DSI) in Microsoft Purview</i>. With this update, administrators can build endpoint DLP queries directly in DSI using filters such as date range, and DSI will automatically pull files associated with those events into the investigation for analysis. This integration helps security teams examine endpoint DLP activity at scale, reducing time and effort spent triaging individual alerts and improving the ability to identify patterns and potential data exfiltration scenarios.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558547\" target=\"_blank\">558547</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview:</b> Rollout begins in <b>late April 2026</b> and completes in <b>mid‑May 2026.</b></li><li><b>General Availability (Worldwide): </b>Rollout begins in <b>mid‑May 2026 </b>and completes in <b>mid‑May 2026</b>.</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><p>Admins and security investigators using<b> Data Security Investigations (DSI) </b>and<b> endpoint Data Loss Prevention (DLP)</b> in the <i>Microsoft Purview compliance portal</i>.</p><p><i>What will happen</i></p><ul><li>A<b> new Endpoint DLP tab</b> will appear in the <i>DSI search experience</i>, alongside the existing Query Builder and Audit tabs.\n</li><li>Admins and investigators can query endpoint DLP events using date range filters (additional filters coming soon).\n</li><li>Files associated with matching endpoint DLP events will be automatically added to the investigation scope for analysis using DSI’s AI‑powered tools.\n</li><li>This feature will appear automatically for eligible tenants when rollout completes. No admin action is required to enable it.</li><li>There is no user impact.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required. Optionally, you may:</p><ul><li>Review how endpoint DLP query capabilities work within DSI.</li><li>Update internal documentation for alert triage and investigation workflows, if applicable.</li><li>Inform security teams and endpoint DLP administrators about this new capability.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/purview/data-security-investigations\" target=\"_blank\">Learn about Data Security Investigations | Microsoft Purview | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/purview/endpoint-dlp-learn-about\" target=\"_blank\">Learn about Endpoint data loss prevention | Microsoft Purview | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><b>Does the change alter how existing customer data is processed, stored, or accessed?</b></td><td><b>Yes. </b>Endpoint DLP event data becomes queryable in DSI, and associated files are automatically collected into investigations for analysis.</td></tr><tr><td><b>Does the change introduce or significantly modify AI/ML capabilities that interact with customer data?</b></td><td><b>Yes. </b>DSI’s existing AI‑assisted investigation tools will now analyze files gathered through endpoint DLP queries.</td></tr><tr><td><b>Does the change modify how admins can monitor, report on, or demonstrate compliance activities?</b></td><td><b>Yes. </b>Admins gain new ways to surface, query, and analyze endpoint DLP signals within DSI.</td></tr></tbody></table><p><b></b></p><p></p>",
       "ContentType": "html"
     },
@@ -12845,52 +12948,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p>&nbsp;Coming soon for Microsoft Teams: Meeting participants will be able to request an annotation session while someone else is sharing their screen.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop. (Users can view and annotate in Teams on the web but cannot initiate annotations.)\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen who can choose to accept or deny it:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/f808a149-d9f2-4b5d-8cb8-1ff99c8d60a1\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p>If the request is accepted, the annotation session will start for everyone in the meeting:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/382d6182-ffc1-4db8-8b6f-b42d24c4144b\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p> Anonymous users in the meeting will not be able to send a request.\n</p><p>This change will be available by default.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your users about this change and update any relevant documentation as appropriate.\n</p><p>Learn more: <a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (we will update this before rollout)\n</p><p>Watch: <a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "89975"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting May 2026, Microsoft Teams desktop users can request collaborative annotation sessions during screen sharing. Presenters can accept or deny requests, enabling everyone in the meeting to annotate. Anonymous users cannot request annotations. The feature rolls out automatically with no admin action needed."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1019312",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-16T16:15:23.267Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-28T01:28:59Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Meeting participants can request collaborative annotation sessions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To help organizations streamline approval workflows and improve governance, users who request a Microsoft 365 Copilot license will be able to submit a business justification with their request. Admins will see this justification during review, enabling faster and more informed decisions while reducing manual follow-ups.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547731#Roadmap\" target=\"_blank\">547731</a>.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>Rollout will begin in <b>late April 2026</b> (previously&nbsp;late March)&nbsp;and is expected to complete by<b> late April 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n  <li>Users who request Microsoft 365 Copilot licenses</li>\n  <li>Admins who review, approve, or manage Copilot license requests</li>\n</ul>\n\n<p><i style=\"\">What will happen:</i></p>\n<ul>\n  <li>Users requesting a Copilot license will see a new field to provide a business justification.</li><li>Admins will see the justification as part of the review experience.</li>\n  <li>The feature will be <b>on by default </b>with no tenant configuration required.</li>\n  <li>Existing license request workflows will continue to function as they do today.</li>\n  <li>There will be no impact to the user experience unless they request a Copilot license.</li>\n  <li>No changes to admin policies, settings, or reporting.</li></ul><p><i>Screenshot 1 - A license request will be created when the user clicks</i> <i><b>Request License:</b></i></p><p><i><b> </b></i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9d0cd3df-f46a-486e-8cef-f178a2496095/20cce8b1f8cdeda65483fbb294969e788714ffa7.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><ul>\n</ul>\n\n<p><i>Screenshot 2 - On the next screen, there is an option to provide a business justification for the request; this step is optional:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5e4e5172-1d05-4fcf-8702-41ab33539230/23271545900a3c547526a2b17a628b97d65ad5ed.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 3 - View of the dropdown menu with business justification options:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/dfe5faac-7511-4f2c-8154-bc1594e306dd/3ae811ae5fb97fda5f89119d576573f2b3aef82b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p>\n<p>No action is required.</p><p>Optional steps:</p>\n<ul>\n  <li>Notify helpdesk or approvers about the new justification field.</li>\n  <li>Review or update internal documentation as needed.</li>\n  <li>If you track license request metadata, ensure your internal workflows and tools account for the justification field.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -12949,7 +13006,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6278357Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6278359Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6278361Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6278363Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T15:49:15.6278364Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321761Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321762Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321763Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321764Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T19:02:48.6321765Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
