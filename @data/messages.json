@@ -4,6 +4,128 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is improving the <b>custom license request experience</b> for <b>Microsoft 365 Copilot</b> to help organizations better align Copilot license requests with their internal approval workflows. With this update, admins can create Copilot‑specific request policies and tailor guidance by user group, allowing more precise routing and clearer instructions for people requesting a license.</p><p><b><b>When this will happen</b></b></p><p style=\"\"><b>General Availability (Worldwide):</b> We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late June 2026</b>.</p><p style=\"\"><b><b>How this affects your organization</b></b></p><p style=\"\"><i>Who is affected</i></p><ul><li>Users who request Microsoft 365 Copilot licenses</li><li>Admins who configure license request policies in the <i>Microsoft 365 admin center</i></li></ul><p style=\"\"><i>What will happen</i></p><ul><li>Admins will be able to create <b>product‑specific custom license request policies </b>for <b>Microsoft 365 Copilot</b>.</li><li>Admins can scope policies <b>by user group</b>, such as security groups or Microsoft 365 groups.</li><li>When someone requests a Copilot license, they will see:<ul><li>Admin‑defined instructions.</li><li>A link to your organization’s internal approval workflow.</li></ul></li><li>License approvals will continue to occur <b>outside Microsoft systems</b>, using your existing internal processes.</li><li>Existing custom license request behavior will remain unchanged unless an admin updates configuration.</li></ul><p style=\"\"><b><b>What you can do to prepare</b></b></p><p style=\"\">No action is required if you want to continue using your existing configuration.</p><p style=\"\">If you choose to adopt the new capabilities, you can:</p><ul><li>Review your current custom license request policies in the <i>Microsoft 365 admin center</i>.</li><li>Decide whether to apply <b>product‑specific </b>or <b>group‑specific </b>policies for Copilot.</li><li>Confirm that internal approval links and instructions are accurate and accessible.</li><li>Communicate these updates to your IT support or helpdesk teams.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide\" target=\"_blank\">Manage self-service license requests in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p style=\"\"><b><b>Compliance considerations</b></b></p><p style=\"\">No compliance considerations identified. Review as appropriate for your organization.</p><p style=\"margin-left: 25px;\"></p><p style=\"margin-left: 25px;\"></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will support custom license request policies by product and user group, improving alignment with internal approval workflows. Rollout begins late April 2026, completing by late June 2026. Admins can add instructions and approval links; existing processes remain unless updated. No action needed if unchanged."
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1262570",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T16:18:31.16Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-26T23:36:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Updates to license request custom flow",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select:</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button</li></ul><p>After rollout, the default value of <b>Everyone </b>will apply to all newly created meetings. For meetings created before rollout, the setting will be <b>Active Sharer </b>to match the current behavior where only the active sharer can start annotations. Organizers and co-organizers must manually update existing meetings if they want to enable the new behavior for those meetings.&nbsp;</p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "89975"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will allow meeting participants on Windows and macOS apps to request collaborative annotation sessions during screen sharing, subject to the presenter's approval. Organizers can control who can start annotations via a new meeting option. Rollout begins May 2026 with no admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1019312",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T16:08:56.877Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-02-28T01:28:59Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Meeting Participants Can Request Collaborative Annotation Sessions Dependent on Host Permission",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p></p><p>Microsoft is taking steps to help keep customers safe as AI models become more advanced&nbsp;including&nbsp;plans&nbsp;to incorporate advanced AI models directly into&nbsp;our&nbsp;<a href=\"https://www.microsoft.com/en-us/securityengineering/sdl/\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Security Development Lifecycle (SDL)</a>&nbsp;to&nbsp;identify&nbsp;vulnerabilities and develop mitigations and updates. We are also sharing guidance&nbsp;through Microsoft Security Exposure Management&nbsp;on&nbsp;how customers can&nbsp;reduce their exposure&nbsp;as well as capabilities they can use to&nbsp;take action.&nbsp;You can learn more in our blog here:&nbsp;<a href=\"https://aka.ms/prioritizingdefense\">AI-powered defense for an AI-accelerated threat landscape</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on late April 2026 and expect to complete by late April 2026.</p><p><b>How this will affect your organization:</b></p><p></p><p>Customers should review the guidance captured in <a href=\"https://security.microsoft.com/securenow\" target=\"_blank\">https://security.microsoft.com/securenow</a> and take action to reduce their exposure in areas where autonomous AI‑driven attacks gain disproportionate advantage - patching, open-source software, customer source code, internet-facing assets, and baseline security hygiene.&nbsp; </p><p><b>What you need to do to prepare:</b></p><p></p><p>Customers can review the guidance&nbsp;in&nbsp;Microsoft Security Exposure Management at&nbsp;<a href=\"https://security.microsoft.com/securenow\">https://security.microsoft.com/securenow</a>&nbsp;and use the capabilities provided to take action.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will integrate advanced AI models into its Security Development Lifecycle by April 2026 to identify vulnerabilities and provide mitigations. Customers should follow guidance via Microsoft Security Exposure Management to reduce exposure in key areas like patching and baseline security hygiene."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1288236",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T15:25:52.59Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-22T15:49:36Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Security Exposure Management Secure Now",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to explore sales insights using the Sales Research Agent in Dynamics 365 Sales. This feature reached general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>The Sales Research Agent in Dynamics 365 Sales enables users to explore complex business questions through natural language conversations with your data. It leverages multi-modal and multi-agent architecture to reason over intricate, customized schemas with sales domain expertise. Key capabilities of this feature allow you to:<ul><li>Create multi‑branch research journeys across Dynamics 365 Sales data and Microsoft Fabric lakehouse data and analyze local files such as Excel and PDF.</li><li>Start quickly with AI‑suggested, role‑optimized research topics, or ask your own questions using natural language.</li><li>Use the AI cursor to start conversations, analyze findings, adjust visualizations, or add new data sources.</li><li>View the reasoning behind research outcomes to understand how insights were derived.</li><li>Save research workspaces, refresh them with new data, and regenerate blueprints or research findings as your business evolves.</li><li>Define custom business functions with your own schemas, acronyms, and domain context to tailor analysis to your organization.</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -23,43 +145,6 @@
       "New feature"
     ],
     "Title": "Dynamics 365 Sales - Explore complex sales insights with Sales Research Agent",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p></p><p>Microsoft is taking steps to help keep customers safe as AI models become more advanced&nbsp;including&nbsp;plans&nbsp;to incorporate advanced AI models directly into&nbsp;our&nbsp;<a href=\"https://www.microsoft.com/en-us/securityengineering/sdl/\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Security Development Lifecycle (SDL)</a>&nbsp;to&nbsp;identify&nbsp;vulnerabilities and develop mitigations and updates. We are also sharing guidance&nbsp;through Microsoft Security Exposure Management&nbsp;on&nbsp;how customers can&nbsp;reduce their exposure&nbsp;as well as capabilities they can use to&nbsp;take action.&nbsp;You can learn more in our blog here:&nbsp;<a href=\"https://aka.ms/prioritizingdefense\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">https://aka.ms/prioritizingdefense</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on late April 2026 and expect to complete by late April 2026.</p><p><b>How this will affect your organization:</b></p><p></p><p>Customers should review the guidance and&nbsp;take action to reduce&nbsp;their exposure to&nbsp;the five dimensions where autonomous&nbsp;AI‑driven&nbsp;attacks gain disproportionate advantage - patching, open-source software, customer source code, internet-facing assets, and baseline security hygiene.&nbsp;&nbsp;</p><p><b>What you need to do to prepare:</b></p><p></p><p>Customers can review the guidance&nbsp;in&nbsp;Microsoft Security Exposure Management at&nbsp;<a href=\"https://security.microsoft.com/securenow\">https://security.microsoft.com/securenow</a>&nbsp;and use the capabilities provided to take action.&nbsp;</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft will integrate advanced AI models into its Security Development Lifecycle by April 2026 to identify vulnerabilities and provide mitigations. Customers should follow guidance via Microsoft Security Exposure Management to reduce exposure in key areas like patching and baseline security hygiene."
-      }
-    ],
-    "EndDateTime": "2026-06-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1288236",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-24T00:21:41.607Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-22T15:49:36Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Security Exposure Management Secure Now",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -157,7 +242,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009191Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009192Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758653Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758655Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -313,52 +398,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Entra: Passkeys in registration campaigns update",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button&nbsp;</li></ul>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "89975"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will allow meeting participants on Windows and macOS apps to request collaborative annotation sessions during screen sharing, subject to the presenter's approval. Organizers can control who can start annotations via a new meeting option. Rollout begins May 2026 with no admin action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1019312",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-23T18:12:17.283Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-28T01:28:59Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Meeting Participants Can Request Collaborative Annotation Sessions Dependent on Host Permission",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -729,7 +768,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009528Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009529Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2755496Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2755498Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1080,7 +1119,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1669,7 +1708,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1851,7 +1890,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3326,7 +3365,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3462,7 +3501,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0008687Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0008688Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.276003Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2760033Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4177,7 +4216,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009844Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009845Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009846Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2754716Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.275472Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2754722Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5926,7 +5965,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6023,7 +6062,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6507,7 +6546,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8712,7 +8751,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9060,7 +9099,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -9141,7 +9180,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9695,7 +9734,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10026,44 +10065,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview: Endpoint Data Loss Prevention - Device Health Reporting Dashboard",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is improving the <b>custom license request experience</b> for <b>Microsoft 365 Copilot</b> to help organizations better align Copilot license requests with their internal approval workflows. With this update, admins can create Copilot‑specific request policies and tailor guidance by user group, allowing more precise routing and clearer instructions for people requesting a license.</p><p><b><b>When this will happen</b></b></p><p style=\"\"><b>General Availability (Worldwide, DoD, GCC, GCC High):</b> We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late June 2026</b>.</p><p style=\"\"><b><b>How this affects your organization</b></b></p><p style=\"\"><i>Who is affected</i></p><ul><li>Users who request Microsoft 365 Copilot licenses</li><li>Admins who configure license request policies in the <i>Microsoft 365 admin center</i></li></ul><p style=\"\"><i>What will happen</i></p><ul><li>Admins will be able to create <b>product‑specific custom license request policies </b>for <b>Microsoft 365 Copilot</b>.</li><li>Admins can scope policies <b>by user group</b>, such as security groups or Microsoft 365 groups.</li><li>When someone requests a Copilot license, they will see:<ul><li>Admin‑defined instructions.</li><li>A link to your organization’s internal approval workflow.</li></ul></li><li>License approvals will continue to occur <b>outside Microsoft systems</b>, using your existing internal processes.</li><li>Existing custom license request behavior will remain unchanged unless an admin updates configuration.</li></ul><p style=\"\"><b><b>What you can do to prepare</b></b></p><p style=\"\">No action is required if you want to continue using your existing configuration.</p><p style=\"\">If you choose to adopt the new capabilities, you can:</p><ul><li>Review your current custom license request policies in the <i>Microsoft 365 admin center</i>.</li><li>Decide whether to apply <b>product‑specific </b>or <b>group‑specific </b>policies for Copilot.</li><li>Confirm that internal approval links and instructions are accurate and accessible.</li><li>Communicate these updates to your IT support or helpdesk teams.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide\" target=\"_blank\">Manage self-service license requests in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p style=\"\"><b><b>Compliance considerations</b></b></p><p style=\"\">No compliance considerations identified. Review as appropriate for your organization.</p><p style=\"margin-left: 25px;\"></p><p style=\"margin-left: 25px;\"></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will support custom license request policies by user group, enabling tailored guidance and routing aligned with internal approval workflows. Rolling out worldwide from late April to June 2026, admins can configure these policies in the Microsoft 365 admin center; existing setups remain unchanged unless updated."
-      }
-    ],
-    "EndDateTime": "2026-08-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1262570",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-26T23:36:38.123Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-26T23:36:28Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Updates to license request custom flow",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10567,7 +10568,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12974,7 +12975,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13156,7 +13157,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13253,7 +13254,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.000931Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009311Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009312Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009312Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T15:04:44.0009313Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758395Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758397Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758399Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758401Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T16:51:47.2758402Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13560,7 +13561,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14307,37 +14308,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Communication Compliance: Policy alerts improvements",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing the ability to configure offline profile using the FetchXML editor in Power Apps. This feature will reach general availability on April 10, 2026.<br><br><b>How does this affect me?</b><br>This feature improves the maker workflow by allowing direct control of query logic used for offline profiles—helping you finetune filters without leaving the app-building experience.<br><br>You can open the FetchXML editor directly within Power Apps Studio, making it easier to customize data filters for offline profiles without switching tools. To access the FetchXML editor:<ol><li>Open the offline profile editor in your canvas app or model-driven app.</li><li>Select the <b>Filter</b> option for an entity.</li><li>Under <b>Related rows</b> or <b>Custom filter</b>, choose <B>Edit FetchXML</b> or <b>View FetchXML</b> to open the editor.</li></ol> \n\n<b>What action do I need to take?</b><Br>This message is for awareness, and no action is required.<br><Br> If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO14132\">Continue offline profile using FetchXML editor</a>.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-04-24T15:30:00Z",
-    "HasAttachments": false,
-    "Id": "MC1247603",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-09T15:31:59.827Z",
-    "Services": [
-      "Power Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-09T15:30:09Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Power Apps - Configure offline profile using FetchXML editor",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -15425,7 +15395,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15475,7 +15445,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16133,7 +16103,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16222,7 +16192,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18709,7 +18679,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20705,7 +20675,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
