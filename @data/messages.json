@@ -4,6 +4,37 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing Service Operations Agent in Dynamics 365 Contact Center. This feature will reach public preview on April 24, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Service Operations Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-24T21:04:00Z",
+    "HasAttachments": false,
+    "Id": "MC1276450",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T20:48:30.687Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-10T21:04:17Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Use Service Operations Agent to simplify setup tasks",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new co-branding capability that will allow organizations to <b>display a branded footer</b> at the bottom of the Chat screen in the<i> Microsoft 365 Copilot app</i>. This update will enable admins to add their organization’s logo to their users’ Microsoft 365 Copilot app, helping users confirm they are using their trusted, work-managed Copilot experience.</p><p>This feature will begin rolling out in <b>early May 2026</b> (previously late March)&nbsp;and is expected to complete by <b>end of May 2026</b> (previously&nbsp;late April).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555852\" target=\"_blank\">555852</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b> Rollout will begin in<b>&nbsp;early May 2026</b> (previously late March) and is expected to complete by <b>end of May 2026</b> (previously late April).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All Microsoft 365 tenants using the Microsoft 365 Copilot app.</li></ul><p>What will happen</p><ul><li>Admins will be able to upload a logo in the <i>Microsoft 365 admin center</i> to customize the footer in the <i>Microsoft 365 Copilot app</i>.</li><li>The footer will display an “<b><i>Approved by <b>Logo</b></i>”</b> indicator to help users confirm they are in an <i>organization-approved Copilot environment:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68658328-08c2-4b57-8f67-a6387382d739/8c36ea142ae32ce3fc402d44cf3d176902dcb112.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p></li><li>Only the logo from your organization’s theme configuration will be used; other theme elements will not be applied in this release.</li><li>This feature will be <b>off by default </b>and will require admin configuration.</li><li>There will be<b> no user impact </b>unless an admin enables the footer.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action will be required unless you want to enable the branded footer.</p><p>Admins who want to configure this feature should:</p><ul><li>Review and verify your organization’s theme configuration in the <i>Microsoft 365 admin center</i>.</li><li>Upload the logo you want to display in the <i>Microsoft 365 Copilot app footer </i>once rollout begins.</li><li>Use the existing theme management flow to apply co-branding once the feature is available.</li></ul><p>For configuration guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide&amp;source=recommendations\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Customize the theme for your organization | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -4715,37 +4746,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | eDiscovery – Add sample to review set",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "We are announcing Admin Agent in Dynamics 365 Contact Center. This feature will reach public preview on April 24, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Admin Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-05-24T21:04:00Z",
-    "HasAttachments": false,
-    "Id": "MC1276450",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-10T21:05:17.597Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-10T21:04:17Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Contact Center - Use Admin Agent to simplify setup tasks in contact center",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
