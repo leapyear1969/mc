@@ -4,6 +4,257 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b>Introduction</b></p><p></p><p>Microsoft is taking steps to help keep customers safe as AI models become more advanced&nbsp;including&nbsp;plans&nbsp;to incorporate advanced AI models directly into&nbsp;our&nbsp;<a href=\"https://www.microsoft.com/en-us/securityengineering/sdl/\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Security Development Lifecycle (SDL)</a>&nbsp;to&nbsp;identify&nbsp;vulnerabilities and develop mitigations and updates. We are also sharing guidance&nbsp;through Microsoft Security Exposure Management&nbsp;on&nbsp;how customers can&nbsp;reduce their exposure&nbsp;as well as capabilities they can use to&nbsp;take action.&nbsp;You can learn more in our blog here:&nbsp;<a href=\"https://aka.ms/prioritizingdefense\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">https://aka.ms/prioritizingdefense</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on late April 2026 and expect to complete by late April 2026.</p><p><b>How this will affect your organization:</b></p><p></p><p>Customers should review the guidance and&nbsp;take action to reduce&nbsp;their exposure to&nbsp;the five dimensions where autonomous&nbsp;AI‑driven&nbsp;attacks gain disproportionate advantage - patching, open-source software, customer source code, internet-facing assets, and baseline security hygiene.&nbsp;&nbsp;</p><p><b>What you need to do to prepare:</b></p><p></p><p>Customers can review the guidance&nbsp;in&nbsp;Microsoft Security Exposure Management at&nbsp;<a href=\"https://security.microsoft.com/securenow\">https://security.microsoft.com/securenow</a>&nbsp;and use the capabilities provided to take action.&nbsp;</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will integrate advanced AI models into its Security Development Lifecycle by April 2026 to identify vulnerabilities and provide mitigations. Customers should follow guidance via Microsoft Security Exposure Management to reduce exposure in key areas like patching and baseline security hygiene."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1288236",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T00:21:41.607Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-22T15:49:36Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Security Exposure Management Secure Now",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing a modern, in-flow email template picker for Sequences within Dynamics 365 Sales. This feature will reach general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>The new email template picker for Sequences makes it easier for sellers to find, create, and edit email templates within their workflow. This reduces setup time, improves template discoverability, and allows for quick adjustments when creating Sequences. Sequences can be created by sellers or sales managers to automate best practices.<ul> <li><b>Enhanced template discovery with views:</b> Sellers can quickly filter templates, such as My templates, Team templates, or Approved templates, to find the best fit for each step.</li<li> <li><b>In-flow template creation and editing:</b> Email templates can now be created or updated directly within the Sequence flow, making them instantly available and eliminating the need to switch contexts.</li></ul> <b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-24T00:20:26Z",
+    "HasAttachments": false,
+    "Id": "MC1289785",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-24T00:21:30.04Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-24T00:20:26Z",
+    "Tags": [],
+    "Title": "Dynamics 365 Sales - Modern, in-flow email template picker for Sequences",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To strengthen customer control over sensitive investigation data, Microsoft is extending <b>Customer-managed key (CMK) </b>protection to Microsoft Purview eDiscovery Direct Export. For tenants that have configured<b> Data Encryption Policies (DEPs)</b> using the <b>Microsoft 365 Data-at-Rest Encryption Platform (MDEP)</b>, eDiscovery export packages will now be automatically encrypted using your organization’s CMK. This helps ensure exported investigation data remains protected under customer-controlled encryption policies throughout the export lifecycle, without changing the existing eDiscovery user experience.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557684\" target=\"_blank\">557684</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview: We will begin rolling out <b>early May 2026</b> and expect to complete by <b>early June 2026.</b></li>\n<li>General Availability (Worldwide):&nbsp; We will begin rolling out&nbsp;<b>mid-June 2026</b> and expect to complete by<b> mid-July 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft 365 tenants with Customer-managed keys enabled through <b>Data Encryption Policies (DEPs)</b>, and request that Microsoft Support enable this feature for Purview eDiscovery Direct Export in their tenant</li>\n<li>Admins and investigators using Microsoft Purview eDiscovery&nbsp;Direct Export</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>eDiscovery Direct Export packages for CMK‑enabled tenants will be encrypted at rest using tenant‑owned keys.</li><li>Encryption is applied automatically based on existing DEP configuration.</li>\n<li>CMK configuration is dynamically validated through MDEP at export time.</li>\n<li>No change to the eDiscovery user experience.</li>\n<li>Only enabled for specific tenants by request to Microsoft Support&nbsp;</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>To use CMK encryption for eDiscovery Direct Export, your organization must complete the following steps:</p><ol><li>Configure Customer Key (self-service) Your Microsoft 365 administrator must have Customer Key enabled through the Microsoft 365 Data-at-Rest Encryption Platform (MDEP) with a DEP in PolicyAssigned status. </li><ul><li>This requires:<ul><li>Two Azure subscriptions dedicated to Customer Key</li><li>Azure Key Vault(s) with RSA keys provisioned</li><li>A DEP created and assigned to your tenant</li><li>Follow the setup guidance here: <a href=\"https://learn.microsoft.com/purview/customer-key-set-up?tabs=akv#create-two-new-azure-subscriptions\" target=\"_blank\">Create two new Azure subscriptions | Microsoft Learn</a></li></ul></li></ul><li>Request feature enablement (contact Microsoft Support) <ul><li>After Customer Key is configured, your organization must contact Microsoft Support to request that CMK for eDiscovery Direct Export be enabled for your tenant. This feature requires Microsoft-side service configuration that is not automatically applied. Work with your Microsoft Support contact or <b>Customer Success Account Manager (CSAM)</b> to complete enablement.</li></ul></li></ol><p><b>Important:</b></p><ul><li>If your tenant does not have CMK properly configured through MDEP at export time, direct export jobs will proceed without CMK encryption.</li><li>No changes to the eDiscovery user experience are required — CMK encryption is applied transparently to export packages.</li><li>Encryption scopes, storage accounts, and containers are managed automatically by the service; no additional storage configuration is needed.</li><li>Exported data retention remains 14 days, unchanged by CMK.</li></ul><p></p><p></p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/edisc-search-export\" target=\"_blank\">Export search results in eDiscovery | Microsoft Learn</a></p>\n\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>Encryption methods or key management</td>\n<td>eDiscovery Direct Export packages are encrypted at rest using tenant‑owned customer‑managed keys defined in Data Encryption Policies through MDEP.</td>\n</tr>\n<tr>\n<td>eDiscovery or Content Search</td>\n<td>Direct Export behavior is enhanced to automatically apply tenant‑specific encryption scopes to exported investigation data.</td>\n</tr>\n<tr>\n<td>How customer data is processed or stored</td>\n<td>Exported investigation data is stored in eDiscovery storage accounts encrypted with customer‑managed keys rather than Microsoft‑managed keys.</td>\n</tr><tr><td>Admin controls</td><td>Behavior is governed by existing Data Encryption Policies; no new toggle is introduced, but encryption is controlled through CMK configuration.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557684"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery Direct Export will support Customer-managed key (CMK) encryption for tenants with Data Encryption Policies via MDEP. Starting May 2026, export packages will be automatically encrypted with tenant-owned keys without changing the user experience. Enablement requires Microsoft Support assistance and proper CMK setup."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1289726",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T22:39:37.21Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-23T22:39:13Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: eDiscovery - CMK (Customer managed key) for eDiscovery direct export",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Meeting organizers in Microsoft Teams can now delete meeting‑generated content—including recordings, transcripts, AI summaries, and notes—directly from the meeting recap. This capability helps organizers manage meeting artifacts after the meeting. Shared files from the meeting are not deleted.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557170\" target=\"_blank\">557170</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>early May 2026</b>.\n</li><li>General Availability (Worldwide): We will begin rolling out in<b>&nbsp;late May 2026</b> and expect to complete by <b>early June 2026</b>.</li><li>General Availability (GCC): We will begin rolling out in <b>mid-June 2026 </b>and expect to complete by <b>mid-June 2026.</b></li><li>General Availability (GCCH): We will begin rolling out in <b>late June 2026</b> and expect to complete by <b>late June 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft Teams <b>meeting organizers</b></li>\n  <li>Tenants using meeting recap features</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>A new <b>Delete recap content</b>&nbsp;option will appear in the <b>More (…) menu</b> on the meeting recap page.</li><p>Screenshot 1: <i><b>Delete recap content</b> option found under the <b>More (...) menu:</b></i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5f01697f-f215-4c7a-90c0-19e1cc0d3b9e\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><p>Screenshot 2: <i><b>Delete recap content</b> confirmation</i>:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6f1e6ab9-c516-42d5-9577-232e79d04fa1\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Meeting organizers can permanently delete:<ul><li>Recordings</li><li>Transcripts</li><li>AI summary</li><li>Notes</li></ul></li><li><b>Shared files are not deleted</b> and remain accessible in their original storage locations.</li><li><b>Custom summary</b> and <b>Audio recap</b> will not be deleted with <b>Delete recap content</b>&nbsp;in this release.</li><li>Deleted meeting content<b> cannot be restored.</b></li><li>The feature is <b>enabled by default </b>and does not require admin configuration.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>Inform users about this new capability.</li>\n  <li>Update internal documentation and helpdesk guidance.</li>\n  <li>Review meeting governance and retention guidance.</li>\n  <li>Monitor usage through Teams and SharePoint analytics.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>Meeting organizers can now permanently delete meeting-generated content, impacting how users manage and delete their data. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557170"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5862043Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5862045Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams meeting organizers can delete meeting-generated content—recordings, transcripts, AI summaries, and notes—from the meeting recap starting May 2026. Shared files remain unaffected. Deleted content is permanent and the feature is enabled by default without admin setup. Custom summaries and audio recaps are excluded."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1289725",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-23T22:38:48.443Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-23T22:38:27Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Delete meeting generated content in recap",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is introducing <b>enhanced recap sharing</b>. Meeting organizers can grant access to meeting recordings, transcripts, AI-generated summaries, and notes when copying or sharing a recap link. This update improves how meeting content can be shared with people who were not part of the original meeting.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559606\" target=\"_blank\">559606</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: We will begin rolling out in <b>mid-May 2026</b> and expect to complete by <b>mid-May 2026</b>.</li><li>General Availability (GCC): We will begin rolling out in <b>early June 2026</b> and expect to complete by <b>early June 2026</b>.</li><li>General Availability (Worldwide): We will begin rolling out in&nbsp;<b>early June 2026 </b>and expect to complete by <b>late June 2026</b>.</li><li>General Availability (GCC High): We will begin rolling out in <b>early July 2026</b> and expect to complete by <b>early July 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft Teams users who organize or attend meetings with recaps enabled.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Meeting organizers can:<ul><li>Grant access to the meeting <b>recording, transcript, AI summary, and notes</b> when copying or sharing a recap link.</li><li>Specify which people receive access at the time the recap link is shared.</li></ul></li><li>Meeting attendees who are not organizers can:<ul><li>Copy or share recap links.</li><li>Recipients who were not in the meeting will be prompted to request access.</li></ul></li><li>The feature will be<b> available by default</b>.</li>\n</ul>\n\n<p><b>To use this feature:</b></p><ol><li>Select the <b>Share </b>menu in the top-right corner of the recap page or on the recap thumbnail in the meeting chat.</li><p>Screenshot 1: <i>Recap page with <b>Share </b>menu highlighted:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/70a39b12-7b20-498d-a311-8f4854ebf59d\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><p></p><p>Screenshot 2: <i>Meeting chat with <b>Share</b> icon highlighted</i>:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/635edaa7-6885-4458-ac3e-299f303b55df\" style=\"width: 400px;\" alt=\"user settings\"></p><li>If the user is the <b>meeting organizer</b>: The user can specify people and copy or share the recap link while granting recap access to the specified people.</li><p>Screenshot 3: <i><b>Share this recap</b> options available to a <b>meeting organizer</b></i>:</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/47f87235-dff0-43f8-8371-a364cc19f38f\" style=\"width: 400px;\" alt=\"user settings\"></p><p>If the user is<b> not the organizer</b>: The user can copy the recap link or share it by sending the link in a Teams chat. People who were not in the meeting will need to request access.</p></ol><p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required.</li>\n  <li>Inform users about the new sharing experience.</li>\n  <li>Update internal documentation or helpdesk guidance if needed.</li></ul><p><b>Learn more</b>: <a href=\"https://support.microsoft.com/office/recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef\" target=\"_blank\">Recap in Microsoft Teams | Microsoft Support</a>&nbsp;(we will update the <b>Share recap</b> section before General Availability)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "559606"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will enable meeting organizers to grant access to recordings, transcripts, AI summaries, and notes when sharing recap links. This feature, rolling out from mid-May to early July 2026, allows specifying recipients and prompts non-attendees to request access. No admin action is needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-08-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1289724",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T22:38:03.07Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-23T22:37:56Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Sharing recap access",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p><b>Update health</b> builds on existing Cloud Update insights by adding clearer, more actionable diagnostics when an update does not complete successfully. Administrators see descriptive, easy‑to‑understand error messaging aligned with error codes, along with aggregated issue views across Cloud Update‑managed devices.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558249#Roadmap\" target=\"_blank\">558249</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>Rollout beginning&nbsp;<b>in April 2026 </b>and is expected to complete by <b>mid-May 2026</b>.\n</li><li><b>General Availability (Worldwide):</b> Rollout will begin in <b>late May 2026 </b>and is expected to complete by<b> late-May 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 administrators managing <b>Microsoft 365 Apps updates</b> using <b>Cloud Update</b></li><li>Tenants with <b>Cloud Update enabled</b> in the <i>Microsoft 365 Apps admin center</i></li></ul><p><i>What will happen</i></p><ul><li>Admins will see <b>aggregated views of update issues</b> across Cloud Update–managed devices:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/bc7a0233-e92a-48a9-be0a-df659d2e64a3/155794dd0b4471368714639ad5afba671aea65b0.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Update failures will surface descriptive error messages aligned with error codes:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/6634920c-b7c6-4681-a933-851334921f16/07de4d537f5f4cb39ebc283490c5a5a67d0a90d1.png\" style=\"width: 400px;\" alt=\"user settings\"></p>Admins can drill into affected devices, review detailed issue information, and export device lists:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/82ce0bcb-aece-4b31-bd97-e893c7941d07/262fb6320cfa48c9f3f83a0c73ec11fa46210515.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Linked guidance is available to support troubleshooting and resolution.</li><li>The feature is<b> enabled by default</b> for eligible tenants.</li><li>There is <b>no impact to users</b>.</li><li><b>No changes</b> are made to existing update policies.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required.</li><li>To view Update health information, ensure <b>Cloud Update </b>is managing Microsoft 365 Apps updates for your devices.</li><li>Review Update health in the <i><a href=\"https://config.office.com\" target=\"_blank\">Microsoft 365 Apps admin center</a></i>.</li><li>Review more information about upcoming changes to Cloud Update: <a href=\"https://learn.microsoft.com/microsoft-365-apps/admin-center/cloud-update-enhancements\" target=\"_blank\">New changes coming to Cloud Update</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities (for example, admin reporting)?</td><td>Yes. Update health introduces new admin-facing reporting and diagnostic views that allow administrators to monitor Microsoft 365 Apps update issues and device update status across Cloud Update–managed devices.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558249"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Apps Cloud Update will add update health reporting by April–May 2026, providing admins with detailed, aggregated diagnostics and error messages for update failures across managed devices. This feature is enabled by default, requires no user impact or policy changes, and enhances compliance monitoring."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1289720",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-23T22:33:39.663Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-23T22:32:46Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Apps: Cloud Update adds update health reporting",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 23, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Earlier communication indicated a change in direction; however, Microsoft will continue to add support for passkeys (FIDO2) in the Enabled state within Registration Campaigns. This is the final direction and aligns with our long‑term passkey adoption strategy.</p><p>We are making an update to Passkeys (FIDO2) support within Microsoft Entra Authentication Methods Registration Campaigns.</p><p>Passkeys (FIDO2) will continue moving forward to General Availability as the targeted authentication method for Registration Campaigns in the<b> Enabled state</b> as previously communicated in <a href=\"https://portal.prod.iridias.microsofticm.com/messagecenter?id=1253746\" target=\"_blank\">MC1253746.&nbsp;</a></p><p>Passkey (FIDO2) will also move forward as the targeted authentication method for Registration Campaigns in the <b>Microsoft Managed state </b>for tenants that meet our in-scope criteria.&nbsp;</p><p><b></b></p><p><b> <b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Rollout will begin in <b>mid‑May 2026 </b>to Microsoft Managed state&nbsp;and is expected to complete by<b> late June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft Entra tenants using <b>Authentication Methods Registration Campaigns</b></li><li>Tenants with <b>Passkeys (FIDO2) </b>enabled</li><li>Only tenants that meet the Microsoft‑managed eligibility criteria described below</li></ul><p><i>What will happen</i></p><p><b>Enabled state</b></p><ul><li>Passkeys (FIDO2) will be supported as the targeted authentication method for Registration Campaigns in the <i><b>Enabled</b></i> state.</li><li>Over time, we will incrementally refine the logic for Passkeys nudges in Microsoft Registration Campaigns to guide users toward the appropriate passkey registration experience based on their passkey profile scope. Initially, the logic may not account for edge‑case scenario if users have any passkey profile restrictions, but we are actively expanding and improving it on an ongoing basis. When users have <a href=\"https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-passkeys-fido2\" target=\"_blank\">passkey profile restrictions</a> (for example, device bound only passkeys allowed), the registration experience triggered by the nudge may not be optimal.</li></ul><p><b>Microsoft‑managed state</b></p><ul><li>Passkeys (FIDO2) will be introduced as the targeted authentication method in the<b> Microsoft‑managed</b> state for eligible tenants.</li></ul><p>Tenants are impacted when <b>all </b>of the following conditions are met:</p><ul><li>The <b>Passkeys (FIDO2) </b>authentication method policy is<b> <i>Enabled</i></b>.</li><li><b>Allow self‑service setup</b> is<b><i> Enabled</i></b>.</li><li><b>Target specific AAGUIDs </b>is <b>not </b>selected (no AAGUID restrictions configured).</li><li>The Authentication Methods Registration Campaign state is set to <b>Microsoft‑managed</b>.</li><li>The tenant has at least one user enabled for <b>both synced passkeys and device‑bound passkeys</b>.</li></ul><p>Only users who are enabled for <b>both synced and device‑bound passkeys</b>, with&nbsp;<b>no passkey profile restrictions </b>configured<b>&nbsp;</b>(for example, attestation enforcement or AAGUID restrictions), will receive a passkey registration nudge during sign‑in.</p><p>For impacted tenants, the following Registration Campaign settings will be automatically updated:</p><ul><li><b>Targeted authentication method</b> changes from Microsoft Authenticator to Passkeys (FIDO2).</li><li><b>Days allowed to snooze</b> changes from 3 days to 1 day (no longer configurable).</li><li><b>Limited number of snoozes </b>changes from<i><b> </b>Enabled </i>to <i style=\"\">Disabled</i> (no longer configurable).</li><li><b>Default user targeting </b>changes from voice call or text message users to all MFA‑capable users.</li></ul><p>After these changes take effect, targeted users will begin receiving passkey registration nudges during sign‑in <b>after completing multifactor authentication</b>.</p><p>Rollout will occur incrementally across eligible Microsoft Entra tenants.</p><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>If you plan to enable passkey registration nudges in the future:</p><ul><li>Ensure users are enabled for <b>both synced and device‑bound passkeys</b>.</li><li>Remove any <b>passkey profile restrictions </b>(such as AAGUID or attestation requirements).</li><li>Set your Authentication Methods Registration Campaign to <b>Microsoft‑managed or Enabled</b>.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change include an admin control, and can it be controlled through Microsoft Entra settings?</td><td>Yes. This change is governed by existing Microsoft Entra Authentication Methods policies and Authentication Methods Registration Campaign configuration. Administrators control whether passkey registration nudges are delivered by enabling passkeys, configuring self‑service setup, and setting the registration campaign to the Microsoft‑managed state.</td></tr></tbody></table><p></p>",
       "ContentType": "html"
     },
@@ -447,7 +698,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.044349Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443492Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861314Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861316Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -798,7 +1049,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1387,7 +1638,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1569,7 +1820,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3044,7 +3295,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3180,7 +3431,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0441807Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0441811Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5863128Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.586313Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3895,7 +4146,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443978Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-23T20:37:32.044398Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0443981Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5860772Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5860775Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5860776Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5680,7 +5931,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5777,7 +6028,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6261,7 +6512,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8466,7 +8717,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8814,7 +9065,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -8895,7 +9146,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9449,7 +9700,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10321,7 +10572,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12728,7 +12979,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -12910,7 +13161,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13007,7 +13258,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442954Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442955Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442957Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442959Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-23T20:37:32.0442964Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861837Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861838Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.586184Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861841Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T01:42:02.5861842Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15175,7 +15426,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15225,7 +15476,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15883,7 +16134,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15972,7 +16223,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18459,7 +18710,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20494,7 +20745,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
