@@ -4,6 +4,68 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing Service Operations Agent in Dynamics 365 Contact Center. This feature will reach general availability on May 22, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Service Operations Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-06-22T02:02:00Z",
+    "HasAttachments": false,
+    "Id": "MC1290981",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-25T02:03:01.44Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-25T02:02:23Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Contact Center - Use Service Operations Agent to simplify setup tasks",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are introducing a faster, more intuitive search experience in Power Apps grid filters and lookup fields. This update replaces the legacy search with Dataverse search, delivering contains-based and fuzzy matching, hit highlighting, and improved performance. This feature is scheduled to be released on April 30, 2026.<br><br><b>How does this affect me?</b><br>Searches within grid column filters and lookup controls in model-driven apps will now be more responsive and forgiving of typos or partial matches. Users will see highlighted search terms in results and benefit from a consistent search experience across the app.<br><br>The legacy search will remain available as a fallback to ensure smooth continuity.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-30T01:53:00Z",
+    "HasAttachments": false,
+    "Id": "MC1290980",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-25T02:00:02.257Z",
+    "Services": [
+      "Power Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-25T01:53:42Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Power Apps – Enhanced Search Experience in Grid Filters and Lookup Fields",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>\nWe're investigating an issue where password resets performed in the <b>Teams Pro Management Portal (PMP) </b>may cause Teams Rooms devices to fail sign-in. A recent change in password reset behavior is the likely root cause and may prevent Teams Rooms devices from completing sign-in.</p><ul>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations using Teams <b>Pro Management Portal (PMP) </b>to manage Teams Rooms resource accounts</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Password resets initiated in PMP may trigger a <b>change password at next sign-in</b>&nbsp;requirement on the account.</li>\n<li>Teams Rooms devices cannot complete interactive password change prompts.</li>\n<li>Affected devices enter a <b>CannotSignIn</b> state.</li>\n<li>Devices may remain signed out without automatic recovery until manually remediated.</li>\n<li>This issue primarily affects Teams Rooms resource accounts.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li><b>Avoid resetting Teams Rooms resource account passwords through the Pro Management Portal.</b></li>\n<li>If a password reset is required:\n<ul>\n<li>Verify device sign-in immediately after the reset</li>\n<li>Manually remediate any devices that remain in a signed-out state</li>\n</ul>\n</li>\n<li>Inform your helpdesk or support teams of this issue to reduce troubleshooting time</li>\n</ul>\n\n<p>If you experience issues, contact Microsoft Support.</p>",
       "ContentType": "html"
     },
@@ -488,7 +550,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411475Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411477Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6964071Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6964073Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1014,7 +1076,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6409262Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6409264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6962083Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6962085Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3747,7 +3809,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6412738Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6412739Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.696493Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6964931Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4462,7 +4524,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6408538Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6408545Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6408547Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6961596Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6961598Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6961619Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13469,7 +13531,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411218Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.641122Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411222Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411224Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-24T22:35:35.6411226Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6963912Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6963913Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6963915Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6963916Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-25T02:05:24.6963917Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20844,7 +20906,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
