@@ -4,6 +4,100 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p></p><p>Updated April 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing the new and improved <b>People Hub</b> in Outlook Web, designed to deliver a modern, multi-column contacts experience with fast search and a streamlined interface. We’re investing in fast, relevant search and modern contact management capabilities that deliver a high-quality experience for everyone.</p><p>This update provides a unified view of each person, automatically links duplicate entries, and enriches contacts with organizational profile information where available. These enhancements aim to improve reliability and scalability for organizations of all sizes, while phasing out older solutions that no longer meet performance expectations.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537282\" target=\"_blank\">537282</a>.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li>Targeted Release (Worldwide): We began rolling out on mid-January 2026 and completed in mid-February 2026.\n</li><li>General Availability (Worldwide): We will begin rolling out on mid-May 2026 (previously late April) and expect to complete by mid-June 2026 (previously mid-May).\n</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b> All Outlook Web users and admins managing contact solutions in Microsoft 365.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see a refreshed <b>People Hub</b> with a modern, multi-column layout and improved search capabilities.&nbsp;</li>\n<li>Duplicate contacts will be automatically linked, and organizational profile data will enrich contact details where available.</li>\n<li>All users will be migrated to the \"New Contacts\" experience automatically. The toggle to switch off \"New Contacts\" will no longer be available.&nbsp;<br></li><li>No admin action is required; the feature will be enabled by default.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b><p></p><ul><li>Admins can start training users on the new Contacts experience. Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/add-find-edit-or-delete-a-contact-in-outlook-e1dc4548-3bd6-4644-aecd-47b5728f7b0d#picktab=new_outlook_%28insiders%29\" target=\"_blank\">Add, find, edit, or delete a contact in Outlook</a>.</li><li>Before rollout, we will update this post with updated documentation.</li>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>\n<p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "537282"
+      },
+      {
+        "Name": "Summary",
+        "Value": "The new People Hub in Outlook Web offers a modern multi-column layout, faster search, automatic duplicate linking, and enriched contact details. Rolling out globally from mid-May to mid-June 2026, all users will be migrated automatically with no admin action needed. Training resources will be provided."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1199768",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-27T17:42:25.897Z",
+    "Services": [
+      "Microsoft 365 for the web"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-18T23:42:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Outlook: New and improved People Hub on Web",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new co-branding capability that will allow organizations to <b>display a branded footer</b> at the bottom of the Chat screen in the<i> Microsoft 365 Copilot app</i>. This update will enable admins to add their organization’s logo to their users’ Microsoft 365 Copilot app, helping users confirm they are using their trusted, work-managed Copilot experience.</p><p>This feature will begin rolling out in <b>early May 2026</b> (previously late March)&nbsp;and is expected to complete by <b>mid-June 2026</b> (previously&nbsp;end of May).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555852\" target=\"_blank\">555852</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b> Rollout will begin in<b>&nbsp;early May 2026</b> (previously late March) and is expected to complete by <b>end of May 2026</b> (previously late April).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All Microsoft 365 tenants using the Microsoft 365 Copilot app.</li></ul><p>What will happen</p><ul><li>Admins will be able to upload a logo in the <i>Microsoft 365 admin center</i> to customize the footer in the <i>Microsoft 365 Copilot app</i>.</li><li>The footer will display an “<b><i>Approved by <b>Logo</b></i>”</b> indicator to help users confirm they are in an <i>organization-approved Copilot environment:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68658328-08c2-4b57-8f67-a6387382d739/8c36ea142ae32ce3fc402d44cf3d176902dcb112.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p></li><li>Only the logo from your organization’s theme configuration will be used; other theme elements will not be applied in this release.</li><li>This feature will be <b>off by default </b>and will require admin configuration.</li><li>There will be<b> no user impact </b>unless an admin enables the footer.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action will be required unless you want to enable the branded footer.</p><p>Admins who want to configure this feature should:</p><ul><li>Review and verify your organization’s theme configuration in the <i>Microsoft 365 admin center</i>.</li><li>Upload the logo you want to display in the <i>Microsoft 365 Copilot app footer </i>once rollout begins.</li><li>Use the existing theme management flow to apply co-branding once the feature is available.</li></ul><p>For configuration guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide&amp;source=recommendations\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Customize the theme for your organization | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "555852"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot app will allow admins to add a branded footer with their organization's logo, starting early May 2026 and completing by mid-June. This feature is off by default, requires admin setup, and helps users verify a trusted Copilot environment. No user impact unless enabled."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1238432",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-27T16:59:40.28Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-25T01:16:32Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot app: Branded footer customization",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing Service Operations Agent in Dynamics 365 Contact Center. This feature will reach general availability on May 22, 2026.<br><br><b>How does this affect me?</b><br>This feature allows administrators to set up channels, routing, queues, AI agents, voice configurations, Teams Phone extensibility, and knowledge sources through a single guided assistant. Key capabilities of the Service Operations Agent in Copilot Service admin center include:<ul><li>Generate configurations</li><li>Validate setups</li><li>Run simulations</li><li>Surface diagnostics</li><li>Explain the rationale behind recommendations</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -265,53 +359,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new co-branding capability that will allow organizations to <b>display a branded footer</b> at the bottom of the Chat screen in the<i> Microsoft 365 Copilot app</i>. This update will enable admins to add their organization’s logo to their users’ Microsoft 365 Copilot app, helping users confirm they are using their trusted, work-managed Copilot experience.</p><p>This feature will begin rolling out in <b>early May 2026</b> (previously late March)&nbsp;and is expected to complete by <b>end of May 2026</b> (previously&nbsp;late April).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555852\" target=\"_blank\">555852</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b> Rollout will begin in<b>&nbsp;early May 2026</b> (previously late March) and is expected to complete by <b>end of May 2026</b> (previously late April).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All Microsoft 365 tenants using the Microsoft 365 Copilot app.</li></ul><p>What will happen</p><ul><li>Admins will be able to upload a logo in the <i>Microsoft 365 admin center</i> to customize the footer in the <i>Microsoft 365 Copilot app</i>.</li><li>The footer will display an “<b><i>Approved by <b>Logo</b></i>”</b> indicator to help users confirm they are in an <i>organization-approved Copilot environment:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68658328-08c2-4b57-8f67-a6387382d739/8c36ea142ae32ce3fc402d44cf3d176902dcb112.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p></li><li>Only the logo from your organization’s theme configuration will be used; other theme elements will not be applied in this release.</li><li>This feature will be <b>off by default </b>and will require admin configuration.</li><li>There will be<b> no user impact </b>unless an admin enables the footer.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action will be required unless you want to enable the branded footer.</p><p>Admins who want to configure this feature should:</p><ul><li>Review and verify your organization’s theme configuration in the <i>Microsoft 365 admin center</i>.</li><li>Upload the logo you want to display in the <i>Microsoft 365 Copilot app footer </i>once rollout begins.</li><li>Use the existing theme management flow to apply co-branding once the feature is available.</li></ul><p>For configuration guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide&amp;source=recommendations\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Customize the theme for your organization | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "555852"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting early May 2026, Microsoft 365 Copilot app will allow admins to add a branded footer with their organization's logo, confirming a trusted Copilot environment. This feature is off by default, requires admin setup via the Microsoft 365 admin center, and will complete rollout by end of May 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-06-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1238432",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-24T18:26:40.127Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-25T01:16:32Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot app: Branded footer customization",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated April 24, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is improving the <b>custom license request experience</b> for <b>Microsoft 365 Copilot</b> to help organizations better align Copilot license requests with their internal approval workflows. With this update, admins can create Copilot‑specific request policies and tailor guidance by user group, allowing more precise routing and clearer instructions for people requesting a license.</p><p><b><b>When this will happen</b></b></p><p style=\"\"><b>General Availability (Worldwide):</b> We will begin rolling out in<b> late April 2026</b> and expect to complete by<b> late June 2026</b>.</p><p style=\"\"><b><b>How this affects your organization</b></b></p><p style=\"\"><i>Who is affected</i></p><ul><li>Users who request Microsoft 365 Copilot licenses</li><li>Admins who configure license request policies in the <i>Microsoft 365 admin center</i></li></ul><p style=\"\"><i>What will happen</i></p><ul><li>Admins will be able to create <b>product‑specific custom license request policies </b>for <b>Microsoft 365 Copilot</b>.</li><li>Admins can scope policies <b>by user group</b>, such as security groups or Microsoft 365 groups.</li><li>When someone requests a Copilot license, they will see:<ul><li>Admin‑defined instructions.</li><li>A link to your organization’s internal approval workflow.</li></ul></li><li>License approvals will continue to occur <b>outside Microsoft systems</b>, using your existing internal processes.</li><li>Existing custom license request behavior will remain unchanged unless an admin updates configuration.</li></ul><p style=\"\"><b><b>What you can do to prepare</b></b></p><p style=\"\">No action is required if you want to continue using your existing configuration.</p><p style=\"\">If you choose to adopt the new capabilities, you can:</p><ul><li>Review your current custom license request policies in the <i>Microsoft 365 admin center</i>.</li><li>Decide whether to apply <b>product‑specific </b>or <b>group‑specific </b>policies for Copilot.</li><li>Confirm that internal approval links and instructions are accurate and accessible.</li><li>Communicate these updates to your IT support or helpdesk teams.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/commerce/licenses/manage-license-requests?view=o365-worldwide\" target=\"_blank\">Manage self-service license requests in the Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a></p><p style=\"\"><b><b>Compliance considerations</b></b></p><p style=\"\">No compliance considerations identified. Review as appropriate for your organization.</p><p style=\"margin-left: 25px;\"></p><p style=\"margin-left: 25px;\"></p>",
       "ContentType": "html"
     },
@@ -550,7 +597,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5331496Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5331498Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348014Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348025Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1076,7 +1123,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5332096Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5332097Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348519Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.334852Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3809,7 +3856,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5330629Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5330631Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3347045Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3347046Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4486,7 +4533,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5332544Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5332545Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5332546Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348915Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348916Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348916Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6329,53 +6376,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Flexible layout for meetings with resizable divider",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p></p><p>Updated April 7, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing the new and improved <b>People Hub</b> in Outlook Web, designed to deliver a modern, multi-column contacts experience with fast search and a streamlined interface. We’re investing in fast, relevant search and modern contact management capabilities that deliver a high-quality experience for everyone.</p><p>This update provides a unified view of each person, automatically links duplicate entries, and enriches contacts with organizational profile information where available. These enhancements aim to improve reliability and scalability for organizations of all sizes, while phasing out older solutions that no longer meet performance expectations.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537282\" target=\"_blank\">537282</a>.</p><p><b><b>When this will happen:</b></b></p><ul>\n<li>Targeted Release (Worldwide): We began rolling out on mid-January 2026 and completed in mid-February 2026.\n</li><li>General Availability (Worldwide): We will begin rolling out on late April 2026 (previously late March) and expect to complete by mid-May 2026 (previously end of March).\n</li>\n</ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b> All Outlook Web users and admins managing contact solutions in Microsoft 365.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see a refreshed <b>People Hub</b> with a modern, multi-column layout and improved search capabilities.&nbsp;</li>\n<li>Duplicate contacts will be automatically linked, and organizational profile data will enrich contact details where available.</li>\n<li>All users will be migrated to the \"New Contacts\" experience automatically. The toggle to switch off \"New Contacts\" will no longer be available.&nbsp;<br></li><li>No admin action is required; the feature will be enabled by default.</li>\n</ul>\n\n<b><b>What you can do to prepare:</b></b><p></p><ul><li>Admins can start training users on the new Contacts experience. Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/add-find-edit-or-delete-a-contact-in-outlook-e1dc4548-3bd6-4644-aecd-47b5728f7b0d#picktab=new_outlook_%28insiders%29\" target=\"_blank\">Add, find, edit, or delete a contact in Outlook</a>.</li><li>Before rollout, we will update this post with updated documentation.</li>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>\n<p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "537282"
-      },
-      {
-        "Name": "Summary",
-        "Value": "The new People Hub in Outlook Web offers a modern multi-column layout, faster search, automatic duplicate linking, and enriched contact details. Rolling out globally from late April to mid-May 2026, all users will be migrated automatically with no admin action needed. Training resources will be provided."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-22T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1199768",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-07T16:16:04.293Z",
-    "Services": [
-      "Microsoft 365 for the web"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-18T23:42:03Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Outlook: New and improved People Hub on Web",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -13493,7 +13493,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5331623Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5331625Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.5331628Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.533163Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T15:04:43.533163Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348135Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348136Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348136Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348139Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-27T19:14:13.3348139Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
