@@ -4,6 +4,305 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 29, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re improving the RSVP experience in Outlook Mobile by visually highlighting the response a user has selected (Yes, Maybe, or No). This makes it easier for users to quickly see how they’ve responded to a meeting invitation.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide, GCC, GCC High): Rollout begins in<b> early June 2026</b> (previously&nbsp;late April)<b>&nbsp;</b>and is expected to complete by <b>end of June 2026</b> (previously&nbsp;early June)<b>.</b><b><br></b></p><p><b><b>How this affects your organization:</b></b><b><br></b></p><p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who access <b>Outlook Mobile</b> on iOS or Android</li>\n  <li>Applies to Worldwide, GCC, and GCC High tenants</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The selected RSVP option (Yes, Maybe, or No) will be visually highlighted</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/000bb42e-36b8-4be3-a07a-e655bb749319\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>Users can quickly confirm how they responded to a meeting invitation and edit as needed</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/bc41e3aa-02bc-442d-8564-80a8cd937a51\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>The feature is <b>enabled by default</b></li>\n  <li>No changes to existing meeting workflows or policies</li>\n  <li>No impact to Outlook on the web or Outlook desktop clients</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required; the update will roll out automatically</li>\n  <li>Consider notifying helpdesk staff of the visual change</li>\n  <li>Update internal documentation if needed</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook Mobile will visually highlight users' RSVP responses (Yes, Maybe, No) to meeting invites, improving clarity. This rollout begins early June 2026 and completes by end of June 2026, affecting all iOS and Android users worldwide, GCC, and GCC High tenants. No admin action needed; feature enabled by default."
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269211",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T17:10:00.623Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:13:19Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Clearer RSVP selection in Outlook Mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 29, 2026: We have updated the content. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing new capabilities in Researcher to help teams review AI‑generated research more confidently and reduce rework before using outputs in business decisions.</p><p><b>Critique</b> is a built-in review step in Researcher that automatically checks and improves a draft before it’s delivered. It uses a second reasoning pass to strengthen structure and completeness, prioritize reputable sources, and ensure key statements are grounded in clear citations—so the final report is more reliable and easier to trust.</p><p><b>Council</b> is Researcher’s multi-model comparison mode. It runs the same question through multiple deep‑reasoning research agents (for example, GPT and Claude) in parallel, preserves each model’s full standalone report, and adds a lightweight synthesis “cover letter” that highlights where the models agree, where they diverge, and what each uniquely contributes—so you can compare perspectives and make decisions with higher confidence.</p><p>These preview features are initially available only to organizations enrolled in the Microsoft 365 Copilot Frontier program, which provides early access to experimental Copilot capabilities.</p><p>This message is associated with Roadmaps <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553213#Roadmap\" target=\"_blank\">553213</a> and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558538#Roadmap\" target=\"_blank\" style=\"\">558538</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>Public preview: Rolling out to Frontier customers by <b>March 30, 2026.</b></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n\n<ul>\n<li>Organizations enrolled in the <b>Microsoft 365 Copilot Frontier program using Researcher</b></li>\n<li>Admins managing AI model access, including third-party models such as Anthropic Claude</li>\n\n<li>Users who generate long-form research reports using Researcher</li><li>A Microsoft 365 Copilot (Premium) license is required to use this feature</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Researcher drafts will run through Critique before delivery, improving structure, completeness, and citation quality, when “Critique” is selected as the option in the model picker.&nbsp;</li><li>Users will be able to enable <b>Council</b>, which generates:<ul><li>Two independent, full research reports from different reasoning models (for example, GPT and Claude).</li><li>A concise synthesis “cover letter” summarizing areas of agreement, disagreement, and unique contributions.</li></ul></li><li>Critique and Council availability is<b> tenant-admin controlled</b>, including the ability to allow or block third-party models such as Claude.</li><li>There is <b>no change to existing user workflows</b> unless the feature is enabled.</li><li>Existing security, compliance, and data handling policies continue to apply.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your <b>AI model access settings</b> and confirm whether <b>Anthropic Claude</b> is enabled for your tenant.</li>\n<li>Decide whether to allow Critique and Council based on your organization’s governance and compliance requirements. There are no separate controls for these features; both are enabled when Anthropic and Claude report generation are turned on.</li>\n<li>Inform helpdesk and support teams about the upcoming preview features.</li>\n<li>Update internal guidance or training materials if Researcher is documented in your organization.</li></ul><p>No action is required if you do not plan to enable the preview features.</p><p><b>Learn more:</b>&nbsp;<a href=\"https://go.microsoft.com/fwlink/?linkid=2356719\" target=\"_blank\">Use model choice in the Researcher agent | Microsoft Support</a><span style=\"background-color: rgb(255, 255, 0);\"></span></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "553213,558538"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Researcher in Microsoft 365 Copilot Frontier now includes Critique, which auto-reviews and improves drafts, and Council, which compares reports from multiple AI models with a synthesis summary. Available from March 30, 2026, these features require tenant-admin control and a Copilot Premium license."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1265765",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T16:50:42.483Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-30T17:13:38Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Auto Critique and Model Council features in Researcher (Frontier program)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select:</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button</li></ul><p>After rollout, the default value of <b>Everyone </b>will apply to all newly created meetings. For meetings created before rollout, the setting will be <b>Active Sharer </b>to match the current behavior where only the active sharer can start annotations. Organizers and co-organizers must manually update existing meetings if they want to enable the new behavior for those meetings.&nbsp;</p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "89975"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will allow meeting participants on Windows and macOS apps to request collaborative annotation sessions during screen sharing, subject to the presenter's approval. Organizers can control who can start annotations via a new meeting option. Rollout begins May 2026 with no admin action required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1019312",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T16:47:32.993Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-02-28T01:28:59Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Meeting Participants Can Request Collaborative Annotation Sessions",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 29, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p><b>Voice tethering</b> builds on the recent introduction of <b>Sign Language Mode</b> in <i>Microsoft Teams</i>. When a sign language interpreter voices on behalf of a Deaf or hard‑of‑hearing (D/HH) participant, Teams will now attribute captions, transcripts, and meeting intelligence—such as Copilot notes, summaries, action items, and insights—to the D/HH participant rather than the interpreter. This update ensures accurate representation in meetings, clarifies who is contributing to the conversation, and improves downstream meeting accuracy and accountability.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553223\" target=\"_blank\">553223</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release (Worldwide): </b>We will begin rolling out in <b>mid-March 2026</b> and expect to complete by <b>late March 2026</b>.</li><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in <b>mid-May 2026</b> (previously&nbsp;early April)&nbsp;and expect to complete by <b>late May 2026</b> (previously&nbsp;mid-April).</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations with meeting participants who are Deaf or hard‑of‑hearing and use sign language interpreters in&nbsp;<i>Teams meetings</i>.</li><li>Any users who participate in meetings with <b>Sign Language Mode enabled</b>.</li></ul><p><i>What will happen</i></p><ul><li>Voice contributions made by interpreters will be attributed to the D/HH participant across:<br><ul><li>Live captions</li><li>Meeting transcripts</li><li>Copilot notes, summaries, action items, and insights</li><li>Other Teams meeting intelligence</li></ul></li><li>Meeting data becomes more accurate by ensuring the correct participant is represented.</li><li>Interpreter identity is no longer conflated with the signer they support.</li><li>Sign Language Mode is already available to all users; voice tethering enhances it automatically.</li><li>The feature is <b>on by default </b>when sign language mode and interpreter assignment are used.</li><li>No admin controls are required to enable or manage the feature.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Optional preparation steps:</p><ul><li>Inform D/HH users and interpreters that speech attribution in meetings will change.</li><li>Update internal training or accessibility resources if you document interpreter workflows.</li><li>Notify helpdesk or support teams that captioning and transcript attribution will appear differently for interpreted meetings.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "553223"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will roll out Voice tethering by mid-March 2026, attributing interpreter-spoken content to Deaf or hard-of-hearing participants in captions, transcripts, and meeting insights. This improves accuracy and accountability in meetings with Sign Language Mode, is enabled by default, and requires no admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1230459",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T16:46:26.783Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-10T23:10:21Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Voice tethering",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 29, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Recap without saving transcript</b> provides an optional way for Copilot to generate a meeting summary using live meeting context, without saving a meeting transcript or recording.</p>\n<p>This capability is intended for scenarios where organizations want AI‑generated recaps but have policies that limit or prohibit the retention of transcripts or recordings. When disabled, no AI recap is generated. Existing Copilot licensing and tenant‑level AI controls continue to apply.</p><p>This feature will be available to users with an M365 Copilot (Premium) license across platforms, including desktop (Windows and Mac), web, and mobile.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558286\" target=\"_blank\">558286</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: We will begin rolling out <b>early June 2026</b> (previously&nbsp;mid-May)&nbsp;and expect to complete by <b>mid-June 2026 </b>(previously&nbsp;late May).\n</li><li>General Availability (Worldwide): We will begin rolling out <b>mid-June 2026</b> (previously&nbsp;early June)&nbsp;and expect to complete by <b>late June 2026 </b>(previously&nbsp;mid-June).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft Teams meeting organizers and participants with an <b>M365 Copilot (Premium) license</b></li>\n  <li>Microsoft 365 administrators managing Copilot and AI controls</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Meeting organizers with a Copilot license can enable or disable Recap without saving transcript in meeting options under <b style=\"\">Copilot and other AI </b>before the meeting, and organizers or participants with a Copilot license can manage the AI toggle during the meeting through the AI mode dropdown (top‑left indicator).</li><li>During a meeting, <b>organizers and participants with a Copilot license</b> can enable or disable this option.</li><li>When enabled, <b>Intelligent Recap will generate an AI summary</b> even if recording and transcription are not turned on.</li><li>No transcript or recording is saved as part of this experience.</li><li>This feature is <b>controlled by the existing AI toggle</b>. If AI is disabled at the tenant level, this experience is not available.</li><li>The feature is <b>on by default</b> for tenants where Copilot and AI experiences are enabled.</li>\n</ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review your organization’s <b>AI and Copilot governance policies</b> to determine whether this experience aligns with your compliance posture.</li><li>If you want to opt out, <b>disable the AI toggle</b> in your tenant settings to prevent Recap without saving transcript from being used.</li><li>Update internal guidance and helpdesk documentation to reflect that meeting recaps may be generated <b>without recordings or transcripts</b>.</li><li>Communicate this change to meeting organizers, especially in regulated environments.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" width=\"100%\">\n  <tbody><tr>\n    <th align=\"left\">Compliance area</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>AI/ML interaction with customer data</td>\n    <td>Copilot generates AI-based meeting recaps using live meeting context even when recording and transcription are not enabled. No meeting transcript or recording is saved.</td>\n  </tr>\n  <tr>\n    <td>New way for users to interact with generative AI</td>\n    <td>Users can receive AI-generated Intelligent Recap without starting or saving a meeting recording or transcript.</td>\n  </tr>\n  <tr>\n    <td>Admin controls available</td><td>This capability is governed by the existing tenant-level AI toggle. Disabling AI prevents Recap without saving transcript from being used.</td>\n  </tr>\n  <tr>\n    <td>User enable/disable capability</td>\n    <td>Meeting organizers can enable or disable the feature before the meeting, and organizers or participants with Copilot licenses can toggle it during the meeting.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558286"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will offer AI meeting recaps without saving transcripts or recordings for M365 Copilot (Premium) users, starting mid-June 2026. Organizers can enable or disable this feature, which complies with policies restricting transcript retention, and is controlled by tenant-level AI settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1275312",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-29T16:42:51.32Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-09T16:06:40Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: AI meeting recap without transcript to meet compliance policies",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 29, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is introducing an <b>automatic upgrade for shared calendars</b> in <i>Outlook and Exchange Online</i>, <b>transitioning from the legacy MAPI-based model to the modern REST-based model</b>. This <b>server-side upgrade </b>will improve calendar sync reliability, performance, and consistency for delegates and users who access shared calendars. The change is designed to be seamless and will not require any action from users or administrators.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b></p><p>Rollout starting early May 2026 and completing by late July 2026</p><p><b>GCC High /DoD:</b></p><p>Rollout starting mid-May 2026 and completing by late July 2026</p><p>Note: Rollout will be progressive and timing may vary by tenant.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Exchange Online</li><li>Users who have <b>Editor or higher permissions</b> on shared calendars in <i>user or shared mailboxes</i></li><li>Delegates and users who access shared calendars in<i> Outlook</i></li></ul><p><i>What will happen</i></p><ul><li>Shared calendars will be <b>automatically upgraded</b> from the legacy MAPI-based model to the modern REST-based model.</li><li>A <b>new calendar folder</b> will be created in a <b>hidden state</b> and will only become visible to the user once the full sync is successfully completed and validated, ensuring a seamless rollover to the new model.</li><li>The transition is expected to appear seamless, with no interruption to normal user workflows.</li><li><b>Events older than one year </b>will be <b>excluded</b> from the initial sync window. However, recurring events with instances falling within or after the one-year threshold will still be included in the sync.</li><li><b>Existing permissions and sharing relationships</b> will be <b>preserved</b>; no re-sharing or permission reset will be required.</li><li>The upgrade process is fully automatic and <b>requires no action from the user</b> — no Outlook restart, profile recreation, or any other manual steps.</li><li><b>No data loss</b> is expected as a result of this change.</li><li>The rollout <b>will initially support auto-upgrade for up to four shared calendars</b> per delegate or principal, scaling up to six over time. <b>Those managing more than six shared calendars will be excluded from the auto-upgrade</b> and will experience no change to their current setup.</li></ul><p>How does it effect the Classic Outlook setting  'Turn on shared calendar improvements'?</p><ul><li>After migration, Classic Outlook will continue to honour the existing setting. Although shared calendars are upgraded to the REST model at the service level, Classic Outlook will follow the setting and use MAPI-based model if the setting is turned off. This behaviour is limited to Classic Outlook; all other endpoints (Outlook Web, Mobile, Mac, New Outlook) will use REST.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>We recommend that administrators:</p><ul><li>During migration, a hidden shared calendar folder may be visible to tenant admins and support teams via the Get-MailboxFolderStatistics cmdlet. This is expected and has no impact on end users.</li><li>Monitor for persistent issues, such as missing meetings after the migration window or duplicate calendar folders, and contact Microsoft support if observed.</li><li>If a manual rollback is required after the calendar becomes visible, open a support request through standard Microsoft support channels.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will auto-upgrade shared calendars in Outlook and Exchange Online from the legacy MAPI model to the modern REST model between May and July 2026. This seamless, server-side upgrade improves sync reliability without user action, preserves permissions, excludes events older than one year, and supports up to six shared calendars per user."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1287370",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T16:38:33.43Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-21T22:51:16Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Auto upgrade of shared calendars from legacy MAPI model to modern REST model",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>Introduction</b></p><p></p><p>Microsoft is taking steps to help keep customers safe as AI models become more advanced&nbsp;including&nbsp;plans&nbsp;to incorporate advanced AI models directly into&nbsp;our&nbsp;<a href=\"https://www.microsoft.com/en-us/securityengineering/sdl/\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Security Development Lifecycle (SDL)</a>&nbsp;to&nbsp;identify&nbsp;vulnerabilities and develop mitigations and updates. We are also sharing guidance&nbsp;through Microsoft Security Exposure Management&nbsp;on&nbsp;how customers can&nbsp;reduce their exposure&nbsp;as well as capabilities they can use to&nbsp;take action.&nbsp;You can learn more in our blog here:&nbsp;<a href=\"https://aka.ms/prioritizingdefense\">AI-powered defense for an AI-accelerated threat landscape</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): available as of April 22, 2026</p><p><b>How this will affect your organization:</b></p><p></p><p>Customers should review the guidance captured in <a href=\"https://security.microsoft.com/securenow\" target=\"_blank\">https://security.microsoft.com/securenow</a> and take action to reduce their exposure in areas where autonomous AI‑driven attacks gain disproportionate advantage - patching, open-source software, customer source code, internet-facing assets, and baseline security hygiene.&nbsp; </p><p><b>What you need to do to prepare:</b></p><p></p><p>Customers can review the guidance&nbsp;in&nbsp;Microsoft Security Exposure Management at&nbsp;<a href=\"https://security.microsoft.com/securenow\">https://security.microsoft.com/securenow</a>&nbsp;and use the capabilities provided to take action.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will integrate advanced AI models into its Security Development Lifecycle by April 22, 2026, to identify vulnerabilities and provide mitigations. Customers should review guidance at https://security.microsoft.com/securenow to reduce exposure to AI-driven attacks and improve security practices."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1288236",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-29T15:40:04.75Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-22T15:49:36Z",
+    "Tags": [
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Security Exposure Management Secure Now",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to group and analyze the performance of user questions by themes in Microsoft Copilot Studio. This feature will reach general availability on May 29, 2026.<br><br><b>How does this affect me?</b><br>With this feature, makers can get a more granular level understanding of how their agent performs with AI-generated lists that analyze all user questions that trigger generative answers and group them to different themes. For each theme:<ul><li>Questions generated from the last seven days are assigned to the suggested themes</li><li>On a daily basis, new questions are generated.</li><li>Users with sufficient privileges</li><li>Additional metrics, such as the number of questions asked about the theme, answer rate, quality of response, and user feedback, are created.</li></ul><b>What action do I need to take?</b><br> This message is for awareness, and no action is required.<br><br>If you would like more information about this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/15037\">Analyze user questions by theme</a>.",
       "ContentType": "html"
     },
@@ -1179,89 +1478,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 23, 2026: We have updated the timeline and content. Thank you for your patience.</p><p><b>Applies to:</b> Teams for Windows desktop and Teams for Mac desktop&nbsp;</p><p><b>Introduction:</b></p><p>All meeting participants joining from native apps on Windows and macOS will be able to <b>request to start collaborative annotations</b> when a screen or window is being shared. The annotations start <b>only after the active sharer approves the request</b>. This capability is available exclusively in the new Microsoft Teams experience on native Windows and macOS apps.</p><p>This release also introduces a meeting option in the Participation section, allowing organizers and co-organizers to choose who can start annotations. By default, \"Everyone\" can access the \"Start Annotation\" button, but organizers and co-organizers can limit it to just the \"Active Sharer\", making the button visible only to the person currently sharing their screen or window.</p><p><i>Note: Users can view and annotate in Teams on the web but cannot initiate annotations. Anonymous users in the meeting will not be able to send a request.</i></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">89975</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out early May 2026 (previously mid-April) and expect to complete by mid-May 2026 (previously late April).\n</p><p>General Availability (WW, GCC, GCC High, and DoD): We will begin rolling out mid-May 2026 (previously late March) and expect to complete by late May 2026 (previously late April).</p><p><b>How this will affect your organization:</b></p><p>After the rollout, meeting participants who are not sharing their screens will have the ability to request an annotation session. This request will be sent to the presenter sharing their screen, who can choose to accept or deny it.</p><p><b>Meeting Organizer Settings (Meeting Options)</b></p><p>A new \"Who can start annotations?\" option appears under the Participation section in Meeting Options. Organizers and co-organizers can select:</p><ul><li>Everyone (default) — All participants see the \"Start Annotation\" button</li><li>Active Sharer — Only the person currently sharing sees the annotation button</li></ul><p>After rollout, the default value of <b>Everyone </b>will apply to all newly created meetings. For meetings created before rollout, the setting will be <b>Active Sharer </b>to match the current behavior where only the active sharer can start annotations. Organizers and co-organizers must manually update existing meetings if they want to enable the new behavior for those meetings.&nbsp;</p>\n<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d28cd771-03d3-42fe-8f6b-56f7b878bcd3/3eec4641e5d0b32016b8f24a44e64994cfd0e2c7.png\" style=\"width: 400px;\" alt=\"user controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/10d2b8d7-b800-4af0-ba4c-54e9a8cd7cc6/0123b02ae3e11d919606aec037e5d9827618dc72.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>Participant Annotation Request Flow&nbsp;</b></p><p>When a participant who is not the active sharer wants to annotate, they click the \"Start annotation\" button in the meeting toolbar. A confirmation dialog appears, and once the participant clicks \"Request\", a notification is sent to the presenter for approval.</p><ol><li>Click the \"Start annotation\" button in the meeting toolbar to initiate an annotation request.</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eabda123-799b-4e4a-9dc9-c7d6fd16279f/165b17952951621d9ee10685b3838a7226f66886.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Confirm the request in the dialog box. Once approved, annotations start request will be sent to active sharer</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/da4343b8-e836-46ad-aaf1-088aa9a5b0e1/991c60503a88cdeb500418f7fb5ced8946752597.png\" style=\"width: 400px;\" alt=\"user controls\"></p><li>Request sent notification confirms the request is pending and the presenter needs to approve it.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4eca2dd2-e0f2-4de2-8f82-c434aa4ed8bb/78519651e86bf3626569180522c09961c71320ce.png\" style=\"width: 400px;\" alt=\"user controls\"></p></ol><p><b>Presenter Approval Experience</b></p><p>The active sharer (presenter) receives a notification at the top of their screen indicating that a viewer wants to start annotations. The presenter can choose to <b>Deny </b>or <b>Allow </b>the request.</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ee8beeb0-7649-4355-aa93-2753c8d1ef14/fe77074cea7b046505eb1c50ed22fbdcc5dfab42.png\" style=\"width: 400px;\" alt=\"user controls\"></p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to:</p><ul><li><b>Notify your users</b> about this change and how the annotation request/approval flow works&nbsp;</li><li><b>Update relevant documentation</b> to reflect the new meeting option and participant behavior&nbsp;</li><li><b>Educate meeting organizers</b> on the new \"Who can start annotations?\" meeting option under Participation&nbsp;</li><li><b>Communicate to end users</b> that they can now request to start annotations during screen sharing sessions&nbsp;</li></ul><p>This change will be available by default.&nbsp;</p><p><b>Additional Resources:&nbsp;</b></p><ul><li><a href=\"https://support.microsoft.com/office/use-annotation-while-sharing-your-screen-in-microsoft-teams-876ba527-7112-437e-b410-5aec7363c473\" target=\"_blank\">Use annotation while sharing your screen in Microsoft Teams - Microsoft Support</a> (will be updated before rollout)\n</li><li><a href=\"https://www.youtube.com/watch?v=RpOCxz4woPA\" target=\"_blank\">How to use Collaborative Annotations in a Microsoft Teams meeting (2022)</a></li><li><a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=89975\" target=\"_blank\">Microsoft 365 Roadmap ID 89975</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "89975"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will allow meeting participants on Windows and macOS apps to request collaborative annotation sessions during screen sharing, subject to the presenter's approval. Organizers can control who can start annotations via a new meeting option. Rollout begins May 2026 with no admin action required."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1019312",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-24T16:08:56.877Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-02-28T01:28:59Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Meeting Participants Can Request Collaborative Annotation Sessions Dependent on Host Permission",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b>Introduction</b></p><p></p><p>Microsoft is taking steps to help keep customers safe as AI models become more advanced&nbsp;including&nbsp;plans&nbsp;to incorporate advanced AI models directly into&nbsp;our&nbsp;<a href=\"https://www.microsoft.com/en-us/securityengineering/sdl/\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Security Development Lifecycle (SDL)</a>&nbsp;to&nbsp;identify&nbsp;vulnerabilities and develop mitigations and updates. We are also sharing guidance&nbsp;through Microsoft Security Exposure Management&nbsp;on&nbsp;how customers can&nbsp;reduce their exposure&nbsp;as well as capabilities they can use to&nbsp;take action.&nbsp;You can learn more in our blog here:&nbsp;<a href=\"https://aka.ms/prioritizingdefense\">AI-powered defense for an AI-accelerated threat landscape</a>&nbsp;</p><p><b>When this will happen:</b></p><p>General Availability (Worldwide): We will begin rolling out on late April 2026 and expect to complete by late April 2026.</p><p><b>How this will affect your organization:</b></p><p></p><p>Customers should review the guidance captured in <a href=\"https://security.microsoft.com/securenow\" target=\"_blank\">https://security.microsoft.com/securenow</a> and take action to reduce their exposure in areas where autonomous AI‑driven attacks gain disproportionate advantage - patching, open-source software, customer source code, internet-facing assets, and baseline security hygiene.&nbsp; </p><p><b>What you need to do to prepare:</b></p><p></p><p>Customers can review the guidance&nbsp;in&nbsp;Microsoft Security Exposure Management at&nbsp;<a href=\"https://security.microsoft.com/securenow\">https://security.microsoft.com/securenow</a>&nbsp;and use the capabilities provided to take action.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft will integrate advanced AI models into its Security Development Lifecycle by April 2026 to identify vulnerabilities and provide mitigations. Customers should follow guidance via Microsoft Security Exposure Management to reduce exposure in key areas like patching and baseline security hygiene."
-      }
-    ],
-    "EndDateTime": "2026-06-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1288236",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-24T15:25:52.59Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-22T15:49:36Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Security Exposure Management Secure Now",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to explore sales insights using the Sales Research Agent in Dynamics 365 Sales. This feature reached general availability on April 30, 2026.<br><br><b>How does this affect me?</b><br>The Sales Research Agent in Dynamics 365 Sales enables users to explore complex business questions through natural language conversations with your data. It leverages multi-modal and multi-agent architecture to reason over intricate, customized schemas with sales domain expertise. Key capabilities of this feature allow you to:<ul><li>Create multi‑branch research journeys across Dynamics 365 Sales data and Microsoft Fabric lakehouse data and analyze local files such as Excel and PDF.</li><li>Start quickly with AI‑suggested, role‑optimized research topics, or ask your own questions using natural language.</li><li>Use the AI cursor to start conversations, analyze findings, adjust visualizations, or add new data sources.</li><li>View the reasoning behind research outcomes to understand how insights were derived.</li><li>Save research workspaces, refresh them with new data, and regenerate blueprints or research findings as your business evolves.</li><li>Define custom business functions with your own schemas, acronyms, and domain context to tailor analysis to your organization.</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -1378,7 +1594,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877725Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877727Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437315Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437318Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1904,7 +2120,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5874476Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5874481Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6438303Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6438305Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2121,44 +2337,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated April 22, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is introducing an <b>automatic upgrade for shared calendars</b> in <i>Outlook and Exchange Online</i>, <b>transitioning from the legacy MAPI-based model to the modern REST-based model</b>. This <b>server-side upgrade </b>will improve calendar sync reliability, performance, and consistency for delegates and users who access shared calendars. The change is designed to be seamless and will not require any action from users or administrators.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b></p><p>Rollout starting early May 2026 and completing by late July 2026</p><p><b>GCC High /DoD:</b></p><p>Rollout starting mid-May 2026 and completing by late July 2026</p><p>Note: Rollout will be progressive and timing may vary by tenant.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using Exchange Online</li><li>Users who have <b>Editor or higher permissions</b> on shared calendars in <i>user or shared mailboxes</i></li><li>Delegates and users who access shared calendars in<i> Outlook</i></li></ul><p><i>What will happen</i></p><ul><li>Shared calendars will be <b>automatically upgraded</b> from the legacy MAPI-based model to the modern REST-based model.</li><li>A <b>new calendar folder</b> will be created in a <b>hidden state</b> and will only become visible to the user once the full sync is successfully completed and validated, ensuring a seamless rollover to the new model.</li><li>The transition is expected to appear seamless, with no interruption to normal user workflows.</li><li><b>Events older than one year </b>will be <b>excluded</b> from the initial sync window. However, recurring events with instances falling within or after the one-year threshold will still be included in the sync.</li><li><b>Existing permissions and sharing relationships</b> will be <b>preserved</b>; no re-sharing or permission reset will be required.</li><li>The upgrade process is fully automatic and <b>requires no action from the user</b> — no Outlook restart, profile recreation, or any other manual steps.</li><li><b>No data loss</b> is expected as a result of this change.</li><li>The rollout <b>will initially support auto-upgrade for up to four shared calendars</b> per delegate or principal, scaling up to six over time. <b>Those managing more than six shared calendars will be excluded from the auto-upgrade</b> and will experience no change to their current setup.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>We recommend that administrators:</p><ul><li>During migration, a hidden shared calendar folder may be visible to tenant admins and support teams via the Get-MailboxFolderStatistics cmdlet. This is expected and has no impact on end users.</li><li>Monitor for persistent issues, such as missing meetings after the migration window or duplicate calendar folders, and contact Microsoft support if observed.</li><li>If a manual rollback is required after the calendar becomes visible, open a support request through standard Microsoft support channels.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft will auto-upgrade shared calendars in Outlook and Exchange Online from the legacy MAPI model to the modern REST model between May and July 2026. The seamless, server-side upgrade requires no user action, preserves permissions, excludes events older than one year, and supports up to six shared calendars per user."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1287370",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-22T18:47:40.1Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-21T22:51:16Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Auto upgrade of shared calendars from legacy MAPI model to modern REST model",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated April 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Engage will retire <b>live events powered by Teams Live Events</b>&nbsp;effective April 27, 2026. Existing live events already scheduled will continue to be supported through February 28, 2027. We encourage customers to transition to events in <b>Engage </b>powered by <b>Teams town halls</b>, which offer an improved experience for large-scale digital and hybrid events.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Effective April 27, 2026: </b>You will no longer have the option to schedule a <b>live event in Engage </b>powered by <b>Teams Live Events</b>.</li><li><b>Through February 28, 2027: Engage </b>will continue to support<b> any live events powered by Teams Live Events </b>that were scheduled before April 27, 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected: </b>Organizations using<b> live events in Engage</b> powered by <b>Teams Live Events</b>.</p>\n<p><b>What will happen: \n</b></p><ul><li>You will no longer be able to schedule a <b>live event in Engage</b> powered by<b> Teams Live Events</b> starting April 27, 2026.</li><li><b>Engage </b>will continue to support already scheduled <b>live events powered by Teams Live Events</b> through February 28, 2027.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Migrate to events in <b>Engage </b>powered by <b>Teams town halls</b>.</li><li>Review and update internal documentation to reflect this change.\n</li></ul><p>Explore these resources:</p><ul><li><a href=\"https://support.microsoft.com/office/organize-a-live-event-with-teams-town-hall-197dcfbb-14d8-4b8e-a038-5bc730c726d1\" target=\"_blank\">Organize a Live event with Teams town hall&nbsp;</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/plan-town-halls\" target=\"_blank\">Plan for Teams town halls</a> \n</li><li><a href=\"https://learn.microsoft.com/graph/cloud-communications-virtual-events-townhall-usecases\" target=\"_blank\">Virtual Events Graph APIs</a> \n</li><li><a href=\"https://adoption.microsoft.com/customer-hub/microsoft-teams-events-readiness/\" target=\"_blank\">Customer Hub events readiness sessions</a> - recommended sessions for Teams live event users transitioning to Teams town halls:<ul><li><i>What’s new in Microsoft Teams town halls and webinars</i></li><li><i>Migrating from Teams live events to town halls</i></li><li><i>Tips, tricks, and traps for town halls and webinars in Microsoft Teams</i></li></ul></li></ul><p><b><b>Compliance considerations:</b> \n</b></p><p>No compliance considerations identified; review as appropriate for your organization.\n</p><p></p>",
       "ContentType": "html"
     },
@@ -2255,7 +2433,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2806,7 +2984,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2988,7 +3166,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4415,7 +4593,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4551,7 +4729,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5879143Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5879145Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6435819Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6435822Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5192,7 +5370,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5876527Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5876529Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5876532Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6439087Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6439089Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6439091Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6074,51 +6252,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p><b>Recap without saving transcript</b> provides an optional way for Copilot to generate a meeting summary using live meeting context, without saving a meeting transcript or recording.</p>\n<p>This capability is intended for scenarios where organizations want AI‑generated recaps but have policies that limit or prohibit the retention of transcripts or recordings. When disabled, no AI recap is generated. Existing Copilot licensing and tenant‑level AI controls continue to apply.</p><p>This feature will be available to users with an M365 Copilot (Premium) license across platforms, including desktop (Windows and Mac), web, and mobile.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558286\" target=\"_blank\">558286</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: We will begin rolling out <b>mid-May 2026</b> and expect to complete by <b>late May 2026</b>.\n</li><li>General Availability (Worldwide): We will begin rolling out <b>early June 2026</b> and expect to complete by <b>mid-June 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft Teams meeting organizers and participants with an <b>M365 Copilot (Premium) license</b></li>\n  <li>Microsoft 365 administrators managing Copilot and AI controls</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Meeting organizers with a Copilot license can enable or disable Recap without saving transcript in meeting options under <b style=\"\">Copilot and other AI </b>before the meeting, and organizers or participants with a Copilot license can manage the AI toggle during the meeting through the AI mode dropdown (top‑left indicator).</li><li>During a meeting, <b>organizers and participants with a Copilot license</b> can enable or disable this option.</li><li>When enabled, <b>Intelligent Recap will generate an AI summary</b> even if recording and transcription are not turned on.</li><li>No transcript or recording is saved as part of this experience.</li><li>This feature is <b>controlled by the existing AI toggle</b>. If AI is disabled at the tenant level, this experience is not available.</li><li>The feature is <b>on by default</b> for tenants where Copilot and AI experiences are enabled.</li>\n</ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Review your organization’s <b>AI and Copilot governance policies</b> to determine whether this experience aligns with your compliance posture.</li><li>If you want to opt out, <b>disable the AI toggle</b> in your tenant settings to prevent Recap without saving transcript from being used.</li><li>Update internal guidance and helpdesk documentation to reflect that meeting recaps may be generated <b>without recordings or transcripts</b>.</li><li>Communicate this change to meeting organizers, especially in regulated environments.</li></ul><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" width=\"100%\">\n  <tbody><tr>\n    <th align=\"left\">Compliance area</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>AI/ML interaction with customer data</td>\n    <td>Copilot generates AI-based meeting recaps using live meeting context even when recording and transcription are not enabled. No meeting transcript or recording is saved.</td>\n  </tr>\n  <tr>\n    <td>New way for users to interact with generative AI</td>\n    <td>Users can receive AI-generated Intelligent Recap without starting or saving a meeting recording or transcript.</td>\n  </tr>\n  <tr>\n    <td>Admin controls available</td><td>This capability is governed by the existing tenant-level AI toggle. Disabling AI prevents Recap without saving transcript from being used.</td>\n  </tr>\n  <tr>\n    <td>User enable/disable capability</td>\n    <td>Meeting organizers can enable or disable the feature before the meeting, and organizers or participants with Copilot licenses can toggle it during the meeting.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "558286"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will offer AI meeting recaps without saving transcripts or recordings, supporting compliance policies. Available mid-2026 for M365 Copilot Premium users, organizers can enable/disable this feature pre- or during meetings. It’s controlled by tenant AI settings and generates summaries using live meeting context only."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-07-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1275312",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-09T16:07:13.85Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-09T16:06:40Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: AI meeting recap without transcript to meet compliance policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<b><b>Introduction</b></b>\n<p>Starting in October 2025, Microsoft Edge version 141 will introduce the Adobe-powered PDF viewer as the default experience for enterprise users on Windows. This change enhances performance, accessibility, and compatibility, and introduces exclusive enterprise features. It follows our earlier <a href=\"https://blogs.windows.com/msedgedev/2023/02/08/adobe-acrobat-microsoft-edge-pdf/\">public announcement</a> and aligns with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=489231\">489231</a> and MC post MC1072406.<!-- happen:]</b-->\n</p><p><b>General Availability:</b>&nbsp;Migration will occur on a phased rollout. Rollout will begin October 2025 and will complete March 2026.&nbsp;</p>\n\n<b><b>How this affects your organization:</b></b>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All enterprise users on Windows using Microsoft Edge.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>The Adobe-powered PDF viewer will replace the legacy viewer as the default experience.</li>\n<li>User interface and controls will remain unchanged.</li>\n<li>The new viewer offers improved performance, accessibility, compatibility, and exclusive enterprise features.</li>\n</ul><p>Admins can manage the experience using two policies:</p><p><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/newpdfreaderenabled\" target=\"_blank\">NewPDFReaderEnabled</a>: Controls the default viewer in Edge for Windows.&nbsp;</p><p><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-webview-policies#newpdfreaderwebview2list\" target=\"_blank\">NewPDFReaderWebView2List</a>: Controls viewer behavior in WebView2 apps.&nbsp;</p><p>\n  </p><ul>\n    </ul>\n\n<p><b>Policy behavior:</b></p>\n<table border=\"1\">\n<tbody><tr><th>Policy State</th><th>Before Enablement by Default</th><th>After Enablement by Default</th></tr>\n<tr><td>Default</td><td>Old PDF Viewer</td><td>New PDF Viewer</td></tr>\n<tr><td>Enabled</td><td>New PDF Viewer</td><td>New PDF Viewer</td></tr>\n<tr><td>Disabled</td><td>Old PDF Viewer</td><td>Old PDF Viewer</td></tr>\n</tbody></table>\n\n<b><b>What you can do to prepare:</b></b>\n<ul>\n</ul><p></p><p>No action is required if your organization is ready to adopt the new viewer.\n</p><p>If you wish to manage the experience:</p><ul><li>Enable the new viewer early using the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/newpdfreaderenabled\" target=\"_blank\">NewPDFReaderEnabled</a> policy.</li><li>Opt-out by disabling the same policy. Opt-out will be supported until June 2026, at which time the policy will be deprecated and any remaining organizations will be moved to the new viewer.&nbsp;</li><li>Review and update internal documentation if needed.</li><li>Communicate this change to helpdesk or support teams.</li></ul><p></p><ul></ul><p></p><p></p><p>Learn more:&nbsp;<a href=\"https://techcommunity.microsoft.com/blog/microsoftedgeinsider/microsoft-edge-and-adobe-partner-to-improve-the-pdf-experience/3733481\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Microsoft Edge and Adobe partner to improve the PDF experience</a>.</p><p>For support, contact your Microsoft CSAM or CSS representative.</p><div><b><b>Compliance considerations:</b></b></div><div>No compliance considerations identified, review as appropriate for your organization.</div>",
       "ContentType": "html"
     },
@@ -6910,7 +7043,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7007,7 +7140,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7444,7 +7577,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7834,43 +7967,6 @@
       "User impact"
     ],
     "Title": "New option to keep or delete meeting invitations after responding",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re improving the RSVP experience in Outlook Mobile by visually highlighting the response a user has selected (Yes, Maybe, or No). This makes it easier for users to quickly see how they’ve responded to a meeting invitation.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>General Availability (Worldwide, GCC, GCC High): Rollout begins in <b>late April 2026</b> and is expected to complete by <b>early June 2026.</b><b><br></b></p><p><b><b>How this affects your organization:</b></b><b><br></b></p><p><b>Who is affected:</b></p>\n<ul>\n  <li>All users who access <b>Outlook Mobile</b> on iOS or Android</li>\n  <li>Applies to Worldwide, GCC, and GCC High tenants</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>The selected RSVP option (Yes, Maybe, or No) will be visually highlighted</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/000bb42e-36b8-4be3-a07a-e655bb749319\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>Users can quickly confirm how they responded to a meeting invitation and edit as needed</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/bc41e3aa-02bc-442d-8564-80a8cd937a51\" style=\"width: 300px;\" alt=\"user settings\"></p>\n  <li>The feature is <b>enabled by default</b></li>\n  <li>No changes to existing meeting workflows or policies</li>\n  <li>No impact to Outlook on the web or Outlook desktop clients</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No admin action is required; the update will roll out automatically</li>\n  <li>Consider notifying helpdesk staff of the visual change</li>\n  <li>Update internal documentation if needed</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Outlook Mobile will visually highlight users' RSVP responses (Yes, Maybe, No) to meeting invitations starting late April 2026, completing by early June 2026. This applies to all iOS and Android users worldwide, GCC, and GCC High tenants. The feature is enabled by default with no admin action needed."
-      }
-    ],
-    "EndDateTime": "2026-07-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1269211",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-03T05:13:27.737Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-03T05:13:19Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "Clearer RSVP selection in Outlook Mobile",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9649,7 +9745,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9847,52 +9943,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing new capabilities in Researcher to help teams review AI‑generated research more confidently and reduce rework before using outputs in business decisions.</p><p><b>Critique</b> is a built-in review step in Researcher that automatically checks and improves a draft before it’s delivered. It uses a second reasoning pass to strengthen structure and completeness, prioritize reputable sources, and ensure key statements are grounded in clear citations—so the final report is more reliable and easier to trust.</p><p><b>Council</b> is Researcher’s multi-model comparison mode. It runs the same question through multiple deep‑reasoning research agents (for example, GPT and Claude) in parallel, preserves each model’s full standalone report, and adds a lightweight synthesis “cover letter” that highlights where the models agree, where they diverge, and what each uniquely contributes—so you can compare perspectives and make decisions with higher confidence.</p><p>These preview features are initially available only to organizations enrolled in the Microsoft 365 Copilot Frontier program, which provides early access to experimental Copilot capabilities.</p><p>This message is associated with Roadmaps <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553213#Roadmap\" target=\"_blank\">553213</a> and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558538#Roadmap\" target=\"_blank\" style=\"\">558538</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>Public preview: Rolling out to Frontier customers by <b>March 30, 2026.</b></p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n\n<ul>\n<li>Organizations enrolled in the <b>Microsoft 365 Copilot Frontier program using Researcher</b></li>\n<li>Admins managing AI model access, including third-party models such as Anthropic Claude</li>\n\n<li>Users who generate long-form research reports using Researcher</li><li>A Microsoft 365 Copilot (Premium) license is required to use this feature</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Researcher drafts will run through Critique before delivery, improving structure, completeness, and citation quality, when “Auto” is selected as the Default option in the model picker.&nbsp;</li><li>Users will be able to enable <b>Council</b>, which generates:<ul><li>Two independent, full research reports from different reasoning models (for example, GPT and Claude).</li><li>A concise synthesis “cover letter” summarizing areas of agreement, disagreement, and unique contributions.</li></ul></li><li>Critique and Council availability is<b> tenant-admin controlled</b>, including the ability to allow or block third-party models such as Claude.</li><li>There is <b>no change to existing user workflows</b> unless the feature is enabled.</li><li>Existing security, compliance, and data handling policies continue to apply.</li></ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your <b>AI model access settings</b> and confirm whether <b>Anthropic Claude</b> is enabled for your tenant.</li>\n<li>Decide whether to allow Critique and Council based on your organization’s governance and compliance requirements. There are no separate controls for these features; both are enabled when Anthropic and Claude report generation are turned on.</li>\n<li>Inform helpdesk and support teams about the upcoming preview features.</li>\n<li>Update internal guidance or training materials if Researcher is documented in your organization.</li></ul><p>No action is required if you do not plan to enable the preview features.</p><p><b>Learn more:</b>&nbsp;<a href=\"https://go.microsoft.com/fwlink/?linkid=2356719\" target=\"_blank\">Use model choice in the Researcher agent | Microsoft Support</a><span style=\"background-color: rgb(255, 255, 0);\"></span></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "553213,558538"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Researcher’s new Auto Critique improves draft quality by reviewing structure, sources, and citations. Model Council compares reports from multiple AI models, highlighting agreements and differences. Available to Microsoft 365 Copilot Frontier program users by March 30, 2026, with tenant-admin control over feature and model access."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1265765",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-30T17:16:03.15Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-30T17:13:38Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Auto Critique and Model Council features in Researcher (Frontier program)",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to boost engagement with Copilot-powered conversational text messages in Dynamics 365 Customer Insights - Journeys in conjunction with Dynamics 365 Contact Center. This feature will reach general availability on April 30, 2026. <br><br> \n\n<b>How does this affect me?</b><br> \n\nThis feature enables you to leverage Copilot Studio agents to deliver personalized SMS conversations with your customers.<br><br> \n\nKey functionality of this feature includes: \n\n<ul> \n\n<li>Seamless integration with Dynamics 365 Contact Center proactive engagement.</li> \n\n<li>Use the existing capabilities of consent, audience configurations, and quiet times.</li> \n\n<li>Design your journey to include conversational text messages and react to message outcomes. </li> \n\n<li>View detailed engagement metrics, such as the number of attempts, outcomes, and specific results for each conversation interaction in the out-of-the-box journey reporting.</li> \n\n<li>Access all text conversations and engagement interaction data in storage and build custom reports using Microsoft Fabric integration. </li> \n\n</ul> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -9997,7 +10047,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10078,7 +10128,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10632,7 +10682,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11466,7 +11516,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13873,7 +13923,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14055,7 +14105,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14152,7 +14202,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877456Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877458Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.587746Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877463Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T15:09:27.5877464Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437549Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437551Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437553Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437555Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T17:24:03.6437557Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14459,7 +14509,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16216,7 +16266,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16266,7 +16316,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16878,7 +16928,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16967,7 +17017,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17738,52 +17788,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams: Digital signage in Teams Rooms on Android",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p><b>Voice tethering</b> builds on the recent introduction of <b>Sign Language Mode</b> in <i>Microsoft Teams</i>. When a sign language interpreter voices on behalf of a Deaf or hard‑of‑hearing (D/HH) participant, Teams will now attribute captions, transcripts, and meeting intelligence—such as Copilot notes, summaries, action items, and insights—to the D/HH participant rather than the interpreter. This update ensures accurate representation in meetings, clarifies who is contributing to the conversation, and improves downstream meeting accuracy and accountability.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=553223\" target=\"_blank\">553223</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release (Worldwide): </b>We will begin rolling out in <b>mid-March 2026</b> and expect to complete by <b>late March 2026</b>.</li><li><b>General Availability (Worldwide, GCC): </b>We will begin rolling out in <b>early April 2026</b> and expect to complete by <b>mid-April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations with meeting participants who are Deaf or hard‑of‑hearing and use sign language interpreters in&nbsp;<i>Teams meetings</i>.</li><li>Any users who participate in meetings with <b>Sign Language Mode enabled</b>.</li></ul><p><i>What will happen</i></p><ul><li>Voice contributions made by interpreters will be attributed to the D/HH participant across:<br><ul><li>Live captions</li><li>Meeting transcripts</li><li>Copilot notes, summaries, action items, and insights</li><li>Other Teams meeting intelligence</li></ul></li><li>Meeting data becomes more accurate by ensuring the correct participant is represented.</li><li>Interpreter identity is no longer conflated with the signer they support.</li><li>Sign Language Mode is already available to all users; voice tethering enhances it automatically.</li><li>The feature is <b>on by default </b>when sign language mode and interpreter assignment are used.</li><li>No admin controls are required to enable or manage the feature.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action is required.</p><p>Optional preparation steps:</p><ul><li>Inform D/HH users and interpreters that speech attribution in meetings will change.</li><li>Update internal training or accessibility resources if you document interpreter workflows.</li><li>Notify helpdesk or support teams that captioning and transcript attribution will appear differently for interpreted meetings.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "553223"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Voice tethering in Microsoft Teams attributes captions, transcripts, and meeting intelligence to Deaf or hard-of-hearing participants instead of their sign language interpreters, improving accuracy and accountability. It rolls out worldwide from mid-March to mid-April 2026, is on by default, and requires no admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-05-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230459",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-10T23:10:30.667Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-10T23:10:21Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Teams: Voice tethering",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19371,7 +19375,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
