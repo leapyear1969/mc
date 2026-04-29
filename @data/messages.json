@@ -4,6 +4,257 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>OneDrive sync on Windows will support <b>syncing up to 1 million items per sync instance per device</b>. This increase is intended to help organizations with large OneDrive and SharePoint libraries sync more content reliably across devices. The capability is planned to be available first in <b>Public Preview</b> (requires the Insiders ring) and later in General Availability.</p><p>Devices that do not meet the minimum hardware and configuration requirements will continue to sync at the existing <b>300,000-item supported limit </b>without disruption.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in<b> late April 2026</b> and expect to complete by <b>late April 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users syncing<b>&nbsp;OneDrive (consumer), OneDrive for Business</b> or <b>SharePoint document libraries</b> on <b>Windows</b></li><li>Users with libraries that approach or exceed the current <b>300,000-item</b> supported sync limit</li><li>Preview participants using the<b> Insiders ring</b></li></ul><p><i>What will happen</i></p><ul><li>Eligible Windows devices can sync <b>up to 1 million items per sync instance</b>.</li><li>Devices that do not meet the requirements remain supported up to <b>300,000 items</b> with no change in behavior.</li><li>No disruption is expected for existing sync setups.</li></ul><p style=\"margin-left: 50px;\"><i><b>Note: </b>Performance is not yet optimized for syncing a high volume of read‑only files or for accounts under legal hold. Microsoft is actively working to improve performance and reliability for these scenarios.</i></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required if you do not plan to use Public Preview.</p><p>If you plan to evaluate or prepare for this capability:</p><ul><li>Identify devices and users likely to benefit from syncing very large libraries.</li><li>Ensure devices meet the <a href=\"https://support.microsoft.com/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa#numberitemscanbesynced\" target=\"_blank\">minimum requirements</a> (supported OS, memory, storage, and processor).</li><li>Verify the recommended <a href=\"https://learn.microsoft.com/sharepoint/ideal-state-configuration\" target=\"_blank\">ideal state configuration</a> for OneDrive and SharePoint sync reliability.</li><li>Inform helpdesk staff and impacted users that <b>Public Preview requires the Insiders ring</b> and that <b>ineligible devices will remain at the current limit</b>.</li></ul><p><b>Learn more:</b>&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/sync-client-update-process#how-we-release-updates-through-multiple-rings\" target=\"_blank\">How we release updates through multiple rings - The OneDrive sync app update process | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepoint/ideal-state-configuration\" target=\"_blank\">Recommended sync app configuration | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa\" target=\"_blank\">Restrictions and limitations in OneDrive and SharePoint | Other issues | Troubleshoot | OneDrive | Microsoft Support</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "OneDrive sync on Windows will support syncing up to 1 million items per device starting in Public Preview in late April 2026, benefiting users with large libraries. Devices not meeting requirements will remain at the 300,000-item limit. No disruption is expected, and no action is needed unless participating in the preview."
+      }
+    ],
+    "EndDateTime": "2026-05-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294528",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-28T22:15:01.717Z",
+    "Services": [
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:14:53Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "OneDrive sync supports up to 1 million items on Windows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re <b>updating dynamic distribution groups (DDGs)</b> in <i>Exchange Online</i> so group membership is available sooner after a group is created or its filter is changed. For DDGs whose filter returns 5,000 members or fewer, membership will be populated during the creation or modification operation, eliminating the previous wait of up to two hours.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=560550\" target=\"_blank\">560550</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> late May 2026 </b>and expect rollout to complete by <b>early June 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><p>Exchange Online administrators who create or manage dynamic distribution groups using the Exchange admin center (EAC) or PowerShell</p><p><i>What will happen</i></p><ul><li>For DDGs whose filter returns&nbsp;<b>5,000 members or fewer</b>, membership will be <b>populated as part of the create or modify operation</b>.</li><li>For DDGs whose filter returns&nbsp;<b>more than 5,000 members:</b><ul><li><b>Membership will be populated</b> by a background process <b>within up to 2 hours.</b><p style=\"margin-left: 25px;\"></p></li><li>A <b>warning message</b> will now be shown at creation or modification time, indicating that membership will be populated in the background.<p style=\"margin-left: 25px;\"><i>Warning in PowerShell</i>:</p><p style=\"margin-left: 50px;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5c399448-a0eb-4d54-a610-11556529b167/369fbd884d330eb49c3c574423187bd28ee1350d.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p style=\"margin-left: 25px;\"><i>Warning in EAC</i>:</p><p style=\"margin-left: 25px;\"><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/02fe41e9-53cb-4dd7-86e4-178344cc9813/234d80ffc724ab9f248f265e4701a246daf48950.png\" style=\"width: 400px;\" alt=\"admin settings\"></p><p></p></li></ul></li><li><b>For modifications</b>, the DDG <b>continues to use the previous membership list</b> until the background process completes.</li><li><b>The routine 24-hour membership refresh cycle will not be affected.</b></li><li>This behavior will apply to DDGs created or modified using:<ul><li>Exchange admin center (EAC)</li><li>PowerShell (<i><b>New-DynamicDistributionGroup</b></i>, <i><b>Set-DynamicDistributionGroup</b></i>)</li></ul></li></ul><p></p><p><b>Summary of behavior after rollout</b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Scenario</b></td><td><b>Members ≤ 5,000&nbsp;</b></td><td><b>Members &gt; 5,000</b></td></tr><tr><td><b>Create new DDG</b></td><td>Membership will be populated immediately as part of the operation.</td><td>Membership will be populated within 2 hours (no change).</td></tr><tr><td><b>Modify DDG filter</b></td><td>Membership will be populated immediately as part of the operation.</td><td><p>Membership will be populated within 2 hours (no change). </p><p>DDG continues to use the previous membership list until background process completes.</p></td></tr><tr><td><b>Routine refresh (every 24 hours)</b></td><td>No change.</td><td>No change.</td></tr></tbody></table><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required.</li><li>Update internal documentation or helpdesk guidance that<b> references a 2-hour wait time</b> for DDG membership population after creation or modification.</li><li>Inform administrators that<b> immediate membership availability will apply</b> to DDGs whose filter returns 5,000 members or fewer after rollout.</li></ul><p><b>Learn more</b> <b><i>documentation to be updated closer to rollout</i></b>:</p><ul><li><b>to be updated</b> <a href=\"https://learn.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/create-manage-dynamic-distribution-groups\" target=\"_blank\">Create and manage dynamic distribution groups in Exchange Online | Recipients in Exchange Online | Exchange Online | Microsoft Learn</a></li><li><b>to be updated</b>&nbsp;<a href=\"https://learn.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/troubleshoot-ddg-membership-issues\" target=\"_blank\">Troubleshoot dynamic distribution group membership issues | Dynamic distribution groups | Recipients in Exchange Online | Exchange Online | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "560550"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Dynamic distribution groups (DDGs) in Exchange Online will populate membership immediately upon creation or modification if the filter returns 5,000 or fewer members, eliminating up to a 2-hour wait. For larger groups, membership populates within 2 hours with a warning shown. Rollout begins late May 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2026-07-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294524",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-28T22:13:21.35Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:13:13Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Exchange Online: Dynamic distribution groups will populate membership faster on creation and modification",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>With IT administrator approval, Microsoft Edge will share selected work browsing history from Microsoft and third‑party apps with Microsoft 365 Copilot Search to improve search result ranking. When users search in <i>Microsoft 365 Copilot Search</i>, Copilot will surface previously visited work pages more quickly, helping reduce time spent re‑finding information. Admins will control availability through a Microsoft Edge policy, and browsing history will be shared only when Microsoft 365 Copilot Search is configured in the <i>Microsoft 365 admin center</i>.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537283\" target=\"_blank\">537283</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide):</b> We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>mid-May 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using <b>Microsoft Edge for Business</b></li><li>Tenants with <b>Microsoft 365 Copilot Search</b> configured in the <i>Microsoft 365 admin center</i></li><li>Admins managing Microsoft Edge and Microsoft 365 Copilot policies</li><li>Users signed in to Microsoft Edge with a work account</li></ul><p>There will be no change for consumer Microsoft Edge users or personal browsing profiles.</p><p><i>What will happen</i></p><ul><li>If enabled by administrators, Microsoft Edge will share selected work‑related browsing history with <a href=\"https://learn.microsoft.com/microsoft-365/copilot/microsoft-365-copilot-search\" target=\"_blank\">Microsoft 365 Copilot Search</a> to improve search result ranking.</li><li>Eligible browsing history will include pages from administrator‑configured Microsoft and third‑party work apps and sites.</li><li>Browsing history will be collected only from Microsoft Edge work profiles.</li><li>Personal browsing profiles and consumer Microsoft Edge users will not be included.</li><li>A user‑visible setting will appear in <i>Microsoft Edge</i> under <i><b>Settings &gt; Microsoft 365 Copilot</b></i>, allowing users to turn the feature off when permitted by admin policy.</li><li>If the <b style=\"\">ShareBrowsingHistoryWithCopilotSearchAllowed</b> policy is disabled, no browsing history will be shared.</li></ul><p><b>What you can do to prepare:</b></p><ul><li>Review and configure the <b>ShareBrowsingHistoryWithCopilotSearchAllowed</b> Microsoft Edge policy to align with your organization’s privacy and compliance requirements.</li><li>Coordinate with Microsoft 365 Copilot administrators to ensure consistent Copilot Search behavior across your tenant.</li><li>Notify security, privacy, and helpdesk teams about the upcoming capability and the user‑visible Edge setting.</li><li>Update internal documentation or user guidance if you describe Microsoft Edge or Microsoft 365 Copilot Search behavior.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/copilot/microsoft-365-copilot-search\" target=\"_blank\">Microsoft 365 Copilot Search | Microsoft 365 Copilot | Microsoft 365 | Microsoft Learn</a></li><li>Microsoft Edge browser policy documentation <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-browser-policies/sharebrowsinghistorywithcopilotsearchallowed\" target=\"_blank\">ShareBrowsingHistoryWithCopilotSearchAllowed | Microsoft Edge | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>The table below summarizes compliance areas&nbsp;impacted&nbsp;by this feature.&nbsp;</p><table class=\"table table-bordered\"><tbody><tr><td><b>Compliance area impacted</b></td><td><b>Explanation</b></td></tr><tr><td><b>Customer data storage&nbsp;</b></td><td>When enabled by the admin, Edge sends selected work-related browsing history to&nbsp;Microsoft 365&nbsp;Substrate, where it is used to improve search result relevance. No new long-term storage of browsing history is introduced outside existing&nbsp;M365&nbsp;Copilot&nbsp;data handling.&nbsp;</td></tr><tr><td><b>Processing and access of existing customer data&nbsp;</b></td><td>Work-related browsing history is processed by Microsoft 365 Copilot Search&nbsp;to&nbsp;surface more relevant results. Data is processed under the user's existing Microsoft 365 Copilot service terms.&nbsp;</td></tr><tr><td><b>Tenant-to-tenant interaction&nbsp;\n</b></td><td>Only work-profile browsing history associated with the user's signed-in work account is shared. Personal-profile browsing is not sent to Copilot.&nbsp;</td></tr><tr><td><b>Data Loss Prevention (Purview)</b>&nbsp;</td><td>Browsing history shared with&nbsp;M365&nbsp;Copilot inherits existing Microsoft 365 Copilot data protection and Purview controls that apply to the user's&nbsp;M365&nbsp;Copilot&nbsp;interactions.&nbsp;</td></tr><tr><td><b>Admin controls&nbsp;</b></td><td>The capability is controlled by the ShareBrowsingHistoryWithCopilotSearchAllowed policy. Admins can enable or disable the feature for their organization. Users also see a setting in edge://settings under&nbsp;M365&nbsp;Copilot to turn the feature off.&nbsp;</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "537283"
+      },
+      {
+        "Name": "Summary",
+        "Value": "With admin approval, Microsoft Edge will share selected work browsing history from work profiles with Microsoft 365 Copilot Search to improve search relevance. This feature, controlled by a policy and user setting, rolls out worldwide in May 2026 and excludes personal or consumer profiles."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294523",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-28T22:12:53.387Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:12:47Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Edge: M365 Copilot Search relevance using work browsing history",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams Rooms on Android will soon be able to join third-party meetings using <b>Session Initiation Protocol (SIP)</b>. This capability enables seamless cross-platform interoperability, allowing users to connect to external meeting services directly from Teams Rooms on Android devices while maintaining a consistent and reliable meeting experience across diverse meeting platforms.</p>\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558539\" target=\"_blank\">558539</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): We will begin rolling out in <b>early June 2026</b> and expect to complete by <b>early June 2026</b>.</li>\n</ul>\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations with Microsoft Teams Rooms on Android devices</li>\n<li>Organizations that host or join third-party meetings from shared meeting spaces</li>\n<li>Admins managing Teams Rooms on Android devices licensed with Teams Rooms Pro</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will be able to join supported third-party meetings (for example, Zoom or Webex) directly from Teams Rooms on Android devices when the meeting invitation includes a Session Initiation Protocol (SIP) video meeting address.</li><li>This feature is <b>off by default</b>. Availability of this capability depends on Teams Rooms Pro licensing and appropriate device configuration.&nbsp;</li>\n</ul>\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Test the feature with your lower-ring Teams Rooms on Android devices.</li>\n<li>Prepare educational material for users in advance of release.</li>\n<li>Identify users who frequently collaborate with external organizations using third-party meeting platforms and communicate upcoming capabilities.</li>\n<li>Ensure that all Teams Rooms on Android devices that require this functionality are licensed with Teams Rooms Pro.</li>\n<li>Update internal documentation for meeting room usage if applicable.</li>\n<li>Communicate this change to your helpdesk and support teams.</li></ul><p><b>Learn more</b>:&nbsp;<a href=\"https://learn.microsoft.com/microsoftteams/rooms/meetings-with-sip-h323-devices\" target=\"_blank\">SIP and H.323 Dialing with Teams Rooms | Microsoft Learn</a>&nbsp;(will be updated before rollout)</p>\n<p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558539"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams Rooms on Android will support joining third-party meetings via Session Initiation Protocol (SIP) starting early June 2026. This feature, off by default, requires Teams Rooms Pro licensing and enables seamless cross-platform meeting access from Android devices. Organizations should prepare by testing, training, and updating documentation."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android"
+      }
+    ],
+    "EndDateTime": "2026-07-08T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294522",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-28T22:12:26.513Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:12:09Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Enhanced cross-platform join via Session Initiation Protocol (SIP) for Teams Rooms on Android",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>\nWe're introducing new Power Automate capabilities for <b>forms in SharePoint</b>, enabling customers to automate workflows based on form submissions. These features are in Preview and may evolve before full General Availability.</p>\n\nThis update includes:\n<ul>\n<li>A new trigger: <b>Form submitted</b></li>\n<li>A new action: <b>Get form metadata&nbsp;</b></li>\n</ul>\n\n<p><b><b>When this will happen:</b></b></p><ul><li>\nPublic preview: We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>late May 2026</b>.</li><li>This post will be updated with General Availability dates in the future.</li></ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Power Automate users building flows with SharePoint forms</li>\n<li>SharePoint site owners and creators using forms experiences</li>\n<li>Administrators managing Power Automate and SharePoint</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n\n<ul>\n<li>The <b>Form submitted</b>&nbsp;trigger in Power Automate starts flows when a form is submitted from SharePoint list, file upload, or document generation experiences.</li>\n\n<li>The <b>Get form metadata</b>&nbsp;action retrieves the form structure, including fields, schema, and configuration, and enables flows to dynamically read form structure.<ul>\n<li>Flows can use form metadata (such as field names, types, required status, and defaults) to dynamically map responses without manual configuration, reducing fragility caused by dependency on fixed field IDs.</li></ul>\n\n</li><li>These capabilities enable scalable automation scenarios such as approvals, notifications, integrations with other systems, routing, and orchestration based on form submissions.</li>\n\n\n<li>Document generation scenarios require enrollment in <b>AI in SharePoint Public Preview</b>.</li>\n\n<li>Existing SharePoint permissions are respected, and no additional configuration is required.</li>\n</ul>\n\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required.&nbsp;</li>\n<li>Ensure Power Automate is enabled in your tenant.</li>\n<li>Review permissions for SharePoint sites (<b>SharePoint site settings</b> &gt; <b>site permissions</b>) as flows will respect existing SharePoint access controls.\n</li><li>Communicate updates to flow makers.</li>\n<li>Enroll in <b>AI in SharePoint Public Preview</b> if using document generation.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://learn.microsoft.com/sharepoint/ai-in-sharepoint-structured-document-generation\" target=\"_blank\">Generate structured documents in a SharePoint document library - SharePoint in Microsoft 365 | Microsoft Learn</a>&nbsp;</p><p><b><b>Compliance considerations:</b></b></p>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"6\">\n<tbody><tr>\n<td><b>Question</b></td>\n<td><b>Explanation</b></td>\n</tr>\n\n<tr>\n<td>Does the change alter how existing customer data is processed, stored, or accessed?</td>\n<td>Flows can dynamically read form structure and responses using the Get form metadata action. This operates within existing SharePoint permissions and does not introduce new storage locations.</td>\n</tr>\n\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?</td>\n<td>Document generation (DocGen forms) is part of AI in SharePoint Public Preview and may involve AI-assisted form experiences for enrolled tenants.</td>\n</tr>\n\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>Availability depends on Power Automate and SharePoint service enablement and access policies, which can be governed through tenant controls.</td>\n</tr>\n\n<tr>\n<td>Does the change allow a user to enable or disable the feature themselves?</td><td>Users can create or not use flows leveraging these triggers/actions within the bounds of tenant policies.</td>\n</tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Power Automate introduces preview triggers and actions for SharePoint forms, enabling workflow automation on form submissions starting May 2026. Features include \"Form submitted\" trigger and \"Get form metadata\" action, supporting dynamic form handling and scalable automation while respecting existing SharePoint permissions."
+      }
+    ],
+    "EndDateTime": "2026-06-28T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294519",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-28T22:11:39.863Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Power Automate in Microsoft 365"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:11:30Z",
+    "Tags": [
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Power Automate trigger and action for forms in SharePoint (Preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We're introducing a new Power Automate action that enables automated document generation using <b>document generation forms in SharePoint</b>. This new capability allows customers to streamline document creation by mapping structured inputs directly into predefined templates.</p>\n\n<ul>\n<li><b>Generate document from form </b>action&nbsp;allows customers to create documents from a template by mapping form or data inputs to predefined template fields.</li>\n<li>Documents are generated as part of an automated flow and stored in SharePoint.</li>\n</ul>\n\n<p>This capability supports scenarios such as contracts, invoices, letters, and reports using structured templates and form-driven inputs. The action maps input data to template fields and returns the generated document with metadata.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b style=\"\">Public Preview:</b>&nbsp;We will begin rolling out in <b>early May 2026</b> and expect to complete by <b>late May 2026</b>.</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Organizations enrolled in AI in SharePoint Public Preview</li>\n<li>Power Automate users and flow creators</li>\n<li>Teams using SharePoint for document workflows</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>A new action <b>Generate document from form (Preview)</b> will be available in Power Automate.</li>\n  <li>Feature is only available to preview participants (opt-in required).</li>\n  <li>Supports input mapping from forms, lists, Excel, and other sources.</li>\n  <li>Documents are generated and stored in SharePoint.</li>\n  <li>Automates document creation workflows end-to-end.</li>\n  <li>Supports scalable document generation scenarios across business processes (e.g., HR onboarding, approvals, contract generation).</li>\n  <li>No changes to existing workflows unless the feature</li></ul>\n\n<p><b>Important:</b> This capability is only supported for <b>Document Generation forms</b> and requires enrollment in the <b>AI in SharePoint Public Preview</b>.</p><p><b><b>What you can do to prepare:</b></b></p><ul><li>Ensure Power Automate is enabled and accessible to users.</li><li>Verify that your organization is approved for the <b>AI in SharePoint Public Preview</b> to use document generation features.</li><li>Ensure appropriate permissions to SharePoint sites and libraries where generated documents will be stored.</li><li>No additional setup required after enrollment.</li></ul><p><b>Learn more:</b> <a href=\"https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers\" target=\"_blank\">Microsoft SharePoint Connector for Power Automate | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations:</b></b></p>\nNo compliance considerations identified, review as appropriate for your organization.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Power Automate will introduce a preview action in May 2026 to generate documents from SharePoint forms by mapping inputs to templates. Available to AI in SharePoint Public Preview participants, it automates document creation and storage in SharePoint for workflows like contracts and reports."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1294518",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-28T22:11:08.347Z",
+    "Services": [
+      "SharePoint Online",
+      "Microsoft Power Automate in Microsoft 365"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-28T22:10:59Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Generate documents using forms in SharePoint with Power Automate (Preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to uncover insights and risks to close more deals with Opportunity Research Agents in Dynamics 365 Sales. This feature reached general availability on April 15, 2026.<br><br><b>How does this affect me?</b><br>The Opportunity Research Agent in Dynamics 365 Sales helps you stay ahead by surfacing emerging risks early, spotlighting the most promising opportunities, and synthesizing insights from across your data sources into one clear view. The agent doesn’t replace your judgment. It equips you with sharper visibility, so you can focus on the right opportunities and move decisively.<br><br><b>What action do I need to take?</b><br>This message is for awareness and no action is required.<br><br> If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/ADO12100\">Opportunity Research Agent overview (preview)</a>.",
       "ContentType": "html"
     },
@@ -1003,7 +1254,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627642Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627644Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128457Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1529,7 +1780,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.262469Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2624692Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0127896Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0127897Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4176,7 +4427,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2629063Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2629065Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0129248Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0129249Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4413,42 +4664,6 @@
       "Admin impact"
     ],
     "Title": "Organizational Data Export Capability for Tenant Admins",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>We&#39;ve released updates to the following update channels for Microsoft 365 Apps:</p>\r\n<ul><li>Current Channel</li>\r\n<li>Monthly Enterprise Channel</li>\r\n<li>Semi-Annual Enterprise Channel</li></ul>\r\n<p><b>When this will happen:</b></p>\r\n<p>We&#39;ll be gradually rolling out these updates of Microsoft 365 Apps to users on those update channels starting April 14th, 2026 (PST).</p>\r\n<p><b>How this will affect your organization:</b></p>\r\n<p>If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required.</p>\r\n<p>If you manage updates directly you can now download these latest updates and begin deployment.</p>\r\n<p><b>What you need to do to prepare:</b></p>\r\n<p>To get more details about these updates view the following release notes:</p>\r\n<ul><li><a href=\"https://docs.microsoft.com/officeupdates/current-channel#version-2603-april-14\" target=\"_blank\" rel=\"noopener noreferrer\">Current Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/monthly-enterprise-channel#version-2603-april-14\" target=\"_blank\" rel=\"noopener noreferrer\">Monthly Enterprise Channel</a></li>\r\n<li><a href=\"https://docs.microsoft.com/officeupdates/semi-annual-enterprise-channel#version-2508-april-14\" target=\"_blank\" rel=\"noopener noreferrer\">Semi-Annual Enterprise Channel</a></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "ExternalLink",
-        "Value": "https://docs.microsoft.com/officeupdates/"
-      }
-    ],
-    "EndDateTime": "2026-04-29T00:00:41.1Z",
-    "HasAttachments": false,
-    "Id": "MC1280185",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-15T00:00:42.19Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-15T00:00:41.1Z",
-    "Tags": [
-      "Feature update"
-    ],
-    "Title": "Updates available for Microsoft 365 Apps for all channels",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4853,7 +5068,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2623904Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2623906Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2623909Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0126379Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0126381Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0126383Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13813,7 +14028,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627378Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.262738Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627382Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627383Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-28T21:53:45.2627385Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128286Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128287Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128288Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.0128289Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-29T02:37:19.012829Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15877,7 +16092,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15927,7 +16142,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
