@@ -4,6 +4,387 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing the <i>Agent Dashboard</i>, a new dashboard available as part of <i>Copilot Analytics</i> in Microsoft Viva. This dashboard provides visibility into key agent adoption trends and associated Copilot credit usage. It supports insights into agents used within Microsoft 365 Copilot, which may be:</p><ul><li>Built using Microsoft Copilot Studio, SharePoint, or the Microsoft 365 Agents Toolkit</li><li>Built by employees, your organization, Microsoft, or Microsoft partners</li></ul>\n<p>This release also enhances the <i>Adoption </i>tab of the <i>Copilot Dashboard</i>, allowing users to view agent insights directly and access the <i>Agent Dashboard</i> for deeper analysis.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins rolling out in early February 2026 (previously January), expected to complete by mid-February 2026 (previously end of January).</li>\n<li><b>General Availability (Worldwide):</b> Begins rolling out in late September 2026 (previously June), expected to complete early October 2026 (previously end of June).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Leaders, delegates, adoption specialists, and administrators using Microsoft Viva Insights</li>\n<li>Tenants with at least 50 Microsoft 365 Copilot licenses assigned</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new <i>Agent Dashboard</i> will be available in Viva Insights under <i>Copilot Analytics</i></li>\n<li>Users will find:\n  <ul>\n    <li>Key adoption metrics with historical trends (up to 6 months):\n      <ul>\n      <li>Number of active agents</li>\n      <li>Number of active agent users</li>\n      <li>Number of agent responses</li>\n      <li>Copilot credits used</li>\n      <li>Number of users using Copilot credits</li>\n      <li>Percentage of Copilot users using agents</li>Screenshot 1: <i>Key adoption metrics with historical trends, including active agents, active users, agent responses, and Copilot credit usage.</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9ac72c22-323f-41ce-aaa3-403029da31b8/157716669acff1e4a59598e7faa7bf84f3b1a48e.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n      </ul>\n    </li>\n    <li>Monthly and weekly user retention trends, with comparison across groups</li>Screenshot 2: <i>Monthly and weekly user retention trends, with comparison across groups.</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a4bbbc3e-8ac3-4267-bd2d-93b029feda7b/813a90804b86a8136044568757473cbb62ec69b0.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>Top agents based on the following, with the ability to dive deeper into specific agents:\n      <ul>\n      <li>Active user count</li>\n      <li>Agent responses</li>\n      <li>Copilot credits consumed</li>Screenshot 3: <i>Agent highlights along with a table of top agents, each with active usage metrics and the ability to dive deeper.</i><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a39b3055-8bb2-4330-9419-4d2751e2b434\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>Screenshot 4: <i>Individual agent deep dive page with key adoption metrics and trends&nbsp;over time</i>.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7e0af8e4-e3cc-4869-96e8-0f520e4d54f0\" style=\"width: 400px;\" alt=\"user settings\"></p>\n      </ul>\n    </li>\n  </ul>\n</li>\n<li>Minimum group size threshold must be met for agent activity insights.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/viva/insights/advanced/setup-maint/manager-settings#minimum-group-size\">Configure manager settings</a></li>\n<li>The Adoption tab of the Copilot Dashboard will also include:\n  <ul>\n  <li>Contextual insights on how Copilot users are leveraging agents and credits</li>\n  <li>Direct entry points to the Agent Dashboard</li>Screenshot 5:<i> Entry points to the Agent Dashboard from the Copilot Dashboard Adoption tab, including agent usage and Copilot credit usage insights.</i><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8cd77f06-1f49-425a-bdd2-1a1b6c9b4de8\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review and assess the impact for your organization</li>\n<li>Manage access to the <i>Agent Dashboard</i> using VFAM controls at user, group, and tenant levels (nested under Viva Insights Web app VFAM controls)</li>\n<li>Consider reviewing with your works council</li>\n<li>Update training and documentation as needed</li>\n<li>Additional details will be available on MS Learn once this functionality is released, in a separate <i>Agent Dashboard section</i>: <a href=\"https://learn.microsoft.com/en-us/viva/insights/copilot-analytics-introduction\" target=\"_blank\">Copilot Analytics introduction</a></li>\n</ul>\n<p></p>\n<p><b style=\"\"><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n\n<p></p><p></p></li></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "506749"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Viva Copilot Analytics introduces a new Agent Dashboard for tracking agent adoption, usage, and Copilot credit consumption with historical trends and retention insights. Public preview starts February 2026; general availability begins late September 2026. It affects organizations with 50+ Copilot licenses and enhances the Copilot Dashboard Adoption tab."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-11-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1166852",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T18:17:30.65Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-06T23:01:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Viva Copilot Analytics launches new agent dashboard",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability for administrators and project managers to set restrictions as to what users can do when viewing the Project for the web iFrame. This feature will reach general availability on May 31, 2026. \n<br><br> \n<b>How does this affect me?</b><br> \nCurrently, when a user accesses a project record, they have unlimited access to the Microsoft Project for the web iFrame. There, they can modify, create, or delete any project tasks, dependencies, goals, and more. This feature adds the ability to manage what users can do in this iFrame. \n<br><br>\nThis feature adds a security system that lets administrators restrict what users can access inside the Project for the web iFrame on projects they access but don't join as team members. Project managers can use the same system to set restrictions for team members on their projects. <br><br> \n<b>What action do I need to take?</b><br> \nThis message is for awareness, and no action is required.<br><br>\nFor more information about this feature, visit <a href=\"https://aka.ms/11695/1\" target=\"_blank\">Implement access restrictions in Project for the web iFrame</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-30T18:01:16Z",
+    "HasAttachments": false,
+    "Id": "MC1296554",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T18:12:56.843Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T18:01:16Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Project Operations - Implement access restrictions in Project for the web iFrame",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2025-11-27T08:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>To streamline data export processes and improve security, Microsoft is <b>retiring the Viva Insights export capability</b> <b>via Microsoft Graph Data Connect (MGDC)</b>. This change does not impact other export alternatives via Viva Insights.</p>\n\n<b>When this will happen</b><ul>\n<li>Onboarding of new customers and scenarios to Viva Insights export via MGDC will stop 30 days from this announcement.</li>\n<li>Existing customers will retain access to current MGDC data export pipeline until full retirement. Final timelines will be shared in future communications.</li>\n</ul>\n\n<b>How this affects your organization</b><p><i>Who is affected:</i> Organizations using Viva Insights export via Microsoft Graph Data Connect.</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>Starting in late&nbsp;<b>November 2025</b>, onboarding of new customers and Viva Insights datasets to MGDC will no longer be available.</li>\n<li>Existing users will retain access to current datasets until full retirement.</li>\n<li>Customers are encouraged to transition to supported export alternatives:</li>\n<ul>\n<li><b>Viva Insights Power BI Connector to Microsoft Fabric</b></li>\n<ul>\n<li>This connector allows you to export Viva Insights data into Microsoft Fabric for advanced analysis and reporting. Learn more:<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector</a></li><li>All Viva Insights query types supported: Yes</li>\n<li>Automated exports: Yes</li>\n<li>Row-level data export: Yes</li>\n<li>Charges: Yes (Fabric usage). Learn more:&nbsp;<a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric</a></li><li>&nbsp;Setup: Refer to setup steps outlined in <a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector#use-the-power-bi-connector-with-microsoft-fabric-dataflows\" target=\"_blank\">Export query data using the Power BI connector</a>.</li><li>Access query results: Refer to <a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings</a>.</li></ul><li>Flat file export option available.</li><ul><li>CSV Export</li></ul></ul></ul><p style=\"margin-left: 125px;\">Note: Customers who prefer a flat file export can use the CSV export feature. Learn more:&nbsp;<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel</a>.</p><p><b>What you can do to prepare</b></p><ul><li>If you are an existing MGDC customer, select an alternative export method.</li><li>To offboard from MGDC-based export:<ol><li>Check access to output folders from previous runs.</li><li>Stop and delete all Data Factory Copy activity pipelines.</li><li>Delete MGDC app registrations.</li><li>MGDC admin should deselect “Viva Insights” from enabled datasets:<ul><li>In <i><a href=\"https://admin.microsoft.com/adminportal\" target=\"_blank\">Microsoft 365 Admin portal</a></i>, go to <i><b>Settings &gt; Org setting</b></i>s.</li><li>Under <i>Services</i>, select <b><i>Microsoft Graph data connect</i></b>.</li><li>Deselect <i><b>Viva Insights</b></i>.</li></ul></li></ol></li></ul><p>For additional questions, raise a support ticket.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings | Data Factory | Microsoft Fabric | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric | Data Factory | Microsoft Fabric | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel - Access query results and modify existing queries | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/dynamic-metric-load\" target=\"_blank\">Export Viva Insights data using MGDC | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector | Viva Insights | Microsoft Viva | Microsoft Learn</a></li></ul><p>Compliance considerations</p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.), if so how and to what extent?</td><td>Yes. This change retires the Microsoft Graph Data Connect (MGDC) export method for Viva Insights, which alters how customers access and export their existing datasets. Customers must transition to alternative export methods such as the Power BI Connector or CSV export.</td></tr><tr><td>Does the change modify how users can access, export, delete, or correct their personal data within Microsoft 365 services (GDPR Data Subject Rights), if so summarize the changes?</td><td>Yes. The retirement of MGDC affects how users export personal data from Viva Insights. Users will need to use supported alternatives like the Power BI Connector or CSV export to access and manage their data.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage dataset access by deselecting “Viva Insights” in the Microsoft Graph Data Connect settings within the Microsoft 365 Admin Portal. This control can be scoped using Entra ID group membership.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Admins can disable the MGDC export feature by offboarding and updating settings in the Microsoft 365 Admin Portal. End users cannot enable or disable the feature directly.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is retiring Viva Insights export via Microsoft Graph Data Connect (MGDC). New onboarding stops 30 days after the announcement; existing users keep access until full retirement, starting late November 2025. Customers should switch to the Power BI Connector to Microsoft Fabric or CSV export. Admins must update settings in the Microsoft 365 Admin Portal."
+      }
+    ],
+    "EndDateTime": "2026-07-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1180889",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T17:57:43.85Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-27T22:46:42Z",
+    "Tags": [
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Viva Insights: Retirement of Export via Microsoft Graph Data Connect (MGDC)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated February 11, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing <b>Multi-Select Forward in Microsoft Teams</b>. This feature lets users select up to five messages from a chat or channel and forward them together in one message, preserving context and order. This update addresses customer feedback for easier message sharing and supports better collaboration.</p><p>\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=536997\" target=\"_blank\">536997</a>&nbsp;and is applicable to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web.</p><p><b><b>When this will happen:</b></b></p><ul><li>Targeted Release: We will begin rolling out early January 2026 and expect to complete by mid-January 2026.</li><li>General Availability (Worldwide, GCC): We will begin rolling out early February 2026 (previously mid-January) and expect to complete by mid-February 2026 (previously late January).</li><li>General Availability (GCCH, DoD): We will begin rolling out mid-February 2026 (previously early February) and expect to complete by late February 2026 (previously mid-February).</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected: </b>Users of Microsoft Teams for Desktop, Mac, and web</p><p><b>What will happen:</b></p><p>\n</p><ul><li>A new option will be available in the message action menu: <b>Forward </b>&gt; <b>Multiple messages</b>.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/0e1ec5c3-8709-411a-a408-375c35d25c2a\" style=\"width:\n400px;\" alt=\"user settings\"></p><li>They can select up to five messages and forward them together.&nbsp;</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c739a2cf-70b5-4ce5-8c30-f55f0ae0ca46\" style=\"width: \n400px;\" alt=\"user settings\"></p><li>Forwarded messages appear bundled in one message, preserving order and context.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/5565bf6f-1364-47f5-9666-8087a4a25d60\" style=\"width: 400px;\" alt=\"user settings\"> </p><li>Mobile users can view these messages but cannot forward multiple messages yet.&nbsp;</li><li>This feature is <b>ON by default</b>.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>No admin action is required before or after rollout.</li><li>Consider notifying your users about this change to help them understand the new behavior.</li><li>Update any internal documentation or training materials that reference message forwarding in Teams.</li></ul><p>Learn more: <a href=\"https://support.microsoft.com/office/forward-a-message-in-microsoft-teams-b3190ce7-00da-45aa-978d-a45a7b041d21\" target=\"_blank\">Forward a message in Microsoft Teams - Microsoft Support</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce Multi-Select Forward, allowing users to select and forward up to five messages together in one bundled message. Rolling out from January to February 2026 across desktop, Mac, and web, this feature is on by default, requires no admin action, and improves message sharing and collaboration."
+      }
+    ],
+    "EndDateTime": "2026-05-29T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1199767",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T17:56:30.37Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-18T23:41:21Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Select multiple messages to forward",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated January 20, 2026: We’ve updated how Teams meeting join links appear in meeting invites. As part of the broader rollout of the new, shorter meeting URL format, meeting invites now display the full join link directly instead of a labeled “Join the meeting now” hyperlink. This improves link consistency, reliability across clients and email applications, and makes copying and sharing the link easier. This update does not change meeting functionality or attendee experience. Existing Teams and Outlook clients continue to support the new link format.</p><p>Please note that information about meeting link expiry changes related to this rollout has been added.</p><p>We are reducing the length of Microsoft Teams meeting URLs for easier sharing. This rollout applies to all Microsoft Teams platforms (Teams for iOS, Android, Mac, Teams devices, desktop, and web).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=381953\" target=\"_blank\">381953</a>.\n</p><p><b>When this will happen:</b>\n</p><p>Targeted Release: We will begin rolling out mid-February 2025 (previously mid-January) and expect to complete by late February 2025 (previously late January). Only Meet Now use cases (except Meet Now in chats and channels) will be affected in this timeframe. There will be no impact on the scheduled meetings in this phase.</p><p>General Availability (Worldwide, GCC): We will begin rolling out January 2026 (previously mid-May 2025) and expect to complete by end of January 2026 (previously late May 2025).&nbsp;&nbsp;</p><p>General Availability (GCC High, DoD):&nbsp; We will begin rolling out February 2026 (previously early August 2025) and expect to complete by end of February 2026 (previously late October 2025).</p><p><b>How this will affect your organization:</b>\n</p><p>The new URL syntax is: https://teams.microsoft.com/meet/&lt;meeting_id&gt;?p=&lt;HashedPasscode&gt; \n</p><p>To make meeting URL shorter, we are removing several parameters such as tenant ID, conversation ID etc. This change serves two main goals: 1) improving usability of URL during sharing and 2) making the URL more secure and less susceptible to malicious attacks. \n</p><p>Here are some details about how meeting links work and when they expire: \n</p><ol><li>In case the meeting organizer gets removed from the tenant, the links to the meetings scheduled by them automatically expire. \n</li><li>&nbsp;MeetNow meetings expire 60 days after creation. Learn more about expiration timelines for different types of meetings. \n</li></ol><p>With the Short Meeting URL release, expiration limit will be applied to all newly created links. \n</p><p>Once the change to Short Meeting URL is released, all newly created meetings will expire as described in the documentation: 60 days after meeting ends for scheduled meetings and 60 days after creation for MeetNow meetings. Once this expiry period is over, in case someone clicks the link (e.g. outside of Teams app OR in the meeting details inside Teams calendar section), they will be unable to join the meeting.</p><p>Note: Old links created before short meeting URL release will continue working as it previously was (user will be able to join even after the documented expiry limits).</p><p>The reason why we are making this change is simple: security is our topmost priority. Maintaining a high security level is essential to protect sensitive data, prevent financial losses, ensure business continuity, and meet compliance and legal obligations. It is a critical aspect of modern digital life and business operations. This adjustment is designed to enhance the security of Teams meeting links, thereby better safeguarding the customer tenant. We want to be on par with modern security standards, that’s why the new behavior is a step in the right direction that we must take. It’s not possible to keep the current behavior. If you think it breaks some of your business processes, please leave comment to the MC post and describe your case there. \n</p><p>Recommendations in case the meeting link has expired:  \n</p><p>For meeting organizer: We recommend scheduling a new meeting. If the meeting organizer got removed from the tenant someone else should reschedule their meetings from scratch. \n</p><p>For participant: Please reach out to the meeting organizer and ask them to reschedule the meeting or send you an updated link.</p><p><b>What you need to do to prepare:</b>\n</p><p>You may want to check if you have any integrations that use parameters from URL. After the rollout, the URL will only contain the meeting ID. Parameters such as tenant ID, organizer ID, conversation ID and message ID will not be in the URL. \n</p><p>You may inform meeting organizers from your tenant who use expired meeting links, or you may want to make a tenant-wide announcement about this change. \n</p><p>This rollout will happen automatically by the specified date with no admin action required. You may want to notify your users about this change and update any relevant documentation as appropriate.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "381953"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is rolling out shorter meeting URLs starting early 2025, improving link usability and security by removing extra parameters. New links expire 60 days after meeting end or creation. Old links remain valid. No admin action is needed, but users should update integrations and inform organizers about expired links."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, TeamsAndSurfaceDevices, Web"
+      }
+    ],
+    "EndDateTime": "2026-05-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC772556",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T17:56:08.187Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2024-04-08T23:33:52Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Shorter meeting URLs",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To help organizations streamline approval workflows and improve governance, users who request a Microsoft 365 Copilot license will be able to submit a business justification with their request. Admins will see this justification during review, enabling faster and more informed decisions while reducing manual follow-ups.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547731#Roadmap\" target=\"_blank\">547731</a>.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>Rollout will begin in <b>May 2026</b> (previously&nbsp;late April)&nbsp;and is expected to complete in <b>May 2026</b> (previously<b>&nbsp;</b>late April).</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n  <li>Users who request Microsoft 365 Copilot licenses</li>\n  <li>Admins who review, approve, or manage Copilot license requests</li>\n</ul>\n\n<p><i style=\"\">What will happen:</i></p>\n<ul>\n  <li>Users requesting a Copilot license will see a new field to provide a business justification.</li><li>Admins will see the justification as part of the review experience.</li>\n  <li>The feature will be <b>on by default </b>with no tenant configuration required.</li>\n  <li>Existing license request workflows will continue to function as they do today.</li>\n  <li>There will be no impact to the user experience unless they request a Copilot license.</li>\n  <li>No changes to admin policies, settings, or reporting.</li></ul><p><i>Screenshot 1 - A license request will be created when the user clicks</i> <i><b>Request License:</b></i></p><p><i><b> </b></i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9d0cd3df-f46a-486e-8cef-f178a2496095/20cce8b1f8cdeda65483fbb294969e788714ffa7.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><ul>\n</ul>\n\n<p><i>Screenshot 2 - On the next screen, there is an option to provide a business justification for the request; this step is optional:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5e4e5172-1d05-4fcf-8702-41ab33539230/23271545900a3c547526a2b17a628b97d65ad5ed.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 3 - View of the dropdown menu with business justification options:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/dfe5faac-7511-4f2c-8154-bc1594e306dd/3ae811ae5fb97fda5f89119d576573f2b3aef82b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p>\n<p>No action is required.</p><p>Optional steps:</p>\n<ul>\n  <li>Notify helpdesk or approvers about the new justification field.</li>\n  <li>Review or update internal documentation as needed.</li>\n  <li>If you track license request metadata, ensure your internal workflows and tools account for the justification field.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "547731"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Starting May 2026, users requesting Microsoft 365 Copilot licenses must optionally provide a business justification, visible to admins for faster approvals. This feature is on by default, requires no tenant setup, and does not affect existing workflows or policies. No action is required to prepare."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227088",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T17:43:20.953Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-05T00:09:03Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Business justification for Copilot license requests",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timing of this change below. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Purview Communication Compliance is undergoing an infrastructure upgrade from January 5 to April 30, 2026, causing temporary processing delays, intermittent errors, and possible outdated report data. Although this migration is planned outside of normal business hours, some production clusters may experience higher loads, potentially causing brief delays in downstream processing. Brief delays in processing may occur during this migration, but no data will be lost.</p><p>No action is required, but admins should inform teams about these short-term impacts.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>This migration will begin<b> January 5, 2026</b>, and end<b>&nbsp;May 15, 2026 </b>(previously April 30).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Microsoft Purview Communication Compliance policies and review workflows.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Updates to policy insights and aggregated counts (<b>New pending today</b>, <b>Total pending</b>, <b>Total resolved</b>) may occur at a slower pace than usual.</li>\n<li>Intermittent errors may occur when reviewing flagged messages.</li>\n<li>Brief delays may be observed between receiving an alert notification and accessing messages for review.</li>\n<li>Certain report views may display outdated data until backlog processing is complete.</li>\n<li>Some export functions, such as exporting reports and files, might be temporarily unavailable.</li>\n<li>No data loss will occur—only temporary slowdowns in processing times.</li><li>Users may experience reduced responsiveness and intermittent instability in the experience.</li>\n</ul>\n<p>This maintenance is scheduled outside of normal business hours to minimize impact. However, global organizations may experience some overlap with active hours.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required from administrators; the upgrade will be implemented automatically.</li>\n<li>We recommend informing your administrative and compliance teams about these possible short-term delays.</li>\n<li>If needed, update internal documentation to reflect potential temporary limitations.</li><li><a href=\"https://learn.microsoft.com/purview/communication-compliance\" target=\"_blank\">Learn about Communication Compliance</a>.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Communication Compliance is undergoing an infrastructure upgrade from January 5 to May 15, 2026, causing temporary processing delays, intermittent errors, and possible outdated report data. No data loss will occur. Admins should inform teams, but no action is required."
+      }
+    ],
+    "EndDateTime": "2026-06-22T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1214183",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T17:41:15.88Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-06T22:48:30Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "Purview Communication Compliance: Temporary delays in processing due to planned infrastructure migration",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new slash command, <b>/createworkflow</b>, in the Microsoft Teams message compose box. A workflow is an automated process that handles repetitive tasks for users, such as sending notifications, creating tasks, or starting approvals when something happens in Teams. With this update, users can type <b>/createworkflow</b> while composing a message to quickly begin creating an automation, instead of navigating through menus. This change is designed to make workflow creation faster, easier to discover, and more accessible directly from chats and channels.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558544\" target=\"_blank\">558544</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Targeted Release (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by<b> late April 2026</b>.</li>\n  <li><b>General Availability (Worldwide):</b>&nbsp;We will begin rollout in <b>mid-May 2026</b> (previously&nbsp;late April)&nbsp;and expect to complete by complete by<b> late May 2026</b> (previously&nbsp;mid-May).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>\nAll Microsoft Teams users.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users can create workflows directly from the compose box using the <b>/createworkflow</b> slash command.</li><p>Screenshot: <i>Example of the <b>/createworkflow</b> slash command appearing in the Teams message compose box</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6e0f2c01-af84-46cb-b498-013e2b05646a\" style=\"width: 300px;\" alt=\"user settings\"></p></ul><ul>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>No existing admin policies are changed.</li>\n  <li>Workflow creation is faster with fewer clicks.</li><li>If the Workflows app is blocked for users, they will see the Create Workflow slash command, however they will not be able to use it and will see the following dialogue:<br><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/08549fec-968c-4d01-8aed-810b9ba20c3f/a829476c354517bb036397bec2b0acf9cd059396.png\" style=\"width: 50%;\" alt=\"user settings\"></li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally inform users about the new slash command.</li>\n  </ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b\" target=\"_blank\">Use commands in Microsoft Teams | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n   \n    <td>The /createworkflow slash command provides users with a new, self-initiated entry point to create workflows directly from the Teams compose box. The feature is enabled by default, and usage is initiated by end users without admin action.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558544"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will introduce the /createworkflow slash command in the message compose box by mid-May 2026, enabling users to quickly create workflows directly from chats. The feature is enabled by default, requires no admin changes, and aims to simplify and speed up workflow creation for all Teams users."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1254553",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T17:38:00.45Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-17T22:46:28Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: New slash command in compose to create workflows",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Express voice enrollment</b> in Microsoft Teams makes registering your voice profile quick and seamless. A voice profile enables features such as voice isolation, speaker recognition, identification in meeting rooms, improved transcripts, and enhanced meeting recaps and insights powered by Microsoft 365 Copilot. If you haven’t enrolled, you’ll receive an in-product prompt to opt in and enroll simply by speaking during a meeting. <b>Admins can enable or disable this feature for their organization.</b></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269\" target=\"_blank\">537269</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release: </b>Rollout begins early June 2026 (previously early May) and is expected to complete by mid-June 2026 (previously mid-May).</li>\n<li><b>General Availability:</b> Rollout begins mid-June 2026 (previously mid-May) and is expected to complete by late June 2026 (previously end of May).</li>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All commercial Microsoft Teams customers except Education (EDU) tenants.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new voice enrollment experience will be available in Teams.</li>\n<li>Users will receive an in-product prompt to enroll their voice profile by speaking during a meeting.</li>\n<li>The feature will be<b> ON by default</b> for enterprise tenants.</li>\n<li>EDU tenants are excluded from this rollout.</li><li>Admins can disable this feature or manage settings using PowerShell in the <code>PassiveVoiceEnrollment</code> configuration in the <code>csTeamsAIPolicy</code> policy. Refer to <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsaipolicy?view=teams-ps\">Set-CsTeamsAIPolicy (MicrosoftTeams) | Microsoft Learn</a> for more information.</li>\n<li>If your organization previously disabled voice enrollment policies (under the <code>EnrollVoice</code> configuration), that policy will still be in effect and this express enrollment feature will not apply change this value.</li><li>Starting <b>April 20</b>, for all tenants that have set <code>EnrollVoice</code> to disabled, Microsoft will apply the same value to <code>PassiveVoiceEnrollment</code> for consistency.</li><li>To disable voice enrollment entirely for your organization, please make sure both <code>EnrollVoice</code> and <code>PassiveVoiceEnrollment</code> configurations are disabled.</li>\n<li>If you choose to change the default policy setting or disable voice enrollment entirely, users will not be able to fully benefit from features like speaker recognition, transcript attribution, intelligent audio/video experiences, or receive the most insightful meeting recaps and responses from Copilot and agents.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s Teams AI policy settings before rollout.</li>\n<li>If you want to disable this feature, update the <code>PassiveVoiceEnrollment</code> configuration using PowerShell.</li>\n<li>Communicate this change to your helpdesk and end users as needed.</li>\n<li>Update internal documentation to reflect this new capability.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "537269"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Express voice enrollment in Microsoft Teams enables quick voice profile registration for enhanced meeting features. Rollout starts June 2026, excluding EDU tenants, and is ON by default for enterprises. Admins can manage or disable it via PowerShell. Users will be prompted to enroll by speaking during meetings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-07-27T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1197146",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T17:35:22.83Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-12-15T20:39:33Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Express voice enrollment in Microsoft Teams",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft will expand AI model options in <i>Microsoft 365 Copilot</i>. With this change, organizations will be able to enable <b>Anthropic models</b> alongside OpenAI models when users edit documents with Copilot in <i>Microsoft Word</i>. This update provides administrators with additional configuration options for AI model providers while maintaining Microsoft’s existing security, privacy, and compliance commitments.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558440\" target=\"_blank\">558440</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b><ul><li>Rollout will begin in<b> mid-May 2026</b>.</li><li>Rollout will complete by<b> late May 2026</b>.</li></ul></li><li><b>Regional availability and default state</b><ul style=\"\"><li style=\"\"><b style=\"font-weight: bold;\">EU, EFTA, and UK: </b>Anthropic models will be available but<b> disabled by default</b> and must be explicitly enabled by an administrator.</li><li style=\"\"><b style=\"font-weight: bold;\">All other regions: </b>Anthropic models will be <b>enabled by default</b>.</li></ul></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 tenants using <b>Microsoft 365 Copilot (Premium)</b></li><li>Users who edit documents in <b>Microsoft Word using Copilot</b></li><li>Administrators who manage Copilot and AI provider settings</li></ul><p><i>What will happen</i></p><ul><li>Anthropic will be available as an<b> AI provider operating as a Microsoft subprocessor</b>.</li><li>Users will be able to select Anthropic models in addition to OpenAI models when using Copilot in <i>Word:</i><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0cdd4c8a-15af-4f23-b000-e5dcdf4de90a/f834daccee386454df728748cb157d04b922c7af.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>For tenants<b> outside the EU, EFTA, and the UK,</b> Anthropic models will be<b> enabled by default</b>.</li><li>For tenants <b>in the EU, EFTA, and the UK</b>, the feature will be<b>&nbsp;off by default</b> and require explicit admin enablement.</li><li>Administrators can enable or disable Anthropic at any time at the tenant level.</li><li>Existing Microsoft 365 Copilot security, compliance, and governance controls will continue to apply.</li><li>There is no change to the user experience unless Anthropic is enabled (or remains enabled by default, depending on region).</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li><b>If your tenant is in the EU, EFTA, or the UK and you plan to enable Anthropic:</b><ul><li>Review your organization’s AI governance, privacy, and compliance requirements.</li></ul></li><li>If you want to manage or change availability of Anthropic models:<ul><li>In the<i> Microsoft 365 admin center</i>, go to <b><i>Copilot → Settings → View all</i></b>.</li><li>Select <i><b>AI providers operating as Microsoft subprocessors</b></i>.</li><li>Under <i><b>Available subprocessors for your organization</b></i>, choose&nbsp;<i><b>Anthropic</b></i> and select&nbsp;<i><b>Enable </b>or <b>Disable</b>.</i></li></ul></li><li>Communicate this upcoming change to your security, compliance, and helpdesk teams.</li><li>Update any internal documentation related to Copilot AI model usage.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change alter how existing customer data is processed?</td><td>Yes. When Anthropic is enabled, Copilot in <i>Word</i> will process document content using Anthropic models to generate responses.</td></tr><tr><td>Does the change introduce or modify AI or machine learning capabilities interacting with customer data?</td><td>Yes. Anthropic large language models will be introduced as an additional AI option for Copilot in <i>Word</i>.</td></tr><tr><td>Does the change provide end users with a new way to interact with generative AI?</td><td>Yes. Users will be able to choose Anthropic models when using Copilot in <i>Word</i>, if enabled by an administrator.</td></tr><tr><td>Does the change add integration with third‑party software products?</td><td>Yes. Anthropic will operate as a third‑party AI provider acting as a Microsoft subprocessor.</td></tr><tr><td>Does the change include an admin control?</td><td>Yes. Administrators will be able to enable or disable Anthropic at the tenant level through the Microsoft 365 admin center.</td></tr></tbody></table><p><b></b></p><p><b></b></p>",
       "ContentType": "html"
     },
@@ -2498,7 +2879,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525897Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525898Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557170\":[{\"RoadmapId\":557170,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988142Z\",\"LatestRing\":null},{\"RoadmapId\":557170,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988143Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3024,7 +3405,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9524307Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9524309Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559611\":[{\"RoadmapId\":559611,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988708Z\",\"LatestRing\":null},{\"RoadmapId\":559611,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988709Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3337,7 +3718,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3888,7 +4269,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492968Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949297Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4032,7 +4413,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -5459,7 +5840,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"500696\":[{\"RoadmapId\":500696,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.801399Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-09-25T07:16:04.8013989Z\",\"LatestRing\":null},{\"RoadmapId\":500696,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.698697Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":500696,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986977Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -5595,7 +5976,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9526759Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.952676Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559387\":[{\"RoadmapId\":559387,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3987271Z\",\"LatestRing\":null},{\"RoadmapId\":559387,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3987273Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5871,43 +6252,6 @@
       "Admin impact"
     ],
     "Title": "Outlook Mobile: Follow a meeting option",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 14, 2026: We have updated the timing of this change below. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Purview Communication Compliance is undergoing an infrastructure upgrade from January 5 to April 30, 2026, causing temporary processing delays, intermittent errors, and possible outdated report data. Although this migration is planned outside of normal business hours, some production clusters may experience higher loads, potentially causing brief delays in downstream processing. Brief delays in processing may occur during this migration, but no data will be lost.</p><p>No action is required, but admins should inform teams about these short-term impacts.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p>This migration will begin<b> January 5, 2026</b>, and end<b>&nbsp;April 30, 2026</b> (previously April 15).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>Admins managing Microsoft Purview Communication Compliance policies and review workflows.</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Updates to policy insights and aggregated counts (<b>New pending today</b>, <b>Total pending</b>, <b>Total resolved</b>) may occur at a slower pace than usual.</li>\n<li>Intermittent errors may occur when reviewing flagged messages.</li>\n<li>Brief delays may be observed between receiving an alert notification and accessing messages for review.</li>\n<li>Certain report views may display outdated data until backlog processing is complete.</li>\n<li>Some export functions, such as exporting reports and files, might be temporarily unavailable.</li>\n<li>No data loss will occur—only temporary slowdowns in processing times.</li><li>Users may experience reduced responsiveness and intermittent instability in the experience.</li>\n</ul>\n<p>This maintenance is scheduled outside of normal business hours to minimize impact. However, global organizations may experience some overlap with active hours.</p>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No action is required from administrators; the upgrade will be implemented automatically.</li>\n<li>We recommend informing your administrative and compliance teams about these possible short-term delays.</li>\n<li>If needed, update internal documentation to reflect potential temporary limitations.</li><li><a href=\"https://learn.microsoft.com/purview/communication-compliance\" target=\"_blank\">Learn about Communication Compliance</a>.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview Communication Compliance is undergoing an infrastructure upgrade from January 5 to April 30, 2026, causing temporary processing delays, intermittent errors, outdated report data, and reduced responsiveness. No data loss will occur. Admins should inform teams; no action is required."
-      }
-    ],
-    "EndDateTime": "2026-06-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1214183",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-14T18:52:41.123Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-06T22:48:30Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact"
-    ],
-    "Title": "Purview Communication Compliance: Temporary delays in processing due to planned infrastructure migration",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -6236,7 +6580,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9523823Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9523827Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9523828Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3989157Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3989158Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3989159Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7863,7 +8207,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
+        "Value": "{\"528930\":[{\"RoadmapId\":528930,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642664Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642662Z\",\"LatestRing\":null},{\"RoadmapId\":528930,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-11-27T13:29:07.6642665Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7960,7 +8304,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554925\":[{\"RoadmapId\":554925,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489446Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489444Z\",\"LatestRing\":null},{\"RoadmapId\":554925,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489448Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8035,53 +8379,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview compliance portal: Data Security Investigations introduces new soft purge mitigation action",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 6, 2026: We have updated the timeline and content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p><b>Express voice enrollment</b> in Microsoft Teams makes registering your voice profile quick and seamless. A voice profile enables features such as voice isolation, speaker recognition, identification in meeting rooms, improved transcripts, and enhanced meeting recaps and insights powered by Microsoft 365 Copilot. If you haven’t enrolled, you’ll receive an in-product prompt to opt in and enroll simply by speaking during a meeting. <b>Admins can enable or disable this feature for their organization.</b></p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269\" target=\"_blank\">537269</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Targeted Release: </b>Rollout begins early May 2026 (previously mid-May) and is expected to complete by mid-May 2026 (previously late May).</li>\n<li><b>General Availability:</b> Rollout begins mid-May 2026 (previously late May) and is expected to complete by end of May 2026 (previously early June).</li>\n</ul>\n\n<p><b><b>How this will affect your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All commercial Microsoft Teams customers except Education (EDU) tenants.</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new voice enrollment experience will be available in Teams.</li>\n<li>Users will receive an in-product prompt to enroll their voice profile by speaking during a meeting.</li>\n<li>The feature will be<b> ON by default</b> for enterprise tenants.</li>\n<li>EDU tenants are excluded from this rollout.</li><li>Admins can disable this feature or manage settings using PowerShell in the <code>PassiveVoiceEnrollment</code> configuration in the <code>csTeamsAIPolicy</code> policy. Refer to <a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsaipolicy?view=teams-ps\">Set-CsTeamsAIPolicy (MicrosoftTeams) | Microsoft Learn</a> for more information.</li>\n<li>If your organization previously disabled voice enrollment policies (under the <code>EnrollVoice</code> configuration), that policy will still be in effect and this express enrollment feature will not apply change this value.</li><li>Starting <b>April 20</b>, for all tenants that have set <code>EnrollVoice</code> to disabled, Microsoft will apply the same value to <code>PassiveVoiceEnrollment</code> for consistency.</li><li>To disable voice enrollment entirely for your organization, please make sure both <code>EnrollVoice</code> and <code>PassiveVoiceEnrollment</code> configurations are disabled.</li>\n<li>If you choose to change the default policy setting or disable voice enrollment entirely, users will not be able to fully benefit from features like speaker recognition, transcript attribution, intelligent audio/video experiences, or receive the most insightful meeting recaps and responses from Copilot and agents.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review your organization’s Teams AI policy settings before rollout.</li>\n<li>If you want to disable this feature, update the <code>PassiveVoiceEnrollment</code> configuration using PowerShell.</li>\n<li>Communicate this change to your helpdesk and end users as needed.</li>\n<li>Update internal documentation to reflect this new capability.</li>\n</ul><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified; review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "537269"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Express voice enrollment in Microsoft Teams enables quick voice profile registration for enhanced features like speaker recognition and improved transcripts. Rolling out May 2026 for commercial tenants (excluding Education), it’s on by default but can be disabled by admins via PowerShell. Review and communicate policy changes accordingly."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-07-13T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1197146",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-06T23:58:53.863Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-12-15T20:39:33Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Express voice enrollment in Microsoft Teams",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -8397,7 +8694,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494578Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494576Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6986358Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.949458Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10431,7 +10728,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10733,7 +11030,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"492625\":[{\"RoadmapId\":492625,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984255Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984253Z\",\"LatestRing\":null},{\"RoadmapId\":492625,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984251Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":492625,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984257Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10791,56 +11088,6 @@
       "New feature"
     ],
     "Title": "Dynamics 365 Contact Center - Consent-Based Recording for Voice Interactions",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 30, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new slash command, <b>/createworkflow</b>, in the Microsoft Teams message compose box. A workflow is an automated process that handles repetitive tasks for users, such as sending notifications, creating tasks, or starting approvals when something happens in Teams. With this update, users can type <b>/createworkflow</b> while composing a message to quickly begin creating an automation, instead of navigating through menus. This change is designed to make workflow creation faster, easier to discover, and more accessible directly from chats and channels.</p><p>This message applies to Teams for Windows desktop, Teams for Mac desktop, and Teams for the web. It is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558544\" target=\"_blank\">558544</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li><b>Targeted Release (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by<b> late April 2026</b>.</li>\n  <li><b>General Availability (Worldwide):</b>&nbsp;We will begin rollout in <b>late April 2026</b> and expect to complete by complete by <b>mid-May 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b><br>\nAll Microsoft Teams users.</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Users can create workflows directly from the compose box using the <b>/createworkflow</b> slash command.</li><p>Screenshot: <i>Example of the <b>/createworkflow</b> slash command appearing in the Teams message compose box</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/6e0f2c01-af84-46cb-b498-013e2b05646a\" style=\"width: 300px;\" alt=\"user settings\"></p></ul><ul>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>No existing admin policies are changed.</li>\n  <li>Workflow creation is faster with fewer clicks.</li><li>If the Workflows app is blocked for users, they will see the Create Workflow slash command, however they will not be able to use it and will see the following dialogue:<br><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/08549fec-968c-4d01-8aed-810b9ba20c3f/a829476c354517bb036397bec2b0acf9cd059396.png\" style=\"width: 50%;\" alt=\"user settings\"></li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required.</li>\n  <li>Optionally inform users about the new slash command.</li>\n  </ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/use-commands-in-microsoft-teams-88f61508-284d-417f-a53d-9e082164050b\" target=\"_blank\">Use commands in Microsoft Teams | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Question</th>\n    <th align=\"left\">Explanation</th>\n  </tr>\n  <tr>\n    <td>Does the change allow a user to enable and disable the feature themselves?</td>\n   \n    <td>The /createworkflow slash command provides users with a new, self-initiated entry point to create workflows directly from the Teams compose box. The feature is enabled by default, and usage is initiated by end users without admin action.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "558544"
-      },
-      {
-        "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams is introducing the /createworkflow slash command in the message compose box, enabling users to quickly create workflows directly from chats and channels. This feature, enabled by default, will roll out worldwide from late April to mid-May 2026 for all Teams users."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1254553",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-03-30T16:16:31.253Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-17T22:46:28Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: New slash command in compose to create workflows",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11321,7 +11568,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12061,7 +12308,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14468,7 +14715,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -14650,7 +14897,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14689,53 +14936,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p>Updated March 16, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To help organizations streamline approval workflows and improve governance, users who request a Microsoft 365 Copilot license will be able to submit a business justification with their request. Admins will see this justification during review, enabling faster and more informed decisions while reducing manual follow-ups.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=547731#Roadmap\" target=\"_blank\">547731</a>.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide): </b>Rollout will begin in <b>late April 2026</b> (previously&nbsp;late March)&nbsp;and is expected to complete by<b> late April 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><i>Who is affected:</i></p>\n<ul>\n  <li>Users who request Microsoft 365 Copilot licenses</li>\n  <li>Admins who review, approve, or manage Copilot license requests</li>\n</ul>\n\n<p><i style=\"\">What will happen:</i></p>\n<ul>\n  <li>Users requesting a Copilot license will see a new field to provide a business justification.</li><li>Admins will see the justification as part of the review experience.</li>\n  <li>The feature will be <b>on by default </b>with no tenant configuration required.</li>\n  <li>Existing license request workflows will continue to function as they do today.</li>\n  <li>There will be no impact to the user experience unless they request a Copilot license.</li>\n  <li>No changes to admin policies, settings, or reporting.</li></ul><p><i>Screenshot 1 - A license request will be created when the user clicks</i> <i><b>Request License:</b></i></p><p><i><b> </b></i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9d0cd3df-f46a-486e-8cef-f178a2496095/20cce8b1f8cdeda65483fbb294969e788714ffa7.png\" style=\"width: 400px;\" alt=\"user settings\"> </p><ul>\n</ul>\n\n<p><i>Screenshot 2 - On the next screen, there is an option to provide a business justification for the request; this step is optional:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/5e4e5172-1d05-4fcf-8702-41ab33539230/23271545900a3c547526a2b17a628b97d65ad5ed.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>Screenshot 3 - View of the dropdown menu with business justification options:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/dfe5faac-7511-4f2c-8154-bc1594e306dd/3ae811ae5fb97fda5f89119d576573f2b3aef82b.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p>\n<p>No action is required.</p><p>Optional steps:</p>\n<ul>\n  <li>Notify helpdesk or approvers about the new justification field.</li>\n  <li>Review or update internal documentation as needed.</li>\n  <li>If you track license request metadata, ensure your internal workflows and tools account for the justification field.</li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b></p>\n<p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "547731"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting late April 2026, Microsoft 365 Copilot license requests will include an optional business justification field for users. Admins will see this justification during review to streamline approvals. The feature is on by default, requires no tenant configuration, and does not affect existing workflows or policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-06-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227088",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-16T16:11:01.73Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T00:09:03Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Business justification for Copilot license requests",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>AI‑powered meeting assistant bots—such as transcription and summarization services—are increasingly used to enhance productivity in online meetings. While these tools can be valuable, some bots may access meetings without the knowledge or consent of the meeting organizer or the hosting tenant, which can create data security, privacy, and compliance risks.</p><p>To help organizations protect meeting content and increase visibility into automated participants, Microsoft Teams is introducing a new capability that <b>detects external meeting assistant bots</b> as they attempt to join meetings. This update gives organizers <b>greater awareness and control </b>and <b>provides administrators with clear controls</b>&nbsp;to manage how detected bots are handled in meetings hosted across the organization.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558107\" target=\"_blank\">558107</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> We will begin rolling out in <b>mid-May 2026</b> and expect to complete by<b> early June 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b> early June 2026</b> and expect to complete by <b>mid-June 2026</b>.</li><li><b>General Availability (GCC)</b>: We will begin rolling out in<b> early June 2026</b> and expect to complete by <b>mid-June 2026.</b></li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All organizations using Microsoft Teams meetings, including GCC tenants</li><li>Meeting organizers and Teams administrators</li></ul><p><i>What will happen</i></p><ul><li>Teams will detect external meeting bots as they attempt to join meetings hosted by your organization.</li><li>When detected, bots will be <b>clearly labeled</b> in the <i>meeting lobby experience.</i><p></p><ul><li><b>Note:</b> There might still be bots that are undetected by the system due to their intrinsic behavior. Please inform your users to report them out directly from the app/meeting. This will help us improve our detection system.</li></ul></li><li><b>Organizers will be able to</b>:<ul><li><b>approve or deny</b> detected bots from the meeting lobby.</li><li><b>see clearly&nbsp;</b>which participants have been identified as bots.</li><li><b>remove</b> detected bots during the meeting if necessary.</li></ul></li><li>These organizer controls are designed to help ensure that bot participation in <i>meetings</i> is an intentional and informed decision.</li><li>A new meeting policy will be available in the <i>Teams admin center</i> that allows admins to configure how detected bots are handled (do not detect bots, require approval). In the future, we intend to provide more granular controls to admins, as appropriate.</li><li>Bot detection will be <b>enabled&nbsp;by default for all tenants</b>.</li><li>Teams will continue improving detection accuracy; however, some bots may not be detected in all scenarios.</li></ul><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d26db94f-4c29-47b4-be0b-b0ba6dd55c11/be8d0b8cc99c17858107b52e66401f803ffbfbd2.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/f0d137a6-2ac7-4f55-b61e-2290f762d10d/3f0e1e0c229c7d44a5fd74cd9d13157ab3d38378.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required at this time.</p><p>However, we <b>recommend </b>that Teams admins:</p><ul><li><b>Review the new meeting policy</b> in the <i>Teams admin center </i>once it becomes available.</li><li><b>Keep the default setting</b>, which requires organizers to approve detected bots before they join meetings (recommended).</li><li><b>Choose a stricter or more permissive option</b> based on your organization’s collaboration and compliance requirements.</li><li><b>Inform meeting organizers</b> that they may see <b>new indicators and approval prompts </b>when detected bots attempt to join meetings.</li><li>Update internal helpdesk or governance documentation if your organization documents meeting join or lobby controls behavior.</li><li>Monitor future Message center updates for expanded administrative controls.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td><b>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to your data?</b></td><td><b>Yes. </b>This change introduces detection logic that analyzes meeting join metadata to identify external automated bots attempting to join meetings.</td></tr><tr><td><p><b>Does the change provide a new way of communicating between users, tenants, or subscriptions?</b></p></td><td><b>No. </b>The feature only changes how external meeting assistant bots are surfaced to organizers during the meeting join process, increasing visibility of automated external participants. There is no change in the way participants can communicate with these bots or vice versa.</td></tr><tr><td><p><b>Does the change include an admin control, and can it be controlled through Entra ID group membership?</b></p></td><td><b>Yes. </b>The change introduces a new meeting policy in the<i> Teams admin center</i> that allows admins to define how detected bots are handled. It cannot be controlled through Entra ID group membership at this time.</td></tr></tbody></table><p><b></b></p><p><b></b></p>",
       "ContentType": "html"
     },
@@ -14747,7 +14947,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525738Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525739Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.952574Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525741Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T17:16:32.9525742Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988259Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988261Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988265Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988266Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-30T19:14:45.3988266Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15054,7 +15254,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16735,7 +16935,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16785,7 +16985,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"325780\":[{\"RoadmapId\":325780,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985056Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985054Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985051Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":325780,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985057Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17265,7 +17465,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17354,7 +17554,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17381,52 +17581,6 @@
       "User impact"
     ],
     "Title": "Context preservation in Microsoft Teams",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 23, 2026: We have updated the timeline. Thank you for your patience.</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing the <i>Agent Dashboard</i>, a new dashboard available as part of <i>Copilot Analytics</i> in Microsoft Viva. This dashboard provides visibility into key agent adoption trends and associated Copilot credit usage. It supports insights into agents used within Microsoft 365 Copilot, which may be:</p><ul><li>Built using Microsoft Copilot Studio, SharePoint, or the Microsoft 365 Agents Toolkit</li><li>Built by employees, your organization, Microsoft, or Microsoft partners</li></ul>\n<p>This release also enhances the <i>Adoption </i>tab of the <i>Copilot Dashboard</i>, allowing users to view agent insights directly and access the <i>Agent Dashboard</i> for deeper analysis.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>Public Preview (Worldwide):</b> Begins rolling out in early February 2026 (previously January), expected to complete by mid-February 2026 (previously end of January).</li>\n<li><b>General Availability (Worldwide):</b> Begins rolling out in June 2026 (previously March), expected to complete by end of June 2026 (previously end of March).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Leaders, delegates, adoption specialists, and administrators using Microsoft Viva Insights</li>\n<li>Tenants with at least 50 Microsoft 365 Copilot licenses assigned</li>\n</ul>\n<p><b>What will happen:</b></p>\n<ul>\n<li>A new <i>Agent Dashboard</i> will be available in Viva Insights under <i>Copilot Analytics</i></li>\n<li>Users will find:\n  <ul>\n    <li>Key adoption metrics with historical trends (up to 6 months):\n      <ul>\n      <li>Number of active agents</li>\n      <li>Number of active agent users</li>\n      <li>Number of agent responses</li>\n      <li>Copilot credits used</li>\n      <li>Number of users using Copilot credits</li>\n      <li>Percentage of Copilot users using agents</li>Screenshot 1: <i>Key adoption metrics with historical trends, including active agents, active users, agent responses, and Copilot credit usage.</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/9ac72c22-323f-41ce-aaa3-403029da31b8/157716669acff1e4a59598e7faa7bf84f3b1a48e.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n      </ul>\n    </li>\n    <li>Monthly and weekly user retention trends, with comparison across groups</li>Screenshot 2: <i>Monthly and weekly user retention trends, with comparison across groups.</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/a4bbbc3e-8ac3-4267-bd2d-93b029feda7b/813a90804b86a8136044568757473cbb62ec69b0.png\" style=\"width: 400px;\" alt=\"user settings\"></p>\n    <li>Top agents based on the following, with the ability to dive deeper into specific agents:\n      <ul>\n      <li>Active user count</li>\n      <li>Agent responses</li>\n      <li>Copilot credits consumed</li>Screenshot 3: <i>Agent highlights along with a table of top agents, each with active usage metrics and the ability to dive deeper.</i><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/a39b3055-8bb2-4330-9419-4d2751e2b434\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p>Screenshot 4: <i>Individual agent deep dive page with key adoption metrics and trends&nbsp;over time</i>.<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/7e0af8e4-e3cc-4869-96e8-0f520e4d54f0\" style=\"width: 400px;\" alt=\"user settings\"></p>\n      </ul>\n    </li>\n  </ul>\n</li>\n<li>Minimum group size threshold must be met for agent activity insights.</li>\n<li>Learn more: <a href=\"https://learn.microsoft.com/viva/insights/advanced/setup-maint/manager-settings#minimum-group-size\">Configure manager settings</a></li>\n<li>The Adoption tab of the Copilot Dashboard will also include:\n  <ul>\n  <li>Contextual insights on how Copilot users are leveraging agents and credits</li>\n  <li>Direct entry points to the Agent Dashboard</li>Screenshot 5:<i> Entry points to the Agent Dashboard from the Copilot Dashboard Adoption tab, including agent usage and Copilot credit usage insights.</i><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8cd77f06-1f49-425a-bdd2-1a1b6c9b4de8\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  </ul>\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>Review and assess the impact for your organization</li>\n<li>Manage access to the <i>Agent Dashboard</i> using VFAM controls at user, group, and tenant levels (nested under Viva Insights Web app VFAM controls)</li>\n<li>Consider reviewing with your works council</li>\n<li>Update training and documentation as needed</li>\n<li>Additional details will be available on MS Learn once this functionality is released, in a separate <i>Agent Dashboard section</i>: <a href=\"https://learn.microsoft.com/en-us/viva/insights/copilot-analytics-introduction\" target=\"_blank\">Copilot Analytics introduction</a></li>\n</ul>\n<p></p>\n<p><b style=\"\"><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>\n\n<p></p><p></p></li></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "506749"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Viva Copilot Analytics introduces a new Agent Dashboard for tracking agent adoption and Copilot credit usage, with enhanced insights in the Copilot Dashboard Adoption tab. Public preview starts February 2026, general availability in June 2026, affecting organizations with 50+ Copilot licenses."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-07-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1166852",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-23T17:36:52.947Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-06T23:01:28Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Viva Copilot Analytics launches new agent dashboard",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -19548,7 +19702,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -21228,7 +21382,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
