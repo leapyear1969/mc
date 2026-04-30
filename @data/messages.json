@@ -4,6 +4,153 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to use task level schedule modes for precise planning in Dynamics 365 Project Operations. This feature will be available in preview on May 15, 2026.<br><br><b>How does this affect me?</b><br>Users will be able to assign and manage scheduling modes at the task level, independent of the overall project schedule mode. This supports more accurate planning and execution for projects with mixed scheduling needs. The feature will also support scheduling through APIs and allow management of task-level schedule modes within the customizable task details pane.<br><br><b>What action do I need to take?</b><br>To use this feature, users will need to:<ul style=\"margin-top: 0px;\"><li>Enable the feature in Project parameters.<li>Select Enable Customize Task Pane to access the functionality.</ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-30T21:49:18Z",
+    "HasAttachments": false,
+    "Id": "MC1296825",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T21:50:32.353Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T21:49:18Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Project Operations - Task level schedule modes for precise planning (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Engage will retire <b>live events powered by Teams Live Events</b>&nbsp;effective May 4, 2026. Existing live events already scheduled will continue to be supported through February 28, 2027. We encourage customers to transition to events in <b>Engage </b>powered by <b>Teams town halls</b>, which offer an improved experience for large-scale digital and hybrid events.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Effective May 4, 2026: </b>You will no longer have the option to schedule a <b>live event in Engage </b>powered by <b>Teams Live Events</b>.</li><li><b>Through February 28, 2027: Engage </b>will continue to support<b> any live events powered by Teams Live Events </b>that were scheduled before May 4, 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected: </b>Organizations using<b> live events in Engage</b> powered by <b>Teams Live Events</b>.</p>\n<p><b>What will happen: \n</b></p><ul><li>You will no longer be able to schedule a <b>live event in Engage</b> powered by<b> Teams Live Events</b> starting May 4, 2026.</li><li><b>Engage </b>will continue to support already scheduled <b>live events powered by Teams Live Events</b> through February 28, 2027.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Migrate to events in <b>Engage </b>powered by <b>Teams town halls</b>.</li><li>Review and update internal documentation to reflect this change.\n</li></ul><p>Explore these resources:</p><ul><li><a href=\"https://support.microsoft.com/office/organize-a-live-event-with-teams-town-hall-197dcfbb-14d8-4b8e-a038-5bc730c726d1\" target=\"_blank\">Organize a Live event with Teams town hall&nbsp;</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/plan-town-halls\" target=\"_blank\">Plan for Teams town halls</a> \n</li><li><a href=\"https://learn.microsoft.com/graph/cloud-communications-virtual-events-townhall-usecases\" target=\"_blank\">Virtual Events Graph APIs</a> \n</li><li><a href=\"https://adoption.microsoft.com/customer-hub/microsoft-teams-events-readiness/\" target=\"_blank\">Customer Hub events readiness sessions</a> - recommended sessions for Teams live event users transitioning to Teams town halls:<ul><li><i>What’s new in Microsoft Teams town halls and webinars</i></li><li><i>Migrating from Teams live events to town halls</i></li><li><i>Tips, tricks, and traps for town halls and webinars in Microsoft Teams</i></li></ul></li></ul><p><b><b>Compliance considerations:</b> \n</b></p><p>No compliance considerations identified; review as appropriate for your organization.\n</p><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Engage will retire live events powered by Teams Live Events on May 4, 2026, stopping new event scheduling then. Support for existing events continues through February 28, 2027. Organizations should transition to Engage events powered by Teams town halls and update documentation accordingly."
+      }
+    ],
+    "EndDateTime": "2026-06-29T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227085",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T21:35:06.703Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-05T00:07:04Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Engage is retiring live events powered by Teams Live Events effective May 4th, 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use Dynamics 365 AI Hub in Customer Insights – Journeys to centrally manage Copilot and AI agents, configure safeguards, and monitor usage per environment. This feature will reach preview on May 15, 2026.<br><br><b>How does this affect me?</b><br>Dynamics 365 AI Hub is an in-product, single place to complete prerequisites, enable/disable agents, set guardrails (for example, follow-up limits or processing caps), and monitor what’s active—without switching between admin surfaces. Because it aligns with tenant-level governance in Copilot Hub (Power Platform admin center), your environment stays consistent with global policies.<br><br>With Dynamics 365 AI Hub in Customer Insights – Journeys, you can:<ul><lli>View and manage available AI features in one place.<li>Enable and configure agents per environment with guided setup.<li>Set agent guardrails and usage limits.<li>Stay aligned with tenant-level Copilot and agent governance.<li>Access AI optimization and insights.<li>Self-serve with embedded knowledge and compliance resources.</ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-05-30T21:28:35Z",
+    "HasAttachments": false,
+    "Id": "MC1296797",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T21:34:10.473Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T21:28:35Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Insights - Journeys - Govern agents and Copilot centrally with Dynamics 365 AI Hub (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We're improving the Viva Engage experience in Microsoft Teams for iOS by bringing <b>pinned resources</b> and <b>related communities</b> into the Teams mobile app. Pinned resources highlight important links and files within a community, while related communities help users discover other relevant Viva Engage communities. These are two separate features that work together to improve information access and community discovery.</p><p>This update aligns the iOS experience with Engage on the web, the Engage mobile app, and Teams for Android, helping users discover important content and related communities more easily—especially those who rely on Teams on iOS as their primary communication tool.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559107\" target=\"_blank\">559107</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in <b>early May 2026</b> (previously&nbsp;late April)&nbsp;and is expected to complete by <b>early June 2026</b> (previously&nbsp;late April).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users who access Viva Engage communities in Microsoft Teams on iOS</li>\n<li><b>Community admins</b> who manage Viva Engage communities</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see<b> pinned resources</b> for a community directly within Teams on iOS.</li>\n<li>Users will see <b>related communities</b> surfaced within the community experience.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8aca528a-aaf3-414f-9c52-19fa98f32dcb\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>The experience will match what is already available in the Viva Engage mobile app, Viva Engage on the web, and Teams for Android.</li>\n<li>The feature is <b>enabled by default</b>.</li>\n<li>There are no changes to existing admin policies or configurations.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>Communicate this update to end users who use Teams on iOS.</li>\n<li>Encourage Viva Engage <b>community admins</b> to review pinned resources and related communities.</li>\n<li>Update internal documentation or helpdesk guidance, if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "559107"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Viva Engage in Microsoft Teams for iOS will add pinned resources and related communities by early June 2026, aligning with other platforms. This improves content access and community discovery, is enabled by default, requires no admin action, and affects users and community admins."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "iOS"
+      }
+    ],
+    "EndDateTime": "2026-07-13T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1268933",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T21:29:42.69Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-02T21:02:30Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Viva Engage: Pinned resources and related communities in Teams for iOS",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated April 30, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>To support deeper analysis of Copilot agent adoption and usage across your organization, Microsoft will introduce a <b>new export capability</b> in the <i>Agent Dashboard</i>. This feature will allow eligible users to download <b>de‑identified Copilot agent usage data</b> for analysis, helping organizations track adoption trends, optimize licensing, and support AI transformation strategies, while maintaining existing privacy and access controls. User identifiers are removed from the output.</p><p>This feature will require at least<b> 50 Microsoft 365 Copilot licenses</b> and will apply to the <b>Viva Insights web app</b>.</p><p>This message is related to Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=560538\" target=\"_blank\">560538</a>.&nbsp;</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview: </b>We will begin rolling out in<b> late May 2026 </b>and expect to complete rollout by<b> early June 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in<b>&nbsp;late September 2026 </b>(previously late July)<b>&nbsp;</b>and expect to complete rollout by<b>&nbsp;early October 2026 </b>(previously late August).</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li><b>Agent Dashboard users with full company‑level data access</b>, including:<ul><li>Senior leaders (as identified in <i><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Microsoft Entra ID</a></i>)</li><li>Admin‑assigned company‑level users</li><li>Delegates with company‑level access</li><li>Global analysts and admins</li></ul></li></ul><p style=\"margin-left: 75px;\"><i><b>Note: </b>Group managers with data access limited to their own teams will not have access to this feature.</i></p><p><i>What will happen</i></p><ul><li>Eligible users will be able to export <b>de‑identified, user‑level Copilot agent metrics and agent attributes </b>aggregated by user and week, for up to the <b>past six months</b>. User identifiers are removed from the output.</li><li>The <b>export will include multiple data tables</b>, such as:<ul><li><b>Copilot agent metadata</b>including agent name, creator type, and publishing source</li><li><b>Copilot agent usage metrics</b>, including the number of responses generated</li><li><b>Copilot agent credit usage and user retention metrics</b></li><li><b>People metadata</b>, including organization and function type</li></ul></li><li><b>By default, this feature will be ON for all eligible users.</b></li><li>Admins will be able to <b>manage or disable the feature at the tenant or group level at any time using Viva Feature Access Management (VFAM):</b><ul><li>Module: Viva Insights</li><li>Feature: Agent Metrics Export</li></ul></li><li>There will be <b>no impact to user workflows</b> unless the feature is accessed by eligible users.</li></ul><p><i>Screenshot - View of the Agent Dashboard:</i></p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/c74bd62d-26f7-4246-8557-9f6ab6f566d0/5e19d5959e94d0dcbb0385a2f532d9c558af8c11.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><ul><li><b>No action is required </b>to enable this feature.</li><li>If you do not want this feature enabled by default, you <b>can disable it at the tenant or group level</b> using <b>Viva Feature Access Management (VFAM)</b>.</li><li>Review which users have full company‑level access to the Agent Dashboard.</li><li>Communicate the upcoming change to eligible users so they understand the new export capability and its intended use.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/agent-dashboard\" target=\"_blank\">Connect to the Agent Dashboard | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/delegate-access\" target=\"_blank\">Delegate access to the Copilot Dashboard, Agent Dashboard, and Copilot insights | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/manage-settings-copilot-dashboard\" target=\"_blank\">Manage settings for the Microsoft Copilot Dashboard, Agent Dashboard, and Viva Insights web app | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard#using-entra-id-data\" target=\"_blank\">Using Entra ID data - Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/feature-access-management#viva-features-management\" target=\"_blank\">Viva features management - Control access to features in Microsoft 365 | Microsoft Viva | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p></p>",
       "ContentType": "html"
     },
@@ -3709,44 +3856,6 @@
       "Admin impact"
     ],
     "Title": "M365 and Microsoft Teams: Unified management of app and agent availability in Teams, Outlook, and the Microsoft 365 app",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 21, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Engage will retire <b>live events powered by Teams Live Events</b>&nbsp;effective April 27, 2026. Existing live events already scheduled will continue to be supported through February 28, 2027. We encourage customers to transition to events in <b>Engage </b>powered by <b>Teams town halls</b>, which offer an improved experience for large-scale digital and hybrid events.</p><p><b><b>When this will happen:</b></b></p><ul><li><b>Effective April 27, 2026: </b>You will no longer have the option to schedule a <b>live event in Engage </b>powered by <b>Teams Live Events</b>.</li><li><b>Through February 28, 2027: Engage </b>will continue to support<b> any live events powered by Teams Live Events </b>that were scheduled before April 27, 2026.</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected: </b>Organizations using<b> live events in Engage</b> powered by <b>Teams Live Events</b>.</p>\n<p><b>What will happen: \n</b></p><ul><li>You will no longer be able to schedule a <b>live event in Engage</b> powered by<b> Teams Live Events</b> starting April 27, 2026.</li><li><b>Engage </b>will continue to support already scheduled <b>live events powered by Teams Live Events</b> through February 28, 2027.</li></ul><p><b><b>What you can do to prepare:</b></b></p><ul><li>Migrate to events in <b>Engage </b>powered by <b>Teams town halls</b>.</li><li>Review and update internal documentation to reflect this change.\n</li></ul><p>Explore these resources:</p><ul><li><a href=\"https://support.microsoft.com/office/organize-a-live-event-with-teams-town-hall-197dcfbb-14d8-4b8e-a038-5bc730c726d1\" target=\"_blank\">Organize a Live event with Teams town hall&nbsp;</a></li><li><a href=\"https://learn.microsoft.com/microsoftteams/plan-town-halls\" target=\"_blank\">Plan for Teams town halls</a> \n</li><li><a href=\"https://learn.microsoft.com/graph/cloud-communications-virtual-events-townhall-usecases\" target=\"_blank\">Virtual Events Graph APIs</a> \n</li><li><a href=\"https://adoption.microsoft.com/customer-hub/microsoft-teams-events-readiness/\" target=\"_blank\">Customer Hub events readiness sessions</a> - recommended sessions for Teams live event users transitioning to Teams town halls:<ul><li><i>What’s new in Microsoft Teams town halls and webinars</i></li><li><i>Migrating from Teams live events to town halls</i></li><li><i>Tips, tricks, and traps for town halls and webinars in Microsoft Teams</i></li></ul></li></ul><p><b><b>Compliance considerations:</b> \n</b></p><p>No compliance considerations identified; review as appropriate for your organization.\n</p><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Engage will retire live events powered by Teams Live Events on April 27, 2026, stopping new event scheduling then but supporting existing events until February 28, 2027. Organizations should migrate to Engage events powered by Teams town halls and update documentation accordingly."
-      }
-    ],
-    "EndDateTime": "2026-06-22T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227085",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-22T16:14:04.883Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-05T00:07:04Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Engage is retiring live events powered by Teams Live Events effective April 27th, 2026",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -9291,52 +9400,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We're improving the Viva Engage experience in Microsoft Teams for iOS by bringing <b>pinned resources</b> and <b>related communities</b> into the Teams mobile app. Pinned resources highlight important links and files within a community, while related communities help users discover other relevant Viva Engage communities. These are two separate features that work together to improve information access and community discovery.</p><p>This update aligns the iOS experience with Engage on the web, the Engage mobile app, and Teams for Android, helping users discover important content and related communities more easily—especially those who rely on Teams on iOS as their primary communication tool.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559107\" target=\"_blank\">559107</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in <b>late April 2026</b> and is expected to complete by <b>late April 2026</b>.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users who access Viva Engage communities in Microsoft Teams on iOS</li>\n<li><b>Community admins</b> who manage Viva Engage communities</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see<b> pinned resources</b> for a community directly within Teams on iOS.</li>\n<li>Users will see <b>related communities</b> surfaced within the community experience.</li><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/8aca528a-aaf3-414f-9c52-19fa98f32dcb\" style=\"width: 400px;\" alt=\"user settings\"></p>\n<li>The experience will match what is already available in the Viva Engage mobile app, Viva Engage on the web, and Teams for Android.</li>\n<li>The feature is <b>enabled by default</b>.</li>\n<li>There are no changes to existing admin policies or configurations.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<p>No admin action is required.</p>\n<ul>\n<li>Communicate this update to end users who use Teams on iOS.</li>\n<li>Encourage Viva Engage <b>community admins</b> to review pinned resources and related communities.</li>\n<li>Update internal documentation or helpdesk guidance, if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "559107"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Viva Engage in Microsoft Teams for iOS will add pinned resources and related communities by late April 2026, matching other platforms. This enhances content access and community discovery, is enabled by default, requires no admin action, and affects users and community admins."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "iOS"
-      }
-    ],
-    "EndDateTime": "2026-05-29T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1268933",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-04-02T21:02:36.207Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-02T21:02:30Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Viva Engage: Pinned resources and related communities in Teams for iOS",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
