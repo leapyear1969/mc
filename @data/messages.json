@@ -4,6 +4,275 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to chat with your deal insights using an ask-and-refine experience in Sales Close Agent in Dynamics 365 Sales. This feature will reach public preview on May 15, 2026.<br><br>\n<b>How does this affect me?</b><br>\nThis feature allows users to use an ask-and-refine experience in the Sales Close Agent that provides guidance for deal insights. Key capabilities for sellers include:<ul>\n<li><b>Ask questions in context: </b>Ask questions directly within an opportunity to tailor meeting prep, assess risks, and plan next steps for the current stage. </li>\n<li><b>Start concise, go deeper on demand: </b>Begin with action-oriented insights, then request deeper analysis only when needed. </li>\n<li><b>Stage-move readiness: </b>Request guidance when preparing to advance an opportunity to the next stage.</li></ul>\nKey capabilities for admins, makers, or analysts include:<ul>\n<li><b>Trigger-based refresh: </b>Configure which insights refresh automatically when high-value signals change. </li>\n<li><b>On-demand depth controls: </b>Control which insights are generated only on request to manage cost and message consumption. </li>\n<li><b>Balanced guidance: </b>Tune responsiveness vs. efficiency while keeping guidance timely and relevant. </li></ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required. <br><br> \nIf you would like more information on this feature, please visit <a href=\"https://aka.ms/15028/chat-deal-insights-using-ask-and-refine-experience-sales-close-agent\" target=\"_blank\">Chat with your deal insights using ask-and-refine experience in Sales Close Agent</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-06-30T23:03:00Z",
+    "HasAttachments": false,
+    "Id": "MC1296879",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T23:17:10.923Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T23:03:27Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Sales - Chat with your deal insights using ask-and-refine experience in Sales Close Agent (preview)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft is introducing<b> Legal Agent for Word</b>, a new vertical-specific Microsoft 365 Copilot experience designed for legal professionals. Built directly into <i>Microsoft 365 Copilot in Word</i>, Legal Agent helps legal teams review and negotiate contracts more efficiently by identifying risks, comparing clauses to internal playbooks, and proposing edits using Word’s native tracked changes. This update reduces manual review time while keeping legal professionals fully in control of document workflows.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Public Preview (Frontier program, opt-in):</b><ul><li><b>Rollout start:</b> Late April 2026</li><li><b>Rollout complete:</b> Late April 2026</li></ul></li><li>Availability is for US-based tenants.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>US tenants enrolled in the <b>Frontier Public Preview</b> program</li><li>Users with a <b>Microsoft 365 Copilot license</b></li><li>Legal professionals using the <b>Word desktop app</b></li></ul><p><i>What will happen</i></p><ul><li>A new<b><i> Legal Agent </i></b>option will appear in <i>Copilot Chat in Word</i> (via the plus menu).</li><li>Users can:<ul><li>Review contracts to identify risks and non‑standard clauses</li><li>Generate negotiation‑ready redlines using Word tracked changes</li><li>Compare clauses against internal legal playbooks</li><li>Analyze specific sections for compliance with organizational standards</li><li>Receive AI‑generated responses grounded in document text with citations</li></ul></li><li>The feature is <b>available by default </b>once the tenant is enrolled in the Frontier program.</li><li>There is no separate admin or user toggle to disable Legal Agent; access is controlled through Frontier enrollment and Microsoft 365 Copilot licensing.</li><li>No separate installation is required.</li><li>To get the agent, simply restart Word.</li><li>Existing Microsoft 365 security, compliance, governance, and audit controls are respected.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>Enroll your tenant in the <a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\" target=\"_blank\">Frontier Public Preview program</a> (opt‑in required).</li><li>Confirm <b>Microsoft 365 Copilot licenses</b> are assigned to eligible users.</li><li>Review internal legal workflows that may benefit from:<ul><li>Contract and clause analysis</li><li>Playbook‑based reviews</li><li>AI‑assisted redlining</li></ul></li><li>Inform legal teams (in‑house counsel, contract managers, paralegals, legal ops) about the new capability.</li><li>Update internal documentation or helpdesk guidance if needed.</li></ul><p><i>No admin action is required beyond Frontier enrollment and licensing.</i></p><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://adoption.microsoft.com/ai-agents/agents-in-microsoft-365/\" target=\"_blank\">Agents in Microsoft 365 | AI Agents Hub | Microsoft Adoption</a></li><li><a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\" target=\"_blank\">Frontier program - Microsoft Adoption</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Legal Agent processes existing Word document content to analyze contracts, identify risks, compare clauses to internal playbooks, and propose edits. No new document data is stored outside of Microsoft 365.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?</td><td>Yes. Legal Agent introduces a new vertical‑specific agent that uses generative AI to analyze and propose edits within customer legal documents.</td></tr><tr><td>Does the change provide end users a new way of interacting with generative AI?</td><td>Yes. Users can prompt Legal Agent in Word to review agreements, analyze clauses, and generate tracked‑change redlines grounded in document text.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 introduces Legal Agent for Word, a Copilot feature for US legal professionals in the Frontier Public Preview (April 2026). It helps review contracts, identify risks, compare clauses to playbooks, and generate tracked-change edits within Word, requiring no extra installation beyond licensing and enrollment."
+      }
+    ],
+    "EndDateTime": "2026-05-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1296877",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T23:14:47.083Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T23:14:41Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Legal Agent for Word",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>We’re introducing <b>Calendar Agent capabilities in </b><i><b>Microsoft 365 Copilot</b> </i>to help users reduce meeting overload and automate routine calendar decisions. With <b>natural-language instructions</b>, users can allow Copilot to automatically accept, follow, decline, or remove canceled meetings based on rules they define. This capability builds on existing Copilot agent controls and respects current tenant compliance and governance settings, while helping users save time and stay focused.</p><p><b><b>When this will happen</b></b></p><p>Rolling out to Frontier: </p><ul><li>Rollout start:<b>&nbsp;Late April 2026</b></li><li>Rollout end: <b>Early&nbsp;May 2026</b></li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with a<b> Microsoft 365 Copilot license</b> using:<ul><li>Outlook (classic and new)</li><li>Outlook on the web</li><li>Microsoft Teams</li><li>Outlook mobile (iOS and Android)</li></ul></li><li>IT admins who manage<b> Copilot agent access and policies</b> in <i>Microsoft 365</i></li></ul><p><i>What will happen</i></p><ul><li>Calendar Agent capabilities will appear in <i>Microsoft 365 Copilot Chat </i>from calendar-related surfaces.</li><li>Users can enable agent actions by selecting <b><i>Allow Actions (Frontier)</i></b> in <i>Copilot Chat</i>.</li><li>Users can <b>create ongoing, natural-language calendar instructions</b> (for example, “<i>Always accept meetings from my manager if my calendar is free</i>”).</li><li>Calendar Agent respects each user’s<b> Outlook working hours </b>settings.</li><li>A new <b>activity history view</b> will show actions taken by Copilot, grouped by Accepted, Followed, Declined, and Deleted, with an explanation for each action.</li><li>The feature is<b> enabled by default</b> for users who have Copilot and are allowed to use agents.</li><li><b>No new admin controls </b>are introduced; existing <b>Copilot agent policies apply</b>.</li><li>Calendar Agent acts only on the signed-in user’s calendar and does not operate across mailboxes or tenants.</li></ul><p>What is not changing:</p><ul><li>Existing admin policies, permissions, retention, and compliance boundaries remain unchanged.</li><li>No changes are made to data residency, audit logging, or Purview enforcement.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required if your organization already allows Copilot agents.</li><li>Review your existing <b>Copilot agent policies</b> to confirm which users are permitted to enable agent actions.</li><li>Consider notifying helpdesk or end users that Copilot may take automated calendar actions once users enable the feature.</li><li>Update internal guidance if you document Copilot or Outlook calendar behavior.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://techcommunity.microsoft.com/blog/outlook/copilot-in-outlook-new-agentic-experiences-for-email-and-calendar/4514601\" target=\"_blank\">Copilot in Outlook: New agentic experiences for email and calendar | Outlook Blog</a></li><li><a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\" target=\"_blank\">Frontier program - Microsoft Adoption</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does this change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Calendar Agent processes existing calendar data to evaluate meetings and take user-authorized actions (accept, follow, decline, delete) based on natural-language instructions.</td></tr><tr><td>Does this change introduce or significantly modify AI/ML or agent capabilities that interact with customer data?</td><td>Yes. This change introduces Calendar Agent capabilities that use AI to evaluate calendar events and take automated actions within the signed-in user’s mailbox, subject to user consent and admin policy.</td></tr><tr><td>Does this change provide end users a new way of interacting with generative AI?</td><td>Yes. Users can define persistent, natural-language instructions that allow Copilot to take automated calendar actions on their behalf.</td></tr><tr><td>Does this change allow users to enable or disable the feature themselves?</td><td>Yes. Users explicitly enable agent actions by selecting “Allow Actions” in Copilot Chat, subject to existing admin policies.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot introduces Calendar Agent capabilities to automate calendar management via natural-language instructions, helping users accept, follow, decline, or delete meetings. Rolling out late April to early May 2026, it respects existing policies, user settings, and compliance, with no new admin controls added."
+      }
+    ],
+    "EndDateTime": "2026-06-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1296874",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T23:12:21.39Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T23:12:16Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Introducing Calendar Agent capabilities in Microsoft 365 Copilot",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>\nMicrosoft Teams is improving the call transfer experience on desktop (Windows and Mac) to make transferring calls faster and more intuitive. This update simplifies the workflow, reduces the number of steps required, and helps users quickly find the right transfer target.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561028\" target=\"_blank\">561028</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Targeted Release: We began rolling out in <b>early June 2026</b> and expect to complete by <b>early June 2026</b>.</li><li>General Availability (Worldwide): We will begin rolling out in <b>late June 2026 </b>and expect to complete by<b> late June 2026</b>.\n</li></ul><p><b><b>How this affects your organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>All Microsoft Teams users on desktop (Windows and Mac) using Teams Phone</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li><b>Transfer and Consult transfer are now separate top-level actions in the call controls.</b> Previously, both options were grouped under a single <b>Transfer </b>button that opened a dropdown menu, requiring two clicks to initiate either action. <b>Transfer </b>and <b>Consult transfer </b>buttons are now available directly in the call controls,&nbsp;reducing each to a single click.</li><p>Screenshot: <i>Teams call screen showing an active call; the call control bar at the top shows that the&nbsp;<b>Consult </b>and <b>Transfer </b>buttons are available during the call:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/3a157062-f4d1-494e-871b-f9c69150c297\" style=\"width: 400px;\" alt=\"user settings\"></p><li><b>Suggested transfer targets.</b> When a user opens the transfer dialog, they’ll see a list of suggested contacts based on their transfer history, displayed as quick-select options beneath the search bar. This helps users who frequently transfer calls to the same people quickly find the right person without searching. Suggestions are scoped to the user’s primary line and do not include transfers made on behalf of delegate or shared lines.</li><li><b>Updated default transfer behavior.</b> Based on user feedback, the default transfer type has changed from safe transfer to blind transfer. With blind transfer, the call is handed off immediately, and the user can move on without waiting for the target to answer. Previously, the default was safe transfer, which kept the call window open until the target picked up and rang back if the target did not answer. Safe transfer is still available by enabling the “Ring Back” toggle in the transfer dialog.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n<li>No admin action is required before the rollout.</li>\n<li>You may consider the following:</li>\n<ul>\n<li>Inform users about the updated call transfer experience.</li>\n<li>Update internal training materials or documentation.</li>\n<li>Prepare helpdesk teams to support user questions.</li></ul></ul><p>Learn more:&nbsp;<a href=\"https://support.microsoft.com/office/transfer-a-call-in-microsoft-teams-b7f40f14-e083-46b9-b739-68038c8f73a0\" target=\"_blank\">Transfer a call in Microsoft Teams | Microsoft Support</a>&nbsp;(will be updated before rollout)</p><ul><ul>\n</ul>\n</ul>\n\n<p><b><b>Compliance considerations:</b> </b></p><p>\nNo compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "561028"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is enhancing desktop call transfers by separating Transfer and Consult transfer into single-click buttons, adding suggested transfer targets, and changing the default to blind transfer. Rollout begins early June 2026 with no admin action needed; users should be informed and support prepared."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-07-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1296872",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T23:11:13.12Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T23:11:01Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Teams Phone call transfer improvements",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to import projects in MPP files into existing projects in Dynamics 365 Project Operations. This feature will reach general availability on May 31, 2026.<br><br><b>How does this affect me? </b><br>This feature allows users to directly import Microsoft Project desktop client (.mpp) files into an existing project. Key capabilities of this feature include:<ul><li>Set calendar hours</li><li>Set the project manager</li><li>Set schedule mode if the import process allows override</li><li>Select the source MPP file</li><li>Select the target project</li></ul><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/14045\">Import projects in MPP files into existing projects</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-06-30T22:53:00Z",
+    "HasAttachments": false,
+    "Id": "MC1296862",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T22:54:11.157Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-30T22:53:46Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Project Operations – Import projects in MPP files into existing projects",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: The API will be in Public Preview starting 05/01 and will be available to all customers. Customers must be licensed for Agent 365 in order to use the Agent 365 Graph APIs. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>Frontier (Preview):</b> Now available.&nbsp;</p><p><b>General Availability (Worldwide): </b>Rollout will begin mid-April 2026 (previously end of March) and is expected to complete by early May 2026 (previously end of February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "502875"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot introduces two new Graph APIs for admins to manage agents and apps programmatically, enabling automated reporting and integration. Available in Public Preview from May 1, 2026, with worldwide rollout by early May. No additional licenses needed; existing Microsoft 365 licenses suffice."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-06-01T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1173195",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-04-30T22:52:22.633Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-15T23:41:56Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2025-11-27T08:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated April 30, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p>To streamline data export processes and improve security, Microsoft is <b>retiring the Viva Insights export capability</b> <b>via Microsoft Graph Data Connect (MGDC)</b>. This change does not impact other export alternatives via Viva Insights.</p>\n\n<b>When this will happen</b><ul>\n<li>Onboarding of new customers and scenarios to Viva Insights export via MGDC will stop 30 days from this announcement.</li>\n<li>Existing customers will retain access to current MGDC data export pipeline until full retirement. Existing customers can access current MGDC data export pipelines until July 2026.</li>\n</ul>\n\n<b>How this affects your organization</b><p><i>Who is affected:</i> Organizations using Viva Insights export via Microsoft Graph Data Connect.</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>Starting in late&nbsp;<b>November 2025</b>, onboarding of new customers and Viva Insights datasets to MGDC will no longer be available.</li>\n<li>Existing users will retain access to current datasets until full retirement.</li>\n<li>Customers are encouraged to transition to supported export alternatives:</li>\n<ul>\n<li><b>Viva Insights Power BI Connector to Microsoft Fabric</b></li>\n<ul>\n<li>This connector allows you to export Viva Insights data into Microsoft Fabric for advanced analysis and reporting. Learn more:<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector</a></li><li>All Viva Insights query types supported: Yes</li>\n<li>Automated exports: Yes</li>\n<li>Row-level data export: Yes</li>\n<li>Charges: Yes (Fabric usage). Learn more:&nbsp;<a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric</a></li><li>&nbsp;Setup: Refer to setup steps outlined in <a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector#use-the-power-bi-connector-with-microsoft-fabric-dataflows\" target=\"_blank\">Export query data using the Power BI connector</a>.</li><li>Access query results: Refer to <a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings</a>.</li></ul><li>Flat file export option available.</li><ul><li>CSV Export</li></ul></ul></ul><p style=\"margin-left: 125px;\">Note: Customers who prefer a flat file export can use the CSV export feature. Learn more:&nbsp;<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel</a>.</p><p><b>What you can do to prepare</b></p><ul><li>If you are an existing MGDC customer, select an alternative export method.</li><li>To offboard from MGDC-based export:<ol><li>Check access to output folders from previous runs.</li><li>Stop and delete all Data Factory Copy activity pipelines.</li><li>Delete MGDC app registrations.</li><li>MGDC admin should deselect “Viva Insights” from enabled datasets:<ul><li>In <i><a href=\"https://admin.microsoft.com/adminportal\" target=\"_blank\">Microsoft 365 Admin portal</a></i>, go to <i><b>Settings &gt; Org setting</b></i>s.</li><li>Under <i>Services</i>, select <b><i>Microsoft Graph data connect</i></b>.</li><li>Deselect <i><b>Viva Insights</b></i>.</li></ul></li></ol></li></ul><p>For additional questions, raise a support ticket.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings | Data Factory | Microsoft Fabric | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric | Data Factory | Microsoft Fabric | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel - Access query results and modify existing queries | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/dynamic-metric-load\" target=\"_blank\">Export Viva Insights data using MGDC | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector | Viva Insights | Microsoft Viva | Microsoft Learn</a></li></ul><p>Compliance considerations</p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.), if so how and to what extent?</td><td>Yes. This change retires the Microsoft Graph Data Connect (MGDC) export method for Viva Insights, which alters how customers access and export their existing datasets. Customers must transition to alternative export methods such as the Power BI Connector or CSV export.</td></tr><tr><td>Does the change modify how users can access, export, delete, or correct their personal data within Microsoft 365 services (GDPR Data Subject Rights), if so summarize the changes?</td><td>Yes. The retirement of MGDC affects how users export personal data from Viva Insights. Users will need to use supported alternatives like the Power BI Connector or CSV export to access and manage their data.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage dataset access by deselecting “Viva Insights” in the Microsoft Graph Data Connect settings within the Microsoft 365 Admin Portal. This control can be scoped using Entra ID group membership.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Admins can disable the MGDC export feature by offboarding and updating settings in the Microsoft 365 Admin Portal. End users cannot enable or disable the feature directly.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is retiring the Viva Insights export via Microsoft Graph Data Connect (MGDC) by July 2026. New onboarding stops November 2025. Existing users should transition to alternatives like the Viva Insights Power BI Connector or CSV export. Admins must update settings in the Microsoft 365 Admin Portal accordingly."
+      }
+    ],
+    "EndDateTime": "2026-07-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1180889",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-04-30T22:50:43.723Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-10-27T22:46:42Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Microsoft Viva Insights: Retirement of Export via Microsoft Graph Data Connect (MGDC)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "We are announcing the ability to stay on track at every deal stage with delta-first guidance in Sales Close Agent in Dynamics 365 Sales. This feature will be available for preview on May 15, 2026.<br><br>\n<b>How does this affect me?</b><br>\nUsers will receive stage-aligned guidance and updates within opportunities, helping them focus on what has changed and what actions to take next:<ul>\n<li><b>Stage-aware guidance: </b>See insights and next actions prioritized by the current business process flow stage and substage signals, so guidance matches the selling motion. </li>\n<li><b>Delta-first updates: </b>Lead with what changed since the last review, why it matters for this stage, and the next best actions to take. </li>\n<li><b>Always-visible critical risks: </b>Keep urgent cross-stage risks visible when they require immediate attention. </li>\n<li><b>Out-of-the-box stage coverage: </b>Get built-in guidance across Qualify, Develop, Propose, and Close, with support for customer variations. </li>\n</ul>\n<b>What action do I need to take? </b><br>\nThis message is for awareness, and no action is required.",
       "ContentType": "html"
     },
@@ -586,44 +855,6 @@
       "New feature"
     ],
     "Title": "Dynamics 365 Project Operations - Implement access restrictions in Project for the web iFrame",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2025-11-27T08:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>To streamline data export processes and improve security, Microsoft is <b>retiring the Viva Insights export capability</b> <b>via Microsoft Graph Data Connect (MGDC)</b>. This change does not impact other export alternatives via Viva Insights.</p>\n\n<b>When this will happen</b><ul>\n<li>Onboarding of new customers and scenarios to Viva Insights export via MGDC will stop 30 days from this announcement.</li>\n<li>Existing customers will retain access to current MGDC data export pipeline until full retirement. Final timelines will be shared in future communications.</li>\n</ul>\n\n<b>How this affects your organization</b><p><i>Who is affected:</i> Organizations using Viva Insights export via Microsoft Graph Data Connect.</p>\n<p><i>What will happen:</i></p>\n<ul>\n<li>Starting in late&nbsp;<b>November 2025</b>, onboarding of new customers and Viva Insights datasets to MGDC will no longer be available.</li>\n<li>Existing users will retain access to current datasets until full retirement.</li>\n<li>Customers are encouraged to transition to supported export alternatives:</li>\n<ul>\n<li><b>Viva Insights Power BI Connector to Microsoft Fabric</b></li>\n<ul>\n<li>This connector allows you to export Viva Insights data into Microsoft Fabric for advanced analysis and reporting. Learn more:<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector</a></li><li>All Viva Insights query types supported: Yes</li>\n<li>Automated exports: Yes</li>\n<li>Row-level data export: Yes</li>\n<li>Charges: Yes (Fabric usage). Learn more:&nbsp;<a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric</a></li><li>&nbsp;Setup: Refer to setup steps outlined in <a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector#use-the-power-bi-connector-with-microsoft-fabric-dataflows\" target=\"_blank\">Export query data using the Power BI connector</a>.</li><li>Access query results: Refer to <a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings</a>.</li></ul><li>Flat file export option available.</li><ul><li>CSV Export</li></ul></ul></ul><p style=\"margin-left: 125px;\">Note: Customers who prefer a flat file export can use the CSV export feature. Learn more:&nbsp;<a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel</a>.</p><p><b>What you can do to prepare</b></p><ul><li>If you are an existing MGDC customer, select an alternative export method.</li><li>To offboard from MGDC-based export:<ol><li>Check access to output folders from previous runs.</li><li>Stop and delete all Data Factory Copy activity pipelines.</li><li>Delete MGDC app registrations.</li><li>MGDC admin should deselect “Viva Insights” from enabled datasets:<ul><li>In <i><a href=\"https://admin.microsoft.com/adminportal\" target=\"_blank\">Microsoft 365 Admin portal</a></i>, go to <i><b>Settings &gt; Org setting</b></i>s.</li><li>Under <i>Services</i>, select <b><i>Microsoft Graph data connect</i></b>.</li><li>Deselect <i><b>Viva Insights</b></i>.</li></ul></li></ol></li></ul><p>For additional questions, raise a support ticket.</p><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings\" target=\"_blank\">Dataflow Gen2 data destinations and managed settings | Data Factory | Microsoft Fabric | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/fabric/data-factory/pricing-dataflows-gen2\" target=\"_blank\">Dataflow Gen2 pricing for Data Factory in Microsoft Fabric | Data Factory | Microsoft Fabric | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/query-results#download-and-import-results-in-excel\" target=\"_blank\">Download and import results in Excel - Access query results and modify existing queries | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/admin/dynamic-metric-load\" target=\"_blank\">Export Viva Insights data using MGDC | Viva Insights | Microsoft Viva | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector\" target=\"_blank\">Export query data using the Power BI connector | Viva Insights | Microsoft Viva | Microsoft Learn</a></li></ul><p>Compliance considerations</p><table class=\"table table-bordered\"><tbody><tr><td>Does the change alter how existing customer data is processed, stored, or accessed (e.g. documents, emails, chats, etc.), if so how and to what extent?</td><td>Yes. This change retires the Microsoft Graph Data Connect (MGDC) export method for Viva Insights, which alters how customers access and export their existing datasets. Customers must transition to alternative export methods such as the Power BI Connector or CSV export.</td></tr><tr><td>Does the change modify how users can access, export, delete, or correct their personal data within Microsoft 365 services (GDPR Data Subject Rights), if so summarize the changes?</td><td>Yes. The retirement of MGDC affects how users export personal data from Viva Insights. Users will need to use supported alternatives like the Power BI Connector or CSV export to access and manage their data.</td></tr><tr><td>Does the change include an admin control and, can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage dataset access by deselecting “Viva Insights” in the Microsoft Graph Data Connect settings within the Microsoft 365 Admin Portal. This control can be scoped using Entra ID group membership.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>Yes. Admins can disable the MGDC export feature by offboarding and updating settings in the Microsoft 365 Admin Portal. End users cannot enable or disable the feature directly.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft is retiring Viva Insights export via Microsoft Graph Data Connect (MGDC). New onboarding stops 30 days after the announcement; existing users keep access until full retirement, starting late November 2025. Customers should switch to the Power BI Connector to Microsoft Fabric or CSV export. Admins must update settings in the Microsoft 365 Admin Portal."
-      }
-    ],
-    "EndDateTime": "2026-07-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1180889",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-30T17:57:43.85Z",
-    "Services": [
-      "Microsoft Viva"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-27T22:46:42Z",
-    "Tags": [
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "Microsoft Viva Insights: Retirement of Export via Microsoft Graph Data Connect (MGDC)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10401,53 +10632,6 @@
       "Retirement"
     ],
     "Title": "Retirement of -Credential parameter when connecting to Exchange Online PowerShell",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated March 31, 2026: This feature is now available in Frontier. Thank you for your patience.</p><p><b><b>Introduction</b></b>\n</p><p>We are introducing two new <b>Microsoft Graph APIs</b> that enable admins to programmatically access and manage agents and apps within their organization. These APIs provide greater flexibility for reporting and integration scenarios without relying on manual UI workflows.</p><p>\nThis message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com//microsoft-365/roadmap?filters=&amp;searchterms=502875\" target=\"_blank\">502875</a>.</p>\n\n<p><b><b>When this will happen:</b></b><b>\n</b></p><p><b>Frontier (Preview):</b> Now available.&nbsp;</p><p><b>General Availability (Worldwide): </b>Rollout will begin mid-April 2026 (previously end of March) and is expected to complete by early May 2026 (previously end of February).</p>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>\nAdmins managing Copilot agents and apps within Microsoft 365 environments.\n</p><p><b>What will happen:</b>\n</p><ul>\n<li>New Graph API endpoints will be available:<ul><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages</b> – Retrieves a complete inventory of all agents and apps (Microsoft, External, Shared, and Custom).</li><li><b>GET graph.microsoft.com/copilot/admin/catalog/packages/{id} </b>– Fetches detailed metadata for a specific agent or app, including properties and manifest details.</li></ul></li></ul><ul>\n<li>These APIs allow for automated reporting and integration workflows.</li>\n<li>No changes to existing UI workflows or admin policies.</li><li>These Graph API endpoints are available to users with an existing Microsoft 365 license; no additional license or add-on is required.</li>\n</ul><ul>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>Review the <a href=\"https://learn.microsoft.com/graph/api/overview\">Microsoft Graph API documentation</a> to familiarize yourself with usage and capabilities at this time.</li>\n</ul>\n<p></p>\n\n<p><b><b>Compliance considerations:</b></b>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "502875"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot now offers two new Graph API endpoints for admins to programmatically manage agents and apps, enabling automated reporting and integration without UI changes. Available in Frontier preview and rolling out globally by May 2026, these APIs require no extra licenses."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-06-01T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1173195",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-03-31T17:24:04.57Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-10-15T23:41:56Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Graph APIs for agent and app management",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
