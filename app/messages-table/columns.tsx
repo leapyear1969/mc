@@ -1,8 +1,15 @@
 "use client"
 
-import { Badge } from "@/components/ui/badge"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { ColumnDef } from "@tanstack/react-table"
+import { Inbox, Milestone } from "lucide-react"
+
+import { Badge } from "@/components/ui/badge"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 export type MessageView = {
   id: string
@@ -10,21 +17,46 @@ export type MessageView = {
   service: string[] | undefined
   lastUpdated: string | undefined
   isMajor: boolean
+  isArchived: boolean
+  source: "messageCenter" | "roadmap"
+  sourceLabel: string
 }
 
 export const columns: ColumnDef<MessageView>[] = [
   {
     accessorKey: "id",
     header: ({ column }) => {
-      return (
-        <div>ID</div>
-      )
+      return <div>ID</div>
     },
     cell: ({ row }) => {
+      const SourceIcon = row.original.source === "roadmap" ? Milestone : Inbox
+
       return (
         <div className="flex items-center gap-2">
-          <span className="text-nowrap">{row.original.id}</span>
-          {(row.original.isMajor &&
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <span className="inline-flex text-muted-foreground">
+                  <SourceIcon size={16} aria-label={row.original.sourceLabel} />
+                </span>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>{row.original.sourceLabel}</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+          <span className="text-nowrap font-medium text-foreground/85">
+            {row.original.id}
+          </span>
+          {row.original.isArchived && (
+            <Badge
+              variant="outline"
+              className="text-nowrap text-xs text-muted-foreground"
+            >
+              Expired
+            </Badge>
+          )}
+          {row.original.isMajor && (
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
@@ -38,27 +70,25 @@ export const columns: ColumnDef<MessageView>[] = [
           )}
         </div>
       )
-    }
+    },
   },
   {
     accessorKey: "title",
     header: ({ column }) => {
-      return (<div>Title</div>)
+      return <div>Title</div>
     },
     cell: ({ row }) => {
       return (
-        <div className="w-full">{row.original.title}</div>
+        <div className="w-full whitespace-normal break-words leading-7 text-foreground/90">
+          {row.original.title}
+        </div>
       )
     },
   },
   {
     accessorKey: "service",
     header: ({ column }) => {
-      return (
-        <div className="text-center">
-            Service
-        </div>
-      )
+      return <div className="text-center">Service</div>
     },
     cell: ({ row }) => {
       return (
@@ -70,21 +100,19 @@ export const columns: ColumnDef<MessageView>[] = [
           ))}
         </div>
       )
-    }
+    },
   },
   {
     accessorKey: "lastUpdated",
     header: ({ column }) => {
-      return (
-        <div className="text-nowrap">
-          Last updated
-        </div>
-      )
+      return <div className="text-nowrap">Last updated</div>
     },
     cell: ({ row }) => {
       return (
-        <span className="text-nowrap">{row.original.lastUpdated}</span>
+        <span className="text-nowrap text-foreground/75">
+          {row.original.lastUpdated}
+        </span>
       )
     },
-  }
+  },
 ]

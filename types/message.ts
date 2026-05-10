@@ -5,13 +5,14 @@ export interface Message {
     Body?: Body;
     Category?: string;
     Details?: Detail[];
-    EndDateTime?: string;
+    EndDateTime?: string | null;
     HasAttachments?: boolean;
     Id: string;
     IsMajorChange?: boolean;
     LastModifiedDateTime?: string;
     Services?: string[];
     Severity?: string;
+    Source?: MessageSource | string;
     StartDateTime?: string;
     Tags?: string[];
     Title: string;
@@ -25,6 +26,7 @@ export interface AdditionalProperties {
 export interface Body {
     Content?: string;
     ContentType?: string;
+    Markdown?: string;
 }
 
 export enum ContentType {
@@ -43,12 +45,22 @@ export interface Detail {
 
 export enum Name {
     BlogLink = "BlogLink",
+    CloudInstances = "CloudInstances",
     ExternalLink = "ExternalLink",
     FeatureStatusJSON = "FeatureStatusJson",
     HelpLink = "HelpLink",
     Platforms = "Platforms",
+    ReleasePhase = "ReleasePhase",
     RoadmapIDS = "RoadmapIds",
+    RoadmapLink = "RoadmapLink",
+    SourceId = "SourceId",
+    Status = "Status",
     Summary = "Summary",
+}
+
+export enum MessageSource {
+    MessageCenter = "messageCenter",
+    Roadmap = "roadmap",
 }
 
 export enum Service {
@@ -92,4 +104,27 @@ export interface ViewPoint {
     IsArchived?: null;
     IsFavorited?: null;
     IsRead?: null;
+}
+
+export interface MessageArchive {
+    Id: string;
+    Title: string;
+    Services?: string[];
+    StartDateTime?: string;
+    EndDateTime?: string | null;
+    LastModifiedDateTime?: string;
+    IsMajorChange?: boolean;
+    Category?: string;
+}
+
+export interface MessageVersion {
+    capturedAt: string;          // ISO timestamp; LastModifiedDateTime if present, else commit author date
+    source: "git" | "ingest";    // origin of the snapshot
+    sha?: string;                // git commit SHA when source === "git"
+    message: Message;            // full message snapshot at this point
+}
+
+export interface MessageHistory {
+    id: string;
+    versions: MessageVersion[];  // chronological asc; last entry is latest
 }
