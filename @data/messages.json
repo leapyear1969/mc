@@ -4,6 +4,100 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated May 28, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is introducing <b>Efficiency Mode</b>, a performance-optimized experience designed for hardware-constrained devices. This change improves app responsiveness and meeting quality by adjusting resource usage based on device capabilities.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop and is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=560055\" target=\"_blank\">560055</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Worldwide):</b> Rollout begins in <b>late May 2026</b> (previously&nbsp;early May)<b>&nbsp;</b>and is expected to complete by<b>&nbsp;end of May 2026 </b>(previously mid-May).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users running Microsoft Teams on <b>hardware‑constrained devices</b> (for example, devices with limited CPU, memory)</li></ul><p><b>What will happen:</b></p>\n<ul>\n  <li>Efficiency Mode is <b>enabled by default</b> on eligible devices.</li>\n  <li>An <b>Efficiency Mode indicator</b> appears in the Teams app title bar.\n</li>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b34526e1-b993-42d8-8501-3b0b5568780b\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <li>When enabled:\n    <ul>\n      <li>Video resolution sent from the user’s camera is <b>dynamically adjusted</b> in meetings.</li>\n      <li>The app launches <b>without a pre-selected chat</b> and shows a static image in the message pane.</li>\n    </ul>\n  </li>\n  <li>Users can <b>opt out</b> via <b>Settings </b>&gt; <b>General </b>&gt; “<b>Never use efficiency mode</b>.”</li><li>To align with the new standardized approach of how indicators are displayed in the title bar, for VDI users the “Optimized” pill is replaced with the new icon.\n</li>\n<p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/b0335faa-7c16-4054-ac0a-fa956bc55baa\" style=\"width: 400px;\" alt=\"user settings\"></p>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if the default behavior works for your organization.</li><li>Consider informing helpdesk teams about the new mode and opt-out option.</li>\n  <li>Update internal documentation if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>Users can enable or disable the feature themselves. No other compliance considerations were identified.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "560055"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will roll out Efficiency Mode by late May 2026, improving performance on hardware-constrained devices by adjusting video resolution and app behavior. Enabled by default, users can opt out in settings. No action is required unless customization or helpdesk updates are needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-06-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1287373",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-05-28T23:54:22.3Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-21T22:53:11Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams introduces efficiency mode to improve app responsiveness",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why</b></b></p><p>Microsoft Purview Data Lifecycle Management is introducing the ability to archive OneDrive and SharePoint files based on retention policies. This feature helps organizations reduce storage costs by moving inactive content to <b>Microsoft 365 Archive</b> while maintaining compliance and discoverability. By excluding archived content from Copilot indexing, organizations can also improve the relevance and quality of Copilot responses, ensuring users focus on current, active data.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561208\" target=\"_blank\">561208</a></b>.</p><p><b><b>Rollout Schedule</b></b></p><p><b>General Availability (Worldwide): </b>Rollout will begin in<b> late June 2026</b> and is expected to complete by <b>mid-July 2026</b>.</p><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins managing Microsoft Purview Data Lifecycle Management</li><li>Organizations using retention policies in SharePoint Online and OneDrive</li></ul><p>Platforms/Services<i>Platforms/Services</i><i></i></p><ul><li>Microsoft Purview (Data Lifecycle Management)</li><li>SharePoint Online</li><li>OneDrive for Business</li><li>Microsoft 365 Archive</li><li>Microsoft Copilot</li></ul><p><i>What will happen</i></p><ul><li>A new Archive option will be available within retention policy settings in<i> Data Lifecycle Management</i>.</li><li>Admins can configure retention policies to move inactive files to Microsoft 365 Archive storage.</li><li>Archived files remain available for compliance scenarios, including eDiscovery.</li><li>Archived content will be excluded from Copilot indexing, helping improve answer relevance.</li><li>This feature is <b>not enabled by default and requires admin configuration</b>.</li><li>Existing retention policies and compliance configurations remain unchanged unless updated by admins.<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/eae47258-a343-4a8a-82e0-3272e67210cb/847f4fb4901c57ad9a2a93ee30d153470863406e.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li></ul><p><b><b>Action Required / Recommendations</b></b></p><p>No immediate action is required.</p><p>To prepare and take advantage of this feature:</p><ul><li>Review your current retention policies in Microsoft Purview Data Lifecycle Management.</li><li>Evaluate opportunities to reduce storage costs by archiving inactive content.</li><li>Update retention policies to include the new Archive option where appropriate.</li><li>Inform compliance and records management stakeholders about this new capability.</li><li>Review internal documentation and processes related to data lifecycle and storage optimization.</li></ul><p><b><b>Compliance Considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change store new customer data?</td><td>Yes. Archived files are stored in Microsoft 365 Archive (low-cost storage tier).</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Files meeting retention criteria can be moved from active storage to archive storage while remaining discoverable.</td></tr><tr><td>Does the change introduce or modify AI/ML capabilities interacting with data?</td><td>Yes. Archived content is excluded from Copilot indexing, influencing how Copilot processes and retrieves organizational data.</td></tr><tr><td>Does the change modify Purview retention policies or workflows?</td><td>Yes. Adds a new Archive action within retention policy configuration in Data Lifecycle Management.</td></tr><tr><td>Does the change affect eDiscovery or Content Search?</td><td>Yes. Archived content remains discoverable for compliance workflows such as eDiscovery.</td></tr><tr><td>Does the change include an admin control?</td><td>Yes. Admins configure and enable the feature through retention policy settings in Purview.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "561208"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Data Lifecycle Management will enable archiving OneDrive and SharePoint files under retention policies to reduce storage costs by moving inactive content to Microsoft 365 Archive. Archived files remain compliant and discoverable but are excluded from Copilot indexing. The feature requires admin setup and rolls out worldwide from late June to mid-July 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1325441",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-05-28T22:04:45.02Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-05-28T22:04:22Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing updates to the Microsoft 365 Copilot app that deliver a more streamlined, chat-centered experience. These updates simplify the chat and response layout, improve navigation, and introduce new ways for users to organize work—helping them stay focused, maintain context, and move work forward efficiently.</p><p><b><b>When this will happen</b></b></p><ul><li>Frontier: Late May 2026&nbsp;</li><li>Generally available behind opt-in toggle: June  2026&nbsp;</li><li>Generally available, default on: July 2026&nbsp;</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All users accessing the <b>Microsoft 365 Copilot app on the web or desktop</b></li><li>Applies to <b>Microsoft 365 Copilot (Premium) </b>and <b>Copilot Chat (Basic) tenants</b></li></ul><p><i>What will happen</i></p><p>Throughout the Copilot app, experiences have a new, cleaner look with simplified headers and text input components. In addition, users will see the following updates:</p><p><u>Streamlined navigation</u></p><ul><li>The navigation pane has a new pinned section where users can pin frequently used agents, apps, and Copilot experiences (like Notebooks, Microsoft 365 apps, chat conversations, etc.) directly in the navigation pane for easy access.&nbsp;</li><li>The app launcher moves to the waffle menu in the top right of the expanded navigation pane where users can access apps and experiences like Create, Notebooks, Outlook, Teams, Word, Excel, PowerPoint, and custom apps. Some users in an early test group may have already seen this change roll out a few weeks prior.&nbsp;</li><li>The agents section in the navigation pane is simplified to a flyout menu, where users can hover over to see their pinned and recently used agents, as well as access agent store and agent builder. Users can also select the agents label to open the agent store directly.</li><li>The new Tasks tab in the navigation pane opens a consolidated view of the user’s long-running Copilot activity, including scheduled chats and agent activity, so they can easily track autonomous Copilot tasks and take action when needed.&nbsp;</li><li>Users can collapse the Copilot app navigation pane by selecting the icon in the top left corner of the pane (\"collapse navigation\" text string appears when the user hovers over the icon).</li></ul><p><u style=\"\">Chat update</u></p><ul><li>Work and web grounding controls are consolidated into a single “Work IQ” toggle in the upper-left corner of the chat screen. Work IQ is enabled by default and combines enterprise data with web grounding to provide more complete responses. Users can turn off Work IQ to disable enterprise data tools and switch to web-only grounding. When Work IQ is turned off, prompt suggestions and the CIQ menu are limited to web-based suggestions, and the Sources menu is disabled. Agents continue to function as usual.</li><li>The Copilot Chat layout has been simplified with a rich prompting canvas that preserves formatting when pasting content, refreshed prompt suggestions and header text, and a streamlined menu for adding content, agents, and images.</li><li>Copilot Chat response's structure is clearer for more scannable information, citations, and more relevant suggested actions.&nbsp;</li></ul><p><u>Agent update</u></p><ul><li>When a user opens an agent from the agent flyout menu in the navigation pane or from the Agent Store and lands on the agent home screen, they will see details about where the agent came from, including a profile card of the agent maker and tooltips alongside the organization name. The ghost text in the agent chat input includes the agent’s name to clearly show that the interaction is with the agent.&nbsp;</li></ul><p><b>These updates will roll out to all Microsoft 365 users with access to the Copilot app.&nbsp;</b></p><p><u>Default behavior</u></p><ul><li>When these updates roll out to Frontier users, the new experience will be their default experience. This allows Microsoft to generate sufficient feedback to inform decisions impacting full GA deployment.&nbsp;</li><li>When these updates roll out to worldwide users in June, the new experience will be available via an opt-in toggle. The experience will be disabled by default.&nbsp;</li><li>In July, these features will become available by default for all users. The opt-in toggle will be removed at this time.&nbsp; </li></ul><p><i>Screenshot 1 - Microsoft 365 Copilot app home screen view:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/4af236c2-078e-49ac-84ea-1a1ee96321e1/c15a379e4310dc27b861ad152a023f6cadd3ec2f.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>\n</i></p><p><i></i></p><p><i>Screenshot 2 - Microsoft 365 Copilot app home screen with expanded navigation view:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/d5fdb67d-3c9e-4f2c-9dd1-e895fb2981b3/7fd1d6c714f20a57caa55c2f8f1e8e0d380afa64.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i></i></p><p><i>Screenshot 3 - Chat response in Copilot app view:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/3001ef3a-ed55-4b75-bd39-4df7cc58f2e8/d208df22c6b41041f9bb9f418763efb269688300.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p></p><p><b><b>What you can do to prepare</b></b></p><p>No action is required to enable this change.</p><p>To prepare for these changes, we recommend that administrators:</p><ul><li>Inform users about the updated Copilot app experience&nbsp;</li><li>Share updated Microsoft support documentation (https://support.microsoft.com/Microsoft-365-Copilot/what-is-the-microsoft-365-copilot-app) with users when it has been updated with the new experience in June (aligned to when the updates roll out to general audiences).&nbsp;</li><li>If applicable, update internal guidance and training materials to reflect changes to navigation, chat experience, and where users access key capabilities.&nbsp;</li><li>If participating in preview programs (e.g., Frontier), validate the experience in your environment and provide feedback to help shape final GA&nbsp;</li></ul><p><b>Learn more:</b> </p><ul><li><a href=\"https://aka.ms/designing-copilot-for-work\" target=\"_blank\">Announcement - Microsoft 365 Blog</a></li></ul><p><b><b>Compliance considerations</b></b></p><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Consideration</th>\n      <th>Impact</th>\n      <th>Notes</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td></td><td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Changes how data is processed/accessed</td>\n      <td>Yes</td>\n      <td>Expanded use of Copilot across chats, agents, and workspaces</td>\n    </tr>\n    <tr>\n      <td>Introduces/modifies AI/ML interactions</td>\n      <td>Yes</td>\n      <td>Increased agent orchestration and chat-based workflows</td>\n    </tr>\n    <tr>\n      <td></td><td></td><td></td>\n    </tr>\n    <tr>\n      <td>New generative AI interactions</td>\n      <td>Yes</td>\n      <td>Deeper chat-centric creation and agent-driven actions</td>\n    </tr>\n   \n  </tbody>\n</table><p><b></b></p>",
       "ContentType": "html"
     },
@@ -4759,53 +4853,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Viva Copilot Analytics: Daily Copilot usage snapshot with fresh data",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated May 19, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams is introducing <b>Efficiency Mode</b>, a performance-optimized experience designed for hardware-constrained devices. This change improves app responsiveness and meeting quality by adjusting resource usage based on device capabilities.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop and is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=560055\" target=\"_blank\">560055</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<p><b>General Availability (Worldwide):</b> Rollout begins in <b>late May 2026</b> (previously&nbsp;early May)<b>&nbsp;</b>and is expected to complete by<b>&nbsp;end of May 2026 </b>(previously mid-May).</p>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Users running Microsoft Teams on <b>hardware‑constrained devices</b> (for example, devices with limited CPU, memory)</li><li><b><br></b></li><li><b>What will happen:</b></li></ul>\n<ul>\n  <li>Efficiency Mode is <b>enabled by default </b>on eligible devices.</li>\n  <li>An <b>Efficiency Mode indicator</b> appears in the Teams app title bar.</li>\n  <li>When enabled:\n    <ul>\n      <li>Video resolution sent from the user’s camera is <b>dynamically adjusted</b> in meetings.</li>\n      <li>The app launches <b>without a pre-selected chat</b> and shows a static image in the message pane.</li>\n    </ul>\n  </li>\n  <li>Users can <b>opt out</b> via <b>Settings </b>&gt; <b>General </b>&gt; “<b>Never use efficiency mode</b>.”</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No action is required if the default behavior works for your organization.</li><li>Consider informing helpdesk teams about the new mode and opt-out option.</li>\n  <li>Update internal documentation if applicable.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<p>Users can enable or disable the feature themselves. No other compliance considerations were identified.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "560055"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will roll out Efficiency Mode by late May 2026 to improve performance on hardware-constrained devices. Enabled by default, it adjusts video resolution and app behavior to enhance responsiveness. Users can opt out via settings. No action is needed unless customization is desired."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-06-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1287373",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-05-19T16:25:28.7Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-21T22:53:11Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams introduces efficiency mode to improve app responsiveness",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -14130,7 +14177,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5359324Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535933Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5359324Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535933Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
