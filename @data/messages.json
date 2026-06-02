@@ -4,6 +4,444 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated June 1, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are introducing a new handoff experience that allows users to take content created in Copilot Pages and seamlessly continue authoring as a SharePoint news post. This update helps users move from ideation to publishing more efficiently.</p><p><b><b>When this will happen:</b></b></p><p><b>General Availability (Worldwide, GCC):</b> We will begin rolling out in <b>September 2026</b> (previously&nbsp;late May)&nbsp;and expect to complete by <b>end of September 2026</b> (previously&nbsp;mid-June).</p><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected:</b></p><ul><li>Users who create content in Copilot Pages and publish SharePoint News</li><li>Organizations using Microsoft 365 Copilot with SharePoint Online</li></ul><p><b>What will happen:</b></p><p></p><ul><li>Users can move content from Copilot Pages directly into a SharePoint News post.</li><li>A new <b>SharePoint </b>option will appear under the <b>Create </b>button in Copilot Pages:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/352bdbb5-6e50-4928-89b7-be0a18895a6f/b6f4075353c86e3ab8b15d19407429dfbaaff981.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Selecting SharePoint opens the content in SharePoint News for continued editing and publishing.</li><li>The feature is <b>enabled by default</b>.</li><li>Existing SharePoint permissions, policies, and governance controls are respected.</li><li>There is no disruption to existing SharePoint News workflows.</li></ul><p><b><b>What you can do to prepare</b></b></p><p></p><no action=\"\" is=\"\" required.<ul=\"\"><li>Inform users who regularly publish SharePoint News about the new Copilot Pages handoff.</li><li>Update internal documentation or training materials if you reference Copilot or SharePoint authoring workflows.</li><li>Review SharePoint News governance and permissions to ensure they align with your organization’s publishing practices.</li><li><br></li><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p></no>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting September 2026, users can directly transfer content from Microsoft 365 Copilot Pages to SharePoint News posts for seamless editing and publishing. This feature, enabled by default, respects existing permissions and workflows. No action is required, but organizations should inform users and review governance accordingly."
+      }
+    ],
+    "EndDateTime": "2026-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1239186",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-06-01T23:47:52.913Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-26T00:27:29Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Turn Copilot Pages into SharePoint News posts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>To help organizations manage SharePoint storage more flexibly and avoid over-provisioning, Microsoft is introducing a <b>pay-as-you-go, consumption-based billing model for SharePoint storage overages</b>. This option allows you to pay only for the additional storage you actually use, rather than pre-purchasing extra capacity. The experience integrates with Microsoft 365 Archive and helps align storage costs with real usage.</p>\n\n<p>This change is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=506743\" target=\"_blank\">506743</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Public Preview (Worldwide): We will begin rolling out in <b>early June 2026</b> and expect to complete by <b>mid-June 2026.</b></li><li>We will update this message with General Availability (GA) details as they become available.</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Microsoft 365 administrators managing <b>SharePoint Online storage</b></li><li><b>Note: </b>This feature isn’t currently available to education tenants. Let us know if you’d like it to be supported in the future.</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Admins can <b>enable pay-as-you-go SharePoint storage billing</b> in the Microsoft 365 admin center.</li>\n  <li>Storage used above the included tenant quota will be automatically billed based on consumption.</li>\n  <li>There is no impact to users.</li>\n  <li>The existing<b> Office 365 Extra File Storage</b> add‑on remains available if you prefer to <b>manually increase your storage quota</b> instead.</li><li>The feature is <b>opt-in</b> and<b> off by default</b>.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p>\n<ul>\n  <li>No immediate action is required. However, we recommend the following:</li>\n<li>Review your tenant’s current SharePoint storage usage in the <b>SharePoint admin center</b> &gt; <b>Active sites</b>.</li><li>Evaluate whether a <b>consumption‑based model</b> or <b>manually purchased storage</b> best fits your organization’s cost and governance preferences.</li><li>If you plan to enable pay‑as‑you‑go billing:<ul><li>Ensure the appropriate <b>Azure subscription and billing permissions</b> are in place.</li><li>Update internal documentation or cost‑management processes as needed.</li></ul></li><li>Share this information with finance or procurement teams if they track usage‑based charges.</li></ul>\n\n<p>Learn more:<a href=\"https://learn.microsoft.com/microsoft-365/commerce/add-storage-space?view=o365-worldwide\"> Add more SharePoint storage to your subscription | Microsoft Learn</a></p>\n\n<p><b><b>Compliance considerations</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th align=\"left\">Compliance area</th>\n    <th align=\"left\">Impact and explanation</th>\n  </tr>\n  <tr>\n    <td>Admin monitoring and reporting</td>\n    <td>SharePoint storage usage above the included tenant quota will be reflected in consumption-based billing and usage reports, which may affect how admins monitor and track storage consumption and costs.</td>\n  </tr>\n  <tr>\n    <td>Admin control</td>\n    <td>Administrators must explicitly enable</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "506743"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft will introduce a pay-as-you-go billing model for SharePoint storage overages starting early June 2026. Admins can opt in to pay only for extra storage used beyond the included quota, with no user impact. Education tenants are excluded, and manual storage purchase remains available."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-07-16T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330893",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:26:36.417Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:26:28Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Pay-as-you-go consumption-based meter for your extra SharePoint storage needs",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Expected with Intune's June (2606) service release, we are making an update to the Microsoft Intune admin center to streamline where admins configure Microsoft 365 Apps policy settings. Currently, the same policy configuration experience is available in both the Microsoft Intune admin center (Apps &gt; Policies for Microsoft 365 apps) and the <a href=\"https://config.office.com/officeSettings/officePolicies\" target=\"_blank\">Microsoft 365 Apps admin center</a> (Customization &gt; Policy management). To provide a more consistent and centralized management experience, we will remove the ability to configure these policies in the Intune admin center. Instead, the page will be updated to provide a direct link to the Microsoft 365 Apps admin center where this functionality will continue to be available.</p><p><b>How this will affect your organization:</b>\n</p><p>If you are accustomed to creating or editing Microsoft 365 Apps policies directly within the Intune admin center, you will need to use the Microsoft 365 Apps admin center to perform these tasks.</p><p><b>Important</b>: There is no change to configured policies, functionality, or the configuration experience, the user interface is identical to the existing experience in the Intune admin center. Additionally, there is no change to the required roles or permissions needed to create or manage policies.\n</p><p><b>What you need to do to prepare:</b>\n</p><p>Update your IT admin guidance and documentation as needed. No additional action is required to retain existing policy functionality.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting with Intune's June (2606) release, Microsoft 365 Apps policy settings will only be configurable in the Microsoft 365 Apps admin center, not in the Intune admin center. Existing policies and functionality remain unchanged; update admin guidance accordingly."
+      }
+    ],
+    "EndDateTime": "2026-07-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330892",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:26:09.4Z",
+    "Services": [
+      "Microsoft Intune"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:25:53Z",
+    "Tags": [
+      "Admin impact"
+    ],
+    "Title": "Plan for Change: Configure Microsoft 365 Apps policy settings in the Microsoft 365 Apps admin center",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p><p>Microsoft Teams is expanding breakout room capacity to support larger meetings. With this update, breakout rooms can be used in meetings with up to 1,000 attendees, allowing organizers to run large meetings while still enabling smaller group collaboration. This change removes the need to limit meeting size in order to use breakout rooms.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=560320#Roadmap\" target=\"_blank\">560320</a></b>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>Targeted Release:</b> Rollout begins in<b> early July 2026</b> and is expected to complete by<b> late July 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD): </b>Rollout begins in<b> July&nbsp;2026</b> and is expected to complete by<b> late July 2026</b>.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Meeting organizers and participants using <b>Microsoft Teams</b></li><li>Microsoft 365 tenants</li></ul><p><i>What will happen</i></p><ul><li>Breakout rooms will be supported in meetings with<b> up to 1,000 attendees</b>.</li><li>Organizers can create <b>up to 200 breakout rooms per meeting</b>.</li><li>Organizers <b>no longer need to limit meeting size</b> to enable breakout rooms.</li><li>The feature is <b>enabled by default </b>and respects existing Teams meeting policies.</li><li>There is no change to the breakout room experience for meetings under the previous 300‑attendee limit.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No action is required.</li><li>Consider informing meeting organizers and training owners about the expanded breakout room capacity.</li><li>Update any internal guidance or training materials that reference breakout room attendee limits.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "560320"
+      },
+      {
+        "Name": "FeatureStatusJson",
+        "Value": "{\"560320\":[{\"RoadmapId\":560320,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-06-02T03:37:05.5703928Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560320,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-06-02T03:37:05.5703931Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560320,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-06-02T03:37:05.5703932Z\",\"LatestRing\":\"StandardRelease\"}]}"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will support breakout rooms in meetings with up to 1,000 attendees, allowing up to 200 breakout rooms per meeting. This feature, enabled by default, removes previous attendee limits and rolls out globally in July 2026. No action is required, but informing organizers is recommended."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330891",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:25:27.723Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:25:12Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Breakout rooms now supported in meetings with up to 1,000 attendees",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>Introduction</b></b></p>\n<p>\nTo improve endpoint performance and focus on higher-value network telemetry, Microsoft is removing\n<b>SMB signature inspection events</b> from Advanced Hunting in Microsoft Defender for Endpoint.\nThis change reflects observed low customer value for SMB signature data on endpoints and our continued\ninvestment in more advanced SMB visibility through <b>Zeek-based network capabilities</b>.&nbsp;</p>\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n  </ul><p>The rollout to Worldwide, GCC, GCC High, and DoD will begin on <b>July 1, 2026</b>, and will complete shortly thereafter across all tenants.</p>\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Security administrators and analysts using <b>Microsoft Defender for Endpoint Advanced Hunting</b></li>\n  <li>Organizations with <b>custom detection rules, hunting queries, scheduled queries, or automated workflows</b> that reference SMB signature inspection events</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Events with <code>ActionType = “NetworkSignatureInspected”</code><b></b> and <code>SignatureName = “SMB_Client”</code><b></b> will no longer be generated.</li>\n  <li>Queries, detections, or workflows that rely on these events will stop returning results after the rollout.</li>\n  <li>Other network signature inspection events remain unchanged.</li>\n  <li>The change is <b>on by default</b> and does not require tenant configuration.</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>To continue identifying SMB traffic in Advanced Hunting, we recommend filtering on <b>port 445</b>, the standard port used by SMB, in the <code>DeviceNetworkEvents</code> table, which remains fully supported.</p>\n<ul>\n  <li>Review custom detection rules, saved hunting queries, scheduled queries, and automated workflows for references to <code>SMB_Client</code><b></b>.</li>\n  <li>Update affected queries to identify SMB traffic using port-based filtering.</li>\n  <li>Validate updated queries return the expected results before <b>July 1, 2026</b>.</li>\n</ul>\n\n<p><b>Query update example</b></p>\n\n<p><b>Replace:</b></p>\n<pre><code>\nDeviceNetworkEvents\n| where ActionType == \"NetworkSignatureInspected\"\n| extend SignatureName = tostring(parse_json(AdditionalFields).SignatureName)\n| where SignatureName == \"SMB_Client\"\n</code></pre>\n\n<p><b>With:</b></p>\n<pre><code>\nDeviceNetworkEvents\n| where RemotePort == 445 or LocalPort == 445\n</code></pre>\n\n<p>\nFor questions or feedback regarding this change, contact <b>Microsoft Support</b> or your\n<b>Microsoft account representative</b>.\n</p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<ul>\n  <li><b>Admin monitoring and reporting:</b>&nbsp;The removal of SMB signature inspection events changes available Advanced Hunting telemetry and may affect how administrators monitor or investigate SMB activity.</li>\n</ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Endpoint will remove SMB signature inspection events from Advanced Hunting starting July 1, 2026, due to low customer value. Users must update queries referencing SMB_Client to filter on port 445 instead. Other network signature events remain unchanged; no tenant action is required to enable this change."
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330888",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-06-01T23:24:30.057Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:24:13Z",
+    "Tags": [
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "Upcoming change to Microsoft Defender for Endpoint Advanced Hunting: removal of SMB signature data",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why</b></b></p><p>We are introducing an <b>enhanced bookable desk experience for Microsoft Teams panel based desk devices</b>, such as <b>Logi Dock Flex</b>&nbsp;and the upcoming <b>Yealink Linkhub</b>. This update enables users to view at-a-glance desk availability and for visitors to reserve desks directly from the device, improving flexibility and productivity in hybrid work environments. Each device<b> </b>requires a <b>Teams Shared Space</b> <b>license</b>.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561031\" target=\"_blank\">561031</a></b>.</p><p><b><b>Rollout Schedule</b></b></p><p style=\"margin-left: 25px;\"><b>General Availability (Worldwide):</b> Rollout will begin in<b> early July 2026</b> and is expected to complete by<b> mid-July 2026</b>.</p><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizations using<b> Microsoft Teams panel based desk devices </b>(for example, <b>Logi Dock Flex</b>).</li></ul><p><i>Platforms/Services</i></p><ul><li><b>Microsoft Teams</b></li><li>Teams panels based desk devices</li><li><b>Android</b> (Teams panel devices)</li><li>Requires <b>Teams Shared Space license</b></li></ul><p><i>What will happen</i></p><p>After the Teams app update, device's user experience will directly reference desk booking and ask users to connect their laptop with the Teams app running to make a desk reservation.</p><p>&nbsp;<img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e8798386-2752-467e-af3b-7433597d744e/b3e6b28493a0c381070ce8b536ea4a661b5cae85.png\" style=\"width: 400px;\" alt=\"user settings\"></p><ul><li>Users will be able to:<ul><li>View desk availability directly on supported devices.</li><li>Reserve desks directly from the device interface when they are visitors that do not have an account on the tenant.</li></ul></li><li>Devices will prompt users to connect their laptop running the Teams app to do desk reservations or to check-in to a reservation.</li><li>The updated experience will be available automatically after the Teams app update on supported Android-based devices.</li><li>Existing licensing requirements apply (<b>Teams Shared Space license required per device</b>).</li><li><b>No new admin configuration </b>is introduced for this change.</li></ul><p><b><b>Action Required / Recommendations</b></b></p><p><b>No action is required.</b></p><p>We recommend that you:</p><ul><li>Identify Teams panel-based desk devices in your organization (for example, Logi Dock Flex).</li><li>After rollout, test one or more devices to validate the updated booking experience.</li><li>Inform users about the updated booking flow (connecting their laptop to confirm reservations).</li><li>Update internal documentation or workspace booking guidance if applicable.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "561031"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams is enhancing desk booking on panel-based devices like Logi Dock Flex, allowing users and visitors to view and reserve desks directly. This requires a Teams Shared Space license per device. The update rolls out worldwide from early to mid-July 2026 with no admin action needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android"
+      }
+    ],
+    "EndDateTime": "2026-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330887",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:23:12.54Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:23:00Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Enhanced bookable desk experience with Teams panel based desk devices",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why</b></b></p><p>We are introducing<b> Copilot‑generated suggested edits</b> in <i>Copilot Pages</i> to help users improve the clarity and quality of their content without leaving their workflow. This enhancement brings AI‑powered writing feedback directly into the<i> page experience</i>, enabling users to review and apply actionable suggestions in context. This aligns with our goal to improve personal and team productivity by helping users create higher‑quality content more efficiently.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=562351\" target=\"_blank\">562351</a></b>.</p><p><b><b>Rollout Schedule</b></b></p><ul><li><b>Frontier: </b>We will begin rolling out to <a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\" target=\"_blank\">Frontier</a> Private and Public in <b>early June 2026</b>.</li><li><b>General Availability (Worldwide): </b>We will begin rolling out in <b>late&nbsp;June 2026</b> and expect to complete by <b>mid-July 2026</b>.</li></ul><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><p style=\"margin-left: 25px;\">Users with access to Microsoft 365 Copilot and Copilot Pages</p><p><i>Platforms/Services</i></p><ul><li>Copilot Pages (web)</li><li>Microsoft 365 Copilot</li></ul><p><i>What will happen</i></p><ul><li>Users can <b>request writing feedback directly</b> within <i>Copilot Pages</i> using Copilot Shortcuts or Copilot Chat.</li><li>A new Suggest edits<b>&nbsp;</b>option will be available:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/299175a5-9644-43d7-a59b-eba8b0ffc794/13e67d5720a0ff90c3d24cb70b836d4dd4dc03ad.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Copilot analyzes page content and generates suggestions to improve clarity and writing quality.</li><li>Suggestions appear as comment-like cards in a right-hand sidebar aligned to relevant content.</li><li>Each suggestion can be applied with a single click using an<i><b> Apply</b></i> button.</li><li>The feature is <b>available by default to eligible users</b>; no additional configuration is required.</li><li>Existing Copilot policies and permissions are respected.</li></ul><p><b><b>Action Required / Recommendations</b></b></p><p>No action is required.</p><p>Admins may consider the following:</p><ul><li>Inform users about the availability of suggested edits in <i>Copilot Pages</i>.</li><li>Share guidance on accessing suggestions via Copilot Shortcuts or Copilot Chat.</li><li>Set expectations that Frontier releases are early experiences intended for feedback and validation.</li><li>Monitor usage and feedback as users adopt this capability.</li><li>Review Copilot access and ensure <a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration?view=o365-worldwide\" target=\"_blank\">Copilot Pages</a> and <a href=\"https://learn.microsoft.com/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users\" target=\"_blank\">OneDrive for Business</a> remain enabled.</li></ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration?view=o365-worldwide\" target=\"_blank\">Admin policies for Copilot Pages and Copilot Notebooks | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users\" target=\"_blank\">Disable OneDrive creation for some users - Manage user profiles in the SharePoint admin center | SharePoint in Microsoft 365 | SharePoint | Microsoft Learn</a></li><li><a href=\"https://www.microsoft.com/microsoft-365-copilot/frontier-program\" target=\"_blank\">Frontier program - Microsoft Adoption</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML capabilities that interact with customer data?</td><td>Yes. Copilot analyzes page content and generates suggestions based on user-authored content within Copilot Pages.</td></tr><tr><td>Does the change provide end users a new way to interact with generative AI?</td><td>Yes. Users can directly request and apply AI-generated writing suggestions within Copilot Pages.</td></tr><tr><td>Does the change allow a user to enable/disable the feature themselves?</td><td>Yes. Users can choose when to invoke suggested edits via Copilot Shortcuts or Chat.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "562351"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot will introduce AI-generated suggested edits in Copilot Pages to improve content clarity and quality. Rolling out from June to mid-July 2026, users can request and apply writing feedback directly within pages via Copilot Shortcuts or Chat, with no extra configuration needed."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330886",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:22:39.093Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:22:31Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Get suggested edits from Copilot in your Copilot Pages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why</b></b></p>\n<p>Academies in Viva Learning are now available in <b>Microsoft Teams mobile</b>, allowing learners to access organization‑curated learning journeys directly from their mobile devices. This update extends Academy visibility and navigation to mobile, providing a consistent learning experience across desktop, web, and mobile while preserving existing admin controls and permissions.</p><p><b>Rollout Schedule</b></p>\n<ul>\n<li>Public Preview (Worldwide): We will begin rolling out in <b>early June 2026</b> and expect to complete by <b>mid-June 2026</b>.</li>\n<li>General Availability (Worldwide): We will begin rolling out in <b>early July 2026</b> and expect to complete by <b>mid-July 2026</b>.</li>\n</ul>\n\n<p><b><b>Impact on Your Organization</b></b></p>\n<p><b>Who is affected</b></p>\n<ul>\n<li>Users accessing Viva Learning in Microsoft Teams mobile</li>\n</ul>\n\n<p><b>Platforms / Services</b></p>\n<ul>\n<li>Microsoft Teams (mobile)</li>\n<li>Viva Learning</li>\n</ul>\n\n<p><b>What will happen</b></p>\n<ul>\n<li>Learners will see <b>all Academies</b> they have permission to access under the <b>Academy tab</b> in Teams mobile.</li><p>Screenshot 1: <i>Academies visible in Viva Learning on Microsoft Teams mobile:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/fd8bbf28-d76b-4810-89f4-3c595da1ca17\" style=\"width: 250px;\" alt=\"user settings\"></p><p>Screenshot 2: <i>Learners can open an Academy to navigate Sections, Sub-sections, and Learning Paths:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/ab5c75ba-c8f0-47d0-8ffa-2082a86197ef\" style=\"width: 250px;\" alt=\"user settings\"></p><li>Learners can:<ul><li>View Academies they are authorized to access.</li><li>Navigate <b>Sections and Sub‑sections</b> configured by admins.</li><li>Open <b>Learning Paths</b> and the courses within them.</li><li>Land directly on the <b>Academy view</b> when opening a shared Academy link.</li><li>Access the <b>Microsoft Copilot Academy</b> on mobile through notifications.</li></ul></li><li>Academies on mobile are <b>view‑only</b>.</li><li>All Academy creation, permissions, and curation continue to be managed on <b>Viva Learning web and desktop</b>.</li><li>Updates made by admins on web or desktop automatically appear on mobile.</li><li>This feature is <b>enabled by default</b> and respects existing permissions.</li><li>No policy or configuration changes are required.</li></ul>\n\n<p><b><b>Action Required / Recommendations</b></b></p>\n<ul><li>No action is required. </li><li>Consider notifying helpdesk staff and learners about mobile availability.</li></ul>\n\n<p><b><b>Compliance Considerations</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Viva Learning Academies are now accessible in Microsoft Teams mobile, offering learners view-only access to organization-curated learning journeys with consistent experience across devices. Rollout begins June 2026 (preview) and July 2026 (general). No admin changes needed; updates sync automatically from web/desktop."
+      }
+    ],
+    "EndDateTime": "2026-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1330883",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-06-01T23:21:37.12Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T23:21:23Z",
+    "Tags": [
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "Viva Learning: Academy support on mobile",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated June 1, 2026: We have updated the content in 'what you can do to prepare'. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams town halls and live events will soon support <b>Secure Reliable Transport (SRT)</b>, a secure and resilient video streaming protocol designed to deliver high‑quality, low‑latency video over the public internet. SRT will be available alongside <b>Real‑Time Messaging Protocol (RTMP)</b>, the existing inbound streaming protocol commonly used with external encoders. Adding SRT provides event organizers with improved reliability and flexibility, including support for backup streams with automatic failover, to help ensure smoother delivery for high‑visibility broadcast events without increasing setup complexity.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop and is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554931\" target=\"_blank\">554931</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: Rollout begins in<b>&nbsp;early&nbsp;June 2026</b> and is expected to complete by <b style=\"\">mid-June 2026</b></li><li>General Availability (Worldwide, GCC): Rollout begins in <b>mid-June 2026</b> and is expected to complete by<b> late June 2026</b></li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizations that host <b>Microsoft Teams town halls or live events </b>using <b>external encoders</b></li>\n  <li>Event producers and administrators responsible for configuring broadcast streams</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Organizers can use <b>SRT as an alternative to RTMP</b>&nbsp;for inbound streaming</li>\n  <li>Events can be configured with a <b>primary and backup SRT stream</b> with automatic failover</li>\n  <li>Existing RTMP workflows remain supported and unchanged</li>\n  <li>The feature is <b>available by default</b>; no admin policy changes are required</li>\n  <li><b>No impact to users</b> attending events</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b>.</p>\n<ul>\n  <li>Review encoder capabilities to confirm <b>SRT support</b></li><li>Ensure you have access to port <code>49891 </code>and the domain <code>*.rtmpingest.mcr.teams.cloud.microsoft</code>.</li><li>Update internal event‑production documentation to include SRT as a supported option</li><li>Inform event production teams that a <b>backup stream with automatic failover</b> is now available for Teams town halls</li></ul><p>We’ve introduced an additional policy control for SRT-In in Teams Events. To enable users to access and use SRT-In, IT admins must explicitly allow the “SRT” setting in the AllowedStreamingMediaInput parameter within<a href=\"https://learn.microsoft.com/powershell/module/microsoftteams/set-csteamsmeetingpolicy?view=teams-ps\" target=\"_blank\"> CsTeamsMeetingPolicy</a>.</p><ul>\n</ul>\n\n<p><b>Learn more:</b> <a href=\"https://learn.microsoft.com/microsoftteams/meetings-rtmp-in\" target=\"_blank\">Manage RTMP-In for Teams meetings, webinars, and town halls - Microsoft Teams | Microsoft Learn</a>&nbsp;(will be updated before Targeted Release begins)</p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "554931"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Teams will support Secure Reliable Transport (SRT) for town halls and live events starting June 2026, offering improved video streaming reliability and backup streams with automatic failover alongside existing RTMP. No user impact; admins must enable SRT in meeting policies and prepare encoder and network settings."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop, Mac"
+      }
+    ],
+    "EndDateTime": "2026-07-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1323270",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-01T23:07:24.88Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-05-26T22:17:02Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Microsoft Teams: Secure Reliable Transport (SRT) support for Teams meetings and events",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated June 1, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>We’re introducing <b>custom skills for AI in SharePoint</b>, which let users teach AI in SharePoint how to perform common business tasks in a consistent, repeatable way. With skills, organizations can tailor AI behavior to their own documents, standards, and processes—such as reviewing compliance documents or offer letters—without writing code or using external tools. This update helps reduce manual effort and makes AI results more reliable for everyday SharePoint work.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559800\" target=\"_blank\">559800</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview (Worldwide): We will begin rolling out in <b>mid-April 2026</b> and expect to complete by <b>early May 2026</b>.\n</li><li>General Availability (Worldwide): We will begin rolling out in <b>mid-June 2026</b> (previously&nbsp;late May)&nbsp;and expect to complete by<b> </b>early July 2026.\n</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users of AI in SharePoint</li>\n<li>SharePoint site owners and admins</li>\n<li>Users with edit permissions on SharePoint sites</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users with edit permissions can create <b>custom skills</b> using natural language within AI in SharePoint.</li><li>Skills allow users to define reusable, multi‑step AI instructions for common business tasks (for example, reviewing compliance documents or offer letters).</li><li>AI in SharePoint can automatically select relevant skills from the current site based on a user’s query, or users can invoke a skill by name.</li><li>Skills are saved as Markdown (.md) files in the site’s Agent Assets library (/Agent Assets/Skills/&lt;skill-name&gt;/SKILLmd) and are governed by existing SharePoint permissions and compliance policies.</li><skill-name><li>Skills reuse native AI in SharePoint capabilities (content understanding, list manipulation, folder organization, and other supported SharePoint actions).</li><li>Skills <b>cannot </b>connect to external systems or execute custom code.</li><li>The feature is <b>enabled by default</b> and has no separate tenant‑level on/off toggle.</li><li>Existing SharePoint permissions are respected; users cannot perform actions they do not already have permission to do.</li></skill-name></ul><p><b><b>What you can do to prepare:</b></b></p><ul><skill-name></skill-name></ul><ul><skill-name></skill-name></ul>\n<ul>\n</ul><p>No action is required to enable this feature.</p><p>Recommended actions for admins:</p><ul>\n</ul><ul>\n<li>Review how SharePoint site permissions are managed, as any user with edit permissions can create skills.</li><li>If needed, customize who can create or use skills by breaking permission inheritance on the Agent Assets library.</li><li>Update internal governance or usage guidance to include skills as part of AI in SharePoint.</li><li>Inform helpdesk or power users that skills are stored as files and governed by existing SharePoint controls.</li></ul>\n\n<p>We will update this post with new documentation soon.</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<td><b>Compliance area</b></td>\n<td><b>Explanation</b></td>\n</tr>\n<tr>\n<td>Does the change store new customer data?</td>\n<td>Skill definitions are stored as Markdown (.md) files in the SharePoint “Agent Assets” library and are governed by existing SharePoint storage, retention, and compliance policies.</td>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed or accessed?</td>\n<td>AI in SharePoint can apply skills to site content, enabling more structured and repeatable AI processing of documents, lists, and folders within the site.</td>\n</tr>\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities?</td>\n<td>This change introduces reusable, multi-step AI skills that extend how AI in SharePoint performs tasks using native SharePoint capabilities.</td>\n</tr>\n<tr>\n<td>Does the change provide users a new way of interacting with generative AI?</td>\n<td>Users can create, invoke, and reuse custom AI skills directly within SharePoint using natural language.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control?</td>\n<td>Admins can control who can create or use skills by managing permissions on the Agent Assets library, including breaking permission inheritance if needed.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable or disable the feature themselves?</td>\n<td>The capability is enabled by default and cannot be turned off globally, but usage is constrained by SharePoint permissions and access to AI in SharePoint.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "559800"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Custom skills for AI in SharePoint enable users with edit permissions to create reusable, multi-step AI tasks using natural language, stored as Markdown files in the Agent Assets library. Rolling out mid-April 2026, this feature respects existing SharePoint permissions and cannot connect to external systems or run code."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-02T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1269209",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-06-01T22:47:53.09Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-03T05:11:53Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Extending AI in SharePoint using custom skills",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated June 1, 2026: You can safely disregard this message, and we will be posting a new message with additional information in the near future.</p>\n<p><b><b>Introduction</b></b></p><p>We will retire the <b>Microsoft 365 Usage Analytics Power BI template app </b>to streamline reporting experiences and align with modern, supported Microsoft 365 reporting solutions. Starting <b>June 1, 2026</b>, new downloads will no longer be available, and the <b>app will reach end of support on August 1, 2026</b>.</p><p>Customers will continue to have access to core usage insights through the Microsoft 365 admin center and Microsoft Graph APIs.</p><p><b><b>When this will happen</b></b></p><ul><li><b>June 1, 2026: </b>New downloads of the template app will no longer be available.</li><li><b>August 1, 2026: </b>The app and associated data pipelines will reach end of support and stop functioning.</li><li><b>August 2026: </b>This change will be effective worldwide.</li></ul><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Admins and analysts using the <b>Microsoft 365 Usage Analytics Power BI template app</b></li><li>Organizations relying on the app for Microsoft 365 usage, adoption, or activity reporting</li></ul><p><i>What will happen</i></p><ul><li>New downloads of the template app will stop <b>after June 1, 2026</b>.</li><li>Existing installations will stop receiving data <b>after August 1, 2026</b>.</li><li>Reports and dashboards based on the template app will no longer refresh.</li><li>Historical reports will remain accessible, but data will not be current.</li><li>Data that has already been exported from the template app will remain usable outside the app.</li><li>There <b>will be no replacement of the template app</b> as a single packaged solution.</li><li>Equivalent usage metrics will continue to be available through supported Microsoft tools.</li><li>There will be no admin control or option to extend use of the retiring app after end of support.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>Action is required.</p><ul><li>Identify whether your organization is currently using the <b>Microsoft 365 Usage Analytics Power BI template app</b>.</li><li><b>Plan your transition</b> to supported reporting solutions <b>before August 1, 2026</b>.</li><li><b>Review alternative reporting options </b>available today. <b>All core usage metrics</b> currently available in the <i>template app</i> as of May 2026 will continue to be accessible through:<br><ul><li><b>Microsoft 365 admin center usage reports,</b> available at <a href=\"https://admin.microsoft.com/#/homepage\" target=\"_blank\">https://admin.microsoft.com</a></li><li><b>Microsoft Graph APIs</b>&nbsp;for programmatic access to usage metrics and custom integrations</li></ul></li><li>If you plan to rebuild a custom reporting solution, review Microsoft documentation for available usage metrics, including adoption, usage, communication, collaboration, storage, mobility, and service-level activity across Microsoft 365 services such as Exchange, Teams, OneDrive, and SharePoint.</li><li>Update internal documentation and reporting processes as needed.</li><li>Communicate this change to relevant stakeholders and reporting owners.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide\" target=\"_blank\">Microsoft 365 usage analytics overview | Microsoft 365 admin center | Microsoft 365 | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/graph/api/resources/report?view=graph-rest-1.0\" target=\"_blank\">Working with Microsoft 365 usage reports in Microsoft Graph | Microsoft Graph | Microsoft Learn</a><br></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change modify, interrupt, or disable any reporting or monitoring capabilities related to compliance activities?</td><td>Yes. The retirement will remove the template app as a reporting surface. Admins will need to use Microsoft 365 admin center reports or Microsoft Graph APIs to monitor usage data.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>Yes. Reporting capabilities will shift from the template app to supported tools. Equivalent data will remain available, but through different interfaces and APIs.</td></tr></tbody></table><p><b><br></b></p>",
       "ContentType": "html"
     },
@@ -582,7 +1020,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"561912\":[{\"RoadmapId\":561912,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652482Z\",\"LatestRing\":null},{\"RoadmapId\":561912,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652479Z\",\"LatestRing\":null},{\"RoadmapId\":561912,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652484Z\",\"LatestRing\":null}]}"
+        "Value": "{\"561912\":[{\"RoadmapId\":561912,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652479Z\",\"LatestRing\":null},{\"RoadmapId\":561912,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652482Z\",\"LatestRing\":null},{\"RoadmapId\":561912,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-30T00:06:08.9652484Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1323,7 +1761,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554927\":[{\"RoadmapId\":554927,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.878125Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781249Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781247Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781246Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985796Z\",\"LatestRing\":null},{\"RoadmapId\":554927,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8781252Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1375,7 +1813,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
+        "Value": "{\"557184\":[{\"RoadmapId\":557184,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985621Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985619Z\",\"LatestRing\":null},{\"RoadmapId\":557184,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985623Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1458,7 +1896,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"560547\":[{\"RoadmapId\":560547,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535654Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356539Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356538Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"Android\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356534Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356541Z\",\"LatestRing\":null}]}"
+        "Value": "{\"560547\":[{\"RoadmapId\":560547,\"Platform\":\"Android\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356534Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356538Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"iOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356539Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535654Z\",\"LatestRing\":null},{\"RoadmapId\":560547,\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5356541Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2039,52 +2477,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>Microsoft Teams town halls and live events will soon support <b>Secure Reliable Transport (SRT)</b>, a secure and resilient video streaming protocol designed to deliver high‑quality, low‑latency video over the public internet. SRT will be available alongside <b>Real‑Time Messaging Protocol (RTMP)</b>, the existing inbound streaming protocol commonly used with external encoders. Adding SRT provides event organizers with improved reliability and flexibility, including support for backup streams with automatic failover, to help ensure smoother delivery for high‑visibility broadcast events without increasing setup complexity.</p><p>This message applies to Teams for Windows desktop and Teams for Mac desktop and is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=554931\" target=\"_blank\">554931</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n  <li>Targeted Release: Rollout begins in<b>&nbsp;early&nbsp;June 2026</b> and is expected to complete by <b style=\"\">mid-June 2026</b></li><li>General Availability (Worldwide, GCC): Rollout begins in <b>mid-June 2026</b> and is expected to complete by<b> late June 2026</b></li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Organizations that host <b>Microsoft Teams town halls or live events </b>using <b>external encoders</b></li>\n  <li>Event producers and administrators responsible for configuring broadcast streams</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Organizers can use <b>SRT as an alternative to RTMP</b>&nbsp;for inbound streaming</li>\n  <li>Events can be configured with a <b>primary and backup SRT stream</b> with automatic failover</li>\n  <li>Existing RTMP workflows remain supported and unchanged</li>\n  <li>The feature is <b>available by default</b>; no admin policy changes are required</li>\n  <li><b>No impact to users</b> attending events</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b>.</p>\n<ul>\n  <li>Review encoder capabilities to confirm <b>SRT support</b></li><li>Ensure you have access to port <code>49891 </code>and the domain <code>*.rtmpingest.mcr.teams.cloud.microsoft</code>.</li><li>Update internal event‑production documentation to include SRT as a supported option</li><li>Inform event production teams that a <b>backup stream with automatic failover</b> is now available for Teams town halls</li>\n</ul>\n\n<p><b>Learn more:</b> <a href=\"https://learn.microsoft.com/microsoftteams/meetings-rtmp-in\" target=\"_blank\">Manage RTMP-In for Teams meetings, webinars, and town halls - Microsoft Teams | Microsoft Learn</a>&nbsp;(will be updated before Targeted Release begins)</p><p><b><b>Compliance considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "554931"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Teams will support Secure Reliable Transport (SRT) for town halls and live events starting June 2026, offering a secure, low-latency alternative to RTMP with backup stream failover. This affects event producers using external encoders, requires no user impact or admin changes, and improves streaming reliability."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop, Mac"
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1323270",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-05-27T22:54:28.443Z",
-    "Services": [
-      "Microsoft Teams"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-05-26T22:17:02Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft Teams: Secure Reliable Transport (SRT) support for Teams meetings and events",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>What and Why</b></b></p><p>We are introducing the <b>Teams Rooms Builder</b> in the<i> Teams Rooms Pro Management portal</i>, a visual planning tool that helps IT admins design and standardize meeting spaces. Builder simplifies the process of selecting compatible devices, licenses, and room configurations, helping organizations plan deployments more efficiently and consistently. This feature supports faster decision-making and improved standardization across Teams Rooms environments.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561549\" target=\"_blank\">561549</a></b>.</p><p><b><b>Rollout Schedule</b></b></p><ul><li><b>General Availability (Worldwide):</b> Early June 2026 through mid-June 2026</li></ul><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><p style=\"margin-left: 25px;\">IT admins managing <b>Teams Rooms Pro</b> environments</p><p><i>Platforms/Services</i></p><ul><li>Teams Rooms Pro Management portal (web)</li><li>Microsoft Teams Rooms ecosystem</li><li><b>Requires a Teams Rooms Pro license</b></li></ul><p><i>What will happen</i></p><ul><li>A new <b>Teams Rooms Builder </b>experience will be available in the <i>Pro Management portal:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/ef18dcc3-5414-4962-a338-968345f99064/af39ce35ce647b736daa9d92c97658f7b146b6f6.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Builder provides a visual and guided interface to design meeting rooms (traditional, signature, and flexible spaces).</li><li>Admins can:<ul><li>Explore room configurations and layout options.</li><li>Select compatible devices and licenses:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/0c59a78a-28f3-4ec4-ab7e-2b555ca2ec6e/e93085798fe8643324f05729a23177b6ca28fbf8.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Generate and download a Bill of Materials (BOM).</li></ul></li><li>The feature is<b> enabled by default </b>for tenants with <b>Teams Rooms Pro</b>.</li><li><b>Admins can control visibility and role-based access</b> through existing Pro Management Portal settings, including the option to hide Builder for their tenant.</li><li>No changes will be made to existing rooms or device configurations.</li><li>Purchasing capabilities are<b> not included</b> (no shopping cart or transaction functionality).</li></ul><p><b><b>Action Required / Recommendations</b></b></p><p>No action is required.</p><p>Admins may consider the following:</p><ul><li>Review Builder availability and settings in the<i> Teams Rooms Pro Management portal</i>.</li><li>Adjust visibility and role-based access as needed to align with your organization’s governance model.</li><li>Share guidance with relevant IT teams responsible for meeting room planning and deployment.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -2228,7 +2620,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"561321\":[{\"RoadmapId\":561321,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-06-01T21:28:19.0868792Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":561321,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563868Z\",\"LatestRing\":null},{\"RoadmapId\":561321,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563869Z\",\"LatestRing\":null},{\"RoadmapId\":561321,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-01T21:28:19.0868805Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"561321\":[{\"RoadmapId\":561321,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563869Z\",\"LatestRing\":null},{\"RoadmapId\":561321,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563868Z\",\"LatestRing\":null},{\"RoadmapId\":561321,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-06-01T21:28:19.0868792Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":561321,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-01T21:28:19.0868805Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3578,7 +3970,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"562413\":[{\"RoadmapId\":562413,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-06-01T17:31:37.8490353Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":562413,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5357724Z\",\"LatestRing\":null},{\"RoadmapId\":562413,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5357722Z\",\"LatestRing\":null},{\"RoadmapId\":562413,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-01T17:31:37.8490367Z\",\"LatestRing\":\"TargetedRelease\"}]}"
+        "Value": "{\"562413\":[{\"RoadmapId\":562413,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5357722Z\",\"LatestRing\":null},{\"RoadmapId\":562413,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5357724Z\",\"LatestRing\":null},{\"RoadmapId\":562413,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-06-01T17:31:37.8490353Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":562413,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-01T17:31:37.8490367Z\",\"LatestRing\":\"TargetedRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -3908,7 +4300,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"561550\":[{\"RoadmapId\":561550,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561439Z\",\"LatestRing\":null},{\"RoadmapId\":561550,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561441Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":561550,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561442Z\",\"LatestRing\":null},{\"RoadmapId\":561550,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561443Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"561550\":[{\"RoadmapId\":561550,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561442Z\",\"LatestRing\":null},{\"RoadmapId\":561550,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561441Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":561550,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561439Z\",\"LatestRing\":null},{\"RoadmapId\":561550,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8561443Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4185,7 +4577,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"560815\":[{\"RoadmapId\":560815,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910417Z\",\"LatestRing\":null},{\"RoadmapId\":560815,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910415Z\",\"LatestRing\":null},{\"RoadmapId\":560815,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910418Z\",\"LatestRing\":null}]}"
+        "Value": "{\"560815\":[{\"RoadmapId\":560815,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910415Z\",\"LatestRing\":null},{\"RoadmapId\":560815,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910417Z\",\"LatestRing\":null},{\"RoadmapId\":560815,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3910418Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4283,7 +4675,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
+        "Value": "{\"476488\":[{\"RoadmapId\":476488,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748236Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.3748238Z\",\"LatestRing\":null},{\"RoadmapId\":476488,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-02-20T06:19:52.374824Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4334,7 +4726,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"560816\":[{\"RoadmapId\":560816,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8562858Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560816,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909129Z\",\"LatestRing\":null},{\"RoadmapId\":560816,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909128Z\",\"LatestRing\":null},{\"RoadmapId\":560816,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8562866Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"560816\":[{\"RoadmapId\":560816,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909128Z\",\"LatestRing\":null},{\"RoadmapId\":560816,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909129Z\",\"LatestRing\":null},{\"RoadmapId\":560816,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8562858Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560816,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8562866Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -4384,7 +4776,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"560814\":[{\"RoadmapId\":560814,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563506Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560814,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3908534Z\",\"LatestRing\":null},{\"RoadmapId\":560814,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3908531Z\",\"LatestRing\":null},{\"RoadmapId\":560814,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563512Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"560814\":[{\"RoadmapId\":560814,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3908531Z\",\"LatestRing\":null},{\"RoadmapId\":560814,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3908534Z\",\"LatestRing\":null},{\"RoadmapId\":560814,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563506Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":560814,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-28T08:06:36.8563512Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6281,7 +6673,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"554932\":[{\"RoadmapId\":554932,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983376Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983374Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":554932,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6983378Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -6332,7 +6724,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
+        "Value": "{\"518218\":[{\"RoadmapId\":518218,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387205Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872051Z\",\"LatestRing\":null},{\"RoadmapId\":518218,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872052Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8307,7 +8699,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-13T13:07:47.317072Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909019Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-22T04:57:44.390901Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909031Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"559605\":[{\"RoadmapId\":559605,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494579Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-22T04:57:44.390901Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559605,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9494577Z\",\"LatestRing\":null},{\"RoadmapId\":559605,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909019Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559605,\"Platform\":\"Web\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-13T13:07:47.317072Z\",\"LatestRing\":\"TargetedRelease\"},{\"RoadmapId\":559605,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-22T04:57:44.3909031Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -10301,7 +10693,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
+        "Value": "{\"543239\":[{\"RoadmapId\":543239,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489523Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489521Z\",\"LatestRing\":null},{\"RoadmapId\":543239,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T14:01:13.2489525Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11569,7 +11961,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558544\":[{\"RoadmapId\":558544,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779799Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.8779796Z\",\"LatestRing\":null},{\"RoadmapId\":558544,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-23T17:50:09.87798Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13739,7 +14131,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5359324Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535933Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"559612\":[{\"RoadmapId\":559612,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492969Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-20T00:00:25.5359324Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559612,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-07T05:06:09.9492967Z\",\"LatestRing\":null},{\"RoadmapId\":559612,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-20T00:00:25.535933Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -13838,7 +14230,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"168524\":[{\"RoadmapId\":168524,\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985493Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985491Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985489Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":168524,\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6985495Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15010,7 +15402,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-21T02:56:45.2569485Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4392708Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-21T02:56:45.2569496Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"559386\":[{\"RoadmapId\":559386,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4392708Z\",\"LatestRing\":null},{\"RoadmapId\":559386,\"Platform\":\"iOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-05-21T02:56:45.2569485Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":559386,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-21T02:56:45.2569496Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -16239,53 +16631,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p>\n<p>We’re introducing <b>custom skills for AI in SharePoint</b>, which let users teach AI in SharePoint how to perform common business tasks in a consistent, repeatable way. With skills, organizations can tailor AI behavior to their own documents, standards, and processes—such as reviewing compliance documents or offer letters—without writing code or using external tools. This update helps reduce manual effort and makes AI results more reliable for everyday SharePoint work.</p><p>This message is associated with Roadmap ID&nbsp;<a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=559800\" target=\"_blank\">559800</a>.</p><p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview (Worldwide): We will begin rolling out in <b>mid-April 2026</b> and expect to complete by <b>early May 2026</b>.\n</li><li>General Availability (Worldwide): We will begin rolling out in <b>late May 2026</b> and expect to complete by<b> early July 2026</b>.\n</li></ul><p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users of AI in SharePoint</li>\n<li>SharePoint site owners and admins</li>\n<li>Users with edit permissions on SharePoint sites</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users with edit permissions can create <b>custom skills</b> using natural language within AI in SharePoint.</li><li>Skills allow users to define reusable, multi‑step AI instructions for common business tasks (for example, reviewing compliance documents or offer letters).</li><li>AI in SharePoint can automatically select relevant skills from the current site based on a user’s query, or users can invoke a skill by name.</li><li>Skills are saved as Markdown (.md) files in the site’s Agent Assets library (/Agent Assets/Skills/&lt;skill-name&gt;/SKILLmd) and are governed by existing SharePoint permissions and compliance policies.</li><skill-name><li>Skills reuse native AI in SharePoint capabilities (content understanding, list manipulation, folder organization, and other supported SharePoint actions).</li><li>Skills <b>cannot </b>connect to external systems or execute custom code.</li><li>The feature is <b>enabled by default</b> and has no separate tenant‑level on/off toggle.</li><li>Existing SharePoint permissions are respected; users cannot perform actions they do not already have permission to do.</li></skill-name></ul><p><b><b>What you can do to prepare:</b></b></p><ul><skill-name></skill-name></ul><ul><skill-name></skill-name></ul>\n<ul>\n</ul><p>No action is required to enable this feature.</p><p>Recommended actions for admins:</p><ul>\n</ul><ul>\n<li>Review how SharePoint site permissions are managed, as any user with edit permissions can create skills.</li><li>If needed, customize who can create or use skills by breaking permission inheritance on the Agent Assets library.</li><li>Update internal governance or usage guidance to include skills as part of AI in SharePoint.</li><li>Inform helpdesk or power users that skills are stored as files and governed by existing SharePoint controls.</li></ul>\n\n<p>We will update this post with new documentation soon.</p><p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<td><b>Compliance area</b></td>\n<td><b>Explanation</b></td>\n</tr>\n<tr>\n<td>Does the change store new customer data?</td>\n<td>Skill definitions are stored as Markdown (.md) files in the SharePoint “Agent Assets” library and are governed by existing SharePoint storage, retention, and compliance policies.</td>\n</tr>\n<tr>\n<td>Does the change alter how existing customer data is processed or accessed?</td>\n<td>AI in SharePoint can apply skills to site content, enabling more structured and repeatable AI processing of documents, lists, and folders within the site.</td>\n</tr>\n<tr>\n<td>Does the change introduce or significantly modify AI/ML or agent capabilities?</td>\n<td>This change introduces reusable, multi-step AI skills that extend how AI in SharePoint performs tasks using native SharePoint capabilities.</td>\n</tr>\n<tr>\n<td>Does the change provide users a new way of interacting with generative AI?</td>\n<td>Users can create, invoke, and reuse custom AI skills directly within SharePoint using natural language.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control?</td>\n<td>Admins can control who can create or use skills by managing permissions on the Agent Assets library, including breaking permission inheritance if needed.</td>\n</tr>\n<tr>\n<td>Does the change allow a user to enable or disable the feature themselves?</td>\n<td>The capability is enabled by default and cannot be turned off globally, but usage is constrained by SharePoint permissions and access to AI in SharePoint.</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "559800"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Custom skills for AI in SharePoint enable users with edit permissions to create reusable, multi-step AI tasks using natural language, stored as Markdown files in the site’s Agent Assets library. Rolling out from April to July 2026, this feature respects existing permissions and requires no tenant-level activation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-08-02T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1269209",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-03T05:12:18.437Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-03T05:11:53Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Extending AI in SharePoint using custom skills",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p>Updated April 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>As part of the final phase of the Viva Engage rebranding, we’re updating the email sender domains used for Viva Engage communications. This change ensures a consistent and secure brand experience across all surfaces and completes the transition from Yammer to Viva Engage.</p><p>This update was previously communicated in <b>MC1117814</b>,<b> Microsoft Viva Engage | Email sender domain migration from @yammer.com to @engage.mail.microsoft</b>, in September 2025.</p><p><b><b>When this will happen:</b></b></p><ul><li>The email sender domain rollout began in early September 2025 for U.S. and EU tenants that were receiving messages from @yammer.com and @eu.yammer.com, respectively. </li><li>The rollout is complete as of <b>March 31, 2026</b>.</li><li>A<b> fallback/coexistence period</b> will be in place between September 2025 and April 2026, during which some tenants will remain on the old experience while others transition to the new one.</li></ul><p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><ul><li>All Microsoft Viva Engage tenants in U.S., EU, and global regions.</li><li>All users who receive Viva Engage emails, including notifications, announcements, and digests.</li><li>Microsoft 365 administrators who manage:<ul><li>Exchange Online mail flow rules</li><li>Email security gateways</li><li>Journaling, archiving, or third-party mail integrations that reference the @yammer.com domain.</li></ul></li></ul><p><b>What will happen:</b></p><p>The sender domain for Viva Engage emails will change as follows:</p><ul><li><b>From @yammer.com to @engage.mail.microsoft</b> for U.S. and global regions.\n</li><li>From <b>@eu.yammer.com to @eu.engage.mail.microsoft </b>for European regions.\n</li></ul><p>These new domains are secured with industry standard authentication protocols (e.g., SPF) to help prevent spoofing and ensure reliable delivery.</p><p>To enhance security and reduce cross-tenant spam, sender addresses will now include a <b>tenant-specific prefix</b>. You may see emails from:</p><ul><li><b>noreply_tenant@engage.mail.microsoft</b> (digests, delegates, leader identification, community expert, and other notifications)\n</li><li><b>notifications_tenant@engage.mail.microsoft</b> (community, storyline, and activity notifications)\n</li><li><b>announcements_tenant@engage.mail.microsoft</b> (leadership announcements)\n</li></ul><p>These changes apply to all Viva Engage tenants, regardless of license tier (e.g., Viva P1, P2), and affect all Viva Engage emails, including notifications, announcements, and digests.</p><p><b>Third-party integrations</b> (e.g., journaling, archiving, or routing systems) that rely on the @yammer.com domain for classification or authentication may be impacted. Any such configurations should be reviewed and updated to recognize the new domains.</p><p>Screenshot: <i>An example of a new Viva Engage email notification sent from the updated @engage.mail.microsoft domain:</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/55498900-45c4-4375-be35-b989948d2946/c7973dd8d9bde265ced10161ed090ee81bad55cb.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare:</b></b></p><p>Review and update the following configurations:</p><ul><li>Transport rules and email gateways: Update any rules that reference @yammer.com to include the new domains.\n</li><li>Exchange filtering: Ensure filtering rules remain effective with the new sender domains.\n</li><li>Outlook rules: Inform users that any rules based on <b>@yammer.com</b> will no longer apply. Users can manually update or remove these rules.\n</li></ul><p><b>No admin action is required</b> unless your organization has custom configurations based on the old domain.</p><p>Learn more: <a href=\"https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825\" target=\"_blank\">Yammer is evolving to Viva Engage | Viva Engage Blog</a></p><p><b><b>Compliance considerations:</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -17050,7 +17395,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
+        "Value": "{\"554933\":[{\"RoadmapId\":554933,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045395Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045396Z\",\"LatestRing\":null},{\"RoadmapId\":554933,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T11:28:55.7045397Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18575,7 +18920,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"557716\":[{\"RoadmapId\":557716,\"Platform\":\"Desktop\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984399Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Mac\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984398Z\",\"LatestRing\":null},{\"RoadmapId\":557716,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984396Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":557716,\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984413Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -18761,7 +19106,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390516Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390515Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390513Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390511Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390518Z\",\"LatestRing\":null}]}"
+        "Value": "{\"558107\":[{\"RoadmapId\":558107,\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390511Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390513Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"iOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390515Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390516Z\",\"LatestRing\":null},{\"RoadmapId\":558107,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4390518Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19628,44 +19973,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>Introduction</b></b></p><p>We are introducing a new handoff experience that allows users to take content created in Copilot Pages and seamlessly continue authoring as a SharePoint news post. This update helps users move from ideation to publishing more efficiently.</p><p><b><b>When this will happen:</b></b></p><p><b>General Availability (Worldwide, GCC):</b> We will begin rolling out on <b>late May 2026</b> and expect to complete by <b>mid-June 2026</b>.</p><p><b><b>How this affects your organization</b></b></p><p><b>Who is affected:</b></p><ul><li>Users who create content in Copilot Pages and publish SharePoint News</li><li>Organizations using Microsoft 365 Copilot with SharePoint Online</li></ul><p><b>What will happen:</b></p><p></p><ul><li>Users can move content from Copilot Pages directly into a SharePoint News post.</li><li>A new <b>SharePoint </b>option will appear under the <b>Create </b>button in Copilot Pages:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/352bdbb5-6e50-4928-89b7-be0a18895a6f/b6f4075353c86e3ab8b15d19407429dfbaaff981.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Selecting SharePoint opens the content in SharePoint News for continued editing and publishing.</li><li>The feature is <b>enabled by default</b>.</li><li>Existing SharePoint permissions, policies, and governance controls are respected.</li><li>There is no disruption to existing SharePoint News workflows.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No specific action is required. You may consider:</p><ul><li>Inform users who regularly publish SharePoint News about the new Copilot Pages handoff.</li><li>Update internal documentation or training materials if you reference Copilot or SharePoint authoring workflows.</li><li>Review SharePoint News governance and permissions to ensure they align with your organization’s publishing practices.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p></no>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot will enable users to transfer content from Copilot Pages directly into SharePoint News posts for seamless editing and publishing. This feature, rolling out late May to mid-June 2026, is enabled by default, respects existing permissions, and requires no action but user awareness and documentation updates."
-      }
-    ],
-    "EndDateTime": "2026-07-17T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1239186",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-02-26T00:33:01.157Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-26T00:27:29Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Turn Copilot Pages into SharePoint News posts",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>Introduction</b></b></p>\n<p>The Bing Maps data provider will be retired in the near future. To ensure service continuity, SharePoint’s <b>Weather</b>, <b>World Clock</b>, and <b>Events</b> web parts will migrate to <b>Azure Maps</b> as the new backend data provider. This update is backend-only and does not change any end-user functionality or experience.</p>\n\n<p><b><b>When this will happen</b></b></p>\n<p><b>General Availability (Worldwide, GCC):</b> Rollout will begin in <b>late March 2026</b> and complete by <b>late April 2026</b>.</p>\n\n<p><b><b>How this affects your organization</b></b></p>\n\n<p><b style=\"\">Who is affected:</b></p>\n<ul>\n<li>Organizations using the SharePoint <b>Weather</b>, <b>World Clock</b>, or <b>Events</b> web parts.</li>\n<li>Admins responsible for allowlists, network security, or governance of SharePoint sites.</li>\n</ul>\n\n<p><b style=\"\">What will happen:</b></p>\n<ul>\n<li>The data provider for these web parts will migrate from <b>Bing Maps</b> to <b>Azure Maps</b>.</li>\n<li>Azure Maps services used by these web parts are supported in most regions except China.</li>\n<li>No changes occur to end-user experience or configuration.</li>\n<li>No admin toggle is provided; migration is automatic.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n<li>Add <b>atlas.microsoft.com</b> to your organization’s allowlist if applicable.</li>\n<li>Confirm that network, firewall, and proxy configurations allow traffic to this domain.</li>\n<li>Review SharePoint pages that use these web parts.</li>\n<li>Communicate this backend update to site owners or helpdesk staff as needed.</li>\n<li>Update internal documentation as needed.</li>\n</ul><p>Learn more:&nbsp;</p><ul><li><a href=\"https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909\" target=\"_blank\">Use the Events web part | Microsoft Support</a>\n</li><li><a href=\"https://support.microsoft.com/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04\" target=\"_blank\">Use the World clock web part | Microsoft Support</a></li><li><a href=\"https://support.microsoft.com/office/show-the-weather-on-your-page-4a86540e-0846-4fc0-bad0-1a82fcd430fc\" target=\"_blank\">Show the weather on your page | Microsoft Support</a></li></ul>\n\n<p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -19762,7 +20069,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
+        "Value": "{\"541831\":[{\"RoadmapId\":541831,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872259Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.387226Z\",\"LatestRing\":null},{\"RoadmapId\":541831,\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984554Z\",\"LatestRing\":\"StandardRelease\"},{\"RoadmapId\":541831,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-04-08T02:05:37.6984561Z\",\"LatestRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -20760,7 +21067,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
+        "Value": "{\"542794\":[{\"RoadmapId\":542794,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-03-12T15:55:37.5989083Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872722Z\",\"LatestRing\":null},{\"RoadmapId\":542794,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-02-10T20:39:40.3872734Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20895,7 +21202,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"482747\":[{\"RoadmapId\":482747,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386695Z\",\"LatestRing\":null},{\"RoadmapId\":482747,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386691Z\",\"LatestRing\":null},{\"RoadmapId\":482747,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386697Z\",\"LatestRing\":null}]}"
+        "Value": "{\"482747\":[{\"RoadmapId\":482747,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386691Z\",\"LatestRing\":null},{\"RoadmapId\":482747,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386695Z\",\"LatestRing\":null},{\"RoadmapId\":482747,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-05-13T05:43:59.4386697Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -21987,7 +22294,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
+        "Value": "{\"487432\":[{\"RoadmapId\":487432,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301262Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.830126Z\",\"LatestRing\":null},{\"RoadmapId\":487432,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2025-04-29T01:14:43.8301264Z\",\"LatestRing\":null}]}"
       },
       {
         "Name": "Summary",
