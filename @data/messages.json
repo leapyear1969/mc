@@ -4,6 +4,248 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p><p>\nWe're improving how shortcuts are organized in OneDrive by giving users the option to save new shortcuts to a dedicated <b>Shortcuts</b> folder instead of the OneDrive root. This change helps reduce clutter and makes frequently used content easier to find.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=565028\" target=\"_blank\">565028</a>.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>General Availability (Worldwide, GCC, GCC High, DoD): We will begin rolling out in <b>mid-July 2026</b> and expect to complete by <b>late July 2026</b>.</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:&nbsp;</b>All OneDrive users who add shortcuts.</p>\n\n<p><b>Platforms/Services:&nbsp;</b>OneDrive (web).</p>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>When users add a shortcut in OneDrive, they can now choose where to save it (the <b>Shortcuts&nbsp;</b>folder or <b>My files</b>).</li><p>Screenshot: <i>OneDrive shortcuts dropdown:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/c8200aa1-4216-4282-8c47-9201f23d3b52\" style=\"width: 200px;\" alt=\"user settings\"></p><li>For file shortcuts only, an<b>&nbsp;Other locations </b>option&nbsp;is also available</li><li>The <b>Shortcuts</b> folder is created automatically when first used. If a user already has a folder named Shortcuts, that folder is reused.</li><li>The <b>Shortcuts </b>folder is visually distinct, with a unique color and building icon to make it easy to identify.</li><li>A confirmation message shows where the shortcut was saved.</li>\n<li>Existing shortcuts are not moved.</li><li>The feature is <b>on by default</b> and is optional for users.</li></ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p><p>No action is required.</p><ul><li>There are no new admin controls or policies for this feature.</li><li>Consider updating internal documentation or help desk guidance for users who frequently use the <b>Add shortcut to OneDrive</b> experience.</li><li>You may want to notify users about the new option to help them organize shortcuts more effectively.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Compliance area</b></td><td><b>Explanation</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Shortcuts can now be saved to a user-selected folder location, but no new data types are introduced and existing permissions are respected.</td></tr><tr><td>Does the change allow a user to enable or disable the feature themselves?</td><td>Users can choose whether to save shortcuts to the Shortcuts folder or continue saving them to the OneDrive root.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "565028"
+      },
+      {
+        "Name": "Summary",
+        "Value": "OneDrive will introduce a new option to save shortcuts in a dedicated Shortcuts folder instead of the root, reducing clutter and improving organization. This folder is auto-created, visually distinct, and optional. Rollout starts mid-July 2026, affecting all OneDrive web users with no required admin action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1385585",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T22:19:10.94Z",
+    "Services": [
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-09T22:18:34Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "OneDrive: New Shortcuts folder option when adding shortcuts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p>\n\n<p>\nMicrosoft Purview Records Management will integrate with Power Automate to allow administrators to run custom workflows when retention-labeled items reach the end of their retention period. This enables automated post-retention handling using Power Automate across Microsoft 365 workloads.</p>\n\n<p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558859\" target=\"_blank\">558859</a>.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n\n<p>\nGeneral Availability (GCC, GCCH, and DoD): Rollout begins in <b>mid-June 2026</b> and is expected to complete by <b>late August 2026.</b></p>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n<ul>\n</ul><p><b>Who is affected:</b> Records Management and Compliance administrators</p><p><b>Platforms/Services:</b> </p><ul><li>Microsoft Purview</li><li>Power Automate</li><li>SharePoint Online</li><li>OneDrive for Business</li><li>Exchange Online</li></ul><p><b>What will happen:</b>\n</p><ul>\n\n\n\n\n</ul>\n<p></p><ul><li>New actions are available in the <b>Microsoft 365 Compliance connector</b>:<ul><li>Apply a retention label on the item</li><li>Relabel an item at the end of retention</li><li>Delete an item at the end of retention</li><li>Trigger a new instance of the flow if an item can’t be located</li></ul></li><li>Admins can select a <b>pre‑existing Power Automate flow</b> to run when a retention label expires.</li><li>Existing retention labels and retention settings are <b>not changed</b>.</li><li>The feature is <b>not enabled by default</b>; flows must be explicitly selected during retention label configuration.</li><li>There is no user impact unless administrators configure and apply flows.</li></ul><ul>\n\n</ul><ul>\n</ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p>\n\n<p>\nNo action is required. Review internal documentation and evaluate whether to use end-of-retention workflows.</p>\n\n<p><b>Learn more: </b><a href=\"https://learn.microsoft.com/purview/retention-label-flow\" target=\"_blank\">Customize what happens at the end of the retention period | Microsoft Learn</a></p><p><b><b>Compliance considerations:</b></b></p>\n\n<p>\n</p><table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<td><b>Area</b></td>\n<td><b>Explanation</b></td>\n</tr>\n<tr>\n<td>Alteration of how existing customer data is processed</td>\n<td>Retention‑labeled content can now trigger Power Automate workflows at the end of the retention period, extending how post‑retention actions are executed.</td>\n</tr>\n<tr>\n<td>Retention policies, holds, or deletion workflows</td>\n<td>Retention labels can invoke Power Automate flows at expiration in addition to built‑in disposition actions.</td>\n</tr>\n<tr>\n<td>Admin monitoring and compliance demonstration</td>\n<td>Administrators may use Power Automate workflows to add logging, approvals, or notifications related to retention expiration.</td>\n</tr>\n<tr>\n<td>Third‑party or cross‑service integration</td>\n<td>Microsoft Purview Records Management integrates with Power Automate through the Microsoft 365 Compliance connector.</td>\n</tr>\n<tr>\n<td>Admin controls</td>\n<td>Configuration is admin‑controlled through retention label settings and selection of pre‑existing Power Automate flows.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "558859"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview Records Management will integrate with Power Automate to enable custom workflows when retention-labeled items reach the end of retention. Rolling out mid-June to late August 2026, admins can trigger actions like relabeling or deleting items via Power Automate, with no default activation or user impact."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1385583",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T22:17:26.247Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-09T22:17:01Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | Data Lifecycle Management - Power Automate integration with records management",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p><p>\nA new <b>Notifications Delivery Tracker</b> is now available for immediate <b>Community announcements in Viva Engage</b>. This capability provides communicators with real-time visibility into the delivery status of announcement notifications—helping ensure critical updates are delivered as expected and improving confidence in communications reach. With this tracker, communicators can monitor when notifications are preparing, sending, and have completed delivery after an announcement is published.</p>\n<p><b><b>Rollout Schedule:</b></b></p><p>General Availability (Worldwide): We will begin rolling out in<b> early July 2026</b> and expect to complete by <b>early July 2026</b>.</p>\n<p><b><b>Impact on Your Organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>Communicators and leaders who publish <b>immediate</b> Community announcements in Viva Engage.</p>\n<p><b>Platforms/Services:&nbsp;</b>Viva Engage (Community announcements)</p>\n<p><b>What will happen:</b></p>\n<ul>\n  <li>Communicators will have a tracker that shows notification delivery status after an <b>immediate</b> Community announcement is published.</li>\n  <li>The tracker will show statuses such as <b>preparing</b>, <b>sending</b>, and <b>completed delivery</b>.</li>\n  <li>This feature is available only for the <b>immediate</b> Community announcement option.</li>\n  <li>This feature does <b>not</b> include <b>regular</b> Community announcements.</li>\n</ul>\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<ul>\n  </ul><p><b>No admin action is required.</b></p><p>We recommend that you:</p><ul>\n  <li>Inform communicators and leaders in your organization about this new visibility feature.</li>\n  <li>Update internal documentation or training materials related to Viva Engage Community announcements (if applicable).</li>\n  <li>Review Conversation Analytics to understand how this feature can support communication effectiveness.</li>\n</ul>\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <td><b>Compliance Area</b></td>\n    <td><b>Explanation</b></td>\n  </tr>\n  <tr>\n    <td>Does the change alter how admins can monitor or report on communications effectiveness?</td>\n    <td>The delivery tracker provides additional visibility into the notification delivery lifecycle for immediate announcements, improving reporting confidence but not altering existing compliance reports.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "A Notifications Delivery Tracker for immediate Community announcements in Viva Engage will roll out worldwide in early July 2026. It provides real-time delivery status (preparing, sending, completed) to communicators, enhancing visibility and confidence. No admin action is required; organizations should inform users and update training materials."
+      }
+    ],
+    "EndDateTime": "2026-08-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1385582",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T22:16:40.63Z",
+    "Services": [
+      "Microsoft Viva"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-09T22:16:28Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Notifications Delivery Tracker for immediate Community announcements",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p><p>\nTo help reduce notification fatigue and improve focus, Outlook will automatically group email notifications that arrive within a few seconds into a single alert. This enhancement supports personal and team productivity by minimizing interruptions while ensuring users stay informed of new messages.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>General Availability (Production): Rollout will begin in <b>late June 2026 </b>and is expected to complete by <b>late-July2026</b></li><li>General Availability (GCC): Rollout will begin in <b>late July 2026 </b>and is expected to complete by <b>mid-August 2026</b></li><li>General Availability (GCC High): Rollout will begin in<b>&nbsp;mid-August 2026</b> and is expected to complete by <b>mid-September 2026</b></li>\n</ul>\n\n<p><b>Impact on Your Organization:</b></p>\n<ul>\n</ul><p><b>Who is affected:</b> All users in Production, GCC, and GCC High tenants using new Outlook or Outlook on the web</p><p><b>Platforms/Services:</b> Outlook on the web, New Outlook for Windows</p><p><b>What will happen:</b></p><ul>\n\n</ul><ul>\n<ul>\n</ul><li>Users will receive a <b>single grouped notification</b> when multiple emails arrive within a short time window (a few seconds).</li><li>Selecting the notification will open the <b>latest email</b> in the inbox.</li><li>Additional unread emails included in the group will be visible in the inbox.</li><li>The feature will be <b>enabled by default</b>.</li><li>Users can manage this behavior in <b>Settings &gt; General &gt; Notifications &gt; Email &gt; Group notifications.</b></li><ul>\n\n\n\n</ul><ul>\n</ul>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<ul>\n</ul><p>No admin action is required</p><p><b>Recommended steps:</b></p><ul><li>Inform users about the updated notification behavior to reduce confusion.</li><li>Update internal helpdesk documentation if you reference Outlook notification behavior.</li><li>If desired, guide users on customizing their notification preferences via Outlook settings.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<ul>\n<li>Users can enable or disable grouped notifications in Outlook settings.</li>\n<li>No other compliance impacts have been identified.</li>\n</ul>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Outlook will group email notifications arriving within seconds into a single alert to reduce interruptions, rolling out from late June to mid-September 2026 across Production, GCC, and GCC High. The feature is enabled by default but can be managed in settings. No admin action is needed."
+      }
+    ],
+    "EndDateTime": "2026-10-17T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1385580",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T22:15:56.373Z",
+    "Services": [
+      "Exchange Online",
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-09T22:15:48Z",
+    "Tags": [
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Grouped notifications in Outlook",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to utilize Portfolio Planning to plan your sales portfolio using the Sales Research Agent in Dynamics 365 Sales. This feature will reach general availability on July 31, 2026.  <br><br> \n\n<b>How does this affect me?</b><br> \n\nPortfolio Planning is an AI-first capability in Sales Research Agent that turns CRM data, lakehouse signals (such as budgets, targets, usage, billing, and adoption), and web context into a continuously updated plan across accounts, territories, segments, and partners.<br><br> \n\nYou can run scenario-driven planning for the most common field workflows:   \n\n<ul> \n\n<li><b>Account executive overview</b> to understand the current state across accounts. </li> \n\n<li><b>Deal rescue</b> to identify and unblock stalled opportunities. </li> \n\n<li><b>Renewal risk and expansion</b> to protect revenue first, then grow. </li> \n\n<li><b>Territory patch rebalancing</b> to decide where to double down or pull back.</li> \n\n<li><b>Segment and industry performance</b> to determine where to place bets.  </li> \n\n</ul> \n\nPlans refresh automatically as signals change, so they stay current instead of aging out after QBRs or annual planning. You also get explainable recommendations showing the drivers behind prioritization and actions (the \"why this\" behind every recommendation).<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-08-31T10:07:00Z",
+    "HasAttachments": false,
+    "Id": "MC1329306",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T21:43:23.263Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-01T10:07:37Z",
+    "Tags": [
+      "Updated message",
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Sales – Plan your sales portfolio with Sales Research Agent",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated June 9, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>What and Why:</b></b></p>\n<p>We’re updating how unlicensed OneDrive accounts are retained to help organizations manage storage more predictably and reduce long-term unmanaged data. This update introduces enforced lifecycle stages for unlicensed OneDrive accounts that remain unpaid for an extended period, ensuring clearer storage governance while giving admins multiple options to preserve data when needed.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<p>General Availability (Worldwide): This change will be implemented starting <b>early July 2026</b> and introduces a lifecycle with staged enforcement actions and built‑in time for admins to take action before restrictions apply.</p><p><b><b>Impact on Your Organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Tenants with unlicensed OneDrive accounts created after license removal or user deletion.</li>\n</ul>\n\n<p><b>Platforms / Services:</b></p>\n<ul>\n  <li>OneDrive for Business</li>\n  <li>SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>Day 60:</b> Unlicensed OneDrive becomes <b>read-only</b>.</li>\n  <li><b>Day 93:</b> OneDrive is <b>archived:</b><ul><li>Users cannot access the content directly.</li><li>Content remains available for eDiscovery and legal holds.</li></ul></li><li><b>Up to 12 cumulative months of non‑payment:</b><b><br></b><ul><li>If the account remains unpaid and no action is taken, the <b>OneDrive data is at risk of being deleted.</b><b><br></b></li></ul></li><li>If a license is reassigned or billing is enabled <b>before deletion</b>, the OneDrive exits retention enforcement and resumes normal behavior.</li><li>This change is <b>on by default</b> and does not require tenant opt‑in.</li></ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p>\n<ul>\n  </ul><p>Admins should review unlicensed OneDrive accounts and take one or more of the following actions as appropriate:</p><ul><li>Reassign a <b>OneDrive license </b>to the user.</li><li>Enable<b> pay‑as‑you‑go billing</b> for:<ul><li>Unlicensed OneDrive archive storage, or</li><li>Unlicensed OneDrive standard storage.</li></ul></li><li><b>Migrate content</b> to another OneDrive or SharePoint location.</li><li><b>Adjust retention policies</b> so data is deleted when no longer required.</li><li>Take <b>no action</b> if the data is no longer needed and can be deleted after the 365th unlicensed day.</li><li>Review the following Learn article: <a href=\"https://learn.microsoft.com/sharepoint/unlicensed-onedrive-accounts\" target=\"_blank\">Manage unlicensed OneDrive user accounts - SharePoint in Microsoft 365 | Microsoft Learn</a></li></ul><p>No action is required if appropriate licensing, billing, or retention settings are already in place.</p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Retention policies, holds, or deletion workflows</td>\n    <td>Unlicensed OneDrive accounts that remain unpaid for an extended period may be deleted even if retention policies or legal holds are configured, unless licensing or billing is restored.</td>\n  </tr>\n  <tr>\n    <td>eDiscovery or Content Search</td>\n    <td>Archived unlicensed OneDrive content remains available for eDiscovery and legal holds until the data is permanently deleted.</td>\n  </tr>\n  <tr>\n    <td>How customer data is stored or deleted</td>\n    <td>The change introduces enforced lifecycle stages and permanent deletion timelines for unpaid, unlicensed OneDrive data.</td>\n  </tr>\n  <tr>\n    <td>User access, export, or deletion of personal data (GDPR)</td>\n    <td>User access to unlicensed OneDrive content is restricted once accounts become read-only or archived, which may affect how personal data can be accessed or exported prior to deletion.</td>\n  </tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Starting July 2026, unlicensed OneDrive accounts enter a staged retention lifecycle: read-only at 60 days, archived at 93 days, and possible deletion after 12 months unpaid. Admins should reassign licenses, enable billing, migrate data, or adjust retention policies to manage storage and compliance."
+      }
+    ],
+    "EndDateTime": "2026-08-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1381110",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-06-09T19:26:39.857Z",
+    "Services": [
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-05T22:40:14Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "OneDrive: Retention enforcement for unlicensed OneDrive accounts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p>Updated June 9, 2026: Prompt categories are now available to all customers via Public Preview in the Microsoft Copilot Dashboard in Microsoft Viva Insights. We have incorporated initial customer feedback and are continuing to evaluate additional enhancements to the prompt categories, including potential updates to the category set and underlying experience. Based on this ongoing evaluation, we will share further updates regarding future release plans, including General Availability, at a later date. Thank you for your patience.&nbsp;</p><p>Prompt categories will be available in Microsoft Copilot Dashboard in Microsoft Viva Insights on the web to help you understand key Copilot use cases for your organization. In Microsoft Copilot Chat (work), which is grounded in work data, these prompt categories will include <i>Ask and find, Catch up, Draft and brainstorm, </i>and <i>Other.</i> These metrics will be added to the metrics library in the advanced insights app.</p><p>\n</p><p>Learn more about Copilot Dashboard licensing requirements in <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p><p>Public Preview: Now available.</p><p>General Availability (Worldwide): We will communicate via a new Message center post when we are ready to proceed.</p><p><b>How this will affect your organization:</b></p><p>Users enabled to view Copilot dashboard will see these updates:\n</p><p>1. <i>Adoption </i>tab: Prompt categories will be available at Viva Insights &gt; <i>Microsoft Copilot Dashboard &gt; Adoption &gt; Adoption by app &gt; Copilot Chat (work)</i> dropdown:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/06f43072-7d4d-4789-ad93-b898c78c7e04\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>2. <i>Impact </i>tab: Admins can go to Viva Insights <i>&gt; Microsoft Copilot Dashboard &gt; Impact &gt; Copilot chat card &gt;</i> <i>Explore more </i>button to access the prompt categories as metrics in the <i>Copilot impact trend</i> section and the <i>Comparison between groups</i> section:\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/da018107-53a6-4a5e-bab7-96d16dcfc67c\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/707eb149-ff29-4827-8130-9039080016c7\" style=\"width: 400px;\" alt=\"admin controls\">\n</p><p>This change will be available by default.</p><p><b>What you need to do to prepare:</b>\n</p><p>This rollout will happen automatically by the specified dates with no admin action required before the rollout. You may want to notify your admins and/or users about this change and update internal documentation.\n</p><p>Review and assess the impact for your organization. You might consider reviewing with your works council and updating your training and documentation as appropriate.</p><p>Learn more: <a href=\"https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard\" target=\"_blank\">Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers | Microsoft Learn</a></p>",
       "ContentType": "html"
     },
@@ -1275,45 +1517,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft 365 Archive: File-level archiving General Availability",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>What and Why:</b></b></p>\n<p>We’re updating how unlicensed OneDrive accounts are retained to help organizations manage storage more predictably and reduce long-term unmanaged data. This update introduces enforced lifecycle stages for unlicensed OneDrive accounts that remain unpaid for an extended period, ensuring clearer storage governance while giving admins multiple options to preserve data when needed.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<p>General Availability (Worldwide): This change will be implemented starting <b>early July 2026</b> and introduces a lifecycle with staged enforcement actions and built‑in time for admins to take action before restrictions apply.</p><p><b><b>Impact on Your Organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>Tenants with unlicensed OneDrive accounts created after license removal or user deletion.</li>\n</ul>\n\n<p><b>Platforms / Services:</b></p>\n<ul>\n  <li>OneDrive for Business</li>\n  <li>SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>Day 60:</b> Unlicensed OneDrive becomes <b>read-only</b>.</li>\n  <li><b>Day 93:</b> OneDrive is <b>archived:</b><ul><li>Users cannot access the content directly.</li><li>Content remains available for eDiscovery and legal holds.</li></ul></li><li><b>Up to 12 cumulative months of non‑payment:</b><b><br></b><ul><li>If no action is taken, the OneDrive data is<b> permanently deleted.</b><b><br></b></li></ul></li><li>If a license is reassigned or billing is enabled <b>before deletion</b>, the OneDrive exits retention enforcement and resumes normal behavior.</li><li>This change is <b>on by default</b> and does not require tenant opt‑in.</li></ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p>\n<ul>\n  </ul><p>Admins should review unlicensed OneDrive accounts and take one or more of the following actions as appropriate:</p><ul><li>Reassign a <b>OneDrive license </b>to the user.</li><li>Enable<b> pay‑as‑you‑go billing</b> for:<ul><li>Unlicensed OneDrive archive storage, or</li><li>Unlicensed OneDrive standard storage.</li></ul></li><li><b>Migrate content</b> to another OneDrive or SharePoint location.</li><li><b>Adjust retention policies</b> so data is deleted when no longer required.</li><li>Take <b>no action</b> if the data is no longer needed and can be deleted after the 365th unlicensed day.</li></ul><p>No action is required if appropriate licensing, billing, or retention settings are already in place.</p>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Retention policies, holds, or deletion workflows</td>\n    <td>Unlicensed OneDrive accounts that remain unpaid for an extended period may be deleted even if retention policies or legal holds are configured, unless licensing or billing is restored.</td>\n  </tr>\n  <tr>\n    <td>eDiscovery or Content Search</td>\n    <td>Archived unlicensed OneDrive content remains available for eDiscovery and legal holds until the data is permanently deleted.</td>\n  </tr>\n  <tr>\n    <td>How customer data is stored or deleted</td>\n    <td>The change introduces enforced lifecycle stages and permanent deletion timelines for unpaid, unlicensed OneDrive data.</td>\n  </tr>\n  <tr>\n    <td>User access, export, or deletion of personal data (GDPR)</td>\n    <td>User access to unlicensed OneDrive content is restricted once accounts become read-only or archived, which may affect how personal data can be accessed or exported prior to deletion.</td>\n  </tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Starting July 2026, unlicensed OneDrive accounts will enter enforced retention stages: read-only at 60 days, archived at 93 days, and permanent deletion after 12 months of non-payment. Admins can preserve data by reassigning licenses, enabling billing, migrating content, or adjusting retention policies."
-      }
-    ],
-    "EndDateTime": "2026-08-15T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1381110",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-05T22:40:21.54Z",
-    "Services": [
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-06-05T22:40:14Z",
-    "Tags": [
-      "Feature update",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "OneDrive: Retention enforcement for unlicensed OneDrive accounts",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4250,38 +4453,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "We are announcing the ability to utilize Portfolio Planning to plan your sales portfolio using the Sales Research Agent in Dynamics 365 Sales. This feature will reach general availability on July 1, 2026.  <br><br> \n\n<b>How does this affect me?</b><br> \n\nPortfolio Planning is an AI-first capability in Sales Research Agent that turns CRM data, lakehouse signals (such as budgets, targets, usage, billing, and adoption), and web context into a continuously updated plan across accounts, territories, segments, and partners.<br><br> \n\nYou can run scenario-driven planning for the most common field workflows:   \n\n<ul> \n\n<li><b>Account executive overview</b> to understand the current state across accounts. </li> \n\n<li><b>Deal rescue</b> to identify and unblock stalled opportunities. </li> \n\n<li><b>Renewal risk and expansion</b> to protect revenue first, then grow. </li> \n\n<li><b>Territory patch rebalancing</b> to decide where to double down or pull back.</li> \n\n<li><b>Segment and industry performance</b> to determine where to place bets.  </li> \n\n</ul> \n\nPlans refresh automatically as signals change, so they stay current instead of aging out after QBRs or annual planning. You also get explainable recommendations showing the drivers behind prioritization and actions (the \"why this\" behind every recommendation).<br><br> \n\n<b>What action do I need to take?</b><br> \n\nThis message is for awareness, and no action is required.",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [],
-    "EndDateTime": "2026-07-01T10:07:37Z",
-    "HasAttachments": false,
-    "Id": "MC1329306",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-01T10:08:05.347Z",
-    "Services": [
-      "Dynamics 365 Apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-06-01T10:07:37Z",
-    "Tags": [
-      "New feature"
-    ],
-    "Title": "Dynamics 365 Sales – Plan your sales portfolio with Sales Research Agent",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "We are announcing the ability to use the npm-based CLI (Command Line Interface) to discover, create, and wire connectors in code apps in Power Apps. This feature will reach Public Preview on June 1, 2026.<br><br><b>How does this affect me?</b><br>This feature adds new commands that let developers discover available connectors and create connections directly from the command line. This enables developers to wire connectors into code apps as part of their normal development workflow, without switching tools or manually configuring connections in the maker portal.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.<br><br>If you would like more information on this feature, please visit <a target=\"_blank\" href=\"https://aka.ms/15024\">Use CLI to discover, create, and wire connectors in code apps</a>.",
       "ContentType": "html"
     },
@@ -5409,7 +5580,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"560813\":[{\"RoadmapId\":560813,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-06-09T17:58:50.3614634Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T17:58:50.3614637Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T17:58:50.3614638Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T17:58:50.361464Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"560813\":[{\"RoadmapId\":560813,\"Platform\":\"Web\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-06-09T22:21:02.5512503Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T22:21:02.5512507Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T22:21:02.5512508Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":560813,\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-06-09T22:21:02.5512509Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
