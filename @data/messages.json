@@ -4,6 +4,351 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "<p>Updated July 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new co-branding capability that will allow organizations to <b>display a branded footer</b> at the bottom of the Chat screen in the<i> Microsoft 365 Copilot app</i>. This update will enable admins to add their organization’s logo to their users’ Microsoft 365 Copilot app, helping users confirm they are using their trusted, work-managed Copilot experience.</p><p>This feature began rolling out <b>end of June 2026</b> (previously&nbsp;early May)&nbsp;and is expected to complete by <b>early July 2026</b> (previously&nbsp;mid-June).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555852\" target=\"_blank\">555852</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b>&nbsp;Began rolling out <b>end of June 2026</b> (previously early May) and is expected to complete by <b>early July 2026</b> (previously mid-June).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All Microsoft 365 tenants using the Microsoft 365 Copilot app.</li></ul><p>What will happen</p><ul><li>Admins will be able to upload a logo in the <i>Microsoft 365 admin center</i> to customize the footer in the <i>Microsoft 365 Copilot app</i>.</li><li>The footer will display an “<b><i>Approved by <b>Logo</b></i>”</b> indicator to help users confirm they are in an <i>organization-approved Copilot environment:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68658328-08c2-4b57-8f67-a6387382d739/8c36ea142ae32ce3fc402d44cf3d176902dcb112.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p></li><li>Only the logo from your organization’s theme configuration will be used; other theme elements will not be applied in this release.</li><li>This feature will be <b>off by default </b>and will require admin configuration.</li><li>There will be<b> no user impact </b>unless an admin enables the footer.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action will be required unless you want to enable the branded footer.</p><p>Admins who want to configure this feature should:</p><ul><li>Review and verify your organization’s theme configuration in the <i>Microsoft 365 admin center</i>.</li><li>Upload the logo you want to display in the <i>Microsoft 365 Copilot app footer </i>once rollout begins.</li><li>Use the existing theme management flow to apply co-branding once the feature is available.</li></ul><p>For configuration guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide&amp;source=recommendations\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Customize the theme for your organization | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "555852"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot app will allow admins to add a branded footer with their organization's logo, confirming a trusted Copilot environment. Rolling out from late June to early July 2026, the feature is off by default and requires admin setup via the Microsoft 365 admin center."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, iOS, Mac, Web"
+      }
+    ],
+    "EndDateTime": "2026-08-10T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1238432",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-07-02T19:14:11.607Z",
+    "Services": [
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-25T01:16:32Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot app: Branded footer customization",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>What and Why</b></b></p><p><b>Copilot Notebooks </b>will be available in <i>Microsoft 365 Copilot Cha</i>t for users with&nbsp;<b>Copilot Chat (Basic)</b>&nbsp;and&nbsp;<b>M365 Copilot (Basic)</b>&nbsp;experiences. This update expands Copilot Notebooks beyond users with a Microsoft 365 Copilot add-on license to include additional Copilot Chat users. Copilot Notebooks provides a persistent, AI-powered workspace where users can organize content, add references, and interact with Copilot to reason over their materials in one place.</p><p><b><b>Rollout Schedule</b></b></p><ul><li><b>General Availability (Worldwide):</b>&nbsp;Rollout will begin in<b>&nbsp;mid-June 2026</b>.</li></ul><p><b><b>Impact on Your Organization</b></b></p><p>Who is affected</p><ul><li>Users with access to Copilot Chat (Basic) and M365 Copilot (Basic) experiences<ul><li>Copilot Notebooks availability varies by endpoint.</li></ul></li><li>Admins managing Copilot, Loop, and SharePoint storage</li></ul><p>Platforms/Services</p><ul><li>Microsoft 365 Copilot Chat (web)</li><li>Microsoft Loop / SharePoint Embedded</li><li>SharePoint Embedded (Loop-backed storage)</li><li>Web, desktop, and mobile</li><li>Only Copilot Notebooks in OneNote on web will be available to Copilot Chat (Basic) commercial customers at this time.</li></ul><p>What will happen</p><ul><li>Copilot Notebooks will be available to eligible users in <i>Microsoft 365 Copilot Chat</i>. This includes users with:<ul><li>Copilot Chat (Basic)</li><li>M365 Copilot (Basic)</li></ul></li><li>Copilot Notebooks in <i>OneNote</i> will not be available to Copilot Chat (Basic) users at this time.</li><li>Users can create persistent notebooks to organize content with Copilot.</li><li>Notebook content is stored in <i>user-owned SharePoint Embedded containers shared with Microsoft Loop</i>.</li><li>These containers appear as “<b><i>Loop</i></b>” in the <i>SharePoint admin center</i>, <i>PowerShell</i>, and <i>Microsoft Purview</i>.</li><li>Notebook content counts toward your organization’s SharePoint storage quota.</li><li>Existing admin configurations and policies for Copilot Notebooks and Loop (including Cloud Policy) are respected.</li><li>The feature is <b>enabled by default </b>where Copilot Notebooks is allowed.</li><li>Documentation describing Copilot Notebooks availability will be updated to reflect this change.</li></ul><p><b><b>Action Required / Recommendations</b></b></p><p>No immediate action is required.</p><p>You may want to:</p><ul><li>Review your Copilot Notebooks and Loop configuration to ensure alignment with your organization’s policies.</li><li>Review SharePoint storage usage, as Copilot Notebooks content contributes to tenant storage.</li><li>Inform helpdesk and end users about this new capability.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration?view=o365-worldwide\" target=\"_blank\">Admin policies for Copilot Pages and Copilot Notebooks | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/topic/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license-5810b659-fbe0-48ee-9fe6-d731fe86cdeb\" target=\"_blank\">How Copilot Chat works with and without a Microsoft 365 Copilot license | Microsoft Support</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-requirements?view=o365-worldwide\" target=\"_blank\">Requirements for Copilot Pages and Copilot Notebooks | Microsoft 365 | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. Notebook content is stored in user-owned SharePoint Embedded (Loop-backed) containers and persists as part of SharePoint storage.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data, if so summarize changes?</td><td>Yes. Copilot Notebooks introduce a persistent workspace where Copilot operates over user content.</td></tr><tr><td>Does the change provide users any new way of interacting with generative AI, if so how?</td><td>Yes. Users interact with Copilot within notebooks to work across content.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Copilot Notebooks will be available in Microsoft 365 Copilot Chat for Basic users starting mid-June 2026, providing a persistent AI-powered workspace to organize content. Notebook data is stored in user-owned SharePoint Embedded containers, counts toward SharePoint storage, and respects existing admin policies. No immediate action required."
+      }
+    ],
+    "EndDateTime": "2026-10-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1384425",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-07-02T18:49:28.45Z",
+    "Services": [
+      "Microsoft 365 apps",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-08T22:21:01Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact"
+    ],
+    "Title": "Copilot Notebooks available in Microsoft 365 Copilot Chat for Basic users",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We have updated the content and timeline. Thank you for your patience.</p><p><b><b>What and Why:</b></b></p>\n<p>Microsoft Purview is introducing the ability to assign a time limit when adding users or security groups to role groups. Administrators can specify an expiration&nbsp;date from <b>1 day up to 2 years</b>, enabling temporary administrative access and supporting least-privilege security practices. This enhancement helps organizations improve governance and compliance while reducing the risk of unnecessary long-term privileged access.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): Beginning <b>late July 2026</b>; expected to complete by&nbsp;<b>late August 2026</b></li>\n<li>General Availability (GCC, GCC High, DoD): Beginning<b> late August 2026</b>; expected to complete by <b>late September 2026</b></li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Purview administrators</li>\n<li>Security and compliance administrators</li>\n<li>Organizations using Purview role groups in Worldwide, GCC, GCC High, and DoD environments</li>\n</ul>\n\n<p><b>Platforms/Services:</b></p>\n<ul>\n<li>Microsoft Purview compliance portal</li><li>Microsoft Defender portal</li>\n<li>Microsoft Purview RBAC</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Administrators can assign users or security groups to role groups with a defined expiration period.</li>\n<li>Assignment durations can range from 1 day to 2 years.</li>\n<li>The capability applies to existing and new assignments.</li>\n<li>Existing assignments are not modified automatically.</li>\n<li>No impact to user workflows.</li>\n<li>The feature is available by default after rollout.</li>\n<li>No policy or configuration changes are required.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<p><b>No action is required.</b></p><p>We recommend that you:</p>\n<ul>\n<li>Review privileged access management processes.</li>\n<li>Consider using assignment expiration periods for temporary access scenarios.</li>\n<li>Update internal documentation where appropriate.</li>\n<li>Inform Purview administrators of the new capability.</li></ul><p><b><b>Compliance Considerations:</b></b></p><ul>\n</ul>\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance Consideration</th>\n<th>Assessment</th>\n</tr>\n<tr>\n<td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n<td>Temporary role group assignment limits may support governance and audit reviews of administrative access, but the announcement does not describe new reporting, monitoring, or compliance reporting capabilities.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>Admins can configure a time limit (1 day to 2 years) for new or existing role group assignments. The feature applies to both users and security groups assigned to role groups assigned in Microsoft Purview portal.</td>\n</tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview will allow admins to set expiration dates (1 day to 2 years) for user or group role assignments, enabling temporary access to enhance security and compliance. This feature rolls out worldwide from late July 2026 and requires no action but supports improved governance."
+      }
+    ],
+    "EndDateTime": "2026-10-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1411431",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-07-02T18:45:51.077Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-07-01T15:20:52Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview compliance portal: Admin assignment time limit",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is introducing a <b>new Copilot chat pane</b> in <i>OneNote Mobile (Android)</i> for users licensed with <b>Microsoft 365 Copilot (Premium)</b>. This update adds a <b>new Summary feature</b> that allows users to generate concise summaries of longer OneNote pages, as well as ask questions about their notes, directly within the OneNote mobile app. This helps users review and interact with note content more efficiently while on the go.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422323\" target=\"_blank\">422323</a></b>.</p><p><b><b>When this will happen</b></b></p><p style=\"margin-left: 25px;\"><b>General Availability (Worldwide): </b>We will begin rolling out <b>end of July 2026</b> (previously&nbsp;end of June)<b>&nbsp;</b>and expect to complete by <b>early August 2026</b> (previously&nbsp;mid-July)<b>.</b></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with <b>Microsoft 365 Copilot (Premium) licenses</b></li><li>Users accessing <b>OneNote on Android</b></li><li>All Microsoft 365 tenants</li></ul><p><i>What will happen</i></p><ul><li>Users with a Microsoft 365 Copilot (Premium) license will see a <i><b>Copilot chat pane</b></i> in the <i>OneNote mobile app on Android:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/70658060-ce94-4dd3-b663-31a095fcacb1/c78f19be502726dfa7ca9c7b0d077d790a3b5277.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The Copilot chat pane allows users to generate concise summaries of longer OneNote pages and ask questions about their notes:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7b283bc7-d965-4c8a-84da-20d2cc1ac684/66635b9e29239318c787c8e7ed38d75e9317e4d7.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Existing Microsoft 365 Copilot controls, permissions, and policies continue to apply.</li><li>Users without a Microsoft 365 Copilot (Premium) license are not impacted.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No admin action is required before rollout.</li><li>Ensure that users who should access this feature are assigned a Microsoft 365 Copilot (Premium) license.</li><li>Consider informing helpdesk staff and users about the availability of Copilot chat and the Summary feature in OneNote mobile.</li><li>Review existing Microsoft 365 Copilot governance, compliance, and usage policies to ensure they align with your organization’s requirements.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Copilot chat processes OneNote content that users already have access to in order to generate summaries and answer questions, in accordance with existing Microsoft 365 Copilot data handling, permissions, and security controls.</td></tr><tr><td>Does the change introduce or significantly modify AI or ML capabilities that interact with customer data?</td><td>Yes. This update introduces Copilot chat capabilities within OneNote Mobile, allowing generative AI to analyze note content that the user has permission to access.</td></tr><tr><td>Does the change provide end users a new way of interacting with generative AI?</td><td>Yes. Users can interact with generative AI through the Copilot chat pane in OneNote Mobile to summarize content and ask questions about their notes.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "422323"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot (Premium) will add a Copilot chat pane with a Summary feature to OneNote Mobile on Android, enabling users to generate summaries and ask questions about notes. Rollout begins late July 2026, requiring no admin action but license assignment and policy review."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android"
+      }
+    ],
+    "EndDateTime": "2026-09-14T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1309746",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-07-02T16:20:48.3Z",
+    "Services": [
+      "Microsoft 365 apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-05-13T23:11:08Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Copilot chat pane and Summary feature in OneNote Mobile (Android)",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>As part of our ongoing mission to deliver a modern, secure, and scalable one-stop management portal for admins, we are transitioning Teams Android device management from the <b>Teams admin center (TAC)</b> to the <b>Teams Rooms Pro Management portal (PMP)</b>.</p>\n<p>This move consolidates management of all Teams devices, including Teams Rooms on Windows, Teams Rooms on Android, Teams phones, and Teams panels, into a single unified portal, providing IT admins a consistent and seamless experience for managing devices at scale.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555235\">555235</a>.</p>\n<p><b><b>When this will happen:</b></b></p><ul><li>General Availability (Worldwide): Effective <b>July 2, 2026</b>, the rollout is <b>100% complete</b> across all regions in the Public cloud.</li><li>General Availability (GCC High and DoD): We expect to complete the rollout by <b>late-July 2026</b>.</li><li>General Availability (GCC): We expect to complete the rollout by <b>late-August 2026</b>.</li><li>Device management deprecation in TAC: We will start the deprecation for Public cloud customers in August and expect to complete by end of September 2026 in all the clouds.</li></ul>\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Admins who manage Teams Rooms on Android, Teams phones, Teams panels, and SIP Phones.</p><p><b>What will happen:</b></p>\n\n\n\n<ul><li>By end of June 2026, Android device management capabilities, including inventory, updates, health monitoring, and settings will transition from TAC to PMP for the device types, Teams Rooms on Android, Teams phones, Teams panels and SIP Phones.</li><li>The following capabilities will be available and enhanced in PMP:</li>\n<ul>\n  <li>Device inventories for Android-based Teams Rooms, phones, and panels, including metadata and app information</li>\n  <li>Remote device actions (restart, log collection, sign-in/out, provisioning, and more)</li>\n  <li>Update management</li>\n  <li>Device settings management</li>\n  <li>Device health monitoring</li>\n  <li>SIP device management</li>\n</ul>\n\n<li>PMP will become the primary portal for all Teams device management. By <b>September 2026</b>, overlapping TAC capabilities (updates, settings, restart, sign-in/out, log collection, provisioning) will be deprecated in TAC.</li><li>The article below serves as the main information source for this transition. It has been updated with the latest timelines, milestones, migration guidance, and readiness steps. We will keep updating it as the rollout progresses.<ul><li><a href=\"https://learn.microsoft.com/microsoftteams/rooms/aboutunifieddevicemanagement-pmp1\" target=\"_blank\">Transitioning Teams Android Device Management from Teams Admin Center to the Teams Rooms Pro Management Portal - Microsoft Teams | Microsoft Learn</a></li></ul></li></ul><p><b><b>What you need to do to prepare:</b></b></p>\n\n\n<ul><li>Monitor the below article for any feature specific updates and timelines. This article also provides migration guidance and pre-requisites for successful transition to PMP.<ul><li><a href=\"https://learn.microsoft.com/microsoftteams/rooms/aboutunifieddevicemanagement-pmp1\" target=\"_blank\">Transitioning Teams Android Device Management from Teams Admin Center to the Teams Rooms Pro Management Portal - Microsoft Teams | Microsoft Learn</a></li></ul></li><li>Learn more about Pro Management portal features with these <a href=\"https://www.youtube.com/playlist?list=PLyhj1WZ29G65glMRLXqtlq7DGBvXg-TnT\" target=\"_blank\">Teams Rooms Pro Management short YouTube videos</a>.</li><ul><ul>\n  </ul><ul>\n</ul>\n\n</ul><li>Update internal helpdesk and IT documentation to reference PMP as the new management portal.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><ul><ul>\n</ul></ul>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "555235"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Teams Android device management is transitioning from the Teams admin center to the Teams Rooms Pro Management portal by July 2026, consolidating management of all Teams devices into one portal. TAC device management will be deprecated by September 2026. Admins should prepare by monitoring updates and updating documentation."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Android, Desktop, TeamsAndSurfaceDevices"
+      }
+    ],
+    "EndDateTime": "2026-09-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1227622",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-07-02T16:15:14.103Z",
+    "Services": [
+      "Microsoft Teams",
+      "Microsoft 365 for the web"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-06T00:41:45Z",
+    "Tags": [
+      "Updated message",
+      "Admin impact"
+    ],
+    "Title": "Transitioning Teams Android Device Management from Teams admin Center to the Teams Rooms Pro Management portal",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": "2026-07-13T07:00:00Z",
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is<b> retiring SharePoint Designer 2013</b>, which follows the <a href=\"https://learn.microsoft.com//lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy</a> and will reach end of support on <b>July 14, 2026</b>. This retirement aligns with our commitment to modernize workflow automation and customization experiences using supported tools such as Power Automate.</p><p><b><b>When this will happen</b></b></p><p>End of support <b>begins in mid-July 2026</b>, with retirement enforcement occurring between<b>&nbsp;mid-July and late July 2026</b> across all Microsoft 365 environments (<b>Worldwide, GCC, GCC High, and DoD</b>).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Organizations that use<b> SharePoint Designer 2013</b>&nbsp;for SharePoint workflows or site customizations.</p><p><i>What will happen</i>:</p><ul><li>Microsoft will no longer provide support, security updates, or fixes for SharePoint Designer 2013.</li><li><b>No extensions or exceptions will be offered beyond the retirement date</b>.</li><li>Workflows built with SharePoint Designer 2013 will require migration to supported alternatives such as Power Automate.</li><li>The SharePoint Migration Tool (SPMT) can migrate supported workflow actions to Power Automate.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>We recommend the following actions<b> before July 14, 2026</b>:</p><ul><li>Review existing SharePoint Designer 2013 workflows and customizations.</li><li>Plan and complete migration to supported technologies.</li><li>Update internal documentation, helpdesk knowledge bases, and user communications.</li><li>Use the <b>SharePoint Migration Tool (SPMT) 4.1 </b>to assess and migrate supported workflow actions to Power Automate.</li><li>Note: The SharePoint Migration Tool lets you migrate SharePoint Designer 2013 workflows to Power Automate.</li><li>Review SharePoint Designer 2013 lifecycle details and workflow migration guidance as part of your planning.</li></ul><p>No extension options will be available after the retirement date.</p><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows#classic-workflows-in-sharepoint\" target=\"_blank\">Guidance: Migrate from classic workflows to Power Automate flows in SharePoint | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepointmigration/spmt-workflow-migration-spd\" target=\"_blank\">SharePoint Designer 2010 and 2013 workflow migrations to Power Automate | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/products/sharepoint-designer-2013\" target=\"_blank\">SharePoint Designer 2013 Lifecycle | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p>\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "SharePoint Designer 2013 will reach end of support on July 14, 2026, with no extensions offered. Organizations must migrate workflows to supported tools like Power Automate using the SharePoint Migration Tool before this date, as Microsoft will stop providing updates or fixes after retirement."
+      }
+    ],
+    "EndDateTime": "2026-08-31T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1230891",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-07-02T16:08:33.203Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-02-11T23:18:38Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "SharePoint Designer 2013 reaches end of support on July 14, 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>As announced earlier in MC616550 (June 2023), InfoPath Forms Service in SharePoint Online is being retired and will be removed from existing tenants after July 14, 2026. To support this transition and reduce future migration effort, Microsoft will prevent the publication of InfoPath forms in SharePoint Online for all tenants ahead of the service’s retirement.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>: Publishing new InfoPath forms or publishing updates to existing forms will be blocked</li>\n  <li><b>July 14, 2026</b>: InfoPath Forms Service will be fully retired</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All SharePoint Online tenants</li>\n  <li>InfoPath designers, publishers, and site owners</li>\n  <li>IT administrators managing SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>, new InfoPath forms cannot be published</li>\n  <li>Modifications to existing InfoPath forms cannot be published</li>\n  <li>Existing published forms will remain available and usable</li>\n  <li>There is no option to extend InfoPath Forms Service beyond retirement</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n\n<p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://pnp.github.io/pnpassessment/infopath/readme.html\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the <a href=\"https://pnp.github.io/pnpassessment/infopath/report-intro.html\">Power BI InfoPath Report</a> generated by the scanner tool, you can:</p>\n\n<ul>\n  <li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li>\n  <li>Evaluate the recency and volume of usage of InfoPath Forms.</li>\n  <li>Understand lists, libraries, and content types that use InfoPath.</li>\n</ul>\n\n<p>We recommend communicating to the impacted site owners and teams inside your organization now, so they are aware of the coming change.</p>\n\n<p>For scenarios where InfoPath or InfoPath Forms Services are currently being used, we recommend migrating to <a href=\"https://www.microsoft.com/power-platform/products/power-apps/\">Power Apps</a>, <a href=\"https://www.microsoft.com/power-platform/products/power-automate/\">Power Automate</a>, or <a href=\"https://forms.office.com/\">Microsoft Forms</a>. Please ensure that you allow adequate time for migration of any use of InfoPath or InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in <a href=\"https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190\">this blog</a>.</p>\n\n<p><b>Note:</b> Please plan the migration appropriately as there will not be an option to extend InfoPath Forms Services beyond the InfoPath retirement date of July 14, 2026.</p>\n\n<p><b>Compliance considerations:</b></p>\n<p>This update disables the ability to publish or republish InfoPath forms in SharePoint Online as part of a planned service retirement; it does not change how existing customer data is stored, processed, or governed.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "InfoPath Forms Service in SharePoint Online will be retired on July 14, 2026. After May 18, 2026, publishing or updating InfoPath forms will be blocked, but existing forms remain usable. Organizations should assess usage and migrate to Power Apps, Power Automate, or Microsoft Forms before retirement."
+      }
+    ],
+    "EndDateTime": "2026-07-20T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1255407",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-07-02T16:07:38.77Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-18T22:30:18Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Retirement"
+    ],
+    "Title": "Publishing InfoPath Forms in SharePoint Online will not be allowed for all tenants",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated July 2, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p>Industry trends and feedback from our customers and partners make it clear that today’s businesses demand an intelligent, integrated forms experience that spans devices which InfoPath does not provide. As announced earlier, InfoPath Client 2013 will reach the end of its extended support period on July 14, 2026 (<a href=\"https://learn.microsoft.com/lifecycle/products/infopath-2013\" target=\"_blank\">link</a>), and to keep an aligned experience across Microsoft products, InfoPath Forms Service will be retired from SharePoint Online. We’re sending this message to bring it to your early attention to minimize the potential impact on your organization.&nbsp;</p><p><b>Key Points:</b></p><ul><li>Major: Retirement</li><li>Timeline: After May 18, 2026: Publishing new InfoPath forms or publishing updates to existing forms will be blocked and from July 14, 2026, Microsoft will remove InfoPath Forms Services for existing tenants. </li><li>Action: Review and assess impact</li></ul><p><b>How this will affect your organization:</b><br></p><ul><li>After May 18, 2026, publishing new InfoPath forms or publishing updates to existing forms will be blocked. Existing published forms will remain available and usable till July 14, 2026</li><li>After July 14, 2026, users will no longer be able to use InfoPath forms in SharePoint Online.&nbsp;</li></ul><p><b>What you need to do to prepare:</b><br></p><p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://aka.ms/assessment/infopath\" target=\"_blank\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the Power BI <a href=\"https://aka.ms/assessment/infopathreport\" target=\"_blank\">InfoPath Report</a> generated by the scanner tool, you can:</p><ul><li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li><li>Evaluate the recency and volume of usage of InfoPath Forms.</li><li>Understand lists, libraries and content types that use InfoPath.</li></ul><p>We recommend communicating to the impacted site owners/teams inside your organization now, so they are aware of the coming change.\n</p><p>For scenarios where InfoPath or InfoPath Forms services are currently being used, we recommend migrating to <a href=\"https://powerapps.microsoft.com/\" target=\"_blank\">Power Apps</a>, <a href=\"https://powerautomate.microsoft.com/\" target=\"_blank\">Power Automate</a> or <a href=\"https://forms.office.com/\" target=\"_blank\">Forms</a>.  Please ensure that you allow adequate time for migration of any use of InfoPath/InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in this <a href=\"https://aka.ms/sp-infopath-update\" target=\"_blank\">blog</a>.&nbsp;</p><p>Please plan appropriately as there will not be an option to extend InfoPath Form Services beyond the InfoPath retirement date of July 14, 2026.</p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will be retired by July 14, 2026. After May 18, 2026, publishing new or updated forms will be blocked. Organizations should assess usage, communicate changes, and migrate to Power Apps, Power Automate, or Forms before the deadline."
+      },
+      {
+        "Name": "BlogLink",
+        "Value": "https://aka.ms/sp-infopath-update"
+      }
+    ],
+    "EndDateTime": "2026-07-30T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC616550",
+    "IsMajorChange": true,
+    "LastModifiedDateTime": "2026-07-02T16:06:50.997Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2023-06-30T15:04:05Z",
+    "Tags": [
+      "Updated message",
+      "User impact",
+      "Admin impact",
+      "Retirement"
+    ],
+    "Title": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will reach end of support in July 2026",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>What and Why:</b></b></p>\n<p>Copilot Notebooks will intelligently recommend relevant artifacts based on your Microsoft 365 knowledge and the content in your notebook, helping you move work forward faster without leaving the notebook experience. By automatically leveraging existing context and background information, Copilot reduces the need to repeatedly write prompts containing the same details when creating new content from notebook materials. Supported artifact types include Word documents, Excel workbooks, and PowerPoint presentations. Support for additional artifact types, including PDFs and Pages, will be introduced in a future release.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?searchterms=566870\" target=\"_blank\">566870</a>.</p><p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>Public Preview (Worldwide): Beginning in <b>early July 2026</b>; expected to complete by <b>late August 2026</b>.</li>\n<li>General Availability (Worldwide): Beginning in <b>late July 2026;</b>&nbsp;expected to complete by l<b>ate September 2026</b>.</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Users who can currently create artifacts within Copilot Notebooks.</li>\n<li>Organizations licensed for Microsoft 365 Copilot (Premium) with access to Copilot Notebooks.</li>\n</ul>\n\n<p><b>Platforms/Services:</b></p>\n<ul>\n<li>Microsoft 365 Copilot</li>\n<li>Copilot Notebooks</li>\n<li>Word</li>\n<li>Excel</li>\n<li>PowerPoint</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Users will see proactive artifact recommendations within Copilot Notebooks.</li>\n<li>Suggestions are generated using notebook references, pages, and Microsoft 365 context.</li>\n<li>Supported artifact types include Word, Excel, and PowerPoint.</li>\n<li>Future releases are expected to add support for PDFs and Pages.</li>\n<li>The feature is <b>available by default </b>for eligible users.</li>\n<li>No admin configuration is required.</li></ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<p>No action is required.</p><p>We recommend that you:</p>\n<ul>\n<li>Review user-facing communications regarding Copilot Notebooks.</li>\n<li>Inform help desk teams about the new recommendation experience.</li>\n<li>Update internal training and adoption materials as appropriate.</li>\n<li>Monitor roadmap communications for future artifact type support.</li>\n</ul>\n\n<p><b><b>Compliance Considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><th>Compliance consideration</th><th>Explanation</th></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Artifact suggestions are generated using content already available in Copilot Notebooks, including notebook references, pages, and the user's Microsoft 365 context. This introduces additional AI-driven processing of existing customer data to determine relevant artifact recommendations.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>The feature adds proactive AI-generated artifact recommendations that analyze notebook content and Microsoft 365 context to suggest next-step deliverables such as Word documents, Excel workbooks, and PowerPoint presentations.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Users can receive contextual artifact recommendations directly within Copilot Notebooks and generate content from pre-populated prompts that incorporate relevant notebook information.</td></tr><tr><td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td><td>The announcement does not specify whether recommendation activity will be surfaced in existing audit, reporting, or compliance experiences. Organizations may wish to review future documentation for additional compliance-related details.</td></tr><tr><td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td><td>No new administrative controls are described. The feature appears to be available to users who already have permission to create artifacts in Copilot Notebooks, but Microsoft has not explicitly documented control mechanisms.</td></tr><tr><td>Does the change allow a user to enable and disable the feature themselves?</td><td>The announcement states that users remain in control of whether they use suggested artifacts, but it does not specify whether the recommendation experience itself can be enabled or disabled by individual users.</td></tr></tbody></table>",
       "ContentType": "html"
     },
@@ -298,7 +643,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126558Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612656Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530066Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530067Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -552,44 +897,6 @@
       "User impact"
     ],
     "Title": "Viva Engage: New post creation experience",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>What and Why:</b></b></p>\n<p>Microsoft Purview is introducing the ability to assign a time limit when adding users or security groups to role groups. Administrators can specify a duration from <b>1 day to 2 years</b>, enabling temporary administrative access and supporting least-privilege security practices. This enhancement helps organizations improve governance and compliance while reducing the risk of unnecessary long-term privileged access.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>General Availability (Worldwide): Beginning <b>late July 2026</b>; expected to complete by&nbsp;<b>late August 2026</b></li>\n<li>General Availability (GCC, GCC High, DoD): Beginning<b> late August 2026</b>; expected to complete by <b>late September 2026</b></li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft Purview administrators</li>\n<li>Security and compliance administrators</li>\n<li>Organizations using Purview role groups in Worldwide, GCC, GCC High, and DoD environments</li>\n</ul>\n\n<p><b>Platforms/Services:</b></p>\n<ul>\n<li>Microsoft Purview compliance portal</li>\n<li>Microsoft Purview RBAC</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>Administrators can assign users or security groups to role groups with a defined expiration period.</li>\n<li>Assignment durations can range from 1 day to 2 years.</li>\n<li>The capability applies to existing and new assignments.</li>\n<li>Existing assignments are not modified automatically.</li>\n<li>No impact to user workflows.</li>\n<li>The feature is available by default after rollout.</li>\n<li>No policy or configuration changes are required.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<p><b>No action is required.</b></p><p>We recommend that you:</p>\n<ul>\n<li>Review privileged access management processes.</li>\n<li>Consider using assignment expiration periods for temporary access scenarios.</li>\n<li>Update internal documentation where appropriate.</li>\n<li>Inform Purview administrators of the new capability.</li></ul><p><b><b>Compliance Considerations:</b></b></p><ul>\n</ul>\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance Consideration</th>\n<th>Assessment</th>\n</tr>\n<tr>\n<td>Does the change alter how admins can monitor, report on, or demonstrate compliance activities?</td>\n<td>Temporary role group assignment limits may support governance and audit reviews of administrative access, but the announcement does not describe new reporting, monitoring, or compliance reporting capabilities.</td>\n</tr>\n<tr>\n<td>Does the change include an admin control and can it be controlled through Entra ID group membership?</td>\n<td>Admins can configure a time limit (1 day to 2 years) for new or existing role group assignments. The feature applies to both users and security groups assigned to role groups assigned in Microsoft Purview portal.</td>\n</tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview will allow admins to set time limits (1 day to 2 years) on role group assignments, enabling temporary access to enhance security and compliance. This feature rolls out worldwide from late July 2026, requires no action, and supports existing and new assignments without impacting workflows."
-      }
-    ],
-    "EndDateTime": "2026-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1411431",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-07-01T15:21:01.607Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-07-01T15:20:52Z",
-    "Tags": [
-      "Feature update",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview compliance portal: Admin assignment time limit",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -1495,7 +1802,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127524Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127525Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127526Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531173Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531174Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1409308\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531175Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1670,7 +1977,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128194Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128195Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128205Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531881Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531882Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531883Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1817,7 +2124,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128375Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128376Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128378Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532055Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532056Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532057Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1916,7 +2223,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127281Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127282Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127283Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127284Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127284Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530903Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530903Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530904Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530905Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530906Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2016,7 +2323,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128255Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128256Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128256Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531941Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531942Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531943Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2248,7 +2555,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126596Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126597Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126598Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530118Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530119Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853012Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2776,53 +3083,6 @@
       "Admin impact"
     ],
     "Title": "Rewrite with Microsoft 365 Copilot Chat coming soon to Edge for Business users",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 25, 2026: We have updated the content and timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>As part of our ongoing mission to deliver a modern, secure, and scalable one-stop management portal for admins, we are transitioning Teams Android device management from the <b>Teams admin center (TAC)</b> to the <b>Teams Rooms Pro Management portal (PMP)</b>.</p>\n<p>This move consolidates management of all Teams devices, including Teams Rooms on Windows, Teams Rooms on Android, Teams phones, and Teams panels, into a single unified portal, providing IT admins a consistent and seamless experience for managing devices at scale.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555235\">555235</a>.</p>\n<p><b><b>When this will happen:</b></b></p>\n\n\n\n<ul><li>Public Preview: We started the rollout in <b>early April 2026</b> to limited customers and starting <b>26th June</b>, the rollout will expand to majority of public cloud customers.</li><li>General Availability (Worldwide): We expect to complete GA rollout by <b>mid-July 2026</b> for all the customers in Public cloud</li><li>General Availability (GCC High and DoD): We expect to complete the rollout by <b>late-July 2026</b>.</li><li>General Availability (GCC): We expect to complete the rollout by <b>late-August 2026</b>.</li><li>Device management deprecation in TAC: We will start the deprecation for Public cloud customers in August and expect to complete by end of September 2026 in all the clouds.</li></ul>\n<p><b><b>How this affects your organization:</b></b></p><p><b>Who is affected:</b></p><p>Admins who manage Teams Rooms on Android, Teams phones, Teams panels, and SIP Phones.</p><p><b>What will happen:</b></p>\n\n\n\n<ul><li>By end of June 2026, Android device management capabilities, including inventory, updates, health monitoring, and settings will transition from TAC to PMP for the device types, Teams Rooms on Android, Teams phones, Teams panels and SIP Phones.</li><li>The following capabilities will be available and enhanced in PMP:</li>\n<ul>\n  <li>Device inventories for Android-based Teams Rooms, phones, and panels, including metadata and app information</li>\n  <li>Remote device actions (restart, log collection, sign-in/out, provisioning, and more)</li>\n  <li>Update management</li>\n  <li>Device settings management</li>\n  <li>Device health monitoring</li>\n  <li>SIP device management</li>\n</ul>\n\n<li>PMP will become the primary portal for all Teams device management. By <b>September 2026</b>, overlapping TAC capabilities (updates, settings, restart, sign-in/out, log collection, provisioning) will be deprecated in TAC.</li><li>The article below serves as the main information source for this transition. It has been updated with the latest timelines, milestones, migration guidance, and readiness steps. We will keep updating it as the rollout progresses.<ul><li><a href=\"https://learn.microsoft.com/microsoftteams/rooms/aboutunifieddevicemanagement-pmp1\" target=\"_blank\">Transitioning Teams Android Device Management from Teams Admin Center to the Teams Rooms Pro Management Portal - Microsoft Teams | Microsoft Learn</a></li></ul></li></ul><p><b><b>What you need to do to prepare:</b></b></p>\n\n\n<ul><li>Monitor the below article for any feature specific updates and timelines. This article also provides migration guidance and pre-requisites for successful transition to PMP.<ul><li><a href=\"https://learn.microsoft.com/microsoftteams/rooms/aboutunifieddevicemanagement-pmp1\" target=\"_blank\">Transitioning Teams Android Device Management from Teams Admin Center to the Teams Rooms Pro Management Portal - Microsoft Teams | Microsoft Learn</a></li></ul></li><li>Learn more about Pro Management portal features with these <a href=\"https://www.youtube.com/playlist?list=PLyhj1WZ29G65glMRLXqtlq7DGBvXg-TnT\" target=\"_blank\">Teams Rooms Pro Management short YouTube videos</a>.</li><ul><ul>\n  </ul><ul>\n</ul>\n\n</ul><li>Update internal helpdesk and IT documentation to reference PMP as the new management portal.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified, review as appropriate for your organization.</p><ul><ul>\n</ul></ul>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "555235"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Teams Android device management is transitioning from the Teams admin center to the Teams Rooms Pro Management portal by mid-2026. This unified portal will manage all Teams devices with enhanced features. TAC device management will be deprecated by September 2026. Admins should prepare by reviewing updated guidance and updating documentation."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, TeamsAndSurfaceDevices"
-      }
-    ],
-    "EndDateTime": "2026-09-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1227622",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-06-25T16:07:45.173Z",
-    "Services": [
-      "Microsoft Teams",
-      "Microsoft 365 for the web"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-06T00:41:45Z",
-    "Tags": [
-      "Updated message",
-      "Admin impact"
-    ],
-    "Title": "Transitioning Teams Android Device Management from Teams admin Center to the Teams Rooms Pro Management portal",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -3524,7 +3784,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127354Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127356Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530996Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530997Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4919,7 +5179,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128678Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128679Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128679Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532355Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532356Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532356Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5215,7 +5475,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127747Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127748Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127749Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612775Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127751Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531394Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531395Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531396Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531397Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1395010\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531397Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7043,7 +7303,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127837Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127838Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853149Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531491Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -7191,7 +7451,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126295Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126297Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126298Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8529731Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8529733Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8529734Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7242,7 +7502,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128316Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128317Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128318Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531993Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531994Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531995Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -8311,7 +8571,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1387521\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126662Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1387521\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126663Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1387521\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530167Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1387521\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530168Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9292,45 +9552,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>What and Why</b></b></p><p><b>Copilot Notebooks </b>will be available in <i>Microsoft 365 Copilot Cha</i>t for users with&nbsp;<b>Copilot Chat (Basic)</b>&nbsp;and&nbsp;<b>M365 Copilot (Basic)</b>&nbsp;experiences. This update expands Copilot Notebooks beyond users with a Microsoft 365 Copilot add-on license to include additional Copilot Chat users. Copilot Notebooks provides a persistent, AI-powered workspace where users can organize content, add references, and interact with Copilot to reason over their materials in one place.</p><p><b><b>Rollout Schedule</b></b></p><ul><li><b>General Availability (Worldwide):</b>&nbsp;Rollout will begin in<b>&nbsp;mid-June 2026</b>.</li></ul><p><b><b>Impact on Your Organization</b></b></p><p>Who is affected</p><ul><li>Users with access to Copilot Chat (Basic) and M365 Copilot (Basic) experiences<ul><li>Copilot Notebooks availability varies by endpoint.</li></ul></li><li>Admins managing Copilot, Loop, and SharePoint storage</li></ul><p>Platforms/Services</p><ul><li>Microsoft 365 Copilot Chat (web)</li><li>Microsoft Loop / SharePoint Embedded</li><li>Web, desktop, and mobile</li></ul><p>What will happen</p><ul><li>Copilot Notebooks will be available to eligible users in <i>Microsoft 365 Copilot Chat</i>. This includes users with:<ul><li>Copilot Chat (Basic)</li><li>M365 Copilot (Basic)</li></ul></li><li>Copilot Notebooks in <i>OneNote</i> will not be available to Copilot Chat (Basic) users at this time.</li><li>Users can create persistent notebooks to organize content with Copilot.</li><li>Notebook content is stored in <i>user-owned SharePoint Embedded containers shared with Microsoft Loop</i>.</li><li>These containers appear as “<b><i>Loop</i></b>” in the <i>SharePoint admin center</i>, <i>PowerShell</i>, and <i>Microsoft Purview</i>.</li><li>Notebook content counts toward your organization’s SharePoint storage quota.</li><li>Existing admin configurations and policies for Copilot Notebooks and Loop (including Cloud Policy) are respected.</li><li>The feature is <b>enabled by default </b>where Copilot Notebooks is allowed.</li><li>Documentation describing Copilot Notebooks availability will be updated to reflect this change.</li></ul><p><b><b>Action Required / Recommendations</b></b></p><p>No immediate action is required.</p><p>You may want to:</p><ul><li>Review your Copilot Notebooks and Loop configuration to ensure alignment with your organization’s policies.</li><li>Review SharePoint storage usage, as Copilot Notebooks content contributes to tenant storage.</li><li>Inform helpdesk and end users about this new capability.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-admin-configuration?view=o365-worldwide\" target=\"_blank\">Admin policies for Copilot Pages and Copilot Notebooks | Microsoft 365 | Microsoft Learn</a></li><li><a href=\"https://support.microsoft.com/topic/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license-5810b659-fbe0-48ee-9fe6-d731fe86cdeb\" target=\"_blank\">How Copilot Chat works with and without a Microsoft 365 Copilot license | Microsoft Support</a></li><li><a href=\"https://learn.microsoft.com/microsoft-365/loop/cpcn-requirements?view=o365-worldwide\" target=\"_blank\">Requirements for Copilot Pages and Copilot Notebooks | Microsoft 365 | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change store new customer data, if so, where, and is the data cached or permanently stored?</td><td>Yes. Notebook content is stored in user-owned SharePoint Embedded (Loop-backed) containers and persists as part of SharePoint storage.</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data, if so summarize changes?</td><td>Yes. Copilot Notebooks introduce a persistent workspace where Copilot operates over user content.</td></tr><tr><td>Does the change provide users any new way of interacting with generative AI, if so how?</td><td>Yes. Users interact with Copilot within notebooks to work across content.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Copilot Notebooks will be available in Microsoft 365 Copilot Chat for Basic users starting mid-June 2026, providing a persistent AI-powered workspace to organize content. Notebook data is stored in user-owned SharePoint Embedded containers, counts toward SharePoint storage, and respects existing admin policies. No immediate action is required."
-      }
-    ],
-    "EndDateTime": "2026-10-01T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1384425",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-08T22:21:07.917Z",
-    "Services": [
-      "Microsoft 365 apps",
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-06-08T22:21:01Z",
-    "Tags": [
-      "New feature",
-      "User impact"
-    ],
-    "Title": "Copilot Notebooks available in Microsoft 365 Copilot Chat for Basic users",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>What and Why:</b></b></p><p>\nWe’re introducing the first phase of a simplified, more consistent design and navigation experience in Viva Engage to help users focus on conversations and community engagement. This update aligns Engage’s web and Teams experiences with modern Microsoft design patterns, reduces visual clutter, and improves usability across screen sizes.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p><p>\nGeneral Availability (Worldwide): Rollout begins in<b> late June 2026</b> and is expected to complete by <b>mid-August 2026</b>.</p>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n<ul>\n  <li><b>Who is affected:</b> All users who access Viva Engage on the web or in Microsoft Teams.</li>\n  <li><b>Platforms / Services:</b> Viva Engage (Web), Viva Engage app in Microsoft Teams.</li>\n  <p><b>What will happen:</b></p>\n<ul>\n  <li>Users will see an <b>updated layout and navigation</b> with consistent design patterns across Viva Engage pages on web and in Microsoft Teams.</li>\n  <li>A <b>more consistent right-side panel</b> will appear across all pages, showing the most relevant information alongside conversations to keep conversation content front and center.</li><p>Screenshot 1: <i>Home feed with the new right-side panel on a wide screen:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/e9d5c2ee-6689-408f-a2c9-3f9f65fab6e4\" style=\"width: 400px;\" alt=\"user settings\"></p>\n  <p>Screenshot 2: <i>Home feed with the new right-side panel on a narrow screen:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/9f14f4d2-9ba9-410e-ac7d-3e09cdcd57cf\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 3: <i style=\"\">Community page with reconsolidated modules on right-side panel for community members:</i>&nbsp;</p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/60717e9a-f9f1-4503-b576-65a7967a4c01/ffef351879a666106258de7a4536f491b3b4c586.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 4: <i>Community page with reconsolidated modules on right-side panel for community admins:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/cd79863f-de47-483b-b2d3-93182823529d\" style=\"width: 400px;\" alt=\"user settings\"></p><p>Screenshot 5: <i>Membership page with tabs for Settings, Members, Agents for community admins when clicked on the right-side panel for People:</i></p><p><i><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/15230ae4-7e0c-43dc-ba91-55e8ce1b3d69\" style=\"width: 400px;\" alt=\"user settings\"></i></p><li><i>On the web, users will see a <b>better-fitting layout</b>:\n    <ul>\n      <li>A wider content area and right-side panel on larger screens.</li>\n      <li>A narrow mode of the right-side panel on smaller screens.</li>\n    </ul>\n  </i></li><i>\n  <li><b>Community navigation is simplified</b>:\n    <ul>\n      <li>Redundant or empty entry points are removed.</li>\n      <li>Existing modules are consolidated from the header into the right-side panel.</li>\n      <li>Modules that are not relevant to a community (for example, events or campaigns when there is nothing to show) are hidden automatically</li><li>In a community, users will see a <b style=\"\">dedicated membership page, </b>replacing the previous&nbsp;<b style=\"\">Members </b>panel.<b style=\"\">&nbsp;</b>Community admins will see additional&nbsp;tabs for&nbsp;<b style=\"\">Agents</b>, and <b style=\"\">Settings.</b></li></ul></li>\n  <li>Two older, low-use modules are removed from the community right-side panel:\n    <ul>\n      <li>The intelligent importer for populating questions and answers.</li>\n      <li>Community resources for the linked SharePoint library and site. This remains available through the <span style=\"font-weight: bold;\">overflow menu </span>in the <span style=\"font-weight: bold;\">Files tab</span>.</li></ul></li>\n  <li>The update is <b>enabled by default</b>. No admin configuration or policy changes are required.</li>\n</i></ul></ul><i>\n\n<p><b><b>Action Required / Recommendations:</b></b></p><ul><li>\nNo admin action is required. </li><li>Consider informing community admins, updating internal documentation or screenshots, and notifying helpdesk teams of the layout changes.</li></ul>\n\n<p><b><b>Compliance considerations:</b></b></p><p>\nNo compliance considerations identified; review as appropriate for your organization.</p>\n</i>",
       "ContentType": "html"
     },
@@ -10179,54 +10400,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Insider Risk Management: Policy tuning analysis for priority content only policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is introducing a <b>new Copilot chat pane</b> in <i>OneNote Mobile (Android)</i> for users licensed with <b>Microsoft 365 Copilot (Premium)</b>. This update adds a <b>new Summary feature</b> that allows users to generate concise summaries of longer OneNote pages, as well as ask questions about their notes, directly within the OneNote mobile app. This helps users review and interact with note content more efficiently while on the go.</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422323\" target=\"_blank\">422323</a></b>.</p><p><b><b>When this will happen</b></b></p><p style=\"margin-left: 25px;\"><b>General Availability (Worldwide): </b>We will begin rolling out <b>end of June 2026</b> (previously&nbsp;late May)<b>&nbsp;</b>and expect to complete by <b>mid-July 2026</b> (previously&nbsp;late June)<b>.</b></p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with <b>Microsoft 365 Copilot (Premium) licenses</b></li><li>Users accessing <b>OneNote on Android</b></li><li>All Microsoft 365 tenants</li></ul><p><i>What will happen</i></p><ul><li>Users with a Microsoft 365 Copilot (Premium) license will see a <i><b>Copilot chat pane</b></i> in the <i>OneNote mobile app on Android:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/70658060-ce94-4dd3-b663-31a095fcacb1/c78f19be502726dfa7ca9c7b0d077d790a3b5277.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>The Copilot chat pane allows users to generate concise summaries of longer OneNote pages and ask questions about their notes:&nbsp;<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/7b283bc7-d965-4c8a-84da-20d2cc1ac684/66635b9e29239318c787c8e7ed38d75e9317e4d7.png\" style=\"width: 400px;\" alt=\"user settings\"></p></li><li>Existing Microsoft 365 Copilot controls, permissions, and policies continue to apply.</li><li>Users without a Microsoft 365 Copilot (Premium) license are not impacted.</li></ul><p><b><b>What you can do to prepare</b></b></p><ul><li>No admin action is required before rollout.</li><li>Ensure that users who should access this feature are assigned a Microsoft 365 Copilot (Premium) license.</li><li>Consider informing helpdesk staff and users about the availability of Copilot chat and the Summary feature in OneNote mobile.</li><li>Review existing Microsoft 365 Copilot governance, compliance, and usage policies to ensure they align with your organization’s requirements.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. Copilot chat processes OneNote content that users already have access to in order to generate summaries and answer questions, in accordance with existing Microsoft 365 Copilot data handling, permissions, and security controls.</td></tr><tr><td>Does the change introduce or significantly modify AI or ML capabilities that interact with customer data?</td><td>Yes. This update introduces Copilot chat capabilities within OneNote Mobile, allowing generative AI to analyze note content that the user has permission to access.</td></tr><tr><td>Does the change provide end users a new way of interacting with generative AI?</td><td>Yes. Users can interact with generative AI through the Copilot chat pane in OneNote Mobile to summarize content and ask questions about their notes.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "422323"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft 365 Copilot (Premium) users on OneNote Mobile (Android) will get a new Copilot chat pane with a Summary feature to generate concise summaries and ask questions about notes. Rollout starts end of June 2026, completing by mid-July, with existing Copilot policies applying."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android"
-      }
-    ],
-    "EndDateTime": "2026-08-17T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1309746",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-05T17:01:52.683Z",
-    "Services": [
-      "Microsoft 365 apps"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-05-13T23:11:08Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Copilot chat pane and Summary feature in OneNote Mobile (Android)",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -11846,7 +12019,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127198Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127199Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530821Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530822Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11897,7 +12070,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127946Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127947Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127948Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531595Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531596Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531597Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12260,7 +12433,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126807Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126808Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126809Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530423Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530424Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530424Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12609,7 +12782,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612743Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127431Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531076Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531077Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12661,7 +12834,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127581Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127583Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127583Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531217Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531218Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1234548\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531219Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12712,7 +12885,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127051Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Linux\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127052Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127053Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127054Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853069Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Linux\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530691Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530692Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530693Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13143,7 +13316,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126747Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126748Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126749Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530363Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530364Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530365Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13278,7 +13451,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128627Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128645Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532321Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532322Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13768,7 +13941,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612748Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127481Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127481Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853111Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531111Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531112Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14041,7 +14214,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127686Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127687Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127688Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531334Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531347Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531348Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14091,7 +14264,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612713Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127131Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127134Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530754Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530755Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530756Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14141,7 +14314,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126958Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126959Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612696Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530599Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.85306Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.85306Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15034,7 +15207,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127874Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127875Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127876Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127877Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531528Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531537Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531538Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531539Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15085,7 +15258,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1217997\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128525Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1217997\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128526Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1217997\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532227Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1217997\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532228Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15900,7 +16073,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127398Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127399Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531031Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531032Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16548,7 +16721,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1280561\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126694Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1280561\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6126695Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1280561\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530218Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1280561\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853022Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16841,54 +17014,6 @@
       "User impact"
     ],
     "Title": "Copilot Notebooks: New features coming to Frontier Public",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing a new co-branding capability that will allow organizations to <b>display a branded footer</b> at the bottom of the Chat screen in the<i> Microsoft 365 Copilot app</i>. This update will enable admins to add their organization’s logo to their users’ Microsoft 365 Copilot app, helping users confirm they are using their trusted, work-managed Copilot experience.</p><p>This feature will begin rolling out in <b>early May 2026</b> (previously late March)&nbsp;and is expected to complete by <b>mid-June 2026</b> (previously&nbsp;end of May).</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555852\" target=\"_blank\">555852</a>.</p><p><b><b>When this will happen</b></b></p><ul><li><b>General Availability (Worldwide):</b> Rollout will begin in<b>&nbsp;early May 2026</b> (previously late March) and is expected to complete by <b>mid-June 2026 </b>(previously end of May).</li></ul><p><b><b>How this will affect your organization</b></b></p><p><i>Who is affected</i></p><ul><li>All Microsoft 365 tenants using the Microsoft 365 Copilot app.</li></ul><p>What will happen</p><ul><li>Admins will be able to upload a logo in the <i>Microsoft 365 admin center</i> to customize the footer in the <i>Microsoft 365 Copilot app</i>.</li><li>The footer will display an “<b><i>Approved by <b>Logo</b></i>”</b> indicator to help users confirm they are in an <i>organization-approved Copilot environment:&nbsp;</i><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/68658328-08c2-4b57-8f67-a6387382d739/8c36ea142ae32ce3fc402d44cf3d176902dcb112.png\" style=\"width: 400px;\" alt=\"user settings\"><i></i></p></li><li>Only the logo from your organization’s theme configuration will be used; other theme elements will not be applied in this release.</li><li>This feature will be <b>off by default </b>and will require admin configuration.</li><li>There will be<b> no user impact </b>unless an admin enables the footer.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>No action will be required unless you want to enable the branded footer.</p><p>Admins who want to configure this feature should:</p><ul><li>Review and verify your organization’s theme configuration in the <i>Microsoft 365 admin center</i>.</li><li>Upload the logo you want to display in the <i>Microsoft 365 Copilot app footer </i>once rollout begins.</li><li>Use the existing theme management flow to apply co-branding once the feature is available.</li></ul><p>For configuration guidance:&nbsp;<a href=\"https://learn.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide&amp;source=recommendations\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-family: sans-serif; font-weight: 400;\">Customize the theme for your organization | Microsoft 365 | Microsoft Learn</a></p><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "555852"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Starting early May 2026, Microsoft 365 Copilot app will allow admins to add a branded footer with their organization's logo, confirming a trusted Copilot environment. This feature is off by default, requires admin setup via the Microsoft 365 admin center, and will complete rollout by mid-June 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Android, Desktop, iOS, Mac, Web"
-      }
-    ],
-    "EndDateTime": "2026-07-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1238432",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-05-04T22:09:56.413Z",
-    "Services": [
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-25T01:16:32Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot app: Branded footer customization",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -17670,7 +17795,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.612799Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127991Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127992Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127994Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127994Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531652Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531653Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531654Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531655Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1268911\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531655Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -17769,7 +17894,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127637Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127638Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127638Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531283Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531284Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531285Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -17892,129 +18017,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview: Information Protection – Extended scoping capabilities for sensitivity label policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": "2026-07-13T07:00:00Z",
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>Microsoft is<b> retiring SharePoint Designer 2013</b>, which follows the <a href=\"https://learn.microsoft.com//lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy</a> and will reach end of support on <b>July 14, 2026</b>. This retirement aligns with our commitment to modernize workflow automation and customization experiences using supported tools such as Power Automate.</p><p><b><b>When this will happen</b></b></p><p>End of support <b>begins in mid-July 2026</b>, with retirement enforcement occurring between<b>&nbsp;mid-July and late July 2026</b> across all Microsoft 365 environments (<b>Worldwide, GCC, GCC High, and DoD</b>).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>: Organizations that use<b> SharePoint Designer 2013</b>&nbsp;for SharePoint workflows or site customizations.</p><p><i>What will happen</i>:</p><ul><li>Microsoft will no longer provide support, security updates, or fixes for SharePoint Designer 2013.</li><li><b>No extensions or exceptions will be offered beyond the retirement date</b>.</li><li>Workflows built with SharePoint Designer 2013 will require migration to supported alternatives such as Power Automate.</li><li>The SharePoint Migration Tool (SPMT) can migrate supported workflow actions to Power Automate.</li></ul><p><b><b>What you can do to prepare</b></b></p><p>We recommend the following actions<b> before July 14, 2026</b>:</p><ul><li>Review existing SharePoint Designer 2013 workflows and customizations.</li><li>Plan and complete migration to supported technologies.</li><li>Update internal documentation, helpdesk knowledge bases, and user communications.</li><li>Use the <b>SharePoint Migration Tool (SPMT) 4.1 </b>to assess and migrate supported workflow actions to Power Automate.</li><li>Note: The SharePoint Migration Tool lets you migrate SharePoint Designer 2013 workflows to Power Automate.</li><li>Review SharePoint Designer 2013 lifecycle details and workflow migration guidance as part of your planning.</li></ul><p>No extension options will be available after the retirement date.</p><p>Learn more:</p><ul><li><a href=\"https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/guidance/migrate-from-classic-workflows-to-power-automate-flows#classic-workflows-in-sharepoint\" target=\"_blank\">Guidance: Migrate from classic workflows to Power Automate flows in SharePoint | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/policies/fixed\" target=\"_blank\">Microsoft Fixed Lifecycle Policy | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/sharepointmigration/spmt-workflow-migration-spd\" target=\"_blank\">SharePoint Designer 2010 and 2013 workflow migrations to Power Automate | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/lifecycle/products/sharepoint-designer-2013\" target=\"_blank\">SharePoint Designer 2013 Lifecycle | Microsoft Learn</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p><p>\n</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "SharePoint Designer 2013 will reach end of support on July 14, 2026, with no extensions offered. Organizations must migrate workflows to supported tools like Power Automate using the SharePoint Migration Tool before this date, as Microsoft will stop providing updates or fixes after retirement."
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1230891",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-20T15:43:06.583Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-02-11T23:18:38Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "SharePoint Designer 2013 reaches end of support on July 14, 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p><b>Introduction</b></p>\n<p>As announced earlier in MC616550 (June 2023), InfoPath Forms Service in SharePoint Online is being retired and will be removed from existing tenants after July 14, 2026. To support this transition and reduce future migration effort, Microsoft will prevent the publication of InfoPath forms in SharePoint Online for all tenants ahead of the service’s retirement.</p>\n\n<p><b>When this will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>: Publishing new InfoPath forms or publishing updates to existing forms will be blocked</li>\n  <li><b>July 14, 2026</b>: InfoPath Forms Service will be fully retired</li>\n</ul>\n\n<p><b>How this affects your organization:</b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n  <li>All SharePoint Online tenants</li>\n  <li>InfoPath designers, publishers, and site owners</li>\n  <li>IT administrators managing SharePoint Online</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n  <li><b>After May 18, 2026</b>, new InfoPath forms cannot be published</li>\n  <li>Modifications to existing InfoPath forms cannot be published</li>\n  <li>Existing published forms will remain available and usable</li>\n  <li>There is no option to extend InfoPath Forms Service beyond retirement</li>\n</ul>\n\n<p><b>What you can do to prepare:</b></p>\n\n<p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://pnp.github.io/pnpassessment/infopath/readme.html\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the <a href=\"https://pnp.github.io/pnpassessment/infopath/report-intro.html\">Power BI InfoPath Report</a> generated by the scanner tool, you can:</p>\n\n<ul>\n  <li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li>\n  <li>Evaluate the recency and volume of usage of InfoPath Forms.</li>\n  <li>Understand lists, libraries, and content types that use InfoPath.</li>\n</ul>\n\n<p>We recommend communicating to the impacted site owners and teams inside your organization now, so they are aware of the coming change.</p>\n\n<p>For scenarios where InfoPath or InfoPath Forms Services are currently being used, we recommend migrating to <a href=\"https://www.microsoft.com/power-platform/products/power-apps/\">Power Apps</a>, <a href=\"https://www.microsoft.com/power-platform/products/power-automate/\">Power Automate</a>, or <a href=\"https://forms.office.com/\">Microsoft Forms</a>. Please ensure that you allow adequate time for migration of any use of InfoPath or InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in <a href=\"https://techcommunity.microsoft.com/blog/spblog/support-update-for-infopath-forms-services-in-microsoft-365/3858190\">this blog</a>.</p>\n\n<p><b>Note:</b> Please plan the migration appropriately as there will not be an option to extend InfoPath Forms Services beyond the InfoPath retirement date of July 14, 2026.</p>\n\n<p><b>Compliance considerations:</b></p>\n<p>This update disables the ability to publish or republish InfoPath forms in SharePoint Online as part of a planned service retirement; it does not change how existing customer data is stored, processed, or governed.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "Publishing new or updated InfoPath forms in SharePoint Online will be blocked after May 18, 2026, with full retirement of InfoPath Forms Service on July 14, 2026. Existing forms remain usable. Organizations should assess usage and migrate to Power Apps, Power Automate, or Microsoft Forms before the deadline."
-      }
-    ],
-    "EndDateTime": "2026-07-20T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1255407",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-20T15:42:38.437Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-18T22:30:18Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Retirement"
-    ],
-    "Title": "Publishing InfoPath Forms in SharePoint Online will not be allowed for all tenants",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated April 20, 2026: We are updating this post as a reminder. Thank you for your patience.&nbsp;</p><p>Industry trends and feedback from our customers and partners make it clear that today’s businesses demand an intelligent, integrated forms experience that spans devices which InfoPath does not provide. As announced earlier, InfoPath Client 2013 will reach the end of its extended support period on July 14, 2026 (<a href=\"https://learn.microsoft.com/lifecycle/products/infopath-2013\" target=\"_blank\">link</a>), and to keep an aligned experience across Microsoft products, InfoPath Forms Service will be retired from SharePoint Online. We’re sending this message to bring it to your early attention to minimize the potential impact on your organization.&nbsp;</p><p><b>Key Points:</b></p><ul><li>Major: Retirement</li><li>Timeline: After May 18, 2026: Publishing new InfoPath forms or publishing updates to existing forms will be blocked and from July 14, 2026, Microsoft will remove InfoPath Forms Services for existing tenants. </li><li>Action: Review and assess impact</li></ul><p><b>How this will affect your organization:</b><br></p><ul><li>After May 18, 2026, publishing new InfoPath forms or publishing updates to existing forms will be blocked. Existing published forms will remain available and usable till July 14, 2026</li><li>After July 14, 2026, users will no longer be able to use InfoPath forms in SharePoint Online.&nbsp;</li></ul><p><b>What you need to do to prepare:</b><br></p><p>To understand how InfoPath is used in your organization, you can run the <a href=\"https://aka.ms/assessment/infopath\" target=\"_blank\">Microsoft 365 Assessment tool</a> to scan the tenant for InfoPath usage. Using the Power BI <a href=\"https://aka.ms/assessment/infopathreport\" target=\"_blank\">InfoPath Report</a> generated by the scanner tool, you can:</p><ul><li>Identify all InfoPath Forms usage in the tenant, per site collection and site.</li><li>Evaluate the recency and volume of usage of InfoPath Forms.</li><li>Understand lists, libraries and content types that use InfoPath.</li></ul><p>We recommend communicating to the impacted site owners/teams inside your organization now, so they are aware of the coming change.\n</p><p>For scenarios where InfoPath or InfoPath Forms services are currently being used, we recommend migrating to <a href=\"https://powerapps.microsoft.com/\" target=\"_blank\">Power Apps</a>, <a href=\"https://powerautomate.microsoft.com/\" target=\"_blank\">Power Automate</a> or <a href=\"https://forms.office.com/\" target=\"_blank\">Forms</a>.  Please ensure that you allow adequate time for migration of any use of InfoPath/InfoPath Forms Services in your organization ahead of this date, as there is no migration tool provided. Additional instructions on how to migrate can be found in this <a href=\"https://aka.ms/sp-infopath-update\" target=\"_blank\">blog</a>.&nbsp;</p><p>Please plan appropriately as there will not be an option to extend InfoPath Form Services beyond the InfoPath retirement date of July 14, 2026.</p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "Summary",
-        "Value": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will retire by July 14, 2026. After May 18, 2026, publishing new or updated forms will be blocked. Organizations should assess usage with Microsoft tools and migrate to Power Apps, Power Automate, or Forms before the deadline."
-      },
-      {
-        "Name": "BlogLink",
-        "Value": "https://aka.ms/sp-infopath-update"
-      }
-    ],
-    "EndDateTime": "2026-07-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC616550",
-    "IsMajorChange": true,
-    "LastModifiedDateTime": "2026-04-20T15:42:13.477Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2023-06-30T15:04:05Z",
-    "Tags": [
-      "Updated message",
-      "User impact",
-      "Admin impact",
-      "Retirement"
-    ],
-    "Title": "InfoPath 2013 client and InfoPath Forms Services in SharePoint Online will reach end of support in July 2026",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18784,7 +18786,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1266026\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127232Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1266026\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6127233Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1266026\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530854Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1266026\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8530854Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19512,7 +19514,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128134Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128135Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128136Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128137Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853181Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531811Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531812Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531813Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19973,7 +19975,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128077Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128078Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128079Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531741Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531742Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8531743Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -21501,7 +21503,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128577Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128578Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T15:11:37.6128579Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.8532259Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853226Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-07-02T19:18:31.853226Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
