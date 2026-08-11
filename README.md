@@ -22,3 +22,11 @@ npx skills add merill/mc
 ```
 
 The skill teaches agents to use `https://mc.merill.net/llms.txt`, search `https://mc.merill.net/messages-index.json`, cite canonical message pages, and remind users that Message Center posts are tenant-specific.
+
+## Discord notifications
+
+The hourly data workflow detects newly observed Message Center posts when either a service/product label or the title contains the standalone word `Entra`, case-insensitively. It publishes one rich Discord embed per new post and links to the canonical `mc.merill.net` archive page.
+
+Create one incoming webhook named `Entra Scout` in the target Discord channel and configure its avatar in Discord. Save its URL as the repository Actions secret `DISCORD_ENTRA_SCOUT_WEBHOOK_URL`, using the same webhook URL and secret name in the EntraDiff repository. The two publishers share one Discord identity while retaining distinct message layouts and source labels. Both omit `avatar_url` by default so Discord uses the webhook's configured image; set `DISCORD_ENTRA_SCOUT_AVATAR_URL` only for an intentional override using a publicly accessible image URL.
+
+Delivery IDs and pending retries are persisted in `@data/discord-state.json`, so workflow reruns do not repost an existing Message Center ID. Set `DISCORD_ENABLED=false` to disable delivery or `DISCORD_DRY_RUN=true` to queue without sending. The legacy `DISCORD_ENTRA_MC_WEBHOOK_URL` variable remains a temporary compatibility fallback for local runs.
