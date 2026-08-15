@@ -4,6 +4,564 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
+      "Content": "We are announcing the ability to create volume spike alerts and in-app notifications in Dynamics 365 Customer Service and Dynamics 365 Contact Center. This feature will reach public preview on August 31, 2026.<br><br><b>How does this affect me?</b><br>With this feature, supervisors can create volume spike alerts that compare real-time conversation volume against the forecast linked to a shift plan and receive an in-app notification when volume exceeds forecast beyond the thresholds they set. This lowers the time to respond and adapt to service level-impacting changes in your daily operations.<br><br>This feature is only available through Workforce Management for Customer Service. Administrators must enable this feature in the Copilot Service admin center, under Workforce management &gt; Intraday management &gt; Workforce alerts.<br><br><b>What action do I need to take?</b><br>This message is for awareness, and no action is required.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-14T23:03:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455051",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T23:03:23.057Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T23:03:00Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service and Dynamics 365 Contact Center - Detect intraday volume spikes with workforce alerts",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 14, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>What and Why</b></b></p><p>We are enhancing the email drafting experience in Microsoft Outlook by integrating Microsoft 365 Copilot directly into the compose experience. This update allows users to create, refine, and edit email content in real time with Copilot assistance, helping improve productivity while maintaining full control over final content.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564605\" target=\"_blank\">564605</a>.</p><p><b><b>Rollout Schedule</b></b></p><p><b>General Availability (Worldwide):</b> Beginning&nbsp;<b>mid-July 2026</b> and expected to complete by <b>end of August 2026 </b>(previously&nbsp;early&nbsp;August)</p><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with a Microsoft 365 Copilot license who use Outlook on supported clients</li></ul><p><i>Platforms/Services</i></p><ul><li>Outlook on the web</li><li>New Outlook for Windows</li><li>Outlook mobile</li><li>Outlook for Mac, available after initial rollout</li><li>Classic Outlook for Windows, planned later in 2026</li></ul><p><i>What will happen</i></p><ul><li>Users will see a Copilot side-by-side drafting experience when composing email.</li><li>Users can create new messages or edit existing drafts with Copilot assistance:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e9220e21-919f-4eb4-87df-ffbeea645bbb/14571a3c9af83c066899843e728851818ab59935.png\" style=\"width: 400px;\"></p></li><li>Users can refine, expand, or rewrite content directly within the compose surface.</li><li>The feature is enabled by default for licensed users.</li><li>Existing policies for email access, governance, and protection continue to apply.</li><li>No changes to admin controls at this time.</li><li>Existing workflows outside of the compose experience are not impacted.</li></ul><p><b><b>Action Required/Recommendations</b></b></p><p>No action is required.</p><p>You may consider the following:</p><ul><li>Update internal training materials to reflect the new drafting experience.</li><li>Inform helpdesk teams of the updated compose experience.</li><li>Review Microsoft Learn documentation for Microsoft 365 Copilot in Outlook.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://support.microsoft.com/outlook/copilot-pages/draft-an-email-message-with-copilot-in-outlook\" target=\"_blank\">Draft an email message with Copilot in Outlook | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI or machine learning capabilities that interact with customer data, and if so, what are the changes?</td><td>Yes. The change introduces Microsoft 365 Copilot capabilities within the Outlook compose experience, allowing users to generate, refine, and edit email content using AI that interacts with customer data such as email drafts.</td></tr><tr><td>Does the change provide users with a new way of interacting with generative AI, and if so, how?</td><td>Yes. Users can now interact directly with Microsoft 365 Copilot within the Outlook email compose surface to create and modify email content in real time.</td></tr></tbody></table><p><b></b></p>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "564605"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Outlook will integrate Microsoft 365 Copilot into the email compose experience by mid-July 2026, enabling licensed users to create, refine, and edit emails with AI assistance across supported platforms. The feature is enabled by default, with no admin changes required."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-05T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1430542",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T22:21:33.71Z",
+    "Services": [
+      "Exchange Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-07-17T05:04:51Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Outlook: Collaborate with Copilot while drafting email",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "We are announcing the ability to use planning group support in Adherence tracker in Dynamics 365 Customer Service and Dynamics 365 Contact Center. This feature will reach general availability on August 31, 2026.<br><br><b>How does this affect me?</b><br>Users will be able to filter the Adherence tracker by planning group and combine this filter with existing shift plan and service representative filters. Adherence percentages and out-of-adherence counts will recalculate for the selected scope, and filter selections will persist across sessions.<br><br><b>What action do I need to take?</b><br>Before users can use this feature, an admin must <a href=\"https://aka.ms/17309/workforce-management-package-installation\" target=\"_blank\">Install the Workforce Management for Customer Service package</a> from the Power Platform admin center. When the package is installed, this feature will be available in Copilot Service workspace under Workforce management &gt; Adherence tracker.<br><br>If you would like more information on this feature, please visit <a href=\"https://aka.ms/17309/workforce-management-adherence-tracker\" target=\"_blank\">Use the adherence tracker</a>.",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [],
+    "EndDateTime": "2026-09-14T22:17:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455028",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T22:17:07.207Z",
+    "Services": [
+      "Dynamics 365 Apps"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T22:17:00Z",
+    "Tags": [
+      "New feature"
+    ],
+    "Title": "Dynamics 365 Customer Service and Dynamics 365 Contact Center - Planning group support in Adherence tracker",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 14, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To strengthen customer control over sensitive investigation data, Microsoft is extending <b>Customer-managed key (CMK) </b>protection to Microsoft Purview eDiscovery Direct Export. For tenants that have configured<b> Data Encryption Policies (DEPs)</b> using the <b>Microsoft 365 Data-at-Rest Encryption Platform (MDEP)</b>, eDiscovery export packages will now be automatically encrypted using your organization’s CMK. This helps ensure exported investigation data remains protected under customer-controlled encryption policies throughout the export lifecycle, without changing the existing eDiscovery user experience.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557684\" target=\"_blank\">557684</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview: We will begin rolling out <b>early May 2026</b> and expect to complete by <b>early June 2026.</b></li>\n<li>General Availability (Worldwide):&nbsp; We will begin rolling out<b> late December 2026</b> (previously&nbsp;early September)<b>&nbsp;</b>and expect to complete by<b>&nbsp;early January 2027 </b>(previously end of September).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft 365 tenants with Customer-managed keys enabled through <b>Data Encryption Policies (DEPs)</b>, and request that Microsoft Support enable this feature for Purview eDiscovery Direct Export in their tenant</li>\n<li>Admins and investigators using Microsoft Purview eDiscovery&nbsp;Direct Export</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>eDiscovery Direct Export packages for CMK‑enabled tenants will be encrypted at rest using tenant‑owned keys.</li><li>Encryption is applied automatically based on existing DEP configuration.</li>\n<li>CMK configuration is dynamically validated through MDEP at export time.</li>\n<li>No change to the eDiscovery user experience.</li>\n<li>Only enabled for specific tenants by request to Microsoft Support&nbsp;</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>To use CMK encryption for eDiscovery Direct Export, your organization must complete the following steps:</p><ol><li>Configure Customer Key (self-service) Your Microsoft 365 administrator must have Customer Key enabled through the Microsoft 365 Data-at-Rest Encryption Platform (MDEP) with a DEP in PolicyAssigned status. </li><ul><li>This requires:<ul><li>Two Azure subscriptions dedicated to Customer Key</li><li>Azure Key Vault(s) with RSA keys provisioned</li><li>A DEP created and assigned to your tenant</li><li>Follow the setup guidance here: <a href=\"https://learn.microsoft.com/purview/customer-key-set-up?tabs=akv#create-two-new-azure-subscriptions\" target=\"_blank\">Create two new Azure subscriptions | Microsoft Learn</a></li></ul></li></ul><li>Request feature enablement (contact Microsoft Support) <ul><li>After Customer Key is configured, your organization must contact Microsoft Support to request that CMK for eDiscovery Direct Export be enabled for your tenant. This feature requires Microsoft-side service configuration that is not automatically applied. Work with your Microsoft Support contact or <b>Customer Success Account Manager (CSAM)</b> to complete enablement.</li></ul></li></ol><p><b>Important:</b></p><ul><li>If your tenant does not have CMK properly configured through MDEP at export time, direct export jobs will proceed without CMK encryption.</li><li>No changes to the eDiscovery user experience are required — CMK encryption is applied transparently to export packages.</li><li>Encryption scopes, storage accounts, and containers are managed automatically by the service; no additional storage configuration is needed.</li><li>Exported data retention remains 14 days, unchanged by CMK.</li></ul><p></p><p></p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/edisc-search-export\" target=\"_blank\">Export search results in eDiscovery | Microsoft Learn</a></p>\n\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>Encryption methods or key management</td>\n<td>eDiscovery Direct Export packages are encrypted at rest using tenant‑owned customer‑managed keys defined in Data Encryption Policies through MDEP.</td>\n</tr>\n<tr>\n<td>eDiscovery or Content Search</td>\n<td>Direct Export behavior is enhanced to automatically apply tenant‑specific encryption scopes to exported investigation data.</td>\n</tr>\n<tr>\n<td>How customer data is processed or stored</td>\n<td>Exported investigation data is stored in eDiscovery storage accounts encrypted with customer‑managed keys rather than Microsoft‑managed keys.</td>\n</tr><tr><td>Admin controls</td><td>Behavior is governed by existing Data Encryption Policies; no new toggle is introduced, but encryption is controlled through CMK configuration.</td></tr>\n</tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "planForChange",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "557684"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery Direct Export will support Customer-managed key (CMK) encryption for tenants with Data Encryption Policies via MDEP. Starting public preview in May 2026 and general availability in late 2026, export packages will be automatically encrypted with tenant-owned keys without changing the user experience. Tenants must configure CMK and request enablement from Microsoft Support."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2027-02-15T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1289726",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T22:16:40.24Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-04-23T22:39:13Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: eDiscovery - CMK (Customer managed key) for eDiscovery direct export",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 14, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>What and Why:</b></b></p><p>\nWe’re introducing a refreshed <b>Libraries </b>view in OneDrive for the web that replaces the existing <b>More places</b> experience. This update makes it easier for users to discover and access SharePoint document libraries across recent activity, Teams, and favorite sites. The new experience improves navigation and findability, helping users and teams quickly return to shared content and work more efficiently.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566315\" target=\"_blank\">566315</a>.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>Targeted Release (Worldwide): Beginning <b>early July 2026</b> and expected to complete by <b>mid-July 2026</b></li>\n<li>General Availability (Worldwide): Beginning <b>mid-July 2026</b> and expected to complete by <b>end of August 2026</b> (previously&nbsp;late July)</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:&nbsp;</b>All users of OneDrive for the web</p>\n\n<p><b>Platforms/Services:</b></p><ul><li>OneDrive for the web</li><li>SharePoint Online</li><li>Microsoft Teams</li></ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>The <b>More places</b> experience will be replaced by a new <b>Libraries </b>view in OneDrive for the web.</li>\n<li>The feature will be <b>enabled by default.</b></li>\n<li>Users will see more recently accessed document libraries for quicker access.</li><p>Screenshot 1: <i>New libraries view showing recently accessed document libraries:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/495c2df3-d2fe-40a8-b498-7291815b1e8d\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Users can access libraries tied to <b>Teams </b>and <b>favorite SharePoint sites</b> directly.</li>\n<li>Users can:<ul><li>Filter libraries using keywords.</li><p>Screenshot 2: <i>Recent document libraries, filtered to <b>Site assets</b></i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/514523ac-9946-4f30-bb09-a458d36f84b0\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><li>Sort libraries by recent activity or alphabetically.</li><li>Switch between list and tiles views.</li></ul></li>\n<li>Existing permissions and access controls remain unchanged.</li>\n<li>No admin configuration or policy changes are required.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<ul>\n</ul><p>No action is required.</p><p>Recommended actions:</p><ul>\n<li>Review and update internal training materials to reflect the new <b>Libraries</b> experience.</li><li>Inform helpdesk and support teams about the replacement of <b>More places</b>.</li><li>Communicate the new capabilities to end users (filtering, sorting, view options).</li></ul><div><b><b>Compliance considerations:</b></b></div><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "566315"
+      },
+      {
+        "Name": "Summary",
+        "Value": "OneDrive for the web will replace the \"More places\" experience with a new Libraries view by mid-August 2026, improving access to SharePoint libraries via recent activity, Teams, and favorite sites. It includes filtering, sorting, and view options, requires no admin changes, and maintains existing permissions."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-05T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1403407",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:59:38.35Z",
+    "Services": [
+      "Microsoft OneDrive"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-06-24T22:29:48Z",
+    "Tags": [
+      "Updated message",
+      "Feature update",
+      "User impact"
+    ],
+    "Title": "OneDrive for the web: New libraries browsing experience",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 14, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are adding<b> copilot citations </b>to SharePoint to help site owners understand how their SharePoint documents, news posts, and pages are referenced by Microsoft 365 Copilot. These insights will help organizations track content value, identify high‑impact information, and understand how AI‑powered workflows use SharePoint content. Tenants must have Microsoft 365 Copilot licenses, and these insights become available only for tenants with more than 50 Copilot licenses (seats).</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=480725#Roadmap\" target=\"_blank\">480725</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin <b>end of August 2026</b> (previously&nbsp;start of August)&nbsp;and will complete by <b>early September 2026</b> (previously&nbsp;end of August).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>:</p><ul><li>SharePoint Online site owners, content authors, and admins.</li><li>Tenants with more than 50 Microsoft 365 Copilot licenses (seats).</li></ul><p><i>What will happen</i>:</p><p>The following updates will appear in <i>SharePoint</i>:</p><ul><li>SharePoint <b>Popular content</b> in<i> Site Usage</i> will display documents, news posts, and pages ranked by how often they are cited by Copilot chat.</li><li>SharePoint <b>page analytics </b>will include a new<b> Total citations</b> card showing the number of times a page or news post is referenced in Copilot chat responses.</li><li>SharePoint<b> file statistics </b>will include a new <b>AI citations</b> metric displayed alongside existing metrics such as views and viewers.</li><li>A new <b>Copilot citations&nbsp;analytics page </b>will appear under <b><i>Site Usage</i></b>. It will provide:<ul><li>The number of users who consume site content through Copilot chat citations.</li><li>The total number of citations for the site.</li><li>The most frequently cited documents, news posts, and pages.</li></ul></li></ul><p><i>In this release, citations are counted only from Microsoft 365 Copilot chat on desktop and web (Microsoft 365 Copilot chat at m365.cloud.microsoft/chat and the Microsoft 365 Copilot app on desktop). All other Copilot experiences and agents are out of scope, including Copilot in Word, Excel, PowerPoint, Cowork, Copilot in SharePoint, SharePoint custom agents, Copilot Studio agents accessed outside Copilot, custom engine agents, and agents that use a custom orchestrator. This scope may expand in future releases.</i></p><p>This feature will be <b>on by default </b>and will not require admin action to enable.</p><p></p><p><i>Screenshot 1 - AI citations aggregated across site content in the Site analytics view:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/cae1bccc-ce9a-4d7a-bce8-1203ff604d85/f666d398ab8fbd151bbbceca30a230a139c311dc.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>&nbsp;</i></p><p><i>Screenshot 2 - AI citations shown for an individual SharePoint page or news post in Page analytics:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/45e9158a-be83-491f-bc21-cc4205b1d9ca/c4d1d93b0c4ed709b0b2ede37f9fdd140adc94a5.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required before the rollout.</p><p>You may want to:</p><ul><li>Inform site owners and content authors about the new analytics.</li><li>Review your SharePoint usage and analytics processes to understand how the new AI citation metrics may support governance, content lifecycle planning, and content strategy.</li><li>Update internal documentation or training materials.</li><li>Provide guidance to users on Copilot licensing requirements if your organization centrally manages those licenses.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "480725"
+      },
+      {
+        "Name": "Summary",
+        "Value": "SharePoint will add AI copilot citation analytics for documents, pages, and news posts, showing how often content is referenced by Microsoft 365 Copilot chat. Available worldwide from late August to early September 2026 for tenants with over 50 Copilot licenses, this feature requires no admin action and includes new usage metrics and analytics pages."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-12T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1247902",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:42:13.387Z",
+    "Services": [
+      "SharePoint Online"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-03-09T22:28:31Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "SharePoint: AI citations analytics for documents and pages",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b>\n</p><p>Microsoft Edge for Business will soon support summarization and contextual grounding with Microsoft 365 Copilot Chat. This enhancement enables users to ask Copilot questions about multiple open browser tabs, Microsoft 365 documents (such as Word, Excel, PowerPoint), and YouTube videos directly from the Edge side pane.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496364\" target=\"_blank\">496364</a>, <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499423\" target=\"_blank\">499423</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499424\" target=\"_blank\">499424</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>General Availability (Multiple browser tabs and YouTube videos): </b>Currently Available</li><li><b>General Availability (Microsoft 365 documents): </b>Rollout is expected to begin by end of August 2026</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Users signed in to Microsoft Edge for Business with their Entra ID and who have access to Microsoft 365 Copilot.</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to ask Copilot questions about open browser tabs, Microsoft 365 documents, and YouTube videos.</li>\n<li>The feature will be<b> off by default</b>.</li>\n<li>If Copilot is restricted from accessing page content via <a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results#blocking-copilot-chat-in-edge-for-business-access-to-page-content-through-dlp\" target=\"_blank\">Data Loss Prevention (DLP)</a> or the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#edgeentracopilotpagecontext\" target=\"_blank\">EdgeEntraCopilotPageContext policy</a>, it will be suppressed to maintain DLP integrity.</li>\n<li>Existing DLP and policy configurations will be respected.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>This rollout will happen automatically by the specified date; no admin action is required before rollout.\n</li><li>Ensure users who need this capability have access to Microsoft 365 Copilot.</li><li>Ensure your tenant is configured to support Microsoft 365 Copilot and that eligible users meet all licensing prerequisites, including Entra ID sign-in and applicable Microsoft 365 service plans.</li><li>Review your current DLP and Edge policy configurations to determine potential impact.</li><li>Notify users about this upcoming capability.\n</li><li>Update internal documentation if needed.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge - Policies | Microsoft Edge | Microsoft Learn</a><br></li></ul><p></p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot introduces contextual grounding and summarization using generative AI across browser tabs, Microsoft 365 documents, and YouTube videos.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can now ask Copilot questions about open browser tabs and documents directly from the Edge sidepane, enabling real-time summarization and contextual responses.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP or the EdgeEntraCopilotPageContext policy restricts access, Copilot will be suppressed from accessing page content to maintain DLP integrity.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage access to Copilot’s contextual grounding capabilities via DLP settings and Edge policy configurations, which can be scoped using Entra ID group membership.</td></tr></tbody></table><p><br></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "496364,499423,499424"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Edge for Business now supports Microsoft 365 Copilot Chat for summarizing and contextual grounding across browser tabs, Microsoft 365 documents, and YouTube videos. The feature is off by default, respects DLP policies, requires Entra ID sign-in, and will roll out fully by August 2026."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-09-30T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1187682",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:39:14.543Z",
+    "Services": [
+      "Microsoft 365 suite"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2025-11-18T16:21:30Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Edge: Microsoft 365 Copilot will support summarization and contextual grounding",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and why</b></b></p><p>We are introducing Planner capabilities in <i>Microsoft 365 Copilot Chat</i>. Users will be able to create, update, QnA Planner tasks and plans using natural language within Copilot Chat, helping them manage work without switching between applications.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516577\" target=\"_blank\">516577</a>.</p><p><b><b>Rollout schedule</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Beginning in <b>early September 2026</b></li></ul><p><b><b>Impact on your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users of Microsoft 365 Copilot Chat</li><li>Users of Microsoft Planner</li></ul><p><i>Platforms/Services</i></p><ul><li>Desktop, Web</li></ul><p><i>What will happen</i></p><p>Users will be able to:</p><ul><li>Create Planner tasks and plans from Microsoft 365 Copilot Chat using natural language prompts.</li><li>View Planner task and plan details directly in Microsoft 365 Copilot Chat: (this version is text-only, the next version will have interactive task card as shown below)<p><img src=\"https://support.microsoft.com/en-us/customercomms/media/messagecenter/2026/07/21094.png\" style=\"width: 400px;\"></p></li><li>Manage and update Planner tasks and plans across Copilot and Planner without switching between applications.</li></ul><p>Existing Planner permissions and access controls continue to apply.</p><p>No changes to existing Planner data storage or permissions are expected.</p><p>The feature will become available through standard service rollout for eligible users.</p><p><b><b>Action required/recommendations</b></b></p><p>No action is required.</p><p>We recommend that you:</p><ul><li>Review and update internal training and adoption materials for Microsoft 365 Copilot and Microsoft Planner.</li><li>Notify help desk and support teams about the new Planner task management capabilities available in Microsoft 365 Copilot Chat.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot Chat will use natural language interactions to create and retrieve Planner task information that users already have permission to access.</td></tr><tr><td>Does the change provide users a new way of interacting with generative AI?</td><td>Yes. Users can create, manage, and retrieve Planner task information through conversational prompts in Microsoft 365 Copilot Chat.</td></tr></tbody></table><p></p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "516577"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft 365 Copilot Chat will enable users to create, update, and manage Planner tasks and plans using natural language, without switching apps. This feature, launching worldwide in early September 2026, supports desktop and web, maintains existing permissions, and requires no user action."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Desktop"
+      }
+    ],
+    "EndDateTime": "2027-01-31T08:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1443523",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:37:51.01Z",
+    "Services": [
+      "Planner",
+      "Microsoft 365 Copilot Chat"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-07-31T00:28:36Z",
+    "Tags": [
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft 365 Copilot: Planner capabilities in Copilot chat",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p>\n<p>Microsoft Defender for Identity is introducing an updated workspace health alert that helps administrators identify when no network traffic activity is being received from domain controllers through Defender for Identity sensors. This alert is designed to surface traffic collection issues that can reduce visibility, including missing or misconfigured port mirroring, packet capture driver issues, or network traffic that is not reaching the sensor.</p>\n<p>After rollout, administrators will see the new health alert in the <b>Sensors health issues</b> tab and the global <b>Health issues</b> experience when Defender for Identity is not receiving the expected domain controller network activity. The alert helps identify potential gaps in Defender for Identity network visibility and traffic collection.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>Available now</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n<p><b>Who is affected:</b> </p><ul><li>Organizations using Microsoft Defender for Identity sensors to monitor domain controller traffic.</li></ul>\n<p><b>Services:</b> Microsoft Defender for Identity</p>\n<ul>\n<li>A new health alert will be displayed when expected domain controller network traffic is not being received by Defender for Identity sensors.</li>\n<li>The alert will appear in the <b>Sensors health issues</b> tab and the global <b>Health issues</b> experience.</li>\n<li>The alert helps administrators identify traffic collection visibility gaps that could affect threat detection and monitoring.</li>\n<li>No changes to end-user experiences are expected.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<p>No action is required before the rollout.</p>\n<p>If the alert appears after rollout, administrators should:</p>\n<ul>\n<li>Verify that the Defender for Identity sensor service is running.</li>\n<li>Validate that network traffic is flowing between the corporate network and domain controllers.</li>\n<li>Confirm that port mirroring is configured correctly for standalone sensor deployments.</li>\n<li>Verify Npcap or other packet capture driver configurations, where applicable.</li>\n<li>Disable Receive Segment Coalescing (RSC) on the sensor capture network interface card (NIC).</li>\n</ul>\n\n<p><b><b>Compliance Considerations:</b></b></p>\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Identity now includes a health alert for missing domain controller network traffic, helping administrators detect traffic collection issues affecting visibility. The alert appears in sensor health tabs, requires no pre-rollout action, and guides troubleshooting if triggered after rollout. No impact on end users or compliance."
+      }
+    ],
+    "EndDateTime": "2026-09-28T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455017",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:35:54.49Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T21:35:48Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "New Defender for Identity health alert for missing domain controller network traffic",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p>\n\n<p>Microsoft Defender for Identity is introducing a new sensor health issue, <b>No Windows events received from domain controller</b>, to help administrators identify when Defender for Identity sensors are not receiving expected Windows events from a domain controller.</p>\n\n<p>This new health issue provides better visibility into potential event collection gaps that may affect Microsoft Defender for Identity detections, monitoring, and overall visibility for the affected domain controller.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n\n<ul>\n<li>Available now.</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:</b> </p><ul><li>Organizations using Microsoft Defender for Identity.</li></ul>\n\n<p><b>Service:</b> </p><ul><li>Microsoft Defender for Identity</li></ul>\n\n<p>After this rollout:</p>\n\n<ul>\n<li>Administrators may see a new health issue, <b>No Windows events received from domain controller</b>, in the <b>Sensors health issues</b> tab and the global <b>Health issues</b> experience.</li>\n<li>The health issue will be displayed when Defender for Identity is not receiving expected Windows events from a domain controller.</li>\n<li>The notification helps administrators identify and investigate potential event collection gaps that could affect Defender for Identity visibility and detections for the affected domain controller.</li>\n</ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p>\n\n<p>No action is required before the rollout.</p>\n\n<p>If this health issue appears in your environment after rollout, review the affected domain controller and event collection configuration. If additional assistance is needed, contact Microsoft Support.</p>\n\n<p>You may want to inform your security administrators about this new health monitoring capability.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Defender for Identity now includes a new sensor health issue, \"No Windows events received from domain controller,\" to alert administrators of missing Windows events. This improves visibility into event collection gaps affecting detections. It is available now, requires no pre-rollout action, and helps identify domain controller issues."
+      }
+    ],
+    "EndDateTime": "2026-09-28T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455016",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:35:26.963Z",
+    "Services": [
+      "Microsoft Defender XDR"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T21:35:22Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "New Defender for Identity health issue for missing Windows events from a domain controller",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b><b>What and Why:</b></b></p>\n\n<p>\nWe are introducing a new policy that separates Teams Events attendance and engagement report controls from Teams Meetings attendance and engagement report controls. With this change, administrators can independently manage organizer access to attendance and engagement reports for Teams Events through <b>CsTeamsEventsPolicy</b>, without affecting attendance and engagement report settings for Teams Meetings managed through <b>CsTeamsMeetingPolicy</b>.\n</p>\n\n<p>\nThis update provides greater administrative flexibility by allowing separate configuration of attendance and engagement reporting for Teams Events and Teams Meetings.\n</p>\n\n<p><b><b>Rollout schedule:</b></b></p>\n\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout will begin in mid-August 2026 and is expected to complete by late August 2026.</li>\n<li><b>General Availability (GCC):</b> Rollout will begin in mid-August 2026 and is expected to complete by late August 2026.</li>\n</ul>\n\n<p><b><b>Impact on your organization:</b></b></p>\n\n<ul>\n<li>Teams Events attendance and engagement report controls will be managed separately from Teams Meetings.</li>\n<li>A new attendance and engagement report setting will be available in <b>CsTeamsEventsPolicy</b>.</li>\n<li>Administrators can configure one of the following policy values:<ul><li><b>On</b><ul><li>Organizers can view and download attendance and engagement reports for all events. Organizers cannot disable attendance and engagement reporting.\n</li></ul></li><li>\n<b>Off</b><ul><li>Organizers cannot view or download attendance and engagement reports for any events.\n</li></ul></li><li>\n<b>On, organizers can turn it off (default)</b><ul><li>Organizers can view and download attendance and engagement reports for events and can disable attendance and engagement reporting in event options.\n</li></ul></li><li>\n<b>Off, organizers can turn it on</b><ul><li>Attendance and engagement reporting is disabled by default. Organizers can enable attendance and engagement reporting in event options for individual events.\n</li></ul></li></ul></li>\n\n\n</ul><ul>\n</ul>\n\n<p><b><b>Action Required / Recommendations:</b>&nbsp;</b></p>\n\n<ul>\n<li>Review your current attendance and engagement reporting requirements for Teams Events.</li>\n<li>Configure the appropriate setting in the new <b>Teams Events attendance and engagement report policy</b> based on your organizational needs.</li>\n<li>Do not assume Teams Events will continue to inherit attendance and engagement report settings from <b>CsTeamsMeetingPolicy</b>.</li>\n<li>Update internal administrative documentation and guidance if you currently manage attendance reporting through Teams meeting policies.</li>\n</ul>\n\n<p>\nNo immediate action is required before rollout. However, we recommend reviewing and validating policy settings after the feature becomes available to ensure Teams Events reporting behavior aligns with your organization's requirements.\n</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "Summary",
+        "Value": "Microsoft is introducing a new policy separating Teams Events attendance and engagement report controls from Teams Meetings, managed via CsTeamsEventsPolicy. Rolling out worldwide and GCC in August 2026, it allows admins flexible configuration of report access for Teams Events independently from Teams Meetings. Review and update policies accordingly."
+      }
+    ],
+    "EndDateTime": "2026-10-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455014",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:34:31.123Z",
+    "Services": [
+      "Microsoft Teams"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T21:34:18Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Teams: Teams Events Attendance and Engagement Report Policy",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p><b>What and Why:</b></p><p></p><p><b>Azure PST Import</b> provides a structured, PowerShell-based way for administrators to import PST files stored in <b>Azure Blob Storage</b> into <b>Exchange Online mailboxes</b>, which are commonly used to store archived Outlook mailbox content. This capability helps organizations migrate historical email data in a controlled and auditable way by validating readiness before importing and by providing reports throughout the process. The process starts by creating an Azure PST Import endpoint to establish the connection between Azure storage and Exchange Online. Administrators then run a migration batch in <b>Analyze</b> mode to review readiness and validate the input before proceeding. Once the analysis results are reviewed, they use those results to create and start the import batch, which begins importing the PST files into the specified mailboxes.</p><p></p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=565865#Roadmap\" target=\"_blank\">565865</a></p><p><b>Rollout Schedule:</b></p><p>Global: We will begin rolling out on late August 2026 and expect to complete by early September 2026.</p><p><b>Impact on your organization:</b></p><p><i>Who is affected</i></p><ul><li>Microsoft 365 administrators managing <b>Exchange Online</b></li><li>Administrators using <b>Microsoft Purview Data Lifecycle Management</b></li><li>Organizations that import PST files into user or archive mailboxes</li></ul><p><i>What will happen</i></p><ul><li>Administrators complete the Azure PST Import process using <b>PowerShell cmdlets only</b>.</li><li>The workflow includes:<ul><li>Creating an Azure PST Import migration endpoint</li><li>Running a migration batch in <b>Analyze</b> mode to validate readiness</li><li>Reviewing analysis results and reports</li><li>Creating and starting the <b>import</b> batch</li><li>Performing post-import cleanup</li></ul></li><li>This experience is<b> not available through a graphical user interface (GUI)</b>.</li><li>Existing mailbox prerequisites and quotas are validated before importing begins.</li><li>There is<b> no direct user impact</b>; the feature is admin-driven.</li></ul><p><b>Action Required / Recommendations:</b></p><p></p><ul><li>Ensure your <b>Azure storage account and container exist</b> and are reachable; the endpoint creation cmdlet validates both during setup.</li><li>Grant the <b>Storage Blob Data Reader </b>role to the <b>Office 365 Import Service</b> app on the target storage account. Without this permission, creating the Azure PST Import endpoint will fail.</li><li>Prepare your <b>batch input files (XML and/or CSV) </b>and run the migration batch in <b>Analyze</b> mode first so the service can validate readiness before importing.</li><li>Confirm analysis prerequisites for target mailboxes:<ul><li>Appropriate license assigned</li><li>Mailbox is not inactive or soft-deleted</li><li>Recipient type is <b>UserMailbox</b></li><li>Archive is enabled if importing to archive</li><li>Quota validations (ArchiveQuota / RecoverableItemsQuota) occur during analysis</li></ul></li><li>Validate PST files ahead of time:<ul><li>Analysis verifies that all specified PST files exist</li><li>PST file size is validated during analysis</li></ul></li></ul><p>For detailed cmdlet usage and guidance, review the Azure PST Import documentation on Microsoft Learn.</p><p><b><b>Compliance considerations:</b></b></p><table><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change alter how existing customer data is processed, stored, or accessed?</td><td>Yes. The feature enables administrators to import existing customer email data contained in PST files into Exchange Online mailboxes, where the data is then stored and processed according to existing Exchange Online behaviors.</td></tr><tr><td>Does the change store customer data, and if so, where is it stored?</td><td>Yes. PST file contents are imported into Exchange Online mailboxes within the customer’s Microsoft 365 tenant and are stored according to the tenant’s data residency and storage configuration.</td></tr><tr><td>Does the change modify retention policies, holds, or deletion workflows?</td><td>Yes. Once imported, mailbox data becomes subject to any existing Microsoft Purview retention policies, retention labels, holds, and deletion workflows already configured for the target mailboxes.</td></tr><tr><td>Does the change affect audit logging capabilities?</td><td>Yes. Administrative actions related to PST import and the resulting mailbox changes are logged using existing Exchange Online and Microsoft Purview audit logging mechanisms.</td></tr><tr><td>Does the change alter how admins can monitor or demonstrate compliance?</td><td>Yes. Administrators can use existing Exchange Online and Microsoft Purview reporting and audit tools to monitor PST import activity and demonstrate compliance after the data is imported.</td></tr><tr><td>Does the change include an admin control?</td><td>Yes. The feature is controlled through administrator access to PowerShell cmdlets and Azure role assignments, including permissions on the Azure storage account used for PST import.</td></tr></tbody></table>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "565865"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Azure PST Import enables Microsoft 365 admins to import PST files from Azure Blob Storage into Exchange Online mailboxes using PowerShell. It includes readiness validation, reporting, and compliance controls. The rollout begins late August 2026, affecting Exchange Online and Purview Data Lifecycle Management administrators."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2026-10-26T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1455013",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:32:40.593Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-08-14T21:32:20Z",
+    "Tags": [
+      "New feature",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview: Data Lifecycle Management- Azure PST Import",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
+      "Content": "<p>Updated August 14, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing the <b>Advanced Review Set Explorer&nbsp;</b>(public preview) for review sets in <i>Microsoft Purview eDiscovery (Premium)</i>.</p><p>eDiscovery has long supported Keyword Query Language (KeyQL) because it provides a familiar, approachable, and powerful way to search and filter content—while working consistently across both search and review experiences. For many users and workflows, KeyQL remains the recommended and most efficient way to build queries.</p><p>At the same time, we understand that power users and advanced reviewers often need greater flexibility to slice, aggregate, and analyze review set data in more sophisticated ways. To meet this need, we’re adding a Kusto Query Language (KQL)–based experience to review sets through the Advanced Review Set Explorer.</p><p>With this update, reviewers will have two query options:</p><ul><li>KeyQL, for familiar, streamlined search and filtering experiences</li><li>KQL, for advanced data exploration, aggregation, transformation, and visualization within a review set</li></ul><p>The new Advanced review set explorer's key capabilities include:</p><ul><li>Run advanced review set explorer using Kusto Query Language (KQL)</li><li>Apply complex filters, aggregations, and transformations</li><li>Visualize results with bar, column, and pie charts</li><li>Query across more than 100 metadata properties</li><li>Identify trends, detect patterns, and analyze data distribution</li>\n</ul>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484086\" target=\"_blank\">484086</a>.</p>\n\n<p><b><b>When this will happen</b></b>\n</p><ul><li><b>Public Preview (Worldwide, excluding government clouds):</b>&nbsp;We will start rolling out in <b>February 2026</b>&nbsp;and expect to complete in&nbsp;<b>February 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> We will start rolling out in<b> late December 2026</b> (previously&nbsp;late August)<b>&nbsp;</b>and expect to complete in <b>late December 2026</b> (previously&nbsp;late August).</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i>\nOrganizations using Microsoft Purview eDiscovery (Premium).</p>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>A new Advanced Review Set Explorer will be available in review sets.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Users with eDiscovery review permissions can run KQL queries.</li><li>Users can continue using existing KeyQL‑based searching within review set without change.</li>\n  <li>No existing queries or workflows are modified.</li>\n  <li>Existing admin policies and permissions are unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>Inform eDiscovery teams that both KeyQL and KQL are supported, and users can choose the option that best fits their needs.</li><li>Consider providing KQL training or reference materials.</li>\n  <li>Update internal documentation or workflows as needed.</li>\n  <li>Inform eDiscovery teams about this new capability.</li>\n  <li>Review Microsoft Learn content on eDiscovery solutions.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/kusto/query/?view=microsoft-fabric&amp;toc=%2Fazure%2Fsentinel%2FTOC.json&amp;bc=%2Fazure%2Fsentinel%2Fbreadcrumb%2Ftoc.json\" target=\"_blank\">Kusto Query Language overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
+      "ContentType": "html"
+    },
+    "Category": "stayInformed",
+    "Details": [
+      {
+        "Name": "RoadmapIds",
+        "Value": "484086"
+      },
+      {
+        "Name": "Summary",
+        "Value": "Microsoft Purview eDiscovery (Premium) introduces the Advanced Review Set Explorer with Kusto Query Language (KQL) for advanced data analysis alongside existing KeyQL. Public preview starts February 2026; general availability in late December 2026. The feature is enabled by default without affecting current workflows or permissions."
+      },
+      {
+        "Name": "Platforms",
+        "Value": "Web"
+      }
+    ],
+    "EndDateTime": "2027-02-01T07:00:00Z",
+    "HasAttachments": false,
+    "Id": "MC1221453",
+    "IsMajorChange": false,
+    "LastModifiedDateTime": "2026-08-14T21:18:06.56Z",
+    "Services": [
+      "Microsoft Purview"
+    ],
+    "Severity": "normal",
+    "StartDateTime": "2026-01-23T00:55:35Z",
+    "Tags": [
+      "Updated message",
+      "New feature",
+      "User impact",
+      "Admin impact"
+    ],
+    "Title": "Microsoft Purview | eDiscovery – Advanced review set explorer",
+    "ViewPoint": {
+      "IsArchived": null,
+      "IsFavorited": null,
+      "IsRead": null
+    },
+    "Source": "messageCenter",
+    "AdditionalProperties": {}
+  },
+  {
+    "ActionRequiredByDateTime": null,
+    "Attachments": null,
+    "AttachmentsArchive": null,
+    "Body": {
       "Content": "<p><b><b>What and Why:</b></b></p>\n\n<p>We are introducing the ability to pop out Copilot Chat into a separate floating window in Outlook for Mac and iPad. This enhancement gives users greater flexibility when working with Copilot Chat alongside Outlook, making it easier to switch contexts, manage email, and access Outlook controls while keeping Copilot Chat visible.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n\n<ul>\n<li><b>General Availability (Worldwide):</b> Rollout begins in mid-August 2026 and is expected to complete by mid-September 2026.</li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:</b> </p><ul><li>Users with access to Copilot Chat in Outlook for Mac and Outlook for iPad.</li></ul>\n\n<p><b>Platforms:</b> </p><ul><li>Outlook for Mac, Outlook for iPad.</li></ul>\n\n<p>After this rollout:</p>\n\n<ul>\n<li>Users can select the <b>Pop out</b> button in Copilot Chat to open the chat in a separate window that floats over the main Outlook window.</li>\n<li>On Mac, users can drag and resize the Copilot Chat window within the boundaries of the Outlook application window.</li>\n<li>On iPad, users can reposition Copilot Chat horizontally and resize it vertically.</li>\n<li>A <b>Return</b> button allows users to move Copilot Chat back into the main Outlook window.</li>\n<li>A <b>Close</b> button allows users to close the Copilot Chat window.</li>\n<li>This feature is enabled by default for eligible users.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n\n<p>No action is required. You may want to notify your users about this updated Copilot Chat experience and update any internal training or documentation as appropriate.</p>\n\n<p><b><b>Compliance Considerations:</b></b></p>\n\n<p>No compliance considerations identified, review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -1779,7 +2337,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476805Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476806Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476807Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476808Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247681Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464991Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464992Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464993Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464995Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1251206\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464996Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1831,7 +2389,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477486Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477487Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477488Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465912Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465914Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1218712\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465915Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -1929,7 +2487,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247599Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2475991Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2475992Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463857Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463859Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1045221\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046386Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -2510,54 +3068,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Purview | Insider Risk Management: Policy tuning analysis for priority content only policies",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 10, 2026: We have updated the content. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We are adding<b> copilot citations </b>to SharePoint to help site owners understand how their SharePoint documents, news posts, and pages are referenced by Microsoft 365 Copilot. These insights will help organizations track content value, identify high‑impact information, and understand how AI‑powered workflows use SharePoint content. Tenants must have Microsoft 365 Copilot licenses, and these insights become available only for tenants with more than 50 Copilot licenses (seats).</p><p>This message is associated with <b>Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=480725#Roadmap\" target=\"_blank\">480725</a></b>.</p><p><b><b>When this will happen</b></b></p><p><b>General Availability (Worldwide)</b>: Rollout will begin <b>start of August 2026</b> (previously&nbsp;start of July)&nbsp;and will complete by <b>end of August 2026</b> (previously&nbsp;end of July).</p><p><b><b>How this affects your organization</b></b></p><p><i>Who is affected</i>:</p><ul><li>SharePoint Online site owners, content authors, and admins.</li><li>Tenants with more than 50 Microsoft 365 Copilot licenses (seats).</li></ul><p><i>What will happen</i>:</p><p>The following updates will appear in <i>SharePoint</i>:</p><ul><li>SharePoint <b>Popular content</b> in<i> Site Usage</i> will display documents, news posts, and pages ranked by how often they are cited by Copilot chat.</li><li>SharePoint <b>page analytics </b>will include a new<b> Total citations</b> card showing the number of times a page or news post is referenced in Copilot chat responses.</li><li>SharePoint<b> file statistics </b>will include a new <b>AI citations</b> metric displayed alongside existing metrics such as views and viewers.</li><li>A new <b>Copilot citations&nbsp;analytics page </b>will appear under <b><i>Site Usage</i></b>. It will provide:<ul><li>The number of users who consume site content through Copilot chat citations.</li><li>The total number of citations for the site.</li><li>The most frequently cited documents, news posts, and pages.</li></ul></li></ul><p><i>In this release, citations are counted only from Microsoft 365 Copilot chat on desktop and web (Microsoft 365 Copilot chat at m365.cloud.microsoft/chat and the Microsoft 365 Copilot app on desktop). All other Copilot experiences and agents are out of scope, including Copilot in Word, Excel, PowerPoint, Cowork, Copilot in SharePoint, SharePoint custom agents, Copilot Studio agents accessed outside Copilot, custom engine agents, and agents that use a custom orchestrator. This scope may expand in future releases.</i></p><p>This feature will be <b>on by default </b>and will not require admin action to enable.</p><p></p><p><i>Screenshot 1 - AI citations aggregated across site content in the Site analytics view:&nbsp;</i></p><p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/cae1bccc-ce9a-4d7a-bce8-1203ff604d85/f666d398ab8fbd151bbbceca30a230a139c311dc.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><i>&nbsp;</i></p><p><i>Screenshot 2 - AI citations shown for an individual SharePoint page or news post in Page analytics:</i></p><p><i>&nbsp;</i><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/45e9158a-be83-491f-bc21-cc4205b1d9ca/c4d1d93b0c4ed709b0b2ede37f9fdd140adc94a5.png\" style=\"width: 400px;\" alt=\"user settings\"></p><p><b><b>What you can do to prepare</b></b></p><p>No admin action is required before the rollout.</p><p>You may want to:</p><ul><li>Inform site owners and content authors about the new analytics.</li><li>Review your SharePoint usage and analytics processes to understand how the new AI citation metrics may support governance, content lifecycle planning, and content strategy.</li><li>Update internal documentation or training materials.</li><li>Provide guidance to users on Copilot licensing requirements if your organization centrally manages those licenses.</li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "480725"
-      },
-      {
-        "Name": "Summary",
-        "Value": "SharePoint will add AI copilot citation analytics for documents, pages, and news posts, showing how often content is referenced by Microsoft 365 Copilot chat. Available from August to end of August 2026 for tenants with over 50 Copilot licenses, this feature is on by default and requires no admin action."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-10-05T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1247902",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-08-10T16:51:15.48Z",
-    "Services": [
-      "SharePoint Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-03-09T22:28:31Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "SharePoint: AI citations analytics for documents and pages",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -3283,7 +3793,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1442614\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477712Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442614\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477713Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1442614\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046621Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442614\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466212Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -3668,54 +4178,6 @@
       "Retirement"
     ],
     "Title": "Microsoft Entra ID: Replace MemberOf rules by November 3, 2026",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated August 5, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction:</b></b>\n</p><p>Microsoft Edge for Business will soon support summarization and contextual grounding with Microsoft 365 Copilot Chat. This enhancement enables users to ask Copilot questions about multiple open browser tabs, Microsoft 365 documents (such as Word, Excel, PowerPoint), and YouTube videos directly from the Edge side pane.\n</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=496364\" target=\"_blank\">496364</a>, <a href=\"https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499423\" target=\"_blank\">499423</a>, and <a href=\"https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters%3D&amp;searchterms=499424\" target=\"_blank\">499424</a>.</p>\n\n<p><b><b>When this will happen:</b></b>\n</p><ul><li><b>General Availability (Multiple browser tabs and YouTube videos): </b>Currently Available</li><li><b>General Availability (Microsoft 365 documents): </b>Rollout is expected to begin by end of August 2026</li></ul>\n\n<p><b><b>How this affects your organization:</b></b>\n</p><p><b>Who is affected:</b>&nbsp;Users signed in to Microsoft Edge for Business with their Entra ID and who have access to Microsoft 365 Copilot.</p><p><b>What will happen:</b>\n</p><ul>\n<li>Users will be able to ask Copilot questions about open browser tabs, Microsoft 365 documents, and YouTube videos.</li>\n<li>The feature will be<b> off by default</b>.</li>\n<li>If Copilot is restricted from accessing page content via <a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results#blocking-copilot-chat-in-edge-for-business-access-to-page-content-through-dlp\" target=\"_blank\">Data Loss Prevention (DLP)</a> or the <a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies#edgeentracopilotpagecontext\" target=\"_blank\">EdgeEntraCopilotPageContext policy</a>, it will be suppressed to maintain DLP integrity.</li>\n<li>Existing DLP and policy configurations will be respected.</li>\n</ul>\n<p></p>\n\n<p><b><b>What you can do to prepare:</b></b>\n</p><ul>\n<li>This rollout will happen automatically by the specified date; no admin action is required before rollout.\n</li><li>Ensure users who need this capability have access to Microsoft 365 Copilot.</li><li>Ensure your tenant is configured to support Microsoft 365 Copilot and that eligible users meet all licensing prerequisites, including Entra ID sign-in and applicable Microsoft 365 service plans.</li><li>Review your current DLP and Edge policy configurations to determine potential impact.</li><li>Notify users about this upcoming capability.\n</li><li>Update internal documentation if needed.</li></ul><p><b>Learn more:</b></p><ul><li><a href=\"https://learn.microsoft.com/DeployEdge/edge-learnmore-copilot-page-summary-results\" target=\"_blank\">Microsoft 365 Copilot Chat in Edge and Access to Page Content | Microsoft Edge | Microsoft Learn</a><br></li><li><a href=\"https://learn.microsoft.com/deployedge/microsoft-edge-policies\" target=\"_blank\">Microsoft Edge - Policies | Microsoft Edge | Microsoft Learn</a><br></li></ul><p></p><p><b><b>Compliance considerations:</b></b></p><table class=\"table table-bordered\"><tbody><tr><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot introduces contextual grounding and summarization using generative AI across browser tabs, Microsoft 365 documents, and YouTube videos.</td></tr><tr><td>Does the change provide end users any new way of interacting with generative AI?</td><td>Yes. Users can now ask Copilot questions about open browser tabs and documents directly from the Edge sidepane, enabling real-time summarization and contextual responses.</td></tr><tr><td>Does the change modify Data Loss Prevention (DLP) policies or enforcement?</td><td>Yes. If DLP or the EdgeEntraCopilotPageContext policy restricts access, Copilot will be suppressed from accessing page content to maintain DLP integrity.</td></tr><tr><td>Does the change include an admin control, and can it be controlled through Entra ID group membership?</td><td>Yes. Admins can manage access to Copilot’s contextual grounding capabilities via DLP settings and Edge policy configurations, which can be scoped using Entra ID group membership.</td></tr></tbody></table><p><br></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "496364,499423,499424"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Edge for Business now supports Microsoft 365 Copilot Chat for summarizing and contextual grounding across browser tabs, Microsoft 365 documents, and YouTube videos. The feature is off by default, respects DLP policies, requires Entra ID sign-in, and will roll out fully by August 2026."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-09-30T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1187682",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-08-05T23:17:09.597Z",
-    "Services": [
-      "Microsoft 365 suite"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2025-11-18T16:21:30Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Edge: Microsoft 365 Copilot will support summarization and contextual grounding",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -4237,7 +4699,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477758Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477759Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247776Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466272Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466274Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1261595\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466275Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4384,7 +4846,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477064Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477065Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477066Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465337Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465339Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC688109\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046534Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -4553,7 +5015,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247633Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476331Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476331Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464316Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464318Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1447682\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464319Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5077,7 +5539,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247737Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477371Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477372Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465781Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465782Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1330891\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465783Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -5300,7 +5762,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1446797\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478035Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1446797\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478036Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1446797\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466629Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1446797\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046663Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6075,7 +6537,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476271Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476272Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476272Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464237Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464238Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1326502\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046424Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -6156,50 +6618,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>What and why</b></b></p><p>We are introducing Planner capabilities in <i>Microsoft 365 Copilot Chat</i>. Users will be able to create, update, QnA Planner tasks and plans using natural language within Copilot Chat, helping them manage work without switching between applications.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=516577\" target=\"_blank\">516577</a>.</p><p><b><b>Rollout schedule</b></b></p><ul><li><b>General Availability (Worldwide)</b>: Beginning in <b>early September 2026</b></li></ul><p><b><b>Impact on your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users of Microsoft 365 Copilot Chat</li><li>Users of Microsoft Planner</li></ul><p><i>Platforms/Services</i></p><ul><li>Desktop, Web</li></ul><p><i>What will happen</i></p><p>Users will be able to:</p><ul><li>Create Planner tasks and plans from Microsoft 365 Copilot Chat using natural language prompts.</li><li>View Planner task and plan details directly in Microsoft 365 Copilot Chat: (this version is text-only, the next version will have interactive task card as shown below)<p><img src=\"https://support.microsoft.com/en-us/customercomms/media/messagecenter/2026/07/21094.png\" style=\"width: 400px;\"></p></li><li>Manage and update Planner tasks and plans across Copilot and Planner without switching between applications.</li></ul><p>Existing Planner permissions and access controls continue to apply.</p><p>No changes to existing Planner data storage or permissions are expected.</p><p>The feature will become available through standard service rollout for eligible users.</p><p><b><b>Action required/recommendations</b></b></p><p>No action is required.</p><p>We recommend that you:</p><ul><li>Review and update internal training and adoption materials for Microsoft 365 Copilot and Microsoft Planner.</li><li>Notify help desk and support teams about the new Planner task management capabilities available in Microsoft 365 Copilot Chat.</li></ul><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI/ML or agent capabilities that interact with or provide access to customer data?</td><td>Yes. Microsoft 365 Copilot Chat will use natural language interactions to create and retrieve Planner task information that users already have permission to access.</td></tr><tr><td>Does the change provide users a new way of interacting with generative AI?</td><td>Yes. Users can create, manage, and retrieve Planner task information through conversational prompts in Microsoft 365 Copilot Chat.</td></tr></tbody></table><p></p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "516577"
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Desktop"
-      }
-    ],
-    "EndDateTime": "2027-01-31T08:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1443523",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-07-31T00:28:42.967Z",
-    "Services": [
-      "Planner",
-      "Microsoft 365 Copilot Chat"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-07-31T00:28:36Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft 365 Copilot: Planner capabilities in Copilot chat",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>What and why</b></b></p><p>Microsoft Teams is introducing a new meeting option for meetings with presenters and webinars that allows organizers to specify who has control of production tools during an event. This helps organizers assign production responsibilities to designated individuals, improving event management and reducing the risk of unintended changes during live events.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567305\" target=\"_blank\">567305</a>.</p><p><b><b>Rollout schedule</b></b></p><ul><li><b>Targeted Release:</b>&nbsp;Beginning in <b>mid-August 2026</b> and expect to complete by <b>late&nbsp;August 2026</b></li><li><b>General Availability (Worldwide, GCC, GCC High, DoD): </b>Beginning in <b>late August 2026 </b>and expect to complete by <b>mid-September 2026</b></li></ul><p><b><b>Impact on your organization</b></b></p><p><i>Who is affected</i></p><ul><li>Organizers of meetings with presenters and webinars in<i> Microsoft Teams</i></li><li>Designated production staff who support live events</li></ul><p><i>Platforms/Services</i></p><ul><li>Microsoft Teams</li><li>Teams desktop app</li><li>Teams web app</li></ul><p><i>What will happen</i></p><ul><li>Organizers will see a <b>new meeting option</b> called<b><i> </i>Who has control of production tools</b>:&nbsp;<p><img src=\"https://support.microsoft.com/en-us/customercomms/media/messagecenter/2026/07/21306.png\" style=\"width: 400px;\">&nbsp;</p></li><li>This option will be <b>enabled by default</b> for eligible meetings with presenters and webinars.</li><li>Organizers can designate specific users to manage production experiences during an event.</li><li>Designated users will have access to controls in <b>Manage what attendees see.</b></li><li>Designated users will have access to <b style=\"\">Green Room</b> controls.</li><li>Event organizers can separate production responsibilities from presenter responsibilities when needed.</li></ul><p><b><b>Action required and recommendations</b></b></p><p><b>No admin action is required.</b> This capability will be <b>available by default</b> once rolled out.</p><p>We recommend that you:</p><ul><li>Inform users who organize webinars and presenter-led meetings about this new capability.</li><li>Update internal training or event-production documentation, if applicable.</li><li>Review planned live event workflows to determine whether dedicated production staff should be assigned using this new option.</li></ul><p><b>Learn more</b></p><ul><li><a href=\"https://support.microsoft.com/teams/meetings/control-town-hall-production-tools-in-microsoft-teams\" target=\"_blank\">Control town hall production tools in Microsoft Teams | Microsoft Support</a></li></ul><p><b><b>Compliance considerations</b></b></p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
       "ContentType": "html"
     },
@@ -6211,7 +6629,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247573Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2475732Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2475733Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463531Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463534Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443520\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463536Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Platforms",
@@ -6258,7 +6676,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478122Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478123Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478124Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478125Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478126Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466753Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466755Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466756Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466757Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443518\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466758Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Platforms",
@@ -6305,7 +6723,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477908Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477909Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477927Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466471Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466473Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443517\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466474Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Platforms",
@@ -6395,7 +6813,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443511\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477271Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443511\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477272Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1443511\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465626Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1443511\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465628Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Platforms",
@@ -6978,7 +7396,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477168Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477169Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247717Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465482Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465484Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1442609\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465485Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -7821,7 +8239,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478295Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478296Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478296Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466988Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046699Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1396359\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466991Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -9458,7 +9876,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478203Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478205Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478205Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466863Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466864Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419798\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466865Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -10079,53 +10497,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Excel: Summarize text columns and generate categories with Copilot",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p><b><b>What and Why</b></b></p><p>We are enhancing the email drafting experience in Microsoft Outlook by integrating Microsoft 365 Copilot directly into the compose experience. This update allows users to create, refine, and edit email content in real time with Copilot assistance, helping improve productivity while maintaining full control over final content.</p><p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564605\" target=\"_blank\">564605</a>.</p><p><b><b>Rollout Schedule</b></b></p><p><b>General Availability (Worldwide):</b> Beginning&nbsp;<b>mid-July 2026</b> and expected to complete by <b>early&nbsp;August 2026</b></p><p><b><b>Impact on Your Organization</b></b></p><p><i>Who is affected</i></p><ul><li>Users with a Microsoft 365 Copilot license who use Outlook on supported clients</li></ul><p><i>Platforms/Services</i></p><ul><li>Outlook on the web</li><li>New Outlook for Windows</li><li>Outlook mobile</li><li>Outlook for Mac, available after initial rollout</li><li>Classic Outlook for Windows, planned later in 2026</li></ul><p><i>What will happen</i></p><ul><li>Users will see a Copilot side-by-side drafting experience when composing email.</li><li>Users can create new messages or edit existing drafts with Copilot assistance:<p><img src=\"https://cxcs.microsoft.net/static/public/messagecenter/neutral/e9220e21-919f-4eb4-87df-ffbeea645bbb/14571a3c9af83c066899843e728851818ab59935.png\" style=\"width: 400px;\"></p></li><li>Users can refine, expand, or rewrite content directly within the compose surface.</li><li>The feature is enabled by default for licensed users.</li><li>Existing policies for email access, governance, and protection continue to apply.</li><li>No changes to admin controls at this time.</li><li>Existing workflows outside of the compose experience are not impacted.</li></ul><p><b><b>Action Required/Recommendations</b></b></p><p>No action is required.</p><p>You may consider the following:</p><ul><li>Update internal training materials to reflect the new drafting experience.</li><li>Inform helpdesk teams of the updated compose experience.</li><li>Review Microsoft Learn documentation for Microsoft 365 Copilot in Outlook.</li></ul><p><b>Learn more:</b>&nbsp;<a href=\"https://support.microsoft.com/outlook/copilot-pages/draft-an-email-message-with-copilot-in-outlook\" target=\"_blank\">Draft an email message with Copilot in Outlook | Microsoft Support</a></p><p><b><b>Compliance considerations</b></b></p><table class=\"table table-bordered\"><tbody><tr><td>Question</td><td>Answer</td></tr><tr><td>Does the change introduce or significantly modify AI or machine learning capabilities that interact with customer data, and if so, what are the changes?</td><td>Yes. The change introduces Microsoft 365 Copilot capabilities within the Outlook compose experience, allowing users to generate, refine, and edit email content using AI that interacts with customer data such as email drafts.</td></tr><tr><td>Does the change provide users with a new way of interacting with generative AI, and if so, how?</td><td>Yes. Users can now interact directly with Microsoft 365 Copilot within the Outlook email compose surface to create and modify email content in real time.</td></tr></tbody></table><p><b></b></p>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "564605"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Outlook will integrate Microsoft 365 Copilot into the email compose experience by mid-July 2026, enabling licensed users to create and edit emails with AI assistance in real time across multiple platforms. The feature is enabled by default, requires no admin changes, and maintains existing policies."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-09-07T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1430542",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-07-17T05:04:58.137Z",
-    "Services": [
-      "Exchange Online"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-07-17T05:04:51Z",
-    "Tags": [
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Outlook: Collaborate with Copilot while drafting email",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -10848,7 +11219,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477429Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247743Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477431Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465841Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465843Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1429012\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465844Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11308,7 +11679,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476154Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476155Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476156Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464074Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464076Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324282\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464077Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -11455,7 +11826,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476928Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476929Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465152Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1227087\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465154Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -12758,7 +13129,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476373Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476374Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476375Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476376Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476377Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Android\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464376Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464377Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"IOS\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464378Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046438Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1419802\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464381Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13291,7 +13662,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476554Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476555Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476556Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464631Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464633Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318124\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464634Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13342,7 +13713,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476716Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476717Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476718Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046486Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464862Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318125\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464863Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13393,7 +13764,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247711Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477111Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477112Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465418Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465419Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1318249\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046542Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13444,7 +13815,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477005Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477006Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477008Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465255Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465257Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1316228\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465258Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -13495,7 +13866,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"IOS\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477236Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477237Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"IOS\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465577Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1279071\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465579Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14086,7 +14457,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476055Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476056Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"IOS\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463946Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1404321\",\"Platform\":\"All\",\"Status\":\"Scheduled\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463947Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14470,7 +14841,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.24776Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477601Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477602Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466061Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466063Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1319213\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466064Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14570,7 +14941,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477817Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477819Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477819Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046635Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466351Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1317836\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466352Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14622,7 +14993,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477664Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477665Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477666Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466142Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466144Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1219793\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466145Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -14674,7 +15045,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476088Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476089Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247609Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463994Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463995Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1405501\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0463997Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -15014,52 +15385,6 @@
     "Attachments": null,
     "AttachmentsArchive": null,
     "Body": {
-      "Content": "<p><b><b>What and Why:</b></b></p><p>\nWe’re introducing a refreshed <b>Libraries </b>view in OneDrive for the web that replaces the existing <b>More places</b> experience. This update makes it easier for users to discover and access SharePoint document libraries across recent activity, Teams, and favorite sites. The new experience improves navigation and findability, helping users and teams quickly return to shared content and work more efficiently.</p><p>This message is associated with Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566315\" target=\"_blank\">566315</a>.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>Targeted Release (Worldwide): Beginning <b>early July 2026</b> and expected to complete by <b>mid-July 2026</b></li>\n<li>General Availability (Worldwide): Beginning <b>mid-July 2026</b> and expected to complete by <b>late July 2026</b></li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n\n<p><b>Who is affected:&nbsp;</b>All users of OneDrive for the web</p>\n\n<p><b>Platforms/Services:</b></p><ul><li>OneDrive for the web</li><li>SharePoint Online</li><li>Microsoft Teams</li></ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>The <b>More places</b> experience will be replaced by a new <b>Libraries </b>view in OneDrive for the web.</li>\n<li>The feature will be <b>enabled by default.</b></li>\n<li>Users will see more recently accessed document libraries for quicker access.</li><p>Screenshot 1: <i>New libraries view showing recently accessed document libraries:</i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/495c2df3-d2fe-40a8-b498-7291815b1e8d\" style=\"width: 400px;\" alt=\"user settings\"></p><li>Users can access libraries tied to <b>Teams </b>and <b>favorite SharePoint sites</b> directly.</li>\n<li>Users can:<ul><li>Filter libraries using keywords.</li><p>Screenshot 2: <i>Recent document libraries, filtered to <b>Site assets</b></i></p><p><img src=\"https://cxcs.microsoft.net/file/ccp/en-us/514523ac-9946-4f30-bb09-a458d36f84b0\" style=\"width: 400px;\" alt=\"user settings\">&gt;</p><li>Sort libraries by recent activity or alphabetically.</li><li>Switch between list and tiles views.</li></ul></li>\n<li>Existing permissions and access controls remain unchanged.</li>\n<li>No admin configuration or policy changes are required.</li>\n</ul>\n\n<p><b><b>Action Required/Recommendations:</b></b></p>\n<ul>\n</ul><p>No action is required.</p><p>Recommended actions:</p><ul>\n<li>Review and update internal training materials to reflect the new <b>Libraries</b> experience.</li><li>Inform helpdesk and support teams about the replacement of <b>More places</b>.</li><li>Communicate the new capabilities to end users (filtering, sorting, view options).</li></ul><div><b><b>Compliance considerations:</b></b></div><p>\n</p><p>No compliance considerations identified, review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "566315"
-      },
-      {
-        "Name": "Summary",
-        "Value": "OneDrive for the web will replace the \"More places\" experience with a new Libraries view by mid-July 2026, enhancing access to SharePoint libraries from recent activity, Teams, and favorite sites. It includes filtering, sorting, and view options, with no changes to permissions or admin settings."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-08-31T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1403407",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-24T22:29:56.453Z",
-    "Services": [
-      "Microsoft OneDrive"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-06-24T22:29:48Z",
-    "Tags": [
-      "Feature update",
-      "User impact"
-    ],
-    "Title": "OneDrive for the web: New libraries browsing experience",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
       "Content": "<p><b><b>What and Why:</b></b></p>\n<p>We are updating the data retention period for <b>Microsoft Enterprise Content Delivery Network (eCDN)</b> analytics from <b>360 days to 180 days</b>. This change aligns with enterprise-ready data governance practices across Microsoft 365, helping organizations maintain compliance while ensuring analytics data is retained for a duration appropriate for operational insights and reporting needs.</p>\n\n<p><b><b>Rollout Schedule:</b></b></p>\n<ul>\n<li>Effective date (Worldwide, GCC, GCC High): <b>July 27, 2026</b></li>\n</ul>\n\n<p><b><b>Impact on Your Organization:</b></b></p>\n<p><b>Who is affected:&nbsp;</b>Admins and users who rely on Microsoft eCDN analytics reporting</p>\n<p><b>Platforms/Services:&nbsp;</b>Microsoft eCDN analytics (web-based reporting and dashboards)</p>\n<p><b>What will happen:</b></p>\n<ul>\n<li>Analytics data will be retained for up to 180 days from the time of generation.</li>\n<li>Data older than 180 days will be automatically deleted and no longer accessible.</li>\n<li>The updated retention policy will apply tenant-wide.</li>\n<li>There are<b> no changes to how data is collected or surfaced</b>, only how long it is retained.</li>\n<li>The change is <b>enabled by default </b>with no admin configuration required.</li>\n</ul>\n\n<p><b><b>Action Required / Recommendations:</b></b></p>\n<p>No immediate action is required.</p>\n<ul>\n<li>Review any reporting or analytics workflows that rely on data older than 180 days.</li>\n<li>Update internal processes or dashboards to ensure necessary data is exported or archived before July 27, 2026.</li>\n<li>Notify stakeholders who depend on long-term analytics trends.</li>\n<li>Update internal documentation or reporting guidelines as needed.</li>\n</ul>\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table>\n  <tbody><tr>\n    <th>Area</th>\n    <th>Explanation</th>\n  </tr>\n  <tr>\n    <td>Data processing, storage, or access changes</td>\n    <td>The retention period for eCDN analytics data is reduced from 360 days to 180 days, changing how long data is stored and accessible.</td>\n  </tr>\n  <tr>\n    <td>Retention policies, holds, or deletion workflows</td>\n    <td>The change enforces a shorter system-level retention window, resulting in earlier automatic deletion of analytics data.</td>\n  </tr>\n  <tr>\n    <td>Admin monitoring and compliance reporting</td>\n    <td>Admins will have access to a shorter historical analytics window, which may affect long-term reporting and compliance evidence collection.</td>\n  </tr>\n</tbody></table>",
       "ContentType": "html"
     },
@@ -15229,7 +15554,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476891Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476892Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"IOS\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465101Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"},{\"RoadmapId\":0,\"McPostId\":\"MC1402306\",\"Platform\":\"All\",\"Status\":\"InRollout\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465102Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":\"StandardRelease\"}]}"
       },
       {
         "Name": "Summary",
@@ -15600,7 +15925,7 @@
     "Details": [
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476197Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476199Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476199Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.24762Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464136Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464137Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"Web\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464139Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1325422\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046414Z\",\"LatestRing\":\"DeferredRelease\",\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -16595,53 +16920,6 @@
       "Retirement"
     ],
     "Title": "SharePoint Alerts retirement",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated June 15, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p>\n<p>To strengthen customer control over sensitive investigation data, Microsoft is extending <b>Customer-managed key (CMK) </b>protection to Microsoft Purview eDiscovery Direct Export. For tenants that have configured<b> Data Encryption Policies (DEPs)</b> using the <b>Microsoft 365 Data-at-Rest Encryption Platform (MDEP)</b>, eDiscovery export packages will now be automatically encrypted using your organization’s CMK. This helps ensure exported investigation data remains protected under customer-controlled encryption policies throughout the export lifecycle, without changing the existing eDiscovery user experience.</p>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=557684\" target=\"_blank\">557684</a>.</p>\n\n<p><b><b>When this will happen:</b></b></p>\n<ul>\n<li>Public Preview: We will begin rolling out <b>early May 2026</b> and expect to complete by <b>early June 2026.</b></li>\n<li>General Availability (Worldwide):&nbsp; We will begin rolling out <b>early September 2026</b> (previously&nbsp;mid-June)&nbsp;and expect to complete by<b>&nbsp;end of September 2026 </b>(previously mid-July).</li>\n</ul>\n\n<p><b><b>How this affects your organization:</b></b></p>\n<p><b>Who is affected:</b></p>\n<ul>\n<li>Microsoft 365 tenants with Customer-managed keys enabled through <b>Data Encryption Policies (DEPs)</b>, and request that Microsoft Support enable this feature for Purview eDiscovery Direct Export in their tenant</li>\n<li>Admins and investigators using Microsoft Purview eDiscovery&nbsp;Direct Export</li>\n</ul>\n\n<p><b>What will happen:</b></p>\n<ul>\n<li>eDiscovery Direct Export packages for CMK‑enabled tenants will be encrypted at rest using tenant‑owned keys.</li><li>Encryption is applied automatically based on existing DEP configuration.</li>\n<li>CMK configuration is dynamically validated through MDEP at export time.</li>\n<li>No change to the eDiscovery user experience.</li>\n<li>Only enabled for specific tenants by request to Microsoft Support&nbsp;</li>\n</ul>\n\n<p><b><b>What you can do to prepare:</b></b></p><p>To use CMK encryption for eDiscovery Direct Export, your organization must complete the following steps:</p><ol><li>Configure Customer Key (self-service) Your Microsoft 365 administrator must have Customer Key enabled through the Microsoft 365 Data-at-Rest Encryption Platform (MDEP) with a DEP in PolicyAssigned status. </li><ul><li>This requires:<ul><li>Two Azure subscriptions dedicated to Customer Key</li><li>Azure Key Vault(s) with RSA keys provisioned</li><li>A DEP created and assigned to your tenant</li><li>Follow the setup guidance here: <a href=\"https://learn.microsoft.com/purview/customer-key-set-up?tabs=akv#create-two-new-azure-subscriptions\" target=\"_blank\">Create two new Azure subscriptions | Microsoft Learn</a></li></ul></li></ul><li>Request feature enablement (contact Microsoft Support) <ul><li>After Customer Key is configured, your organization must contact Microsoft Support to request that CMK for eDiscovery Direct Export be enabled for your tenant. This feature requires Microsoft-side service configuration that is not automatically applied. Work with your Microsoft Support contact or <b>Customer Success Account Manager (CSAM)</b> to complete enablement.</li></ul></li></ol><p><b>Important:</b></p><ul><li>If your tenant does not have CMK properly configured through MDEP at export time, direct export jobs will proceed without CMK encryption.</li><li>No changes to the eDiscovery user experience are required — CMK encryption is applied transparently to export packages.</li><li>Encryption scopes, storage accounts, and containers are managed automatically by the service; no additional storage configuration is needed.</li><li>Exported data retention remains 14 days, unchanged by CMK.</li></ul><p></p><p></p><p>Learn more: <a href=\"https://learn.microsoft.com/purview/edisc-search-export\" target=\"_blank\">Export search results in eDiscovery | Microsoft Learn</a></p>\n\n\n<p><b><b>Compliance considerations:</b></b></p>\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n<tbody><tr>\n<th>Compliance area</th>\n<th>Impact</th>\n</tr>\n<tr>\n<td>Encryption methods or key management</td>\n<td>eDiscovery Direct Export packages are encrypted at rest using tenant‑owned customer‑managed keys defined in Data Encryption Policies through MDEP.</td>\n</tr>\n<tr>\n<td>eDiscovery or Content Search</td>\n<td>Direct Export behavior is enhanced to automatically apply tenant‑specific encryption scopes to exported investigation data.</td>\n</tr>\n<tr>\n<td>How customer data is processed or stored</td>\n<td>Exported investigation data is stored in eDiscovery storage accounts encrypted with customer‑managed keys rather than Microsoft‑managed keys.</td>\n</tr><tr><td>Admin controls</td><td>Behavior is governed by existing Data Encryption Policies; no new toggle is introduced, but encryption is controlled through CMK configuration.</td></tr>\n</tbody></table>",
-      "ContentType": "html"
-    },
-    "Category": "planForChange",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "557684"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery Direct Export will support Customer-managed key (CMK) encryption for tenants with Data Encryption Policies via MDEP. Starting early May 2026 (preview) and September 2026 (GA), export packages will be automatically encrypted with tenant-owned keys, requiring tenant request to Microsoft Support. No user experience changes."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1289726",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-06-15T23:14:04.123Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-04-23T22:39:13Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview: eDiscovery - CMK (Customer managed key) for eDiscovery direct export",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -18370,7 +18648,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476773Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476774Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464944Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1289725\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464946Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18698,7 +18976,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476972Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476973Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465211Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1256307\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465213Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18750,7 +19028,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476643Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Linux\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476644Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476644Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2476645Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Desktop\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464758Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Linux\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464759Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"Mac\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464761Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1309744\",\"Platform\":\"All\",\"Status\":\"Launched\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0464762Z\",\"LatestRing\":\"StandardRelease\",\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -18802,7 +19080,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478249Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247825Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466926Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1324279\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466928Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -19170,7 +19448,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477316Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477317Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477317Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477318Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.046569Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465691Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465692Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1183611\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465693Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20314,7 +20592,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477528Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477529Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.247753Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2477531Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465973Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Linux\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465974Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465975Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1253752\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0465976Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
@@ -20519,54 +20797,6 @@
       "Admin impact"
     ],
     "Title": "Microsoft Teams Rooms on Android: License-based management updates for DM-synced devices",
-    "ViewPoint": {
-      "IsArchived": null,
-      "IsFavorited": null,
-      "IsRead": null
-    },
-    "Source": "messageCenter",
-    "AdditionalProperties": {}
-  },
-  {
-    "ActionRequiredByDateTime": null,
-    "Attachments": null,
-    "AttachmentsArchive": null,
-    "Body": {
-      "Content": "<p>Updated February 27, 2026: We have updated the timeline. Thank you for your patience.&nbsp;</p><p><b><b>Introduction</b></b></p><p>We’re introducing the <b>Advanced Review Set Explorer&nbsp;</b>(public preview) for review sets in <i>Microsoft Purview eDiscovery (Premium)</i>.</p><p>eDiscovery has long supported Keyword Query Language (KeyQL) because it provides a familiar, approachable, and powerful way to search and filter content—while working consistently across both search and review experiences. For many users and workflows, KeyQL remains the recommended and most efficient way to build queries.</p><p>At the same time, we understand that power users and advanced reviewers often need greater flexibility to slice, aggregate, and analyze review set data in more sophisticated ways. To meet this need, we’re adding a Kusto Query Language (KQL)–based experience to review sets through the Advanced Review Set Explorer.</p><p>With this update, reviewers will have two query options:</p><ul><li>KeyQL, for familiar, streamlined search and filtering experiences</li><li>KQL, for advanced data exploration, aggregation, transformation, and visualization within a review set</li></ul><p>The new Advanced review set explorer's key capabilities include:</p><ul><li>Run advanced review set explorer using Kusto Query Language (KQL)</li><li>Apply complex filters, aggregations, and transformations</li><li>Visualize results with bar, column, and pie charts</li><li>Query across more than 100 metadata properties</li><li>Identify trends, detect patterns, and analyze data distribution</li>\n</ul>\n\n<p>This message is associated with Microsoft 365 Roadmap ID <a href=\"https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=484086\" target=\"_blank\">484086</a>.</p>\n\n<p><b><b>When this will happen</b></b>\n</p><ul><li><b>Public Preview (Worldwide, excluding government clouds):</b>&nbsp;We will start rolling out in <b>February 2026</b>&nbsp;and expect to complete in&nbsp;<b>February 2026</b>.</li><li><b>General Availability (Worldwide, GCC, GCCH, and DoD):</b> We will start rolling out in <b>late August 2026</b> (previously&nbsp;July)&nbsp;and expect to complete in <b>late August 2026</b> (previously&nbsp;July).</li></ul>\n\n<p><b><b>How this affects your organization</b></b></p>\n<p><i>Who is affected:</i>\nOrganizations using Microsoft Purview eDiscovery (Premium).</p>\n\n<p><i>What will happen:</i></p>\n<ul>\n  <li>A new Advanced Review Set Explorer will be available in review sets.</li>\n  <li>The feature is <b>enabled by default</b>.</li>\n  <li>Users with eDiscovery review permissions can run KQL queries.</li><li>Users can continue using existing KeyQL‑based searching within review set without change.</li>\n  <li>No existing queries or workflows are modified.</li>\n  <li>Existing admin policies and permissions are unchanged.</li>\n</ul>\n\n<p><b><b>What you can do to prepare</b></b></p>\n<ul>\n  <li>Inform eDiscovery teams that both KeyQL and KQL are supported, and users can choose the option that best fits their needs.</li><li>Consider providing KQL training or reference materials.</li>\n  <li>Update internal documentation or workflows as needed.</li>\n  <li>Inform eDiscovery teams about this new capability.</li>\n  <li>Review Microsoft Learn content on eDiscovery solutions.</li></ul><p><b>Learn more:&nbsp;</b></p><ul><li><a href=\"https://learn.microsoft.com/kusto/query/?view=microsoft-fabric&amp;toc=%2Fazure%2Fsentinel%2FTOC.json&amp;bc=%2Fazure%2Fsentinel%2Fbreadcrumb%2Ftoc.json\" target=\"_blank\">Kusto Query Language overview | Microsoft Learn</a></li><li><a href=\"https://learn.microsoft.com/purview/edisc\" target=\"_blank\">Learn about eDiscovery | Microsoft Purview | Microsoft Learn</a></li>\n</ul>\n\n<p><b><b>Compliance considerations</b></b>\n</p><p>No compliance considerations identified. Review as appropriate for your organization.</p>",
-      "ContentType": "html"
-    },
-    "Category": "stayInformed",
-    "Details": [
-      {
-        "Name": "RoadmapIds",
-        "Value": "484086"
-      },
-      {
-        "Name": "Summary",
-        "Value": "Microsoft Purview eDiscovery (Premium) introduces the Advanced Review Set Explorer with Kusto Query Language (KQL) for advanced data analysis alongside existing KeyQL. Public preview starts February 2026; general availability in late August 2026. The feature is enabled by default without affecting current workflows or permissions."
-      },
-      {
-        "Name": "Platforms",
-        "Value": "Web"
-      }
-    ],
-    "EndDateTime": "2026-10-30T07:00:00Z",
-    "HasAttachments": false,
-    "Id": "MC1221453",
-    "IsMajorChange": false,
-    "LastModifiedDateTime": "2026-02-27T18:27:20.423Z",
-    "Services": [
-      "Microsoft Purview"
-    ],
-    "Severity": "normal",
-    "StartDateTime": "2026-01-23T00:55:35Z",
-    "Tags": [
-      "Updated message",
-      "New feature",
-      "User impact",
-      "Admin impact"
-    ],
-    "Title": "Microsoft Purview | eDiscovery – Advanced review set explorer",
     "ViewPoint": {
       "IsArchived": null,
       "IsFavorited": null,
@@ -21624,7 +21854,7 @@
       },
       {
         "Name": "FeatureStatusJson",
-        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478066Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478067Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-14T21:20:31.2478068Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
+        "Value": "{\"0\":[{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Desktop\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466674Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"Mac\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466675Z\",\"LatestRing\":null,\"TenantRolloutRing\":null},{\"RoadmapId\":0,\"McPostId\":\"MC1058258\",\"Platform\":\"All\",\"Status\":\"FeatureRolloutStatusNotSupported\",\"LastUpdateTime\":\"2026-08-15T01:00:04.0466676Z\",\"LatestRing\":null,\"TenantRolloutRing\":null}]}"
       },
       {
         "Name": "Summary",
