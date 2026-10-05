@@ -1,6 +1,6 @@
 # Microsoft 365 Message Center Archive
 
-This site is a simple archive of the Microsoft 365 Message Center and Microsoft 365 Roadmap. Message Center and Roadmap data is refreshed hourly and the site is rebuilt every four hours, providing a simple way to search and view posts.
+This site is a simple archive of the Microsoft 365 Message Center and Microsoft 365 Roadmap. Message Center and Roadmap data is refreshed hourly, and each refresh that lands new data immediately kicks off a site rebuild (with an hourly staleness check and a four-hour scheduled rebuild as fallbacks), providing a simple way to search and view posts.
 
 I created this site so I can link to it from my weekly newsletter [Entra.News](https://entra.news) so folks could ready the message center post without having to log into the admin center.
 
@@ -8,6 +8,22 @@ I created this site so I can link to it from my weekly newsletter [Entra.News](h
 > This site is for reference only. Always refer to your tenant's Microsoft 365 message center post for the most accurate information that is relevant to your tenant.
 > * Not all posts are visible to all tenants.
 > * This archive is built from a small number of source tenants (for example a Microsoft 365 E5 tenant). Your tenant may have different features and updates. 
+
+## Bookmark filtered news
+
+Choose services, a source, or a search term on the home page, then bookmark or
+share the current URL. Opening it restores those filters. For example,
+[Microsoft Purview news](https://mc.merill.net/?service=Microsoft+Purview).
+
+URLs use one `service` parameter per selected service, `source=messageCenter` or
+`source=roadmap` for the source, and `q` for search text. Clearing a filter removes
+its parameter without affecting the other filters.
+
+Run `npm run test:filters` to check filter URL handling. The suite loads the
+current service catalog, checks that selecting every service round-trips through
+the URL, and reports the resulting URL length against a conservative
+2,000-character compatibility budget. The budget is a warning, not a failure,
+because the catalog grows with each data refresh.
 
 ## Feedback
 
@@ -69,6 +85,8 @@ Community members can contribute their tenant from the [About page](https://mc.m
 * **Own app registration.** A contributor registers a single-tenant app with the same permission and federated credential, and emails its tenant and client IDs.
 
 Contributor tenants are tracked in the private `merill/mc-tenants` repository, which verifies each tenant and writes the anonymous list to the `GRAPH_CONTRIBUTOR_TENANTS` Actions **secret**: a JSON array such as `[{"label":"c01","tenantId":"..."},{"label":"c02","tenantId":"...","clientId":"..."}]` (plain tenant ID strings also work). Labels appear in public logs, so they must be short anonymous tokens; anything else is replaced with a number. The secret is only passed on non pull request runs, which are the runs the federated credential trusts.
+
+The same sync writes the repository **variable** `CONTRIBUTOR_CREDITS`, for example `{"tenants":3,"credits":[{"name":"Jane Doe","url":"https://..."}]}`. It holds only the names (and optional https links) of contributors who asked to be credited, plus a count of all verified tenants. The site build reads it to show the thank-you list on the About page; the list is hidden while the variable is unset.
 
 The multi-tenant app's client ID (`158ad002-7467-454f-ba15-229a0b719811`) is not a secret, so it is set directly in `@build/config-m365.json` (used for every contributor without their own `clientId`) and in `config/site.ts` (the consent button). The app needs the Web redirect URI `https://mc.merill.net/connect`.
 
