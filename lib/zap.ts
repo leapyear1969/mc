@@ -9,6 +9,8 @@ export type ZapComment = {
   parentId: number | null
   depth: number
   author: string | null
+  /** The author's photo on zap.ms, when they have one. */
+  authorAvatar?: string | null
   badges: string[]
   createdAt: string
   score: number
@@ -37,6 +39,7 @@ export type ZapActiveItem = {
   commentCount: number
   lastActivityAt: string
   lastCommenter: string | null
+  lastCommenterAvatar?: string | null
 }
 
 export type ZapThreadNode = { comment: ZapComment; replies: ZapThreadNode[] }
@@ -162,6 +165,14 @@ export function avatarColor(username: string): string {
   return AVATAR_COLORS[hash % AVATAR_COLORS.length]
 }
 
+/**
+ * A member's photo address as zap.ms gave it, or null when there is none or
+ * it is not a plain https address. The monogram shows in its place.
+ */
+export function avatarSrc(url: string | null | undefined): string | null {
+  return url && /^https:\/\/[^\s"'<>]+$/.test(url) ? url : null
+}
+
 export function timeAgo(iso: string, now = Date.now()): string {
   const seconds = Math.max(0, Math.floor((now - Date.parse(iso)) / 1000))
   if (!Number.isFinite(seconds)) return ""
@@ -179,4 +190,43 @@ export const BADGE_LABELS: Record<string, string> = {
   microsoft: "Microsoft",
   mvp: "MVP",
   "mvp-rd": "MVP RD",
+}
+
+/** What zap.ms tells a signed-in member about their Microsoft badge. */
+export type ZapBadgeNotice = {
+  kind: "microsoft"
+  /** `renew`: still shown, goes on `deadline`. `removed`: went on `deadline`. */
+  state: "renew" | "removed"
+  /** Unix seconds. */
+  deadline: number
+  verifyUrl: string
+}
+
+/** The notice from zap.ms's answer, or null for anything this site cannot show. */
+export function readBadgeNotice(raw: unknown): ZapBadgeNotice | null {
+  if (!raw || typeof raw !== "object") return null
+  const { kind, state, deadline, verifyUrl } = raw as Record<string, unknown>
+  if (kind !== "microsoft") return null
+  if (state !== "renew" && state !== "removed") return null
+  if (typeof deadline !== "number" || !Number.isFinite(deadline)) return null
+  if (typeof verifyUrl !== "string" || !/^https?:\/\//.test(verifyUrl)) {
+    return null
+  }
+  return { kind, state, deadline, verifyUrl }
+}
+
+/** The banner's sentence, with the date as the visitor's own locale writes it. */
+export function badgeNoticeText(
+  notice: ZapBadgeNotice,
+  locale?: string
+): string {
+  if (notice.state === "removed") {
+    return "Your Microsoft badge was removed because your Microsoft email was not confirmed again."
+  }
+  const date = new Date(notice.deadline * 1000).toLocaleDateString(locale, {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  })
+  return `Confirm your Microsoft email by ${date} to keep your Microsoft badge.`
 }

@@ -3,7 +3,11 @@
 import * as React from "react"
 
 import { siteConfig } from "@/config/site"
-import type { ZapDiscussion } from "@/lib/zap"
+import {
+  readBadgeNotice,
+  type ZapBadgeNotice,
+  type ZapDiscussion,
+} from "@/lib/zap"
 import {
   clearRecent,
   readRecent,
@@ -38,7 +42,14 @@ export type ZapSession =
   | { status: "checking" }
   | { status: "off" }
   | { status: "signed-out" }
-  | { status: "signed-in"; username: string }
+  | {
+      status: "signed-in"
+      username: string
+      /** Their photo on zap.ms, when they have one. */
+      avatar: string | null
+      /** Set while their Microsoft badge needs renewing or has been removed. */
+      badgeNotice: ZapBadgeNotice | null
+    }
 
 export type DiscussionState = {
   thread:
@@ -193,14 +204,27 @@ class Store {
     )
   }
 
-  comment(text: string, parentId: number | null, author: string) {
+  comment(
+    text: string,
+    parentId: number | null,
+    author: { username: string; avatar: string | null }
+  ) {
     const view = this.view()
     return this.write(
       "POST",
       "/comments",
       { text, parentId },
       view
-        ? withPendingComment(view, { text, parentId, author }, Date.now())
+        ? withPendingComment(
+            view,
+            {
+              text,
+              parentId,
+              author: author.username,
+              authorAvatar: author.avatar,
+            },
+            Date.now()
+          )
         : null
     )
   }
@@ -265,6 +289,20 @@ function setSession(next: ZapSession) {
   sessionListeners.forEach((listener) => listener())
 }
 
+/**
+ * Hides the notice that their badge was removed. zap.ms remembers it, so the
+ * notice goes from zap.ms too; if zap.ms refuses, it comes back.
+ */
+async function dismissBadgeNotice() {
+  if (session.status !== "signed-in" || !session.badgeNotice) return
+  const { badgeNotice } = session
+  setSession({ ...session, badgeNotice: null })
+  const result = await call("POST", "/api/v1/me/badge-notice/dismiss")
+  if (result.ok) return
+  if (result.status === 401) return setSession({ status: "signed-out" })
+  if (session.status === "signed-in") setSession({ ...session, badgeNotice })
+}
+
 async function signOut() {
   await call("POST", "/auth/signout", {})
   stores.forEach((store) => store.forget())
@@ -290,18 +328,26 @@ export function useZapSession() {
     /** Comes back to the page they are on, not to a discussion. */
     signIn: () => signIn(null),
     signOut,
+    dismissBadgeNotice,
   }
 }
 
 function loadSession(): Promise<void> {
-  sessionRequest ??= call<{ user: { username: string | null } | null }>(
-    "GET",
-    "/api/v1/me"
-  ).then((result) => {
+  sessionRequest ??= call<{
+    user: { username: string | null; avatar?: string | null } | null
+    badgeNotice?: unknown
+  }>("GET", "/api/v1/me").then((result) => {
     if (!result.ok) return setSession({ status: "off" })
     const username = result.data.user?.username
     setSession(
-      username ? { status: "signed-in", username } : { status: "signed-out" }
+      username
+        ? {
+            status: "signed-in",
+            username,
+            avatar: result.data.user?.avatar ?? null,
+            badgeNotice: readBadgeNotice(result.data.badgeNotice),
+          }
+        : { status: "signed-out" }
     )
   })
   return sessionRequest
@@ -323,6 +369,8 @@ async function call<T>(
       headers: body === undefined ? {} : { "content-type": "application/json" },
       body: body === undefined ? undefined : JSON.stringify(body),
     })
+    // zap.ms answers some writes with no body at all.
+    if (response.status === 204) return { ok: true, data: undefined as T }
     // Without zap's route this path is the site's own 404 page, not JSON.
     const isJson = response.headers
       .get("content-type")
@@ -392,7 +440,9 @@ export function useDiscussion(id: string) {
         current.comment(
           text,
           parentId,
-          session.status === "signed-in" ? session.username : ""
+          session.status === "signed-in"
+            ? session
+            : { username: "", avatar: null }
         ),
       upvote: (commentId: number) => current.upvote(commentId),
       flag: (commentId: number) => current.flag(commentId),

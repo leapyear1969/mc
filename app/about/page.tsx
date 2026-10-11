@@ -435,6 +435,11 @@ export default function AboutPage() {
                 until you post or discard it.
               </li>
               <li>
+                Comments now show each person&apos;s zap.ms profile photo, and
+                once you are signed in the top of the page shows your photo
+                instead of your username.
+              </li>
+              <li>
                 You can flag a comment for the moderators, and delete your own
                 comment for ten minutes after posting it.
               </li>
@@ -452,6 +457,11 @@ export default function AboutPage() {
                 Long service names on a post, such as Microsoft Copilot
                 (Microsoft 365), now wrap inside their card instead of being cut
                 off.
+              </li>
+              <li>
+                If you have a Microsoft badge on zap.ms, a notice at the top of
+                the page now tells you when it is time to confirm your Microsoft
+                email again, with a link to do it.
               </li>
             </ul>
           </div>
