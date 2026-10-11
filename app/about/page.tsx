@@ -425,6 +425,13 @@ export default function AboutPage() {
             </h2>
             <ul>
               <li>
+                The home page list now shows the likes, dislikes and comment
+                count of each post that has a discussion, and Active
+                discussions opens the post on this site at its discussion.
+                Counts in lists can be up to ten minutes behind; your own
+                likes and comments show straight away.
+              </li>
+              <li>
                 You can now like, dislike, comment and reply on a post without
                 leaving this site. The first time, you sign in with a zap.ms
                 account and come straight back to the post you were reading.
@@ -452,6 +459,10 @@ export default function AboutPage() {
                 Comment and reply boxes now link to the community guidelines.
                 We keep discussions friendly: assume the other person means
                 well.
+              </li>
+              <li>
+                The bottom of every page now links to the privacy policy and
+                terms of use, which cover this site and zap.ms.
               </li>
               <li>
                 Long service names on a post, such as Microsoft Copilot
