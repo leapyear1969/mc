@@ -29,10 +29,6 @@ export const siteConfig = {
       href: "https://entra.news",
     },
     {
-      title: "Maester",
-      href: "https://maester.dev",
-    },
-    {
       title: "Maester.Cloud",
       href: "https://maester.cloud",
     },
@@ -50,9 +46,10 @@ export const siteConfig = {
     // repository with their numeric IDs, so federated credentials must too.
     githubOidcSubject: "repo:merill@1288081/mc@761074595:ref:refs/heads/main",
   },
-  // Discussion is hosted on zap.ms. This site only reads from its public API
-  // and links there for every reaction and reply. The environment variable
-  // points a local build at a local zap server.
+  // Discussion is hosted on zap.ms. Reads come from its public API at this
+  // address; sign-in, reactions and comments go through /zap on this site,
+  // which zap.ms answers in production. The environment variable points a
+  // local build at a local zap server.
   zap: {
     url: process.env.NEXT_PUBLIC_ZAP_URL ?? "https://zap.ms",
   },
