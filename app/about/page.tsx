@@ -235,6 +235,14 @@ export default function AboutPage() {
                 history like every other post.
               </li>
               <li>
+                When a service filter or a View option leaves the list empty,
+                it now says &quot;Showing 0 of&quot; however many posts that
+                source has, names the filters to check, and offers a button to
+                clear them. Azure names its products differently from Microsoft
+                365 services, so a service picked for Message Center matches no
+                Azure update.
+              </li>
+              <li>
                 Version history opens on the post&apos;s own page instead of on
                 a page per version. Every post still lists its versions and
                 which fields changed in each. Opening a version, or comparing
@@ -278,6 +286,12 @@ export default function AboutPage() {
                 page that explains what you can do, why it is here and how to
                 help, with an example discussion. Dismissing the strip is
                 remembered in your browser.
+              </li>
+              <li>
+                Posts no longer show as expired when one of the tenants
+                contributing to the archive cannot be reached. They stay as they
+                were until that tenant answers again or the post reaches its own
+                end date.
               </li>
             </ul>
           </div>
