@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"
 import {
   ColumnDef,
   SortingState,
+  VisibilityState,
   flexRender,
   getCoreRowModel,
   getSortedRowModel,
@@ -14,6 +15,7 @@ import {
 import {
   Check,
   ChevronDown,
+  Cloud,
   Inbox,
   Loader2,
   Milestone,
@@ -35,6 +37,12 @@ import {
   type SearchSortKey,
 } from "@/lib/search"
 import { useZapCounts } from "@/lib/use-zap-counts"
+import {
+  DEFAULT_VIEW,
+  OPTIONAL_COLUMNS,
+  inView,
+  type ViewSettings,
+} from "@/lib/views"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -46,6 +54,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 import { messageHref, type MessageView } from "@/app/messages-table/columns"
+import { ViewsBar } from "@/app/messages-table/views-bar"
 
 // Browsing shows newest first. Without this the expired posts, which arrive
 // after the first render, would simply pile up underneath everything else.
@@ -67,10 +76,13 @@ interface DataTableProps<TData, TValue> {
   services: string[]
 }
 
+// The archive list carries expired Message Center posts and, marked with
+// their source, Azure updates that last changed over a year ago.
 function toArchivedMessageView(item: MessageArchive): MessageView {
   const date = item.LastModifiedDateTime
     ? new Date(item.LastModifiedDateTime)
     : null
+  const isAzure = item.Source === "azure"
 
   return {
     id: item.Id,
@@ -83,10 +95,11 @@ function toArchivedMessageView(item: MessageArchive): MessageView {
       : undefined,
     date: date ? date.toISOString().slice(0, 10) : undefined,
     isMajor: item.IsMajorChange ?? false,
-    isArchived: true,
+    // An Azure update never expires; an old one is only old.
+    isArchived: !isAzure,
     seenOnlyIn: item.SeenOnlyIn,
-    source: "messageCenter",
-    sourceLabel: "Message Center",
+    source: isAzure ? "azure" : "messageCenter",
+    sourceLabel: isAzure ? "Azure Updates" : "Message Center",
   }
 }
 
@@ -97,7 +110,11 @@ export function DataTable<TData, TValue>({
   services,
 }: DataTableProps<TData, TValue>) {
   const getColumnClassName = (columnId: string) => {
-    if (columnId === "service" || columnId === "lastUpdated") {
+    if (
+      columnId === "source" ||
+      columnId === "service" ||
+      columnId === "lastUpdated"
+    ) {
       return "hidden md:table-cell"
     }
 
@@ -122,6 +139,18 @@ export function DataTable<TData, TValue>({
     readArchiveFilters(new URLSearchParams())
   )
   const { sourceFilter, selectedServices, searchTerm } = filters
+  // The parts of a view the address does not carry (lib/views.ts).
+  const [viewExtras, setViewExtras] = React.useState({
+    majorOnly: DEFAULT_VIEW.majorOnly,
+    hideExpired: DEFAULT_VIEW.hideExpired,
+    columns: DEFAULT_VIEW.columns,
+  })
+  // A link that names its own filters is shown as it asks, not as a saved view.
+  const [hasUrlFilters] = React.useState(() => {
+    if (typeof window === "undefined") return false
+    const params = new URLSearchParams(window.location.search)
+    return ["source", "service", "q"].some((name) => params.has(name))
+  })
   const [serviceSearch, setServiceSearch] = React.useState("")
   const [isServiceFilterOpen, setIsServiceFilterOpen] = React.useState(false)
   const [visibleRowCount, setVisibleRowCount] = React.useState(rowBatchSize)
@@ -144,19 +173,32 @@ export function DataTable<TData, TValue>({
 
     return services.filter((service) => service.toLowerCase().includes(search))
   }, [serviceSearch, services])
-  const filteredData = React.useMemo(() => {
-    return allData.filter((item) => {
-      const sourceMatches =
-        sourceFilter === "all" ||
-        (item as { source?: string }).source === sourceFilter
-      const itemServices = (item as { service?: string[] }).service || []
-      const serviceMatches =
-        selectedServices.length === 0 ||
-        selectedServices.some((service) => itemServices.includes(service))
-
-      return sourceMatches && serviceMatches
-    })
-  }, [allData, selectedServices, sourceFilter])
+  // Everything the list is showing now, as one view.
+  const viewSettings = React.useMemo<ViewSettings>(() => {
+    const column = sorting[0]
+    return {
+      source: sourceFilter,
+      services: selectedServices,
+      ...viewExtras,
+      sort: column
+        ? { id: column.id as ViewSettings["sort"]["id"], desc: column.desc }
+        : DEFAULT_VIEW.sort,
+    }
+  }, [selectedServices, sorting, sourceFilter, viewExtras])
+  const filteredData = React.useMemo(
+    () => allData.filter((item) => inView(item as MessageView, viewSettings)),
+    [allData, viewSettings]
+  )
+  const columnVisibility = React.useMemo<VisibilityState>(
+    () =>
+      Object.fromEntries(
+        OPTIONAL_COLUMNS.map((column) => [
+          column.id,
+          viewExtras.columns.includes(column.id),
+        ])
+      ),
+    [viewExtras.columns]
+  )
   const isSearchActive = query.trim().length > 0
   // An empty `sorting` means "the default for this mode": relevance while
   // searching, newest-first while browsing.
@@ -309,6 +351,24 @@ export function DataTable<TData, TValue>({
       })
   }, [query, searchSort, selectedServices, sourceFilter])
 
+  /** Shows the list as a view describes; the search box is left alone. */
+  const applyView = (view: ViewSettings) => {
+    updateFilters({
+      sourceFilter: view.source,
+      selectedServices: view.services,
+    })
+    const isDefaultSort =
+      view.sort.id === DEFAULT_VIEW.sort.id &&
+      view.sort.desc === DEFAULT_VIEW.sort.desc
+    // The default order is left unset, so a search still ranks by relevance.
+    setSorting(isDefaultSort ? [] : [view.sort])
+    setViewExtras({
+      majorOnly: view.majorOnly,
+      hideExpired: view.hideExpired,
+      columns: view.columns,
+    })
+  }
+
   const toggleService = (service: string) => {
     updateFilters({
       selectedServices: selectedServices.includes(service)
@@ -328,13 +388,18 @@ export function DataTable<TData, TValue>({
     if (!isSearchActive) return filteredData
     if (isSearchUnavailable) return fallbackResults
 
-    return searchHits as unknown as TData[]
+    // The index already narrowed by source and service; the rest is checked
+    // here, on the hits fetched so far.
+    return searchHits.filter((hit) =>
+      inView(hit, { ...viewSettings, source: "all", services: [] })
+    ) as unknown as TData[]
   }, [
     fallbackResults,
     filteredData,
     isSearchActive,
     isSearchUnavailable,
     searchHits,
+    viewSettings,
   ])
 
   // The whole row opens the message. This used to be an invisible link
@@ -373,6 +438,7 @@ export function DataTable<TData, TValue>({
     manualSorting: usesPagefind,
     state: {
       sorting: effectiveSorting,
+      columnVisibility,
     },
   })
   const rows = table.getRowModel().rows
@@ -421,7 +487,7 @@ export function DataTable<TData, TValue>({
 
   React.useEffect(() => {
     setVisibleRowCount(rowBatchSize)
-  }, [rows.length, selectedServices, sourceFilter])
+  }, [rows.length, selectedServices, sourceFilter, viewExtras])
 
   React.useEffect(() => {
     if (!hasMoreRows) return
@@ -457,6 +523,11 @@ export function DataTable<TData, TValue>({
 
   return (
     <div>
+      <ViewsBar
+        settings={viewSettings}
+        onApply={applyView}
+        hasUrlFilters={hasUrlFilters}
+      />
       <div className="flex flex-col gap-3 py-4 lg:flex-row lg:items-center">
         <div className="flex flex-wrap gap-2">
           <Button
@@ -487,6 +558,16 @@ export function DataTable<TData, TValue>({
           >
             <Milestone size={15} />
             Microsoft 365 Roadmap
+          </Button>
+          <Button
+            type="button"
+            variant={sourceFilter === "azure" ? "default" : "outline"}
+            size="sm"
+            className="gap-2"
+            onClick={() => updateFilters({ sourceFilter: "azure" })}
+          >
+            <Cloud size={15} />
+            Azure Updates
           </Button>
         </div>
         <div className="grid gap-3 sm:grid-cols-[minmax(14rem,1fr)_minmax(12rem,18rem)] lg:flex lg:flex-1 lg:items-center">
@@ -660,7 +741,7 @@ export function DataTable<TData, TValue>({
             ) : (
               <TableRow>
                 <TableCell
-                  colSpan={columns.length}
+                  colSpan={table.getVisibleLeafColumns().length}
                   className="h-24 text-center"
                 >
                   {isSearchActive && isSearchLoading

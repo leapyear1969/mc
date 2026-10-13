@@ -25,5 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   })
 
-  return [home, ...messages]
+  const pages = ["about", "contribute", "discuss"].map((path) => ({
+    url: `${siteConfig.url}/${path}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }))
+
+  return [home, ...pages, ...messages]
 }
