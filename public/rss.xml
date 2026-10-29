@@ -6,8 +6,26 @@
   <atom:link href="https://mc.merill.net/rss.xml" rel="self" type="application/rss+xml" />
   <description>Latest Microsoft 365 Message Center messages. Message Center posts vary by tenant; always use your tenant&apos;s Message Center as the source of truth.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 28 Oct 2026 23:45:44 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:27:01 GMT</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+    <title>MC1518029: Microsoft Entra ID: Risk-based anti-bot verification (CAPTCHA) for SMS and voice authentication</title>
+    <link>https://mc.merill.net/message/MC1518029</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1518029</guid>
+    <pubDate>Thu, 29 Oct 2026 16:27:01 GMT</pubDate>
+    <description>Microsoft Entra ID is adding risk-based CAPTCHA verification for SMS and voice first-factor sign-ins to reduce automated abuse. Rollout began mid-October 2026. Some users may encounter this step based on behavior. Organizations should prepare help desks, review network requirements, and encourage phishing-resistant methods like passkeys.</description>
+    <category>Message Center</category>
+    <category>Microsoft Entra</category>
+  </item>
+  <item>
+    <title>MC1530368: Microsoft Copilot Studio cost controls are expanding to Cost Management in the Microsoft 365 admin center</title>
+    <link>https://mc.merill.net/message/MC1530368</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1530368</guid>
+    <pubDate>Thu, 29 Oct 2026 15:16:27 GMT</pubDate>
+    <description>We are announcing the ability to use the expanded cost controls for Cost Management for Copilot Studio into the Microsoft 365 admin center in Power Platform. This feature will reach general availability by November 20, 2026. How does this affect me? This update gives administrators a centralized way to manage Copilot Credit spending across supported usage-based AI workloads while retaining broader Copilot Studio administration in the Power Platform admin center. This enterprise-ready management...</description>
+    <category>Message Center</category>
+    <category>Power Platform</category>
+  </item>
   <item>
     <title>MC1529501: Updates available for Microsoft 365 Apps for Current Channel</title>
     <link>https://mc.merill.net/message/MC1529501</link>
@@ -2801,15 +2819,6 @@
     <category>Message Center</category>
   </item>
   <item>
-    <title>MC1483886: Microsoft PowerPoint: Temporary removal of the Brand pane</title>
-    <link>https://mc.merill.net/message/MC1483886</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1483886</guid>
-    <pubDate>Wed, 30 Sep 2026 22:44:48 GMT</pubDate>
-    <description>The Brand pane in Microsoft PowerPoint has been temporarily removed to improve the experience based on user feedback. It is unavailable on Windows, Mac, and web versions. Existing Brand Kits remain intact, no admin action is needed, and updates will be communicated when the feature returns.</description>
-    <category>Message Center</category>
-    <category>Microsoft 365 apps</category>
-  </item>
-  <item>
     <title>MC1483859: Microsoft PowerPoint: Brand Guidelines and Style removed from new Brand Kit creation</title>
     <link>https://mc.merill.net/message/MC1483859</link>
     <guid isPermaLink="true">https://mc.merill.net/message/MC1483859</guid>
@@ -2988,24 +2997,6 @@
     <description>Starting mid-September to November 2026, Exchange Online updates Tenant External Recipient Rate Limit (TERRL) quotas for new, trial, and education tenants, adjusting limits based on tenant age and license type. Trial quotas reduce to 500 recipients daily; EDU licenses get a new quota formula. No immediate action required.</description>
     <category>Message Center</category>
     <category>Microsoft 365 suite</category>
-  </item>
-  <item>
-    <title>MC1482188: Sales in Microsoft 365 Copilot - Link meetings to CRM records automatically with AI</title>
-    <link>https://mc.merill.net/message/MC1482188</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1482188</guid>
-    <pubDate>Tue, 29 Sep 2026 16:11:22 GMT</pubDate>
-    <description>We are announcing the ability to link meetings to CRM records automatically with AI in Sales in Microsoft 365 Copilot. This feature will reach general availability on September 30, 2026. How does this affect me? Users will have upcoming customer meetings automatically matched to the most relevant CRM record using AI. The feature will match to an open opportunity when confidence is sufficient, or to an account when no opportunity meets the confidence threshold. The matched record will provide CRM...</description>
-    <category>Message Center</category>
-    <category>Microsoft Copilot (Power Platform)</category>
-  </item>
-  <item>
-    <title>MC1482160: Power Pages - Power Pages version 9.8.9.17 Production Release</title>
-    <link>https://mc.merill.net/message/MC1482160</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1482160</guid>
-    <pubDate>Tue, 29 Sep 2026 15:04:06 GMT</pubDate>
-    <description>Maintenance window start: October 17, 2026, at 6:00 PM UTC Maintenance window end: October 18, 2026, at 3:00 AM UTC This deployment includes an updated website host and no solution update. This release includes security enhancements, customer-reported fixes, and performance updates. Release notes for this release can be viewed here. How does this affect me? During the update, the Portal Management page in the Power Platform admin center will be placed in a read-only state for a short period of t...</description>
-    <category>Message Center</category>
-    <category>Power Platform</category>
   </item>
   <item>
     <title>MC1481569: Power Pages - Power Pages version 9.8.9.17 Pre-Production Release</title>
@@ -3369,15 +3360,6 @@
     <description>Microsoft is retiring the CIQ-based &quot;@&quot; entity insertion on Word for the web&apos;s document canvas by late October 2026, aligning it with other Microsoft 365 apps. Users cannot invoke this menu anymore, but @mentions in comments remain unaffected. No admin action is required; users should be informed.</description>
     <category>Message Center</category>
     <category>Microsoft 365 apps</category>
-  </item>
-  <item>
-    <title>MC1478004: Microsoft 365 Copilot: Retirement of the Sites control in Researcher</title>
-    <link>https://mc.merill.net/message/MC1478004</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1478004</guid>
-    <pubDate>Wed, 23 Sep 2026 21:51:07 GMT</pubDate>
-    <description>The Sites control in Microsoft 365 Copilot Researcher for Frontier users will be retired by late September 2026. Users can still specify preferred websites directly in prompts. No admin action or new settings are needed; existing web search controls remain unchanged. Inform users and update documentation accordingly.</description>
-    <category>Message Center</category>
-    <category>Microsoft Copilot (Microsoft 365)</category>
   </item>
   <item>
     <title>MC1478003: Microsoft Teams: Admins can control profanity filtering in meeting transcripts</title>
@@ -4562,6 +4544,24 @@
     <description>Microsoft 365 Copilot enables structured document generation in SharePoint via Forms, requiring a Copilot license. Public preview started mid-February 2026; general availability begins October 2026. It ensures consistent, compliant documents with template governance, requires no admin action, and applies existing SharePoint permissions.</description>
     <category>Message Center</category>
     <category>Microsoft Copilot (Microsoft 365)</category>
+  </item>
+  <item>
+    <title>MC1422060: Microsoft Defender for Office 365: Prompt injection protection for email</title>
+    <link>https://mc.merill.net/message/MC1422060</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1422060</guid>
+    <pubDate>Wed, 02 Sep 2026 17:03:17 GMT</pubDate>
+    <description>Microsoft Defender for Office 365 will introduce prompt injection protection for email, detecting and quarantining malicious content targeting AI assistants. Rolling out from July to October 2026, it affects organizations with Defender Plan 2 or Microsoft 365 E5, enabling automatic high-confidence threat quarantine by default with no required action.</description>
+    <category>Message Center</category>
+    <category>Microsoft Defender XDR</category>
+  </item>
+  <item>
+    <title>MC1247902: SharePoint: AI citations analytics for documents and pages</title>
+    <link>https://mc.merill.net/message/MC1247902</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1247902</guid>
+    <pubDate>Wed, 02 Sep 2026 16:51:13 GMT</pubDate>
+    <description>SharePoint will add AI copilot citation analytics for documents, pages, and news posts, showing how often content is referenced by Microsoft 365 Copilot chat. Available to tenants with over 50 Copilot licenses, rollout starts end of August 2026. No admin action is needed; site owners get new usage insights.</description>
+    <category>Message Center</category>
+    <category>SharePoint Online</category>
   </item>
 </channel>
 </rss>
