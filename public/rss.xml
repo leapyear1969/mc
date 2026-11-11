@@ -6,8 +6,116 @@
   <atom:link href="https://mc.merill.net/rss.xml" rel="self" type="application/rss+xml" />
   <description>Latest Microsoft 365 Message Center messages. Message Center posts vary by tenant; always use your tenant&apos;s Message Center as the source of truth.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 10 Nov 2026 17:39:19 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 01:00:21 GMT</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+    <title>MC1548054: Updates available for Microsoft 365 Apps for all channels</title>
+    <link>https://mc.merill.net/message/MC1548054</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1548054</guid>
+    <pubDate>Wed, 11 Nov 2026 01:00:21 GMT</pubDate>
+    <description>We&apos;ve released updates to the following update channels for Microsoft 365 Apps: Current ChannelMonthly Enterprise ChannelSemi-Annual Enterprise Channel When this will happen: We&apos;ll be gradually rolling out these updates of Microsoft 365 Apps to users on those update channels starting November 10th, 2026 (PST). How this will affect your organization: If your Microsoft 365 Apps clients are configured to automatically update from the Office Content Delivery Network (CDN), then no action is required...</description>
+    <category>Message Center</category>
+    <category>Microsoft 365 apps</category>
+  </item>
+  <item>
+    <title>MC1548047: Microsoft Copilot Chat: New Study and Learn-only mode for Education</title>
+    <link>https://mc.merill.net/message/MC1548047</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1548047</guid>
+    <pubDate>Wed, 11 Nov 2026 00:54:53 GMT</pubDate>
+    <description>Microsoft is introducing an IT-admin-controlled Study and Learn-only mode for Copilot Chat in education, launching mid-November 2026. This mode limits students to the Study and Learn agent, preserving productive struggle. It affects Starter Education license students and requires no action but can be enabled by admins via the Microsoft 365 admin center.</description>
+    <category>Message Center</category>
+    <category>Microsoft 365 Copilot Chat</category>
+  </item>
+  <item>
+    <title>MC1492151: New Dynamics 365 Sales and Customer Service experiences across Teams, Copilot, and Outlook</title>
+    <link>https://mc.merill.net/message/MC1492151</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1492151</guid>
+    <pubDate>Wed, 11 Nov 2026 00:40:55 GMT</pubDate>
+    <description>Microsoft is releasing new Dynamics 365 Sales and Customer Service experiences integrated into Teams, Copilot, and Outlook to enhance collaboration and customer data access. Key features include Sales and Service skills, Teams Channel Agent, and Sales Development Agent, with phased rollouts starting October 2026 and administrative controls required.</description>
+    <category>Message Center</category>
+    <category>Microsoft Copilot (Microsoft 365)</category>
+  </item>
+  <item>
+    <title>MC1548034: Copilot Studio - Set up third-party agent connections in conversations</title>
+    <link>https://mc.merill.net/message/MC1548034</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1548034</guid>
+    <pubDate>Wed, 11 Nov 2026 00:35:25 GMT</pubDate>
+    <description>We are announcing improvements to the experience of setting up connections in chats with Copilot Studio agents. These improvements will reach general availability by December 31, 2026. How does this affect me? Previously, users needed to leave their conversation, go to a separate connection-management experience, complete setup, and then restart their interaction. This feature is introducing a more seamless way for users to connect agents to third-party services. When an agent requires a connect...</description>
+    <category>Message Center</category>
+    <category>Microsoft Copilot (Power Platform)</category>
+  </item>
+  <item>
+    <title>MC1509782: Microsoft Entra ID: Updates to SMS and voice verification experiences in MFA flows</title>
+    <link>https://mc.merill.net/message/MC1509782</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1509782</guid>
+    <pubDate>Wed, 11 Nov 2026 00:28:38 GMT</pubDate>
+    <description>Microsoft Entra ID updates MFA flows to prioritize more secure non-telephony methods over SMS and voice, which remain available under &quot;Show more verification methods.&quot; The rollout occurs in October 2026, with no configuration changes required. Users should prepare for a resend waiting period and plan for SMS/voice retirement in February 2027.</description>
+    <category>Message Center</category>
+    <category>Microsoft Entra</category>
+  </item>
+  <item>
+    <title>MC1548004: Microsoft 365 Copilot Chat: Filter responses by content source</title>
+    <link>https://mc.merill.net/message/MC1548004</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1548004</guid>
+    <pubDate>Tue, 10 Nov 2026 23:58:34 GMT</pubDate>
+    <description>Microsoft 365 Copilot Chat now lets users filter responses by selecting specific content sources, ensuring answers are grounded only in chosen data while respecting permissions. This feature, enabled by default for licensed users, rolls out worldwide in mid-November 2026 with no required action but recommends reviewing connector names and permissions.</description>
+    <category>Message Center</category>
+    <category>Microsoft Copilot (Microsoft 365)</category>
+  </item>
+  <item>
+    <title>MC1547994: Plan for Change: Update your iOS/iPadOS Company Portal minimum version to v5.2608.0</title>
+    <link>https://mc.merill.net/message/MC1547994</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1547994</guid>
+    <pubDate>Tue, 10 Nov 2026 23:54:32 GMT</pubDate>
+    <description>Starting early December, the minimum iOS/iPadOS Company Portal version will be v5.2608.0 to support new Apple OS releases. Most users update automatically; others will be prompted. If app installation is blocked via device restrictions, manual updates may be needed. Prepare helpdesk for update prompts.</description>
+    <category>Message Center</category>
+    <category>Microsoft Intune</category>
+  </item>
+  <item>
+    <title>MC1488841: Microsoft Outlook: Update to default blocked file types in OwaMailboxPolicy</title>
+    <link>https://mc.merill.net/message/MC1488841</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1488841</guid>
+    <pubDate>Tue, 10 Nov 2026 22:16:46 GMT</pubDate>
+    <description>Microsoft is updating Outlook on the web and new Outlook for Windows to block .msix and .msixbundle file types by default in OwaMailboxPolicy starting December 2026 to enhance security. Organizations using these file types should allow them in policies before rollout; no action needed otherwise.</description>
+    <category>Exchange Online</category>
+    <category>Message Center</category>
+  </item>
+  <item>
+    <title>MC1530611: Office in Copilot brings the full power of Office into the Microsoft Copilot app</title>
+    <link>https://mc.merill.net/message/MC1530611</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1530611</guid>
+    <pubDate>Tue, 10 Nov 2026 19:22:14 GMT</pubDate>
+    <description>Office in Copilot now integrates full Word, Excel, and PowerPoint capabilities within the Microsoft Copilot app, enabling creation, editing, and collaboration without leaving the app. Rollout completes by mid-November 2026. No admin action is required, but admins should inform users and review policies. Data access and AI capabilities are expanded.</description>
+    <category>Message Center</category>
+    <category>Microsoft 365 Copilot Chat</category>
+  </item>
+  <item>
+    <title>MC1547649: Windows 11, version 23H2 Enterprise and Education editions have reached end of updates</title>
+    <link>https://mc.merill.net/message/MC1547649</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1547649</guid>
+    <pubDate>Tue, 10 Nov 2026 18:32:59 GMT</pubDate>
+    <description>Today, November 10, 2026, Windows 11, version 23H2 Enterprise and Education editions have reached end of updates. The November 2026 Windows security update is the last update available for these editions. After this date, devices running these editions will no longer receive monthly security updates containing protections from the latest security threats. We recommend updating eligible devices running Windows 11, version 23H2 Enterprise and Education editions to Windows 11, version 26H2 to conti...</description>
+    <category>Message Center</category>
+    <category>Windows</category>
+  </item>
+  <item>
+    <title>MC1547648: The November 2026 Windows security update is now available</title>
+    <link>https://mc.merill.net/message/MC1547648</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1547648</guid>
+    <pubDate>Tue, 10 Nov 2026 18:32:56 GMT</pubDate>
+    <description>The November 2026 security update is now available for all supported versions of Windows. We recommend that you install these updates promptly. For more information about the contents of this update, see the release notes, which are accessible from the Windows 11 update history page. To learn more about the different types of monthly quality updates, see Understanding Windows monthly updates. Highlights for the Windows 11, version 26H2 update:This security update includes improvements that were...</description>
+    <category>Message Center</category>
+    <category>Windows</category>
+  </item>
+  <item>
+    <title>MC1381121: Microsoft Purview | Endpoint Data Loss Prevention: Policy sync and device health AI skill</title>
+    <link>https://mc.merill.net/message/MC1381121</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1381121</guid>
+    <pubDate>Tue, 10 Nov 2026 18:09:02 GMT</pubDate>
+    <description>Microsoft Purview Endpoint Data Loss Prevention introduces AI-powered Policy Sync and Device Health skills for real-time visibility into policy deployment and sync issues. Rolling out mid-2027, it helps admins identify impacted devices, root causes, and remediation actions, requiring Security Copilot enabled in the tenant.</description>
+    <category>Message Center</category>
+    <category>Microsoft Purview</category>
+  </item>
   <item>
     <title>MC1465768: Microsoft Teams: Users can temporarily pause all notifications</title>
     <link>https://mc.merill.net/message/MC1465768</link>
@@ -536,15 +644,6 @@
     <description>Microsoft Defender for Office 365 Plan 2 introduces a &quot;Move to Quarantine&quot; remediation action, allowing admins to move suspicious emails from user mailboxes to Defender quarantine for safer investigation and management. Rollout begins late November 2026, with no action required but policy and role reviews recommended.</description>
     <category>Message Center</category>
     <category>Microsoft Defender XDR</category>
-  </item>
-  <item>
-    <title>MC1530611: Office in Copilot brings the full power of Office into the Microsoft Copilot app</title>
-    <link>https://mc.merill.net/message/MC1530611</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1530611</guid>
-    <pubDate>Thu, 05 Nov 2026 17:32:51 GMT</pubDate>
-    <description>Microsoft Copilot now fully integrates Office apps, enabling users to create, edit, and collaborate on Word, Excel, and PowerPoint files within the Copilot app. The rollout completes by mid-November 2026. No admin action is required, but admins should inform users and review policies. Data processing and AI capabilities are expanded accordingly.</description>
-    <category>Message Center</category>
-    <category>Microsoft 365 Copilot Chat</category>
   </item>
   <item>
     <title>MC1539004: Work IQ expands memory capabilities to agents</title>
@@ -2977,15 +3076,6 @@
     <category>Microsoft 365 suite</category>
   </item>
   <item>
-    <title>MC1381121: Microsoft Purview | Endpoint Data Loss Prevention: Policy sync and device health AI skill</title>
-    <link>https://mc.merill.net/message/MC1381121</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1381121</guid>
-    <pubDate>Tue, 13 Oct 2026 20:40:56 GMT</pubDate>
-    <description>Microsoft Purview Endpoint Data Loss Prevention will introduce AI-powered policy sync and device health insights to improve troubleshooting and policy enforcement visibility. The rollout is paused; no immediate action is needed. The feature requires Security Copilot and enhances compliance monitoring with AI-driven root cause analysis and remediation recommendations.</description>
-    <category>Message Center</category>
-    <category>Microsoft Purview</category>
-  </item>
-  <item>
     <title>MC1506291: Manage Administrator protection within Windows 11 security baseline</title>
     <link>https://mc.merill.net/message/MC1506291</link>
     <guid isPermaLink="true">https://mc.merill.net/message/MC1506291</guid>
@@ -3278,15 +3368,6 @@
     <category>Microsoft 365 apps</category>
   </item>
   <item>
-    <title>MC1492151: New Dynamics 365 Sales and Customer Service experiences across Teams, Copilot, and Outlook</title>
-    <link>https://mc.merill.net/message/MC1492151</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1492151</guid>
-    <pubDate>Thu, 08 Oct 2026 23:02:43 GMT</pubDate>
-    <description>Microsoft is launching new Dynamics 365 Sales and Customer Service experiences integrated with Teams, Copilot, and Outlook, enabling seamless access to customer data and workflows. Key features include Sales and Service skills, Teams Channel Agent, and Sales Development Agent, with phased rollout starting October 8, 2026, requiring admin activation and licensing.</description>
-    <category>Message Center</category>
-    <category>Microsoft Copilot (Microsoft 365)</category>
-  </item>
-  <item>
     <title>MC1491832: Take action to prevent RD Web Access rendering failures</title>
     <link>https://mc.merill.net/message/MC1491832</link>
     <guid isPermaLink="true">https://mc.merill.net/message/MC1491832</guid>
@@ -3576,15 +3657,6 @@
     <guid isPermaLink="true">https://mc.merill.net/message/MC1338816</guid>
     <pubDate>Mon, 05 Oct 2026 23:46:45 GMT</pubDate>
     <description>New Outlook for Windows will be available in GCC High and DoD environments starting Public Preview July 30, 2026, has rolled out. It remains off by default and opt-in, allowing admins control via policies and registry keys. Migration from COM to web add-ins is recommended.</description>
-    <category>Exchange Online</category>
-    <category>Message Center</category>
-  </item>
-  <item>
-    <title>MC1488841: Microsoft Outlook: Update to default blocked file types in OwaMailboxPolicy</title>
-    <link>https://mc.merill.net/message/MC1488841</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1488841</guid>
-    <pubDate>Mon, 05 Oct 2026 22:40:41 GMT</pubDate>
-    <description>Outlook on the web and new Outlook for Windows will block .msix and .msixbundle file types by default in OwaMailboxPolicy starting November 2026 to enhance security. Organizations using these file types should whitelist them beforehand; no action is needed if not used.</description>
     <category>Exchange Online</category>
     <category>Message Center</category>
   </item>
@@ -4486,78 +4558,6 @@
     <description>Microsoft is updating how EWSAllowedAppIDs is applied in Exchange Online as part of EWS retirement starting October 1, 2026. Organizations using EWS must review and configure their EWSAllowedAppIDs list to avoid service disruption. Microsoft may generate a list if none exists but won’t overwrite tenant-configured lists.</description>
     <category>Exchange Online</category>
     <category>Message Center</category>
-  </item>
-  <item>
-    <title>MC1474128: Power Platform - Information regarding the end of support for Global Discovery Service (GDS) API</title>
-    <link>https://mc.merill.net/message/MC1474128</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1474128</guid>
-    <pubDate>Fri, 18 Sep 2026 16:12:45 GMT</pubDate>
-    <description>On September 21, 2026, the Global Discovery Service (GDS) API will have reached end of support. How does this affect me? The legacy Global Discovery Service (GDS) REST API endpoints hosted at globaldisco.crm.dynamics.com will no longer be available. Deprecated GDS endpoints: https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances({id}) This change impacts...</description>
-    <category>Message Center</category>
-    <category>Power Platform</category>
-  </item>
-  <item>
-    <title>MC1474111: Retirement of Microsoft 365 Companion apps</title>
-    <link>https://mc.merill.net/message/MC1474111</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1474111</guid>
-    <pubDate>Fri, 18 Sep 2026 15:35:26 GMT</pubDate>
-    <description>Microsoft 365 companion apps (Calendar, People, Files) will retire on December 16, 2026, ceasing support and functionality. Admins must stop new installations and remove existing apps. Core Microsoft 365 features remain unaffected, accessible via Outlook, Teams, and other tools. Users should be informed and guided accordingly.</description>
-    <category>Message Center</category>
-    <category>Microsoft 365 suite</category>
-  </item>
-  <item>
-    <title>MC1474107: Microsoft Purview: Archive file classification behavior change for Endpoint Data Loss Prevention on Windows endpoints</title>
-    <link>https://mc.merill.net/message/MC1474107</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1474107</guid>
-    <pubDate>Fri, 18 Sep 2026 15:17:50 GMT</pubDate>
-    <description>Microsoft Purview Endpoint DLP on Windows will classify archive files (.zip, .rar) as single atomic objects, reporting only the outer archive in events. This change, rolling out from September to November 2026, improves consistency and performance without requiring user or admin action.</description>
-    <category>Message Center</category>
-    <category>Microsoft Purview</category>
-  </item>
-  <item>
-    <title>MC1474104: Microsoft Entra ID: Follow-up on SMS first-factor sign-in retirement and upcoming changes</title>
-    <link>https://mc.merill.net/message/MC1474104</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1474104</guid>
-    <pubDate>Fri, 18 Sep 2026 15:13:38 GMT</pubDate>
-    <description>Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide starting February 1, 2027, to enhance security. Organizations must identify affected users, migrate them to phishing-resistant methods like passkeys, and update policies to avoid sign-in disruptions and comply with new requirements.</description>
-    <category>Message Center</category>
-    <category>Microsoft Entra</category>
-  </item>
-  <item>
-    <title>MC1473151: Microsoft Edge: IE mode is supported through at least the end of 2029, plan your migration</title>
-    <link>https://mc.merill.net/message/MC1473151</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1473151</guid>
-    <pubDate>Thu, 17 Sep 2026 20:58:19 GMT</pubDate>
-    <description>IE mode in Microsoft Edge is supported through at least the end of 2029. Organizations using it should inventory dependencies, assess modernization options, and plan migrations early to avoid disruption. No immediate action is required if IE mode is not used. Microsoft offers free App Assure support for compatibility issues.</description>
-    <category>Message Center</category>
-    <category>Microsoft 365 suite</category>
-  </item>
-  <item>
-    <title>MC1454391: Retirement Notice of Learning Coach Agent in M365 Copilot</title>
-    <link>https://mc.merill.net/message/MC1454391</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1454391</guid>
-    <pubDate>Thu, 17 Sep 2026 20:55:36 GMT</pubDate>
-    <description>The Learning Coach Agent in Microsoft 365 Copilot will transition to Learning Agent starting October 2026 and retire by late December 2026. Users must switch to Learning Agent before then. The agent will be removed from user access and admin management by early 2027. Communication and updates are recommended.</description>
-    <category>Message Center</category>
-    <category>Microsoft Copilot (Microsoft 365)</category>
-  </item>
-  <item>
-    <title>MC1473656: Dynamics 365 Project Operations - Improve NTE reliability and validation coverage</title>
-    <link>https://mc.merill.net/message/MC1473656</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1473656</guid>
-    <pubDate>Thu, 17 Sep 2026 20:13:24 GMT</pubDate>
-    <description>We are announcing the ability to improve Not-To-Exceed (NTE) reliability and validation coverage in Dynamics 365 Project Operations. This feature will reach public preview on September 30, 2026. How does this affect me? This feature provides consistent control over NTE limits across every billable type, so users avoid over-billing, and protect revenue. The core capabilities of this feature include: Extends NTE validation beyond time entries to include expense, material, and fixed-price component...</description>
-    <category>Dynamics 365 Apps</category>
-    <category>Message Center</category>
-  </item>
-  <item>
-    <title>MC1473600: Intune: Windows Health Attestation Migration to Microsoft Azure Attestation</title>
-    <link>https://mc.merill.net/message/MC1473600</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1473600</guid>
-    <pubDate>Thu, 17 Sep 2026 18:25:36 GMT</pubDate>
-    <description>What and why: Microsoft Intune will migrate Windows Health Attestation compliance evaluation from the current Device Health Attestation (DHA) service to Microsoft Azure Attestation (MAA). This is an Intune service-side change that will happen automatically. Rollout schedule: We are targeting this migration at the end of Q1 in 2027. Impact on your organization: This change affects evaluation of Windows compliance policies that rely on Health Attestation signals. Action is required to avoid interr...</description>
-    <category>Message Center</category>
-    <category>Windows</category>
   </item>
 </channel>
 </rss>
