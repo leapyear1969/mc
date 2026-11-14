@@ -3644,11 +3644,11 @@
     <category>Microsoft Foundry</category>
   </item>
   <item>
-    <title>AZ564387: Generally Available: LLM Speech API in Azure AI Speech</title>
-    <link>https://mc.merill.net/message/AZ564387</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ564387</guid>
+    <title>AZ564402: Generally Available: Managed virtual network for evaluations in Microsoft Foundry</title>
+    <link>https://mc.merill.net/message/AZ564402</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ564402</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Azure AI Speech makes the LLM Speech API generally available, delivering state-of-the-art LLM-powered transcription and translation for audio files, with multi-lingual support across 25 languages (90+ locales), improved accuracy, expanded regions, and enhanced prompt-tuning capabilities. Learn more .</description>
+    <description>Microsoft Foundry makes managed virtual network support generally available for evaluations, so customers can run cloud evaluation jobs against models and agents that sit behind private endpoints. The Foundry-managed VNET handles outbound connectivity to the model deployment, the evaluation dataset storage account, and any tool endpoints under test, with no need to maintain bastion hosts or self-hosted runners. Security teams keep network isolation, private DNS, and outbound traffic rules consis...</description>
     <category>Azure Updates</category>
     <category>Microsoft Foundry</category>
   </item>
@@ -3806,11 +3806,11 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ564402: Generally Available: Managed virtual network for evaluations in Microsoft Foundry</title>
-    <link>https://mc.merill.net/message/AZ564402</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ564402</guid>
+    <title>AZ564387: Generally Available: LLM Speech API in Azure AI Speech</title>
+    <link>https://mc.merill.net/message/AZ564387</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ564387</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Microsoft Foundry makes managed virtual network support generally available for evaluations, so customers can run cloud evaluation jobs against models and agents that sit behind private endpoints. The Foundry-managed VNET handles outbound connectivity to the model deployment, the evaluation dataset storage account, and any tool endpoints under test, with no need to maintain bastion hosts or self-hosted runners. Security teams keep network isolation, private DNS, and outbound traffic rules consis...</description>
+    <description>Azure AI Speech makes the LLM Speech API generally available, delivering state-of-the-art LLM-powered transcription and translation for audio files, with multi-lingual support across 25 languages (90+ locales), improved accuracy, expanded regions, and enhanced prompt-tuning capabilities. Learn more .</description>
     <category>Azure Updates</category>
     <category>Microsoft Foundry</category>
   </item>
@@ -3848,15 +3848,6 @@
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
     <description>As organizations build more agentic applications, agent-to-agent communication is becoming a critical part of enterprise AI systems. But in many environments, agent traffic operates outside existing API governance layers — making it difficult to apply consistent security, visibility, and operational controls. With support for JSON-RPC–based A2A APIs, Azure API Management enables platform teams and developers to manage agent interactions alongside REST, GraphQL, MCP tools, and AI model APIs using...</description>
     <category>API Management</category>
-    <category>Azure Updates</category>
-  </item>
-  <item>
-    <title>AZ562799: Generally Available: Azure Cosmos DB global secondary indexes</title>
-    <link>https://mc.merill.net/message/AZ562799</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562799</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Global secondary indexes (GSIs) for Azure Cosmos DB are now generally available, giving you a powerful way to accelerate query performance without adding complexity to your application code. GSIs are read-only containers that automatically stay in sync with your source container using the change feed. Each GSI has its own throughput, partition key, and indexing policy, so you can optimize them for any query pattern. With GSIs, you can convert expensive cross-partition queries into efficient sing...</description>
-    <category>Azure Cosmos DB</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -3914,15 +3905,6 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ562863: Public Preview: Azure Logic Apps Codeful Workflows with Logic Apps Standard SDK.</title>
-    <link>https://mc.merill.net/message/AZ562863</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562863</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Modern integration and automation teams increasingly want the flexibility of writing workflows directly in code while still benefiting from managed orchestration, enterprise connectors, and cloud-scale operational capabilities. Traditional workflow models can create friction for pro developers who prefer imperative programming patterns and code-first development experiences. With Codeful Workflows, Azure Logic Apps extends Logic Apps Standard with a code-first authoring and execution model built...</description>
-    <category>Azure Updates</category>
-    <category>Logic Apps</category>
-  </item>
-  <item>
     <title>AZ562754: Generally Available: Azure Cosmos DB Linux emulator (vNext)</title>
     <link>https://mc.merill.net/message/AZ562754</link>
     <guid isPermaLink="true">https://mc.merill.net/message/AZ562754</guid>
@@ -3932,12 +3914,20 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ562564: Generally Available: Confidential Compute support on Azure Container Apps</title>
-    <link>https://mc.merill.net/message/AZ562564</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562564</guid>
+    <title>AZ562863: Public Preview: Azure Logic Apps Codeful Workflows with Logic Apps Standard SDK.</title>
+    <link>https://mc.merill.net/message/AZ562863</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562863</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Customers running regulated or sensitive containerized workloads often need stronger protection for data while it is actively being processed, especially in scenarios that require higher isolation and stricter compliance controls. Confidential Compute in Azure Container Apps provides hardware-backed Trusted Execution Environments (TEEs) through workload profiles, extending protection to data in use in addition to data at rest and in transit. With this capability now generally available, teams ca...</description>
-    <category>Azure Container Apps</category>
+    <description>Modern integration and automation teams increasingly want the flexibility of writing workflows directly in code while still benefiting from managed orchestration, enterprise connectors, and cloud-scale operational capabilities. Traditional workflow models can create friction for pro developers who prefer imperative programming patterns and code-first development experiences. With Codeful Workflows, Azure Logic Apps extends Logic Apps Standard with a code-first authoring and execution model built...</description>
+    <category>Azure Updates</category>
+    <category>Logic Apps</category>
+  </item>
+  <item>
+    <title>AZ562569: Public Preview: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)</title>
+    <link>https://mc.merill.net/message/AZ562569</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562569</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s S erverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This makes it easier to gain visibility into Container Apps resources and assess risks across areas such as identity, networking, and container or image configuration. With this capability, teams can more consistently evaluate risk across container env...</description>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -3956,6 +3946,15 @@
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
     <description>Azure Container Apps enhances its OpenTelemetry (OTel) capabilities by expanding support for third-party observability platforms. This update introduces additional endpoint options for commonly used monitoring tools such as New Relic, Dynatrace, and Elastic, extending the existing managed OpenTelemetry experience with simpler setup for additional third-party observability platforms. This update makes it easier to send logs, metrics, and traces to more destinations without deploying or managing y...</description>
     <category>Azure Container Apps</category>
+    <category>Azure Updates</category>
+  </item>
+  <item>
+    <title>AZ563092: Generally Available: Azure HorizonDB Agentic Advisor Solution Accelerator</title>
+    <link>https://mc.merill.net/message/AZ563092</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ563092</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>Agentic Advisor Solution Accelerator for Azure HorizonDB is now generally available. You can use this financial services-focused reference solution to build multi-agent applications in Python using LangGraph and Mem0, with Azure HorizonDB as the data and intelligence layer. The accelerator demonstrates how you can combine advanced graph generation and querying, hybrid search with full-text search, DiskANN advanced filtering, and Azure HorizonDB AI functions to create more context-aware, explaina...</description>
+    <category>Azure HorizonDB</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -4023,11 +4022,12 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ562569: Public Preview: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)</title>
-    <link>https://mc.merill.net/message/AZ562569</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562569</guid>
+    <title>AZ562564: Generally Available: Confidential Compute support on Azure Container Apps</title>
+    <link>https://mc.merill.net/message/AZ562564</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562564</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s S erverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This makes it easier to gain visibility into Container Apps resources and assess risks across areas such as identity, networking, and container or image configuration. With this capability, teams can more consistently evaluate risk across container env...</description>
+    <description>Customers running regulated or sensitive containerized workloads often need stronger protection for data while it is actively being processed, especially in scenarios that require higher isolation and stricter compliance controls. Confidential Compute in Azure Container Apps provides hardware-backed Trusted Execution Environments (TEEs) through workload profiles, extending protection to data in use in addition to data at rest and in transit. With this capability now generally available, teams ca...</description>
+    <category>Azure Container Apps</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -4040,12 +4040,12 @@
     <category>Logic Apps</category>
   </item>
   <item>
-    <title>AZ563092: Generally Available: Azure HorizonDB Agentic Advisor Solution Accelerator</title>
-    <link>https://mc.merill.net/message/AZ563092</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ563092</guid>
+    <title>AZ562799: Generally Available: Azure Cosmos DB global secondary indexes</title>
+    <link>https://mc.merill.net/message/AZ562799</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562799</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Agentic Advisor Solution Accelerator for Azure HorizonDB is now generally available. You can use this financial services-focused reference solution to build multi-agent applications in Python using LangGraph and Mem0, with Azure HorizonDB as the data and intelligence layer. The accelerator demonstrates how you can combine advanced graph generation and querying, hybrid search with full-text search, DiskANN advanced filtering, and Azure HorizonDB AI functions to create more context-aware, explaina...</description>
-    <category>Azure HorizonDB</category>
+    <description>Global secondary indexes (GSIs) for Azure Cosmos DB are now generally available, giving you a powerful way to accelerate query performance without adding complexity to your application code. GSIs are read-only containers that automatically stay in sync with your source container using the change feed. Each GSI has its own throughput, partition key, and indexing policy, so you can optimize them for any query pattern. With GSIs, you can convert expensive cross-partition queries into efficient sing...</description>
+    <category>Azure Cosmos DB</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -4055,6 +4055,24 @@
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
     <description>As organizations deploy more agentic applications and MCP-based tools, enforcing consistent safety and compliance policies across agent interactions becomes increasingly important. Many teams today rely on fragmented or custom implementations for content filtering and policy enforcement, creating operational complexity and increasing risk. With this update, Azure API Management extends content safety capabilities to MCP tools and Agent-to-Agent (A2A) APIs, enabling centralized enforcement of saf...</description>
     <category>API Management</category>
+    <category>Azure Updates</category>
+  </item>
+  <item>
+    <title>AZ563082: Generally Available: Azure DocumentDB instant free tier clusters</title>
+    <link>https://mc.merill.net/message/AZ563082</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ563082</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>With near-instant provisioning of free tier clusters, you can get started immediately on Azure DocumentDB. Learn more .</description>
+    <category>Azure DocumentDB</category>
+    <category>Azure Updates</category>
+  </item>
+  <item>
+    <title>AZ563072: Generally Available: Azure DocumentDB Migration Extension in Visual Studio Code</title>
+    <link>https://mc.merill.net/message/AZ563072</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ563072</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>Announcing the general availability of the Azure DocumentDB Migration Extension for Visual Studio Code. With this release, you can create, run, and manage migration jobs directly from Visual Studio Code to move data from your on-premises or cloud-based MongoDB deployments to Azure DocumentDB. You no longer need to provision extra infrastructure or rely on complex migration tooling. Instead, you can use a familiar developer environment to plan and execute migrations with secure connectivity, zero...</description>
+    <category>Azure DocumentDB</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -4103,15 +4121,6 @@
     <category>Logic Apps</category>
   </item>
   <item>
-    <title>AZ563047: Public Preview: Azure Cosmos DB distributed transactions</title>
-    <link>https://mc.merill.net/message/AZ563047</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ563047</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Announcing the public preview of distributed transactions in Azure Cosmos DB. You can now perform atomic operations across items and partitions, with changes committing together or rolling back automatically on failure. Distributed transactions eliminate the need for complex application logic to coordinate updates, helping you preserve data integrity and simplify application design. This capability integrates seamlessly with Azure Cosmos DB&apos;s consistency and availability models, providing predic...</description>
-    <category>Azure Cosmos DB</category>
-    <category>Azure Updates</category>
-  </item>
-  <item>
     <title>AZ563042: Generally Available: Per-partition automatic failover for Azure Cosmos DB</title>
     <link>https://mc.merill.net/message/AZ563042</link>
     <guid isPermaLink="true">https://mc.merill.net/message/AZ563042</guid>
@@ -4148,20 +4157,20 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ563072: Generally Available: Azure DocumentDB Migration Extension in Visual Studio Code</title>
-    <link>https://mc.merill.net/message/AZ563072</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ563072</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>Announcing the general availability of the Azure DocumentDB Migration Extension for Visual Studio Code. With this release, you can create, run, and manage migration jobs directly from Visual Studio Code to move data from your on-premises or cloud-based MongoDB deployments to Azure DocumentDB. You no longer need to provision extra infrastructure or rely on complex migration tooling. Instead, you can use a familiar developer environment to plan and execute migrations with secure connectivity, zero...</description>
-    <category>Azure DocumentDB</category>
-    <category>Azure Updates</category>
-  </item>
-  <item>
     <title>AZ562976: Public Preview: New Azure Cosmos DB cost estimator</title>
     <link>https://mc.merill.net/message/AZ562976</link>
     <guid isPermaLink="true">https://mc.merill.net/message/AZ562976</guid>
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
     <description>Plan your Azure Cosmos DB deployment with confidence. The Azure Cosmos DB cost estimator is now in public preview, giving you a fast, accurate way to model throughput, storage, regions, and capacity mode before you provision a single account. Whether you are building a new transactional app, modernizing a legacy database, or pricing out AI workloads with vector search, the estimator turns your design choices into a monthly cost projection in minutes. The pricing model reflects current Azure list...</description>
+    <category>Azure Cosmos DB</category>
+    <category>Azure Updates</category>
+  </item>
+  <item>
+    <title>AZ563047: Public Preview: Azure Cosmos DB distributed transactions</title>
+    <link>https://mc.merill.net/message/AZ563047</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ563047</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>Announcing the public preview of distributed transactions in Azure Cosmos DB. You can now perform atomic operations across items and partitions, with changes committing together or rolling back automatically on failure. Distributed transactions eliminate the need for complex application logic to coordinate updates, helping you preserve data integrity and simplify application design. This capability integrates seamlessly with Azure Cosmos DB&apos;s consistency and availability models, providing predic...</description>
     <category>Azure Cosmos DB</category>
     <category>Azure Updates</category>
   </item>
@@ -4220,6 +4229,15 @@
     <category>Azure Updates</category>
   </item>
   <item>
+    <title>AZ562971: Generally Available: Azure Cosmos DB all versions and deletes change feed mode</title>
+    <link>https://mc.merill.net/message/AZ562971</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562971</guid>
+    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
+    <description>The Azure Cosmos DB all versions and deletes change feed mode is now generally available, giving you complete visibility into every change that happens in your containers. Unlike the default latest version mode, which surfaces only the most recent state of an item, all versions and deletes captures every create, update, and delete operation in the order it occurred, including intermediate changes between reads and TTL expirations. This mode opens up scenarios that were previously difficult to bu...</description>
+    <category>Azure Cosmos DB</category>
+    <category>Azure Updates</category>
+  </item>
+  <item>
     <title>AZ562909: Generally Available: Azure API Center now supports agent registration, agent assessment, and Git-based synchronization.</title>
     <link>https://mc.merill.net/message/AZ562909</link>
     <guid isPermaLink="true">https://mc.merill.net/message/AZ562909</guid>
@@ -4253,24 +4271,6 @@
     <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
     <description>As organizations adopt advanced AI models, understanding token consumption is becoming more complex. Traditional metrics focused primarily on prompt and completion tokens often fail to capture newer token categories such as cached, reasoning, or thinking tokens — limiting cost visibility and operational insight. With this update, Azure API Management now enables organizations to log metrics for a broader range of token types into Application Insights, extending observability beyond standard toke...</description>
     <category>API Management</category>
-    <category>Azure Updates</category>
-  </item>
-  <item>
-    <title>AZ562971: Generally Available: Azure Cosmos DB all versions and deletes change feed mode</title>
-    <link>https://mc.merill.net/message/AZ562971</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562971</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>The Azure Cosmos DB all versions and deletes change feed mode is now generally available, giving you complete visibility into every change that happens in your containers. Unlike the default latest version mode, which surfaces only the most recent state of an item, all versions and deletes captures every create, update, and delete operation in the order it occurred, including intermediate changes between reads and TTL expirations. This mode opens up scenarios that were previously difficult to bu...</description>
-    <category>Azure Cosmos DB</category>
-    <category>Azure Updates</category>
-  </item>
-  <item>
-    <title>AZ563082: Generally Available: Azure DocumentDB instant free tier clusters</title>
-    <link>https://mc.merill.net/message/AZ563082</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ563082</guid>
-    <pubDate>Tue, 02 Jun 2026 19:00:47 GMT</pubDate>
-    <description>With near-instant provisioning of free tier clusters, you can get started immediately on Azure DocumentDB. Learn more .</description>
-    <category>Azure DocumentDB</category>
     <category>Azure Updates</category>
   </item>
   <item>
@@ -4501,14 +4501,6 @@
     <category>Azure Updates</category>
   </item>
   <item>
-    <title>AZ562695: Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables</title>
-    <link>https://mc.merill.net/message/AZ562695</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/AZ562695</guid>
-    <pubDate>Tue, 19 May 2026 16:45:42 GMT</pubDate>
-    <description>Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route tables per subscription. This update enables customers to: Scale security policies with confidence: Enterprises managing hundreds of application tiers and subnets can define more granular NSG rules without hitting default ceilings or opening sup...</description>
-    <category>Azure Updates</category>
-  </item>
-  <item>
     <title>AZ562690: Generally Available: Network Watcher rule impact analyser</title>
     <link>https://mc.merill.net/message/AZ562690</link>
     <guid isPermaLink="true">https://mc.merill.net/message/AZ562690</guid>
@@ -4516,6 +4508,14 @@
     <description>Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network traffic before applying them. With this capability, you can evaluate how proposed NSG or network manager rule modifications would affect your existing traffic patterns, helping you fine-tune configurations, avoid unintended disruptions, and deploy changes with confidence. This feature is accessible t...</description>
     <category>Azure Updates</category>
     <category>Network Watcher</category>
+  </item>
+  <item>
+    <title>AZ562695: Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables</title>
+    <link>https://mc.merill.net/message/AZ562695</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/AZ562695</guid>
+    <pubDate>Tue, 19 May 2026 16:45:42 GMT</pubDate>
+    <description>Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route tables per subscription. This update enables customers to: Scale security policies with confidence: Enterprises managing hundreds of application tiers and subnets can define more granular NSG rules without hitting default ceilings or opening sup...</description>
+    <category>Azure Updates</category>
   </item>
   <item>
     <title>AZ559494: Generally Available: Mock runs for Azure Storage Actions – Validate before you execute</title>
