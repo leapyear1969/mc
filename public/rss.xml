@@ -3240,15 +3240,6 @@
     <category>Microsoft OneDrive</category>
   </item>
   <item>
-    <title>MC1521616: Microsoft Graph APIs for Copilot cost management</title>
-    <link>https://mc.merill.net/message/MC1521616</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1521616</guid>
-    <pubDate>Thu, 22 Oct 2026 23:19:46 GMT</pubDate>
-    <description>Microsoft is introducing Microsoft Graph APIs for Copilot cost management, enabling programmatic control of credit spending policies, balance monitoring, and credit requests. Available in public preview from mid-October 2026 via the beta endpoint, these APIs integrate with existing admin and FinOps processes but exclude detailed consumption reporting. No action is needed if unused.</description>
-    <category>Message Center</category>
-    <category>Microsoft 365 suite</category>
-  </item>
-  <item>
     <title>MC1521615: Microsoft Purview: Data Lifecycle Management increases the auto-expanding archive limit from 1.5 TB to 3 TB</title>
     <link>https://mc.merill.net/message/MC1521615</link>
     <guid isPermaLink="true">https://mc.merill.net/message/MC1521615</guid>
@@ -3319,15 +3310,6 @@
     <description>Starting mid-October 2026, Viva Engage will stop sending email notifications to users without valid mailboxes or routable email destinations, reducing email system load and improving delivery. Users with supported mailboxes and Teams notifications remain unaffected. No action is required, but review mailbox configurations and update support accordingly.</description>
     <category>Message Center</category>
     <category>Microsoft Viva</category>
-  </item>
-  <item>
-    <title>MC1520706: Power Platform – Update for read access to custom connector definitions for Basic User role</title>
-    <link>https://mc.merill.net/message/MC1520706</link>
-    <guid isPermaLink="true">https://mc.merill.net/message/MC1520706</guid>
-    <pubDate>Thu, 22 Oct 2026 13:41:52 GMT</pubDate>
-    <description>In October 2026, we are updating read access for custom connector definitions in Power Platform. Users assigned the Dataverse Basic User security role will no longer be able to read solution custom connector definitions unless the connector is owned by that user or explicitly shared with them. What action do I need to take? Please take the actions listed below:Review environments where users with the Basic User role need to read custom connector definitions. Create and assign a custom security r...</description>
-    <category>Message Center</category>
-    <category>Power Platform</category>
   </item>
   <item>
     <title>MC1519866: Microsoft Teams: Phishing detection for messaging</title>
@@ -4556,6 +4538,24 @@
     <description>Microsoft Defender for Identity will auto-enable sensor v3.x activation and Windows event auditing for eligible tenants starting late October 2026, easing setup for security admins. A portal banner allows opt-out before rollout; manual control remains afterward. Review configurations and update guidance accordingly.</description>
     <category>Message Center</category>
     <category>Microsoft Defender XDR</category>
+  </item>
+  <item>
+    <title>MC1484008: Microsoft Copilot: Introducing the Microsoft plugin registry for Microsoft Copilot experiences</title>
+    <link>https://mc.merill.net/message/MC1484008</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1484008</guid>
+    <pubDate>Wed, 30 Sep 2026 22:58:19 GMT</pubDate>
+    <description>Microsoft is introducing a Microsoft plugin registry for Copilot experiences and Microsoft 365 apps, centralizing discovery, publishing, and governance of plugins. The Agents-related buttons will be replaced by a Plugins button by late November 2026, with no action required from admins. Updates to documentation and user preparation are recommended.</description>
+    <category>Message Center</category>
+    <category>Microsoft Copilot (Microsoft 365)</category>
+  </item>
+  <item>
+    <title>MC1483974: Action Required: Upgrade ExchangeOnlineManagement PowerShell Module to Version 3.10.1 or Later</title>
+    <link>https://mc.merill.net/message/MC1483974</link>
+    <guid isPermaLink="true">https://mc.merill.net/message/MC1483974</guid>
+    <pubDate>Wed, 30 Sep 2026 22:53:34 GMT</pubDate>
+    <description>Upgrade the ExchangeOnlineManagement PowerShell module to version 3.10.1 or later by March 31, 2027, to avoid authentication failures due to new security enhancements. Identify and update older versions, especially if using PowerShell 7 with WAM disabled, and validate related scripts before enforcement.</description>
+    <category>Exchange Online</category>
+    <category>Message Center</category>
   </item>
 </channel>
 </rss>
